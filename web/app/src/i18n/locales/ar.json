@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "إزالة {name}",
+  "att.tooBig": "لم تتم الإضافة (أكبر من 500 ميغابايت): {names}",
+  "att.trayLabel": "الملفات المرفقة",
+  "board.addHint": "صور، مقاطع، صوت، موسيقى، مستندات",
+  "board.addRefs": "إضافة مراجع",
+  "board.addStyle": "+ دمج نمط",
+  "board.aspect": "نسبة العرض إلى الارتفاع",
+  "board.blendStyle": "مدموج",
+  "board.chatTitle": "خطّط للفيلم {n} مع Claude",
+  "board.close": "إغلاق",
+  "board.delete": "حذف",
+  "board.deleteConfirm": "هل تريد حذف {name} من هذا المشروع؟",
+  "board.deleteError": "تعذّر حذف الملف",
+  "board.done": "تم ({n})",
+  "board.download": "تنزيل",
+  "board.dropHere": "أفلِت الملفات لإضافتها إلى هذا المشروع",
+  "board.emptyBody": "أفلِت هنا صورًا أو مقاطع أو صوتًا أو موسيقى، ثم خطّط للفيلم الأول مع Claude في المحادثة.",
+  "board.emptyTitle": "مشروع فارغ",
+  "board.filter.all": "الكل",
+  "board.filter.films": "الأفلام",
+  "board.filter.made": "من صنع Claude",
+  "board.filter.refs": "المراجع",
+  "board.filterLabel": "عرض",
+  "board.helloNoStyle": "مرحبًا. اختر أسلوبًا في الأعلى (أو انقر على اقتراح)، ثم أخبرني بما يجب أن يكون عليه الفيلم. سأسألك عن أي شيء غير واضح قبل أن نصنعه.",
+  "board.hint": "اختر المراجع بـ +، ثم خطّط للفيلم التالي في المحادثة",
+  "board.inProject": "في هذا المشروع",
+  "board.length": "المدة",
+  "board.made": "من صنع Claude",
+  "board.mainStyle": "النمط الرئيسي",
+  "board.make": "إنشاء الفيديو",
+  "board.makeError": "تعذّر بدء الفيلم",
+  "board.makeHint": "أنشئ الفيلم الآن (Ctrl/⌘ + Enter)",
+  "board.newChat": "محادثة جديدة",
+  "board.open": "فتح {name}",
+  "board.pick": "استخدامه في الفيلم التالي",
+  "board.pickHint": "أول ما تختاره يقود؛ ويُدمج الباقي معه.",
+  "board.pickStyle": "اختر نمطًا",
+  "board.pickStyles": "اختر أنماطًا",
+  "board.picked": "في الفيلم التالي",
+  "board.pickedLabel": "مراجع الفيلم التالي",
+  "board.placeholder": "صِف الفيلم {n}: ماذا يحدث، ومن فيه، وما أجواؤه…",
+  "board.planFirst": "خطّط له في محادثة أولًا ←",
+  "board.promptLabel": "ما يجب أن يكون عليه الفيلم التالي",
+  "board.ref": "مرجع",
+  "board.removeStyle": "إزالة {name}",
+  "board.replyPlaceholder": "ردّ على Claude…",
+  "board.searchStyles": "البحث في الأنماط",
+  "board.starting": "جارٍ البدء…",
+  "board.suggestAgain": "اقترح مجددًا",
+  "board.suggested": "مقترح",
+  "board.tooShort": "اكتب المزيد قليلًا عن الفيلم (10 أحرف على الأقل).",
+  "board.unpick": "عدم الاستخدام",
+  "board.unpickName": "عدم استخدام {name}",
+  "board.uploadError": "تعذّرت إضافة الملفات",
+  "board.uploading": "جارٍ إضافة {n}…",
+  "board.usedBefore": "استُخدم في هذا المشروع",
+  "board.voice": "لغة السرد",
+  "film.askHead": "Claude يطرح سؤالًا — يستمر العمل بعد إجابتك",
+  "film.attach": "إرفاق ملفات",
+  "film.backSingle": "الفيديوهات المنفردة",
+  "film.briefTitle": "الملخص الذي كتبه Claude",
+  "film.cancel": "إيقاف",
+  "film.canceledNote": "تم إيقاف هذا الفيديو.",
+  "film.chatIdle": "أرسل رسالة لمواصلة العمل على هذا الفيديو",
+  "film.chatLive": "جارٍ إنشاء الفيديو (لا حاجة للضغط على الزر مرة أخرى). يظهر عمل Claude هنا مباشرةً.",
+  "film.chatTitle": "الدردشة مع Claude",
+  "film.downloadFile": "تنزيل {name}",
+  "film.downloadMp4": "تنزيل MP4",
+  "film.dropHere": "أفلِت الملفات هنا لإرسالها إلى Claude",
+  "film.elapsedDone": "استغرق {time}",
+  "film.elapsedLive": "مضى {time}",
+  "film.estimateHint": "النسبة تقديرية وتعتمد على المرحلة التي يعمل عليها Claude. يستغرق الفيديو عادةً من 10 إلى 20 دقيقة.",
+  "film.failedNote": "لم يكتمل الفيديو بعد. اطّلع على ما حدث في الدردشة على الجانب — رُدّ هناك وسيستمر العمل.",
+  "film.headDone": "تم",
+  "film.headFailed": "متوقف — رُدّ في الدردشة للمتابعة",
+  "film.headQueued": "في قائمة الانتظار",
+  "film.headRunning": "قيد العمل",
+  "film.imagesGot": "{n} صورة حتى الآن",
+  "film.inputsTitle": "المواد التي قدّمتها",
+  "film.loadError": "تعذّر تحميل هذا الفيديو",
+  "film.loading": "جارٍ التحميل…",
+  "film.making": "Claude يُنشئ الفيديو…",
+  "film.noProject": "لا يوجد",
+  "film.now": "الآن",
+  "film.phLive": "أرسل ملاحظة إلى Claude… (سيقرؤها قبل الخطوة التالية)",
+  "film.phQuestion": "أجب عن سؤال Claude…",
+  "film.phResume": "اكتب ردّك… (الإرسال يستأنف العمل من حيث توقف)",
+  "film.phSucceeded": "اكتب ما تريد تغييره… (الإرسال يبدأ التعديل)",
+  "film.progressLabel": "التقدّم",
+  "film.projectFallback": "مشروع",
+  "film.projectLabel": "المشروع:",
+  "film.queuedWait": "في انتظار الدور…",
+  "film.send": "إرسال",
+  "film.sendError": "تعذّر الإرسال",
+  "film.sendLabel": "رسالة إلى Claude",
+  "film.sizeKb": "{n} كيلوبايت",
+  "film.stage.build": "بناء المرئيات والحركة والصوت",
+  "film.stage.finish": "تصدير الفيديو",
+  "film.stage.images": "إنشاء الصور عبر Flow AI",
+  "film.stage.plan": "تخطيط السيناريو",
+  "film.stage.read": "دراسة النمط",
+  "film.stage.render": "العرض والمراجعة",
+  "film.steps": "{n} خطوات",
+  "film.tagAnswer": "إجابة",
+  "film.tagNote": "ملاحظة",
+  "film.tagPlan": "دردشة التخطيط",
+  "film.working": "جارٍ العمل…",
+  "lang.label": "اللغة",
+  "nav.label": "الاستوديو",
+  "nav.new": "فيديو جديد",
+  "nav.projects": "مشاريعي",
+  "new.all": "الكل ({n})",
+  "new.aspect": "نسبة العرض إلى الارتفاع",
+  "new.attach": "إرفاق ملفات",
+  "new.attachTitle": "إرفاق ملفات (يمكنك أيضًا سحبها أو لصقها)",
+  "new.attachedCount": "تمت إضافة {n}",
+  "new.badgeFlow": "✦ صور Flow AI",
+  "new.badgeNoGen": "✦ بلا مولّد صور",
+  "new.cancel": "إلغاء",
+  "new.category": "الفئة",
+  "new.create": "إنشاء",
+  "new.dropHere": "أفلِت الملفات هنا",
+  "new.duration": "المدة",
+  "new.episode": "الحلقة {n}",
+  "new.filesNote": "إليك بعض الملفات.",
+  "new.flowBody": "يفتح Claude موقع Flow في متصفح Chrome لديك ويُنشئ الصور التي يحتاجها. أبقِ Chrome مفتوحًا أثناء إنشاء الفيديو. يستهلك ذلك بعض أرصدة Flow.",
+  "new.flowTitle": "✦ تُنشأ الصور تلقائيًا باستخدام Google Flow AI.",
+  "new.hello": "مرحبًا! أخبرني بكلمات بسيطة عن الفيديو الذي تريده بنمط «{style}». إن لم يتضح لي شيء فسأسألك.",
+  "new.language": "اللغة",
+  "new.listSep": "، ",
+  "new.make": "إنشاء الفيديو",
+  "new.makeRest": "دع Claude يقرّر الباقي ويُنشئه",
+  "new.material": "إضافة مواد",
+  "new.materialHint": "ملفات، صوت، صور (اختياري)",
+  "new.maxFiles": "يمكنك إرفاق {max} ملفًا كحدٍّ أقصى.",
+  "new.messageLabel": "رسالة إلى Claude",
+  "new.ncAfter": " فقط. للأعمال التجارية أو أعمال العملاء تحتاج إلى ترخيص تجاري (onetake Pro).",
+  "new.ncBefore": "هذا النمط مجاني للاستخدام ",
+  "new.ncStrong": "غير التجاري",
+  "new.needField": "يحتاج هذا النمط إلى {field}.",
+  "new.needs": "يحتاج إلى {list}",
+  "new.newProject": "+ مشروع جديد…",
+  "new.noGen": "يحتاج هذا النمط إلى صور مُنشأة بالذكاء الاصطناعي، ولا يوجد مولّد صور مفعّل على هذا الخادم، لذا لا يمكنه إنشاء فيديوهات حاليًا.",
+  "new.noProject": "بلا مشروع (فيديو منفرد)",
+  "new.noReply": "تعذّر على Claude الرد الآن",
+  "new.pickLeft": "اختر نمطًا من القائمة.",
+  "new.pickStyle": "اختر نمطًا أولًا.",
+  "new.pickStyleShort": "اختر نمطًا أولًا",
+  "new.placeholder": "اكتب ما تريده… واسحب الصور والملفات أو الصقها هنا",
+  "new.planDraft": "مسودة الخطة (الملخص الذي سيرسله Claude)",
+  "new.planReady": "✓ خطة الفيديو (الملخص الذي سيرسله Claude)",
+  "new.project": "المشروع",
+  "new.projectFailed": "تعذّر إنشاء المشروع",
+  "new.projectName": "اسم المشروع",
+  "new.samples": "أمثلة: اضغط على أحدها لإرساله",
+  "new.searchLabel": "البحث في الأنماط",
+  "new.searchPlaceholder": "ابحث: ألوان مائية، شرح، أخبار…",
+  "new.seconds": "{n} ث",
+  "new.send": "إرسال",
+  "new.startFailed": "تعذّر بدء الفيديو",
+  "new.starting": "جارٍ البدء…",
+  "new.step1": "1. اختر نمطًا",
+  "new.step2": "2. خطّط مع Claude",
+  "new.styleBeforeFiles": "اختر نمطًا قبل إضافة الملفات.",
+  "new.stylesLabel": "الأنماط",
+  "new.tellFirst": "أخبر Claude بما تريده أولًا.",
+  "new.thinking": "جارٍ التفكير…",
+  "new.uploading": "جارٍ رفع الملفات…",
+  "projects.addEpisode": "+ الحلقة {n}",
+  "projects.assets": "مواد قابلة لإعادة الاستخدام ({n}):",
+  "projects.back": "← مشاريعي",
+  "projects.bibleEmpty": "سيكتب Claude هنا بعد الحلقة الأولى.",
+  "projects.bibleHint": "ملاحظات Claude عن الشخصيات والأماكن والنمط، يقرؤها ويحدّثها في كل حلقة",
+  "projects.bibleTitle": "دليل السلسلة",
+  "projects.cancel": "إلغاء",
+  "projects.cancelEdit": "إلغاء",
+  "projects.continueEpisode": "المتابعة بالحلقة {n}",
+  "projects.create": "إنشاء",
+  "projects.createError": "تعذّر الإنشاء",
+  "projects.descLabel": "عمَّ يدور",
+  "projects.descPlaceholder": "الشخصيات، العالم، النمط… يقرأ Claude هذا في كل حلقة",
+  "projects.edit": "تعديل الاسم/الوصف",
+  "projects.emptyBody": "المشروع مجلد. اجمع فيه حلقات السلسلة، وسيعيد Claude استخدام الشخصيات والأماكن والنمط والموسيقى.",
+  "projects.emptyCta": "أنشئ مشروعك الأول",
+  "projects.emptyTitle": "لا توجد مشاريع بعد",
+  "projects.episodeCount": "الحلقات: {n}",
+  "projects.episodeN": "الحلقة {n}",
+  "projects.firstEpisodeCta": "أنشئ الحلقة 1",
+  "projects.loadError": "تعذّر التحميل",
+  "projects.loading": "جارٍ التحميل…",
+  "projects.nameLabel": "اسم المشروع",
+  "projects.namePlaceholder": "مثلًا: حرب المقاهي",
+  "projects.nameRequired": "أدخل اسمًا",
+  "projects.newProject": "+ مشروع جديد",
+  "projects.newVideo": "فيديو جديد",
+  "projects.noEpisodesBody": "تحدّد الحلقة الأولى الشخصيات والأماكن والنمط، وتعيد الحلقات اللاحقة استخدامها.",
+  "projects.noEpisodesTitle": "لا توجد حلقات بعد",
+  "projects.optional": "اختياري",
+  "projects.save": "حفظ",
+  "projects.saveError": "تعذّر الحفظ",
+  "projects.seconds": "{n} ث",
+  "projects.singleCount": "الفيديوهات: {n}",
+  "projects.singles": "الفيديوهات المنفردة",
+  "projects.singlesHint": "فيديوهات خارج أي مشروع",
+  "projects.title": "مشاريعي",
+  "src.anyFile": "أي ملف",
+  "src.badType": "{name}: نوع الملف هذا غير مقبول.",
+  "src.canSource": "لا بأس إن لم يكن لديك شيء. سيبحث Claude بنفسه عن المعلومات المتاحة للعامة.",
+  "src.choose": "اختيار ملفات",
+  "src.closeCommon": "− إغلاق",
+  "src.dropOr": "أو اسحبها إلى هنا · {types} · حتى {max}",
+  "src.material.none": "يُرسم من الصفر",
+  "src.material.optional": "يمكنك إضافة موادك الخاصة",
+  "src.material.required": "مبني على معلومات حقيقية",
+  "src.maxFiles": "{max} ملفات كحدٍّ أقصى.",
+  "src.openCommon": "+ أضف صوتك أو موسيقاك أو صورك أو شعارك",
+  "src.optional": "اختياري",
+  "src.remove": "إزالة",
+  "src.removeLabel": "إزالة {name}",
+  "src.required": "مطلوب",
+  "src.tooBig": "حجم {name} أكبر من 500 ميغابايت.",
+  "status.canceled": "أُلغي",
+  "status.failed": "فشل",
+  "status.queued": "في الانتظار",
+  "status.running": "قيد الإنشاء",
+  "status.succeeded": "جاهز"
+ },
+ "style": {
+  "3D model": "نموذج ثلاثي الأبعاد",
+  "A 16-bit pixel RPG drawn in code.": "لعبة تقمّص أدوار بكسلية بدقة 16 بت، مرسومة بالكود.",
+  "A 1930s rubber-hose cartoon drawn in code.": "رسوم متحركة بأسلوب «الخراطيم المطاطية» من ثلاثينيات القرن الماضي، مرسومة بالكود.",
+  "A 3D world redrawn in crayon, all in code.": "عالم ثلاثي الأبعاد مُعاد رسمه بأقلام الشمع، بالكامل بالكود.",
+  "A 60s spy title sequence cut from paper in code.": "مقدمة أفلام تجسس من الستينيات مقصوصة من الورق بالكود.",
+  "A Chinese ink painting made in code.": "لوحة حبر صينية مصنوعة بالكود.",
+  "A Memphis-style diorama built in code.": "مجسّم مصغّر بأسلوب ممفيس مبني بالكود.",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "شعارك بصيغة PNG أو JPG أو SVG، بأكبر حجم وأنقى جودة لديك.",
+  "A beat-locked game show drawn in code; no source material needed.": "برنامج مسابقات متزامن مع الإيقاع ومرسوم بالكود؛ لا حاجة إلى مواد مصدرية.",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "نشرة مبنية من رسوم بالكود؛ يمكن دمج لقطاتك أو صورك أو شعارك فيها.",
+  "A colour-coded mechanism modelled and animated in code.": "آلية مرمّزة بالألوان، مُنمذجة ومتحركة بالكود.",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "مقطع عرضي بأقلام التلوين مرسوم بالكود؛ لا حاجة إلى مواد مصدرية.",
+  "A copperplate engraving drawn in code from your facts.": "نقش على النحاس مرسوم بالكود من معلوماتك.",
+  "A crayon picture book drawn in code; no source material needed.": "كتاب مصوّر بأقلام الشمع مرسوم بالكود؛ لا حاجة إلى مواد مصدرية.",
+  "A drawing or photo of the character to keep the same in every scene.": "رسمة أو صورة للشخصية لإبقائها متطابقة في كل مشهد.",
+  "A drawn production line explaining a process; no source material needed.": "خط إنتاج مرسوم يشرح عملية ما؛ لا حاجة إلى مواد مصدرية.",
+  "A fictional glass product rendered in code; real products are not reproduced.": "منتج زجاجي خيالي مُصيَّر بالكود؛ لا تُستنسخ المنتجات الحقيقية.",
+  "A film whose feel you want; its rhythm is measured, not copied.": "فيلم تريد إحساسه؛ يُقاس إيقاعه ولا يُنسخ.",
+  "A four-colour pop-art print made in code.": "مطبوعة بوب آرت بأربعة ألوان مصنوعة بالكود.",
+  "A gilded manuscript painting made in code.": "لوحة مخطوطات مذهّبة مصنوعة بالكود.",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "هيكل سلكي متوهج لجسمك، مُنمذج بالكود أو من ملفك ثلاثي الأبعاد.",
+  "A layered paper-cut lightbox built in code.": "صندوق ضوئي من طبقات الورق المقصوص مبني بالكود.",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "مقطع عرضي خطّي لآلة، مُنمذج ومرسوم بالكود.",
+  "A low-poly island world built in code.": "عالم جزيرة منخفض المضلعات مبني بالكود.",
+  "A mid-century cartoon drawn in code from your steps.": "رسوم متحركة بأسلوب منتصف القرن مرسومة بالكود من خطواتك.",
+  "A model of your object to show as a wireframe.": "نموذج لجسمك لعرضه كهيكل سلكي.",
+  "A moving knife-painted oil painting made in code.": "لوحة زيتية متحركة مرسومة بالسكين، مصنوعة بالكود.",
+  "A paper pop-up book on a real-looking desk, made in code.": "كتاب منبثق من الورق على مكتب واقعي المظهر، مصنوع بالكود.",
+  "A pen-and-wash urban sketch drawn in code.": "رسم حضري بالقلم والألوان المائية مرسوم بالكود.",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "صورة أو لقطة لإعادة نحتها كطبعة خشبية، مثل صورة شخصية.",
+  "A picture computed in spreadsheet cells; can use your own table.": "صورة محسوبة في خلايا جدول بيانات؛ يمكن استخدام جدولك.",
+  "A pixel-art miniature world built in code.": "عالم مصغّر بفن البكسل مبني بالكود.",
+  "A post, notes or a sketch of the system to draw from.": "منشور أو ملاحظات أو رسم تخطيطي للنظام للرسم منه.",
+  "A printed case file with halftone characters, drawn in code.": "ملف قضية مطبوع بشخصيات بنقاط الطباعة، مرسوم بالكود.",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "بلدة مصغّرة إجرائية مصوّرة بأسلوب الإمالة والإزاحة، مصنوعة بالكود.",
+  "A real simulation of little creatures run and filmed in code.": "محاكاة حقيقية لكائنات صغيرة تُشغَّل وتُصوَّر بالكود.",
+  "A risograph print made in code.": "مطبوعة ريزوغراف مصنوعة بالكود.",
+  "A scene seen through a thermal camera, simulated in code.": "مشهد عبر كاميرا حرارية، محاكى بالكود.",
+  "A sci-fi sitcom cartoon drawn in code.": "رسوم متحركة كوميدية من الخيال العلمي مرسومة بالكود.",
+  "A scratchboard landscape long take made in code.": "منظر طبيعي بأسلوب الحفر على اللوح في لقطة طويلة، مصنوع بالكود.",
+  "A silkscreen travel poster printed in code.": "ملصق سياحي بالطباعة الحريرية مطبوع بالكود.",
+  "A sketchnote page drawn in code.": "صفحة ملاحظات مصوّرة مرسومة بالكود.",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "فيلم إطلاق برنامج بواجهة مجرّدة مصنوعة بالكود؛ شعارك يحدد لون التمييز.",
+  "A stained-glass window lit in code.": "نافذة زجاج معشّق مضاءة بالكود.",
+  "A table whose values drive the picture.": "جدول تتحكم قيمه في الصورة.",
+  "A tablet sketch drawn and coloured in code.": "رسم على الجهاز اللوحي مرسوم وملوّن بالكود.",
+  "A toy-brick world built and animated in code.": "عالم من قطع البناء مبني ومتحرك بالكود.",
+  "A track you have the rights to; otherwise music is composed for the film.": "مقطوعة تملك حقوقها؛ وإلا تُؤلَّف موسيقى للفيلم.",
+  "A track you have the rights to; the film is cut to it.": "مقطوعة تملك حقوقها؛ يُقطَّع الفيلم على إيقاعها.",
+  "A two-ink dithered 3D world made in code.": "عالم ثلاثي الأبعاد بلونين ونقاط تدرّج، مصنوع بالكود.",
+  "A vertical clip; set the frame to 9:16.": "مقطع عمودي؛ اضبط الإطار على 9:16.",
+  "A watercolour painting brushed in code.": "لوحة بالألوان المائية مرسومة بالكود.",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "نموذج أبيض لمبانٍ حقيقية من بيانات مفتوحة أو مخططاتك، مضاء ببيانات مُسقَطة.",
+  "A whiteboard explainer drawn in code.": "شرح على السبورة البيضاء مرسوم بالكود.",
+  "An SVG, logo or icon to animate, if there is one.": "ملف SVG أو شعار أو أيقونة لتحريكها، إن وُجدت.",
+  "An assembly-manual drawing made in code from your steps.": "رسم دليل تجميع مصنوع بالكود من خطواتك.",
+  "An isometric infographic drawn in code.": "إنفوغرافيك متساوي القياس مرسوم بالكود.",
+  "An isometric scene of people following a rule, made in code.": "مشهد متساوي القياس لأشخاص يتبعون قاعدة، مصنوع بالكود.",
+  "An old recording you own that can play under the archive.": "تسجيل قديم تملكه يمكن تشغيله مع مواد الأرشيف.",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "شاشات التطبيق كبطاقات ورقية على مكتب، مصنوعة بالكود؛ ألوان العلامة مرحّب بها.",
+  "Archive film or video about your subject.": "أفلام أو فيديوهات أرشيفية عن موضوعك.",
+  "Archive scans": "مسح ضوئي للأرشيف",
+  "Article or notes": "مقال أو ملاحظات",
+  "Audio recordings or readings such as telemetry or weather.": "تسجيلات صوتية أو قراءات مثل القياس عن بُعد أو الطقس.",
+  "BOM or spec sheet": "قائمة المواد أو ورقة المواصفات",
+  "Bill of materials and spec sheet for part names and numbers.": "قائمة المواد وورقة المواصفات لأسماء القطع وأرقامها.",
+  "Black silhouettes moving to the beat, made in code.": "ظلال سوداء تتحرك مع الإيقاع، مصنوعة بالكود.",
+  "Brand feel": "طابع العلامة",
+  "Brand fonts you are licensed to use.": "خطوط العلامة المرخّص لك باستخدامها.",
+  "Building data": "بيانات المباني",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "مبني من ملفات CAD الخاصة بالمنتج؛ مطلوبة لمنتجك، وإلا نستخدم عتادًا مفتوح المصدر.",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "مبني من مسح مجهري حقيقي؛ أرسل مسحك أو نجد شريحة بترخيص سليم.",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "مبني من مقتنيات أرشيفية حقيقية؛ أرسل مسحك أو نستخدم مجموعات الملكية العامة.",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "مبني من نقاط مسح ليزري حقيقية؛ أرسل مسحك أو نستخدم مسوح LiDAR العامة.",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "مبني من صور حقيقية للأشياء؛ أرسل صورك أو نستخدم صورًا بترخيص سليم.",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "مبني من لقطات آنية لحدث واحد؛ أرسل لقطاتك أو نستخدم سجلات الملكية العامة.",
+  "Built from your product: screenshots and a link make the UI and copy real.": "مبني من منتجك: لقطات الشاشة والرابط تجعل الواجهة والنصوص حقيقية.",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "مبني على بيانات ارتفاع وصور أقمار صناعية حقيقية للمكان، وبياناتك متوهجة فوقها.",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "مبني على لقطات مباراة حقيقية؛ أرسل مقاطعك أو نبحث عن مقاطع بترخيص مفتوح.",
+  "CAD files": "ملفات CAD",
+  "Captions and cards are added over your own video.": "تُضاف الترجمات والبطاقات فوق الفيديو الخاص بك.",
+  "Carved in code; a photo can be recut into a woodcut plate.": "محفور بالكود؛ يمكن إعادة نحت صورة كلوح طباعة خشبي.",
+  "Chalk writing and drawing made in code; no source material needed.": "كتابة ورسم بالطباشير مصنوعان بالكود؛ لا حاجة إلى مواد مصدرية.",
+  "Character designs": "تصاميم الشخصيات",
+  "Character reference": "مرجع الشخصية",
+  "Characters and scenes made of glowing points, all in code.": "شخصيات ومشاهد من نقاط متوهجة، بالكامل بالكود.",
+  "Clip links": "روابط المقاطع",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "كولاج من مطبوعات ومقتنيات ورقية حقيقية من الملكية العامة، مقصوصة يدويًا.",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "يطابق بين لقطات وصور ووثائق وبيانات حقيقية لحدث واحد؛ موادك أولًا.",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "مُقطَّع من أفلام ومطبوعات وتسجيلات أرشيفية حقيقية؛ موادك أولًا، وإلا أرشيفات الملكية العامة.",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "مُقطَّع من لقطات وصور ووثائق مصدرية حقيقية؛ موادك أولًا، والأرشيفات العامة تسد الثغرات.",
+  "Cut to your own song; send the track.": "مُقطَّع على أغنيتك؛ أرسل المقطوعة.",
+  "Dashcam, CCTV, phone or archive video of the event.": "فيديو من كاميرا السيارة أو المراقبة أو الهاتف أو الأرشيف للحدث.",
+  "Data to plot": "بيانات للرسم البياني",
+  "Dataset": "مجموعة بيانات",
+  "Describe the voice you want, e.g. calm female, British English.": "صِف الصوت الذي تريده، مثل صوت أنثوي هادئ بالإنجليزية البريطانية.",
+  "Documents": "وثائق",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "مرسوم بالكامل بالكود كنص طرفية متوهج؛ لا حاجة إلى مواد مصدرية.",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "مرسوم بالكامل بالكود بأسلوب آرت ديكو ذهبي وأسود؛ لا حاجة إلى مواد مصدرية.",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "مرسوم بالكود؛ يمكن إعادة رسم مقاطعك القديمة بحبر تلك الحقبة.",
+  "Drawn on a blueprint sheet in code; no source material needed.": "مرسوم بالكود على ورقة مخطط أزرق؛ لا حاجة إلى مواد مصدرية.",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "يرسم شبكة حقيقية من بيانات موثّقة؛ بياناتك أولًا، وإلا البيانات المفتوحة للمشغّل.",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "مُحرَّر من لقطات حقيقية لمكان ما؛ أرسل لقطاتك أو نجد مقاطع بترخيص سليم.",
+  "Event footage": "لقطات الحدث",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "كل علامة رقم حقيقي؛ أرسل مجموعة بياناتك أو نستخدم بيانات بترخيص مفتوح.",
+  "Family, company or sports clips to redraw as ink.": "مقاطع عائلية أو للشركة أو رياضية لإعادة رسمها بالحبر.",
+  "Field data": "بيانات ميدانية",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "يملأ ظلال الحيوانات بصور طبيعية حقيقية؛ صورك أو من الملكية العامة.",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "أشكال باوهاوس مسطحة بأحجام أرقامك؛ لا حاجة إلى مواد مصدرية.",
+  "Flat science explainer zooming across scales, drawn in code.": "شرح علمي مسطّح يتنقّل عبر المقاييس، مرسوم بالكود.",
+  "Fonts": "الخطوط",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "لقطات أو صور صوّرتها أو تملك حقوقها؛ والباقي يُجلب من مصادر مفتوحة أو يُصنع.",
+  "Generated images": "صور مُولَّدة",
+  "Gridded wind, current or flow data, if you have it.": "بيانات شبكية للرياح أو التيارات أو التدفق، إن وُجدت.",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "أنمي ثمانينيات بمظهر مرسوم يدويًا، مصنوع بالكود؛ لا حاجة إلى مواد مصدرية.",
+  "Key points for cards": "النقاط الرئيسية للبطاقات",
+  "Landscape photos": "صور طبيعية",
+  "Large, clear photos of the real objects being compared.": "صور كبيرة وواضحة للأشياء الحقيقية التي تُقارَن.",
+  "Laser scan": "مسح ليزري",
+  "Line-ups or event data": "التشكيلات أو بيانات الحدث",
+  "Line-ups or event data for the match.": "تشكيلات الفريقين أو بيانات المباراة.",
+  "Lines, stations, opening dates, lengths or ridership.": "الخطوط والمحطات وتواريخ الافتتاح والأطوال أو أعداد الركاب.",
+  "Link to the product or its documentation.": "رابط المنتج أو وثائقه.",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "روابط فيديوهات YouTube/TikTok للتفاعل معها أو الاقتباس منها، مفصولة بمسافات.",
+  "Logos": "الشعارات",
+  "Logos to show, ideally SVG or transparent PNG.": "شعارات للعرض، ويُفضَّل SVG أو PNG بخلفية شفافة.",
+  "Lyrics": "كلمات الأغنية",
+  "Marker drawing on paper, made in code.": "رسم بالقلم العريض على الورق، مصنوع بالكود.",
+  "Match clips you have the rights to use.": "مقاطع مباريات لديك حق استخدامها.",
+  "Microscope scans": "مسح مجهري",
+  "Music": "الموسيقى",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "أسماء أو أرقام أو نقاط لعرضها كبطاقات؛ وإلا تُختار مما يُقال.",
+  "Narration script": "نص السرد",
+  "Needs an image generator for characters and panels; your designs and products come first.": "يحتاج إلى مولّد صور للشخصيات واللوحات؛ تصاميمك ومنتجاتك أولًا.",
+  "Needs an image generator for the characters; your own designs come first.": "يحتاج إلى مولّد صور للشخصيات؛ تصاميمك أولًا.",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "يحتاج إلى مولّد صور لأوراق الدمى؛ تصاميم شخصياتك أولًا.",
+  "Neon signs built and animated in code.": "لافتات نيون مبنية ومتحركة بالكود.",
+  "Network data": "بيانات الشبكة",
+  "Newspapers, magazines, letters or documents, scanned.": "صحف أو مجلات أو رسائل أو وثائق ممسوحة ضوئيًا.",
+  "Object photos": "صور الأشياء",
+  "Objects seen through an X-ray console, modelled in code.": "أشياء تُرى عبر جهاز أشعة سينية، مُنمذجة بالكود.",
+  "Old film or video about your subject.": "أفلام أو فيديوهات قديمة عن موضوعك.",
+  "One character, kept the same in every scene and episode.": "شخصية واحدة تبقى متطابقة في كل مشهد وحلقة.",
+  "One continuous line drawn in code.": "خط واحد متصل مرسوم بالكود.",
+  "One idea carries the whole ad; your product appears as the result.": "فكرة واحدة تحمل الإعلان كله؛ ويظهر منتجك كنتيجة.",
+  "Only if no image generator is connected: images made from our prompts.": "فقط إذا لم يكن هناك مولّد صور متصل: صور مصنوعة من أوصافنا.",
+  "Period recording": "تسجيل من تلك الحقبة",
+  "Photos": "الصور",
+  "Photos of people, products or places that should appear.": "صور لأشخاص أو منتجات أو أماكن يجب أن تظهر.",
+  "Photos of the places the animal belongs to; shown in black and white.": "صور للأماكن التي ينتمي إليها الحيوان؛ تُعرض بالأبيض والأسود.",
+  "Pictograms and cards animated in code.": "رموز تصويرية وبطاقات متحركة بالكود.",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "اسم المكان أو إحداثيات خط العرض/الطول، إن لم تكن واضحة من موضوعك.",
+  "Place or coordinates": "المكان أو الإحداثيات",
+  "Plans, a city model or survey heights for your site.": "مخططات أو نموذج للمدينة أو ارتفاعات مسح لموقعك.",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "مرسوم بقلم آلي؛ تستخدم الخرائط والسجلات بيانات حقيقية ترسلها أو نجدها.",
+  "Preferred voice": "الصوت المفضّل",
+  "Print scans": "مسح المطبوعات",
+  "Product link": "رابط المنتج",
+  "Rapid microgames in changing art styles, all made in code.": "ألعاب مصغّرة سريعة بأساليب فنية متغيرة، بالكامل بالكود.",
+  "Real maths drawn as oscilloscope light, computed in code.": "رياضيات حقيقية مرسومة كضوء راسم الذبذبات، محسوبة بالكود.",
+  "Real statistics built as physical objects; your own numbers or published open data.": "إحصاءات حقيقية مجسّدة كأشياء مادية؛ أرقامك أو بيانات مفتوحة منشورة.",
+  "Recordings or data": "تسجيلات أو بيانات",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "مُعاد تقطيعه من أفلام وصور ووثائق أرشيفية حقيقية؛ موادك تتصدّر، والأرشيفات تسد الثغرات.",
+  "Red paper-cut scenes made in code.": "مشاهد من الورق الأحمر المقصوص مصنوعة بالكود.",
+  "Redraws your real product's interface; screenshots help it match exactly.": "يعيد رسم واجهة منتجك الحقيقي؛ لقطات الشاشة تساعد على المطابقة التامة.",
+  "Reference clip": "مقطع مرجعي",
+  "Reference photo": "صورة مرجعية",
+  "Rendered found-footage of empty interiors, all made in code.": "لقطات «مُكتشفة» مُصيَّرة لمساحات داخلية فارغة، بالكامل بالكود.",
+  "Reports, statements or memos about the event.": "تقارير أو بيانات أو مذكرات عن الحدث.",
+  "Routes or map data": "المسارات أو بيانات الخرائط",
+  "Routes, points or areas to draw on the map.": "مسارات أو نقاط أو مناطق لرسمها على الخريطة.",
+  "STEP, IGES or KiCad exports of your product.": "ملفات STEP أو IGES أو KiCad المُصدَّرة لمنتجك.",
+  "SVG or icon": "SVG أو أيقونة",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "مسح لصور سالبة أو رسائل أو صور أو قصاصات تملك حقوقها.",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "مسح لنقوش قديمة أو طوابع أو مقتنيات ورقية تملك حقوقها.",
+  "Scans of reports, brochures, letters or photographs.": "مسح لتقارير أو كتيّبات أو رسائل أو صور فوتوغرافية.",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "مشاهد يكشفها ضوء ماسح، مبنية بالكود؛ لا حاجة إلى بيانات مسح حقيقية.",
+  "Schedules, filings or results shown as paper.": "جداول مواعيد أو ملفات أو نتائج معروضة كأوراق.",
+  "Scratched-film animation made in code.": "رسوم متحركة محفورة على الفيلم، مصنوعة بالكود.",
+  "Screens of your product so the UI is redrawn accurately.": "شاشات منتجك لإعادة رسم الواجهة بدقة.",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "أرسل شعارك؛ يُعاد رسمه بأشكال متجهية نظيفة ويُحرَّك.",
+  "Shadow puppets on a lit screen, made in code.": "دمى ظل على شاشة مضاءة، مصنوعة بالكود.",
+  "Song lyrics, if this is a music video.": "كلمات الأغنية، إن كان هذا فيديو موسيقيًا.",
+  "Stick figures act out the idea, drawn in code.": "شخصيات عيدان تمثّل الفكرة، مرسومة بالكود.",
+  "Streamlines of a real or modelled field such as wind or currents.": "خطوط انسياب لحقل حقيقي أو مُنمذج مثل الرياح أو التيارات.",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "بيانات مسح أو تضاريس أو قياسات لرسمها، إن كانت الورقة تعرض بيانات حقيقية.",
+  "Swiss grid motion graphics made in code.": "رسوم متحركة بالشبكة السويسرية مصنوعة بالكود.",
+  "The report or document the numbers come from, as PDF.": "التقرير أو الوثيقة التي أُخذت منها الأرقام، بصيغة PDF.",
+  "The report your figures come from.": "التقرير الذي أُخذت منه أرقامك.",
+  "The site to survey, if not clear from your topic.": "الموقع المراد مسحه، إن لم يكن واضحًا من موضوعك.",
+  "The talking video to caption; it is kept as it is.": "فيديو الحديث المراد ترجمته؛ يبقى كما هو.",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "ثلاث كلمات تصف كيف يجب أن تتحرك العلامة، مثل هادئة ودقيقة وودودة.",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "لقطات زمنية متسارعة أو هايبرلابس أو تصوير جوي أو صور للمكان.",
+  "UI screenshots": "لقطات شاشة الواجهة",
+  "Ukiyo-e woodblock prints made in code.": "مطبوعات أوكييو-إي الخشبية مصنوعة بالكود.",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "يستخدم صور أقمار صناعية حقيقية للمكان؛ نجلب صورًا عامة إن لم تكن لديك.",
+  "Video or audio of the same event from several angles.": "فيديو أو صوت للحدث نفسه من زوايا متعددة.",
+  "Voice recording": "تسجيل صوتي",
+  "Voice-over script": "نص التعليق الصوتي",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "ما يقوله الراوي، إن كان لديك؛ وإلا يُكتب من موضوعك.",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "ما يجب أن يقوله الراوي، إن كان لديك؛ وإلا نكتبه لك.",
+  "Whole-slide scans or micrographs with a scale.": "مسح كامل للشرائح أو صور مجهرية مع مقياس.",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "تحصل على ملف Lottie .json لتطبيقك أو موقعك، وملف MP4 لمعاينته.",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "تحصل على الفيلم وملف .excalidraw قابل للتعديل وصورة PNG وصورة GIF.",
+  "Your GIS layers": "طبقات GIS الخاصة بك",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "تُعاد بناء شاشات تطبيقك بلغة HTML ويُتجوَّل فيها مع تعليق صوتي؛ أرسل شاشات كل ميزة تريد عرضها.",
+  "Your character designs or product photos; otherwise generated.": "تصاميم شخصياتك أو صور منتجاتك؛ وإلا تُولَّد.",
+  "Your clips": "مقاطعك",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "تُمزج مقاطعك واللقطات ذات الترخيص المفتوح ومقاطع من قنوات أخرى للتعليق وصور Flow AI مع إنفوغرافيك مرسوم بالكود، مع سرد باللغة التايلاندية.",
+  "Your figures as a table; otherwise open published data is used.": "أرقامك في جدول؛ وإلا تُستخدم بيانات منشورة مفتوحة.",
+  "Your figures, e.g. from an annual or ESG report.": "أرقامك، مثلًا من تقرير سنوي أو تقرير ESG.",
+  "Your footage": "لقطاتك",
+  "Your logo": "شعارك",
+  "Your own character or product designs; otherwise they are generated.": "تصاميم شخصياتك أو منتجاتك الخاصة؛ وإلا تُولَّد.",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "تُمزج مقاطعك واللقطات ذات الترخيص المفتوح وصور Flow AI مع إنفوغرافيك مرسوم بالكود؛ لا يُؤخذ شيء من قنوات أخرى.",
+  "Your own footage or b-roll stills to grade into the package.": "لقطاتك أو صورك الثابتة الإضافية لتلوينها ودمجها في التقرير.",
+  "Your own narration; otherwise we use a synthetic voice.": "تعليقك الصوتي الخاص؛ وإلا نستخدم صوتًا اصطناعيًا.",
+  "Your own site, drone or terrestrial scan.": "مسحك الخاص للموقع، بالطائرة المسيّرة أو الأرضي.",
+  "Your own surveys or GIS layers, if the place is yours.": "مسوحك الخاصة أو طبقات GIS، إن كان المكان ملكك.",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "مقاطع الفيديو الخاصة بك؛ وإلا نجد لقطات أرشيفية بترخيص سليم.",
+  "Your song": "أغنيتك",
+  "Your subject drawn as a circuit board in code.": "موضوعك مرسوم كلوحة دوائر إلكترونية بالكود.",
+  "Your video": "الفيديو الخاص بك",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "160 كائنًا مخمليًا من Pips تتسابق على الحبوب: الأسرع يأكل أولًا وينفد أولًا، وبعد 20 جيلًا تتحول اللوحة كلها إلى الأزرق.",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "1926: الصحف تقول إن رقصة التشارلستون ستدمّر ركب أمريكا؛ وفي نزهة فورد نفسها يرقصها الأطفال رغم ذلك.",
+  "3D & Miniature": "ثلاثي الأبعاد ومجسمات مصغّرة",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "ورقة طوابع بريد جوي من 1918 طُبعت طائرتها مقلوبة: اشتُريت بـ24 دولارًا، وقُطّعت وتفرّقت، وما زال الطابع رقم 66 مفقودًا.",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "مقطع 9:16 مصمَّم لـReels وTikTok وShorts: خطّاف في الثانية الأولى، وخط حركي كبير، وإيقاع سريع، وترجمة تُقرأ دون صوت.",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "رسوم Lottie متحركة لتطبيق أو موقع، تُسلَّم كملف .json مع MP4: مؤشرات تحميل وأيقونات وحالات نجاح وأشرطة أسماء وعدّادات أرقام وإعلانات قصيرة.",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "جولة بالدراجة صباح الأحد في المدينة — مخبز، حديقة، ضفة نهر — تضيف كل محطة حبرًا جديدًا حتى تتراكب ثلاثة ألواح غير متطابقة.",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "صبي الخبّاز يطارد رغيفًا يتدحرج على المنحدر، ثم يقسمه نصفين لطفلة جائعة.",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "مخطط معماري أو مخطط عمليات مرسوم يدويًا على خلفية سوداء، تجري نقاط متوهّجة على مساراته؛ ويصلك معه ملف Excalidraw قابل للتعديل وصورة GIF.",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "جسد يُفتح كمصنع يعمل بالعكس: شطيرة الثانية عشرة والنصف تُفكَّك محطةً بعد محطة، وبعد ست ساعات تركض للحاق بالحافلة.",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "رائد فضاء من المكعبات يبني صاروخًا من قطع متبقية ويطير إلى قمر من المكعبات.",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "مسرح ألعاب من الكرتون: أوراق مزخرفة، وقصاصات غواش بحواف كالملصقات، ومشاهد تنزلق على الخشبة.",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "صورة قطة تقفز بين بطاقات التطبيقات على مكتب مشمس، من هاتف إلى هاتف صديق.",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "سلسلة أيادٍ منك إلى غريب: اختُبرت بالرسائل عام 1967، وتُشرح بحلقات تتجاوز حجم الأرض، وتكتمل حول الكرة الأرضية.",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "قطة برتقالية ممتلئة تُحاكَم بتهمة اختبار الجاذبية والباركور في الرابعة فجرًا، وتخرج بريئة.",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "متدرّب أخرق ينجو من معسكر تدريب من خمس ثوانٍ، أسرع فأسرع، حتى الزعيم الأخير: الهبوط في البيت.",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "فنجان قهوة يطارد مكعب سكر هاربًا في أرجاء المطبخ، بأسلوب رسوم الثلاثينيات.",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "رحلة القهوة من المزرعة إلى يديك، عبر عالم إيزومتري واحد.",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "ملصق حفل موسيقي ينسّق نفسه وفق خمس قواعد من التصميم السويسري؛ والخامسة أن تكسر قاعدة واحدة فقط.",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "فتاة توصيل تعبر مدينة نيون غارقة في المطر لتسلّم شريطًا قبل إطلاق الفجر.",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "قلم ماركر يحسب بُعد الأفق من الشاطئ، ثم يُظهر أن الصعود مئة ضعف لا يمنحك إلا رؤية أبعد بعشرة أضعاف.",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "سمكة فانوس بطول إصبع تصعد نصف كيلومتر في الظلام، وتخفي ظلها بأضوائها، ليتبيّن أنها واحدة من كائنات لا تُحصى تصعد كل ليلة.",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "وميض اليراعة سؤال: فتاة تتلقى جوابها في هيئة غزال، وتفقد كل الأضواء في عاصفة، ثم تسأل الظلام كله بآخر ضوء.",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "طيران بمنظور الشخص الأول فوق قرية من أقلام الشمع إلى زهرة في حديقة رجل عجوز؛ ثم عيناه، وما يقوله.",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "سرب من طيور الفلامنغو يتحرك مع كل نبضة، وطائر صغير متأخر دائمًا بنصف نبضة؛ فتعلّمه التموجات التي تركها الآخرون على الماء الإيقاع.",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "صفحة ألبوم بقعتها السنون: بطاقات ممزقة، وشريط لاصق، ونقوش ملوّنة يدويًا، وملصقات آلة كاتبة، وحروف مقصوصة كرسائل الفدية تروي الحكاية.",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "فندق فخم عام 1930: عامل حقائب يسابق المصاعد والأبواب الدوّارة ليسلّم رسالة قبل منتصف الليل.",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "مئة عام من درجات حرارة الصيف، حيث يروي الرسم البياني نفسه القصة.",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "عبقري ضجِر يفتح بوابة فقط ليشتري قهوة، فيتدحرج عبر أكوان تزداد غرابة.",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "مسح بالليزر يزيل غطاء غابة في كونيتيكت ويكشف 3.4 كم من أسوار مزارع قديمة.",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "فيلم إطلاق تطبيق بلقطة واحدة متصلة: شريط الأوامر يتفتح إلى تقويم، والتقويم ينساب إلى الهاتف، وكل لحظة تنمو من سابقتها.",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "رسالة، مكالمة، جدار من النوافذ، ثلاث عشرة درجة: الفتاة التي قالت له ألّا يلتفت تقترب خطوة دائمًا، حتى تدير رأسها.",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "مسبار صغير عينه عدسة زوم يطلق خط تصويب منقّطًا نحو كل محطة تالية، ويأخذنا من درب التبانة حتى فيروس.",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "ذكاء اصطناعي في قاعدة قمرية يستيقظ بعد أربعين عامًا على إشارة من الأرض، ويرد برسم كلمة «بيت» بالحروف.",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "فيديو موسيقي مقطّع على أغنيتك: النبضات والمقاطع تُقاس من المسار، والكلمات والأشكال والألوان تتحرك معها.",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "راوٍ لا تراه أبدًا: لقطات حقيقية، ومشاهد ثلاثية الأبعاد وبدائل بالذكاء الاصطناعي، ورسوم بيانية للمقاييس، وخرائط وترجمات تتناوب على سرد قصة حقيقية مذهلة.",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "لوحة من التاريخ الطبيعي تنقش نفسها: الإزميل يشق النحاس، والنحلة تتشكل خطًا بعد خط، ولمسة ألوان مائية تبث فيها الحياة.",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "قط نيون يخرج إلى السمكة الذهبية في اللافتة آخر الشارع، فيكسر حوضها، ويركض بالسمكة الخافتة تحت المطر إلى الكأس في لافتته.",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "موظف جديد في الوردية الليلية يصوّر ليلته الأولى في مكتب أصفر لا نهاية له، متّبعًا القواعد المعلّقة على الجدار.",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "حديقة ليست إلا رسمًا بالقلم؛ وحيثما حملت الريح قبعتها القشّية، لحقها اللون.",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "هاتف يفقد الإشارة حين يُمسك من الزاوية؛ وعند تفكيكه يتبيّن أن إطاره المعدني هو الهوائي، مقطّعًا إلى أجزاء تصل بينها يدك.",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "كتاب منبثق ينفتح على مكتب؛ جنّية صغيرة اسمها Pip تغامر في عوالم ورقية ثم تقفز إلى عالمنا.",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "خريطة مترو مطبوعة تنمو من خط واحد بطول 6 كم عام 1993 إلى 21 خطًا و906 كم.",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "جولة في المنتج بصوت راوٍ: واجهة التطبيق نفسها مُعاد بناؤها من لقطات الشاشة، وكاميرا تقترب من كل ميزة، وترجمة، والفيلم نفسه بلغات أخرى.",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "جهاز إسقاط يلوّن مجسم روتردام الأبيض طبقة طبقة، من فراغ 1940 إلى أبراج اليوم.",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "إعداد مكنسة روبوتية في ثلاث خطوات، بأسلوب فيلم تعليمي من الخمسينيات.",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "قمر صناعي يتبع الخريطة إلى بحر آرال فيجد صحراء؛ ولم يعد إلا الجزء الذي أقام عليه أحدهم سدًا.",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "عاصفة في باركس، 21 يوليو 1969: طبق بقطر 64 مترًا مائل إلى أقصى حد يصمد ويلتقط المشي على القمر للعالم.",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "مصوّرة شوارع تطارد ضوءًا راكضًا حتى لحظة تحليق الحمام؛ وكاميرتها الجيبية تقسم تلك الثانية إلى ثلاثين لوحة.",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "مبارز يعبر النهر ماشيًا على الماء ويشق التيار بضربة واحدة.",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "كاميرا حرارية تدور حول مبنى سكني قديم في ليلة مثلجة: نافذة تسرّب الحرارة، وأنابيب داخل الجدران، وقطة نائمة على غطاء محرك دافئ، والمبنى نفسه بعد عام من تجديده.",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "مسافر يعبر العالم ملصقًا بالطباعة الحريرية تلو الآخر، وكعب تذكرة يعدّ المسافة عن البيت، حتى يصير الطرف الآخر طريق العودة.",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "مسافر يمشي نحو جبل بعيد؛ كل لقطة طبعة خشبية، وموجة عظيمة في الذروة، والجبل واللفافة كاملة في النهاية.",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "قرية تقضي شتاءً كاملًا في صبّ جرس واحد؛ وحين يدق أول مرة، يتوقف الثلج.",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "ساعة بلا بطارية تُفتح: أنظمتها الثلاثة تُصبغ واحدًا تلو الآخر، والتروس تتسارع حين يُنزع الميزان، ودقة واحدة بطيئة تطلق كل شيء من جديد.",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "مظلة صفراء نُسيت في حافلة تنتظر يومًا مشمسًا على رف المفقودات، ثم تنفتح مع 312 أخرى حين تعود العاصفة: أشياء ومركبات وطقس ولافتات في هيئة رموز هندسية على الإيقاع.",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "تلوين سيل بأقلام الكحول وظل حاد الحافة تحت خط سميك: عالم كوميكس زاهٍ يتحرك.",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "كل موزة تقريبًا في المتاجر هي نبتة واحدة منسوخة: جدار من طبعات متطابقة، وموزة قديمة اسودّت بالبقع، وموجة لون تتحول إلى موز كثير.",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "انتقلت الألزاس واللورين بين الأيدي أربع مرات بين 1871 و1945: في كل مرة يمزّق أحدهم الورق ويلصق قطعة جديدة، والمرأة التي تعيش عليها لم تنتقل قط.",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "فقدت أمريكا 1.3 مليون مستعمرة نحل، ومع ذلك ارتفع العدد 6%: خبر قصير يُفهم دون صوت.",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "دراجة كهربائية تُمسح إلى صورة مجسّمة؛ ومربعات الاستهداف تثبت على البطارية والمحرك والمكابح.",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "مخطط مخترع يرسم آلة لاصطياد الغيوم ويفككها ويجمعها، فتبدأ سحابة المراجعة بالإمطار.",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "جزيرة وقريتها تنموان قطعة قطعة من بحر خالٍ، كل قطعة نغمة، حتى ليلة مرصّعة بالنجوم.",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "قطار ليلي قديم في رحلته الأخيرة، من محطة جبلية مثلجة عبر نفق طويل إلى البحر، ونوافذه المضاءة تنطفئ واحدة تلو الأخرى في نهاية الخط.",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "ليلًا تحت مصباح مكتب، يرسم راسم بياني جبل قومولانغما من بيانات ارتفاع حقيقية بأربعة أقلام، ويكتب ارتفاعه في الأخير.",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "عند باب الزعيم الأخير يحفظ البطل اللعبة، فتعيد شاشة الحفظ الرحلة كلها.",
+  "Cartoons": "رسوم متحركة",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "الطباشير يكتب ادعاءً شائعًا عن حرفين، ثم يمسحه، ويتتبع الحرف 射 ثلاثة آلاف عام إلى الوراء.",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd يقفز من الطرفية إلى تطبيق Claude ويؤدي وضع التخطيط والتحقق الذاتي في لقطة واحدة.",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "أشكال نظيفة بأداة القلم، وتعبئة مسطّحة، وظلال طويلة، وحبيبات خفيفة: رسم توضيحي عصري وحاد يتحرك.",
+  "Data & Maps": "بيانات وخرائط",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "هل تُطعم الأشجار بعضها؟ رسم بالرصاص يغوص تحت العشب، ويتبع حبة سكر على خيط فطري إلى الشجرة التالية، ثم يبتعد ليكشف غابة كاملة متصلة تحت الأرض.",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "متأخرًا 3-0 بين الشوطين، سجّل فنربخشة ثلاثة أهداف في 12 دقيقة: تجميد، ورسم، وشاشة مقسومة، وخريطة تسديدات.",
+  "Edit & Documentary": "مونتاج ووثائقي",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "فبراير 1966: أول صورة مقرّبة للقمر تصل إلى تلسكوب راديوي إنجليزي كفاكس صحفي، تُطبع سطرًا سطرًا بحبرين، قبل موعدها بيوم ومطوّلة أكثر من اللازم.",
+  "Film & Tape": "فيلم وشريط",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "اتبع المطر من قلب الصحراء الحمراء في أستراليا إلى ساحلها الأخضر في نزهة مرسومة واحدة دون انقطاع.",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "أربعة أخبار عن الذكاء الاصطناعي من أسبوع واحد في حزمة بث كاملة: ترتيب النشرة، وشريط العناوين، ولوحة الأسعار، وبطاقة المواصفات.",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "أربعة أنواع من الجسور تُختبر على جدار إحاطة واحد، والسفينة التي يجب أن تمر تحتها تختار الفائز.",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "من الكرة الأرضية نزولًا إلى المضيق الذي يعبره خُمس نفط العالم: ممرّان، وشق في قاع البحر، وأنابيب لا تنقل حوله إلا جزءًا يسيرًا.",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "من الجبال إلى البحر مع حلول الليل: أيّل وذئب ونسر وسلمون وحوت، يحمل كلٌّ منها موطنه داخل ظلّه، حتى يحطّ ميناء الحوت على الساحل الحقيقي.",
+  "Games": "ألعاب",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "رصاص وألوان مائية رقيقة بأسلوب كتب الحكايات، مرسومة لشخصية متكررة تبقى كما هي في كل مشهد.",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "غواش وألوان مائية فوق الرصاص: كثيفة في المقدمة، تخف نحو غسلة لونية ورصاص عارٍ في البعيد.",
+  "Graphic & Type": "جرافيك وخطوط",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "نصف لوحة مفاتيح مفتوحة المصدر يتفكك في دورة واحدة حتى الشريحة، ثم ينغلق بأبعاده الحقيقية.",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "كيف تصنع مربعًا من الدوائر؟ دوائر دوّارة تتراكب في موجة مربعة، حتى تكشف غوصة في إحدى الزوايا عن ذروة الـ9% التي لا تزول أبدًا.",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "كيف يعرف هاتفك مكانك: GPS، والساعات الذرية، و38 ميكروثانية تضيفها النسبية كل يوم.",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "في ساحة رمادية ماطرة تنفتح مظلة حمراء، فيلوّن الفالس الساحة كلها.",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "في عالم مرسوم لا يلمع فيه سوى الذهب، تنطفئ الشمس؛ فتحمل فتاة آخر مصباح إلى قمة الجبل وتعيد إليها نورها.",
+  "Instruments & Evidence": "أدوات وأدلّة",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "فيلم إطلاق Tidy، تطبيق خيالي: مؤشر واحد مدفون يعيد مئات النوافذ إلى أماكنها في لمح البصر.",
+  "Light & Lines": "ضوء وخطوط",
+  "Line Diagrams": "مخططات خطية",
+  "Logo & Lottie": "شعار وLottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "ساعة الذروة الصباحية في بلدة تبدو كمجسّم: زحام وقطارات وأناس صغار.",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "جريدة سينمائية وصور وشهادات وتحقيق 1937 على ساعة واحدة: خمسة مصادر تشير إلى البقعة نفسها.",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "ليلة رأس السنة يأتي الوحش نيان إلى البلدة، وقصاصة ورق عملاقة صنعتها فتاة تضيء القرية لتطرده.",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "النحلة تصنع 1/12 ملعقة صغيرة من العسل طوال حياتها؛ القلم يتبع قطرة صفراء من الزهرة إلى البرطمان حتى تصير الصفحة كلها ملصقًا.",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "قلم حبر جاف أزرق على ورق كريمي: الظل يأتي فقط من موضع التظليل، كرسمة دفتر عادت إليها الحياة.",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "حركة واحدة متصلة من شريحة كبد إلى نواة واحدة؛ دائرتان، عُدّتا بكسلًا بكسلًا، تختلفان 2.4 مرة في الأزرق.",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "يوم في نيويورك بتقنية الفاصل الزمني: أنهار من الضوء، وشبكة على إيقاع الأجزاء الستة عشر، و1899 بجوار اليوم.",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "نقطة تتضاعف كل عشر سنوات: 128 بعد سبعين عامًا، و6.02 دون فائدة مركّبة، والسنوات العشر الأخيرة تساوي كل ما سبقها.",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "قلم تقني رفيع ينقّط عموديًا: الظل كثافة نقاط فقط، كلوحة قديمة من التاريخ الطبيعي.",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "فكرة واحدة تحمل الإعلان كله: تفاعل متسلسل على طاولة، كل لحظة فيه اصطدام يُطلق التالي، من ضغطة زر واحدة إلى عشر مهام منجزة.",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "ليلة عند جهاز تفتيش في مطار: باور بانك، وزجاجة ماء، وستة سرطانات حيّة تتحرك في الأشعة المقطعية.",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "منعطف نهر واحد، أربعة فصول، لقطة واحدة؛ يتبدل كل فصل حين تنحني الشجرة الكبيرة ثم ترتدّ.",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "قلم حبر رفيع على ورق دافئ: شارع على قناة فيه بيوت شاي وحمّامات، وقرويون يقضون حوائجهم، ونوافذ تضيء والنهار يتحول ليلًا.",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "خط واحد متصل يرسم حياة كاملة، ثم ينتقل القلم إلى طفل.",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "تترات افتتاحية لفيلم تجسس متخيَّل من 1964: مطاردة مفتاح مسروق حتى تنتظم الأشكال في العنوان.",
+  "Painting & Illustration": "رسم وتوضيح",
+  "Print & Printmaking": "طباعة وفن الطبع",
+  "Product Launch · onetake": "إطلاق منتج · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "طيور الكركي اليابانية في وادٍ بهوكايدو، لقطة سكراتشبورد واحدة، تعدّ عكسيًا من 33 إلى 1,927.",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "الأنهار تصير مسارات نحاسية بينما يجري التيار 2,080 كم من سد إلى شاحن هاتف.",
+  "Screens & Interfaces": "شاشات وواجهات",
+  "Sketch & Board": "رسم وسبّورة",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "طبقات زيتية سريالية ناعمة تحت شمس منخفضة: أشياء مستحيلة، وظلال طويلة، ومنطق حلم هادئ.",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "خيوط قطنية تُطرَّز على الكتان في طارة من خشب الزان، كل غرزة تُخاط أمامك على الشاشة.",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "ضوء الشمس يعبر نافذة كاتدرائية من الفجر إلى الغروب، موقظًا كل لوح من حكاية الفارس والتنين.",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "عشر شموس تحرق الأرض حتى يشد الرامي هو يي قوسه، حكاية تُروى بدمى جلدية على ستارة مضاءة.",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "كتيّب إمباير ستيت لعام 1931 ينسب الفضل لبنّائيه؛ وفيلم الموقع وصور هاين تجيب: 2,500 في اليوم.",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "القهوة في فنجانك تتحول إلى حبة كرز حمراء، ثم تمشي عائدة إلى الفنجان: نضج، وتجفيف، وتحميص، وطحن، تغيير لون واحد في كل مرة على صفحة رصاص واحدة.",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "تاريخ الذكاء الاصطناعي كلعبة إيقاع: النماذج تصعد إلى المسرح على النبضة، وبطاقة تقييم تختم العرض.",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "الدقيقة الأخيرة من إطلاق Artemis II دون قطع: خلية تنفتح إلى تسع، وتندمج في واحدة عند الاشتعال.",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "المنارة تنطفئ؛ فتاة تحمل آخر شعلة عبر غابة ليلية وتصعد منحدرات العاصفة.",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "القمر لا يستطيع النوم، فتصعد طفلة صغيرة إلى السطح لتغني له تهويدة.",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "البرقية قالت 57 ثانية؛ وتحت العدسة المكبّرة تقول سلبيات الأخوين رايت الزجاجية والأرشيف: 59.",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "الإجمالي يقول العلاج B؛ أظهِر أعمدة حجم الحصى المخفية فيفوز A في كل مجموعة. مفارقة سيمبسون في ورقة واحدة، خلية واحدة = مريض واحد.",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "آلاف من خطوط الرياح بالحبر، محسوبة من أدق مسار، ترسم الإعصار الهائل ياغي: العين تنفتح فوق بحر الصين الجنوبي، واليابسة في هاينان، والدوامة تتفكك في فيتنام، وأسبوع كامل مطويّ في خط أخير.",
+  "Traditional Crafts": "حِرَف تقليدية",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "مسافرون يصعدون إلى طائرة إيزومترية، والترتيب يُظهر لماذا تكون إحدى الطرق أسرع بنحو الضعف.",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "اثنا عشر عامًا من طاقة الرياح والشمس مكدّسة كألواح حقيقية، تلتف حول قرص من خشب الجوز حتى تتقدم الشمسية.",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "والدان جديدان يجمعان سرير طفل من دليل أثاث مفكك، عشر خطوات على صفحة بزاوية 45°؛ والخطوة العاشرة لم تكن في الدليل قط.",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "فتح علبة ولقطات مقرّبة لـAura، سمّاعات زجاجية خيالية، بمسحات ضوء شريطي وانكسارات ضوئية.",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "لمسات زيتية غير ممزوجة متجاورة لتمزجها العين: ضوء على الماء، وغسق، وقارب يعبر الخليج.",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "فحم الكرمة على ورق القطن، مُلطَّخ، ومرفوع بالممحاة، ومعاد رسمه فوق شبحه.",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "تُعاد رسم صورة شعارك بصيغة SVG نظيفة، ثم تُبعث فيه الحياة قطعةً قطعة وفق مبادئ ديزني للتحريك: كشف ينتهي تمامًا عند علامتك.",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "فيديو حديثك كما هو: ترجمة كلمة بكلمة تواكب الصوت، وبطاقة اسم، وبطاقات رسومية بسيطة فوق النقاط الأساسية.",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "بلا أي خط مرسوم: أوراق ممزقة بحواف ليفية بيضاء، وقطع مقصوصة بالمقص، تلقي كلٌّ منها ظلًا ناعمًا.",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "لعيد ميلاد ابني، اصنعوا رسومًا متحركة لصاروخ مبني من مكعبات الألعاب ينطلق إلى القمر.",
+   "أريد أن أُظهر كيف تتحول مجموعة المكعبات الجديدة في متجر ألعابنا قطعةً قطعةً إلى بيت صغير.",
+   "أريد فيديو يُبنى فيه هرم الجيزة خطوة بخطوة من المكعبات ويعلّم الأطفال تاريخه."
+  ],
+  "paper-popup": [
+   "لحكاية ما قبل النوم لابنتي: يُفتح الكتاب فيقفز أرنب صغير من غابة ورقية.",
+   "سيصدر كتابنا الجديد للأطفال قريبًا، وأريد إعلانًا تنبثق فيه الصفحات كالكتاب المجسّم.",
+   "أريد أن أُظهر في كتاب ورقي مركبًا شراعيًا صغيرًا يعبر النيل بين جزر أسوان."
+  ],
+  "tilt-shift": [
+   "اعرضوا زحام الصباح في محطة مترو العتبة بالقاهرة كأنه مدينة ألعاب صغيرة.",
+   "أريد إعلانًا يعرض مشروعنا السكني والشوارع المحيطة به من الأعلى كأنه مجسّم مدينة مصغّرة.",
+   "أريد مشاهدة حركة الصباح قرب سوق الحميدية في دمشق، بالسيارات والباعة، كأنها عالم ألعاب."
+  ],
+  "lowpoly-island": [
+   "اصنعوا إعلانًا تشويقيًا للعبتنا الجديدة تظهر فيه جزيرة وقرية من البحر مربعًا مربعًا.",
+   "أريد أن أشاهد بهدوء قرية تنمو ببطء على جزيرة صغيرة ثم تضيء النجوم ليلًا.",
+   "أريد أن أشرح للأطفال كيف نمت قرية صيادين تدريجيًا على إحدى جزر فرسان."
+  ],
+  "glass-product": [
+   "اعرضوا زجاجة سيروم الوجه الجديد لدينا بشكل جميل، والضوء ينساب عليها فتتلألأ.",
+   "أريد فيديو تعريفيًا لسماعات الأذن الجديدة: فتح العلبة ولقطات قريبة أنيقة.",
+   "أريد أن أعرض زجاجة العطر التي اشتريتها هدية لعيد ميلاد أمي كأن الضوء يلعب حولها."
+  ],
+  "memphis-diorama": [
+   "أريد مشهدًا بألوان زاهية تتعاقب فيه الفصول على منعطف من نهر النيل.",
+   "اصنعوا مشهدًا لطيفًا لأعلى موقعنا: مقهى صغير تتبدّل الفصول من حوله.",
+   "أريد أن أُظهر للأطفال كيف تزهر شجرة الليمون أمام بيتنا وتثمر وتتساقط أوراقها على مدار العام."
+  ],
+  "isometric-picture-book": [
+   "اشرحوا بالرسوم لماذا يكون الطابور الواحد في البنك أسرع.",
+   "أريد أن أشرح للمرضى نظام أرقام الانتظار الجديد في عيادتنا بطريقة واضحة.",
+   "أريد أن أشرح للأطفال لماذا يكون الصعود إلى الحافلة من الخلف أسرع."
+  ],
+  "crayon-world": [
+   "اصنعوا فيديو تذكاريًا نطير فيه فوق قرية جدي حتى نصل إلى النخلة التي غرسها.",
+   "أريد قصة تكريمًا لمعلمتي القديمة: رحلة إلى المدرسة كأنها ملوّنة بأقلام شمع الأطفال.",
+   "أريد أن أروي رحلة شاب من القرية إلى المدينة بحثًا عن عمل، برسوم شمعية كأن طفلًا رسمها."
+  ],
+  "rubber-hose": [
+   "اصنعوا إعلانًا لمطعم الفلافل لدينا بأسلوب الكرتون القديم: قرص فلافل يطارد صحن الحمّص.",
+   "أريد كرتونًا مضحكًا يطارد فيه فنجان شاي مكعب سكر هاربًا حول المطبخ.",
+   "أريد تعليم الأطفال تنظيف أسنانهم بكرتون قديم تطرد فيه الفرشاة والمعجون الجراثيم."
+  ],
+  "cel-anime-80s": [
+   "اصنعوا قصة فتاة توصيل على دراجة نارية في ليلة ممطرة في بيروت، عليها أن توصل الطرد قبل الفجر.",
+   "أريد فيديو لأغنية فرقتنا الجديدة: مدينة ليلية بأضواء النيون كأنمي الثمانينيات.",
+   "أريد أن أروي ذكرى ركوبنا الدراجات مع أصدقاء الطفولة بألوان الرسوم المتحركة التي شاهدناها صغارًا."
+  ],
+  "scifi-toon": [
+   "اصنعوا كوميديا عن عالِم فتح بوابة ليشرب كوب شاي فسقط في سلسلة من العوالم الغريبة.",
+   "أريد إعلانًا مضحكًا يُظهر سرعة تطبيق التحويلات لدينا بالقفز من كوكب إلى آخر.",
+   "أريد كرتونًا مجنونًا عن أخوين يعودان بالزمن في مركبة فضائية لأنهما نسيا الواجب المنزلي."
+  ],
+  "midcentury-toon": [
+   "اشرحوا تركيب فلتر الماء الجديد لدينا في ثلاث خطوات، كفيلم تعليمي من الخمسينيات.",
+   "أريد فيديو مضحكًا بأسلوب الكرتون القديم لأعلّم أمي إجراء مكالمة فيديو.",
+   "أريد أن أُظهر الاستخدام الصحيح لقِدر الضغط كأنه كرتون توعوي من الزمن القديم."
+  ],
+  "comic-history": [
+   "أريد أن أُظهر بخفة، كأنه قصة مصوّرة، كيف انتقلت عاصمة مصر بين منف وطيبة والإسكندرية والفسطاط والقاهرة.",
+   "اصنعوا قصة مصوّرة مضحكة عن ثلاثة مقاهٍ في حيّنا تتنافس على الزبائن.",
+   "اشرحوا بقصة مصوّرة كيف انتقلت أرض الضفة بين قريتين من جانب إلى آخر مع مرور السنين."
+  ],
+  "manga-panels": [
+   "أريد أن أقسّم إلى لوحات مانغا ثانيةً واحدة يطير فيها الحمام في ساحة المسجد الأموي.",
+   "قدّموا الكاميرا الجديدة في متجرنا بلوحات مانغا تظهر واحدة تلو الأخرى.",
+   "اصنعوا تذكارًا للحظة عبور أختي الصغيرة خط النهاية في السباق، بلوحات كالقصص المصوّرة."
+  ],
+  "dataviz": [
+   "أريد أن يروي الرسم البياني بنفسه قصة خمسين عامًا من درجات حرارة الصيف في الرياض من بيانات الأرصاد.",
+   "اعرضوا مبيعات مشغل الخياطة العائلي لدينا خلال خمس سنوات برسم بياني جميل.",
+   "أريد أن أشرح للطلاب برسم بياني تطوّر صادرات التمور السعودية عامًا بعد عام."
+  ],
+  "white-model": [
+   "أريد أن أُظهر على نموذج أبيض كيف ارتفعت مباني وسط دبي طابقًا طابقًا من بيوت البراجيل حتى برج خليفة.",
+   "اصنعوا فيديو معرض يعرض مخطط أراضي مشروعنا السكني مضاءً خطوة بخطوة على نموذج أبيض.",
+   "أريد أن أُظهر تدريجيًا على نموذج أبيض مخطط المدينة القديمة في فاس وأسوارها من بيانات الخرائط."
+  ],
+  "data-physical": [
+   "أريد أن أعرض إنتاج الطاقة الشمسية وطاقة الرياح في المغرب سنةً بسنة كأنه ألواح مكدّسة يمكن لمسها.",
+   "اعرضوا أرقام المبيعات من التقرير السنوي لشركتنا كأنها ألواح خشبية مرصوصة.",
+   "أريد أن أعرض محصول مزرعة النخيل العائلية خلال عشر سنوات كأنه أشياء حقيقية مكدّسة."
+  ],
+  "transit-map": [
+   "اعرضوا محطات مترو الرياض تظهر واحدة تلو الأخرى على خريطة مطبوعة.",
+   "أريد أن أُظهر بأسلوب خريطة المترو كيف توسّعت خطوط الحافلات في عمّان على مرّ السنين.",
+   "أريد أن أعرض كيف زادت المدن التي تصلها شركة الشحن لدينا خلال عشر سنوات كخريطة مترو."
+  ],
+  "map-explainer": [
+   "اشرحوا بالخريطة، بالتقريب من الكرة الأرضية، كيف يجري نهر النيل من منابعه حتى الدلتا.",
+   "أريد فيديو بخريطة يشرح لماذا تمرّ سفن الشحن العالمية عبر مضيق هرمز.",
+   "أريد أن أشرح بالخريطة والتضاريس الحقيقية كيف تتآكل ضفة الوادي قرب قريتنا."
+  ],
+  "pip-simulation": [
+   "وضّحوا بكائنات صغيرة تتحرك كيف ينتقل مرض معدٍ من شخص إلى آخر.",
+   "أريد أن أجرّب بكائنات صغيرة ماذا يحدث عندما يتنافس الباعة في السوق على الأسعار.",
+   "أريد أن أُظهر للطلاب كيف يعمل الانتقاء الطبيعي، وهم يرون الأجيال تتغير أمام أعينهم."
+  ],
+  "caption-news": [
+   "اصنعوا خبرًا قصيرًا يُشاهَد بلا صوت عن بيانات الأرصاد لصيف هذا العام الذي سجّل حرارة قياسية.",
+   "أريد خبرًا قصيرًا بالنصوص يعرض الأرقام الحقيقية لحملة التبرعات في حيّنا.",
+   "أريد أن يُفهم تقرير تراجع أعداد خلايا النحل في العالم فورًا على الهاتف بفضل النصوص."
+  ],
+  "newsreel": [
+   "أريد أن أعرض عصر ترام الإسكندرية في الثلاثينيات بصور أرشيفية كجريدة سينمائية قديمة.",
+   "بمناسبة مرور خمسين عامًا على متجرنا، اصنعوا جريدة سينمائية قديمة من صور جدي.",
+   "أريد أن أروي دهشة الناس حين ظهر الراديو لأول مرة بعناوين الصحف القديمة كجريدة سينمائية."
+  ],
+  "countdown": [
+   "أريد أن أعدّ الدقيقة الأخيرة قبل قصّ الشريط في افتتاح متجرنا، مقسّمًا الفيديو الحقيقي إلى مربعات.",
+   "اجمعوا فيديوهات أصدقائي من ليلة رأس السنة على هيئة عدٍّ تنازلي للثواني العشر الأخيرة.",
+   "أريد تقسيم فيديو حقيقي لإطلاق صاروخ إلى تسعة مربعات تندمج في صورة واحدة لحظة الاشتعال."
+  ],
+  "city-symphony": [
+   "حرّروا لقطاتي المتسارعة ليوم في القاهرة على إيقاع الموسيقى كسيمفونية مدينة.",
+   "أريد أن أقطّع على الإيقاع صور بيروت القديمة جنبًا إلى جنب مع فيديوهات اليوم.",
+   "لفندقنا، اصنعوا مقدمة من مشاهد مراكش من الصباح حتى الليل متزامنة مع الموسيقى."
+  ],
+  "visual-investigation": [
+   "أريد أن أعيد ترتيب حادث السير عند تقاطع شارعنا على خط زمني واحد من فيديو كاميرا المراقبة والصور وأقوال الشهود.",
+   "أريد أن أتحقق بالأدلة من مكان وزمان التقاط صورة فيضان منتشرة على مواقع التواصل.",
+   "أعيدوا بناء تسلسل حريق المصنع زمنيًا من الصور والتقرير وأقوال الموظفين."
+  ],
+  "kino-montage": [
+   "أريد أن أُظهر كيف أسّس جدي مطحنتنا العائلية بالصور القديمة ودفاتر الحسابات وجهد العمال.",
+   "أريد أن أجمع صورًا وفيديوهات قديمة لآلاف الناس يتعاونون في موسم الحج لأُظهر قوة العمل الجماعي.",
+   "بمناسبة مرور عشرين عامًا على مصنعنا، اصنعوا مونتاجًا حادًا من الصور الأرشيفية وأرقام الموظفين."
+  ],
+  "telestrator": [
+   "أريد أن أحلّل بالخطوط على فيديو المباراة الحقيقي كيف عاد فريق حيّنا في الشوط الثاني.",
+   "اصنعوا فيديو تدريبيًا يوقف تسجيل مباراة كرة سلة ويرسم حركات أقدام اللاعبين.",
+   "أريد أن أشرح بالأسهم تمركز لاعبي فريق المدرسة في لقطات الأهداف."
+  ],
+  "news-package": [
+   "اصنعوا نشرة كالأخبار التلفزيونية بعناوين ولوحات أسعار عن تغيّر أسعار الذهب والبنزين والخبز هذا الأسبوع.",
+   "أريد أن أعرض أخبار مدرستنا لهذا الشهر مقسّمة إلى فقرات كبرنامج إخباري حقيقي.",
+   "اجمعوا أخبار التقنية لهذا الأسبوع وقدّموها بأسلوب استوديو الأخبار."
+  ],
+  "ascii-crt": [
+   "قدّموا أداتنا البرمجية الجديدة كأنها تُرسم بالحروف على شاشة خضراء قديمة.",
+   "أريد قصة روبوت على القمر نام سنوات طويلة ثم يردّ على إشارة من الأرض بالحروف.",
+   "ارسموا بالحروف تهنئة عيد ميلاد كأنها على شاشة الحاسوب القديم الذي استخدمه أبي في شبابه."
+  ],
+  "silent-film": [
+   "اصنعوا فيلمًا صامتًا عن فتى المخبز يطارد رغيفًا متدحرجًا ثم يتقاسمه مع طفل جائع.",
+   "أريد إعلانًا مضحكًا بالأبيض والأسود على طريقة الأفلام الصامتة لمخبزنا العريق.",
+   "أريد أن أروي كيف ذهبت مع أبي للصيد فاصطدنا حذاءً قديمًا بدل السمك، كفيلم صامت."
+  ],
+  "backrooms": [
+   "اصنعوا قصة رعب عن موظف ليلي جديد في مكتب أصفر لا نهاية له يصوّر ليلته الأولى وهو يتبع القواعد المعلّقة على الجدار.",
+   "أريد إعلانًا تشويقيًا للعبة الرعب الجديدة لدينا لشخص تائه في ممر طويل مخيف.",
+   "أريد قصة مرعبة لشخص يصوّر وحده بهاتفه ليلًا ممرّ مستشفى مهجور لا ينتهي."
+  ],
+  "scratch-film": [
+   "أريد قصة يراعة صغيرة تسافر فوق بركة مظلمة بضوئها الخافت.",
+   "اشرحوا بخطوط ضوء محفورة في الظلام كيف تصعد أسماك الأعماق إلى الأعلى كل ليلة.",
+   "أريد أن أُظهر أضواء سوقنا الرمضاني الليلي تضيء واحدًا تلو الآخر، كأنها محفورة على الفيلم."
+  ],
+  "double-exposure": [
+   "أريد أن أدمج المناظر التي صوّرتها من جبال الأطلس حتى الصحراء في ظلال جمل وصقر وغزال.",
+   "لشركتنا السياحية في العُلا، اصنعوا مقدمة تُدمج فيها صور المدينة الحقيقية داخل ظل إنسان.",
+   "أريد أن أدمج صورًا قديمة للقرية التي نشأ فيها أبي داخل صورة جانبية له كتذكار."
+  ],
+  "pixel-rpg": [
+   "في ذكرى مرور عامين على علاقتنا، أريد عرض رحلتنا من يوم اللقاء حتى اليوم كأنها حفظ قديم في لعبة.",
+   "اصنعوا إعلانًا للعبتنا الجديدة على الهاتف بأسلوب ألعاب البكسل القديمة: البطل يقف أمام باب الزعيم.",
+   "أريد أن أروي سنة من حياتي الجامعية كأنها مراحل لعبة قديمة أتجاوزها واحدة تلو الأخرى."
+  ],
+  "hd-2d": [
+   "اصنعوا قصة: انطفأت المنارة، فحملت فتاة آخر شعلة عبر الغابة ليلًا إلى الجرف وسط العاصفة.",
+   "للعبتنا الخيالية الجديدة أريد إعلانًا لفريق أبطال يرتحل في وادٍ من المعابد القديمة.",
+   "أريد أن أعرض لأخي الصغير حكاية فتى يغادر قريته بحثًا عن تنين، كأنها لعبة جميلة."
+  ],
+  "microgame": [
+   "اعرضوا طريقة استخدام تطبيقنا الجديد بألعاب صغيرة سريعة تتتالى وتتسارع.",
+   "اصنعوا فيديو مضحكًا عن الاستيقاظ صباحًا والاستعداد للمدرسة كسلسلة ألعاب صغيرة متسارعة.",
+   "أريد أن أعلّم الموظفين الجدد ما يحتاجون معرفته في يومهم الأول بألعاب صغيرة تتسارع."
+  ],
+  "game-show": [
+   "اعرضوا إنجازات شركتنا هذا العام بإيقاع برنامج مسابقات، وفي النهاية بطاقة النتيجة.",
+   "أريد أن أعرض تاريخ الاتصالات من التلغراف إلى الهاتف الذكي كبرنامج مسابقات إيقاعي ممتع.",
+   "أريد أن أجمع أحداث عائلتنا هذا العام في برنامج مسابقات تلفزيوني مضحك."
+  ],
+  "swiss-motion": [
+   "اجعلوا ملصق حفلنا الموسيقي يرتّب نفسه وفق قواعد التصميم السويسري.",
+   "أريد أن أقدّم الهوية الجديدة لاستوديو التصميم لدينا: الشبكة والخط والألوان تصطف واحدًا تلو الآخر.",
+   "أريد أن أعلّم طلاب التصميم بوضوح خمس قواعد لتكوين صفحة الملصق."
+  ],
+  "spy-titles": [
+   "اصنعوا شارة افتتاحية كأفلام التجسس في الستينيات: أشكال تتسابق ثم تصير اسم فيلمنا.",
+   "أريد شارة افتتاح جذابة بأسلوب أفلام الجاسوسية لحفل الذكرى السنوية لشركتنا.",
+   "لزفاف صديقي، اصنعوا شارة افتتاح قديمة الطراز تقدّم العروسين كجاسوسين."
+  ],
+  "art-deco": [
+   "اصنعوا دعوة لعشاء فندقنا بتصميم ذهبي فخم من ثلاثينيات القرن الماضي.",
+   "أريد قصة عامل مصعد في فندق قديم فاخر عليه أن يوصل رسالة قبل منتصف الليل.",
+   "اصنعوا فيديو دعوة فخمًا بأسلوب آرت ديكو للذكرى الثلاثين لزواج والديّ."
+  ],
+  "pictogram-motion": [
+   "اصنعوا قصة: مظلة نُسيت في الحافلة تنتظر على رف المفقودات، وحين يعود المطر تنفتح مع مظلات كثيرة.",
+   "أريد أن أشرح للسكان طريقة فرز النفايات برموز تصويرية تتحرك على الإيقاع.",
+   "أريد فيديو هوية لمهرجاننا تظهر فيه رموز السيارة والقطار والطائرة على الإيقاع."
+  ],
+  "bauhaus-shapes": [
+   "اشرحوا بالدوائر والمربعات مدى قوة الفائدة المركّبة في الادخار.",
+   "أريد أن أشرح لأعضاء جمعيتنا الادخارية كيف تعمل، بأشكال باوهاوس.",
+   "اصنعوا بطاقات افتتاحية لفصول الدرس تتحرك فيها أشكال حمراء وصفراء وزرقاء."
+  ],
+  "flat-space-explainer": [
+   "اصنعوا شرحًا للمقاييس: من درب التبانة إلى الأرض ثم الوطن العربي وأخيرًا فيروس واحد.",
+   "أريد أن أُري الأطفال مع مسبار صغير كم تبعد كواكب المجموعة الشمسية بعضها عن بعض.",
+   "لقناتنا التعليمية، اشرحوا برسوم بسيطة كيف تدور الأقمار الصناعية حول الأرض."
+  ],
+  "text-flash-cuts": [
+   "اصنعوا إعلانًا لفيلم إثارة بومضات نصية: رسالة، مكالمة، درجات سُلّم… تقترب أكثر فأكثر.",
+   "أريد أن أعرض بقوة شعار فريقنا الشبابي بكلمات كبيرة تومض واحدة تلو الأخرى.",
+   "اصنعوا شارة مثيرة للمسلسل الجديد بقطع سريع بين النصوص والصور."
+  ],
+  "silhouette-rhythm": [
+   "اصنعوا فيديو موسيقيًا بالظلال عن طائر صغير يتأخر دائمًا عن السرب فيتعلم الإيقاع.",
+   "أريد فيديو لفريق كرة الطائرة لدينا: ظلال اللاعبين عند الغروب تتحرك على الإيقاع.",
+   "لافتتاح احتفالات العيد أريد ظلال أناس يرقصون بالفوانيس على إيقاع الطبول."
+  ],
+  "satellite-briefing": [
+   "أريد أن أقارن بصور أقمار صناعية حقيقية كيف تقلّصت بحيرة قارون على مرّ السنين.",
+   "اشرحوا كنشرة قصيرة بصور الأقمار الصناعية حال الحقول في دلتا النيل قبل الفيضان وبعده.",
+   "أريد أن أُري الطلاب على خريطة الأقمار الصناعية كيف تغيّرت غابات المانغروف على ساحل البحر الأحمر خلال عشر سنوات."
+  ],
+  "briefing-board": [
+   "أريد أن أقارن ثلاثة تصاميم لجسر على الوادي يصل إلى قريتنا بالتكلفة والمتانة والقياسات الحقيقية.",
+   "قارنوا على اللوحة ثلاثة مواقع لفرعنا الجديد ببيانات حقيقية عن الإيجار وحركة المارة.",
+   "أريد أن أقارن بالأسعار الحقيقية ثلاثة خيارات لكهرباء المنزل: ألواح شمسية ومولّد وبطارية."
+  ],
+  "lidar-survey": [
+   "أريد أن أكشف ببيانات المسح الليزري بقايا مستوطنة قديمة مدفونة تحت الرمال قرب العُلا.",
+   "اعرضوا تضاريس موقع البناء لدينا من بيانات المسح الليزري بالطائرة المسيّرة.",
+   "أريد أن أُظهر ماذا يظهر من أسوار مدينة جرش القديمة إذا أزلنا الأشجار بالمسح الليزري."
+  ],
+  "microscope": [
+   "أريد أن أُظهر تحت المجهر بصور حقيقية لماذا الطين المغربي (الغاسول) لدينا مفيد للبشرة.",
+   "للطلاب، كبّروا بشكل متواصل صور خلايا قشرة البصل الملتقطة في المختبر حتى النواة.",
+   "أريد أن أقارن بصور المجهر بنية حبوب صنفين من القمح لدينا."
+  ],
+  "archive-lighttable": [
+   "أريد أن أضع ألواح جدي الزجاجية القديمة ورسائله على طاولة ضوئية وأعيد بناء تاريخ العائلة.",
+   "اعرضوا تاريخ شركة القهوة لدينا على مدى ستين عامًا بدفاتر الحسابات الأصلية والملصقات القديمة.",
+   "للمتحف، أريد تكبير مخطوطة قديمة تحت العدسة وشرح ما كُتب فيها."
+  ],
+  "security-xray": [
+   "اصنعوا فيديو مضحكًا: حقائب تمرّ عبر جهاز الفحص في المطار، وفي إحداها سرطانات حيّة تتحرك.",
+   "أريد أن أُري العملاء كيف نفحص الطرود بالأشعة السينية في مستودع الشحن لدينا.",
+   "اعرضوا للأطفال بطريقة مشوّقة ما بداخل شاحن الهاتف المحمول عند رؤيته بالأشعة السينية."
+  ],
+  "dark-documentary": [
+   "أريد أن أعرض بأسلوب وثائقي قاتم وجادّ كيف بنى القدماء الهرم الأكبر.",
+   "اصنعوا وثائقيًا هندسيًا يعيد بناء أصعب ليلة في مشروع بناء السدّ لدينا.",
+   "اشرحوا كفيلم وثائقي فضائي كيف أصغت التلسكوبات الراديوية الضخمة إلى السماء."
+  ],
+  "thermal-camera": [
+   "اعرضوا كأننا ننظر بكاميرا حرارية لماذا شقتنا حارّة: الجدران والنوافذ والسقف.",
+   "أريد فيديو كأننا نراقب حيوانات الصحراء ليلًا بكاميرا حرارية.",
+   "أريد أن أُري عملاء ورشة الكهرباء لدينا كيف نكتشف الأسلاك المحمّاة بالكاميرا الحرارية."
+  ],
+  "circuit-board": [
+   "اعرضوا على هيئة لوحة دوائر كيف تسري الكهرباء من السدّ العالي حتى شاحن الهاتف في بيتنا.",
+   "أريد أن أُظهر بمسارات نحاسية رحلة منتجات متجر الإلكترونيات لدينا من المصنع إلى يد العميل.",
+   "أريد أن أشوّق الطلاب: الأنهار تتحول إلى خطوط نحاسية فتضيء المدينة كلها."
+  ],
+  "firefly-pointillism": [
+   "اصنعوا حكاية يراعة صغيرة تطرح الأسئلة بضوئها في الظلام فتجد أصدقاءها.",
+   "لعيد ميلاد أختي الصغيرة أريد فيديو تتجمع فيه نقاط ضوء كثيرة لتصير صورتها.",
+   "أريد أن أعبّر عن روح الفريق: أضواء كل عضو في فريقنا تجتمع لتصير نورًا كبيرًا."
+  ],
+  "flow-field": [
+   "ارسموا بخطوط حبر لتيارات الهواء كيف وصل إعصار شاهين من بحر العرب إلى ساحل عُمان.",
+   "أريد أن أشرح بآلاف خطوط الحبر المتدفقة كيف تحمل الرياح الموسمية الأمطار إلى جبال ظفار.",
+   "اعرضوا بخطوط متدفقة جريان نهر دجلة في موسم الفيضان واللحظات التي تجاوز فيها منسوب الخطر."
+  ],
+  "oscilloscope-math": [
+   "اشرحوا على شاشة راسم الذبذبات كيف تتراكب دوائر دوّارة لتصنع موجة مربعة.",
+   "لدروس الفيزياء الخصوصية لدينا، أريد أن أشرح كيف تعمل الموجات الصوتية بخطوط موجية خضراء.",
+   "أريد أن أُري الأطفال على راسم الذبذبات شكل موجة كل وتر من أوتار العود."
+  ],
+  "neon-tubes": [
+   "لافتتاح مطعمنا الليلي، اصنعوا قصة قطة نيون تركض بين اللافتات.",
+   "أريد فيديو لمدينة ليلًا تضيء فيه لافتات النيون في شارع الحمرا ببيروت واحدة تلو الأخرى.",
+   "اصنعوا فيديو لأغنية سيتي بوب كتبتها: ليلة ممطرة ورسوم نيون ترقص."
+  ],
+  "blueprint": [
+   "أريد أن أعرض آلة صغيرة لتقشير الحبوب اخترعتها على مخطط أزرق: رسم وتفكيك وإعادة تركيب.",
+   "قدّموا مضخة الماء الشمسية الجديدة التي ستطلقها شركتنا على مخطط هندسي.",
+   "أريد أن أشرح للأطفال على مخطط أزرق كيف تعمل آلة كبيرة لجمع مياه الأمطار."
+  ],
+  "iso-infographic": [
+   "اعرضوا في عالم صغير واحد رحلة القهوة من مزارع جازان حتى فنجان في مقهى بالرياض.",
+   "أريد أن أشرح بالرسوم مسار الطلب في شركتنا من لحظة الطلب حتى وصوله إلى البيت.",
+   "أريد أن أُفهم الأطفال كيف تنتقل حبة القمح من الحقل إلى المطحنة والمخبز ثم إلى مائدتنا."
+  ],
+  "teardown": [
+   "فكّكوا المروحة التي ننتجها قطعةً قطعةً بالأجزاء والمقاسات الحقيقية ثم أعيدوا تركيبها.",
+   "أريد فيديو تُفكّك فيه لوحة مفاتيحي حتى الشريحة، مع كل جزء بحجمه الحقيقي.",
+   "أريد أن أُري طلاب الميكانيكا مكوّنات محرك دراجة نارية بعد تفكيكه."
+  ],
+  "hardcore-info": [
+   "فكّكوا الهاتف واشرحوا من خلال الهوائي لماذا تضعف الإشارة عند الإمساك به من الزاوية.",
+   "أريد أن أُظهر بكل التفاصيل الهندسية الداخلية لماذا يوفّر برّادنا الجديد الكهرباء.",
+   "أريد أن أشرح للطلاب بالتفصيل لماذا تنقلب المظلة في الرياح القوية."
+  ],
+  "precise-mechanism": [
+   "اشرحوا بمقطع عرضي ملوّن كيف تدور التروس داخل ساعة يد ميكانيكية بلا بطارية.",
+   "أريد أن أُري العملاء كيف تعمل الآليات داخل ماكينة الخياطة القديمة لدينا.",
+   "اعرضوا للطلاب بمقطع عرضي لكل جزء كيف تتبدّل التروس في الدراجة الهوائية."
+  ],
+  "instruction-manual": [
+   "اصنعوا دليلًا مصوّرًا من عشر خطوات لزوجين يركّبان سرير طفلهما لأول مرة.",
+   "أريد فيديو بأسلوب دليل التعليمات ليتمكّن زبائن متجر الأثاث لدينا من تركيب رف الكتب بأنفسهم.",
+   "أريد أن أعرض خطوةً خطوةً الاستخدام الآمن لموقد الغاز برسوم كدليل التعليمات."
+  ],
+  "pen-plotter": [
+   "أريد أن أُظهر آلة رسم ترسم جبل طويق ليلًا تحت مصباح المكتب بالقلم من بيانات ارتفاع حقيقية.",
+   "اعرضوا خريطة التلال قرب قريتنا وخطوط الكنتور تُرسم واحدًا تلو الآخر.",
+   "أريد أن أُظهر آلة الرسم ترسم شعار استوديو التصميم لدينا ببطء بأقلام بأربعة ألوان."
+  ],
+  "assembly-line-diagram": [
+   "اعرضوا كيف يُهضم طبق الكشري في الجسم مرحلةً مرحلةً كأنه مصنع.",
+   "أريد أن أشرح بمخطط خط الإنتاج كيف تخرج زجاجة ماء من مصنع المياه لدينا.",
+   "أريد أن أشرح للأطفال رحلة قطرة دم في الجسم كأنها خط إنتاج في مصنع."
+  ],
+  "crayon-book": [
+   "اصنعوا حكاية قبل النوم: القمر لا يستطيع النوم، فتصعد فتاة إلى السطح لتغني له تهويدة.",
+   "أريد إعلانًا لكتاب الحكايات الجديد في مكتبة الأطفال لدينا كأنه مرسوم بأقلام الشمع.",
+   "أريد أن أعلّم الأطفال الحروف العربية بدءًا من الألف برسوم بأقلام الشمع."
+  ],
+  "watercolor": [
+   "اعرضوا في لقطة واحدة متصلة، كأننا نمشي داخل لوحة مائية، شروق الشمس على البتراء والمناطيد فوق وادي رم.",
+   "لشركة السياحة لدينا أريد رحلة بالألوان المائية من جبال الأطلس حتى شفشاون.",
+   "أريد أن أشرح للأطفال بالألوان المائية كيف تجري قطرة المطر من الجبل إلى النهر ثم البحر."
+  ],
+  "impasto": [
+   "اصنعوا فيديو: في ساحة رمادية ممطرة تنفتح مظلة حمراء، وتنتشر الألوان مع الموسيقى.",
+   "أريد فيديو مليئًا بالمشاعر لأغنيتي العاطفية الجديدة بألوان زيتية كثيفة.",
+   "لافتتاح معرضنا الفني، اصنعوا إعلانًا يعرض غروب القاهرة الإسلامية بضربات فرشاة زيتية كثيفة."
+  ],
+  "urban-sketch": [
+   "اعرضوا قبعة تطيّرها الريح بين البيوت القديمة في وسط البلد بالقاهرة، والألوان تلحق بها.",
+   "أريد أن أُظهر مقهانا الصغير وشارعه كأنهما رُسما سريعًا بالقلم ولُوِّنا بالألوان المائية.",
+   "أريد يوميات رحلة مرسومة أثناء المشي على كورنيش الإسكندرية."
+  ],
+  "colored-pencil": [
+   "اعرضوا بمقطع عرضي بأقلام التلوين كيف تتقاسم الأشجار الغذاء تحت الأرض عبر خيوط الفطريات.",
+   "أريد أن أُظهر بأقلام التلوين كيف يصعد الماء في نبتة بحديقتنا من الجذور حتى الزهرة.",
+   "أريد أن أشرح بمقطع عرضي بأقلام التلوين، كأنه كتاب قصص، كيف تعيش زهرة اللوتس تحت الماء."
+  ],
+  "risograph": [
+   "اصنعوا فيديو بطباعة الريزو: صباح جمعة على الدراجة في عمّان، نمرّ بالمخبز والحديقة ودرج الكلحة.",
+   "أريد إعلانًا لطيفًا لمتجر الحقائب اليدوية لدينا كأنه مطبوع بلونين أو ثلاثة.",
+   "لتقديم مجلتنا الشعرية الجديدة، اصنعوا فيديو بأسلوب الريزوغراف بألوان مُزاحة."
+  ],
+  "halftone-dossier": [
+   "اصنعوا ملف قضية مضحكًا لقطّنا السمين: يركض في الرابعة فجرًا ويُسقط الأكواب.",
+   "أريد أن أعرض قضية الكلب الذي مزّق الأحذية كملف تحقيق بصور منقّطة من الصحف القديمة.",
+   "لمتجر أغذية الحيوانات الأليفة لدينا أريد إعلانًا مضحكًا على هيئة ملف قضية عن قطة تسرق الطعام."
+  ],
+  "woodcut": [
+   "اصنعوا حكاية: قرية كاملة تصبّ جرسًا طوال الشتاء، وحين يُقرع لأول مرة يتوقف الثلج.",
+   "أريد أن أعرض عمل الحِرفيين في ورشة النحاس لدينا بصور بأسلوب الطباعة الخشبية.",
+   "اصنعوا إعلانًا لروايتي الأسطورية الجديدة بأسلوب الطباعة الخشبية."
+  ],
+  "engraving": [
+   "للمتحف، اعرضوا نحلة تُحفر على لوح نحاسي خطًّا خطًّا ثم تُلوَّن بالألوان المائية.",
+   "أريد إعلانًا بأسلوب النقش النحاسي القديم عن تراث تجارة العسل العائلية لدينا.",
+   "أريد أن أعرض أزهار الوطن العربي البرية واحدة تلو الأخرى كنقوش من كتاب تاريخ طبيعي قديم."
+  ],
+  "silkscreen-poster": [
+   "لشركة السياحة لدينا، اصنعوا دليلًا يعرض البتراء ووادي رم والبحر الميت كملصقات كبيرة.",
+   "أريد أن أعرض ملصقًا تلو الآخر رحلة عودة أخي إلى البيت بعد سنوات من العمل في الخارج.",
+   "أريد إعلانًا لمهرجاننا الموسيقي بأسلوب ملصقات الطباعة الحريرية."
+  ],
+  "printed-long-take": [
+   "اعرضوا سربًا كبيرًا من طيور النحام فوق البحيرة في لقطة واحدة متصلة كأنها محفورة.",
+   "أريد أن أعرض رحلة تسلّقنا من سفح الجبل حتى القمة كمنظر منقوش واحد متصل.",
+   "أريد أن أعرض رحلة بالقارب صعودًا في نهر النيل بلا قطع، كلوحة مطبوعة واحدة."
+  ],
+  "pop-art": [
+   "اشرحوا بصور بوب آرت متكررة أن معظم الموز في الأسواق نُسخ من صنف واحد.",
+   "أعلنوا عن البوظة الجديدة لدينا بملصقات بوب آرت بألوان زاهية.",
+   "أريد أن أُظهر بأسلوب البوب آرت والنقاط كم ملعقة سكر في كوب الشاي."
+  ],
+  "vintage-collage": [
+   "أريد أن أعرض تاريخ الطوابع المصرية القديمة بكولاج من صور أرشيفية وأوراق قديمة.",
+   "اعرضوا مجموعة جدي من العملات الورقية القديمة بمسح ضوئي حقيقي ككولاج مجلة.",
+   "أريد أن أروي تاريخ ورشة الفخار العائلية في الخليل بمزج إعلانات وصور قديمة."
+  ],
+  "dark-keynote": [
+   "قدّموا تطبيقنا الجديد بفخامة كعرض على المسرح بخلفية داكنة.",
+   "أريد إعلانًا يُظهر برنامج المحاسبة لدينا يرتّب فوضى الملفات بنقرة واحدة.",
+   "لذكرى تأسيس شركتنا الناشئة، اصنعوا فيلمًا تقديميًا فخمًا للميزات الجديدة."
+  ],
+  "living-screencast": [
+   "اعرضوا بلقطات شاشة حقيقية طريقة الطلب في تطبيق متجرنا الإلكتروني، وشخصية كرتونية تدلّ على الطريق.",
+   "أريد درسًا يعرض خطوة بخطوة على الشاشة الحقيقية كيفية حجز موعد في موقع عيادتنا.",
+   "اصنعوا فيديو تقفز فيه شخصية من تسجيل الشاشة الحقيقي لتعرض الميزة الجديدة في برنامجنا."
+  ],
+  "hologram-hud": [
+   "امسحوا دراجتنا الكهربائية الجديدة كصورة مجسّمة واعرضوا البطارية والمحرك والمكابح بإطارات تصويب.",
+   "لعرضها في المعرض، أريد أن أشرح مواصفات فلتر الماء لدينا بواجهة هولوغرام.",
+   "اصنعوا فيديو سينمائيًا تُمسح فيه مركبة ابني الفضائية اللعبة بالهولوغرام وتُعرض أجزاؤها."
+  ],
+  "desktop-flythrough": [
+   "اعرضوا صورة قطّتي تقفز من هاتفي إلى هاتف صديقتي عبر بطاقات التطبيقات.",
+   "أريد أن أُظهر ببطاقات على المكتب كيف تُرسل فاتورة إلى العميل من تطبيقنا.",
+   "أريد فيديو يشرح على مكتب مُشمس كيف يرسل الطلاب واجباتهم إلى المعلم من الهاتف."
+  ],
+  "spreadsheet": [
+   "اشرحوا بفتح أعمدة الجدول أين يذهب معظم مصروف بيتنا.",
+   "أريد أن أقارن خلية خلية في الجدول أرباح فرعَي مطعم الشاورما لدينا.",
+   "أريد أن أشرح للطلاب بجدول واحد مفارقة سيمبسون وكيف تخدع المجاميع الكلية."
+  ],
+  "one-bit-dither": [
+   "أريد أن أُظهر بنقاط بالأبيض والأسود كيف طُبعت أول صورة قريبة للقمر سطرًا سطرًا من الفاكس.",
+   "أريد أن أروي بأسلوب الطباعة بالأبيض والأسود كيف وصلت برقية من زمن جدي إلى القرية.",
+   "اصنعوا بنقاط بلونين مشهدًا ليليًا لآلات مطبعتنا الصغيرة القديمة وهي تعمل."
+  ],
+  "one-line": [
+   "ارسموا حياة أمي كلها بخط واحد، وفي النهاية تسلّم القلم لحفيدتها.",
+   "أريد إعلانًا بسيطًا تُرسم فيه قصة علامة متجر المجوهرات لدينا بخط واحد متصل.",
+   "لزفاف صديقتي أريد أن أرسم بخط واحد رحلتهما من يوم اللقاء حتى حفل الزفاف."
+  ],
+  "whiteboard": [
+   "اشرحوا على السبورة البيضاء كيف يعرف الهاتف مكاننا، عن الأقمار الصناعية ونظام GPS.",
+   "لدورة المحاسبة الإلكترونية لدينا، أريد أن أعلّم تسجيل الإيرادات والمصروفات على السبورة.",
+   "أريد أن أشرح للموظفين على السبورة كيف يعمل الدفع بالهاتف في متجرنا."
+  ],
+  "chalkboard": [
+   "اشرحوا بالطباشير على السبورة من أين جاءت كلمة «قهوة».",
+   "أريد أن أوضّح على السبورة هل صحيح أن الاستحمام بعد الأكل مباشرة يضرّ.",
+   "اعرضوا معادلة رياضية من دروسنا الخصوصية كأن المعلم يكتبها بالطباشير على السبورة."
+  ],
+  "sketchnote": [
+   "اعرضوا بملاحظات مصوّرة كم تنتج النحلة من العسل طوال حياتها، من الزهرة حتى البرطمان، حتى يصير ملصقًا.",
+   "اجمعوا أهم أفكار مؤتمر الأعمال الذي حضرته في صفحة ملاحظات واحدة بالرسوم.",
+   "أريد صفحة ملخّصة واحدة بالرسوم والأسهم عن خدمات متجرنا الصغير."
+  ],
+  "stick-explainer": [
+   "اشرحوا بشخصيات العيدان أن أي شخصين على الأرض يرتبطان عبر نحو ستة أشخاص.",
+   "أريد أن أعرض ببساطة بشخصيات صغيرة برنامج «ادعُ صديقًا» في متجرنا.",
+   "أريد أن أعرض بشخصيات العيدان كيف يتواصل أهل القرية مع أقاربهم العاملين في الخارج."
+  ],
+  "ipad-sketch": [
+   "اعرضوا فنجان قهوة عربية يتحول إلى حبة بن حمراء، ثم تُجفف وتُحمّص وتُطحن وتعود إلى الفنجان.",
+   "أريد أن أعرض طريقة صنع القطايف على صفحة رسم واحدة يتغير لونها مع كل خطوة.",
+   "أريد أن أشرح كيف نصنع صابون زيت الزيتون اليدوي كأنه يُرسم بالقلم على جهاز لوحي."
+  ],
+  "marker-paper": [
+   "احسبوا بالقلم العريض على الورق كم يبعد الأفق عن الشاطئ.",
+   "أريد أن أحلّ مسألة فيزياء خطوة بخطوة بالقلم العريض لطلاب دروسنا.",
+   "اصنعوا فيديو يُحسب فيه على الورق بالقلم العريض نسبة الخصم في متجرنا."
+  ],
+  "ink-wash": [
+   "اصنعوا قصة بالحبر: مبارز يمشي على سطح النهر ويشقّ التيار بضربة سيف واحدة.",
+   "لعلامة الشاي لدينا أريد إعلانًا هادئًا بالحبر بين الجبال والضباب.",
+   "أريد أن أعبّر عن قصيدتي بصور ضربات حبر تنتشر."
+  ],
+  "shadow-puppet": [
+   "اعرضوا بدمى ظلّ جلدية أسطورة الرامي الذي أسقط الشموس العشر التي أحرقت الأرض.",
+   "أريد أن أعرض للأطفال حكاية علي بابا والأربعين حرامي بدمى خيال الظل على شاشة مضاءة.",
+   "لافتتاح مهرجاننا الثقافي اصنعوا فيديو دعوة بأسلوب خيال الظل التقليدي (كركوز وعيواظ)."
+  ],
+  "ukiyoe": [
+   "اصنعوا رحلة مسافر نحو جبل بعيد، كل مشهد فيها لوحة طباعة خشبية، وذروتها موجة عظيمة.",
+   "أريد إعلانًا بأسلوب أوكييو-إي لافتتاح مطعمنا الياباني.",
+   "أريد أن أعرض صعود جبل موسى في سيناء بأسلوب الطباعة الخشبية اليابانية بشاعرية."
+  ],
+  "papercut-red": [
+   "اصنعوا حكاية: في ليلة رأس السنة الصينية يدخل وحش نيان القرية، فتضيء قصاصة الورق الكبيرة لفتاة وتطرده.",
+   "أريد فيديو بأسلوب قصاصات الورق الحمراء لتهنئة عملاء متجرنا بالسنة الصينية الجديدة.",
+   "اصنعوا إعلانًا لعيد منتصف الخريف لمخبز عائلي صيني في مدينتنا بقصاصات ورق حمراء."
+  ],
+  "paper-lantern": [
+   "أريد أن أعرض الرحلة الأخيرة لقطار قديم وأضواء نوافذه تنطفئ واحدة تلو الأخرى كفانوس ورقي.",
+   "ليوم تقاعد جدي، اصنعوا قصة المحطة التي عمل فيها كأنها تتوهج بالفوانيس.",
+   "لفندقنا السياحي أريد أن أعرض قطار الليل يعبر جبال الحجاز متوهجًا كالفانوس."
+  ],
+  "stained-glass": [
+   "اعرضوا الشمس تعبر نافذة الزجاج المعشّق من الصباح حتى المساء، فتستيقظ في كل لوح قصة فارس وتنين.",
+   "اصنعوا لبطاقة تهنئة عيد الميلاد حكاية بأسلوب الزجاج المعشّق.",
+   "أريد أن أعرض تراث كنيسة قديمة في القدس بقصة بأسلوب الزجاج المعشّق."
+  ],
+  "gilded-illumination": [
+   "اصنعوا حكاية: في عالم لا يتوهج إلا بالذهب انطفأت الشمس، فتحمل فتاة آخر فانوس إلى الجبل.",
+   "أريد فيديو شاعريًا لعيد الفطر كأنه منمنمة مذهّبة من مخطوطة.",
+   "أريد أن أعرض قصة ورشة التطريز بالذهب لدينا بأسلوب كتاب مخطوط قديم بمنمنمات مذهّبة."
+  ],
+  "line-art-ink": [
+   "أريد أن أعرض زقاقًا في القاهرة القديمة من الصباح حتى الليل كأنه مرسوم بالحبر: المقهى والباعة وأضواء المساء.",
+   "اصنعوا رسمًا خطّيًا لطيفًا لمطعم الفول لدينا، من الافتتاح المبكر حتى توافد الزبائن.",
+   "أريد أن أشاهد قرية نوبية على النيل: مراكبي وقطة وطيور، ثم الغروب وحلول الليل."
+  ],
+  "onetake-launch": [
+   "سنطلق تطبيقًا جديدًا لتأجير السكوترات، وأريد فيديو إطلاق مدته نحو 20 ثانية. سأرسل لقطات الشاشة.",
+   "اصنعوا إعلانًا تشويقيًا عصريًا لموقع يتيح طلب هدايا أعياد الميلاد.",
+   "أريد إعلانًا بلقطة واحدة متصلة بلا قطع لتطبيق يساعد الطلاب على تتبّع وقت المذاكرة."
+  ],
+  "onetake-demo": [
+   "أريد فيديو بتعليق صوتي بالعربية يشرح كيف نُصدر فاتورة ونعرض التقارير في تطبيق المحاسبة لدينا.",
+   "اصنعوا فيديو يعرض تطبيق حجز مواعيد العيادة خطوة بخطوة ليفهمه كبار السن. لقطات الشاشة متوفرة.",
+   "أريد فيديو بلغتين، العربية والإنجليزية، عن ثلاث ميزات جديدة في نظام نقاط البيع لدينا."
+  ],
+  "onetake-concept": [
+   "أريد إعلانًا مفاهيميًا لتطبيق توصيل: بضغطة زر واحدة تصل الطرود واحدًا تلو الآخر.",
+   "أريد إعلانًا لمقهى بلقطة واحدة متصلة، من حبة بن واحدة حتى الفنجان.",
+   "اعرضوا كيف يوفّر تطبيق التحويلات الوقت: سنة كاملة تنكمش إلى دقيقة واحدة."
+  ],
+  "hf-captions": [
+   "أضيفوا ترجمة نصية إلى الفيديو الذي أتحدث فيه عن متجري، وبطاقة باسم المتجر.",
+   "أريد أن تظهر النقاط الثلاث الرئيسية من مقابلتي المصوّرة على بطاقات.",
+   "اصنعوا ترجمة نصية لمقطع من بثّ مباشر على Facebook ليُفهم حتى بلا صوت."
+  ],
+  "hf-vertical": [
+   "اصنعوا مقطعًا عموديًا لـ TikTok: ثلاث نصائح لتحضير شاي بالنعناع لذيذ.",
+   "أريد إعلانًا سريعًا لتخفيضات الشتاء في متجر الملابس لدينا لـ Reels.",
+   "اعرضوا خمس عادات صباحية مفيدة بخط كبير لـ Shorts."
+  ],
+  "hf-music": [
+   "اصنعوا فيديو كلمات لأغنيتي. سأرسل ملف الأغنية.",
+   "أريد فيديو ملوّنًا متزامنًا مع إيقاع الأغنية القصيرة لمتجرنا.",
+   "اصنعوا فيديو من الصور متزامنًا مع إيقاع الأغنية التي سجّلناها لعيد الميلاد."
+  ],
+  "logo-reveal": [
+   "اصنعوا ظهورًا لشعار مقهانا مدته 5 ثوانٍ لبداية فيديوهات YouTube.",
+   "أريد تحويل شعار الشركة إلى حركة افتتاحية تظهر عند فتح الموقع، بإحساس هادئ وموثوق.",
+   "أريد أن يظهر شعار متجر ألعاب الأطفال بمرح وهو يقفز."
+  ],
+  "lottie-anim": [
+   "أريد حركة علامة صح تظهر في التطبيق عند نجاح الدفع.",
+   "اصنعوا مؤشر تحميل للموقع بلون علامتنا البنفسجي.",
+   "اصنعوا شريطًا سفليًا متحركًا يعرض الاسم والمنصب لاستخدامه في فيديوهات YouTube."
+  ],
+  "ad-marker-comic": [
+   "اصنعوا كرتونًا تصبح فيه القطة المفضلة لابنتي بطلة خارقة وتنقذ أطفال الحي.",
+   "أريد أن أعرض موقفًا مضحكًا يحدث كل صباح في مقهاي كقصة مصوّرة ملوّنة.",
+   "أريد كرتونًا فكاهيًا عن أخوين يتشاجران أثناء اللعب في العيد ثم يتصالحان."
+  ],
+  "ad-scrapbook": [
+   "اصنعوا فيديو يروي تاريخ عائلتنا من زواج جدي وجدتي حتى اليوم كألبوم صور قديم.",
+   "أريد أن أعرض تاريخ بناء قلعة صلاح الدين كألبوم من الأوراق القديمة والملاحظات الملصقة.",
+   "أريد أن أروي بدفاتر الحسابات القديمة والصور كيف صمدت ورشة النسيج العائلية لأكثر من خمسين عامًا."
+  ],
+  "ad-ballpoint": [
+   "أريد أن أعرض بهدوء، كأنه مرسوم بقلم الحبر الجاف، أمي وهي تُعدّ لي صندوق الغداء كل صباح.",
+   "قدّموا محافظي الجلدية اليدوية كأنها رُسمت بالقلم في دفتر ملاحظات.",
+   "اصنعوا قصة قصيرة بأسلوب رسم القلم عن المقعد الذي جلست عليه مع صديقي أيام المدرسة."
+  ],
+  "ad-broken-colour": [
+   "أريد أن أعرض بجمال قاربًا يعبر النيل عند الغروب، كلوحة زيتية.",
+   "أعلنوا عن نُزُلنا الصغير على الشاطئ بضوء الصباح كأنه لوحة فنية.",
+   "اصنعوا ذكرى رحلة: مناطيد تصعد بين معابد الأقصر عند الفجر."
+  ],
+  "ad-embroidery": [
+   "لعيد ميلاد أمي، اصنعوا فيديو تُطرّز فيه الزهور غرزةً غرزة ثم تظهر عبارة تهنئة.",
+   "أريد إعلانًا لمتجر الحقائب المطرّزة يدويًا كأنه يُطرّز بالخيط.",
+   "اعرضوا تغيّر الفصول كأن زهور الجبال وطيورها مطرّزة بالخيط على طريقة التطريز الفلسطيني."
+  ],
+  "ad-stipple": [
+   "أريد أن أشرح للأطفال مراحل حياة اليراعة برسوم منقّطة كأنها من كتاب علوم قديم.",
+   "قدّموا أصداف البحر الأحمر المختلفة واحدة تلو الأخرى برسوم حبر منقّطة.",
+   "أريد أن أعرض نبتة الحبّة السوداء من متجر الأعشاب لدينا كأنها من أطلس نباتات قديم."
+  ],
+  "ad-charcoal": [
+   "أريد أن أستعيد ذكرى أبي الراحل والأيام التي ذهبنا فيها للصيد معًا برسوم الفحم.",
+   "اصنعوا قصة قصيرة عن الليلة الأولى لشاب جاء من القرية إلى المدينة بحثًا عن عمل.",
+   "لدورة الرسم التي أقدّمها، أريد أن أُظهر رسم وجه بالفحم ومسحه وإعادة رسمه."
+  ],
+  "ad-flat-vector": [
+   "اشرحوا ببساطة كيف يُستخدم تطبيقنا لطلب الخضار عبر الإنترنت.",
+   "أريد أن أعرض برسوم عصرية رحلة من مسقط إلى نزوى ثم الجبل الأخضر.",
+   "اشرحوا بالرسوم لأصدقائي الأجانب كيف تُحضَّر القهوة العربية وتُقدَّم."
+  ],
+  "ad-cut-paper": [
+   "اصنعوا لابني حكاية الأرنب والسلحفاة كأنها مقصوصة من الورق وملصوقة.",
+   "أريد أن أُري الأطفال تعاقب الفصول بقطع ورق ممزّقة.",
+   "اصنعوا إعلانًا لطيفًا لكعك متجر الحلويات لديّ بورق ملوّن مقصوص."
+  ],
+  "ad-toy-theatre": [
+   "اصنعوا حكاية الأميرة والتنين الصغير كمسرح دمى من الكرتون لعرضها في عيد ميلاد ابنتي.",
+   "أريد إعلانًا لعرض فرقة الدمى في المهرجان تنزلق فيه الشخصيات على مسرح صغير.",
+   "اصنعوا حكاية علاء الدين والجنّي كأنها تُمثَّل على مسرح ورقي صغير للأطفال."
+  ],
+  "ad-storybook": [
+   "اصنعوا سلسلة حكايات قبل النوم بطلها ابني، حلقة لكل ليلة.",
+   "أريد فيديو تدعو فيه شخصية القطة في مكتبة الأطفال لدينا الأطفالَ إلى القراءة.",
+   "اصنعوا سلسلة حكايات للأطفال عن جمل صغير يرتحل من واحة سيوة حتى البحر."
+  ],
+  "ad-folk-tale": [
+   "اصنعوا حكاية قبل النوم من قصة جحا وحماره التي كانت أمي ترويها لي صغيرًا.",
+   "أريد قصة بطابع الحكايات الشعبية عن عائلة فلاحين في قرية يجنون محصول الزيتون.",
+   "قدّموا بدفء صناعة دبس التمر في قريتنا كأنها رسوم من كتاب حكايات قديم."
+  ],
+  "ad-dream-glaze": [
+   "أريد أن أعرض بيتًا صغيرًا يطفو في السماء رأيته في حلم طفولتي، كلوحة غريبة وجميلة.",
+   "اصنعوا فيلمًا قصيرًا فنيًا بسُلّم يبلغ الغيوم عن سؤال: من أين جئنا وإلى أين نمضي؟",
+   "لإعلان معرضي الفني اصنعوا مشهدًا حالمًا تظهر فيه مئذنة فوق سطح بحيرة ساكنة."
+  ],
+  "arch-diagram": [
+   "اشرحوا بمخطط كيف يصل الطلب من تطبيقنا إلى المطبخ، ويُطهى، ثم يذهب إلى المندوب.",
+   "أريد أن أُفهم الموظفين الجدد سير العمل في صيدليتنا العائلية من طلب البضاعة إلى المستودع والرفوف والكاشير.",
+   "اصنعوا فيديو بمخطط يشرح للطلاب كيف يمرّ التحويل من الهاتف عبر النظام المصرفي."
+  ],
+  "doc-mix": [
+   "اصنعوا فيديو وثائقيًا مدته نحو 3 دقائق عن ضخامة الحوت الأزرق وكيف تطوّر.",
+   "أريد فيديو بالخرائط والمخططات عن كيفية بناء الأهرامات وكيف صمدت آلاف السنين.",
+   "اصنعوا فيديو مدته دقيقة لـ Shorts بحقائق مدهشة عن أكبر النجوم مقارنةً بالشمس."
+  ]
+ }
+}

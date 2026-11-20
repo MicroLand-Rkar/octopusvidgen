@@ -1,0 +1,18 @@
+{
+  "slug": "onetake-demo",
+  "num": "102",
+  "en": "Narrated Feature Demo",
+  "cn": "功能演示",
+  "category_en": "Product Launch · onetake",
+  "film": "Pith, Walked Through",
+  "line": "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.",
+  "uses": [
+    "Feature demos",
+    "Onboarding",
+    "Voice-over & subtitles"
+  ],
+  "dur": 40,
+  "needs": [],
+  "skill": "onetake",
+  "license": "Noncommercial only (PolyForm Noncommercial 1.0.0). Films for a client or a business need a commercial licence (onetake Pro)."
+}

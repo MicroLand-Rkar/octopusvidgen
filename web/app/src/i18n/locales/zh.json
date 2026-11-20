@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "移除 {name}",
+  "att.tooBig": "未添加（超过 500 MB）：{names}",
+  "att.trayLabel": "已附加的文件",
+  "board.addHint": "图片、视频片段、人声、音乐、文档",
+  "board.addRefs": "添加参考素材",
+  "board.addStyle": "+ 融合一种风格",
+  "board.aspect": "画面比例",
+  "board.blendStyle": "已融合",
+  "board.chatTitle": "和 Claude 一起规划第 {n} 部影片",
+  "board.close": "关闭",
+  "board.delete": "删除",
+  "board.deleteConfirm": "要从此项目中删除 {name} 吗？",
+  "board.deleteError": "无法删除该文件",
+  "board.done": "完成（{n}）",
+  "board.download": "下载",
+  "board.dropHere": "将文件拖到这里，添加到此项目",
+  "board.emptyBody": "把图片、视频片段、人声或音乐拖到这里，然后在对话中和 Claude 一起规划第一部影片。",
+  "board.emptyTitle": "空项目",
+  "board.filter.all": "全部",
+  "board.filter.films": "影片",
+  "board.filter.made": "Claude 制作",
+  "board.filter.refs": "参考素材",
+  "board.filterLabel": "显示",
+  "board.helloNoStyle": "你好。先在上方选一种风格（或点一个推荐），然后告诉我这部影片要做成什么样。开始制作前，有不清楚的地方我会先问你。",
+  "board.hint": "用 + 选择参考素材，然后在对话中规划下一部影片",
+  "board.inProject": "此项目中",
+  "board.length": "时长",
+  "board.made": "Claude 制作",
+  "board.mainStyle": "主风格",
+  "board.make": "制作视频",
+  "board.makeError": "无法开始制作影片",
+  "board.makeHint": "立即制作影片（Ctrl/⌘ + Enter）",
+  "board.newChat": "新对话",
+  "board.open": "打开 {name}",
+  "board.pick": "用于下一部影片",
+  "board.pickHint": "你选的第一个为主，其余的会融合进去。",
+  "board.pickStyle": "选择风格",
+  "board.pickStyles": "选择风格",
+  "board.picked": "用于下一部影片",
+  "board.pickedLabel": "下一部影片的参考素材",
+  "board.placeholder": "描述第 {n} 部影片：发生了什么、有谁、什么氛围……",
+  "board.planFirst": "先在对话中规划 →",
+  "board.promptLabel": "下一部影片要做成什么样",
+  "board.ref": "参考素材",
+  "board.removeStyle": "移除 {name}",
+  "board.replyPlaceholder": "回复 Claude……",
+  "board.searchStyles": "搜索风格",
+  "board.starting": "正在开始……",
+  "board.suggestAgain": "重新推荐",
+  "board.suggested": "推荐",
+  "board.tooShort": "请再多写一点影片内容（至少 10 个字符）。",
+  "board.unpick": "不使用",
+  "board.unpickName": "不使用 {name}",
+  "board.uploadError": "无法添加文件",
+  "board.uploading": "正在添加 {n} 个……",
+  "board.usedBefore": "此项目中用过",
+  "board.voice": "旁白语言",
+  "film.askHead": "Claude 有问题想问你，回答后继续制作",
+  "film.attach": "添加附件",
+  "film.backSingle": "单个视频",
+  "film.briefTitle": "Claude 写的制作说明",
+  "film.cancel": "停止",
+  "film.canceledNote": "该视频已停止制作。",
+  "film.chatIdle": "发条消息，继续完善这个视频",
+  "film.chatLive": "视频正在制作中（无需再次点击按钮）。Claude 的工作过程会实时显示在这里。",
+  "film.chatTitle": "与 Claude 对话",
+  "film.downloadFile": "下载 {name}",
+  "film.downloadMp4": "下载 MP4",
+  "film.dropHere": "将文件拖到这里发送给 Claude",
+  "film.elapsedDone": "用时 {time}",
+  "film.elapsedLive": "已用时 {time}",
+  "film.estimateHint": "百分比是根据 Claude 当前所在步骤估算的。一个视频通常需要 10–20 分钟。",
+  "film.failedNote": "视频还没做出来。可以在右侧对话中查看原因，在那里回复即可继续制作。",
+  "film.headDone": "已完成",
+  "film.headFailed": "已暂停：在对话中回复即可继续",
+  "film.headQueued": "排队中",
+  "film.headRunning": "制作中",
+  "film.imagesGot": "已生成 {n} 张图片",
+  "film.inputsTitle": "你提供的素材",
+  "film.loadError": "无法加载该视频",
+  "film.loading": "加载中…",
+  "film.making": "Claude 正在制作视频…",
+  "film.noProject": "无",
+  "film.now": "当前",
+  "film.phLive": "给 Claude 留个言…（下一步开始前会读到）",
+  "film.phQuestion": "回答 Claude 的问题…",
+  "film.phResume": "回复…（发送后从中断处继续）",
+  "film.phSucceeded": "说说你想改哪里…（发送后开始修改）",
+  "film.progressLabel": "进度",
+  "film.projectFallback": "项目",
+  "film.projectLabel": "项目：",
+  "film.queuedWait": "正在排队…",
+  "film.send": "发送",
+  "film.sendError": "发送失败",
+  "film.sendLabel": "给 Claude 发消息",
+  "film.sizeKb": "{n} KB",
+  "film.stage.build": "制作画面、动效和声音",
+  "film.stage.finish": "导出视频",
+  "film.stage.images": "用 Flow AI 生成图片",
+  "film.stage.plan": "规划脚本",
+  "film.stage.read": "研究风格",
+  "film.stage.render": "渲染并检查",
+  "film.steps": "{n} 步",
+  "film.tagAnswer": "回答",
+  "film.tagNote": "留言",
+  "film.tagPlan": "策划对话",
+  "film.working": "制作中…",
+  "lang.label": "语言",
+  "nav.label": "工作室",
+  "nav.new": "新建视频",
+  "nav.projects": "我的项目",
+  "new.all": "全部（{n}）",
+  "new.aspect": "画面比例",
+  "new.attach": "添加附件",
+  "new.attachTitle": "添加附件（也可以拖拽或粘贴）",
+  "new.attachedCount": "已添加 {n} 个",
+  "new.badgeFlow": "✦ Flow AI 生图",
+  "new.badgeNoGen": "✦ 无图片生成器",
+  "new.cancel": "取消",
+  "new.category": "分类",
+  "new.create": "创建",
+  "new.dropHere": "将文件拖到这里",
+  "new.duration": "时长",
+  "new.episode": "第 {n} 集",
+  "new.filesNote": "这是一些文件。",
+  "new.flowBody": "Claude 会在你的 Chrome 中打开 Flow，生成所需的图片。制作视频期间请保持 Chrome 开启。这会消耗少量 Flow 额度。",
+  "new.flowTitle": "✦ 图片将由 Google Flow AI 自动生成。",
+  "new.hello": "你好！用大白话告诉我，你想要一个什么样的{style}风格视频。有不清楚的地方我会问你。",
+  "new.language": "语言",
+  "new.listSep": "、",
+  "new.make": "制作视频",
+  "new.makeRest": "其余交给 Claude 决定，直接开做",
+  "new.material": "添加素材",
+  "new.materialHint": "文件、音频、照片（可选）",
+  "new.maxFiles": "最多可添加 {max} 个文件。",
+  "new.messageLabel": "给 Claude 发消息",
+  "new.ncAfter": "用途免费。用于客户或商业项目需要购买商业授权（onetake Pro）。",
+  "new.ncBefore": "此风格仅限",
+  "new.ncStrong": "非商业",
+  "new.needField": "此风格需要{field}。",
+  "new.needs": "需要{list}",
+  "new.newProject": "+ 新建项目…",
+  "new.noGen": "此风格需要 AI 生成的图片，但本服务器未开启图片生成器，所以暂时无法制作视频。",
+  "new.noProject": "不归入项目（单次）",
+  "new.noReply": "Claude 暂时无法回复",
+  "new.pickLeft": "从列表中选择一种风格。",
+  "new.pickStyle": "请先选择风格。",
+  "new.pickStyleShort": "请先选择风格",
+  "new.placeholder": "写下你的想法…可以把图片和文件拖拽或粘贴到这里",
+  "new.planDraft": "方案草稿（Claude 将发送的制作说明）",
+  "new.planReady": "✓ 视频方案（Claude 将发送的制作说明）",
+  "new.project": "项目",
+  "new.projectFailed": "项目创建失败",
+  "new.projectName": "项目名称",
+  "new.samples": "示例：点一下直接发送",
+  "new.searchLabel": "搜索风格",
+  "new.searchPlaceholder": "搜索：水彩、科普、新闻…",
+  "new.seconds": "{n} 秒",
+  "new.send": "发送",
+  "new.startFailed": "视频启动失败",
+  "new.starting": "正在启动…",
+  "new.step1": "1. 选择风格",
+  "new.step2": "2. 和 Claude 一起策划",
+  "new.styleBeforeFiles": "请先选择风格，再添加文件。",
+  "new.stylesLabel": "风格",
+  "new.tellFirst": "先告诉 Claude 你想要什么。",
+  "new.thinking": "思考中…",
+  "new.uploading": "正在上传文件…",
+  "projects.addEpisode": "+ 第 {n} 集",
+  "projects.assets": "可复用素材（{n}）：",
+  "projects.back": "← 我的项目",
+  "projects.bibleEmpty": "第一集完成后，Claude 会在这里记录。",
+  "projects.bibleHint": "Claude 关于角色、场景和风格的笔记，每集都会读取并更新",
+  "projects.bibleTitle": "系列设定集",
+  "projects.cancel": "取消",
+  "projects.cancelEdit": "取消",
+  "projects.continueEpisode": "继续制作第 {n} 集",
+  "projects.create": "创建",
+  "projects.createError": "创建失败",
+  "projects.descLabel": "讲的是什么",
+  "projects.descPlaceholder": "角色、世界观、风格…Claude 每一集都会参考",
+  "projects.edit": "编辑名称/简介",
+  "projects.emptyBody": "项目就像一个文件夹。把一个系列的各集放在一起，Claude 会沿用其中的角色、场景、风格和音乐。",
+  "projects.emptyCta": "创建第一个项目",
+  "projects.emptyTitle": "还没有项目",
+  "projects.episodeCount": "集数：{n}",
+  "projects.episodeN": "第 {n} 集",
+  "projects.firstEpisodeCta": "制作第 1 集",
+  "projects.loadError": "加载失败",
+  "projects.loading": "加载中…",
+  "projects.nameLabel": "项目名称",
+  "projects.namePlaceholder": "例如：茶馆争霸",
+  "projects.nameRequired": "请输入名称",
+  "projects.newProject": "+ 新建项目",
+  "projects.newVideo": "新建视频",
+  "projects.noEpisodesBody": "第一集会确定角色、场景和风格，之后各集都会沿用。",
+  "projects.noEpisodesTitle": "还没有剧集",
+  "projects.optional": "可选",
+  "projects.save": "保存",
+  "projects.saveError": "保存失败",
+  "projects.seconds": "{n} 秒",
+  "projects.singleCount": "影片：{n}",
+  "projects.singles": "单个视频",
+  "projects.singlesHint": "不属于任何项目的视频",
+  "projects.title": "我的项目",
+  "src.anyFile": "任意文件",
+  "src.badType": "{name}：不支持此文件类型。",
+  "src.canSource": "没有也没关系，Claude 会自己查找公开资料。",
+  "src.choose": "选择文件",
+  "src.closeCommon": "− 收起",
+  "src.dropOr": "或拖到这里 · {types} · 最多 {max} 个",
+  "src.material.none": "从零绘制",
+  "src.material.optional": "欢迎提供你自己的素材",
+  "src.material.required": "基于真实资料制作",
+  "src.maxFiles": "最多只能添加 {max} 个文件。",
+  "src.openCommon": "+ 添加你自己的配音、音乐、照片、logo",
+  "src.optional": "可选",
+  "src.remove": "移除",
+  "src.removeLabel": "移除 {name}",
+  "src.required": "必填",
+  "src.tooBig": "{name} 超过 500 MB。",
+  "status.canceled": "已取消",
+  "status.failed": "失败",
+  "status.queued": "排队中",
+  "status.running": "制作中",
+  "status.succeeded": "已完成"
+ },
+ "style": {
+  "3D model": "3D 模型",
+  "A 16-bit pixel RPG drawn in code.": "用代码绘制的 16 位像素 RPG。",
+  "A 1930s rubber-hose cartoon drawn in code.": "用代码绘制的 1930 年代橡皮管卡通。",
+  "A 3D world redrawn in crayon, all in code.": "用蜡笔重绘的 3D 世界，全部由代码完成。",
+  "A 60s spy title sequence cut from paper in code.": "用代码剪纸做成的 60 年代谍战片片头。",
+  "A Chinese ink painting made in code.": "用代码绘制的中国水墨画。",
+  "A Memphis-style diorama built in code.": "用代码搭建的孟菲斯风格立体场景。",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "logo 的 PNG、JPG 或 SVG 文件，尽量大而清晰。",
+  "A beat-locked game show drawn in code; no source material needed.": "用代码绘制、卡着节拍的游戏综艺；无需原始素材。",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "由代码图形构成的新闻简报；可融入你的视频、照片或 logo。",
+  "A colour-coded mechanism modelled and animated in code.": "用代码建模并制作动画的彩色分区机械结构。",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "用代码绘制的彩铅剖面图；无需原始素材。",
+  "A copperplate engraving drawn in code from your facts.": "根据你提供的事实，用代码绘制的铜版画。",
+  "A crayon picture book drawn in code; no source material needed.": "用代码绘制的蜡笔绘本；无需原始素材。",
+  "A drawing or photo of the character to keep the same in every scene.": "角色的图画或照片，用来让角色在每个场景中保持一致。",
+  "A drawn production line explaining a process; no source material needed.": "用画出来的生产线讲解一个流程；无需原始素材。",
+  "A fictional glass product rendered in code; real products are not reproduced.": "用代码渲染的虚构玻璃产品；不复刻真实产品。",
+  "A film whose feel you want; its rhythm is measured, not copied.": "一部你想要那种感觉的影片；只测量它的节奏，不照搬。",
+  "A four-colour pop-art print made in code.": "用代码制作的四色波普艺术印刷。",
+  "A gilded manuscript painting made in code.": "用代码制作的描金手抄本绘画。",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "你的物体的发光线框，用代码建模或基于你的 3D 文件。",
+  "A layered paper-cut lightbox built in code.": "用代码搭建的多层剪纸灯箱。",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "用代码建模并绘制的机器线描剖面图。",
+  "A low-poly island world built in code.": "用代码搭建的低多边形海岛世界。",
+  "A mid-century cartoon drawn in code from your steps.": "根据你的步骤，用代码绘制的世纪中期卡通。",
+  "A model of your object to show as a wireframe.": "你的物体的模型，用于以线框形式展示。",
+  "A moving knife-painted oil painting made in code.": "用代码制作、会动的刮刀油画。",
+  "A paper pop-up book on a real-looking desk, made in code.": "用代码制作的立体纸书，摆在逼真的书桌上。",
+  "A pen-and-wash urban sketch drawn in code.": "用代码绘制的钢笔淡彩城市速写。",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "用于重刻成木刻版画的照片或画面，例如肖像。",
+  "A picture computed in spreadsheet cells; can use your own table.": "在电子表格单元格中计算出来的画面；可以使用你自己的表格。",
+  "A pixel-art miniature world built in code.": "用代码搭建的像素风微缩世界。",
+  "A post, notes or a sketch of the system to draw from.": "用来参照绘制的帖子、笔记或系统草图。",
+  "A printed case file with halftone characters, drawn in code.": "用代码绘制的印刷案件档案，角色采用网点风格。",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "用代码程序化生成的微缩小镇，以移轴效果拍摄。",
+  "A real simulation of little creatures run and filmed in code.": "用代码运行并拍摄的小生物真实模拟。",
+  "A risograph print made in code.": "用代码制作的孔版（Risograph）印刷。",
+  "A scene seen through a thermal camera, simulated in code.": "用代码模拟的热成像镜头下的场景。",
+  "A sci-fi sitcom cartoon drawn in code.": "用代码绘制的科幻情景喜剧卡通。",
+  "A scratchboard landscape long take made in code.": "用代码制作的刮板画风景长镜头。",
+  "A silkscreen travel poster printed in code.": "用代码印制的丝网印刷旅行海报。",
+  "A sketchnote page drawn in code.": "用代码绘制的涂鸦笔记页。",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "用代码制作抽象界面的软件发布片；由你的 logo 决定强调色。",
+  "A stained-glass window lit in code.": "用代码点亮的彩色玻璃窗。",
+  "A table whose values drive the picture.": "用数值驱动画面的表格。",
+  "A tablet sketch drawn and coloured in code.": "用代码绘制并上色的平板速写。",
+  "A toy-brick world built and animated in code.": "用代码搭建并制作动画的积木世界。",
+  "A track you have the rights to; otherwise music is composed for the film.": "你拥有版权的音乐；否则将为影片专门作曲。",
+  "A track you have the rights to; the film is cut to it.": "你拥有版权的音乐；影片将按它来剪辑。",
+  "A two-ink dithered 3D world made in code.": "用代码制作的双色抖动 3D 世界。",
+  "A vertical clip; set the frame to 9:16.": "竖屏短片；请将画面设为 9:16。",
+  "A watercolour painting brushed in code.": "用代码挥毫的水彩画。",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "基于开放数据或你自己图纸的真实建筑白模，由投影数据照亮。",
+  "A whiteboard explainer drawn in code.": "用代码绘制的白板讲解。",
+  "An SVG, logo or icon to animate, if there is one.": "需要做成动画的 SVG、logo 或图标（如果有的话）。",
+  "An assembly-manual drawing made in code from your steps.": "根据你的步骤，用代码制作的组装说明书插图。",
+  "An isometric infographic drawn in code.": "用代码绘制的等距视角信息图。",
+  "An isometric scene of people following a rule, made in code.": "用代码制作的等距场景，展示人们遵循某条规则。",
+  "An old recording you own that can play under the archive.": "你拥有的一段老录音，可以垫在档案画面下面播放。",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "把 App 界面做成书桌上的纸卡片，由代码制作；欢迎提供品牌色。",
+  "Archive film or video about your subject.": "关于你的主题的档案影片或视频。",
+  "Archive scans": "档案扫描件",
+  "Article or notes": "文章或笔记",
+  "Audio recordings or readings such as telemetry or weather.": "录音或读数，例如遥测数据或气象数据。",
+  "BOM or spec sheet": "物料清单或规格表",
+  "Bill of materials and spec sheet for part names and numbers.": "用于标注零件名称和数量的物料清单和规格表。",
+  "Black silhouettes moving to the beat, made in code.": "随节拍舞动的黑色剪影，由代码制作。",
+  "Brand feel": "品牌感觉",
+  "Brand fonts you are licensed to use.": "你有授权使用的品牌字体。",
+  "Building data": "建筑数据",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "基于产品自己的 CAD 文件制作；如果是你自己的产品则必须提供，否则我们使用开源硬件。",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "基于真实的显微扫描制作；可以发你自己的，或由我们找一张授权干净的切片。",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "基于真实的档案实物制作；可以发你自己的扫描件，或使用公有领域的藏品。",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "基于真实的激光扫描点云制作；可以发你自己的扫描，或使用公开的 LiDAR 测绘数据。",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "基于物体的真实照片制作；可以发你自己的，或使用授权干净的照片。",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "基于同一事件的实时影像制作；可以发你自己的，或使用公有领域的记录。",
+  "Built from your product: screenshots and a link make the UI and copy real.": "基于你的产品制作：截图和链接能让界面和文案真实还原。",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "基于该地点真实的高程和卫星影像制作，你的数据在上面发光呈现。",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "基于真实比赛画面制作；可以发你自己的片段，或由我们寻找开放授权的素材。",
+  "CAD files": "CAD 文件",
+  "Captions and cards are added over your own video.": "在你自己的视频上叠加字幕和卡片。",
+  "Carved in code; a photo can be recut into a woodcut plate.": "用代码雕刻；照片可以重刻成木刻版。",
+  "Chalk writing and drawing made in code; no source material needed.": "用代码制作的粉笔书写和绘画；无需原始素材。",
+  "Character designs": "角色设计",
+  "Character reference": "角色参考",
+  "Characters and scenes made of glowing points, all in code.": "由发光粒子构成的角色和场景，全部由代码完成。",
+  "Clip links": "片段链接",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "用真实的公有领域版画和老印刷品拼贴而成，手工剪裁。",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "交叉核对同一事件的真实影像、照片、文件和数据；优先使用你的素材。",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "用真实的档案影片、印刷品和录音剪辑而成；优先用你的，其余取自公有领域档案。",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "用真实影像、照片和原始文件剪辑而成；优先用你的，不足部分由公共档案补充。",
+  "Cut to your own song; send the track.": "按你自己的歌来剪辑；请发送音轨。",
+  "Dashcam, CCTV, phone or archive video of the event.": "该事件的行车记录仪、监控、手机或档案视频。",
+  "Data to plot": "要绘制的数据",
+  "Dataset": "数据集",
+  "Describe the voice you want, e.g. calm female, British English.": "描述你想要的声音，例如：沉稳的女声、英式英语。",
+  "Documents": "文件资料",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "完全用代码绘制成发光的终端文字；无需原始素材。",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "完全用代码绘制成金黑配色的装饰艺术风格；无需原始素材。",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "用代码绘制；你自己的老片段可以重绘成那个年代的墨线风格。",
+  "Drawn on a blueprint sheet in code; no source material needed.": "用代码绘制在蓝图纸上；无需原始素材。",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "根据核实过的数据绘制真实的线网；优先用你的，否则使用运营方的开放数据。",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "用某个地点的真实影像剪辑而成；可以发你自己的，或由我们寻找授权干净的片段。",
+  "Event footage": "事件影像",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "每个标记都是一个真实数字；可以发你的数据集，或使用开放授权的数据。",
+  "Family, company or sports clips to redraw as ink.": "要重绘成墨线风格的家庭、公司或体育片段。",
+  "Field data": "实地数据",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "用真实的风景照片填充动物剪影；可以用你的，或使用公有领域的照片。",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "按你的数字确定大小的包豪斯扁平图形；无需原始素材。",
+  "Flat science explainer zooming across scales, drawn in code.": "在不同尺度间缩放的扁平风科普讲解，由代码绘制。",
+  "Fonts": "字体",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "你拍摄或拥有版权的影像或照片；其余从开放资源中寻找或制作。",
+  "Generated images": "生成的图片",
+  "Gridded wind, current or flow data, if you have it.": "网格化的风场、洋流或流场数据（如果有的话）。",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "用代码制作的手绘质感 80 年代动画；无需原始素材。",
+  "Key points for cards": "卡片要点",
+  "Landscape photos": "风景照片",
+  "Large, clear photos of the real objects being compared.": "被比较的真实物体的大图、清晰照片。",
+  "Laser scan": "激光扫描",
+  "Line-ups or event data": "阵容或赛事数据",
+  "Line-ups or event data for the match.": "这场比赛的阵容或赛事数据。",
+  "Lines, stations, opening dates, lengths or ridership.": "线路、车站、开通日期、长度或客流量。",
+  "Link to the product or its documentation.": "产品或其文档的链接。",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "要回应或引用的 YouTube/TikTok 视频链接，用空格分隔。",
+  "Logos": "Logo",
+  "Logos to show, ideally SVG or transparent PNG.": "要展示的 logo，最好是 SVG 或透明背景 PNG。",
+  "Lyrics": "歌词",
+  "Marker drawing on paper, made in code.": "用代码制作的纸上马克笔画。",
+  "Match clips you have the rights to use.": "你有权使用的比赛片段。",
+  "Microscope scans": "显微扫描",
+  "Music": "音乐",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "要做成卡片展示的名字、数字或要点；否则从讲述内容中挑选。",
+  "Narration script": "旁白稿",
+  "Needs an image generator for characters and panels; your designs and products come first.": "需要图片生成器来生成角色和分镜；优先使用你的设计和产品。",
+  "Needs an image generator for the characters; your own designs come first.": "需要图片生成器来生成角色；优先使用你自己的设计。",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "需要图片生成器来生成木偶素材图；优先使用你自己的角色设计。",
+  "Neon signs built and animated in code.": "用代码搭建并制作动画的霓虹招牌。",
+  "Network data": "线网数据",
+  "Newspapers, magazines, letters or documents, scanned.": "扫描的报纸、杂志、信件或文件。",
+  "Object photos": "物体照片",
+  "Objects seen through an X-ray console, modelled in code.": "用代码建模、通过 X 光控制台看到的物体。",
+  "Old film or video about your subject.": "关于你的主题的老影片或视频。",
+  "One character, kept the same in every scene and episode.": "一个角色，在每个场景和每一集中保持一致。",
+  "One continuous line drawn in code.": "用代码绘制的一笔连续线条。",
+  "One idea carries the whole ad; your product appears as the result.": "一个创意撑起整支广告；你的产品作为结果出现。",
+  "Only if no image generator is connected: images made from our prompts.": "仅在未连接图片生成器时：根据我们的提示词生成的图片。",
+  "Period recording": "年代录音",
+  "Photos": "照片",
+  "Photos of people, products or places that should appear.": "需要出现的人物、产品或地点的照片。",
+  "Photos of the places the animal belongs to; shown in black and white.": "这种动物栖息地的照片；以黑白呈现。",
+  "Pictograms and cards animated in code.": "用代码制作动画的象形图标和卡片。",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "地名或经纬度坐标（如果从主题中看不出来的话）。",
+  "Place or coordinates": "地点或坐标",
+  "Plans, a city model or survey heights for your site.": "你的场地的图纸、城市模型或测量高程。",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "由机器笔绘制；地图和记录使用你提供或我们找到的真实数据。",
+  "Preferred voice": "偏好的声音",
+  "Print scans": "版画扫描件",
+  "Product link": "产品链接",
+  "Rapid microgames in changing art styles, all made in code.": "不断变换画风的快节奏小游戏，全部由代码制作。",
+  "Real maths drawn as oscilloscope light, computed in code.": "用代码计算、以示波器光线绘出的真实数学。",
+  "Real statistics built as physical objects; your own numbers or published open data.": "把真实统计数据做成实体物件；用你自己的数字或公开发布的开放数据。",
+  "Recordings or data": "录音或数据",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "用真实的档案影片、照片和文件重新剪辑；你的素材为主，档案补充空缺。",
+  "Red paper-cut scenes made in code.": "用代码制作的红色剪纸场景。",
+  "Redraws your real product's interface; screenshots help it match exactly.": "重绘你真实产品的界面；提供截图能还原得更准确。",
+  "Reference clip": "参考片段",
+  "Reference photo": "参考照片",
+  "Rendered found-footage of empty interiors, all made in code.": "渲染出来的空荡室内“伪纪录”影像，全部由代码制作。",
+  "Reports, statements or memos about the event.": "关于该事件的报告、声明或备忘录。",
+  "Routes or map data": "路线或地图数据",
+  "Routes, points or areas to draw on the map.": "要在地图上绘制的路线、地点或区域。",
+  "STEP, IGES or KiCad exports of your product.": "你的产品导出的 STEP、IGES 或 KiCad 文件。",
+  "SVG or icon": "SVG 或图标",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "你拥有版权的底片、信件、照片或剪报的扫描件。",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "你拥有版权的老版画、邮票或印刷品的扫描件。",
+  "Scans of reports, brochures, letters or photographs.": "报告、宣传册、信件或照片的扫描件。",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "由扫描光揭示的场景，用代码搭建；无需真实扫描数据。",
+  "Schedules, filings or results shown as paper.": "以纸质形式呈现的时间表、申报文件或结果。",
+  "Scratched-film animation made in code.": "用代码制作的刮胶片动画。",
+  "Screens of your product so the UI is redrawn accurately.": "你的产品的界面截图，用于准确重绘界面。",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "发送你的 logo；它会被重绘成干净的矢量图形并做成动画。",
+  "Shadow puppets on a lit screen, made in code.": "用代码制作的灯幕皮影戏。",
+  "Song lyrics, if this is a music video.": "歌词（如果这是一支 MV）。",
+  "Stick figures act out the idea, drawn in code.": "火柴人演绎你的想法，由代码绘制。",
+  "Streamlines of a real or modelled field such as wind or currents.": "真实或模拟的场（如风或洋流）的流线。",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "要绘制的测量、地形或实测数据（如果图纸要展示真实数据）。",
+  "Swiss grid motion graphics made in code.": "用代码制作的瑞士网格风动态图形。",
+  "The report or document the numbers come from, as PDF.": "数字所出自的报告或文件，PDF 格式。",
+  "The report your figures come from.": "你的数字所出自的报告。",
+  "The site to survey, if not clear from your topic.": "要测绘的场地（如果从主题中看不出来的话）。",
+  "The talking video to caption; it is kept as it is.": "要加字幕的口播视频；视频本身保持原样。",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "用三个词描述品牌应有的动感，例如：沉稳、精准、亲切。",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "该地点的延时、移动延时、航拍视频或照片。",
+  "UI screenshots": "界面截图",
+  "Ukiyo-e woodblock prints made in code.": "用代码制作的浮世绘木版画。",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "使用该地点的真实卫星影像；如果你没有，我们会获取公开影像。",
+  "Video or audio of the same event from several angles.": "同一事件多个角度的视频或音频。",
+  "Voice recording": "录音",
+  "Voice-over script": "配音稿",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "旁白要说的内容（如果你有）；否则根据你的主题来写。",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "旁白要说的内容（如果你有）；否则替你写好。",
+  "Whole-slide scans or micrographs with a scale.": "全切片扫描或带比例尺的显微照片。",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "你会得到用于 App 或网站的 Lottie .json 文件，以及一个用于预览的 MP4。",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "你会得到影片、一个可编辑的 .excalidraw 文件、一张 PNG 和一个 GIF。",
+  "Your GIS layers": "你的 GIS 图层",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "用 HTML 重建你的 App 界面，并配上语音逐步演示；请发送每个要展示的功能的界面。",
+  "Your character designs or product photos; otherwise generated.": "你的角色设计或产品照片；否则自动生成。",
+  "Your clips": "你的片段",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "你的片段、开放授权素材、用于评论的其他频道片段和 Flow AI 图片，与代码绘制的信息图混剪，配泰语旁白。",
+  "Your figures as a table; otherwise open published data is used.": "以表格形式提供你的数字；否则使用公开发布的开放数据。",
+  "Your figures, e.g. from an annual or ESG report.": "你的数字，例如来自年报或 ESG 报告。",
+  "Your footage": "你的影像",
+  "Your logo": "你的 logo",
+  "Your own character or product designs; otherwise they are generated.": "你自己的角色或产品设计；否则自动生成。",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "你自己的片段、开放授权素材和 Flow AI 图片，与代码绘制的信息图混剪；不使用其他频道的内容。",
+  "Your own footage or b-roll stills to grade into the package.": "你自己的影像或空镜照片，调色后融入整体包装。",
+  "Your own narration; otherwise we use a synthetic voice.": "你自己的旁白；否则使用合成语音。",
+  "Your own site, drone or terrestrial scan.": "你自己的场地、无人机或地面扫描。",
+  "Your own surveys or GIS layers, if the place is yours.": "你自己的测绘数据或 GIS 图层（如果这是你的地方）。",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "你自己的视频片段；否则寻找授权干净的档案影像。",
+  "Your song": "你的歌",
+  "Your subject drawn as a circuit board in code.": "把你的主题画成一块电路板，由代码完成。",
+  "Your video": "你的视频",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "160 只植绒小豆豆抢豆子：跑得快的先吃饱，也先耗尽，20 代之后，整块棋盘变成了蓝色。",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "1926 年：报纸说查尔斯顿舞会毁了美国人的膝盖；可在福特自家的野餐会上，孩子们照跳不误。",
+  "3D & Miniature": "3D 与微缩",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "1918 年一版航空邮票，飞机印倒了：24 美元买下，被拆开散落各处，第 66 号至今下落不明。",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "为 Reels、TikTok 和 Shorts 打造的 9:16 短片：第一秒就抓人，大号动态字，节奏利落，静音也能看懂字幕。",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "为 App 或网站制作的 Lottie 动画，交付 .json 文件和 MP4：加载动画、图标、成功状态、下三分之一字幕条、数字计数和小型宣传片。",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "周日早晨骑车穿城而过——面包店、公园、河畔——每到一站多一种油墨，直到三块错位的版叠印在一起。",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "面包店小伙计追着一条滚下山的面包，最后把它掰成两半，分给饥饿的小女孩。",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "黑底手绘的架构图或流程图，发光的光点沿着流向奔跑；同时附送可编辑的 Excalidraw 文件和 GIF。",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "把人体剖开，变成一座倒着运转的工厂：12:30 吃下的三明治被一站一站拆解，六小时后，它化作赶公交的力气。",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "积木宇航员用零件拼出火箭，飞向一颗积木月亮。",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "纸板玩具剧场：花纹纸、带贴纸白边的水粉剪纸，布景片在舞台上滑来滑去。",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "一张猫咪照片在洒满阳光的桌面上跳过一张张 App 卡片，从一部手机跳到朋友的手机。",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "从你到陌生人的一条手链：1967 年用信件验证，用比地球还大的圆环来解释，最终环绕全球闭合。",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "一只胖橘猫因测试重力和凌晨 4 点跑酷而受审，最终无罪释放。",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "笨手笨脚的新兵熬过五秒一关的新兵营，越来越快，直到最终 Boss：平安着陆回家。",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "一只咖啡杯满厨房追赶逃跑的方糖，1930 年代卡通风。",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "一杯咖啡从种植园到你手中的旅程，尽在一个等距世界里。",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "一张音乐会海报按五条瑞士设计法则自动排版；第五条是：只打破其中一条。",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "送货女孩骑车穿过雨中的霓虹都市，要在黎明发射前送到一盘磁带。",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "一支马克笔在海滩上算出地平线有多远，再告诉你：爬高一百倍，只能多看远十倍。",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "一条手指长的灯笼鱼在黑暗中上升半公里，用自身的光藏起影子，原来它只是每晚上浮的无数生灵之一。",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "萤火虫的每一次闪烁都是一个问题：女孩化身小鹿得到回答，在风暴中失去所有光亮，又用最后一点光向整片黑夜发问。",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "第一人称飞越蜡笔村庄，飞向老人花园里的一朵花；然后是他的眼睛，和他说的话。",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "一群火烈鸟踩着每个节拍起舞，只有一只小鸟总慢半拍；同伴在水面留下的涟漪教会了它节奏。",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "泛黄的相册页：撕碎的卡片、胶带、手工上色的版画、打字机标签，还有勒索信式的拼贴字母一起讲故事。",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "1930 年的豪华酒店：行李员和电梯、旋转门赛跑，要在午夜前送出一封信。",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "一百年的夏季气温，让图表自己讲故事。",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "一位厌世天才打开传送门只为买杯咖啡，却一路跌进越来越离奇的宇宙。",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "激光测绘剥去康涅狄格森林的树冠，发现了 3.4 公里的古老农田石墙。",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "一镜到底的 App 发布片：输入框展开成日历，日历流入手机，每个节拍都从上一个生长而来。",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "一封信、一通电话、一面窗墙、十三级台阶：叫他别回头的女孩总是又近了一步，直到她转过头来。",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "一个以变焦镜头为眼的小探测器，向下一站射出虚线视线，带我们从银河系一路缩小到病毒。",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "月球基地的 AI 沉睡四十年后收到地球信号，用字符画出“家”来回复。",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "为你自己的歌剪的 MV：从音轨中测出节拍和段落，歌词、形状和色彩随之律动。",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "一位从不露面的旁白：真实影像、3D 与 AI 替身、尺度信息图、地图和字幕轮番上阵，讲述一个惊人的真实故事。",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "一幅博物图版自行雕刻：刻刀划开铜版，蜜蜂一线一线成形，一层水彩让它活了过来。",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "一只霓虹猫去街尾招牌上偷金鱼，打碎了鱼缸，冒雨把渐渐暗淡的鱼送回自家招牌上的高脚杯里。",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "新来的夜班员工拍下自己在无尽黄色办公室的第一晚，照着墙上的规则行事。",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "一座只有钢笔速写的公园；风把她的草帽吹到哪里，色彩就跟到哪里。",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "手机捏着角就没信号；拆开一看，金属边框原来就是天线，被切成手一握就能连上的几段。",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "一本立体书在桌上翻开；名叫 Pip 的小精灵穿越纸上世界，最后跳进我们的世界。",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "一张印刷地铁图，从 1993 年的一条 6 公里线路，生长到 21 条线路、906 公里。",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "有旁白的产品演示：用截图重建 App 自身界面，镜头逐一推近每项功能，配字幕，还有其他语言版本。",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "投影一层层为鹿特丹的白色模型上色，从 1940 年的空地到今天的高楼。",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "三步装好扫地机器人，讲成一部 1950 年代的课堂教学片。",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "卫星循着地图找到咸海，看到的却是一片沙漠；只有被人筑坝的那部分回来了。",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "1969 年 7 月 21 日，帕克斯的一场风暴：一座 64 米天线倾到极限仍坚守，为全世界接住了登月画面。",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "街头摄影师追着一道奔跑的光，直到鸽群腾起的瞬间；她的口袋相机把那一秒切成三十格。",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "剑客踏水过河，一剑劈开激流。",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "雪夜里，热像仪环绕一栋老公寓：漏风的窗户、墙里的管道、在温热引擎盖上熟睡的猫，以及改造一年后的同一栋楼。",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "旅人一张满版丝网海报接一张地穿越世界，票根记着离家的距离，直到彼岸变成归途。",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "旅人走向远山；每个镜头都是一幅木版画，高潮是一道巨浪，结尾是那座山和整幅长卷。",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "一个村庄用整个冬天铸一口钟；钟声第一次响起时，雪停了。",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "一块不用电池的手表被剖开：三个系统逐一染色，抽出擒纵机构后轮系狂转，一次放慢的嘀嗒又让一切释放。",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "一把落在公交车上的黄伞，在失物架上熬过晴天，风暴再来时与另外 312 把一同撑开：物件、车辆、天气和标志化作踩准节拍的几何图标。",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "酒精马克笔赛璐璐填色，一道粗轮廓下压着硬边阴影：会动的明亮漫画世界。",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "商店里几乎每根香蕉都是同一株植物的复制品：一整墙一模一样的印版，一根被斑点吃黑的老香蕉，一阵色彩化作许多香蕉。",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "1871 到 1945 年间，阿尔萨斯-洛林四度易手：每次都有人撕掉旧纸贴上新纸，而住在上面的女人从未搬过家。",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "美国损失了 130 万个蜂群，蜂群总数却上升了 6%：一条静音也能看懂的新闻短片。",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "一辆电动自行车被扫描成全息影像；目标框锁定电池、电机和刹车。",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "发明家的蓝图绘出、爆炸、再组装一台捕云机器，它的修订云开始下雨。",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "一座岛和它的村庄从空旷海面上一块块生长，每一块都是一个音符，直到星夜降临。",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "一列老夜车跑最后一趟，从雪山小站穿过长长的隧道驶向大海，终点时亮着的车窗一盏盏熄灭。",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "夜里台灯下，绘图仪用四支笔根据真实高程数据画出珠穆朗玛峰，最后写下它的高度。",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "在最终 Boss 门前，英雄存了档，存档画面重播了整段旅程。",
+  "Cartoons": "卡通",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "粉笔写下一个关于两个汉字的流行说法，擦掉，再把“射”字追溯到三千年前。",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd 从终端跳进 Claude App，一镜到底演示规划模式和自我检查。",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "干净的钢笔工具形状、平涂、长投影和细微颗粒：会动的利落现代插画。",
+  "Data & Maps": "数据与地图",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "树会互相喂养吗？一幅铅笔画沉入草下，跟着一粒糖沿真菌丝线到达下一棵树，再拉远看到整片地下相连的森林。",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "半场 0 比 3 落后，费内巴切 12 分钟连进三球：定格、标注、分屏、射门分布图。",
+  "Edit & Documentary": "剪辑与纪录",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "1966 年 2 月：月球第一张特写以报纸传真形式抵达英国射电望远镜，两色油墨逐行打印，早了一天，还被拉得太高。",
+  "Film & Tape": "胶片与磁带",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "跟着雨水，从澳大利亚红色沙漠腹地走到绿色海岸，一路不间断的彩绘漫步。",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "一周内四条 AI 新闻做成完整的播出包：节目串单、标题条、价格板、参数卡。",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "四种桥梁在同一面简报墙上接受测试，由必须从桥下通过的那艘船选出胜者。",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "从地球仪一路下探到全球五分之一石油挤过的海峡：两条航道、一道切开海床的水道，还有只能分流一小部分的输油管。",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "夜幕降临，从山到海：雄鹿、狼、鹰、鲑鱼和鲸，各自在剪影里装着自己的栖息地，直到鲸的港湾落在真实的海岸上。",
+  "Games": "游戏",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "温柔的绘本铅笔与水彩，专为一个反复出现、每个场景都保持一致的角色绘制。",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "铅笔稿上的水粉与水彩：前景浓厚，向远处渐薄成淡彩和裸露的铅笔线。",
+  "Graphic & Type": "平面与字体",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "半个开源键盘在一圈环绕中拆解到芯片，再按真实尺寸合拢。",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "怎样用圆滚出一个方形？旋转的圆叠成方波，直到深入一个角，发现那个永远不会消失的 9% 尖峰。",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "手机怎么知道你在哪：GPS、原子钟，以及相对论每天多出的 38 微秒。",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "灰蒙蒙的雨天广场上，一把红伞撑开，一曲华尔兹把整个广场染上色彩。",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "在只有金色会发光的彩绘世界里，太阳熄灭了；女孩提着最后一盏灯登上山顶，把光还给太阳。",
+  "Instruments & Evidence": "仪器与证据",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "虚构 App Tidy 的发布片：一个被埋没的光标让上百个窗口瞬间归位。",
+  "Light & Lines": "光与线",
+  "Line Diagrams": "线条图解",
+  "Logo & Lottie": "Logo 与 Lottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "一座宛如模型的小镇的早高峰：车流、火车和小小的人。",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "新闻片、照片、证词和 1937 年的调查报告放在同一条时间线上：五个来源都指向同一个地点。",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "除夕夜，年兽进城，一个女孩的巨幅剪纸照亮村庄，把它吓跑。",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "一只蜜蜂一生只酿 1/12 茶匙蜂蜜；钢笔追着一滴黄色从花到罐，直到整页变成一张海报。",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "米色纸上一支蓝色圆珠笔：明暗全靠排线的位置，像一页活过来的笔记本速写。",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "从肝脏切片一路推进到单个细胞核；两个圆逐像素计数，蓝色相差 2.4 倍。",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "纽约的一天，延时摄影：光之河流、卡在十六分音符上的网格、1899 年与今天并排。",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "一个点每十年翻一倍：七十年后是 128，不复利只有 6.02，而最后十年抵得上之前所有。",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "一支细针管笔垂直点画：明暗只靠点的疏密，像一幅古老的博物图版。",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "一个创意撑起整支广告：桌面上的连锁反应，每个节拍都是引发下一个的碰撞，从一次按键到十项任务完成。",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "机场安检台的一个夜晚：一个充电宝、一瓶水，还有六只在 CT 里爬动的活螃蟹。",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "一处河湾，四季，一镜到底；每当大树蹲下又弹起，季节就随之转换。",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "暖色纸上一支细墨笔：茶馆与澡堂林立的运河街，村民来往办事，天色入夜，窗户亮起。",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "一笔不断的线画完一生，然后笔传给了孩子。",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "为一部虚构的 1964 年间谍片做的片头：追逐一把被盗的钥匙，直到图形锁定成片名。",
+  "Painting & Illustration": "绘画与插画",
+  "Print & Printmaking": "版画与印刷",
+  "Product Launch · onetake": "产品发布 · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "北海道山谷里的丹顶鹤，一镜到底的刮画，从 33 只数回到 1,927 只。",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "河流化作铜线，电流从大坝奔流 2,080 公里，抵达手机充电器。",
+  "Screens & Interfaces": "屏幕与界面",
+  "Sketch & Board": "速写与板书",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "一轮低悬的太阳下，光滑超现实的油画罩染：不可能的物体、长长的影子和静谧的梦境逻辑。",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "榉木绷架上，绣线穿过亚麻布，每一针都在屏幕上缝出。",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "阳光从黎明到黄昏划过大教堂的玻璃窗，逐一唤醒骑士与恶龙故事的每一块彩窗。",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "十个太阳炙烤大地，直到后羿弯弓射日，由灯幕上的皮影讲述。",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "帝国大厦 1931 年的宣传册列出了建造者；工地影片和海因的照片给出回答：每天 2,500 人。",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "你杯中的咖啡变回一颗红色咖啡果，再走回杯子：成熟、晾晒、烘焙、研磨，在同一页铅笔稿上一次换一种颜色。",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "把 AI 的历史做成节奏游戏：模型踩着节拍登场，最后用一张成绩单收尾。",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "阿尔忒弥斯 2 号发射的最后一分钟，不剪辑：一格展开成九格，点火时又合而为一。",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "灯塔熄灭了；女孩带着最后的火苗穿过夜晚的森林，登上暴风雨中的悬崖。",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "月亮睡不着，小女孩爬上屋顶为它唱摇篮曲。",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "电报上写着 57 秒；放大镜下，莱特兄弟的玻璃底片和档案说是 59 秒。",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "总数显示疗法 B 更好；取消隐藏结石大小的列，A 在每组都胜出。一张表讲清辛普森悖论，1 格 = 1 位病人。",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "数千条墨色风线根据最佳路径计算，绘出超强台风“摩羯”：风眼在南海上空张开，登陆海南，螺旋在越南瓦解，整整一周折叠成最后一条线。",
+  "Traditional Crafts": "传统工艺",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "旅客登上一架等距视角的飞机，登机顺序揭示为何一种方式快了近一倍。",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "十二年的风电与光伏堆成实体圆盘，绕着胡桃木表盘盘旋，直到光伏反超。",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "两位新手照着平板家具说明书组装婴儿床，十个步骤画在一张 45° 页面上；第十步从来不在说明书里。",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "虚构玻璃耳机 Aura 的开箱与特写，灯条扫光与焦散。",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "未调和的油彩笔触并排而列，交给眼睛去混色：水面的光、黄昏、一艘渡湾的小船。",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "藤炭笔在棉浆纸上，抹开、用橡皮提亮，再在自己的残影上重画。",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "把你的 Logo 图片重绘成干净的 SVG，再按迪士尼动画原理逐块赋予生命：揭晓的一刻正好落在你的标志上。",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "你自己的口播视频，原样保留：逐字跟随声音的字幕、姓名条，以及在要点处出现的简洁图文卡片。",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "不画一条线：带白色纤维毛边的撕纸、剪刀剪出的纸片，每一片都投下柔和的阴影。",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "儿子过生日，想做一段积木搭的小火箭飞向月球的小动画。",
+   "想展示我们玩具店新到的积木套装，一块块拼起来变成一座小房子。",
+   "想用积木一步步搭出一座天坛祈年殿，顺便给孩子们讲讲天坛的故事。"
+  ],
+  "paper-popup": [
+   "给女儿做个睡前故事：书一翻开，一只小兔子从纸做的森林里蹦出来。",
+   "我们的新绘本快上市了，想要一支书页立起来的立体书风格小广告。",
+   "想在纸书里展现西湖上的小船，船夫慢悠悠摇橹，划过断桥和三潭印月。"
+  ],
+  "tilt-shift": [
+   "把上海地铁早高峰的人潮拍成小人国一样的微缩小镇。",
+   "想做个广告，从高处俯拍我们的楼盘和周边街道，像个沙盘模型城市。",
+   "想看成都宽窄巷子清晨的电动车和摊贩来来往往，像个玩具小世界。"
+  ],
+  "lowpoly-island": [
+   "给我的新游戏做个预告：茫茫大海上，一座小岛和小村庄一格一格地浮现出来。",
+   "想安安静静地看一座小岛上的村子慢慢长大，直到夜里星星亮起来。",
+   "想给孩子们讲讲舟山群岛上一个小渔村是怎么一点点发展起来的。"
+  ],
+  "glass-product": [
+   "把我们新出的面部精华油玻璃瓶拍得漂漂亮亮，光线扫过，闪闪发亮。",
+   "想要一支新耳机的产品介绍视频，从开箱到近距离特写，质感拉满。",
+   "想展示给妈妈买的生日礼物——一瓶玻璃香水，光影在瓶身上流动。"
+  ],
+  "memphis-diorama": [
+   "想用鲜亮的色彩看漓江的一段江湾春夏秋冬轮番变换。",
+   "给我们官网首页做一个可爱的小场景：一家小咖啡馆，四季在它周围变换。",
+   "想给孩子们看看我家门口那棵老桂花树一年里开花、落叶的样子。"
+  ],
+  "isometric-picture-book": [
+   "用小插画解释一下，为什么银行排成一条队反而更快。",
+   "想让病人看懂我们诊所新的取号候诊流程。",
+   "想给小朋友讲明白，为什么坐公交从后门上车会更快。"
+  ],
+  "crayon-world": [
+   "做个纪念视频：飞过爷爷的村子，落到他当年亲手种的那棵老槐树下。",
+   "为了感谢老班主任，想做一段像孩子用蜡笔涂出来的回母校小故事。",
+   "想用孩子画的蜡笔画，讲一个男孩从老家村里到城里打工的一路故事。"
+  ],
+  "rubber-hose": [
+   "给我们的煎饼果子摊做个老式卡通广告，让油条和豆浆碗追来追去。",
+   "想要一段搞笑小动画：一只茶杯满厨房追一块逃跑的方糖。",
+   "想用老式卡通教孩子刷牙：牙刷和牙膏一起把细菌赶跑。"
+  ],
+  "cel-anime-80s": [
+   "做个故事：雨夜的重庆，一个骑电动车送外卖的女孩要赶在天亮前把东西送到。",
+   "给我们乐队的新歌做一支像80年代动画那样霓虹闪烁的夜城MV。",
+   "想用小时候看的动画片那种色调，讲讲我和发小们一起骑自行车的回忆。"
+  ],
+  "scifi-toon": [
+   "做个搞笑短片：科学家只是想喝杯茶，打开传送门却一路滚进各种奇怪的世界。",
+   "想要一支搞笑广告，用从一颗星球跳到另一颗星球来展示我们的转账App有多快。",
+   "想做个无厘头小动画：两兄弟忘带作业，只好开着飞船穿越回过去。"
+  ],
+  "midcentury-toon": [
+   "用50年代课堂教学片的风格，讲讲我们的新净水器三步怎么装。",
+   "想教我妈用手机视频通话，用老卡通的方式讲得轻松好笑一点。",
+   "想像老式科普动画那样，讲讲电饭煲到底该怎么正确使用。"
+  ],
+  "comic-history": [
+   "想用轻松的漫画书形式讲讲历代都城的变迁：从长安、洛阳到开封、杭州，再到北京。",
+   "做个搞笑漫画小故事：我们小区三家奶茶店互相抢客人。",
+   "用漫画讲讲两个村子之间那块河滩地，这些年是怎么从这一岸慢慢移到那一岸的。"
+  ],
+  "manga-panels": [
+   "想把天安门广场上鸽子群飞起的那一秒，拆成一格格漫画分镜来呈现。",
+   "用漫画格一格格弹出来的方式，介绍我们相机店的新款相机。",
+   "想把妹妹运动会冲过终点线那一刻，做成漫画分格的纪念视频。"
+  ],
+  "dataviz": [
+   "想把北京五十年夏季气温数据做出来，让图表自己讲故事。",
+   "把我们家裁缝店五年的销售额做成好看的图表。",
+   "想用学生一看就懂的图表，讲讲中国历年粮食产量的变化。"
+  ],
+  "white-model": [
+   "想在白模上展示上海外滩到陆家嘴的楼，从租界时代到今天一层层长高。",
+   "做个展会视频：在白模上用灯光一步步展示我们公司楼盘的地块规划。",
+   "想用地图数据在白模上慢慢呈现西安的城市格局和明城墙。"
+  ],
+  "data-physical": [
+   "想把中国每年的水电和光伏发电量做成一块块叠起来的实体方块，像能拿在手里一样。",
+   "把公司年报里的销售数字做成一摞摞木块的样子。",
+   "想把我家福建茶园十年的产量，做成真东西堆起来的效果。"
+  ],
+  "transit-map": [
+   "想让北京地铁2号线的车站在一张印刷小地图上一站一站亮起来。",
+   "想用地铁图的风格展示深圳公交线路这些年是怎么扩展的。",
+   "想用地铁线路图的样子，展示我们物流公司十年里覆盖的城市越来越多。"
+  ],
+  "map-explainer": [
+   "从地球仪一路拉近，用地图讲讲长江从源头到入海口是怎么流的。",
+   "想做个地图视频，讲讲为什么全世界的货轮都要经过马六甲海峡。",
+   "想用真实地图和地形，讲讲我们村边小河的河岸是怎么被冲刷掉的。"
+  ],
+  "pip-simulation": [
+   "用一群跑来跑去的小生物，演示传染病是怎么一个传一个扩散开的。",
+   "想用小生物模拟一下，菜市场里摊主们打价格战会发生什么。",
+   "想让学生亲眼看到一代代演化中，自然选择到底是怎么起作用的。"
+  ],
+  "caption-news": [
+   "做一条静音也能看懂的短新闻，讲今年汛期降雨量破纪录的气象数据。",
+   "想要一条带字幕的短新闻，展示我们社区募捐的真实数字。",
+   "想把全球蜂群数量下降的报告用字幕讲清楚，手机上一看就懂。"
+  ],
+  "newsreel": [
+   "想用档案照片，像老新闻纪录片一样展示上世纪30年代上海有轨电车穿行的年代。",
+   "我们小店开业五十周年，想用爷爷那辈的老照片做一段老新闻片。",
+   "想用旧报纸标题，像老新闻纪录片那样重现收音机刚出现时人们有多惊奇。"
+  ],
+  "countdown": [
+   "想用开业剪彩前最后一分钟的真实视频，分成多格画面来倒数。",
+   "把朋友们跨年夜拍的视频剪成最后十秒倒计时。",
+   "想把一次火箭发射的真实画面拆成九宫格，点火那一刻再合成一个画面。"
+  ],
+  "city-symphony": [
+   "用我拍的延时视频，跟着音乐节拍剪一支广州一天的城市交响曲。",
+   "想把北京老照片和今天拍的视频并排对比，踩着节奏剪出来。",
+   "给我们酒店做一支开场片，用从早到晚拍的杭州城市画面配上音乐剪辑。"
+  ],
+  "visual-investigation": [
+   "想用监控视频、照片和目击者说法，把我们路口那起车祸按时间线还原出来。",
+   "想用证据查证网上疯传的一张洪水照片，到底是在哪儿、什么时候拍的。",
+   "根据照片、事故报告和工人们的说法，按时间还原工厂火灾是怎么发生的。"
+  ],
+  "kino-montage": [
+   "想用老照片、账本和工人们的劳动，讲讲爷爷当年是怎么创办我们家碾米厂的。",
+   "想把庙会上成千上万人齐心协力的老照片和视频拼在一起，展现集体的力量。",
+   "工厂成立二十周年，想用档案照片和员工数字，剪得硬朗有冲击力。"
+  ],
+  "telestrator": [
+   "想在真实比赛视频上画线，分析我们社区足球赛下半场是怎么逆转的。",
+   "做个教学视频：把乒乓球比赛画面暂停，画线讲解步法移动。",
+   "想在比赛视频上用箭头讲解学校足球队进球时球员的跑位。"
+  ],
+  "news-package": [
+   "把这周金价、油价、猪肉价的变化做成电视新闻节目那样，配标题字幕和价格看板。",
+   "想把我们学校这个月的四五条新闻，像真正的新闻节目那样分板块播出。",
+   "把本周科技新闻汇总一下，用新闻演播室的风格完整呈现。"
+  ],
+  "ascii-crt": [
+   "用老式绿色屏幕上字符画的方式，介绍我们的新软件工具。",
+   "想要一个故事：月球上的小机器人沉睡多年后，用字符回复了来自地球的信号。",
+   "用爸爸年轻时用的老电脑屏幕风格，拿字符画一段生日祝福。"
+  ],
+  "silent-film": [
+   "做一段无声电影小短片：面包店小伙追着滚走的馒头，最后分给了饿肚子的小孩。",
+   "想给我们的老字号点心铺做一支黑白默片风格的搞笑广告。",
+   "想用默片的方式，讲我和爸爸去钓鱼，一条鱼没钓到，只钓上一只旧鞋的趣事。"
+  ],
+  "backrooms": [
+   "做个恐怖故事：新来的夜班员工在无尽的黄色办公室里，照着墙上的规则度过第一晚的录像。",
+   "给我们的新悬疑游戏做个让人脊背发凉的预告：在一条没有尽头的长走廊里迷路。",
+   "想做个恐怖小故事：深夜一个人拿手机在废弃医院的走廊里拍，走廊怎么也走不到头。"
+  ],
+  "scratch-film": [
+   "想讲一个小故事：一只萤火虫带着自己的小光点，穿过漆黑的池塘。",
+   "用黑暗中刮出来的光线，讲讲深海里的小鱼为什么每晚都会游上来。",
+   "想把我们夜市的灯一盏盏亮起、整条街都热闹起来的样子，做成像在胶片上刮画出来的效果。"
+  ],
+  "double-exposure": [
+   "想把我从桂林山水到阳朔拍的风景，叠进大象、孔雀和鱼的剪影里。",
+   "给我们的厦门旅游项目做一支开场片，把鼓浪屿的真实照片叠进人物剪影里。",
+   "想把爸爸小时候住的村子的老照片，叠进他的侧脸剪影里，做个纪念。"
+  ],
+  "pixel-rpg": [
+   "恋爱两周年，想把从认识那天到今天的经历，做成像在老游戏里回看存档旅程一样。",
+   "给我们的新手游做一支像素复古广告：小勇者站在Boss的大门前。",
+   "想把一年的学生生活讲成像老游戏里一关一关闯过来一样。"
+  ],
+  "hd-2d": [
+   "做个故事：灯塔熄灭了，一个女孩护着最后一簇火苗穿过夜晚的森林，在暴风雨中登上悬崖。",
+   "给我们的新奇幻游戏做个广告：一队英雄穿越一片像敦煌一样的石窟与古寺之地。",
+   "想给弟弟讲一个小孩离开小村子去寻找龙的童话，做得像一款漂亮的游戏。"
+  ],
+  "microgame": [
+   "用一连串越来越快的小游戏，演示我们新App的用法。",
+   "把早上起床、准备上学这件事做成一串越来越快的搞笑小游戏。",
+   "想用节奏越来越快的小游戏，教新员工入职第一天要知道的事。"
+  ],
+  "game-show": [
+   "把公司今年的成绩做成综艺游戏节目那样，踩着节拍一项项出来，最后用积分榜收尾。",
+   "想用节奏感强的游戏综艺形式，好玩地讲讲通信史：从电报到智能手机。",
+   "想像电视综艺那样，搞笑地回顾我们家这一年发生的事。"
+  ],
+  "swiss-motion": [
+   "让我们音乐节的海报按瑞士设计的规则自己排好版。",
+   "想用网格、字体、颜色一个接一个排出来的方式，介绍我们设计工作室的新品牌。",
+   "想给设计专业的学生清楚讲讲海报版式的五条规则。"
+  ],
+  "spy-titles": [
+   "做一段像60年代谍战片的片头：几何图形追来追去，最后变成我们的片名。",
+   "公司周年庆开场，想要一段谍战片风格、很抓人的开场字幕。",
+   "给好朋友的婚礼做个复古片头，把新郎新娘包装成两个特工。"
+  ],
+  "art-deco": [
+   "用30年代那种金光闪闪的华丽设计，给我们酒店做晚宴邀请函。",
+   "想要个小故事：老上海和平饭店里的电梯小哥，要在午夜前送出一封信。",
+   "给爸妈结婚三十周年做一支华丽的装饰艺术风邀请视频。"
+  ],
+  "pictogram-motion": [
+   "做个故事：一把落在公交车上的伞，在失物招领架上等啊等，下雨时和好多伞一起撑开了。",
+   "想用跟着节奏动起来的小图标，给居民讲清楚我们街道的垃圾分类规则。",
+   "给我们的活动做一支品牌视频，让汽车、火车、飞机的小图标踩着节奏出现。"
+  ],
+  "bauhaus-shapes": [
+   "用小圆形和小方块讲讲，存钱时利滚利的复利到底有多厉害。",
+   "想用包豪斯的几何图形，给成员们讲清楚我们这个互助储蓄小组是怎么运作的。",
+   "给课程各章节做开篇卡片，让红黄蓝几何形状在上面玩起来。"
+  ],
+  "flat-space-explainer": [
+   "做个尺度讲解：从银河系拉近到地球、到中国，最后一直到一个病毒。",
+   "想跟着一个小探测器，给孩子们看看太阳系里的行星到底隔得有多远。",
+   "给我们的科普频道用简单的卡通讲讲卫星是怎么绕地球转的。"
+  ],
+  "text-flash-cuts": [
+   "给一部惊悚片做文字快闪预告：一封信、一通电话、楼梯上的脚步声……越来越近。",
+   "想用大字一闪一闪跳出来的方式，有力地喊出我们青年社团的信念。",
+   "把新剧的片头做成文字和画面快速切换，看得人心跳加速。"
+  ],
+  "silhouette-rhythm": [
+   "做一支剪影MV：总是跟不上鸟群的小鸟，最后学会了节奏。",
+   "想要一支球队视频：我们篮球队的队员在夕阳下化作剪影，踩着节拍动起来。",
+   "为元宵灯会开场，想做人们提着灯笼、跟着锣鼓节奏舞动的剪影。"
+  ],
+  "satellite-briefing": [
+   "想用真实卫星照片对比一下，洞庭湖这些年水面缩小了多少。",
+   "用卫星图像像简报一样讲讲，洪水前后长江中下游农田的变化。",
+   "想用卫星地图给学生们看看，北部湾海岸的红树林十年间的变化。"
+  ],
+  "briefing-board": [
+   "想把通往我们村的三种过河桥设计方案，按造价、承重和真实测量数据对比一下。",
+   "在看板上对比新分店的三个候选地址，用真实的租金和人流数据。",
+   "想用真实价格对比家用供电的三种方案：太阳能板、发电机和储能电池。"
+  ],
+  "lidar-survey": [
+   "想用激光扫描数据，把良渚古城一带藏在树林底下的古代城墙和土台揭示出来。",
+   "用无人机激光测绘数据，展示我们工地的地形高低起伏。",
+   "想展示如果用激光测绘把树木去掉，秦始皇陵周边的地形里能看到什么。"
+  ],
+  "microscope": [
+   "想用显微镜下的真实画面放大我们的珍珠粉，讲讲它为什么对皮肤好。",
+   "给学生们把实验室拍的洋葱表皮细胞一路连续放大到细胞核。",
+   "想用显微图像对比我们两种大米样品的米粒结构有什么不同。"
+  ],
+  "archive-lighttable": [
+   "想把爷爷的老玻璃底片照片和旧信件放在灯箱桌上，重新拼出我们的家族史。",
+   "用原始账本和老商标，展示我们茶叶生意六十年的历史。",
+   "想给博物馆做个视频：在放大镜下细看一卷古代竹简，讲讲上面写了什么。"
+  ],
+  "security-xray": [
+   "做个搞笑小片：机场安检机里行李一件件过，其中一个包里有几只活螃蟹在动。",
+   "想给客户看看我们快递仓库是怎么用X光检查包裹的。",
+   "用X光的视角给孩子们看看，充电宝里面到底装着什么，要做得有趣。"
+  ],
+  "dark-documentary": [
+   "想用暗调、庄重的纪录片风格，讲讲古人是怎么修建应县木塔的。",
+   "用工程纪录片的方式，重现我们水坝工程最艰难的那一夜。",
+   "像太空纪录片那样，讲讲像“天眼”这样的大射电望远镜是怎么倾听宇宙的。"
+  ],
+  "thermal-camera": [
+   "用热成像相机的视角看墙、窗户和屋顶，讲讲我们家为什么这么热。",
+   "想要一段像用热成像相机偷偷观察夜里森林小动物的视频。",
+   "想给客户展示我们电器维修店是怎么用热成像相机找出过热电线的。"
+  ],
+  "circuit-board": [
+   "用电路板的样子，展示电是怎么从三峡大坝一路流到我们家手机充电线的。",
+   "想用铜线走线的方式，展示我们电子产品店的货从工厂到顾客手里的过程。",
+   "想做个让学生感兴趣的视频：河流变成铜线，整座城市一下子亮起来。"
+  ],
+  "firefly-pointillism": [
+   "做个小童话：一只萤火虫在黑暗里用光提问，最后找到了它的朋友们。",
+   "妹妹过生日，想要一个视频：好多小光点聚在一起，变成她的样子。",
+   "想讲讲团结：每个成员的小光点汇在一起，成了一束大光。"
+  ],
+  "flow-field": [
+   "用风向墨线画出台风“山竹”是怎么从南海登陆广东沿海的。",
+   "想用成千上万条流动的墨线，讲讲夏季风是怎么把雨带到中国的。",
+   "用流动的线条，展示长江汛期的水流和超过警戒水位的那些时刻。"
+  ],
+  "oscilloscope-math": [
+   "在示波器屏幕上讲讲，几个旋转的圆叠在一起是怎么变成方波的。",
+   "给我们的物理辅导班做个视频，用绿色的波形线讲声波是怎么回事。",
+   "想让孩子们在示波器上看到古筝每一个音的波形。"
+  ],
+  "neon-tubes": [
+   "给我们的深夜食堂开业做个小故事：一只霓虹小猫在招牌之间跑来跑去。",
+   "想要一段城市夜景视频，香港庙街夜市的霓虹招牌一块接一块亮起来。",
+   "给我写的城市流行歌做一支MV：雨夜里霓虹灯管小人在跳舞。"
+  ],
+  "blueprint": [
+   "想在蓝图上展示我发明的小型扬谷机：画出来、拆开、再装回去。",
+   "在工程蓝图上介绍我们公司即将推出的新款太阳能水泵。",
+   "想在蓝图上画一台大型雨水收集装置，给孩子们讲讲它是怎么工作的。"
+  ],
+  "iso-infographic": [
+   "在一个小世界里展示一片茶叶的旅程：从杭州龙井茶园到城里茶馆的茶杯里。",
+   "想用小插图讲讲我们公司从下单到送货上门的整个流程。",
+   "想让孩子们明白一粒米是怎么从稻田到碾米厂、到菜市场、再到电饭锅里的。"
+  ],
+  "teardown": [
+   "把我们生产的电风扇按真实零件和尺寸一件件拆开，再合上。",
+   "想要一个视频，把我用的键盘拆到芯片，每个零件都按真实尺寸展示。",
+   "想给汽修专业的学生拆开一台摩托车发动机，看看里面都有什么。"
+  ],
+  "hardcore-info": [
+   "拆开手机讲讲天线，解释为什么握住手机一角信号就变差了。",
+   "想用详细的内部工程图解，讲清楚我们的新冰箱为什么省电。",
+   "想给学生详细拆解讲讲，伞为什么在大风里会被吹翻。"
+  ],
+  "precise-mechanism": [
+   "把一块不用电池的机械表剖开，用不同颜色讲清楚里面的齿轮是怎么转的。",
+   "想给顾客展示我们那台老式缝纫机里面的机构是怎么工作的。",
+   "把自行车变速器按零件剖开，让学生看明白换挡是怎么回事。"
+  ],
+  "instruction-manual": [
+   "做一份十步的说明书插图：一对小夫妻第一次组装婴儿床。",
+   "想要一个说明书风格的视频，让顾客能自己组装我们家具店的书架。",
+   "想像说明书里的小图那样，一步步讲清楚燃气灶怎么安全使用。"
+  ],
+  "pen-plotter": [
+   "想展示一台小绘图仪夜里在台灯下，用笔根据真实高程数据画出珠穆朗玛峰。",
+   "把我们村附近的山丘地图，一条条等高线画出来。",
+   "想展示绘图仪用四色笔慢慢画出我们设计工作室的logo。"
+  ],
+  "assembly-line-diagram": [
+   "像工厂一样，演示一碗兰州拉面吃下去以后在身体里是怎么一步步被消化的。",
+   "想用工厂流程图讲讲，我们的桶装水厂是怎么生产出一瓶水的。",
+   "想给孩子们讲讲一滴血在身体里的旅程，就像工厂的生产线一样。"
+  ],
+  "crayon-book": [
+   "做一个睡前故事：月亮睡不着，小女孩爬上屋顶给它唱摇篮曲。",
+   "想给我们童书店的新绘本做个小广告，看起来像蜡笔画的。",
+   "想用蜡笔小画教孩子们学汉语拼音，从 a、o、e 开始。"
+  ],
+  "watercolor": [
+   "把张家界日出、云雾缭绕的山峰一镜到底地拍出来，像走进一幅水彩画里。",
+   "给我们旅行社做一段水彩风的旅程：从玉龙雪山一路到洱海。",
+   "想用水彩给孩子们讲讲一滴雨是怎么从山上流到江河、再流进大海的。"
+  ],
+  "impasto": [
+   "做个视频：灰蒙蒙的雨中广场上，一把小红伞撑开，色彩随着音乐晕染开来。",
+   "给我的新情歌做一支用厚重油画色彩、情感浓烈的视频。",
+   "给我们画廊开幕做个广告，用厚涂油画笔触画出黄昏时的西湖雷峰塔。"
+  ],
+  "urban-sketch": [
+   "展示一顶帽子被风吹着穿过上海外滩的老洋楼，色彩一路跟在后面。",
+   "想把我们的小咖啡馆和那条街，画成钢笔速写再淡淡上一层水彩的样子。",
+   "想要一段沿着厦门鼓浪屿海边边走边画的旅行速写日记。"
+  ],
+  "colored-pencil": [
+   "用彩铅剖面图展示树木在地下怎么通过菌丝分享养分。",
+   "想用彩铅画展示我们花园里一株花，水是怎么从根一路升到花朵的。",
+   "想用绘本一样的彩铅剖面图，讲讲荷花在水下是怎么生长的。"
+  ],
+  "risograph": [
+   "做一段套色印刷风的视频：周日早上骑车穿过成都，路过早餐铺、公园和人民公园的茶馆。",
+   "给我们的手工包小店做个可爱广告，看起来像只用几种颜色印出来的。",
+   "做个错版孔版印刷风的小视频，介绍我们新出的诗歌小志。"
+  ],
+  "halftone-dossier": [
+   "做一份搞笑的案件档案：把我家胖猫告上法庭，罪名是凌晨四点跑酷、把杯子推下桌。",
+   "想用老报纸网点画的风格，把小狗咬烂鞋子的案子做成一份侦探档案。",
+   "给我们宠物食品店做个搞笑广告：一只小猫偷吃猫粮的案件卷宗。"
+  ],
+  "woodcut": [
+   "做个民间故事：全村人花了一整个冬天铸一口大钟，第一次敲响时，雪停了。",
+   "想用木刻版画一样的画面，展示我们景德镇瓷器作坊里手艺人的工作。",
+   "给我新写的奇幻小说做一支木刻版画风格的图书广告。"
+  ],
+  "engraving": [
+   "给博物馆做个视频：一只蜜蜂在铜版上一笔笔刻出来，再淡淡上一层水彩。",
+   "想要一支广告，用老铜版画的样子展现我们百年蜂蜜老字号的传承。",
+   "想像老博物志里的版画那样，一种种展示中国的兰花品种。"
+  ],
+  "silkscreen-poster": [
+   "给我们旅行社做一套旅行指南，把桂林、九寨沟、三亚各做成一张大海报。",
+   "想用一张接一张的海报，讲讲在外地打工的哥哥回家过年的旅程。",
+   "给我们的音乐节做一支丝网印刷海报风格的广告。"
+  ],
+  "printed-long-take": [
+   "把鄱阳湖上成群的候鸟一镜到底地画出来，像刮画一样掠过整片湖面。",
+   "想把我们从山脚到山顶的登山之旅，做成一整幅连续的版画风景。",
+   "想把坐船沿长江三峡逆流而上的旅程，做成一镜到底的版画。"
+  ],
+  "pop-art": [
+   "用重复的波普画面讲讲，市场上大多数香蕉其实都是同一个品种克隆出来的。",
+   "把我们的新款冰淇淋做成色彩鲜艳的波普海报风广告。",
+   "想用波普风的网点，展示一杯奶茶里到底有多少糖。"
+  ],
+  "vintage-collage": [
+   "想用档案图片和旧纸片拼贴的方式，讲讲中国老邮票的历史。",
+   "用真实扫描的图片，把爷爷收藏的老粮票和旧钞票做成杂志拼贴风。",
+   "想把旧广告和老照片拼在一起，讲讲我们油纸伞作坊的历史。"
+  ],
+  "dark-keynote": [
+   "用深色背景的舞台发布会风格，隆重介绍我们的新手机App。",
+   "想要一支广告，展示我们的记账软件一键就把乱七八糟的文件整理得井井有条。",
+   "把我们的新功能做成一支气势十足的发布片，在创业公司周年庆上播放。"
+  ],
+  "living-screencast": [
+   "用真实截图展示怎么在我们的网店App里下单，让一个卡通小人一路带着走。",
+   "想要一个教程，在真实屏幕上一步步演示怎么用我们诊所的预约网站。",
+   "展示我们软件的新功能：一个小人从真实的录屏里跳出来讲解。"
+  ],
+  "hologram-hud": [
+   "像全息投影一样扫描我们的新款电动车，用瞄准框标出电池、电机和刹车。",
+   "想用全息界面讲解我们净水器的内部参数，在展会上播放。",
+   "给儿子的玩具飞船做个有电影感的小视频：全息扫描后展示各个部件。"
+  ],
+  "desktop-flythrough": [
+   "展示我拍的一张猫咪照片，穿过一张张App卡片，从我的手机跳到朋友的手机上。",
+   "想用桌面上的小卡片，展示从我们的App给客户发送发票的流程。",
+   "想要一个在洒满阳光的书桌上讲解的视频：学生怎么用手机把作业交给老师。"
+  ],
+  "spreadsheet": [
+   "打开我们家开支表里的一列列数据，讲讲钱都花到哪儿最多。",
+   "想在表格里一格一格对比我们两家米线分店的利润。",
+   "想只用一张表格，给学生讲清楚辛普森悖论——总数是怎么骗人的。"
+  ],
+  "one-bit-dither": [
+   "想用黑白小点展示第一张月球近照是怎么从传真机里一行行印出来的。",
+   "想用黑白印刷的风格，讲讲爷爷那个年代一封电报是怎么送到村里的。",
+   "把我们小印刷厂的老机器夜里干活的场景，做成双色墨点的效果。"
+  ],
+  "one-line": [
+   "用一根线画出妈妈的一生，最后她把笔交到小孙子手里。",
+   "想要一支简洁的广告，用一笔不断的线讲我们珠宝店的品牌故事。",
+   "给好朋友的婚礼，用一根线画出他们从相识到结婚的故事。"
+  ],
+  "whiteboard": [
+   "在白板上画画写写，讲讲手机是怎么知道我们在哪儿的：卫星和北斗定位。",
+   "给我们的线上记账课程，在白板上教大家怎么记收入和支出。",
+   "想在白板上给员工讲清楚我们店的扫码支付系统是怎么运作的。"
+  ],
+  "chalkboard": [
+   "在黑板上用粉笔写写画画，讲讲“吃了吗”这句问候是怎么来的。",
+   "想在黑板上讲讲“晚上洗头会头疼”这种说法到底靠不靠谱。",
+   "像老师在教室黑板上写板书一样，讲解我们补习班的一个数学公式。"
+  ],
+  "sketchnote": [
+   "用涂鸦笔记讲讲一只蜜蜂一辈子能产多少蜂蜜，从花朵到罐子，最后拼成一张海报。",
+   "把我听的那场商业讲座的重点，整理成一页带小图的笔记。",
+   "想做一页用小图和箭头画出来的总结，介绍我们小店的服务。"
+  ],
+  "stick-explainer": [
+   "用火柴人讲讲，世界上任意两个人之间大概只隔着六个人。",
+   "想用小火柴人简单讲讲我们店的“老带新”推荐活动。",
+   "想用火柴人展示村里的人是怎么跟在外地打工的家人保持联系的。"
+  ],
+  "ipad-sketch": [
+   "展示一杯云南咖啡倒回去变成红色咖啡果，再晒干、烘焙、研磨，最后回到杯子里。",
+   "想在一页铅笔稿上展示汤圆的做法，每张小图换一种颜色。",
+   "想像在平板上用铅笔边画边讲那样，介绍我们手工皂的制作过程。"
+  ],
+  "marker-paper": [
+   "用马克笔在纸上算一算，从海滩看出去地平线有多远。",
+   "想给我们补习班的学生用马克笔一步步解一道物理题。",
+   "做个视频，用马克笔在纸上写出我们店打折百分比的算法。"
+  ],
+  "ink-wash": [
+   "做一段水墨故事：剑客踏水过江，一剑劈开江流。",
+   "给我们的茶叶品牌做一支山峦云雾间、安安静静的水墨风广告。",
+   "想用水墨笔触晕开的画面，呈现我写的一首小诗。"
+  ],
+  "shadow-puppet": [
+   "用皮影戏演一段后羿射日的神话：十个太阳把大地烤焦，后羿拉弓把它们射了下来。",
+   "想用灯幕上的皮影，给孩子们演一段孙悟空三打白骨精。",
+   "给我们的民俗文化节开幕做一支传统皮影戏风格的邀请视频。"
+  ],
+  "ukiyoe": [
+   "做一段旅人走向远山的旅程，每一幕都化成木版画，最后以一道巨浪推向高潮。",
+   "我们的日料小店要开业了，想要一支浮世绘风格的小广告。",
+   "想用日本木版画的风格，诗意地呈现登上泰山看日出的一路。"
+  ],
+  "papercut-red": [
+   "做一个故事：除夕夜年兽闯进村子，小姑娘贴的大剪纸亮了起来，把年兽赶跑了。",
+   "想要一段红色剪纸风的小视频，让我们店给顾客送上新春祝福。",
+   "给我们家老字号饼店的中秋月饼广告，用红色小剪纸来做。"
+  ],
+  "paper-lantern": [
+   "想用纸灯笼的风格，讲一列老火车的最后一趟旅程，车窗的灯一盏盏熄灭。",
+   "爷爷退休那天，想把他工作了一辈子的小火车站的故事，做成像灯笼一样亮着的样子。",
+   "给我们的旅游酒店做个视频：一列夜火车像灯笼一样亮着，驶过雪山脚下的高架桥。"
+  ],
+  "stained-glass": [
+   "展示阳光从早到晚移过一扇彩窗，勇士与龙的故事在一块块玻璃上依次苏醒。",
+   "给我们的圣诞贺卡做一段彩色玻璃窗风格的小故事。",
+   "想用彩色玻璃风格的小故事，展现上海徐家汇老教堂的历史。"
+  ],
+  "gilded-illumination": [
+   "做一个童话：在只有金色发光的世界里，太阳熄灭了，小女孩提着最后一盏灯登上山顶。",
+   "为元宵灯会做一支诗意的节日视频，像描金的古画卷一样。",
+   "想用金光闪闪的古代插画书风格，讲讲我们金箔手工艺作坊的起源故事。"
+  ],
+  "line-art-ink": [
+   "想把北京南锣鼓巷的一条胡同从早到晚用墨线画出来：早点铺、小摊贩，晚上灯一盏盏亮起来。",
+   "把我们的小馄饨店从清早开门到客人陆续进来，画成可爱的线描小动画。",
+   "想看一看乌镇水乡的小村子：摇船的人、小猫和飞鸟，太阳落山，夜幕降临。"
+  ],
+  "onetake-launch": [
+   "我们的新共享单车App要上线了，想要一支20秒左右的发布视频，截图我来发。",
+   "给我们能订生日礼物的小网站做一支潮一点的预告片。",
+   "想给一款记录学生学习时长的App做支广告，一镜到底、不剪切。"
+  ],
+  "onetake-demo": [
+   "想要一个中文配音的视频，讲解在我们记账App里怎么开票、怎么看报表。",
+   "做一个分步骤演示的视频，让老年人也能看懂我们诊所的预约App，截图附上。",
+   "想给我们收银系统的3个新功能做一支中英双语视频。"
+  ],
+  "onetake-concept": [
+   "给配送App做一支创意广告：点一下按钮，包裹就一个接一个连环送到。",
+   "想给咖啡店做一支广告，从一颗咖啡豆到杯子里，一镜到底不剪切。",
+   "用把一年压缩成一分钟的方式，展示我们转账App能省多少时间。"
+  ],
+  "hf-captions": [
+   "给我介绍自家店铺的视频加上字幕，再加一张店名卡片。",
+   "想让我采访视频里讲的3个重点，以卡片的形式弹出来。",
+   "给我从直播里剪出来的片段加字幕，静音也能看懂。"
+  ],
+  "hf-vertical": [
+   "做一条竖屏抖音短视频：泡一杯好茶的3个小技巧。",
+   "想给我们服装店的冬季大促做一支节奏明快的小红书短视频广告。",
+   "用大字幕展示5个早晨好习惯，发到 Shorts 上。"
+  ],
+  "hf-music": [
+   "给我唱的一首歌做个歌词视频，歌曲文件我来发。",
+   "想给我们店的一段小广告歌做一个卡着节拍、色彩缤纷的视频。",
+   "把我唱的生日歌配上照片，做一个踩着节拍的视频。"
+  ],
+  "logo-reveal": [
+   "给我们咖啡店的logo做一个5秒的片头揭幕动画，放在B站视频开头。",
+   "想把公司logo做成网站打开时的启动动画，感觉要沉稳、值得信赖。",
+   "想让我们玩具店的小logo蹦蹦跳跳、开开心心地出场。"
+  ],
+  "lottie-anim": [
+   "想要一个App里支付成功时显示的小对勾动画。",
+   "给我们网站做一个品牌紫色的加载转圈动画。",
+   "做一个显示姓名和职位的人名条动画，用在视频里。"
+  ],
+  "ad-marker-comic": [
+   "做个小动画：女儿最喜欢的小猫变成超级英雄，救下了小区里的小朋友。",
+   "想把我小茶馆每天早上都会发生的搞笑小事，做成彩色漫画书风格的动画。",
+   "想要一个搞笑动画：过年放鞭炮时两兄弟吵起来，最后又和好了。"
+  ],
+  "ad-scrapbook": [
+   "做个视频，像翻老相册一样讲讲我们家的历史：从爷爷奶奶结婚到现在。",
+   "想用贴满旧纸片和小便签的手账本形式，讲讲长城是怎么修起来的。",
+   "想用老账本和老照片，讲讲我们家的织布作坊是怎么撑过五十多年的。"
+  ],
+  "ad-ballpoint": [
+   "想用圆珠笔画的感觉，安安静静地展现妈妈每天早上给我装饭盒的样子。",
+   "把我手工做的皮钱包，用笔记本里圆珠笔速写的样子介绍出来。",
+   "用圆珠笔草图的风格，做一个关于我和同桌一起坐过的那张课桌的怀旧小故事。"
+  ],
+  "ad-broken-colour": [
+   "想把夕阳下一条小船划过西湖的画面，做得像油画一样美。",
+   "把我们海边的小民宿在晨光里的样子，像一幅画一样做成广告。",
+   "做一个旅行纪念：黎明时分的大理，热气球在古城和洱海上空升起。"
+  ],
+  "ad-embroidery": [
+   "妈妈生日，做个小视频：花朵一针一针绣出来，最后出现生日祝福。",
+   "想给我卖手工刺绣包的小店做个广告，看起来像在用针线刺绣。",
+   "用针线刺绣的样子，展示江南水乡的花和小鸟随四季变换。"
+  ],
+  "ad-stipple": [
+   "想用老科普书里那样的点画，给孩子们讲讲萤火虫一生的各个阶段。",
+   "用点画墨线小图，一个个介绍海南沿海的各种贝壳。",
+   "想像老植物图谱那样，介绍我们药材店的人参。"
+  ],
+  "ad-charcoal": [
+   "想念去世的父亲，想用炭笔画重现我们一起钓鱼的那些日子。",
+   "做一个短故事，讲一个从村里到城里打工的男孩的第一个夜晚。",
+   "想给我的绘画课展示一张脸用炭笔画、擦掉、再重画的过程。"
+  ],
+  "ad-flat-vector": [
+   "简单讲讲怎么用我们的生鲜蔬菜下单App。",
+   "想用现代扁平小插图展示从成都到九寨沟的旅程。",
+   "想用小插图给外国朋友讲讲怎么用筷子、怎么包饺子。"
+  ],
+  "ad-cut-paper": [
+   "给儿子做一个龟兔赛跑的故事，看起来像用纸剪好贴上去的。",
+   "想用撕纸小片给孩子们展示春夏秋冬四季是怎么变换的。",
+   "用彩色剪纸小图给我的小蛋糕店做一支可爱的广告。"
+  ],
+  "ad-toy-theatre": [
+   "女儿生日派对上要放，做一个小公主和小龙的故事，像纸板玩具剧场一样。",
+   "想给我们木偶剧团的节日演出做宣传，让角色一个个从小舞台上滑出来。",
+   "把哪吒闹海的故事做成在纸舞台上演出的样子，给小朋友看。"
+  ],
+  "ad-storybook": [
+   "以我儿子为主角，做一系列分集小故事，每晚睡前看一集。",
+   "想做个视频，让我们儿童图书馆的小猫吉祥物邀请小朋友来看书。",
+   "做一个儿童故事系列：一只小象从西双版纳一路旅行到北京。"
+  ],
+  "ad-folk-tale": [
+   "把小时候妈妈讲给我听的“小兔子乖乖”做成睡前故事。",
+   "想展现一段像童话书一样的故事：江南小村里，一家农民在收割稻子。",
+   "想像老故事书里的插画那样，温暖地介绍我们村的红糖作坊。"
+  ],
+  "ad-dream-glaze": [
+   "想把小时候梦里见过的那座飘在天上的小房子，画成一幅奇异又美丽的画。",
+   "做一部有艺术感的小短片，用一架通向云端的楼梯，探讨人从哪里来、到哪里去。",
+   "给我的画展做广告，想要一个梦幻场景：湖面上浮现出一座古塔。"
+  ],
+  "arch-diagram": [
+   "用示意图讲讲：在我们App下单后，订单怎么到厨房、做好后怎么交给骑手。",
+   "想让新员工看懂我们家药店的流程：从进货到仓库、到门店，再到收银。",
+   "做个视频，用图给学生讲清楚手机转账在银行系统里是怎么走的。"
+  ],
+  "doc-mix": [
+   "做一个3分钟左右的纪录片风格视频，讲讲蓝鲸有多大、是怎么演化来的。",
+   "想要一个用地图和示意图讲解的视频：应县木塔是怎么建起来的，又是怎么扛住地震的。",
+   "做一条1分钟的 Shorts，把宇宙里最大的恒星和太阳比一比，配上让人惊叹的冷知识。"
+  ]
+ }
+}

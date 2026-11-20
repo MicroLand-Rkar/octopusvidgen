@@ -1,0 +1,18 @@
+{
+  "slug": "ad-stipple",
+  "num": "114",
+  "en": "Pen-and-Ink Stipple",
+  "cn": "点画",
+  "category_en": "anidoodle",
+  "film": "Pen-and-Ink Stipple",
+  "line": "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.",
+  "uses": [
+    "Science",
+    "Shells & specimens",
+    "Elegant explainers"
+  ],
+  "dur": 30,
+  "needs": [],
+  "skill": "anidoodle",
+  "engine_style": "stipple"
+}

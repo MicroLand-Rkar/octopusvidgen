@@ -1,0 +1,18 @@
+{
+  "slug": "ad-folk-tale",
+  "num": "120",
+  "en": "Folk-Tale Storybook",
+  "cn": "民间故事绘本",
+  "category_en": "anidoodle",
+  "film": "Folk-Tale Storybook",
+  "line": "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.",
+  "uses": [
+    "Folk tales",
+    "Villages",
+    "Bedtime stories"
+  ],
+  "dur": 30,
+  "needs": [],
+  "skill": "anidoodle",
+  "engine_style": "folkTale"
+}

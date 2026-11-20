@@ -1,0 +1,18 @@
+{
+  "slug": "onetake-launch",
+  "num": "101",
+  "en": "One-Take Launch Film",
+  "cn": "一镜到底发布片",
+  "category_en": "Product Launch · onetake",
+  "film": "Your Whole Week",
+  "line": "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.",
+  "uses": [
+    "App & product launches",
+    "Teasers",
+    "Intros"
+  ],
+  "dur": 20,
+  "needs": [],
+  "skill": "onetake",
+  "license": "Noncommercial only (PolyForm Noncommercial 1.0.0). Films for a client or a business need a commercial licence (onetake Pro)."
+}

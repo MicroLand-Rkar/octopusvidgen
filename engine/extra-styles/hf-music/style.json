@@ -1,0 +1,17 @@
+{
+  "slug": "hf-music",
+  "num": "106",
+  "en": "Music Video to Your Song",
+  "cn": "音乐视频",
+  "category_en": "HyperFrames",
+  "film": "Sing It on the Beat",
+  "line": "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.",
+  "uses": [
+    "Songs & covers",
+    "Lyric videos",
+    "Jingles"
+  ],
+  "dur": 45,
+  "needs": [],
+  "skill": "hyperframes"
+}

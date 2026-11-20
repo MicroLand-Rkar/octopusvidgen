@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "ลบ {name}",
+  "att.tooBig": "ไม่ได้เพิ่ม (เกิน 500 MB): {names}",
+  "att.trayLabel": "ไฟล์แนบ",
+  "board.addHint": "รูปภาพ คลิป เสียงพูด เพลง เอกสาร",
+  "board.addRefs": "เพิ่มข้อมูลอ้างอิง",
+  "board.addStyle": "+ ผสมสไตล์",
+  "board.aspect": "อัตราส่วนภาพ",
+  "board.blendStyle": "ผสมแล้ว",
+  "board.chatTitle": "วางแผนหนังเรื่องที่ {n} กับ Claude",
+  "board.close": "ปิด",
+  "board.delete": "ลบ",
+  "board.deleteConfirm": "ลบ {name} ออกจากโปรเจกต์นี้ไหม",
+  "board.deleteError": "ลบไฟล์ไม่สำเร็จ",
+  "board.done": "เสร็จ ({n})",
+  "board.download": "ดาวน์โหลด",
+  "board.dropHere": "วางไฟล์เพื่อเพิ่มลงในโปรเจกต์นี้",
+  "board.emptyBody": "วางรูปภาพ คลิป เสียงพูด หรือเพลงที่นี่ แล้ววางแผนหนังเรื่องแรกกับ Claude ในแชท",
+  "board.emptyTitle": "โปรเจกต์ว่าง",
+  "board.filter.all": "ทั้งหมด",
+  "board.filter.films": "หนัง",
+  "board.filter.made": "สร้างโดย Claude",
+  "board.filter.refs": "ข้อมูลอ้างอิง",
+  "board.filterLabel": "แสดง",
+  "board.helloNoStyle": "สวัสดี เลือกสไตล์ด้านบน (หรือแตะคำแนะนำ) แล้วบอกฉันว่าหนังควรเป็นแบบไหน ถ้ามีอะไรไม่ชัดเจน ฉันจะถามก่อนเริ่มสร้าง",
+  "board.hint": "เลือกข้อมูลอ้างอิงด้วย + แล้ววางแผนหนังเรื่องถัดไปในแชท",
+  "board.inProject": "ในโปรเจกต์นี้",
+  "board.length": "ความยาว",
+  "board.made": "สร้างโดย Claude",
+  "board.mainStyle": "สไตล์หลัก",
+  "board.make": "สร้างวิดีโอ",
+  "board.makeError": "เริ่มสร้างหนังไม่สำเร็จ",
+  "board.makeHint": "สร้างหนังเลย (Ctrl/⌘ + Enter)",
+  "board.newChat": "แชทใหม่",
+  "board.open": "เปิด {name}",
+  "board.pick": "ใช้ในหนังเรื่องถัดไป",
+  "board.pickHint": "อันแรกที่เลือกจะเป็นหลัก ส่วนที่เหลือจะถูกผสมเข้าไป",
+  "board.pickStyle": "เลือกสไตล์",
+  "board.pickStyles": "เลือกสไตล์",
+  "board.picked": "อยู่ในหนังเรื่องถัดไป",
+  "board.pickedLabel": "ข้อมูลอ้างอิงสำหรับหนังเรื่องถัดไป",
+  "board.placeholder": "อธิบายหนังเรื่องที่ {n}: เกิดอะไรขึ้น มีใครบ้าง อารมณ์แบบไหน…",
+  "board.planFirst": "วางแผนในแชทก่อน →",
+  "board.promptLabel": "หนังเรื่องถัดไปควรเป็นแบบไหน",
+  "board.ref": "ข้อมูลอ้างอิง",
+  "board.removeStyle": "นำ {name} ออก",
+  "board.replyPlaceholder": "ตอบกลับ Claude…",
+  "board.searchStyles": "ค้นหาสไตล์",
+  "board.starting": "กำลังเริ่ม…",
+  "board.suggestAgain": "แนะนำใหม่",
+  "board.suggested": "แนะนำ",
+  "board.tooShort": "เขียนเกี่ยวกับหนังเพิ่มอีกนิด (อย่างน้อย 10 ตัวอักษร)",
+  "board.unpick": "ไม่ใช้",
+  "board.unpickName": "ไม่ใช้ {name}",
+  "board.uploadError": "เพิ่มไฟล์ไม่สำเร็จ",
+  "board.uploading": "กำลังเพิ่ม {n}…",
+  "board.usedBefore": "เคยใช้ในโปรเจกต์นี้",
+  "board.voice": "ภาษาของเสียงบรรยาย",
+  "film.askHead": "Claude มีคำถาม — ตอบแล้วงานจะเดินต่อ",
+  "film.attach": "แนบไฟล์",
+  "film.backSingle": "วิดีโอเดี่ยว",
+  "film.briefTitle": "บรีฟที่ Claude เขียน",
+  "film.cancel": "หยุด",
+  "film.canceledNote": "วิดีโอนี้ถูกหยุดแล้ว",
+  "film.chatIdle": "ส่งข้อความเพื่อทำวิดีโอนี้ต่อ",
+  "film.chatLive": "กำลังสร้างวิดีโออยู่ (ไม่ต้องกดปุ่มซ้ำ) ดูการทำงานของ Claude แบบสดได้ที่นี่",
+  "film.chatTitle": "แชตกับ Claude",
+  "film.downloadFile": "ดาวน์โหลด {name}",
+  "film.downloadMp4": "ดาวน์โหลด MP4",
+  "film.dropHere": "วางไฟล์ที่นี่เพื่อส่งให้ Claude",
+  "film.elapsedDone": "ใช้เวลา {time}",
+  "film.elapsedLive": "ผ่านไป {time}",
+  "film.estimateHint": "เปอร์เซ็นต์เป็นค่าประมาณจากขั้นตอนที่ Claude ทำอยู่ ปกติวิดีโอหนึ่งใช้เวลา 10–20 นาที",
+  "film.failedNote": "วิดีโอยังไม่เสร็จ ดูว่าเกิดอะไรขึ้นในแชตด้านขวา — ตอบกลับที่นั่นแล้วงานจะเดินต่อ",
+  "film.headDone": "เสร็จแล้ว",
+  "film.headFailed": "หยุดอยู่ — ตอบในแชตเพื่อทำต่อ",
+  "film.headQueued": "อยู่ในคิว",
+  "film.headRunning": "กำลังทำงาน",
+  "film.imagesGot": "ได้ภาพแล้ว {n} ภาพ",
+  "film.inputsTitle": "วัตถุดิบที่คุณให้มา",
+  "film.loadError": "โหลดวิดีโอนี้ไม่ได้",
+  "film.loading": "กำลังโหลด…",
+  "film.making": "Claude กำลังสร้างวิดีโอ…",
+  "film.noProject": "ไม่มี",
+  "film.now": "ตอนนี้",
+  "film.phLive": "ฝากโน้ตถึง Claude… (จะอ่านก่อนขั้นตอนถัดไป)",
+  "film.phQuestion": "ตอบคำถามของ Claude…",
+  "film.phResume": "ตอบกลับ… (ส่งแล้วจะทำต่อจากจุดที่หยุด)",
+  "film.phSucceeded": "บอกสิ่งที่อยากให้แก้… (ส่งแล้วจะเริ่มแก้ไข)",
+  "film.progressLabel": "ความคืบหน้า",
+  "film.projectFallback": "โปรเจกต์",
+  "film.projectLabel": "โปรเจกต์:",
+  "film.queuedWait": "กำลังรอคิว…",
+  "film.send": "ส่ง",
+  "film.sendError": "ส่งไม่สำเร็จ",
+  "film.sendLabel": "ส่งข้อความถึง Claude",
+  "film.sizeKb": "{n} KB",
+  "film.stage.build": "สร้างภาพ การเคลื่อนไหว และเสียง",
+  "film.stage.finish": "ส่งออกวิดีโอ",
+  "film.stage.images": "สร้างภาพด้วย Flow AI",
+  "film.stage.plan": "วางบท",
+  "film.stage.read": "ศึกษาสไตล์",
+  "film.stage.render": "เรนเดอร์และตรวจสอบ",
+  "film.steps": "{n} ขั้นตอน",
+  "film.tagAnswer": "คำตอบ",
+  "film.tagNote": "โน้ต",
+  "film.tagPlan": "แชตวางแผน",
+  "film.working": "กำลังทำงาน…",
+  "lang.label": "ภาษา",
+  "nav.label": "สตูดิโอ",
+  "nav.new": "วิดีโอใหม่",
+  "nav.projects": "โปรเจกต์ของฉัน",
+  "new.all": "ทั้งหมด ({n})",
+  "new.aspect": "สัดส่วนภาพ",
+  "new.attach": "แนบไฟล์",
+  "new.attachTitle": "แนบไฟล์ (ลากหรือวางก็ได้)",
+  "new.attachedCount": "เพิ่มแล้ว {n} ไฟล์",
+  "new.badgeFlow": "✦ ภาพจาก Flow AI",
+  "new.badgeNoGen": "✦ ไม่ใช้ตัวสร้างภาพ",
+  "new.cancel": "ยกเลิก",
+  "new.category": "หมวดหมู่",
+  "new.create": "สร้าง",
+  "new.dropHere": "วางไฟล์ที่นี่",
+  "new.duration": "ความยาว",
+  "new.episode": "ตอนที่ {n}",
+  "new.filesNote": "นี่คือไฟล์ที่แนบมา",
+  "new.flowBody": "Claude จะเปิด Flow ใน Chrome ของคุณแล้วสร้างภาพที่ต้องใช้ เปิด Chrome ทิ้งไว้ระหว่างสร้างวิดีโอ ขั้นตอนนี้ใช้เครดิต Flow เล็กน้อย",
+  "new.flowTitle": "✦ ภาพจะถูกสร้างอัตโนมัติด้วย Google Flow AI",
+  "new.hello": "สวัสดี! เล่าแบบง่าย ๆ ได้เลยว่าอยากได้วิดีโอแบบไหนในสไตล์ {style} ถ้าตรงไหนไม่ชัด เดี๋ยวจะถามเพิ่มนะ",
+  "new.language": "ภาษา",
+  "new.listSep": ", ",
+  "new.make": "สร้างวิดีโอ",
+  "new.makeRest": "ให้ Claude ตัดสินใจที่เหลือแล้วสร้างเลย",
+  "new.material": "เพิ่มวัตถุดิบ",
+  "new.materialHint": "ไฟล์ เสียง รูปภาพ (ไม่บังคับ)",
+  "new.maxFiles": "แนบได้สูงสุด {max} ไฟล์",
+  "new.messageLabel": "ส่งข้อความถึง Claude",
+  "new.ncAfter": " เท่านั้น ถ้าเป็นงานลูกค้าหรืองานธุรกิจ ต้องใช้ไลเซนส์เชิงพาณิชย์ (onetake Pro)",
+  "new.ncBefore": "สไตล์นี้ใช้ฟรีเฉพาะงาน",
+  "new.ncStrong": "ที่ไม่ใช่เชิงพาณิชย์",
+  "new.needField": "สไตล์นี้ต้องมี{field}",
+  "new.needs": "ต้องมี {list}",
+  "new.newProject": "+ โปรเจกต์ใหม่…",
+  "new.noGen": "สไตล์นี้ต้องใช้ภาพที่สร้างด้วย AI แต่เซิร์ฟเวอร์นี้ยังไม่ได้เปิดตัวสร้างภาพ จึงยังสร้างวิดีโอไม่ได้",
+  "new.noProject": "ไม่มีโปรเจกต์ (ทำครั้งเดียว)",
+  "new.noReply": "ตอนนี้ Claude ยังตอบไม่ได้",
+  "new.pickLeft": "เลือกสไตล์จากรายการ",
+  "new.pickStyle": "เลือกสไตล์ก่อน",
+  "new.pickStyleShort": "เลือกสไตล์ก่อน",
+  "new.placeholder": "พิมพ์สิ่งที่อยากได้… ลากหรือวางรูปและไฟล์ไว้ตรงนี้ได้",
+  "new.planDraft": "ร่างแผน (บรีฟที่ Claude จะส่ง)",
+  "new.planReady": "✓ แผนวิดีโอ (บรีฟที่ Claude จะส่ง)",
+  "new.project": "โปรเจกต์",
+  "new.projectFailed": "สร้างโปรเจกต์ไม่สำเร็จ",
+  "new.projectName": "ชื่อโปรเจกต์",
+  "new.samples": "ตัวอย่าง: แตะเพื่อส่ง",
+  "new.searchLabel": "ค้นหาสไตล์",
+  "new.searchPlaceholder": "ค้นหา: สีน้ำ, อธิบาย, ข่าว…",
+  "new.seconds": "{n} วินาที",
+  "new.send": "ส่ง",
+  "new.startFailed": "เริ่มสร้างวิดีโอไม่สำเร็จ",
+  "new.starting": "กำลังเริ่ม…",
+  "new.step1": "1. เลือกสไตล์",
+  "new.step2": "2. วางแผนกับ Claude",
+  "new.styleBeforeFiles": "เลือกสไตล์ก่อนเพิ่มไฟล์",
+  "new.stylesLabel": "สไตล์",
+  "new.tellFirst": "บอก Claude ก่อนว่าอยากได้อะไร",
+  "new.thinking": "กำลังคิด…",
+  "new.uploading": "กำลังอัปโหลดไฟล์…",
+  "projects.addEpisode": "+ ตอนที่ {n}",
+  "projects.assets": "ไฟล์ที่ใช้ซ้ำได้ ({n}):",
+  "projects.back": "← โปรเจกต์ของฉัน",
+  "projects.bibleEmpty": "Claude จะเริ่มเขียนตรงนี้หลังตอนแรก",
+  "projects.bibleHint": "บันทึกของ Claude เรื่องตัวละคร สถานที่ และสไตล์ อ่านและอัปเดตทุกตอน",
+  "projects.bibleTitle": "ไบเบิลซีรีส์",
+  "projects.cancel": "ยกเลิก",
+  "projects.cancelEdit": "ยกเลิก",
+  "projects.continueEpisode": "ทำต่อตอนที่ {n}",
+  "projects.create": "สร้าง",
+  "projects.createError": "สร้างไม่สำเร็จ",
+  "projects.descLabel": "เกี่ยวกับอะไร",
+  "projects.descPlaceholder": "ตัวละคร โลก สไตล์… Claude จะอ่านส่วนนี้ทุกตอน",
+  "projects.edit": "แก้ไขชื่อ/คำอธิบาย",
+  "projects.emptyBody": "โปรเจกต์คือโฟลเดอร์ เก็บซีรีส์หลายตอนไว้ด้วยกัน แล้ว Claude จะใช้ตัวละคร สถานที่ สไตล์ และเพลงเดิมซ้ำ",
+  "projects.emptyCta": "สร้างโปรเจกต์แรก",
+  "projects.emptyTitle": "ยังไม่มีโปรเจกต์",
+  "projects.episodeCount": "จำนวนตอน: {n}",
+  "projects.episodeN": "ตอนที่ {n}",
+  "projects.firstEpisodeCta": "สร้างตอนที่ 1",
+  "projects.loadError": "โหลดไม่สำเร็จ",
+  "projects.loading": "กำลังโหลด…",
+  "projects.nameLabel": "ชื่อโปรเจกต์",
+  "projects.namePlaceholder": "เช่น ศึกร้านชาไข่มุก",
+  "projects.nameRequired": "ตั้งชื่อก่อน",
+  "projects.newProject": "+ โปรเจกต์ใหม่",
+  "projects.newVideo": "วิดีโอใหม่",
+  "projects.noEpisodesBody": "ตอนแรกจะกำหนดตัวละคร สถานที่ และสไตล์ ตอนต่อ ๆ ไปจะใช้ซ้ำ",
+  "projects.noEpisodesTitle": "ยังไม่มีตอน",
+  "projects.optional": "ไม่บังคับ",
+  "projects.save": "บันทึก",
+  "projects.saveError": "บันทึกไม่สำเร็จ",
+  "projects.seconds": "{n} วิ",
+  "projects.singleCount": "วิดีโอ: {n}",
+  "projects.singles": "วิดีโอเดี่ยว",
+  "projects.singlesHint": "วิดีโอที่ไม่ได้อยู่ในโปรเจกต์",
+  "projects.title": "โปรเจกต์ของฉัน",
+  "src.anyFile": "ไฟล์ใดก็ได้",
+  "src.badType": "{name}: ไม่รองรับไฟล์ประเภทนี้",
+  "src.canSource": "ไม่มีก็ไม่เป็นไร Claude จะค้นข้อมูลสาธารณะเอง",
+  "src.choose": "เลือกไฟล์",
+  "src.closeCommon": "− ปิด",
+  "src.dropOr": "หรือลากมาวางที่นี่ · {types} · สูงสุด {max}",
+  "src.material.none": "วาดขึ้นใหม่ทั้งหมด",
+  "src.material.optional": "ใส่วัตถุดิบของคุณเองได้",
+  "src.material.required": "สร้างจากข้อมูลจริง",
+  "src.maxFiles": "ได้สูงสุด {max} ไฟล์เท่านั้น",
+  "src.openCommon": "+ เพิ่มเสียงพากย์ เพลง รูป หรือโลโก้ของคุณ",
+  "src.optional": "ไม่บังคับ",
+  "src.remove": "ลบ",
+  "src.removeLabel": "ลบ {name}",
+  "src.required": "จำเป็น",
+  "src.tooBig": "{name} มีขนาดเกิน 500 MB",
+  "status.canceled": "ยกเลิกแล้ว",
+  "status.failed": "ล้มเหลว",
+  "status.queued": "รอคิว",
+  "status.running": "กำลังสร้าง",
+  "status.succeeded": "พร้อมแล้ว"
+ },
+ "style": {
+  "3D model": "โมเดล 3D",
+  "A 16-bit pixel RPG drawn in code.": "เกม RPG พิกเซล 16 บิต วาดด้วยโค้ด",
+  "A 1930s rubber-hose cartoon drawn in code.": "การ์ตูนแขนขายางยุค 1930 วาดด้วยโค้ด",
+  "A 3D world redrawn in crayon, all in code.": "โลก 3D ที่วาดใหม่ด้วยสีเทียน ทั้งหมดด้วยโค้ด",
+  "A 60s spy title sequence cut from paper in code.": "ไตเติลหนังสายลับยุค 60 ตัดจากกระดาษด้วยโค้ด",
+  "A Chinese ink painting made in code.": "ภาพวาดหมึกจีนที่สร้างด้วยโค้ด",
+  "A Memphis-style diorama built in code.": "ไดโอรามาสไตล์ Memphis สร้างด้วยโค้ด",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "ไฟล์โลโก้ PNG, JPG หรือ SVG ยิ่งใหญ่และคมชัดยิ่งดี",
+  "A beat-locked game show drawn in code; no source material needed.": "เกมโชว์ที่ตัดตามจังหวะ วาดด้วยโค้ด ไม่ต้องมีวัตถุดิบ",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "ข่าวสั้นจากกราฟิกโค้ด ใส่ฟุตเทจ รูป หรือโลโก้ของคุณได้",
+  "A colour-coded mechanism modelled and animated in code.": "กลไกแยกสี จำลองและทำแอนิเมชันด้วยโค้ด",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "ภาพตัดขวางสีไม้ วาดด้วยโค้ด ไม่ต้องมีวัตถุดิบ",
+  "A copperplate engraving drawn in code from your facts.": "ภาพแกะพิมพ์ทองแดง วาดด้วยโค้ดจากข้อมูลของคุณ",
+  "A crayon picture book drawn in code; no source material needed.": "สมุดภาพสีเทียน วาดด้วยโค้ด ไม่ต้องมีวัตถุดิบ",
+  "A drawing or photo of the character to keep the same in every scene.": "ภาพวาดหรือรูปถ่ายตัวละคร เพื่อให้หน้าตาเหมือนเดิมทุกฉาก",
+  "A drawn production line explaining a process; no source material needed.": "สายพานการผลิตแบบวาดมือ อธิบายกระบวนการ ไม่ต้องมีวัตถุดิบ",
+  "A fictional glass product rendered in code; real products are not reproduced.": "สินค้าแก้วสมมติที่เรนเดอร์ด้วยโค้ด ไม่ลอกสินค้าจริง",
+  "A film whose feel you want; its rhythm is measured, not copied.": "หนังที่คุณชอบฟีล วัดจังหวะของมัน ไม่ได้ลอก",
+  "A four-colour pop-art print made in code.": "ภาพพิมพ์ป๊อปอาร์ตสี่สี สร้างด้วยโค้ด",
+  "A gilded manuscript painting made in code.": "ภาพวาดคัมภีร์ปิดทอง สร้างด้วยโค้ด",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "โครงลวดเรืองแสงของวัตถุคุณ จำลองด้วยโค้ดหรือจากไฟล์ 3D ของคุณ",
+  "A layered paper-cut lightbox built in code.": "กล่องไฟกระดาษตัดซ้อนชั้น สร้างด้วยโค้ด",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "ภาพตัดขวางลายเส้นของเครื่องจักร จำลองและวาดด้วยโค้ด",
+  "A low-poly island world built in code.": "โลกเกาะโลว์โพลี สร้างด้วยโค้ด",
+  "A mid-century cartoon drawn in code from your steps.": "การ์ตูนยุคกลางศตวรรษ วาดด้วยโค้ดจากขั้นตอนของคุณ",
+  "A model of your object to show as a wireframe.": "โมเดลวัตถุของคุณเพื่อแสดงเป็นโครงลวด",
+  "A moving knife-painted oil painting made in code.": "ภาพสีน้ำมันปาดเกรียงที่เคลื่อนไหวได้ สร้างด้วยโค้ด",
+  "A paper pop-up book on a real-looking desk, made in code.": "หนังสือป๊อปอัปกระดาษบนโต๊ะที่ดูเหมือนจริง สร้างด้วยโค้ด",
+  "A pen-and-wash urban sketch drawn in code.": "สเก็ตช์เมืองปากกาลงสีน้ำ วาดด้วยโค้ด",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "รูปถ่ายหรือเฟรมที่จะแปลงเป็นภาพพิมพ์แกะไม้ เช่น ภาพบุคคล",
+  "A picture computed in spreadsheet cells; can use your own table.": "ภาพที่คำนวณในเซลล์สเปรดชีต ใช้ตารางของคุณเองได้",
+  "A pixel-art miniature world built in code.": "โลกจิ๋วพิกเซลอาร์ต สร้างด้วยโค้ด",
+  "A post, notes or a sketch of the system to draw from.": "โพสต์ โน้ต หรือภาพร่างของระบบที่ใช้เป็นต้นแบบ",
+  "A printed case file with halftone characters, drawn in code.": "แฟ้มคดีพิมพ์ลายจุดฮาล์ฟโทน วาดด้วยโค้ด",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "เมืองจิ๋วที่สร้างแบบโปรซีเดอรัล ถ่ายแบบ tilt-shift สร้างด้วยโค้ด",
+  "A real simulation of little creatures run and filmed in code.": "การจำลองสิ่งมีชีวิตตัวเล็ก ๆ ที่รันและถ่ายด้วยโค้ดจริง",
+  "A risograph print made in code.": "ภาพพิมพ์ริโซกราฟ สร้างด้วยโค้ด",
+  "A scene seen through a thermal camera, simulated in code.": "ฉากที่มองผ่านกล้องความร้อน จำลองด้วยโค้ด",
+  "A sci-fi sitcom cartoon drawn in code.": "การ์ตูนซิตคอมไซไฟ วาดด้วยโค้ด",
+  "A scratchboard landscape long take made in code.": "ภาพทิวทัศน์สแครชบอร์ดแบบลองเทก สร้างด้วยโค้ด",
+  "A silkscreen travel poster printed in code.": "โปสเตอร์ท่องเที่ยวซิลค์สกรีน พิมพ์ด้วยโค้ด",
+  "A sketchnote page drawn in code.": "หน้าสเก็ตช์โน้ต วาดด้วยโค้ด",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "หนังเปิดตัวซอฟต์แวร์ด้วย UI แบบนามธรรมจากโค้ด โลโก้ของคุณกำหนดสีหลัก",
+  "A stained-glass window lit in code.": "หน้าต่างกระจกสีที่จัดแสงด้วยโค้ด",
+  "A table whose values drive the picture.": "ตารางที่ค่าตัวเลขขับเคลื่อนภาพ",
+  "A tablet sketch drawn and coloured in code.": "สเก็ตช์บนแท็บเล็ต วาดและลงสีด้วยโค้ด",
+  "A toy-brick world built and animated in code.": "โลกตัวต่อของเล่น สร้างและทำแอนิเมชันด้วยโค้ด",
+  "A track you have the rights to; otherwise music is composed for the film.": "เพลงที่คุณมีสิทธิ์ใช้ ถ้าไม่มี จะแต่งเพลงให้หนังเรื่องนี้",
+  "A track you have the rights to; the film is cut to it.": "เพลงที่คุณมีสิทธิ์ใช้ หนังจะตัดตามเพลงนี้",
+  "A two-ink dithered 3D world made in code.": "โลก 3D ดิเธอร์สองสีหมึก สร้างด้วยโค้ด",
+  "A vertical clip; set the frame to 9:16.": "คลิปแนวตั้ง ตั้งเฟรมเป็น 9:16",
+  "A watercolour painting brushed in code.": "ภาพสีน้ำที่ปัดพู่กันด้วยโค้ด",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "โมเดลสีขาวของอาคารจริงจากข้อมูลเปิดหรือแปลนของคุณ ฉายแสงด้วยข้อมูล",
+  "A whiteboard explainer drawn in code.": "ไวต์บอร์ดอธิบาย วาดด้วยโค้ด",
+  "An SVG, logo or icon to animate, if there is one.": "SVG โลโก้ หรือไอคอนที่จะทำแอนิเมชัน ถ้ามี",
+  "An assembly-manual drawing made in code from your steps.": "ภาพคู่มือประกอบ สร้างด้วยโค้ดจากขั้นตอนของคุณ",
+  "An isometric infographic drawn in code.": "อินโฟกราฟิกไอโซเมตริก วาดด้วยโค้ด",
+  "An isometric scene of people following a rule, made in code.": "ฉากไอโซเมตริกของผู้คนที่ทำตามกฎ สร้างด้วยโค้ด",
+  "An old recording you own that can play under the archive.": "เสียงบันทึกเก่าที่คุณเป็นเจ้าของ เปิดคลอใต้ภาพจดหมายเหตุได้",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "หน้าจอแอปเป็นการ์ดกระดาษบนโต๊ะ สร้างด้วยโค้ด ใส่สีแบรนด์ได้",
+  "Archive film or video about your subject.": "ฟิล์มหรือวิดีโอจดหมายเหตุเกี่ยวกับเรื่องของคุณ",
+  "Archive scans": "สแกนจดหมายเหตุ",
+  "Article or notes": "บทความหรือโน้ต",
+  "Audio recordings or readings such as telemetry or weather.": "เสียงบันทึกหรือค่าที่อ่านได้ เช่น เทเลเมทรีหรือสภาพอากาศ",
+  "BOM or spec sheet": "BOM หรือสเปกชีต",
+  "Bill of materials and spec sheet for part names and numbers.": "รายการวัสดุและสเปกชีต สำหรับชื่อและหมายเลขชิ้นส่วน",
+  "Black silhouettes moving to the beat, made in code.": "เงาดำเคลื่อนไหวตามจังหวะ สร้างด้วยโค้ด",
+  "Brand feel": "ฟีลของแบรนด์",
+  "Brand fonts you are licensed to use.": "ฟอนต์แบรนด์ที่คุณมีสิทธิ์ใช้",
+  "Building data": "ข้อมูลอาคาร",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "สร้างจากไฟล์ CAD ของสินค้าจริง จำเป็นถ้าเป็นสินค้าของคุณ ไม่งั้นเราใช้ฮาร์ดแวร์โอเพนซอร์ส",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "สร้างจากภาพสแกนกล้องจุลทรรศน์จริง ส่งของคุณมา หรือเราหาสไลด์ที่ไม่ติดลิขสิทธิ์ให้",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "สร้างจากวัตถุจดหมายเหตุจริง ส่งภาพสแกนของคุณมา หรือเราใช้คอลเลกชันสาธารณสมบัติ",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "สร้างจากจุดเลเซอร์สแกนจริง ส่งสแกนของคุณมา หรือเราใช้ข้อมูล LiDAR สาธารณะ",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "สร้างจากรูปถ่ายจริงของวัตถุ ส่งของคุณมา หรือเราใช้รูปที่ไม่ติดลิขสิทธิ์",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "สร้างจากฟุตเทจเรียลไทม์ของเหตุการณ์เดียว ส่งของคุณมา หรือเราใช้บันทึกสาธารณสมบัติ",
+  "Built from your product: screenshots and a link make the UI and copy real.": "สร้างจากสินค้าของคุณ: ภาพหน้าจอและลิงก์ทำให้ UI และข้อความเป็นของจริง",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "สร้างบนข้อมูลความสูงและภาพดาวเทียมจริงของสถานที่ พร้อมข้อมูลของคุณเรืองแสงด้านบน",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "สร้างจากฟุตเทจการแข่งขันจริง ส่งคลิปของคุณมา หรือเราหาคลิปที่มีไลเซนส์เปิด",
+  "CAD files": "ไฟล์ CAD",
+  "Captions and cards are added over your own video.": "ใส่คำบรรยายและการ์ดทับบนวิดีโอของคุณเอง",
+  "Carved in code; a photo can be recut into a woodcut plate.": "แกะสลักด้วยโค้ด แปลงรูปถ่ายเป็นแม่พิมพ์แกะไม้ได้",
+  "Chalk writing and drawing made in code; no source material needed.": "ตัวหนังสือและภาพวาดชอล์ก สร้างด้วยโค้ด ไม่ต้องมีวัตถุดิบ",
+  "Character designs": "ดีไซน์ตัวละคร",
+  "Character reference": "ภาพอ้างอิงตัวละคร",
+  "Characters and scenes made of glowing points, all in code.": "ตัวละครและฉากจากจุดเรืองแสง ทั้งหมดด้วยโค้ด",
+  "Clip links": "ลิงก์คลิป",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "คอลลาจจากภาพพิมพ์และของที่ระลึกสาธารณสมบัติจริง ตัดด้วยมือ",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "ตรวจสอบไขว้ฟุตเทจ รูป เอกสาร และข้อมูลจริงของเหตุการณ์เดียว ของคุณมาก่อน",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "ตัดจากฟิล์ม สิ่งพิมพ์ และเสียงบันทึกจดหมายเหตุจริง ของคุณก่อน ไม่งั้นใช้คลังสาธารณสมบัติ",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "ตัดจากฟุตเทจ รูป และเอกสารต้นฉบับจริง ของคุณมาก่อน คลังสาธารณะเติมส่วนที่ขาด",
+  "Cut to your own song; send the track.": "ตัดตามเพลงของคุณเอง ส่งไฟล์เพลงมา",
+  "Dashcam, CCTV, phone or archive video of the event.": "วิดีโอจากกล้องหน้ารถ กล้องวงจรปิด มือถือ หรือคลังเก่าของเหตุการณ์",
+  "Data to plot": "ข้อมูลที่จะพล็อต",
+  "Dataset": "ชุดข้อมูล",
+  "Describe the voice you want, e.g. calm female, British English.": "อธิบายเสียงที่ต้องการ เช่น ผู้หญิงเสียงนุ่ม ภาษาไทยกลาง",
+  "Documents": "เอกสาร",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "วาดด้วยโค้ดทั้งหมดเป็นตัวอักษรเทอร์มินัลเรืองแสง ไม่ต้องมีวัตถุดิบ",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "วาดด้วยโค้ดทั้งหมดเป็นอาร์ตเดโคทองดำ ไม่ต้องมีวัตถุดิบ",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "วาดด้วยโค้ด คลิปเก่าของคุณวาดใหม่เป็นลายหมึกย้อนยุคได้",
+  "Drawn on a blueprint sheet in code; no source material needed.": "วาดบนแผ่นพิมพ์เขียวด้วยโค้ด ไม่ต้องมีวัตถุดิบ",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "วาดเครือข่ายจริงจากข้อมูลที่ตรวจแล้ว ของคุณก่อน ไม่งั้นใช้ข้อมูลเปิดของผู้ให้บริการ",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "ตัดต่อจากฟุตเทจจริงของสถานที่ ส่งของคุณมา หรือเราหาคลิปที่ไม่ติดลิขสิทธิ์",
+  "Event footage": "ฟุตเทจเหตุการณ์",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "ทุกจุดคือตัวเลขจริง ส่งชุดข้อมูลของคุณมา หรือเราใช้ข้อมูลไลเซนส์เปิด",
+  "Family, company or sports clips to redraw as ink.": "คลิปครอบครัว บริษัท หรือกีฬา ที่จะวาดใหม่เป็นลายหมึก",
+  "Field data": "ข้อมูลภาคสนาม",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "เติมภาพเงาสัตว์ด้วยภาพทิวทัศน์จริง ของคุณหรือสาธารณสมบัติ",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "รูปทรงเรียบแบบ Bauhaus ปรับขนาดตามตัวเลขของคุณ ไม่ต้องมีวัตถุดิบ",
+  "Flat science explainer zooming across scales, drawn in code.": "อธิบายวิทยาศาสตร์แบบแฟลต ซูมข้ามสเกล วาดด้วยโค้ด",
+  "Fonts": "ฟอนต์",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "ฟุตเทจหรือรูปที่คุณถ่ายหรือมีสิทธิ์ใช้ ส่วนที่เหลือหาจากแหล่งเปิดหรือสร้างขึ้น",
+  "Generated images": "ภาพที่สร้างขึ้น",
+  "Gridded wind, current or flow data, if you have it.": "ข้อมูลลม กระแสน้ำ หรือการไหลแบบกริด ถ้ามี",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "อนิเมะยุค 80 ลุคเพนต์มือ สร้างด้วยโค้ด ไม่ต้องมีวัตถุดิบ",
+  "Key points for cards": "ประเด็นหลักสำหรับการ์ด",
+  "Landscape photos": "ภาพทิวทัศน์",
+  "Large, clear photos of the real objects being compared.": "รูปขนาดใหญ่ชัด ๆ ของวัตถุจริงที่จะเปรียบเทียบ",
+  "Laser scan": "เลเซอร์สแกน",
+  "Line-ups or event data": "รายชื่อผู้เล่นหรือข้อมูลการแข่งขัน",
+  "Line-ups or event data for the match.": "รายชื่อผู้เล่นหรือข้อมูลเหตุการณ์ของแมตช์นี้",
+  "Lines, stations, opening dates, lengths or ridership.": "สาย สถานี วันเปิดใช้ ระยะทาง หรือจำนวนผู้โดยสาร",
+  "Link to the product or its documentation.": "ลิงก์สินค้าหรือเอกสารของสินค้า",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "ลิงก์วิดีโอ YouTube/TikTok ที่จะรีแอกต์หรืออ้างอิง คั่นด้วยเว้นวรรค",
+  "Logos": "โลโก้",
+  "Logos to show, ideally SVG or transparent PNG.": "โลโก้ที่จะแสดง ควรเป็น SVG หรือ PNG พื้นใส",
+  "Lyrics": "เนื้อเพลง",
+  "Marker drawing on paper, made in code.": "ภาพวาดปากกามาร์กเกอร์บนกระดาษ สร้างด้วยโค้ด",
+  "Match clips you have the rights to use.": "คลิปการแข่งขันที่คุณมีสิทธิ์ใช้",
+  "Microscope scans": "ภาพสแกนกล้องจุลทรรศน์",
+  "Music": "เพลง",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "ชื่อ ตัวเลข หรือประเด็นที่จะแสดงเป็นการ์ด ถ้าไม่มี จะเลือกจากสิ่งที่พูด",
+  "Narration script": "บทบรรยาย",
+  "Needs an image generator for characters and panels; your designs and products come first.": "ต้องใช้ตัวสร้างภาพสำหรับตัวละครและช่องภาพ ดีไซน์และสินค้าของคุณมาก่อน",
+  "Needs an image generator for the characters; your own designs come first.": "ต้องใช้ตัวสร้างภาพสำหรับตัวละคร ดีไซน์ของคุณมาก่อน",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "ต้องใช้ตัวสร้างภาพสำหรับแผ่นหุ่น ดีไซน์ตัวละครของคุณมาก่อน",
+  "Neon signs built and animated in code.": "ป้ายนีออนที่สร้างและทำแอนิเมชันด้วยโค้ด",
+  "Network data": "ข้อมูลเครือข่าย",
+  "Newspapers, magazines, letters or documents, scanned.": "หนังสือพิมพ์ นิตยสาร จดหมาย หรือเอกสารที่สแกนแล้ว",
+  "Object photos": "รูปวัตถุ",
+  "Objects seen through an X-ray console, modelled in code.": "วัตถุที่มองผ่านจอเอกซเรย์ จำลองด้วยโค้ด",
+  "Old film or video about your subject.": "ฟิล์มหรือวิดีโอเก่าเกี่ยวกับเรื่องของคุณ",
+  "One character, kept the same in every scene and episode.": "ตัวละครเดียว หน้าตาเหมือนเดิมทุกฉากและทุกตอน",
+  "One continuous line drawn in code.": "เส้นเดียวต่อเนื่อง วาดด้วยโค้ด",
+  "One idea carries the whole ad; your product appears as the result.": "ไอเดียเดียวแบกทั้งโฆษณา สินค้าของคุณปรากฏเป็นผลลัพธ์",
+  "Only if no image generator is connected: images made from our prompts.": "เฉพาะเมื่อไม่ได้เชื่อมต่อตัวสร้างภาพ: ภาพที่สร้างจากพรอมต์ของเรา",
+  "Period recording": "เสียงบันทึกยุคเก่า",
+  "Photos": "รูปภาพ",
+  "Photos of people, products or places that should appear.": "รูปคน สินค้า หรือสถานที่ที่ควรปรากฏ",
+  "Photos of the places the animal belongs to; shown in black and white.": "รูปสถานที่ที่สัตว์ตัวนั้นอาศัย แสดงเป็นขาวดำ",
+  "Pictograms and cards animated in code.": "พิกโตแกรมและการ์ดที่ทำแอนิเมชันด้วยโค้ด",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "ชื่อสถานที่หรือพิกัดละติจูด/ลองจิจูด ถ้าไม่ชัดจากหัวข้อ",
+  "Place or coordinates": "สถานที่หรือพิกัด",
+  "Plans, a city model or survey heights for your site.": "แปลน โมเดลเมือง หรือค่าความสูงจากการสำรวจของพื้นที่คุณ",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "วาดด้วยปากกาเครื่องพล็อต แผนที่และบันทึกใช้ข้อมูลจริงที่คุณส่งหรือที่เราหา",
+  "Preferred voice": "เสียงที่ต้องการ",
+  "Print scans": "สแกนภาพพิมพ์",
+  "Product link": "ลิงก์สินค้า",
+  "Rapid microgames in changing art styles, all made in code.": "ไมโครเกมรัว ๆ ที่เปลี่ยนสไตล์ภาพไปเรื่อย ๆ ทั้งหมดด้วยโค้ด",
+  "Real maths drawn as oscilloscope light, computed in code.": "คณิตศาสตร์จริงวาดเป็นแสงออสซิลโลสโคป คำนวณด้วยโค้ด",
+  "Real statistics built as physical objects; your own numbers or published open data.": "สถิติจริงสร้างเป็นวัตถุจับต้องได้ ใช้ตัวเลขของคุณหรือข้อมูลเปิดที่เผยแพร่",
+  "Recordings or data": "เสียงบันทึกหรือข้อมูล",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "ตัดใหม่จากฟิล์ม รูป และเอกสารจดหมายเหตุจริง ของคุณนำ คลังเติมส่วนที่ขาด",
+  "Red paper-cut scenes made in code.": "ฉากกระดาษตัดสีแดง สร้างด้วยโค้ด",
+  "Redraws your real product's interface; screenshots help it match exactly.": "วาดหน้าจอสินค้าจริงของคุณใหม่ ภาพหน้าจอช่วยให้ตรงเป๊ะ",
+  "Reference clip": "คลิปอ้างอิง",
+  "Reference photo": "รูปอ้างอิง",
+  "Rendered found-footage of empty interiors, all made in code.": "ฟุตเทจห้องว่างแบบ found-footage เรนเดอร์ทั้งหมดด้วยโค้ด",
+  "Reports, statements or memos about the event.": "รายงาน แถลงการณ์ หรือบันทึกเกี่ยวกับเหตุการณ์",
+  "Routes or map data": "เส้นทางหรือข้อมูลแผนที่",
+  "Routes, points or areas to draw on the map.": "เส้นทาง จุด หรือพื้นที่ที่จะวาดบนแผนที่",
+  "STEP, IGES or KiCad exports of your product.": "ไฟล์ STEP, IGES หรือ KiCad ของสินค้าคุณ",
+  "SVG or icon": "SVG หรือไอคอน",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "สแกนฟิล์มเนกาทีฟ จดหมาย รูป หรือข่าวตัดที่คุณมีสิทธิ์",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "สแกนภาพแกะพิมพ์เก่า แสตมป์ หรือของที่ระลึกที่คุณมีสิทธิ์",
+  "Scans of reports, brochures, letters or photographs.": "สแกนรายงาน โบรชัวร์ จดหมาย หรือรูปถ่าย",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "ฉากที่เผยด้วยแสงสแกน สร้างด้วยโค้ด ไม่ต้องใช้ข้อมูลสแกนจริง",
+  "Schedules, filings or results shown as paper.": "ตารางเวลา เอกสารยื่น หรือผลลัพธ์ แสดงเป็นกระดาษ",
+  "Scratched-film animation made in code.": "แอนิเมชันขูดฟิล์ม สร้างด้วยโค้ด",
+  "Screens of your product so the UI is redrawn accurately.": "หน้าจอสินค้าของคุณ เพื่อวาด UI ใหม่ได้แม่นยำ",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "ส่งโลโก้มา จะวาดใหม่เป็นเวกเตอร์คม ๆ แล้วทำแอนิเมชัน",
+  "Shadow puppets on a lit screen, made in code.": "หนังตะลุงบนจอที่มีแสงส่อง สร้างด้วยโค้ด",
+  "Song lyrics, if this is a music video.": "เนื้อเพลง ถ้าเป็นมิวสิกวิดีโอ",
+  "Stick figures act out the idea, drawn in code.": "ตัวการ์ตูนก้างปลาแสดงไอเดีย วาดด้วยโค้ด",
+  "Streamlines of a real or modelled field such as wind or currents.": "เส้นกระแสของสนามจริงหรือจำลอง เช่น ลมหรือกระแสน้ำ",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "ข้อมูลสำรวจ ภูมิประเทศ หรือค่าที่วัดได้ ถ้าแผ่นงานแสดงข้อมูลจริง",
+  "Swiss grid motion graphics made in code.": "โมชันกราฟิกกริดสวิส สร้างด้วยโค้ด",
+  "The report or document the numbers come from, as PDF.": "รายงานหรือเอกสารต้นทางของตัวเลข เป็น PDF",
+  "The report your figures come from.": "รายงานต้นทางของตัวเลขคุณ",
+  "The site to survey, if not clear from your topic.": "พื้นที่ที่จะสำรวจ ถ้าไม่ชัดจากหัวข้อ",
+  "The talking video to caption; it is kept as it is.": "วิดีโอพูดที่จะใส่คำบรรยาย ตัววิดีโอคงไว้ตามเดิม",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "สามคำบอกว่าแบรนด์ควรเคลื่อนไหวแบบไหน เช่น สงบ แม่นยำ เป็นมิตร",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "ไทม์แลปส์ ไฮเปอร์แลปส์ ภาพมุมสูง หรือรูปของสถานที่",
+  "UI screenshots": "ภาพหน้าจอ UI",
+  "Ukiyo-e woodblock prints made in code.": "ภาพพิมพ์แกะไม้อุกิโยเอะ สร้างด้วยโค้ด",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "ใช้ภาพดาวเทียมจริงของสถานที่ ถ้าคุณไม่มี เราดึงภาพสาธารณะมาให้",
+  "Video or audio of the same event from several angles.": "วิดีโอหรือเสียงของเหตุการณ์เดียวกันจากหลายมุม",
+  "Voice recording": "ไฟล์เสียงพูด",
+  "Voice-over script": "บทพากย์",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "สิ่งที่ผู้บรรยายพูด ถ้ามี ไม่งั้นจะเขียนจากหัวข้อของคุณ",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "สิ่งที่ผู้บรรยายควรพูด ถ้ามี ไม่งั้นจะเขียนให้",
+  "Whole-slide scans or micrographs with a scale.": "สแกนสไลด์ทั้งแผ่นหรือภาพถ่ายจุลทรรศน์พร้อมสเกล",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "คุณจะได้ไฟล์ Lottie .json สำหรับแอปหรือเว็บ และ MP4 ไว้พรีวิว",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "คุณจะได้วิดีโอ ไฟล์ .excalidraw ที่แก้ไขได้ PNG และ GIF",
+  "Your GIS layers": "เลเยอร์ GIS ของคุณ",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "หน้าจอแอปของคุณจะถูกสร้างใหม่ใน HTML และพาชมพร้อมเสียงพากย์ ส่งหน้าจอของแต่ละฟีเจอร์ที่จะโชว์มา",
+  "Your character designs or product photos; otherwise generated.": "ดีไซน์ตัวละครหรือรูปสินค้าของคุณ ไม่งั้นจะสร้างให้",
+  "Your clips": "คลิปของคุณ",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "คลิปของคุณ ฟุตเทจไลเซนส์เปิด คลิปจากช่องอื่นที่ใช้เพื่อวิจารณ์ และภาพจาก Flow AI ผสมกับอินโฟกราฟิกที่วาดด้วยโค้ด พร้อมเสียงบรรยายภาษาไทย",
+  "Your figures as a table; otherwise open published data is used.": "ตัวเลขของคุณเป็นตาราง ไม่งั้นใช้ข้อมูลเปิดที่เผยแพร่",
+  "Your figures, e.g. from an annual or ESG report.": "ตัวเลขของคุณ เช่น จากรายงานประจำปีหรือรายงาน ESG",
+  "Your footage": "ฟุตเทจของคุณ",
+  "Your logo": "โลโก้ของคุณ",
+  "Your own character or product designs; otherwise they are generated.": "ดีไซน์ตัวละครหรือสินค้าของคุณเอง ไม่งั้นจะสร้างให้",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "คลิปของคุณ ฟุตเทจไลเซนส์เปิด และภาพจาก Flow AI ผสมกับอินโฟกราฟิกที่วาดด้วยโค้ด ไม่ใช้อะไรจากช่องอื่น",
+  "Your own footage or b-roll stills to grade into the package.": "ฟุตเทจหรือภาพนิ่ง b-roll ของคุณเพื่อเกรดสีเข้าชุดข่าว",
+  "Your own narration; otherwise we use a synthetic voice.": "เสียงบรรยายของคุณเอง ไม่งั้นใช้เสียงสังเคราะห์",
+  "Your own site, drone or terrestrial scan.": "สแกนพื้นที่ โดรน หรือสแกนภาคพื้นของคุณเอง",
+  "Your own surveys or GIS layers, if the place is yours.": "ข้อมูลสำรวจหรือเลเยอร์ GIS ของคุณ ถ้าพื้นที่เป็นของคุณ",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "คลิปวิดีโอของคุณเอง ไม่งั้นจะหาฟุตเทจจดหมายเหตุที่ไม่ติดลิขสิทธิ์",
+  "Your song": "เพลงของคุณ",
+  "Your subject drawn as a circuit board in code.": "เรื่องของคุณวาดเป็นแผงวงจรด้วยโค้ด",
+  "Your video": "วิดีโอของคุณ",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "เจ้า Pip ขนกำมะหยี่ 160 ตัวแย่งเมล็ดถั่ว ตัวที่เร็วได้กินก่อนและหมดแรงก่อน ผ่านไป 20 รุ่น ทั้งกระดานก็กลายเป็นสีฟ้า",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "ปี 1926 หนังสือพิมพ์บอกว่าการเต้นชาร์ลสตันจะทำให้เข่าคนอเมริกันพัง แต่ในปิกนิกของฟอร์ดเอง เด็ก ๆ ก็ยังเต้นกันอยู่ดี",
+  "3D & Miniature": "3D และโมเดลจิ๋ว",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "แผ่นแสตมป์ไปรษณีย์อากาศปี 1918 ที่พิมพ์เครื่องบินกลับหัว ซื้อมา 24 ดอลลาร์ ถูกตัดแยกกระจายไป และดวงที่ 66 ยังหายไปจนทุกวันนี้",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "คลิป 9:16 สำหรับ Reels, TikTok และ Shorts ดึงความสนใจตั้งแต่วินาทีแรก ตัวอักษรเคลื่อนไหวขนาดใหญ่ จังหวะฉับไว และซับไตเติลที่อ่านได้แม้ปิดเสียง",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "แอนิเมชัน Lottie สำหรับแอปหรือเว็บไซต์ ส่งมอบเป็นไฟล์ .json พร้อม MP4 ทั้งตัวโหลด ไอคอน สถานะสำเร็จ แถบชื่อด้านล่าง ตัวนับสถิติ และโปรโมสั้น ๆ",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "ปั่นจักรยานเช้าวันอาทิตย์ผ่านเมือง ร้านเบเกอรี สวน ริมแม่น้ำ แต่ละจุดเพิ่มหมึกอีกสี จนแม่พิมพ์สามแผ่นที่เหลื่อมกันพิมพ์ซ้อนทับ",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "เด็กฝึกงานร้านขนมปังวิ่งไล่ก้อนขนมปังที่กลิ้งลงเนิน แล้วหักแบ่งครึ่งให้เด็กหญิงที่หิวโหย",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "ไดอะแกรมสถาปัตยกรรมหรือกระบวนการวาดมือบนพื้นดำ มีจุดเรืองแสงวิ่งไปตามเส้นทาง พร้อมไฟล์ Excalidraw ที่แก้ไขได้และ GIF",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "ร่างกายถูกผ่าออกเป็นโรงงานที่เดินเครื่องถอยหลัง แซนด์วิชมื้อเที่ยงครึ่งถูกแยกชิ้นทีละสถานี และหกชั่วโมงต่อมามันก็ใช้วิ่งไล่รถเมล์",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "นักบินอวกาศตัวต่อประกอบจรวดจากชิ้นส่วนเหลือใช้ แล้วบินไปดวงจันทร์ตัวต่อ",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "โรงละครของเล่นจากกระดาษแข็ง กระดาษลวดลาย ตัวตัดสีกวอชที่มีขอบแบบสติกเกอร์ และฉากที่เลื่อนไปมาบนเวที",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "รูปแมวกระโดดข้ามการ์ดแอปบนโต๊ะที่แดดส่อง จากมือถือเครื่องหนึ่งไปยังมือถือของเพื่อน",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "สายโซ่มือจากคุณถึงคนแปลกหน้า ทดสอบด้วยจดหมายในปี 1967 อธิบายด้วยวงแหวนที่ใหญ่กว่าโลก และปิดวงรอบโลกได้สำเร็จ",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "แมวส้มอ้วนกลมถูกพิจารณาคดีฐานทดสอบแรงโน้มถ่วงและเล่นพาร์กัวร์ตอนตีสี่ แล้วก็ได้รับการปล่อยตัว",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "นักเรียนนายร้อยซุ่มซ่ามรอดค่ายฝึกห้าวินาที เร็วขึ้นเรื่อย ๆ จนถึงบอส คือการลงจอดกลับบ้าน",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "ถ้วยกาแฟวิ่งไล่ก้อนน้ำตาลที่หนีไปรอบครัว ในสไตล์การ์ตูนยุค 1930",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "การเดินทางของกาแฟจากไร่สู่มือคุณ ในโลกไอโซเมตริกเพียงใบเดียว",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "โปสเตอร์คอนเสิร์ตจัดเลย์เอาต์ตัวเองตามกฎดีไซน์สวิสห้าข้อ ข้อที่ห้าคือให้แหกกฎแค่ข้อเดียว",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "สาวส่งของบิดรถผ่านเมืองนีออนที่ชุ่มฝน เพื่อส่งเทปให้ทันก่อนการปล่อยยานตอนรุ่งสาง",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "ปากกามาร์กเกอร์คำนวณว่าเส้นขอบฟ้าอยู่ไกลแค่ไหนจากชายหาด แล้วแสดงว่าปีนสูงขึ้นร้อยเท่าจะมองไกลขึ้นแค่สิบเท่า",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "ปลาแลนเทิร์นยาวเท่านิ้วมือว่ายขึ้นครึ่งกิโลเมตรในความมืด ซ่อนเงาด้วยแสงของตัวเอง และกลายเป็นหนึ่งในสัตว์นับไม่ถ้วนที่ลอยขึ้นมาทุกคืน",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "แสงกะพริบของหิ่งห้อยคือคำถาม เด็กหญิงได้คำตอบเป็นกวาง สูญเสียแสงทั้งหมดในพายุ แล้วใช้แสงสุดท้ายถามความมืดทั้งหมด",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "บินมุมมองบุคคลที่หนึ่งเหนือหมู่บ้านสีเทียน ไปยังดอกไม้ดอกหนึ่งในสวนของชายชรา แล้วก็ดวงตาของเขา กับสิ่งที่เขาพูด",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "ฝูงนกฟลามิงโกขยับทุกจังหวะ มีลูกนกตัวหนึ่งช้าไปครึ่งจังหวะเสมอ ระลอกน้ำที่ตัวอื่นทิ้งไว้สอนจังหวะให้มัน",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "หน้าอัลบั้มเก่าคร่ำคร่า การ์ดฉีก เทปกาว ภาพแกะพิมพ์ลงสีด้วยมือ ป้ายพิมพ์ดีด และตัวอักษรตัดแปะแบบจดหมายเรียกค่าไถ่ร่วมกันเล่าเรื่อง",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "โรงแรมหรูปี 1930 เด็กยกกระเป๋าแข่งกับลิฟต์และประตูหมุนเพื่อส่งจดหมายฉบับเดียวให้ทันก่อนเที่ยงคืน",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "อุณหภูมิฤดูร้อนตลอดร้อยปี ที่ตัวกราฟเองเป็นผู้เล่าเรื่อง",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "อัจฉริยะผู้เบื่อโลกเปิดประตูมิติแค่จะไปซื้อกาแฟ แล้วร่วงผ่านจักรวาลที่ประหลาดขึ้นเรื่อย ๆ",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "การสำรวจด้วยเลเซอร์ลอกเรือนยอดป่าในคอนเนตทิคัตออก และพบกำแพงไร่เก่ายาว 3.4 กม.",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "หนังเปิดตัวแอปแบบลองเทคไม่มีตัด แถบพรอมต์เปิดออกเป็นปฏิทิน ปฏิทินไหลเข้าสู่มือถือ และทุกจังหวะงอกออกมาจากจังหวะก่อนหน้า",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "จดหมาย โทรศัพท์ กำแพงหน้าต่าง บันไดสิบสามขั้น หญิงสาวที่บอกเขาว่าอย่าหันหลังกลับเข้าใกล้มาอีกก้าวเสมอ จนกระทั่งเธอหันหน้ามา",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "ยานสำรวจตัวจิ๋วที่มีเลนส์ซูมเป็นดวงตา ยิงเส้นเล็งแบบจุดไปยังจุดหมายถัดไป พาเราจากทางช้างเผือกลงไปถึงไวรัส",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "AI ฐานบนดวงจันทร์ตื่นขึ้นหลังสี่สิบปีเพราะสัญญาณจากโลก และตอบกลับด้วยการวาดคำว่า “บ้าน” ด้วยตัวอักษร",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "มิวสิกวิดีโอตัดตามเพลงของคุณเอง จังหวะและท่อนวัดจากแทร็กจริง ทั้งเนื้อเพลง รูปทรง และสีขยับไปตามนั้น",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "ผู้บรรยายที่คุณไม่เคยเห็นหน้า ฟุตเทจจริง 3D และตัวแทนจาก AI อินโฟกราฟิกเทียบขนาด แผนที่ และซับไตเติลผลัดกันเล่าเรื่องจริงสุดทึ่งเรื่องหนึ่ง",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "แผ่นภาพประวัติศาสตร์ธรรมชาติแกะสลักตัวเอง สิ่วแกะตัดแผ่นทองแดง ผึ้งค่อย ๆ ก่อตัวทีละเส้น และสีน้ำทาบางทำให้มันมีชีวิต",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "แมวนีออนออกไปหาปลาทองบนป้ายสุดถนน ทำโหลแตก แล้ววิ่งพาปลาที่แสงริบหรี่ฝ่าฝนกลับบ้านไปยังแก้วไวน์บนป้ายของตัวเอง",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "พนักงานกะดึกคนใหม่ถ่ายคืนแรกในออฟฟิศสีเหลืองไร้ที่สิ้นสุด โดยทำตามกฎที่ติดบนผนัง",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "สวนที่เป็นเพียงภาพสเก็ตช์ปากกา ลมพาหมวกฟางของเธอไปที่ไหน สีสันก็ตามไปที่นั่น",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "มือถือสัญญาณหายเมื่อจับตรงมุม พอแกะออกจึงพบว่ากรอบโลหะคือเสาอากาศ ที่ถูกตัดเป็นท่อนซึ่งมือคุณเชื่อมถึงกันได้",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "หนังสือป๊อปอัปเปิดออกบนโต๊ะ ภูตน้อยชื่อ Pip ผจญภัยในโลกกระดาษแล้วกระโดดออกมาสู่โลกของเรา",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "แผนที่รถไฟใต้ดินฉบับพิมพ์เติบโตจากเส้นทางเดียวยาว 6 กม. ในปี 1993 เป็น 21 สาย รวม 906 กม.",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "พาชมผลิตภัณฑ์พร้อมเสียงบรรยาย UI ของแอปสร้างใหม่จากภาพหน้าจอ กล้องซูมเข้าหาทีละฟีเจอร์ มีซับไตเติล และมีเวอร์ชันภาษาอื่นด้วย",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "โปรเจกเตอร์ระบายสีโมเดลสีขาวของรอตเทอร์ดามทีละชั้น จากที่ว่างปี 1940 สู่ตึกสูงในวันนี้",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "ตั้งค่าหุ่นยนต์ดูดฝุ่นในสามขั้นตอน เล่าแบบหนังสอนในห้องเรียนยุค 1950",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "ดาวเทียมตามแผนที่ไปยังทะเลอารัลแต่พบทะเลทราย มีเพียงส่วนที่มีคนสร้างเขื่อนกั้นเท่านั้นที่กลับมา",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "พายุที่ปาร์กส์ 21 กรกฎาคม 1969 จานรับสัญญาณ 64 เมตรที่เอียงสุดขีดยังยืนหยัด และรับภาพการเดินบนดวงจันทร์ให้คนทั้งโลก",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "ช่างภาพสตรีทไล่ตามแสงที่วิ่งไปจนถึงวินาทีที่ฝูงนกพิราบบินขึ้น กล้องพกของเธอแบ่งวินาทีนั้นเป็นสามสิบช่อง",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "นักดาบเดินข้ามแม่น้ำบนผิวน้ำ และผ่ากระแสน้ำด้วยดาบเดียว",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "กล้องถ่ายภาพความร้อนวนรอบอาคารอพาร์ตเมนต์เก่าในคืนหิมะตก หน้าต่างที่ความร้อนรั่ว ท่อในผนัง แมวนอนบนฝากระโปรงรถอุ่น ๆ และอาคารเดิมหลังปรับปรุงหนึ่งปี",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "นักเดินทางข้ามโลกทีละโปสเตอร์ซิลค์สกรีนเต็มหน้า ต้นขั้วตั๋วนับระยะทางจากบ้าน จนอีกฟากโลกกลายเป็นทางกลับ",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "นักเดินทางเดินมุ่งสู่ภูเขาไกลลิบ ทุกช็อตคือภาพพิมพ์แกะไม้ คลื่นยักษ์ในช่วงไคลแมกซ์ และภูเขากับม้วนภาพทั้งม้วนในตอนจบ",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "หมู่บ้านหนึ่งใช้ฤดูหนาวทั้งฤดูหล่อระฆังใบเดียว และครั้งแรกที่มันดัง หิมะก็หยุดตก",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "นาฬิกาไร้แบตเตอรี่ถูกผ่าออก สามระบบถูกย้อมสีทีละระบบ ชุดเฟืองหมุนรัวเมื่อถอดกลไกเอสเคปเมนต์ออก และเสียงติ๊กที่ช้าลงหนึ่งครั้งก็ปลดปล่อยทุกอย่างอีกครั้ง",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "ร่มสีเหลืองที่ลืมไว้บนรถเมล์รอผ่านวันแดดจ้าบนชั้นของหาย แล้วกางออกพร้อมอีก 312 คันเมื่อพายุกลับมา สิ่งของ ยานพาหนะ สภาพอากาศ และป้ายเป็นพิกโตแกรมเรขาคณิตที่ขยับตรงจังหวะ",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "ลงสีเซลด้วยมาร์กเกอร์แอลกอฮอล์ เงาขอบคมใต้เส้นขอบหนา โลกคอมิกสดใสที่เคลื่อนไหวได้",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "กล้วยเกือบทุกลูกในร้านมาจากต้นเดียวที่ถูกคัดลอก กำแพงภาพพิมพ์ที่เหมือนกันเป๊ะ กล้วยเก่าที่จุดดำกินจนดำ และคลื่นสีที่กลายเป็นกล้วยมากมาย",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "อาลซัส-ลอแรนเปลี่ยนมือสี่ครั้งระหว่างปี 1871 ถึง 1945 ทุกครั้งมีคนฉีกกระดาษออกแล้วแปะแผ่นใหม่ ส่วนหญิงที่อาศัยอยู่บนนั้นไม่เคยย้ายไปไหน",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "อเมริกาสูญเสียรังผึ้ง 1.3 ล้านรัง แต่จำนวนกลับเพิ่ม 6% ข่าวสั้นที่ดูรู้เรื่องแม้ปิดเสียง",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "จักรยานไฟฟ้าถูกสแกนเป็นโฮโลแกรม กรอบเล็งเป้าล็อกไปที่แบตเตอรี่ มอเตอร์ และเบรก",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "พิมพ์เขียวของนักประดิษฐ์วาด ระเบิดชิ้นส่วน และประกอบเครื่องจับเมฆ แล้วเมฆแก้ไขแบบก็เริ่มมีฝนตก",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "เกาะและหมู่บ้านค่อย ๆ งอกขึ้นทีละแผ่นจากทะเลว่างเปล่า แต่ละแผ่นคือโน้ตหนึ่งตัว จนเป็นค่ำคืนเต็มไปด้วยดาว",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "รถไฟกลางคืนขบวนเก่าวิ่งเที่ยวสุดท้าย จากสถานีเล็กบนภูเขาหิมะผ่านอุโมงค์ยาวสู่ทะเล หน้าต่างที่เปิดไฟดับลงทีละบานเมื่อถึงปลายทาง",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "ยามค่ำใต้โคมไฟตั้งโต๊ะ เครื่องพล็อตเตอร์วาดยอดเขาโชโมลุงมาจากข้อมูลความสูงจริงด้วยปากกาสี่ด้าม แล้วเขียนความสูงเป็นอย่างสุดท้าย",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "หน้าประตูบอสสุดท้าย ฮีโร่เซฟเกม และหน้าจอเซฟก็เล่นย้อนการเดินทางทั้งหมด",
+  "Cartoons": "การ์ตูน",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "ชอล์กเขียนความเชื่อยอดนิยมเกี่ยวกับตัวอักษรสองตัว ลบทิ้ง แล้วสืบย้อนตัว 射 กลับไปสามพันปี",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd กระโดดออกจากเทอร์มินัลเข้าไปในแอป Claude แล้วแสดงโหมดวางแผนและการตรวจสอบตัวเองในเทคเดียว",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "รูปทรงเพนทูลคมสะอาด สีเรียบ เงายาว และเกรนบาง ๆ ภาพประกอบโมเดิร์นคมชัดที่เคลื่อนไหวได้",
+  "Data & Maps": "ข้อมูลและแผนที่",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "ต้นไม้เลี้ยงกันเองได้ไหม ภาพวาดดินสอจมลงใต้หญ้า ตามเม็ดน้ำตาลหนึ่งเม็ดไปตามเส้นใยราสู่ต้นถัดไป แล้วถอยออกมาเห็นทั้งผืนป่าที่เชื่อมกันใต้ดิน",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "ตามหลัง 0-3 ตอนพักครึ่ง เฟเนร์บาห์เชยิงสามลูกใน 12 นาที หยุดภาพ วาดเส้น แบ่งจอ และแผนที่การยิง",
+  "Edit & Documentary": "ตัดต่อและสารคดี",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "กุมภาพันธ์ 1966 ภาพระยะใกล้ภาพแรกของดวงจันทร์มาถึงกล้องโทรทรรศน์วิทยุในอังกฤษเป็นแฟกซ์หนังสือพิมพ์ พิมพ์ทีละบรรทัดด้วยหมึกสองสี มาเร็วกว่ากำหนดหนึ่งวันและยืดสูงเกินไป",
+  "Film & Tape": "ฟิล์มและเทป",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "ตามสายฝนจากใจกลางทะเลทรายสีแดงของออสเตรเลียสู่ชายฝั่งสีเขียว ในการเดินผ่านภาพวาดต่อเนื่องไม่มีตัด",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "ข่าว AI สี่เรื่องในหนึ่งสัปดาห์ เป็นแพ็กเกจออกอากาศเต็มรูปแบบ ลำดับข่าว แถบพาดหัว กระดานราคา และการ์ดสเปก",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "สะพานสี่แบบถูกทดสอบบนกำแพงบรีฟฟิงเดียวกัน และเรือที่ต้องลอดใต้สะพานเป็นผู้เลือกผู้ชนะ",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "จากลูกโลกลงสู่ช่องแคบที่น้ำมันหนึ่งในห้าของโลกต้องเบียดผ่าน สองช่องเดินเรือ ร่องที่ตัดผ่านพื้นทะเล และท่อส่งที่ขนอ้อมได้เพียงส่วนน้อย",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "จากภูเขาสู่ทะเลยามพลบค่ำ กวาง หมาป่า อินทรี ปลาแซลมอน และวาฬ แต่ละตัวบรรจุถิ่นของตนไว้ในเงาร่าง จนท่าเรือในตัววาฬมาบรรจบกับชายฝั่งจริง",
+  "Games": "เกม",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "ดินสอและสีน้ำแบบนิทานภาพที่อ่อนโยน วาดให้ตัวละครประจำที่หน้าตาเหมือนเดิมทุกฉาก",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "สีกวอชและสีน้ำทับดินสอ ด้านหน้าทึบ จางลงเป็นสีน้ำบางและเส้นดินสอเปล่าในระยะไกล",
+  "Graphic & Type": "กราฟิกและตัวอักษร",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "ครึ่งหนึ่งของคีย์บอร์ดโอเพนซอร์สแยกชิ้นในการโคจรรอบเดียวจนถึงชิป แล้วประกอบกลับพร้อมขนาดจริง",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "จะกลิ้งวงกลมให้เป็นสี่เหลี่ยมได้อย่างไร วงกลมที่หมุนซ้อนกันเป็นคลื่นสี่เหลี่ยม จนดิ่งลงไปที่มุมหนึ่งและพบยอดแหลม 9% ที่ไม่มีวันหายไป",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "มือถือรู้ได้อย่างไรว่าคุณอยู่ที่ไหน GPS นาฬิกาอะตอม และ 38 ไมโครวินาทีที่สัมพัทธภาพเพิ่มเข้ามาทุกวัน",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "ในลานเมืองสีเทาท่ามกลางสายฝน ร่มสีแดงคันหนึ่งกางออก แล้วเพลงวอลทซ์ก็ระบายสีทั้งลานให้สดใส",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "ในโลกที่วาดไว้ซึ่งมีเพียงทองที่ส่องแสง ดวงอาทิตย์ดับลง เด็กหญิงถือตะเกียงดวงสุดท้ายขึ้นภูเขาเพื่อคืนแสงให้มัน",
+  "Instruments & Evidence": "เครื่องมือและหลักฐาน",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "หนังเปิดตัว Tidy แอปสมมุติ เคอร์เซอร์ที่จมหายตัวเดียวดึงหน้าต่างนับร้อยกลับเข้าที่ในพริบตา",
+  "Light & Lines": "แสงและเส้น",
+  "Line Diagrams": "ไดอะแกรมลายเส้น",
+  "Logo & Lottie": "โลโก้และ Lottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "ชั่วโมงเร่งด่วนยามเช้าในเมืองที่ดูเหมือนโมเดลจิ๋ว รถรา รถไฟ และผู้คนตัวเล็ก ๆ",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "ข่าวภาพยนตร์ ภาพถ่าย คำให้การ และการไต่สวนปี 1937 บนนาฬิกาเดียวกัน ห้าแหล่งข้อมูลชี้ไปยังจุดเดียวกัน",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "คืนส่งท้ายปีเก่า สัตว์ร้ายเหนียนบุกเมือง และงานตัดกระดาษยักษ์ของเด็กหญิงคนหนึ่งก็ส่องสว่างทั้งหมู่บ้านไล่มันไป",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "ผึ้งหนึ่งตัวทำน้ำผึ้งได้ 1/12 ช้อนชาตลอดชีวิต ปากกาตามหยดสีเหลืองหยดหนึ่งจากดอกไม้สู่ขวดโหล จนทั้งหน้ากลายเป็นโปสเตอร์",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "ปากกาลูกลื่นสีน้ำเงินด้ามเดียวบนกระดาษสีครีม น้ำหนักมาจากตำแหน่งเส้นแรเงาเท่านั้น เหมือนภาพวาดในสมุดที่มีชีวิตขึ้นมา",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "เคลื่อนกล้องต่อเนื่องจากสไลด์ตับไปยังนิวเคลียสเดียว วงกลมสองวงที่นับทีละพิกเซลต่างกัน 2.4 เท่าในช่องสีน้ำเงิน",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "หนึ่งวันในนิวยอร์กแบบไทม์แลปส์ สายธารแห่งแสง ตารางที่ลงจังหวะโน้ตตัวที่สิบหก และปี 1899 เคียงข้างวันนี้",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "จุดหนึ่งเพิ่มเป็นสองเท่าทุกสิบปี 128 หลังเจ็ดสิบปี 6.02 หากไม่ทบต้น และสิบปีสุดท้ายมีค่าเท่ากับที่เหลือทั้งหมด",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "ปากกาเทคนิคหัวเล็กจิ้มจุดลงตรง ๆ น้ำหนักมาจากความหนาแน่นของจุดเท่านั้น เหมือนแผ่นภาพประวัติศาสตร์ธรรมชาติยุคเก่า",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "ไอเดียเดียวแบกโฆษณาทั้งเรื่อง ปฏิกิริยาลูกโซ่บนโต๊ะที่ทุกจังหวะคือการชนซึ่งจุดชนวนจังหวะถัดไป จากการกดปุ่มครั้งเดียวสู่งานสิบอย่างที่เสร็จสิ้น",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "คืนหนึ่งที่จุดตรวจความปลอดภัยสนามบิน พาวเวอร์แบงก์ ขวดน้ำ และปูเป็น ๆ หกตัวที่ขยับในภาพสแกน",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "คุ้งน้ำหนึ่งแห่ง สี่ฤดู เทคเดียว แต่ละฤดูเปลี่ยนเมื่อต้นไม้ใหญ่ย่อตัวแล้วดีดกลับ",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "ปากกาหมึกเส้นเล็กด้ามเดียวบนกระดาษโทนอุ่น ถนนริมคลองที่มีร้านน้ำชาและโรงอาบน้ำ ชาวบ้านเดินทำธุระ หน้าต่างสว่างขึ้นเมื่อกลางวันเปลี่ยนเป็นกลางคืน",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "เส้นเดียวไม่ขาดวาดชีวิตทั้งชีวิต แล้วปากกาก็ส่งต่อให้เด็กคนหนึ่ง",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "ไตเติลเปิดของหนังสายลับในจินตนาการปี 1964 การไล่ล่ากุญแจที่ถูกขโมย จนรูปทรงล็อกเข้ากลายเป็นชื่อเรื่อง",
+  "Painting & Illustration": "ภาพวาดและภาพประกอบ",
+  "Print & Printmaking": "ภาพพิมพ์และงานพิมพ์",
+  "Product Launch · onetake": "เปิดตัวผลิตภัณฑ์ · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "นกกระเรียนมงกุฎแดงในหุบเขาฮอกไกโด สแครชบอร์ดเทคเดียว นับย้อนจาก 33 ถึง 1,927 ตัว",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "แม่น้ำกลายเป็นลายทองแดงขณะที่กระแสไฟวิ่ง 2,080 กม. จากเขื่อนสู่ที่ชาร์จมือถือ",
+  "Screens & Interfaces": "หน้าจอและอินเทอร์เฟซ",
+  "Sketch & Board": "สเก็ตช์และกระดาน",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "สีน้ำมันเคลือบใสแบบเซอร์เรียลอันนุ่มนวลใต้ดวงอาทิตย์ต่ำ วัตถุที่เป็นไปไม่ได้ เงาทอดยาว และตรรกะแห่งความฝันอันสงบ",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "ด้ายฝ้ายปักผ่านผ้าลินินในสะดึงไม้บีช ทุกฝีเข็มเย็บสด ๆ บนหน้าจอ",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "แสงแดดเคลื่อนผ่านหน้าต่างกระจกสีของมหาวิหารจากรุ่งสางถึงพลบค่ำ ปลุกกระจกแต่ละบานของตำนานอัศวินกับมังกร",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "ดวงอาทิตย์สิบดวงแผดเผาแผ่นดิน จนนักธนูโฮ่วอี้น้าวคันศร เล่าด้วยหุ่นหนังบนจอที่มีแสงส่อง",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "โบรชัวร์ปี 1931 ของตึกเอ็มไพร์สเตตให้เครดิตผู้สร้าง ฟิล์มจากไซต์ก่อสร้างและภาพถ่ายของไฮน์ตอบกลับว่า วันละ 2,500 คน",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "กาแฟในถ้วยของคุณกลายเป็นผลเชอร์รีสีแดง แล้วเดินกลับมาที่ถ้วย สุก ตาก คั่ว บด เปลี่ยนสีทีละขั้นบนหน้ากระดาษดินสอหน้าเดียว",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "ประวัติศาสตร์ AI ในรูปเกมจังหวะ โมเดลต่าง ๆ ขึ้นเวทีตามบีต และปิดโชว์ด้วยใบรายงานผล",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "นาทีสุดท้ายของการปล่อย Artemis II แบบไม่ตัด ช่องเดียวแตกเป็นเก้า แล้วรวมเป็นหนึ่งเมื่อจุดระเบิด",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "ประภาคารดับมืด เด็กหญิงถือเปลวไฟดวงสุดท้ายผ่านป่ายามค่ำและปีนขึ้นหน้าผาท่ามกลางพายุ",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "ดวงจันทร์นอนไม่หลับ เด็กหญิงตัวน้อยจึงปีนขึ้นหลังคาไปร้องเพลงกล่อมให้",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "โทรเลขบอกว่า 57 วินาที แต่ใต้แว่นขยาย ฟิล์มกระจกของพี่น้องไรต์และเอกสารในคลังบอกว่า 59",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "ผลรวมบอกว่าวิธีรักษา B ดีกว่า แต่เมื่อเปิดคอลัมน์ขนาดนิ่วที่ซ่อนอยู่ A ชนะทุกกลุ่ม ปฏิทรรศน์ของซิมป์สันในชีตเดียว 1 เซลล์ = ผู้ป่วย 1 คน",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "เส้นลมหมึกนับพันเส้นที่คำนวณจากเส้นทางพายุที่ดีที่สุด วาดซูเปอร์ไต้ฝุ่นยางิ ตาพายุเปิดเหนือทะเลจีนใต้ ขึ้นฝั่งที่ไหหลำ เกลียวสลายตัวในเวียดนาม และทั้งสัปดาห์ถูกพับรวมเป็นเส้นสุดท้าย",
+  "Traditional Crafts": "งานหัตถศิลป์ดั้งเดิม",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "ผู้โดยสารขึ้นเครื่องบินไอโซเมตริก และลำดับการขึ้นเผยว่าทำไมวิธีหนึ่งเร็วกว่าเกือบสองเท่า",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "พลังงานลมและแสงอาทิตย์สิบสองปีซ้อนเป็นแผ่นจริง หมุนวนรอบหน้าปัดไม้วอลนัตจนพลังงานแสงอาทิตย์แซงขึ้นนำ",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "มือใหม่สองคนประกอบเปลเด็กตามคู่มือเฟอร์นิเจอร์น็อกดาวน์ สิบขั้นตอนบนหน้ากระดาษมุม 45° ขั้นที่สิบไม่เคยอยู่ในคู่มือ",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "แกะกล่องและภาพโคลสอัปของ Aura หูฟังแก้วสมมุติ ด้วยแสงไฟแถบกวาดผ่านและคอสติกส์",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "แต้มสีน้ำมันที่ไม่ผสมวางเคียงกันให้ตาเป็นผู้ผสม แสงบนผิวน้ำ ยามพลบค่ำ เรือลำหนึ่งข้ามอ่าว",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "ถ่านไวน์บนกระดาษเยื่อผ้า เกลี่ยเลือน ยกแสงด้วยยางลบ แล้ววาดทับเงาจาง ๆ ของตัวเอง",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "ภาพโลโก้ของคุณถูกวาดใหม่เป็น SVG ที่สะอาด แล้วปลุกชีวิตทีละชิ้นด้วยหลักแอนิเมชันของดิสนีย์ การเผยตัวที่จบลงตรงโลโก้ของคุณพอดี",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "วิดีโอพูดของคุณเอง คงไว้ตามเดิม ซับไตเติลทีละคำที่ตรงกับเสียง การ์ดชื่อ และการ์ดกราฟิกเรียบง่ายในประเด็นสำคัญ",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "ไม่มีเส้นวาดแม้แต่เส้นเดียว กระดาษฉีกขอบเส้นใยสีขาว ชิ้นที่ตัดด้วยกรรไกร แต่ละชิ้นยกเงานุ่ม ๆ ขึ้นมา",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "อยากได้การ์ตูนวันเกิดลูกชาย เป็นจรวดที่ต่อจากตัวต่อของเล่นแล้วบินไปดวงจันทร์",
+   "ร้านของเล่นเด็กของเรามีตัวต่อชุดใหม่ อยากโชว์ว่าต่อทีละชิ้นจนกลายเป็นบ้านหลังเล็ก ๆ",
+   "อยากได้วิดีโอที่ใช้ตัวต่อของเล่นสร้างวัดอรุณทีละขั้น พร้อมสอนเด็ก ๆ เรื่องประวัติวัด"
+  ],
+  "paper-popup": [
+   "ช่วยทำนิทานก่อนนอนให้ลูกสาว เปิดหนังสือปุ๊บกระต่ายน้อยก็กระโดดออกมาจากป่ากระดาษ",
+   "หนังสือนิทานเด็กเล่มใหม่ของเรากำลังจะวางขาย อยากได้โฆษณาแบบหน้ากระดาษป๊อปอัปตั้งขึ้นมา",
+   "อยากเห็นเรือกระดาษล่องผ่านตลาดน้ำดำเนินสะดวกในหนังสือป๊อปอัป แม่ค้าพายเรือขายของไปตามคลอง"
+  ],
+  "tilt-shift": [
+   "ช่วยทำให้ BTS ช่วงเช้าที่คนแน่นสยาม ดูเหมือนเมืองของเล่นจิ๋ว ๆ",
+   "อยากได้โฆษณาคอนโดของเราที่มองจากมุมสูงเห็นโครงการและถนนรอบ ๆ เหมือนเมืองโมเดล",
+   "อยากดูตลาดวโรรสเชียงใหม่ตอนเช้า มีมอเตอร์ไซค์กับแม่ค้าวุ่นวายเหมือนโลกของเล่น"
+  ],
+  "lowpoly-island": [
+   "ช่วยทำทีเซอร์เกมใหม่ของผม เกาะกับหมู่บ้านค่อย ๆ โผล่ขึ้นมาจากทะเลทีละส่วน",
+   "อยากนั่งดูหมู่บ้านบนเกาะเล็ก ๆ ค่อย ๆ เติบโต จนดาวขึ้นเต็มฟ้าตอนกลางคืน แบบชิล ๆ",
+   "อยากให้เด็ก ๆ เข้าใจว่าหมู่บ้านชาวประมงบนเกาะเล็ก ๆ ในหมู่เกาะสุรินทร์ค่อย ๆ พัฒนาขึ้นมาอย่างไร"
+  ],
+  "glass-product": [
+   "อยากโชว์ขวดเซรั่มแก้วตัวใหม่ของแบรนด์เรา ให้แสงไล่ผ่านจนเปล่งประกายสวย ๆ",
+   "อยากได้วิดีโอเปิดตัวหูฟังรุ่นใหม่ แกะกล่องแล้วโชว์ใกล้ ๆ แบบสวยหรู",
+   "อยากโชว์ขวดน้ำหอมแก้วที่ซื้อเป็นของขวัญวันเกิดแม่ ให้แสงเล่นไปมาบนขวด"
+  ],
+  "memphis-diorama": [
+   "อยากดูโค้งแม่น้ำเจ้าพระยาเปลี่ยนจากหน้าร้อน หน้าฝน หน้าหนาว ทีละฤดู ด้วยสีสดใส",
+   "ช่วยทำฉากน่ารัก ๆ ของร้านกาแฟเล็ก ๆ ที่ฤดูเปลี่ยนไปรอบร้าน ไว้ใส่หัวเว็บไซต์ของเรา",
+   "อยากให้เด็ก ๆ เห็นต้นมะม่วงหน้าบ้านออกดอก ออกผล และใบร่วงตลอดหนึ่งปี"
+  ],
+  "isometric-picture-book": [
+   "ช่วยอธิบายด้วยภาพน่ารัก ๆ ว่าทำไมการต่อแถวเดียวที่ธนาคารถึงเร็วกว่า",
+   "อยากให้คนไข้เข้าใจระบบกดบัตรคิวรอตรวจแบบใหม่ที่คลินิกของเรา",
+   "อยากอธิบายให้เด็ก ๆ เข้าใจว่าทำไมขึ้นรถเมล์จากประตูหลังถึงเร็วกว่า"
+  ],
+  "crayon-world": [
+   "ช่วยทำวิดีโอที่ระลึก บินผ่านหมู่บ้านของคุณตาไปจนถึงต้นราชพฤกษ์ที่ท่านปลูกไว้",
+   "อยากได้เรื่องสั้นเดินทางไปโรงเรียนเก่า วาดเหมือนเด็ก ๆ ระบายสีเทียน เพื่อเชิดชูครูที่เกษียณ",
+   "อยากเล่าการเดินทางของเด็กหนุ่มจากอีสานที่เข้ากรุงเทพฯ มาหางานทำ ด้วยภาพสีเทียนแบบเด็กวาด"
+  ],
+  "rubber-hose": [
+   "ช่วยทำโฆษณาการ์ตูนยุคเก่าให้ร้านก๋วยเตี๋ยวของเรา ลูกชิ้นกับชามน้ำซุปไล่จับกันวุ่น",
+   "อยากได้การ์ตูนตลก ๆ ที่แก้วชาเย็นวิ่งไล่จับก้อนน้ำตาลที่หนีไปรอบครัว",
+   "อยากสอนเด็ก ๆ ให้แปรงฟัน ด้วยการ์ตูนยุคเก่าที่แปรงสีฟันกับยาสีฟันช่วยกันไล่เชื้อโรค"
+  ],
+  "cel-anime-80s": [
+   "ช่วยทำเรื่องของสาวไรเดอร์ที่ต้องขี่มอเตอร์ไซค์ส่งของในคืนฝนตกที่กรุงเทพฯ ให้ทันก่อนฟ้าสาง",
+   "อยากได้วิดีโอเพลงใหม่ของวงเรา เป็นเมืองยามค่ำคืนกับไฟนีออนแบบอนิเมะยุค 80",
+   "อยากเล่าความทรงจำตอนปั่นจักรยานกับเพื่อน ๆ ด้วยโทนสีแบบการ์ตูนที่ดูตอนเด็ก"
+  ],
+  "scifi-toon": [
+   "ช่วยทำเรื่องตลก นักวิทยาศาสตร์เปิดประตูมิติแค่เพราะอยากกินชาไทยสักแก้ว แต่ดันกลิ้งตกไปในโลกประหลาด",
+   "อยากได้โฆษณาตลก ๆ ที่โชว์ว่าแอปโอนเงินของเราเร็วแค่ไหน ด้วยการกระโดดข้ามดาวเคราะห์",
+   "อยากเห็นการ์ตูนบ้า ๆ บอ ๆ ที่สองพี่น้องลืมการบ้าน เลยต้องนั่งยานอวกาศย้อนเวลากลับไปเอา"
+  ],
+  "midcentury-toon": [
+   "ช่วยอธิบายการติดตั้งเครื่องกรองน้ำรุ่นใหม่ของเราใน 3 ขั้นตอน แบบหนังสอนในห้องเรียนยุค 1950",
+   "อยากสอนแม่วิดีโอคอลผ่านมือถือ เลยอยากได้วิดีโออธิบายตลก ๆ แบบการ์ตูนยุคเก่า",
+   "อยากโชว์วิธีใช้หม้อหุงข้าวให้ถูกต้อง แบบการ์ตูนให้ความรู้สมัยก่อน"
+  ],
+  "comic-history": [
+   "อยากเล่าการย้ายราชธานีจากสุโขทัย อยุธยา ธนบุรี ไปกรุงเทพฯ แบบสบาย ๆ เหมือนหนังสือการ์ตูน",
+   "ช่วยทำเรื่องตลกแบบการ์ตูนช่อง ร้านกาแฟสามร้านในซอยเราแย่งลูกค้ากัน",
+   "ช่วยอธิบายด้วยการ์ตูนว่าตลิ่งแม่น้ำระหว่างสองหมู่บ้านค่อย ๆ ย้ายจากฝั่งหนึ่งไปอีกฝั่งตามกาลเวลาอย่างไร"
+  ],
+  "manga-panels": [
+   "อยากแบ่งช่องมังงะโชว์เสี้ยววินาทีที่ฝูงนกพิราบบินขึ้นที่สนามหลวง",
+   "ช่วยแนะนำกล้องรุ่นใหม่ในร้านกล้องของเรา ให้ช่องมังงะโผล่มาทีละช่อง",
+   "ช่วยทำช่องการ์ตูนเก็บความทรงจำตอนน้องสาวเข้าเส้นชัยในงานวิ่ง"
+  ],
+  "dataviz": [
+   "อยากให้ข้อมูลอุณหภูมิหน้าร้อนกรุงเทพฯ ย้อนหลัง 50 ปีเล่าเรื่องผ่านกราฟเอง",
+   "ช่วยทำกราฟสวย ๆ โชว์ยอดขาย 5 ปีของร้านตัดเสื้อครอบครัวเรา",
+   "อยากอธิบายตัวเลขการส่งออกข้าวไทยรายปีด้วยกราฟที่นักเรียนเข้าใจง่าย"
+  ],
+  "white-model": [
+   "อยากโชว์อาคารย่านสีลมที่สูงขึ้นทีละชั้นจากยุคเก่าถึงวันนี้ บนโมเดลสีขาว",
+   "ช่วยทำวิดีโอนิทรรศการโชว์ผังโครงการหมู่บ้านของบริษัทเรา ฉายแสงทีละขั้นบนโมเดลสีขาว",
+   "อยากค่อย ๆ เผยผังเมืองเก่าเชียงใหม่และคูเมืองจากข้อมูลแผนที่บนโมเดลสีขาว"
+  ],
+  "data-physical": [
+   "อยากโชว์การผลิตไฟฟ้าจากเขื่อนและพลังงานแสงอาทิตย์ของไทยรายปี เหมือนแผ่นวัสดุซ้อนกันจับต้องได้",
+   "ช่วยโชว์ตัวเลขยอดขายจากรายงานประจำปีของบริษัทเรา เหมือนแผ่นไม้เรียงซ้อนกัน",
+   "อยากโชว์ผลผลิต 10 ปีของไร่ชาครอบครัวเราที่ดอยแม่สลอง เหมือนวางของจริงซ้อนกัน"
+  ],
+  "transit-map": [
+   "ช่วยโชว์สถานี BTS สายสุขุมวิทโผล่ขึ้นมาทีละสถานีบนแผนที่สิ่งพิมพ์",
+   "อยากโชว์ว่าระบบรถไฟฟ้ากรุงเทพฯ ขยายตัวอย่างไรตลอดหลายปี ในรูปแบบแผนที่รถไฟ",
+   "อยากโชว์จังหวัดที่บริษัทขนส่งของเราส่งของถึงที่เพิ่มขึ้นใน 10 ปี เหมือนแผนที่เมโทร"
+  ],
+  "map-explainer": [
+   "ช่วยอธิบายด้วยแผนที่ว่าแม่น้ำเจ้าพระยาไหลจากจุดบรรจบที่นครสวรรค์ลงสู่อ่าวไทยอย่างไร ซูมเข้าจากโลกทั้งใบ",
+   "อยากได้วิดีโออธิบายด้วยแผนที่ว่าทำไมเรือสินค้าทั่วโลกต้องผ่านช่องแคบมะละกา",
+   "อยากอธิบายการกัดเซาะตลิ่งคลองในหมู่บ้านเรา จากแผนที่และภูมิประเทศจริง"
+  ],
+  "pip-simulation": [
+   "ช่วยจำลองให้เห็นว่าโรคติดต่อแพร่จากคนสู่คนอย่างไร ด้วยตัวเล็ก ๆ วิ่งไปมา",
+   "อยากทดลองให้ดูด้วยตัวเล็ก ๆ ว่าถ้าแม่ค้าในตลาดแข่งกันลดราคาจะเกิดอะไรขึ้น",
+   "อยากให้นักเรียนเห็นกับตาว่าการคัดเลือกโดยธรรมชาติทำงานอย่างไรเมื่อรุ่นต่อรุ่นเปลี่ยนไป"
+  ],
+  "caption-news": [
+   "ช่วยทำข่าวสั้นดูแบบไม่เปิดเสียงได้ จากข้อมูลอุตุฯ ปริมาณฝนปีนี้ที่ทำสถิติ",
+   "อยากได้ข่าวสั้นพร้อมตัวหนังสือ โชว์ตัวเลขจริงของยอดบริจาคในชุมชนเรา",
+   "อยากทำให้รายงานเรื่องจำนวนรังผึ้งทั่วโลกที่ลดลง เข้าใจได้ทันทีบนมือถือด้วยตัวหนังสือ"
+  ],
+  "newsreel": [
+   "อยากเล่ายุครถรางในกรุงเทพฯ ช่วงทศวรรษ 1930 ด้วยภาพถ่ายจดหมายเหตุ แบบหนังข่าวเก่า",
+   "ช่วยทำแบบหนังข่าวเก่าฉลองร้านเราครบ 50 ปี ด้วยรูปเก่าสมัยรุ่นคุณปู่",
+   "อยากเล่าว่าผู้คนตื่นตาแค่ไหนตอนวิทยุมาใหม่ ๆ ด้วยพาดหัวหนังสือพิมพ์เก่า แบบหนังข่าวยุคก่อน"
+  ],
+  "countdown": [
+   "อยากนับถอยหลังนาทีสุดท้ายก่อนตัดริบบิ้นเปิดร้าน ด้วยวิดีโอจริงที่ถ่ายไว้ แบ่งเป็นช่อง ๆ",
+   "ช่วยรวมวิดีโอที่เพื่อน ๆ ถ่ายคืนเคานต์ดาวน์ปีใหม่ เป็นแบบนับถอยหลัง 10 วินาทีสุดท้าย",
+   "อยากแบ่งวิดีโอจริงของการปล่อยจรวดเป็น 9 ช่อง แล้วรวมเป็นภาพเดียวตอนจุดเครื่อง"
+  ],
+  "city-symphony": [
+   "ช่วยตัดวิดีโอไทม์แลปส์หนึ่งวันในกรุงเทพฯ ที่ผมถ่ายไว้ให้ตรงจังหวะเพลง เป็นซิมโฟนีของเมือง",
+   "อยากตัดรูปเก่าของเชียงใหม่คู่กับวิดีโอที่ถ่ายวันนี้ แบบเคียงกันตามจังหวะ",
+   "ช่วยทำหนังเปิดให้โรงแรมเรา ด้วยภาพเมืองกรุงเทพฯ ตั้งแต่เช้าจรดค่ำ ตัดให้เข้ากับเพลง"
+  ],
+  "visual-investigation": [
+   "อยากเรียงอุบัติเหตุรถชนที่ปากซอยเราบนไทม์ไลน์เดียว จากวิดีโอกล้องวงจรปิด รูป และคำให้การพยาน",
+   "อยากตรวจสอบด้วยหลักฐานว่ารูปน้ำท่วมที่แชร์กันในโซเชียลถ่ายที่ไหน เมื่อไหร่จริง ๆ",
+   "ช่วยสร้างลำดับเหตุการณ์ไฟไหม้โรงงานขึ้นใหม่ จากรูป รายงาน และคำบอกเล่าของพนักงาน"
+  ],
+  "kino-montage": [
+   "อยากโชว์ว่าคุณปู่ก่อตั้งโรงสีข้าวของครอบครัวอย่างไร ผ่านรูปเก่า สมุดบัญชี และหยาดเหงื่อของคนงาน",
+   "อยากรวมรูปเก่าและวิดีโอคนนับพันช่วยกันในงานบุญบั้งไฟ เพื่อโชว์พลังของการร่วมแรง",
+   "ช่วยทำวิดีโอฉลองโรงงานครบ 20 ปี ตัดรูปจดหมายเหตุกับตัวเลขพนักงานแบบดุดัน"
+  ],
+  "telestrator": [
+   "อยากวิเคราะห์ว่าทีมฟุตบอลชุมชนเราพลิกกลับมาในครึ่งหลังได้ยังไง ด้วยการขีดเส้นบนวิดีโอแข่งจริง",
+   "ช่วยทำวิดีโอสอนตะกร้อ หยุดภาพแล้วขีดเส้นโชว์จังหวะเท้า",
+   "อยากอธิบายการยืนตำแหน่งของนักเตะในคลิปทำประตูของทีมโรงเรียน ด้วยลูกศร"
+  ],
+  "news-package": [
+   "ช่วยทำสรุปราคาทอง น้ำมัน และข้าวสัปดาห์นี้ เหมือนรายการข่าวทีวี มีแถบพาดหัวและป้ายราคา",
+   "อยากนำเสนอข่าวสี่ห้าเรื่องของโรงเรียนเดือนนี้ แบ่งช่วงเหมือนรายการข่าวจริง",
+   "ช่วยรวบรวมข่าวเทคโนโลยีใหม่สัปดาห์นี้ นำเสนอแบบห้องส่งข่าวครบ ๆ"
+  ],
+  "ascii-crt": [
+   "ช่วยเปิดตัวเครื่องมือซอฟต์แวร์ตัวใหม่ของเรา เหมือนวาดด้วยตัวอักษรบนจอเขียวรุ่นเก่า",
+   "อยากได้เรื่องหุ่นยนต์บนดวงจันทร์ที่หลับไปหลายปี แล้วตอบสัญญาณจากโลกด้วยตัวอักษร",
+   "ช่วยวาดคำอวยพรวันเกิดด้วยตัวอักษร เหมือนจอคอมพิวเตอร์เก่าที่พ่อใช้ตอนหนุ่ม ๆ"
+  ],
+  "silent-film": [
+   "ช่วยทำหนังเงียบ เด็กร้านขนมปังวิ่งไล่ก้อนขนมปังที่กลิ้งหนี แล้วแบ่งให้เด็กที่หิว",
+   "อยากได้โฆษณาตลกขาวดำแบบยุคหนังเงียบ ให้ร้านขนมโบราณของเรา",
+   "อยากเล่าเรื่องตลกตอนไปตกปลากับพ่อแล้วได้แต่รองเท้าเก่า แบบหนังเงียบ"
+  ],
+  "backrooms": [
+   "ช่วยทำเรื่องสยองของพนักงานกะดึกคนใหม่ ที่ถ่ายคืนแรกในออฟฟิศสีเหลืองไม่มีที่สิ้นสุด ทำตามกฎบนผนัง",
+   "อยากได้ทีเซอร์เกมลึกลับตัวใหม่ หลงอยู่ในทางเดินยาวชวนขนลุก",
+   "อยากเล่าเรื่องสยองที่ถ่ายมือถือคนเดียวในทางเดินโรงพยาบาลร้างตอนกลางคืน แล้วทางเดินไม่มีวันสิ้นสุด"
+  ],
+  "scratch-film": [
+   "อยากเล่าเรื่องหิ่งห้อยตัวหนึ่งที่ออกเดินทางด้วยแสงของตัวเองบนผิวน้ำมืด ๆ",
+   "ช่วยอธิบายว่าปลาในทะเลลึกขึ้นมาข้างบนทุกคืนได้อย่างไร ด้วยเส้นแสงที่ขูดในความมืด",
+   "อยากโชว์ตลาดนัดกลางคืนของเราที่ไฟติดทีละดวงจนกลายเป็นตลาดทั้งตลาด เหมือนขูดบนฟิล์ม"
+  ],
+  "double-exposure": [
+   "อยากซ้อนภาพวิวที่ผมถ่ายตั้งแต่ดอยอินทนนท์ถึงปาย ลงในเงาของช้าง นกยูง และปลา",
+   "ช่วยทำหนังเปิดให้ธุรกิจท่องเที่ยวภูเก็ตของเรา ซ้อนรูปจริงของเมืองลงในเงาคน",
+   "อยากเก็บความทรงจำ ด้วยการซ้อนรูปเก่าหมู่บ้านที่พ่อเคยอยู่ลงในเงาด้านข้างของพ่อ"
+  ],
+  "pixel-rpg": [
+   "อยากเล่าเส้นทางของเราตั้งแต่วันที่เจอกันจนครบรอบสองปี เหมือนเปิดดูเซฟเกมเก่า",
+   "ช่วยทำโฆษณาเกมมือถือใหม่ของเรา สไตล์พิกเซลเกมเก่า ฮีโร่ยืนอยู่หน้าประตูบอส",
+   "อยากเล่าชีวิตนักเรียนหนึ่งปีเหมือนผ่านด่านในเกมเก่าทีละด่าน"
+  ],
+  "hd-2d": [
+   "ช่วยทำเรื่องประภาคารที่ไฟดับ เด็กหญิงถือเปลวไฟสุดท้ายฝ่าป่ายามค่ำขึ้นไปบนหน้าผากลางพายุ",
+   "อยากได้โฆษณาเกมแฟนตาซีใหม่ของเรา กลุ่มฮีโร่เดินทางผ่านเมืองโบราณที่เต็มไปด้วยเจดีย์อย่างอยุธยา",
+   "อยากเล่านิทานเด็กน้อยที่ออกจากหมู่บ้านไปตามหาพญานาคให้น้องชาย เหมือนเกมสวย ๆ"
+  ],
+  "microgame": [
+   "ช่วยโชว์วิธีใช้แอปใหม่ของเรา เป็นมินิเกมสั้น ๆ ต่อกันรัว ๆ ที่เร็วขึ้นเรื่อย ๆ",
+   "ช่วยทำเรื่องตลกตอนตื่นเช้าเตรียมไปโรงเรียน เป็นมินิเกมต่อกันที่เร็วขึ้นเรื่อย ๆ",
+   "อยากสอนพนักงานใหม่เรื่องที่ต้องรู้ในวันแรก ด้วยมินิเกมที่เร่งความเร็วขึ้นเรื่อย ๆ"
+  ],
+  "game-show": [
+   "ช่วยทำผลงานปีนี้ของบริษัทให้ออกมาตามจังหวะเหมือนเกมโชว์ แล้วปิดท้ายด้วยการ์ดสรุปคะแนน",
+   "อยากเล่าประวัติการสื่อสารตั้งแต่โทรเลขถึงสมาร์ตโฟน แบบเกมโชว์ตามจังหวะสนุก ๆ",
+   "อยากรวมเรื่องราวของครอบครัวตลอดปีนี้ แบบเกมโชว์ทีวีตลก ๆ"
+  ],
+  "swiss-motion": [
+   "ช่วยทำโปสเตอร์คอนเสิร์ตของเราให้จัดวางตัวเองตามกฎดีไซน์สวิส",
+   "อยากเปิดตัวแบรนด์ใหม่ของสตูดิโอออกแบบเรา ให้กริด ตัวอักษร และสีเรียงเข้ามาทีละอย่าง",
+   "อยากสอนนักศึกษาออกแบบเรื่องกฎ 5 ข้อในการจัดเลย์เอาต์โปสเตอร์ให้ชัด ๆ"
+  ],
+  "spy-titles": [
+   "ช่วยทำไตเติลเปิดเรื่อง รูปทรงวิ่งไล่กันแบบหนังสายลับยุค 60 แล้วกลายเป็นชื่อหนังของเรา",
+   "อยากได้ไตเติลเปิดงานครบรอบบริษัทที่ดูเท่แบบหนังสายลับ",
+   "ช่วยทำไตเติลย้อนยุคสำหรับงานแต่งเพื่อน นำเสนอบ่าวสาวเป็นสายลับสองคน"
+  ],
+  "art-deco": [
+   "ช่วยทำบัตรเชิญงานดินเนอร์ของโรงแรมเรา ด้วยดีไซน์สีทองหรูหรายุค 1930",
+   "อยากได้เรื่องเด็กลิฟต์ในโรงแรมหรูยุคเก่าที่ต้องส่งจดหมายให้ทันก่อนเที่ยงคืน",
+   "ช่วยทำวิดีโอการ์ดเชิญแบบอาร์ตเดโคหรู ๆ ฉลองครบรอบแต่งงาน 30 ปีของพ่อแม่"
+  ],
+  "pictogram-motion": [
+   "ช่วยทำเรื่องร่มที่ถูกลืมบนรถไฟฟ้า รออยู่บนชั้นของหาย พอฝนตกอีกครั้งก็กางออกพร้อมร่มอีกมากมาย",
+   "อยากอธิบายวิธีแยกขยะของเทศบาลให้ประชาชนเข้าใจ ด้วยไอคอนที่ขยับตามจังหวะ",
+   "อยากได้วิดีโอแบรนด์สำหรับเทศกาลของเรา ไอคอนรถ รถไฟ เครื่องบินโผล่มาตามจังหวะ"
+  ],
+  "bauhaus-shapes": [
+   "ช่วยอธิบายด้วยวงกลมและสี่เหลี่ยมว่าดอกเบี้ยทบต้นตอนออมเงินทรงพลังแค่ไหน",
+   "อยากอธิบายให้สมาชิกเข้าใจว่ากลุ่มออมทรัพย์ของเราทำงานอย่างไร ด้วยรูปทรงแบบ Bauhaus",
+   "ช่วยทำการ์ดเปิดบทเรียนแต่ละบท ที่มีรูปทรงสีแดง เหลือง น้ำเงินเล่นกันอยู่"
+  ],
+  "flat-space-explainer": [
+   "ช่วยอธิบายขนาด ซูมจากทางช้างเผือกมาที่โลก ประเทศไทย จนถึงไวรัสหนึ่งตัว",
+   "อยากพาเด็ก ๆ ไปดูว่าดาวเคราะห์ในระบบสุริยะอยู่ห่างกันแค่ไหน ผ่านยานสำรวจลำเล็ก",
+   "ช่วยอธิบายด้วยการ์ตูนเรียบ ๆ ว่าดาวเทียมโคจรรอบโลกอย่างไร สำหรับช่องการศึกษาของเรา"
+  ],
+  "text-flash-cuts": [
+   "ช่วยทำตัวอย่างหนังสยองที่ข้อความแวบขึ้นมา จดหมายหนึ่งฉบับ สายโทรศัพท์หนึ่งสาย ขั้นบันได… ใกล้เข้ามาเรื่อย ๆ",
+   "อยากโชว์คำประกาศจุดยืนของกลุ่มเยาวชนเรา ด้วยตัวหนังสือใหญ่ ๆ แวบขึ้นมาอย่างดุดัน",
+   "ช่วยทำไตเติลเปิดซีรีส์ใหม่ ตัดข้อความกับภาพเร็ว ๆ ให้ตื่นเต้น"
+  ],
+  "silhouette-rhythm": [
+   "ช่วยทำมิวสิกวิดีโอเงาดำ นกน้อยที่ตามฝูงไม่ทันเสมอค่อย ๆ เรียนรู้จังหวะ",
+   "อยากได้วิดีโอทีมตะกร้อของเรา เงานักกีฬาเคลื่อนไหวพร้อมจังหวะตอนพระอาทิตย์ตก",
+   "อยากเปิดงานลอยกระทงด้วยเงาคนถือกระทงและโคมไฟ ร่ายรำตามจังหวะกลองยาว"
+  ],
+  "satellite-briefing": [
+   "อยากเทียบภาพดาวเทียมจริงว่าบึงบอระเพ็ดหดเล็กลงอย่างไรตลอดหลายปี",
+   "ช่วยอธิบายแบบข่าวสั้นด้วยภาพดาวเทียม นาข้าวในภาคกลางก่อนและหลังน้ำท่วม",
+   "อยากโชว์นักเรียนว่าป่าชายเลนชายฝั่งอันดามันเปลี่ยนไปอย่างไรใน 10 ปี ด้วยแผนที่ดาวเทียม"
+  ],
+  "briefing-board": [
+   "อยากเทียบแบบสะพานข้ามคลองสามแบบที่จะเชื่อมหมู่บ้านเรา ด้วยค่าก่อสร้าง ความแข็งแรง และค่าวัดจริง",
+   "ช่วยเทียบสามทำเลสำหรับเปิดสาขาใหม่บนบอร์ด ด้วยค่าเช่าและข้อมูลคนเดินผ่านจริง",
+   "อยากเทียบทางเลือกไฟฟ้าในบ้านสามแบบ โซลาร์เซลล์ เครื่องปั่นไฟ และแบตเตอรี่ ด้วยราคาจริง"
+  ],
+  "lidar-survey": [
+   "อยากเผยซากเจดีย์ที่ซ่อนอยู่ใต้ต้นไม้ในเขตเมืองเก่าศรีเทพ ด้วยข้อมูลเลเซอร์สแกน",
+   "ช่วยโชว์ระดับสูงต่ำของพื้นที่ก่อสร้างเรา จากข้อมูลสำรวจเลเซอร์ด้วยโดรน",
+   "อยากโชว์ว่าถ้าใช้เลเซอร์สแกนลบต้นไม้ออก กำแพงเมืองโบราณที่กำแพงเพชรจะเห็นอะไรบ้าง"
+  ],
+  "microscope": [
+   "อยากซูมดูผงทานาคาของเราใต้กล้องจุลทรรศน์ด้วยภาพจริง แล้วโชว์ว่าทำไมดีต่อผิว",
+   "ช่วยซูมภาพเซลล์เปลือกหอมแดงที่ถ่ายในแล็บต่อเนื่องไปจนถึงนิวเคลียส สำหรับนักเรียน",
+   "อยากเทียบโครงสร้างเมล็ดข้าวหอมมะลิกับข้าวเหนียวด้วยภาพจากกล้องจุลทรรศน์"
+  ],
+  "archive-lighttable": [
+   "อยากวางรูปกระจกเก่ากับจดหมายเก่าของคุณปู่บนโต๊ะไฟ แล้วเล่าประวัติครอบครัวขึ้นมาใหม่",
+   "ช่วยเล่าประวัติ 60 ปีของธุรกิจชาของเรา ด้วยสมุดบัญชีต้นฉบับและฉลากเก่า",
+   "อยากซูมใบลานเก่าแผ่นหนึ่งใต้แว่นขยาย แล้วอธิบายว่าเขียนอะไรไว้ สำหรับพิพิธภัณฑ์"
+  ],
+  "security-xray": [
+   "ช่วยทำเรื่องตลก กระเป๋าผู้โดยสารผ่านเครื่องเอกซเรย์ที่สนามบิน แล้วในกระเป๋าใบหนึ่งมีปูตัวเป็น ๆ ขยับอยู่",
+   "อยากโชว์ลูกค้าว่าโกดังพัสดุของเราตรวจของด้วยเอกซเรย์อย่างไร",
+   "ช่วยโชว์ให้เด็ก ๆ สนใจว่าถ้าเอกซเรย์ดูพาวเวอร์แบงก์ ข้างในมีอะไรบ้าง"
+  ],
+  "dark-documentary": [
+   "อยากเล่าว่าคนโบราณสร้างปราสาทหินพนมรุ้งอย่างไร แบบสารคดีโทนมืดและจริงจัง",
+   "ช่วยทำแบบสารคดีวิศวกรรม ย้อนสร้างคืนที่ยากที่สุดของโครงการสร้างเขื่อนของเรา",
+   "ช่วยอธิบายว่ากล้องโทรทรรศน์วิทยุยักษ์ฟังเสียงจากท้องฟ้าอย่างไร แบบสารคดีอวกาศ"
+  ],
+  "thermal-camera": [
+   "ช่วยโชว์ว่าทำไมคอนโดเราร้อน เหมือนมองผนัง หน้าต่าง หลังคาผ่านกล้องความร้อน",
+   "อยากได้วิดีโอแอบดูสัตว์ป่าในป่าตอนกลางคืนผ่านกล้องความร้อน",
+   "อยากโชว์ลูกค้าว่าร้านซ่อมไฟฟ้าของเราใช้กล้องความร้อนหาสายไฟที่ร้อนเกินอย่างไร"
+  ],
+  "circuit-board": [
+   "ช่วยโชว์แบบแผงวงจร ว่าไฟฟ้าไหลจากเขื่อนภูมิพลมาถึงสายชาร์จมือถือที่บ้านเราอย่างไร",
+   "อยากโชว์ว่าสินค้าในร้านอิเล็กทรอนิกส์ของเราเดินทางจากโรงงานถึงมือลูกค้าอย่างไร ด้วยเส้นทองแดง",
+   "อยากให้นักเรียนสนใจ เมื่อแม่น้ำกลายเป็นลายทองแดงแล้วทั้งเมืองสว่างขึ้น"
+  ],
+  "firefly-pointillism": [
+   "ช่วยทำนิทานหิ่งห้อยตัวน้อยที่ถามคำถามด้วยแสงของตัวเองในความมืด จนเจอเพื่อน ๆ",
+   "อยากได้วิดีโอวันเกิดน้องสาว จุดแสงเล็ก ๆ มากมายรวมตัวกันเป็นรูปของเธอ",
+   "อยากเล่าเรื่องพลังของการรวมกัน แสงเล็ก ๆ ของสมาชิกแต่ละคนรวมกันเป็นแสงใหญ่"
+  ],
+  "flow-field": [
+   "ช่วยวาดเส้นหมึกกระแสลม โชว์ว่าพายุไต้ฝุ่นจากทะเลจีนใต้พัดเข้าภาคอีสานอย่างไร",
+   "อยากอธิบายด้วยเส้นหมึกที่ไหลนับพันเส้นว่ามรสุมตะวันตกเฉียงใต้พาฝนมาสู่ประเทศไทยอย่างไร",
+   "ช่วยโชว์กระแสน้ำเจ้าพระยาหน้าฝน และช่วงที่น้ำเกินระดับวิกฤต ด้วยเส้นที่ไหลอยู่"
+  ],
+  "oscilloscope-math": [
+   "ช่วยอธิบายบนจอออสซิลโลสโคปว่าวงกลมเล็ก ๆ หมุนซ้อนกันจนกลายเป็นคลื่นสี่เหลี่ยมได้อย่างไร",
+   "อยากโชว์ว่าคลื่นเสียงทำงานอย่างไรด้วยเส้นคลื่นสีเขียว สำหรับคลาสฟิสิกส์ของเรา",
+   "อยากให้เด็ก ๆ เห็นรูปคลื่นของเสียงระนาดแต่ละลูกบนออสซิลโลสโคป"
+  ],
+  "neon-tubes": [
+   "ช่วยทำเรื่องสั้นเปิดร้านอาหารค่ำของเรา แมวนีออนวิ่งเล่นไปมาระหว่างป้ายไฟ",
+   "อยากได้วิดีโอเมืองยามค่ำ ป้ายนีออนย่านเยาวราชค่อย ๆ ติดสว่างทีละป้าย",
+   "ช่วยทำวิดีโอให้เพลงซิตี้ป๊อปที่ผมแต่ง เป็นภาพหลอดนีออนเต้นรำในคืนฝนตก"
+  ],
+  "blueprint": [
+   "อยากโชว์เครื่องสีข้าวเล็ก ๆ ที่ผมประดิษฐ์เอง วาด แยกชิ้น แล้วประกอบกลับบนกระดาษพิมพ์เขียว",
+   "ช่วยเปิดตัวปั๊มน้ำโซลาร์เซลล์รุ่นใหม่ของบริษัทเราบนแบบวิศวกรรม",
+   "อยากอธิบายให้เด็ก ๆ เข้าใจว่าเครื่องเก็บน้ำฝนขนาดใหญ่ทำงานอย่างไร โดยวาดบนพิมพ์เขียว"
+  ],
+  "iso-infographic": [
+   "ช่วยโชว์การเดินทางของใบชาจากไร่บนดอยเชียงรายจนมาอยู่ในแก้วชาเย็นที่กรุงเทพฯ ในโลกใบเล็กใบเดียว",
+   "อยากอธิบายขั้นตอนตั้งแต่ลูกค้าสั่งของจนของถึงบ้าน ด้วยภาพน่ารัก ๆ",
+   "อยากให้เด็ก ๆ เข้าใจว่าข้าวหนึ่งเมล็ดเดินทางจากนา โรงสี ตลาด จนถึงหม้อหุงข้าวอย่างไร"
+  ],
+  "teardown": [
+   "ช่วยถอดพัดลมที่เราผลิตทีละชิ้นตามชิ้นส่วนและขนาดจริง แล้วประกอบกลับให้ดู",
+   "อยากได้วิดีโอแกะคีย์บอร์ดที่ผมใช้จนถึงชิป โชว์ทุกชิ้นส่วนตามขนาดจริง",
+   "อยากโชว์นักเรียนช่างยนต์ว่าเครื่องยนต์มอเตอร์ไซค์มีชิ้นส่วนอะไรบ้าง ด้วยการแยกชิ้นให้ดู"
+  ],
+  "hardcore-info": [
+   "ช่วยแกะมือถือแล้วอธิบายเรื่องเสาอากาศ ว่าทำไมจับมือถือตรงมุมแล้วสัญญาณตก",
+   "อยากโชว์ด้วยรายละเอียดวิศวกรรมข้างในว่าทำไมตู้เย็นรุ่นใหม่ของเราประหยัดไฟ",
+   "อยากอธิบายนักเรียนแบบละเอียดว่าทำไมร่มถึงพลิกกลับเวลาเจอลมแรง"
+  ],
+  "precise-mechanism": [
+   "ช่วยผ่าและแยกสีอธิบายว่าเฟืองในนาฬิกาข้อมือแบบไขลานหมุนอย่างไร",
+   "อยากโชว์ลูกค้าว่ากลไกข้างในจักรเย็บผ้ารุ่นเก่าของเราทำงานอย่างไร",
+   "ช่วยผ่าให้เห็นทีละส่วนว่าเกียร์จักรยานเปลี่ยนอย่างไร ให้นักเรียนเห็นภาพชัด"
+  ],
+  "instruction-manual": [
+   "ช่วยทำภาพคู่มือ 10 ขั้นตอนของสามีภรรยาที่ประกอบเตียงเด็กเป็นครั้งแรก",
+   "อยากได้วิดีโอแบบคู่มือ ให้ลูกค้าประกอบชั้นหนังสือจากร้านเฟอร์นิเจอร์ของเราได้เอง",
+   "อยากโชว์วิธีใช้เตาแก๊สอย่างปลอดภัยทีละขั้น เหมือนภาพในคู่มือ"
+  ],
+  "pen-plotter": [
+   "อยากเห็นเครื่องพล็อตวาดดอยอินทนนท์จากข้อมูลความสูงจริงด้วยปากกา ใต้โคมไฟโต๊ะตอนกลางคืน",
+   "ช่วยวาดแผนที่เนินเขาแถวหมู่บ้านเราทีละเส้นชั้นความสูง",
+   "อยากโชว์เครื่องพล็อตค่อย ๆ วาดโลโก้สตูดิโอออกแบบของเราด้วยปากกาสี่สี"
+  ],
+  "assembly-line-diagram": [
+   "ช่วยโชว์ว่าส้มตำหนึ่งจานถูกย่อยในร่างกายทีละขั้นเหมือนโรงงานอย่างไร",
+   "อยากอธิบายว่าน้ำดื่มหนึ่งขวดออกมาจากโรงงานน้ำดื่มของเราอย่างไร ด้วยแผนภาพสายการผลิต",
+   "อยากอธิบายให้เด็ก ๆ ฟังว่าเลือดหนึ่งหยดเดินทางในร่างกาย เหมือนสายพานในโรงงาน"
+  ],
+  "crayon-book": [
+   "ช่วยทำนิทานก่อนนอน ดวงจันทร์นอนไม่หลับ เด็กหญิงเลยปีนขึ้นหลังคาไปร้องเพลงกล่อมให้",
+   "อยากได้โฆษณาหนังสือนิทานเล่มใหม่ของร้านหนังสือเด็กเรา เหมือนวาดด้วยสีเทียน",
+   "อยากสอนเด็ก ๆ เรื่องพยัญชนะไทยตั้งแต่ ก ไก่ ด้วยภาพสีเทียนน่ารัก ๆ"
+  ],
+  "watercolor": [
+   "ช่วยพาเดินชมภาพสีน้ำต่อเนื่อง ทะเลหมอกที่ภูชี้ฟ้าตอนพระอาทิตย์ขึ้น",
+   "อยากได้ทริปภาพสีน้ำจากเชียงใหม่ขึ้นไปถึงปาย สำหรับบริษัททัวร์ของเรา",
+   "อยากอธิบายเด็ก ๆ ด้วยภาพสีน้ำว่าหยดฝนเดินทางจากภูเขาลงแม่น้ำจนถึงทะเลอย่างไร"
+  ],
+  "impasto": [
+   "ช่วยทำวิดีโอลานกว้างสีเทาในวันฝนตก ร่มสีแดงคันหนึ่งกางออกแล้วสีสันก็แผ่ไปพร้อมเสียงเพลง",
+   "อยากได้วิดีโอเพลงรักเพลงใหม่ของผม เต็มไปด้วยอารมณ์และสีน้ำมันหนา ๆ",
+   "ช่วยทำโฆษณาเปิดแกลเลอรีของเรา ภาพวัดอรุณยามเย็นด้วยฝีแปรงสีน้ำมันหนา ๆ"
+  ],
+  "urban-sketch": [
+   "อยากเห็นหมวกใบหนึ่งปลิวไปตามลมระหว่างตึกเก่าย่านเยาวราช แล้วสีสันไหลตามไป",
+   "อยากวาดร้านกาแฟเล็ก ๆ กับถนนหน้าร้านของเราด้วยปากกาแบบหยาบ ๆ แล้วลงสีน้ำบาง ๆ",
+   "อยากได้บันทึกการเดินทาง เดินเลียบถนนเก่าภูเก็ตแล้วสเก็ตช์ไปเรื่อย ๆ"
+  ],
+  "colored-pencil": [
+   "ช่วยผ่าใต้ดินด้วยภาพสีไม้ โชว์ว่าต้นไม้แบ่งอาหารกันผ่านเส้นใยเห็ดราอย่างไร",
+   "อยากโชว์ด้วยสีไม้ว่าน้ำไหลขึ้นจากรากถึงดอกของต้นไม้ในสวนเราอย่างไร",
+   "อยากอธิบายว่าบัวมีชีวิตอยู่ใต้น้ำอย่างไร ด้วยภาพตัดขวางสีไม้แบบหนังสือนิทาน"
+  ],
+  "risograph": [
+   "ช่วยทำวิดีโอสีพิมพ์ซ้อน ปั่นจักรยานเช้าวันอาทิตย์ในกรุงเทพฯ แวะร้านขนม แล้วไปสวนลุมฯ",
+   "อยากได้โฆษณาน่ารัก ๆ ให้ร้านกระเป๋าแฮนด์เมดของเรา เหมือนพิมพ์ด้วยสีไม่กี่สี",
+   "ช่วยทำวิดีโอแบบพิมพ์ริโซที่สีเหลื่อม ๆ เพื่อเปิดตัวนิตยสารกวีนิพนธ์ฉบับใหม่ของเรา"
+  ],
+  "halftone-dossier": [
+   "ช่วยทำแฟ้มคดีตลก ๆ ฟ้องแมวอ้วนของเราที่วิ่งตอนตีสี่และปัดแก้วตกโต๊ะ",
+   "อยากโชว์คดีหมากัดรองเท้าเป็นแฟ้มนักสืบ ด้วยภาพจุดแบบหนังสือพิมพ์เก่า",
+   "อยากได้โฆษณาตลกให้ร้านอาหารสัตว์ของเรา เป็นแฟ้มคดีแมวขโมยกินอาหาร"
+  ],
+  "woodcut": [
+   "ช่วยทำนิทาน ทั้งหมู่บ้านช่วยกันหล่อระฆังใบใหญ่ตลอดหน้าหนาว พอตีครั้งแรกหิมะก็หยุดตก",
+   "อยากโชว์ช่างทอผ้าไหมในงานหัตถกรรมของเราขณะทำงาน ด้วยภาพแบบพิมพ์แกะไม้",
+   "ช่วยทำโฆษณานิยายตำนานเล่มใหม่ที่ผมเขียน สไตล์ภาพพิมพ์แกะไม้"
+  ],
+  "engraving": [
+   "ช่วยโชว์ภาพผึ้งตัวหนึ่งถูกแกะลงแผ่นทองแดงทีละเส้นแล้วลงสีน้ำ สำหรับพิพิธภัณฑ์",
+   "อยากได้โฆษณาที่เล่ามรดกของธุรกิจน้ำผึ้งเก่าแก่ของเรา เหมือนภาพแกะทองแดงโบราณ",
+   "อยากโชว์กล้วยไม้ไทยทีละชนิด เหมือนภาพแกะในหนังสือประวัติศาสตร์ธรรมชาติเล่มเก่า"
+  ],
+  "silkscreen-poster": [
+   "ช่วยทำไกด์ท่องเที่ยวให้บริษัทเรา โชว์อยุธยา เชียงใหม่ กระบี่ ทีละที่เหมือนโปสเตอร์ใหญ่",
+   "อยากเล่าการเดินทางกลับบ้านของพี่ชายที่ไปทำงานต่างประเทศ เป็นโปสเตอร์ทีละแผ่น",
+   "อยากได้โฆษณาเทศกาลดนตรีของเราแบบโปสเตอร์ซิลค์สกรีน"
+  ],
+  "printed-long-take": [
+   "ช่วยโชว์ฝูงนกน้ำที่บึงบอระเพ็ด ไล่ไปตามผิวน้ำต่อเนื่องไม่ตัด เหมือนภาพขูดลาย",
+   "อยากโชว์ทริปเดินป่าขึ้นภูกระดึงตั้งแต่ตีนเขาจนถึงยอด เป็นภาพพิมพ์ทิวทัศน์ต่อเนื่อง",
+   "อยากโชว์การล่องเรือทวนน้ำแม่น้ำน่านต่อเนื่องไม่ตัด เหมือนภาพพิมพ์"
+  ],
+  "pop-art": [
+   "ช่วยอธิบายด้วยภาพป๊อปอาร์ตซ้ำ ๆ ว่ากล้วยหอมส่วนใหญ่ในตลาดขยายพันธุ์มาจากสายพันธุ์เดียว",
+   "ช่วยโฆษณาไอศกรีมรสใหม่ของเราเหมือนโปสเตอร์ป๊อปอาร์ตสีสด",
+   "อยากโชว์แบบป๊อปอาร์ตลายจุดว่าชาเย็นหนึ่งแก้วมีน้ำตาลเท่าไหร่"
+  ],
+  "vintage-collage": [
+   "อยากเล่าประวัติแสตมป์ไทยเก่า ๆ แบบคอลลาจ ปะภาพจดหมายเหตุกับกระดาษเก่า",
+   "ช่วยโชว์ธนบัตรเก่าที่คุณปู่สะสมด้วยภาพสแกนจริง แบบคอลลาจนิตยสาร",
+   "อยากเล่าประวัติงานหัตถกรรมร่มบ่อสร้างของเรา โดยรวมโฆษณาเก่ากับรูปเก่า"
+  ],
+  "dark-keynote": [
+   "ช่วยเปิดตัวแอปมือถือใหม่ของเราแบบงานเปิดตัวบนเวทีฉากหลังมืด ให้ดูอลังการ",
+   "อยากได้โฆษณาที่โชว์ว่าซอฟต์แวร์บัญชีของเราจัดไฟล์รก ๆ ให้เป็นระเบียบในคลิกเดียว",
+   "ช่วยทำหนังเปิดตัวฟีเจอร์ใหม่แบบอลังการ ไว้ฉายในงานครบรอบสตาร์ตอัปของเรา"
+  ],
+  "living-screencast": [
+   "ช่วยโชว์วิธีสั่งของในแอปร้านออนไลน์ของเรา ด้วยภาพหน้าจอจริงและตัวการ์ตูนเล็ก ๆ คอยนำทาง",
+   "อยากได้บทเรียนบนหน้าจอจริงที่สอนการใช้เว็บนัดหมายของคลินิกเราทีละขั้น",
+   "ช่วยโชว์ฟีเจอร์ใหม่ของซอฟต์แวร์เรา ให้ตัวการ์ตูนกระโดดออกมาจากภาพหน้าจอจริง"
+  ],
+  "hologram-hud": [
+   "ช่วยสแกนมอเตอร์ไซค์ไฟฟ้ารุ่นใหม่ของเราแบบโฮโลแกรม แล้วโชว์แบตเตอรี่ มอเตอร์ เบรก ด้วยกรอบเล็งเป้า",
+   "อยากอธิบายสเปกภายในของเครื่องกรองน้ำเราด้วยหน้าจอโฮโลแกรม ไว้ฉายในงานแสดงสินค้า",
+   "ช่วยทำวิดีโอสไตล์หนัง สแกนยานอวกาศของเล่นของลูกชายด้วยโฮโลแกรมแล้วโชว์ชิ้นส่วน"
+  ],
+  "desktop-flythrough": [
+   "อยากโชว์รูปแมวที่ฉันถ่ายกระโดดจากมือถือฉันไปมือถือเพื่อน ผ่านการ์ดแอปต่าง ๆ",
+   "อยากโชว์ขั้นตอนส่งใบแจ้งหนี้ให้ลูกค้าจากแอปของเรา ด้วยการ์ดเล็ก ๆ บนโต๊ะ",
+   "อยากได้วิดีโออธิบายบนโต๊ะที่มีแดดส่อง ว่านักเรียนส่งการบ้านจากมือถือถึงครูอย่างไร"
+  ],
+  "spreadsheet": [
+   "ช่วยอธิบายในตารางว่ารายจ่ายในบ้านเราหมดไปกับอะไรมากที่สุด โดยเปิดคอลัมน์ไปทีละช่อง",
+   "อยากเทียบกำไรของร้านก๋วยเตี๋ยวสองสาขาของเราทีละเซลล์ในตาราง",
+   "อยากอธิบายนักเรียนเรื่องปฏิทรรศน์ของซิมป์สัน ว่าตัวเลขรวมหลอกตาได้อย่างไร ด้วยตารางเดียว"
+  ],
+  "one-bit-dither": [
+   "อยากโชว์ภาพถ่ายใกล้ดวงจันทร์ภาพแรกที่พิมพ์ออกจากแฟกซ์ทีละบรรทัด ด้วยจุดขาวดำ",
+   "อยากเล่าว่าโทรเลขฉบับหนึ่งสมัยคุณปู่มาถึงหมู่บ้านได้อย่างไร แบบภาพพิมพ์ขาวดำ",
+   "ช่วยทำฉากเครื่องพิมพ์เก่าในโรงพิมพ์เล็ก ๆ ของเราทำงานตอนกลางคืน ด้วยลายจุดหมึกสองสี"
+  ],
+  "one-line": [
+   "ช่วยวาดชีวิตทั้งชีวิตของแม่ด้วยเส้นเดียว แล้วตอนจบส่งปากกาต่อให้หลาน",
+   "อยากได้โฆษณาเรียบ ๆ เล่าเรื่องแบรนด์ร้านเครื่องประดับของเรา ด้วยเส้นเดียวไม่ขาด",
+   "อยากวาดเรื่องของเพื่อนตั้งแต่วันที่เจอกันจนถึงวันแต่งงาน ด้วยเส้นเดียว สำหรับงานแต่ง"
+  ],
+  "whiteboard": [
+   "ช่วยเขียนอธิบายบนไวต์บอร์ดว่ามือถือรู้ได้อย่างไรว่าเราอยู่ไหน เรื่องดาวเทียมและ GPS",
+   "อยากสอนการลงบัญชีรายรับรายจ่ายบนไวต์บอร์ด สำหรับคอร์สบัญชีออนไลน์ของเรา",
+   "อยากอธิบายพนักงานบนไวต์บอร์ดว่าระบบรับเงินผ่านพร้อมเพย์ของร้านเราทำงานอย่างไร"
+  ],
+  "chalkboard": [
+   "ช่วยเขียนชอล์กบนกระดานดำอธิบายว่าคำว่า 'สวัสดี' มาจากไหน",
+   "อยากอธิบายบนกระดานดำว่าความเชื่อ 'สระผมตอนกลางคืนแล้วจะไม่สบาย' จริงหรือไม่",
+   "ช่วยโชว์สูตรคณิตศาสตร์หนึ่งสูตรของโรงเรียนกวดวิชาเรา เหมือนครูเขียนบนกระดานดำในห้อง"
+  ],
+  "sketchnote": [
+   "ช่วยโชว์ว่าผึ้งหนึ่งตัวทำน้ำผึ้งได้เท่าไหร่ตลอดชีวิต จากดอกไม้ถึงขวด ด้วยภาพโน้ตจนกลายเป็นโปสเตอร์",
+   "ช่วยสรุปประเด็นหลักจากงานสัมมนาธุรกิจที่ผมไปมา เป็นสเก็ตช์โน้ตหน้าเดียว",
+   "อยากทำสรุปบริการของร้านเราหน้าเดียว ด้วยภาพเล็ก ๆ และลูกศร"
+  ],
+  "stick-explainer": [
+   "ช่วยอธิบายด้วยตัวการ์ตูนก้างปลาว่าทุกคนบนโลกเชื่อมกันผ่านคนแค่ประมาณหกคน",
+   "อยากโชว์โปรแกรมลูกค้าแนะนำลูกค้าของร้านเราง่าย ๆ ด้วยตัวการ์ตูนก้างปลา",
+   "อยากโชว์ด้วยตัวการ์ตูนก้างปลาว่าคนในหมู่บ้านติดต่อกับครอบครัวที่ไปทำงานต่างประเทศอย่างไร"
+  ],
+  "ipad-sketch": [
+   "ช่วยโชว์กาแฟดอยช้างในแก้วย้อนกลับเป็นเชอร์รีกาแฟสีแดง แล้วตาก คั่ว บด จนกลับมาอยู่ในแก้ว",
+   "อยากโชว์วิธีทำบัวลอยบนหน้ากระดาษเดียว ด้วยภาพที่เปลี่ยนสีไปทีละสี",
+   "อยากอธิบายขั้นตอนทำสบู่แฮนด์เมดของเรา เหมือนวาดด้วยดินสอบนแท็บเล็ต"
+  ],
+  "marker-paper": [
+   "ช่วยคำนวณบนกระดาษด้วยปากกามาร์กเกอร์ว่าเส้นขอบฟ้าห่างจากชายหาดแค่ไหน",
+   "อยากแก้โจทย์ฟิสิกส์ข้อหนึ่งทีละขั้นด้วยมาร์กเกอร์ ให้นักเรียนที่โรงเรียนกวดวิชาของเรา",
+   "ช่วยทำแบบเขียนคำนวณเปอร์เซ็นต์ส่วนลดของร้านเราด้วยมาร์กเกอร์บนกระดาษ"
+  ],
+  "ink-wash": [
+   "ช่วยทำเรื่องภาพหมึกจีน นักดาบเดินข้ามผิวน้ำแล้วฟันกระแสน้ำขาดด้วยดาบเดียว",
+   "อยากได้โฆษณานิ่ง ๆ แบบภาพหมึกจีน ภูเขากับสายหมอก ให้แบรนด์ชาของเรา",
+   "อยากถ่ายทอดกลอนที่ผมแต่ง ด้วยภาพหยดหมึกที่ค่อย ๆ แผ่ออก"
+  ],
+  "shadow-puppet": [
+   "ช่วยเล่าตำนานพระอาทิตย์สิบดวงที่แผดเผาโลกจนนักธนูต้องยิงลงมา ด้วยหนังตะลุงหนังสัตว์",
+   "อยากเล่านิทานพื้นบ้านเรื่องยักษ์กับเจ้าชายให้เด็ก ๆ ดู ด้วยหนังตะลุงบนจอผ้าที่มีไฟส่อง",
+   "ช่วยทำวิดีโอเชิญเปิดเทศกาลวัฒนธรรมของเรา แบบหนังตะลุงพื้นบ้าน"
+  ],
+  "ukiyoe": [
+   "ช่วยทำเรื่องนักเดินทางเดินไปหาภูเขาไกล ๆ ทุกฉากเป็นภาพพิมพ์แกะไม้ แล้วขึ้นถึงจุดสูงสุดพร้อมคลื่นยักษ์",
+   "อยากได้โฆษณาเปิดร้านอาหารญี่ปุ่นเล็ก ๆ ของเรา สไตล์ภาพอุกิโยเอะ",
+   "อยากเล่าการเดินขึ้นดอยสุเทพแบบกวี ๆ ด้วยสไตล์ภาพพิมพ์แกะไม้ญี่ปุ่น"
+  ],
+  "papercut-red": [
+   "ช่วยทำนิทานคืนตรุษจีน สัตว์ร้ายเหนียนบุกหมู่บ้าน แล้วภาพตัดกระดาษใหญ่ของเด็กหญิงก็สว่างขึ้นไล่มันไป",
+   "อยากได้วิดีโออวยพรตรุษจีนแบบตัดกระดาษสีแดง ส่งให้ลูกค้าของร้านเรา",
+   "ช่วยทำโฆษณาเทศกาลไหว้พระจันทร์ให้ร้านขนมครอบครัวเราที่เยาวราช ด้วยภาพตัดกระดาษสีแดง"
+  ],
+  "paper-lantern": [
+   "อยากเล่าเที่ยวสุดท้ายของรถไฟขบวนเก่า แบบโคมกระดาษที่ไฟหน้าต่างดับลงทีละดวง",
+   "ช่วยทำเรื่องสถานีรถไฟเล็ก ๆ ที่คุณปู่เคยทำงาน ให้สว่างเหมือนโคมไฟ สำหรับวันเกษียณของท่าน",
+   "อยากโชว์รถไฟกลางคืนข้ามสะพานทาชมภูที่ลำพูนเรืองแสงเหมือนโคมไฟ สำหรับโรงแรมของเรา"
+  ],
+  "stained-glass": [
+   "ช่วยโชว์แสงแดดผ่านหน้าต่างจากเช้าถึงเย็น แล้วเรื่องราวฮีโร่กับมังกรตื่นขึ้นในกระจกทีละบาน",
+   "ช่วยทำนิทานสั้นแบบหน้าต่างกระจกสีสำหรับการ์ดอวยพรคริสต์มาสของเรา",
+   "อยากเล่ามรดกของอาสนวิหารอัสสัมชัญในกรุงเทพฯ ด้วยเรื่องราวแบบกระจกสี"
+  ],
+  "gilded-illumination": [
+   "ช่วยทำนิทานโลกที่ส่องแสงสีทอง พอพระอาทิตย์ดับ เด็กหญิงก็ถือตะเกียงดวงสุดท้ายขึ้นไปบนภูเขา",
+   "อยากได้วิดีโอเทศกาลยี่เป็งแบบกวี ๆ เหมือนจิตรกรรมปิดทองในสมุดข่อย",
+   "อยากเล่าตำนานต้นกำเนิดงานลงรักปิดทองของเรา แบบสมุดภาพโบราณสีทองเปล่งประกาย"
+  ],
+  "line-art-ink": [
+   "อยากเห็นซอยในย่านบางลำพูวาดด้วยหมึกตั้งแต่เช้าถึงค่ำ ร้านกาแฟ แม่ค้า แล้วไฟค่อย ๆ ติดตอนกลางคืน",
+   "ช่วยทำภาพลายเส้นน่ารัก ๆ ของร้านก๋วยเตี๋ยวเรา ตั้งแต่เปิดร้านตอนเช้ามืดจนลูกค้าเริ่มเข้า",
+   "อยากดูวิวหมู่บ้านริมน้ำที่อัมพวา มีคนพายเรือ แมว นก จนพระอาทิตย์ตกและค่ำลง"
+  ],
+  "onetake-launch": [
+   "แอปเช่ามอเตอร์ไซค์ใหม่ของเรากำลังจะเปิดตัว อยากได้วิดีโอ launch ประมาณ 20 วินาที เดี๋ยวส่ง screenshot ให้",
+   "ช่วยทำทีเซอร์ทันสมัยให้เว็บสั่งของขวัญวันเกิดของเรา",
+   "อยากได้โฆษณาแบบเทกเดียวไม่ตัด สำหรับแอปจับเวลาอ่านหนังสือของนักเรียน"
+  ],
+  "onetake-demo": [
+   "อยากได้วิดีโออธิบายวิธีออกใบเสร็จและดูรายงานในแอปบัญชีของเรา พร้อมเสียงพากย์ภาษาไทย",
+   "ช่วยทำวิดีโอโชว์แอปนัดหมายคลินิกทีละขั้น ให้ผู้สูงอายุเข้าใจ มี screenshot ให้",
+   "อยากทำวิดีโอสองภาษา ไทยและอังกฤษ โชว์ 3 ฟีเจอร์ใหม่ของระบบ POS เรา"
+  ],
+  "onetake-concept": [
+   "อยากได้โฆษณา concept ให้แอปขนส่ง กดปุ่มทีเดียวแล้วของก็ไปถึงต่อกันทีละชิ้น",
+   "อยากทำโฆษณาร้านกาแฟแบบไม่ตัดเลย ตั้งแต่เมล็ดกาแฟหนึ่งเมล็ดจนอยู่ในแก้ว",
+   "ช่วยโชว์ว่าแอปโอนเงินประหยัดเวลาแค่ไหน ด้วยการย่อเวลาจากหนึ่งปีเหลือหนึ่งนาที"
+  ],
+  "hf-captions": [
+   "ช่วยใส่ซับในวิดีโอที่ฉันพูดถึงร้านของตัวเอง แล้วเพิ่มการ์ดชื่อร้านด้วย",
+   "อยากให้ประเด็นหลัก 3 ข้อในวิดีโอสัมภาษณ์ของผมขึ้นเป็นการ์ด",
+   "ช่วยใส่ซับให้คลิปที่ตัดจาก Facebook live ให้ดูแบบไม่เปิดเสียงก็เข้าใจ"
+  ],
+  "hf-vertical": [
+   "ช่วยทำคลิปแนวตั้งลง TikTok สอน 3 เคล็ดลับชงชาไทยให้อร่อย",
+   "อยากได้โฆษณาเร็ว ๆ ลง Reels สำหรับเซลหน้าหนาวของร้านเสื้อผ้าเรา",
+   "ช่วยทำ 5 นิสัยดี ๆ ตอนเช้าลง Shorts ด้วยตัวหนังสือใหญ่ ๆ"
+  ],
+  "hf-music": [
+   "ช่วยทำ lyric video ให้เพลงที่ผมร้อง เดี๋ยวส่งไฟล์เพลงให้",
+   "อยากทำวิดีโอสีสันสดใสให้จิงเกิลสั้น ๆ ของร้าน ตัดให้ตรงบีต",
+   "ช่วยทำวิดีโอจากรูปถ่ายให้ตรงบีตเพลงที่ร้องให้วันเกิด"
+  ],
+  "logo-reveal": [
+   "ช่วยทำ logo reveal 5 วินาทีจากโลโก้ร้านกาแฟเรา ไว้ใส่ต้นคลิป YouTube",
+   "อยากทำโลโก้บริษัทเป็น splash animation ตอนเปิดเว็บไซต์ ให้ความรู้สึกสงบและน่าเชื่อถือ",
+   "อยากให้โลโก้ร้านของเล่นเด็กเด้งดึ๋งออกมาอย่างสนุกสนาน"
+  ],
+  "lottie-anim": [
+   "อยากได้แอนิเมชันเครื่องหมายถูกเล็ก ๆ ไว้โชว์ในแอปตอนชำระเงินสำเร็จ",
+   "ช่วยทำ loading spinner สำหรับเว็บไซต์ ด้วยสีม่วงประจำแบรนด์เรา",
+   "ช่วยทำแอนิเมชัน lower third โชว์ชื่อและตำแหน่ง ไว้ใช้ในวิดีโอ YouTube"
+  ],
+  "ad-marker-comic": [
+   "ช่วยทำการ์ตูนที่แมวตัวโปรดของลูกสาวกลายเป็นฮีโร่ ช่วยเด็ก ๆ ในซอย",
+   "อยากเล่าเรื่องตลกที่เกิดทุกเช้าในร้านกาแฟโบราณของผม เป็นการ์ตูนสีแบบหนังสือการ์ตูน",
+   "อยากได้การ์ตูนตลก สองพี่น้องทะเลาะกันตอนสาดน้ำสงกรานต์ แล้วก็กลับมาคืนดีกัน"
+  ],
+  "ad-scrapbook": [
+   "ช่วยทำวิดีโอเล่าประวัติครอบครัวตั้งแต่ตายายแต่งงานจนถึงวันนี้ เหมือนอัลบั้มรูปเก่า",
+   "อยากเล่าประวัติการสร้างอยุธยาเหมือนสมุดที่แปะกระดาษเก่าและโน้ตเล็ก ๆ",
+   "อยากเล่าว่าธุรกิจทอผ้าซิ่นของครอบครัวเราอยู่มาได้กว่า 50 ปีอย่างไร ด้วยบัญชีเก่าและรูปถ่าย"
+  ],
+  "ad-ballpoint": [
+   "อยากโชว์ภาพแม่เตรียมปิ่นโตให้ทุกเช้าแบบเงียบ ๆ เหมือนวาดด้วยปากกาลูกลื่น",
+   "ช่วยแนะนำกระเป๋าสตางค์หนังแฮนด์เมดของผม เหมือนสเก็ตช์ด้วยปากกาลูกลื่นในสมุดโน้ต",
+   "ช่วยทำเรื่องสั้นความทรงจำเรื่องโต๊ะที่เคยนั่งกับเพื่อนสมัยเรียน แบบสเก็ตช์ปากกาลูกลื่น"
+  ],
+  "ad-broken-colour": [
+   "อยากโชว์เรือลำเล็กแล่นผ่านทะเลสาบสงขลาตอนพระอาทิตย์ตก ให้สวยเหมือนภาพสีน้ำมัน",
+   "ช่วยโฆษณาเกสต์เฮาส์ริมหาดของเราด้วยแสงยามเช้า เหมือนภาพวาด",
+   "ช่วยทำที่ระลึกการเดินทาง โคมลอยลอยขึ้นระหว่างเจดีย์ที่สุโขทัยตอนรุ่งสาง"
+  ],
+  "ad-embroidery": [
+   "ช่วยทำวิดีโอวันเกิดแม่ ปักดอกไม้ทีละเข็มจนคำอวยพรปรากฏขึ้น",
+   "อยากได้โฆษณาให้ร้านกระเป๋าปักมือของฉัน เหมือนกำลังปักด้วยด้าย",
+   "ช่วยโชว์ดอกไม้และนกบนดอยที่เปลี่ยนไปตามฤดู เหมือนปักด้วยด้าย"
+  ],
+  "ad-stipple": [
+   "อยากอธิบายให้เด็ก ๆ ฟังเรื่องวงจรชีวิตหิ่งห้อย ด้วยภาพจุดเหมือนในหนังสือวิทยาศาสตร์เก่า",
+   "ช่วยแนะนำเปลือกหอยแต่ละชนิดจากหมู่เกาะสิมิลันทีละอัน ด้วยภาพหมึกแบบจุด",
+   "อยากโชว์เรื่องต้นขมิ้นของร้านสมุนไพรเรา เหมือนหนังสือภาพพฤกษศาสตร์โบราณ"
+  ],
+  "ad-charcoal": [
+   "คิดถึงพ่อที่จากไป อยากเล่าวันที่เคยไปตกปลากับท่านอีกครั้ง เหมือนภาพวาดถ่านชาร์โคล",
+   "ช่วยทำเรื่องสั้นคืนแรกของเด็กหนุ่มจากต่างจังหวัดที่เข้ากรุงเทพฯ มาหางาน",
+   "อยากโชว์การวาดใบหน้าด้วยถ่าน วาด ลบ แล้ววาดใหม่ สำหรับคลาสวาดรูปของผม"
+  ],
+  "ad-flat-vector": [
+   "ช่วยอธิบายง่าย ๆ ว่าใช้แอปสั่งผักออนไลน์ของเรายังไง",
+   "อยากโชว์ทริปจากเชียงใหม่ไปปายและแม่ฮ่องสอน ด้วยภาพแบบทันสมัย",
+   "ช่วยอธิบายด้วยภาพให้เพื่อนต่างชาติเข้าใจว่าการไหว้แบบไทยต้องทำยังไง"
+  ],
+  "ad-cut-paper": [
+   "ช่วยทำนิทานกระต่ายกับเต่าวิ่งแข่งให้ลูกชาย เหมือนตัดกระดาษแปะ",
+   "อยากโชว์เด็ก ๆ ว่าฤดูร้อน ฝน หนาว เปลี่ยนไปอย่างไร ด้วยกระดาษฉีกชิ้นเล็ก ๆ",
+   "ช่วยทำโฆษณาน่ารัก ๆ ให้เค้กในร้านขนมของฉัน ด้วยภาพตัดกระดาษสีสด"
+  ],
+  "ad-toy-theatre": [
+   "ช่วยทำนิทานเจ้าหญิงกับมังกรน้อยแบบโรงละครกระดาษแข็ง ไว้ฉายในงานวันเกิดลูกสาว",
+   "อยากโฆษณาการแสดงของคณะหุ่นละครเล็กของเรา เหมือนตัวละครเลื่อนออกมาบนเวทีเล็ก ๆ",
+   "ช่วยเล่านิทานสังข์ทองให้เด็ก ๆ ดู เหมือนเล่นบนเวทีกระดาษเล็ก ๆ"
+  ],
+  "ad-storybook": [
+   "ช่วยทำนิทานเป็นตอน ๆ ให้ลูกชายเป็นตัวเอก ไว้ดูก่อนนอนทุกคืน",
+   "อยากได้วิดีโอที่แมวมาสคอตของห้องสมุดเด็กเราชวนเด็ก ๆ มาอ่านหนังสือ",
+   "ช่วยทำซีรีส์นิทานลูกช้างที่ออกเดินทางจากสุรินทร์ไปถึงทะเลอันดามัน"
+  ],
+  "ad-folk-tale": [
+   "ช่วยทำนิทานศรีธนญชัยที่แม่เคยเล่าตอนเด็ก ๆ เป็นนิทานก่อนนอน",
+   "อยากเล่าเรื่องครอบครัวชาวนาในหมู่บ้านอีสานช่วยกันเกี่ยวข้าว แบบนิทานพื้นบ้าน",
+   "ช่วยแนะนำงานทำน้ำตาลโตนดในหมู่บ้านเราที่เพชรบุรี อบอุ่นเหมือนภาพในหนังสือนิทานโบราณ"
+  ],
+  "ad-dream-glaze": [
+   "อยากโชว์บ้านหลังเล็กที่ลอยอยู่บนฟ้าในความฝันตอนเด็ก ให้แปลกและสวยเหมือนภาพวาด",
+   "ช่วยทำหนังสั้นอาร์ต ๆ ถามว่าคนเรามาจากไหนและจะไปไหน ด้วยบันไดที่ทอดขึ้นไปในเมฆ",
+   "ช่วยทำฉากเหมือนฝัน เจดีย์ลอยอยู่เหนือผิวน้ำ ไว้โฆษณานิทรรศการภาพวาดของฉัน"
+  ],
+  "arch-diagram": [
+   "ช่วยอธิบายด้วยแผนภาพว่าออร์เดอร์จากแอปเราไปถึงครัว ทำเสร็จแล้วไปถึงไรเดอร์ยังไง",
+   "อยากให้พนักงานใหม่เข้าใจขั้นตอนของร้านขายยาครอบครัว ตั้งแต่สั่งของ โกดัง หน้าร้าน ไปจนถึงคิดเงิน",
+   "ช่วยทำวิดีโออธิบายนักเรียนด้วยภาพว่าเวลาโอนเงินจากมือถือ เงินวิ่งผ่านระบบธนาคารยังไง"
+  ],
+  "doc-mix": [
+   "ช่วยทำสารคดีราว 3 นาที ว่าวาฬสีน้ำเงินตัวใหญ่แค่ไหนและวิวัฒนาการมาอย่างไร",
+   "อยากได้วิดีโออธิบายด้วยแผนที่และภาพร่างว่าเจดีย์ที่อยุธยาสร้างอย่างไร และทนแผ่นดินไหวได้แค่ไหน",
+   "ช่วยทำวิดีโอ 1 นาทีลง Shorts เทียบดาวที่ใหญ่ที่สุดในจักรวาลกับดวงอาทิตย์ พร้อมข้อเท็จจริงน่าทึ่ง"
+  ]
+ }
+}

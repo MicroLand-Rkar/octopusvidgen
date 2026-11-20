@@ -1,0 +1,1377 @@
+{
+ "common": [
+  {
+   "key": "voice_recording",
+   "label": "Voice recording",
+   "kind": "files",
+   "accept": "audio/mpeg,audio/wav,audio/x-m4a,audio/flac",
+   "max_files": 3,
+   "required": false,
+   "hint": "Your own narration; otherwise we use a synthetic voice."
+  },
+  {
+   "key": "preferred_voice",
+   "label": "Preferred voice",
+   "kind": "text",
+   "required": false,
+   "hint": "Describe the voice you want, e.g. calm female, British English."
+  },
+  {
+   "key": "music",
+   "label": "Music",
+   "kind": "files",
+   "accept": "audio/mpeg,audio/wav,audio/x-m4a,audio/flac,audio/ogg",
+   "max_files": 2,
+   "required": false,
+   "hint": "A track you have the rights to; otherwise music is composed for the film."
+  },
+  {
+   "key": "photos",
+   "label": "Photos",
+   "kind": "files",
+   "accept": "image/jpeg,image/png,image/tiff,image/webp",
+   "max_files": 20,
+   "required": false,
+   "hint": "Photos of people, products or places that should appear."
+  },
+  {
+   "key": "logos",
+   "label": "Logos",
+   "kind": "files",
+   "accept": "image/svg+xml,image/png,application/pdf",
+   "max_files": 5,
+   "required": false,
+   "hint": "Logos to show, ideally SVG or transparent PNG."
+  },
+  {
+   "key": "fonts",
+   "label": "Fonts",
+   "kind": "files",
+   "accept": ".ttf,.otf,.woff,.woff2",
+   "max_files": 4,
+   "required": false,
+   "hint": "Brand fonts you are licensed to use."
+  }
+ ],
+ "styles": {
+  "archive-lighttable": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "archive_scans",
+     "label": "Archive scans",
+     "kind": "files",
+     "accept": "application/pdf,image/jpeg,image/png,image/tiff",
+     "max_files": 30,
+     "required": false,
+     "hint": "Scans of negatives, letters, photos or clippings you own the rights to."
+    }
+   ],
+   "note": "Built from real archive objects; send your own scans, or we use public-domain collections."
+  },
+  "art-deco": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Drawn entirely in code as gold-and-black Art Deco; no source material needed."
+  },
+  "ascii-crt": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Drawn entirely in code as glowing terminal text; no source material needed."
+  },
+  "assembly-line-diagram": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A drawn production line explaining a process; no source material needed."
+  },
+  "backrooms": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Rendered found-footage of empty interiors, all made in code."
+  },
+  "bauhaus-shapes": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Flat Bauhaus shapes sized to your numbers; no source material needed."
+  },
+  "blueprint": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Drawn on a blueprint sheet in code; no source material needed."
+  },
+  "brick-toy": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A toy-brick world built and animated in code."
+  },
+  "briefing-board": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "object_photos",
+     "label": "Object photos",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 20,
+     "required": false,
+     "hint": "Large, clear photos of the real objects being compared."
+    }
+   ],
+   "note": "Built from real photographs of the objects; send your own or we use licence-clean photos."
+  },
+  "caption-news": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "footage",
+     "label": "Your footage",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,.mov,.mkv,.avi",
+     "max_files": 20,
+     "required": false,
+     "hint": "Your own video clips; otherwise licence-clean archive footage is found."
+    },
+    {
+     "key": "documents",
+     "label": "Documents",
+     "kind": "files",
+     "accept": "application/pdf,image/jpeg,image/png,image/tiff",
+     "max_files": 20,
+     "required": false,
+     "hint": "The report or document the numbers come from, as PDF."
+    },
+    {
+     "key": "dataset",
+     "label": "Dataset",
+     "kind": "files",
+     "accept": ".csv,.json,.xlsx,.xls,.tsv",
+     "max_files": 5,
+     "required": false,
+     "hint": "Your figures as a table; otherwise open published data is used."
+    }
+   ],
+   "note": "Cut from real footage, photos and source documents; yours come first, public archives fill gaps."
+  },
+  "cel-anime-80s": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Hand-painted-look 80s anime made in code; no source material needed."
+  },
+  "chalkboard": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Chalk writing and drawing made in code; no source material needed."
+  },
+  "circuit-board": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Your subject drawn as a circuit board in code."
+  },
+  "city-symphony": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "footage",
+     "label": "Your footage",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,.mov,.mkv,.avi",
+     "max_files": 30,
+     "required": false,
+     "hint": "Time-lapses, hyperlapses, aerials or photos of the place."
+    }
+   ],
+   "note": "Edited from real footage of a place; send your own or we find licence-clean clips."
+  },
+  "colored-pencil": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A coloured-pencil cutaway drawn in code; no source material needed."
+  },
+  "comic-history": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "character_designs",
+     "label": "Character designs",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 10,
+     "required": false,
+     "hint": "Your own character or product designs; otherwise they are generated."
+    },
+    {
+     "key": "generated_images",
+     "label": "Generated images",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 60,
+     "required": false,
+     "hint": "Only if no image generator is connected: images made from our prompts."
+    }
+   ],
+   "note": "Needs an image generator for the puppet sheets; your own character designs come first."
+  },
+  "countdown": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "event_footage",
+     "label": "Event footage",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,.mov,.mkv,.avi,audio/mpeg,audio/wav,audio/x-m4a,audio/flac,audio/ogg",
+     "max_files": 12,
+     "required": false,
+     "hint": "Video or audio of the same event from several angles."
+    },
+    {
+     "key": "documents",
+     "label": "Documents",
+     "kind": "files",
+     "accept": "application/pdf,image/jpeg,image/png,image/tiff",
+     "max_files": 10,
+     "required": false,
+     "hint": "Schedules, filings or results shown as paper."
+    }
+   ],
+   "note": "Built from real-time footage of one event; send your own or we use public-domain records."
+  },
+  "crayon-book": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A crayon picture book drawn in code; no source material needed."
+  },
+  "crayon-world": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A 3D world redrawn in crayon, all in code."
+  },
+  "dark-documentary": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Scenes revealed by a scanning light, built in code; no real scan data needed."
+  },
+  "dark-keynote": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A software launch film with abstract UI made in code; your logo sets the accent."
+  },
+  "data-physical": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "dataset",
+     "label": "Dataset",
+     "kind": "files",
+     "accept": ".csv,.json,.xlsx,.xls,.tsv",
+     "max_files": 5,
+     "required": false,
+     "hint": "Your figures, e.g. from an annual or ESG report."
+    },
+    {
+     "key": "documents",
+     "label": "Documents",
+     "kind": "files",
+     "accept": "application/pdf,image/jpeg,image/png,image/tiff",
+     "max_files": 5,
+     "required": false,
+     "hint": "The report your figures come from."
+    }
+   ],
+   "note": "Real statistics built as physical objects; your own numbers or published open data."
+  },
+  "dataviz": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "dataset",
+     "label": "Dataset",
+     "kind": "files",
+     "accept": ".csv,.json,.xlsx,.xls,.tsv",
+     "max_files": 5,
+     "required": false,
+     "hint": "Your figures as a table; otherwise open published data is used."
+    }
+   ],
+   "note": "Every mark is a real number; send your dataset or we use openly licensed data."
+  },
+  "desktop-flythrough": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "App screens as paper cards on a desk, made in code; brand colours welcome."
+  },
+  "double-exposure": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "landscape_photos",
+     "label": "Landscape photos",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 10,
+     "required": false,
+     "hint": "Photos of the places the animal belongs to; shown in black and white."
+    }
+   ],
+   "note": "Fills animal silhouettes with real landscape photographs; yours or public-domain ones."
+  },
+  "engraving": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A copperplate engraving drawn in code from your facts."
+  },
+  "firefly-pointillism": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Characters and scenes made of glowing points, all in code."
+  },
+  "flat-space-explainer": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Flat science explainer zooming across scales, drawn in code."
+  },
+  "flow-field": {
+   "material": "optional",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "field_data",
+     "label": "Field data",
+     "kind": "files",
+     "accept": ".nc,.grib,.grb2,.csv,.json",
+     "max_files": 5,
+     "required": false,
+     "hint": "Gridded wind, current or flow data, if you have it."
+    }
+   ],
+   "note": "Streamlines of a real or modelled field such as wind or currents."
+  },
+  "game-show": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A beat-locked game show drawn in code; no source material needed."
+  },
+  "gilded-illumination": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A gilded manuscript painting made in code."
+  },
+  "glass-product": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A fictional glass product rendered in code; real products are not reproduced."
+  },
+  "halftone-dossier": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A printed case file with halftone characters, drawn in code."
+  },
+  "hardcore-info": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A line-art cutaway of a machine, modelled and drawn in code."
+  },
+  "hd-2d": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A pixel-art miniature world built in code."
+  },
+  "hologram-hud": {
+   "material": "optional",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "model_3d",
+     "label": "3D model",
+     "kind": "files",
+     "accept": ".glb,.gltf,.obj,.stl",
+     "max_files": 1,
+     "required": false,
+     "hint": "A model of your object to show as a wireframe."
+    }
+   ],
+   "note": "A glowing wireframe of your object, modelled in code or from your 3D file."
+  },
+  "impasto": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A moving knife-painted oil painting made in code."
+  },
+  "ink-wash": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A Chinese ink painting made in code."
+  },
+  "instruction-manual": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "An assembly-manual drawing made in code from your steps."
+  },
+  "ipad-sketch": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A tablet sketch drawn and coloured in code."
+  },
+  "iso-infographic": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "An isometric infographic drawn in code."
+  },
+  "isometric-picture-book": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "An isometric scene of people following a rule, made in code."
+  },
+  "kino-montage": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "footage",
+     "label": "Your footage",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,.mov,.mkv,.avi",
+     "max_files": 20,
+     "required": false,
+     "hint": "Archive film or video about your subject."
+    },
+    {
+     "key": "documents",
+     "label": "Documents",
+     "kind": "files",
+     "accept": "application/pdf,image/jpeg,image/png,image/tiff",
+     "max_files": 30,
+     "required": false,
+     "hint": "Scans of reports, brochures, letters or photographs."
+    }
+   ],
+   "note": "Recut from real archive film, photos and documents; yours lead, archives fill gaps."
+  },
+  "lidar-survey": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "place",
+     "label": "Place or coordinates",
+     "kind": "text",
+     "required": false,
+     "hint": "The site to survey, if not clear from your topic."
+    },
+    {
+     "key": "point_cloud",
+     "label": "Laser scan",
+     "kind": "files",
+     "accept": ".las,.laz,.e57,.ply,.xyz",
+     "max_files": 5,
+     "required": false,
+     "hint": "Your own site, drone or terrestrial scan."
+    }
+   ],
+   "note": "Built from real laser-scan points; send your own scan or we use public LiDAR surveys."
+  },
+  "living-screencast": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "product_url",
+     "label": "Product link",
+     "kind": "url",
+     "required": false,
+     "hint": "Link to the product or its documentation."
+    },
+    {
+     "key": "ui_screenshots",
+     "label": "UI screenshots",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 20,
+     "required": false,
+     "hint": "Screens of your product so the UI is redrawn accurately."
+    }
+   ],
+   "note": "Redraws your real product's interface; screenshots help it match exactly."
+  },
+  "lowpoly-island": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A low-poly island world built in code."
+  },
+  "manga-panels": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "character_designs",
+     "label": "Character designs",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 10,
+     "required": false,
+     "hint": "Your character designs or product photos; otherwise generated."
+    },
+    {
+     "key": "generated_images",
+     "label": "Generated images",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 60,
+     "required": false,
+     "hint": "Only if no image generator is connected: images made from our prompts."
+    },
+    {
+     "key": "lyrics",
+     "label": "Lyrics",
+     "kind": "text",
+     "required": false,
+     "hint": "Song lyrics, if this is a music video."
+    }
+   ],
+   "note": "Needs an image generator for characters and panels; your designs and products come first."
+  },
+  "map-explainer": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "place",
+     "label": "Place or coordinates",
+     "kind": "text",
+     "required": false,
+     "hint": "Place name or lat/lon coordinates, if not clear from your topic."
+    },
+    {
+     "key": "map_data",
+     "label": "Routes or map data",
+     "kind": "files",
+     "accept": ".geojson,.json,.kml,.gpx,.csv",
+     "max_files": 5,
+     "required": false,
+     "hint": "Routes, points or areas to draw on the map."
+    }
+   ],
+   "note": "Built on real elevation and satellite imagery of the place, with your data glowing on top."
+  },
+  "marker-paper": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Marker drawing on paper, made in code."
+  },
+  "memphis-diorama": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A Memphis-style diorama built in code."
+  },
+  "microgame": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Rapid microgames in changing art styles, all made in code."
+  },
+  "microscope": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "slide_scans",
+     "label": "Microscope scans",
+     "kind": "files",
+     "accept": ".svs,.ndpi,.mrxs,.tif,.tiff,.bif,image/png,image/jpeg",
+     "max_files": 5,
+     "required": false,
+     "hint": "Whole-slide scans or micrographs with a scale."
+    }
+   ],
+   "note": "Built from a real microscope scan; send your own or we find a licence-clean slide."
+  },
+  "midcentury-toon": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A mid-century cartoon drawn in code from your steps."
+  },
+  "neon-tubes": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Neon signs built and animated in code."
+  },
+  "news-package": {
+   "material": "optional",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "footage",
+     "label": "Your footage",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,.mov,.mkv,.avi",
+     "max_files": 20,
+     "required": false,
+     "hint": "Your own footage or b-roll stills to grade into the package."
+    }
+   ],
+   "note": "A bulletin built from code graphics; your footage, photos or logo can be woven in."
+  },
+  "newsreel": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "footage",
+     "label": "Your footage",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,.mov,.mkv,.avi",
+     "max_files": 20,
+     "required": false,
+     "hint": "Old film or video about your subject."
+    },
+    {
+     "key": "documents",
+     "label": "Documents",
+     "kind": "files",
+     "accept": "application/pdf,image/jpeg,image/png,image/tiff",
+     "max_files": 30,
+     "required": false,
+     "hint": "Newspapers, magazines, letters or documents, scanned."
+    },
+    {
+     "key": "period_recording",
+     "label": "Period recording",
+     "kind": "files",
+     "accept": "audio/mpeg,audio/wav,audio/x-m4a,audio/flac,audio/ogg",
+     "max_files": 2,
+     "required": false,
+     "hint": "An old recording you own that can play under the archive."
+    }
+   ],
+   "note": "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise."
+  },
+  "one-bit-dither": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A two-ink dithered 3D world made in code."
+  },
+  "one-line": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "One continuous line drawn in code."
+  },
+  "oscilloscope-math": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Real maths drawn as oscilloscope light, computed in code."
+  },
+  "paper-lantern": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A layered paper-cut lightbox built in code."
+  },
+  "paper-popup": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A paper pop-up book on a real-looking desk, made in code."
+  },
+  "papercut-red": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Red paper-cut scenes made in code."
+  },
+  "pen-plotter": {
+   "material": "optional",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "dataset",
+     "label": "Data to plot",
+     "kind": "files",
+     "accept": ".csv,.json,.xlsx,.xls,.tsv",
+     "max_files": 5,
+     "required": false,
+     "hint": "Survey, terrain or measured data to plot, if the sheet shows real data."
+    }
+   ],
+   "note": "Plotted by a machine pen; maps and records use real data you send or we find."
+  },
+  "pictogram-motion": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Pictograms and cards animated in code."
+  },
+  "pip-simulation": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A real simulation of little creatures run and filmed in code."
+  },
+  "pixel-rpg": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A 16-bit pixel RPG drawn in code."
+  },
+  "pop-art": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A four-colour pop-art print made in code."
+  },
+  "precise-mechanism": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A colour-coded mechanism modelled and animated in code."
+  },
+  "printed-long-take": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A scratchboard landscape long take made in code."
+  },
+  "risograph": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A risograph print made in code."
+  },
+  "rubber-hose": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A 1930s rubber-hose cartoon drawn in code."
+  },
+  "satellite-briefing": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "place",
+     "label": "Place or coordinates",
+     "kind": "text",
+     "required": false,
+     "hint": "Place name or lat/lon coordinates, if not clear from your topic."
+    },
+    {
+     "key": "gis_layers",
+     "label": "Your GIS layers",
+     "kind": "files",
+     "accept": ".tif,.tiff,.geojson,.kml,.shp,.zip",
+     "max_files": 5,
+     "required": false,
+     "hint": "Your own surveys or GIS layers, if the place is yours."
+    }
+   ],
+   "note": "Uses real satellite imagery of the place; we fetch public imagery if you have none."
+  },
+  "scifi-toon": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A sci-fi sitcom cartoon drawn in code."
+  },
+  "scratch-film": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Scratched-film animation made in code."
+  },
+  "security-xray": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Objects seen through an X-ray console, modelled in code."
+  },
+  "shadow-puppet": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Shadow puppets on a lit screen, made in code."
+  },
+  "silent-film": {
+   "material": "optional",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "footage",
+     "label": "Your footage",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,.mov,.mkv,.avi",
+     "max_files": 5,
+     "required": false,
+     "hint": "Family, company or sports clips to redraw as ink."
+    }
+   ],
+   "note": "Drawn in code; your own old clips can be redrawn into period ink."
+  },
+  "silhouette-rhythm": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Black silhouettes moving to the beat, made in code."
+  },
+  "silkscreen-poster": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A silkscreen travel poster printed in code."
+  },
+  "sketchnote": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A sketchnote page drawn in code."
+  },
+  "spreadsheet": {
+   "material": "optional",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "dataset",
+     "label": "Dataset",
+     "kind": "files",
+     "accept": ".csv,.json,.xlsx,.xls,.tsv",
+     "max_files": 5,
+     "required": false,
+     "hint": "A table whose values drive the picture."
+    }
+   ],
+   "note": "A picture computed in spreadsheet cells; can use your own table."
+  },
+  "spy-titles": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A 60s spy title sequence cut from paper in code."
+  },
+  "stained-glass": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A stained-glass window lit in code."
+  },
+  "stick-explainer": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Stick figures act out the idea, drawn in code."
+  },
+  "swiss-motion": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Swiss grid motion graphics made in code."
+  },
+  "teardown": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "cad_files",
+     "label": "CAD files",
+     "kind": "files",
+     "accept": ".step,.stp,.iges,.igs,.kicad_pcb,.stl,.glb,.obj",
+     "max_files": 10,
+     "required": false,
+     "hint": "STEP, IGES or KiCad exports of your product."
+    },
+    {
+     "key": "bom_specs",
+     "label": "BOM or spec sheet",
+     "kind": "files",
+     "accept": ".csv,.json,.xlsx,.xls,.tsv,application/pdf",
+     "max_files": 5,
+     "required": false,
+     "hint": "Bill of materials and spec sheet for part names and numbers."
+    }
+   ],
+   "note": "Built from a product's own CAD files; required for your own product, or we use open hardware."
+  },
+  "telestrator": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "footage",
+     "label": "Your footage",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,.mov,.mkv,.avi",
+     "max_files": 10,
+     "required": false,
+     "hint": "Match clips you have the rights to use."
+    },
+    {
+     "key": "match_data",
+     "label": "Line-ups or event data",
+     "kind": "files",
+     "accept": ".csv,.json,.xlsx,.xls,.tsv,.txt,application/pdf",
+     "max_files": 5,
+     "required": false,
+     "hint": "Line-ups or event data for the match."
+    }
+   ],
+   "note": "Built on real match footage; send your own clips or we look for openly licensed ones."
+  },
+  "text-flash-cuts": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "character_designs",
+     "label": "Character designs",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 10,
+     "required": false,
+     "hint": "Your own character or product designs; otherwise they are generated."
+    },
+    {
+     "key": "generated_images",
+     "label": "Generated images",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 60,
+     "required": false,
+     "hint": "Only if no image generator is connected: images made from our prompts."
+    }
+   ],
+   "note": "Needs an image generator for the characters; your own designs come first."
+  },
+  "thermal-camera": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A scene seen through a thermal camera, simulated in code."
+  },
+  "tilt-shift": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A procedural miniature town shot with a tilt-shift look, made in code."
+  },
+  "transit-map": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "network_data",
+     "label": "Network data",
+     "kind": "files",
+     "accept": ".csv,.json,.xlsx,.xls,.tsv,.geojson",
+     "max_files": 5,
+     "required": false,
+     "hint": "Lines, stations, opening dates, lengths or ridership."
+    }
+   ],
+   "note": "Draws a real network from checked data; yours first, operator open data otherwise."
+  },
+  "ukiyoe": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "Ukiyo-e woodblock prints made in code."
+  },
+  "urban-sketch": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A pen-and-wash urban sketch drawn in code."
+  },
+  "vintage-collage": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "print_scans",
+     "label": "Print scans",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 30,
+     "required": false,
+     "hint": "Scans of old engravings, stamps or ephemera you hold rights to."
+    }
+   ],
+   "note": "Collaged from real public-domain prints and ephemera, cut out by hand."
+  },
+  "visual-investigation": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "footage",
+     "label": "Your footage",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,.mov,.mkv,.avi",
+     "max_files": 20,
+     "required": false,
+     "hint": "Dashcam, CCTV, phone or archive video of the event."
+    },
+    {
+     "key": "documents",
+     "label": "Documents",
+     "kind": "files",
+     "accept": "application/pdf,image/jpeg,image/png,image/tiff",
+     "max_files": 20,
+     "required": false,
+     "hint": "Reports, statements or memos about the event."
+    },
+    {
+     "key": "recordings_data",
+     "label": "Recordings or data",
+     "kind": "files",
+     "accept": "audio/mpeg,audio/wav,audio/x-m4a,audio/flac,audio/ogg,.csv,.json,.xlsx,.xls,.tsv",
+     "max_files": 10,
+     "required": false,
+     "hint": "Audio recordings or readings such as telemetry or weather."
+    }
+   ],
+   "note": "Cross-checks real footage, photos, documents and data of one event; yours come first."
+  },
+  "watercolor": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A watercolour painting brushed in code."
+  },
+  "white-model": {
+   "material": "required",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "place",
+     "label": "Place or coordinates",
+     "kind": "text",
+     "required": false,
+     "hint": "Place name or lat/lon coordinates, if not clear from your topic."
+    },
+    {
+     "key": "building_data",
+     "label": "Building data",
+     "kind": "files",
+     "accept": ".geojson,.json,.gml,.citygml,.obj,.dxf,.csv,application/pdf",
+     "max_files": 10,
+     "required": false,
+     "hint": "Plans, a city model or survey heights for your site."
+    }
+   ],
+   "note": "A white model of real buildings from open data or your own plans, lit by projected data."
+  },
+  "whiteboard": {
+   "material": "none",
+   "agent_can_source": false,
+   "fields": [],
+   "note": "A whiteboard explainer drawn in code."
+  },
+  "woodcut": {
+   "material": "optional",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "reference_photo",
+     "label": "Reference photo",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 5,
+     "required": false,
+     "hint": "A photo or frame to recut as a woodcut, e.g. a portrait."
+    }
+   ],
+   "note": "Carved in code; a photo can be recut into a woodcut plate."
+  },
+  "onetake-launch": {
+   "material": "optional",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "product_url",
+     "label": "Product link",
+     "kind": "url",
+     "required": false,
+     "hint": "Link to the product or its documentation."
+    },
+    {
+     "key": "ui_screenshots",
+     "label": "UI screenshots",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 20,
+     "required": false,
+     "hint": "Screens of your product so the UI is redrawn accurately."
+    },
+    {
+     "key": "reference_clip",
+     "label": "Reference clip",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm",
+     "max_files": 1,
+     "required": false,
+     "hint": "A film whose feel you want; its rhythm is measured, not copied."
+    }
+   ],
+   "note": "Built from your product: screenshots and a link make the UI and copy real."
+  },
+  "onetake-demo": {
+   "material": "required",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "product_url",
+     "label": "Product link",
+     "kind": "url",
+     "required": false,
+     "hint": "Link to the product or its documentation."
+    },
+    {
+     "key": "ui_screenshots",
+     "label": "UI screenshots",
+     "kind": "files",
+     "accept": "image/jpeg,image/png,image/tiff,image/webp",
+     "max_files": 20,
+     "required": true,
+     "hint": "Screens of your product so the UI is redrawn accurately."
+    },
+    {
+     "key": "voice_script",
+     "label": "Voice-over script",
+     "kind": "text",
+     "required": false,
+     "hint": "What the narrator should say, if you have it; otherwise it is written for you."
+    },
+    {
+     "key": "reference_clip",
+     "label": "Reference clip",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm",
+     "max_files": 1,
+     "required": false,
+     "hint": "A film whose feel you want; its rhythm is measured, not copied."
+    }
+   ],
+   "note": "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show."
+  },
+  "onetake-concept": {
+   "material": "optional",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "product_url",
+     "label": "Product link",
+     "kind": "url",
+     "required": false,
+     "hint": "Link to the product or its documentation."
+    },
+    {
+     "key": "reference_clip",
+     "label": "Reference clip",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm",
+     "max_files": 1,
+     "required": false,
+     "hint": "A film whose feel you want; its rhythm is measured, not copied."
+    }
+   ],
+   "note": "One idea carries the whole ad; your product appears as the result."
+  },
+  "hf-captions": {
+   "material": "required",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "your_video",
+     "label": "Your video",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm",
+     "max_files": 3,
+     "required": true,
+     "hint": "The talking video to caption; it is kept as it is."
+    },
+    {
+     "key": "key_points",
+     "label": "Key points for cards",
+     "kind": "text",
+     "required": false,
+     "hint": "Names, numbers or points to show as cards; otherwise they are picked from what is said."
+    }
+   ],
+   "note": "Captions and cards are added over your own video."
+  },
+  "hf-vertical": {
+   "material": "optional",
+   "agent_can_source": true,
+   "fields": [],
+   "note": "A vertical clip; set the frame to 9:16."
+  },
+  "hf-music": {
+   "material": "required",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "song",
+     "label": "Your song",
+     "kind": "files",
+     "accept": "audio/mpeg,audio/wav,audio/x-m4a,audio/flac",
+     "max_files": 1,
+     "required": true,
+     "hint": "A track you have the rights to; the film is cut to it."
+    },
+    {
+     "key": "lyrics",
+     "label": "Lyrics",
+     "kind": "text",
+     "required": false,
+     "hint": "Song lyrics, if this is a music video."
+    }
+   ],
+   "note": "Cut to your own song; send the track."
+  },
+  "logo-reveal": {
+   "material": "required",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "logo_image",
+     "label": "Your logo",
+     "kind": "files",
+     "accept": "image/png,image/jpeg,image/webp,image/svg+xml",
+     "max_files": 1,
+     "required": true,
+     "hint": "A PNG, JPG or SVG of the logo, as large and clean as you have."
+    },
+    {
+     "key": "brand_words",
+     "label": "Brand feel",
+     "kind": "text",
+     "required": false,
+     "hint": "Three words for how the brand should move, e.g. calm, precise, friendly."
+    }
+   ],
+   "note": "Send your logo; it is redrawn as clean vector shapes and animated."
+  },
+  "lottie-anim": {
+   "material": "optional",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "source_svg",
+     "label": "SVG or icon",
+     "kind": "files",
+     "accept": "image/svg+xml,image/png",
+     "max_files": 5,
+     "required": false,
+     "hint": "An SVG, logo or icon to animate, if there is one."
+    }
+   ],
+   "note": "You get the Lottie .json file for your app or site, and an MP4 to preview it."
+  },
+  "arch-diagram": {
+   "material": "optional",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "source_text",
+     "label": "Article or notes",
+     "kind": "files",
+     "accept": ".md,.txt,.pdf,image/png,image/jpeg",
+     "max_files": 5,
+     "required": false,
+     "hint": "A post, notes or a sketch of the system to draw from."
+    }
+   ],
+   "note": "You get the film, an editable .excalidraw file, a PNG and a GIF."
+  },
+  "ad-storybook": {
+   "material": "optional",
+   "agent_can_source": false,
+   "fields": [
+    {
+     "key": "character_ref",
+     "label": "Character reference",
+     "kind": "files",
+     "accept": "image/png,image/jpeg,image/webp",
+     "max_files": 5,
+     "required": false,
+     "hint": "A drawing or photo of the character to keep the same in every scene."
+    }
+   ],
+   "note": "One character, kept the same in every scene and episode."
+  },
+  "doc-mix": {
+   "material": "optional",
+   "agent_can_source": true,
+   "fields": [
+    {
+     "key": "own_clips",
+     "label": "Your clips",
+     "kind": "files",
+     "accept": "video/mp4,video/quicktime,video/webm,image/png,image/jpeg",
+     "max_files": 20,
+     "required": false,
+     "hint": "Footage or photos you shot or have the rights to; the rest is found from open sources or made."
+    },
+    {
+     "key": "source_links",
+     "label": "Clip links",
+     "kind": "text",
+     "required": false,
+     "hint": "Links to YouTube/TikTok videos to react to or quote, separated by spaces."
+    },
+    {
+     "key": "narration_script",
+     "label": "Narration script",
+     "kind": "text",
+     "required": false,
+     "hint": "What the narrator says, if you have it; otherwise it is written from your topic."
+    }
+   ],
+   "note": "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration."
+  }
+ }
+}

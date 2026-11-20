@@ -1,0 +1,17 @@
+{
+  "slug": "hf-captions",
+  "num": "104",
+  "en": "Captions & Cards on Your Video",
+  "cn": "视频字幕与卡片",
+  "category_en": "HyperFrames",
+  "film": "Every Morning at Six",
+  "line": "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.",
+  "uses": [
+    "Talking heads",
+    "Interviews",
+    "Shop owners & creators"
+  ],
+  "dur": 30,
+  "needs": [],
+  "skill": "hyperframes"
+}

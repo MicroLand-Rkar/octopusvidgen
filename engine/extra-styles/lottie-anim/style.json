@@ -1,0 +1,17 @@
+{
+  "slug": "lottie-anim",
+  "num": "108",
+  "en": "Lottie Animation",
+  "cn": "Lottie 动画",
+  "category_en": "Logo & Lottie",
+  "film": "Loader, Check, Chart",
+  "line": "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.",
+  "uses": [
+    "Apps & websites",
+    "Icons & loaders",
+    "Lower thirds & stats"
+  ],
+  "dur": 6,
+  "needs": [],
+  "skill": "text-to-lottie"
+}

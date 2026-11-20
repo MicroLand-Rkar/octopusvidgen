@@ -1,0 +1,13 @@
+{
+  "slug": "line-art-ink",
+  "num": "100",
+  "en": "Line-Art Ink Scene",
+  "cn": "线描动画",
+  "category_en": "Sketch & Board",
+  "film": "A Street from Day to Night",
+  "line": "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.",
+  "uses": ["Living scenes", "Day & night", "Little characters", "Shops & streets"],
+  "dur": 30,
+  "needs": [],
+  "skill": "line-art-animation"
+}

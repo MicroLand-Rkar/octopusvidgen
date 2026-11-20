@@ -1,0 +1,17 @@
+{
+  "slug": "logo-reveal",
+  "num": "107",
+  "en": "Logo Reveal from Your Logo",
+  "cn": "标志动画",
+  "category_en": "Logo & Lottie",
+  "film": "Brand in Motion",
+  "line": "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.",
+  "uses": [
+    "Logo intros",
+    "Splash screens",
+    "Brand stings"
+  ],
+  "dur": 6,
+  "needs": [],
+  "skill": "pixel2motion"
+}

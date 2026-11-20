@@ -1,0 +1,18 @@
+{
+  "slug": "ad-charcoal",
+  "num": "115",
+  "en": "Charcoal",
+  "cn": "炭笔",
+  "category_en": "anidoodle",
+  "film": "Charcoal",
+  "line": "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.",
+  "uses": [
+    "Memories",
+    "Drama",
+    "Portraits"
+  ],
+  "dur": 30,
+  "needs": [],
+  "skill": "anidoodle",
+  "engine_style": "charcoalErasure"
+}

@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "Удалить {name}",
+  "att.tooBig": "Не добавлено (больше 500 МБ): {names}",
+  "att.trayLabel": "Прикреплённые файлы",
+  "board.addHint": "Изображения, клипы, голос, музыка, документы",
+  "board.addRefs": "Добавить референсы",
+  "board.addStyle": "+ Смешать стиль",
+  "board.aspect": "Соотношение сторон",
+  "board.blendStyle": "Смешано",
+  "board.chatTitle": "Спланируйте фильм {n} с Claude",
+  "board.close": "Закрыть",
+  "board.delete": "Удалить",
+  "board.deleteConfirm": "Удалить {name} из этого проекта?",
+  "board.deleteError": "Не удалось удалить файл",
+  "board.done": "Готово ({n})",
+  "board.download": "Скачать",
+  "board.dropHere": "Перетащите файлы, чтобы добавить их в этот проект",
+  "board.emptyBody": "Перетащите сюда изображения, клипы, голос или музыку, а затем спланируйте первый фильм с Claude в чате.",
+  "board.emptyTitle": "Пустой проект",
+  "board.filter.all": "Все",
+  "board.filter.films": "Фильмы",
+  "board.filter.made": "Создано Claude",
+  "board.filter.refs": "Референсы",
+  "board.filterLabel": "Показать",
+  "board.helloNoStyle": "Здравствуйте. Выберите стиль выше (или нажмите на подсказку), а затем расскажите, каким должен быть фильм. Если что-то будет неясно, я спрошу, прежде чем мы начнём.",
+  "board.hint": "Выберите референсы с помощью +, затем спланируйте следующий фильм в чате",
+  "board.inProject": "В этом проекте",
+  "board.length": "Длительность",
+  "board.made": "Создано Claude",
+  "board.mainStyle": "Основной стиль",
+  "board.make": "Создать видео",
+  "board.makeError": "Не удалось запустить фильм",
+  "board.makeHint": "Создать фильм сейчас (Ctrl/⌘ + Enter)",
+  "board.newChat": "Новый чат",
+  "board.open": "Открыть {name}",
+  "board.pick": "Использовать в следующем фильме",
+  "board.pickHint": "Первый выбранный задаёт основу, остальные смешиваются с ним.",
+  "board.pickStyle": "Выберите стиль",
+  "board.pickStyles": "Выберите стили",
+  "board.picked": "В следующем фильме",
+  "board.pickedLabel": "Референсы для следующего фильма",
+  "board.placeholder": "Опишите фильм {n}: что происходит, кто в нём, какое настроение…",
+  "board.planFirst": "Сначала спланировать в чате →",
+  "board.promptLabel": "Каким должен быть следующий фильм",
+  "board.ref": "Референс",
+  "board.removeStyle": "Убрать {name}",
+  "board.replyPlaceholder": "Ответить Claude…",
+  "board.searchStyles": "Поиск стилей",
+  "board.starting": "Запуск…",
+  "board.suggestAgain": "Предложить снова",
+  "board.suggested": "Предложено",
+  "board.tooShort": "Напишите о фильме чуть подробнее (не менее 10 символов).",
+  "board.unpick": "Не использовать",
+  "board.unpickName": "Не использовать {name}",
+  "board.uploadError": "Не удалось добавить файлы",
+  "board.uploading": "Добавление: {n}…",
+  "board.usedBefore": "Использовалось в этом проекте",
+  "board.voice": "Язык озвучки",
+  "film.askHead": "Claude задаёт вопрос — работа продолжится после ответа",
+  "film.attach": "Прикрепить файлы",
+  "film.backSingle": "Отдельные видео",
+  "film.briefTitle": "Бриф от Claude",
+  "film.cancel": "Остановить",
+  "film.canceledNote": "Создание этого видео остановлено.",
+  "film.chatIdle": "Напишите сообщение, чтобы продолжить работу над видео",
+  "film.chatLive": "Видео создаётся (нажимать кнопку ещё раз не нужно). Работа Claude отображается здесь в реальном времени.",
+  "film.chatTitle": "Чат с Claude",
+  "film.downloadFile": "Скачать {name}",
+  "film.downloadMp4": "Скачать MP4",
+  "film.dropHere": "Перетащите файлы сюда, чтобы отправить их Claude",
+  "film.elapsedDone": "заняло {time}",
+  "film.elapsedLive": "прошло {time}",
+  "film.estimateHint": "Процент примерный — он зависит от этапа, на котором сейчас Claude. Обычно видео готово за 10–20 минут.",
+  "film.failedNote": "Видео пока не готово. Что произошло, смотрите в чате справа — ответьте там, и работа продолжится.",
+  "film.headDone": "Готово",
+  "film.headFailed": "Остановлено — ответьте в чате, чтобы продолжить",
+  "film.headQueued": "В очереди",
+  "film.headRunning": "В работе",
+  "film.imagesGot": "Изображений: {n}",
+  "film.inputsTitle": "Ваши материалы",
+  "film.loadError": "Не удалось загрузить видео",
+  "film.loading": "Загрузка…",
+  "film.making": "Claude создаёт видео…",
+  "film.noProject": "Нет",
+  "film.now": "Сейчас",
+  "film.phLive": "Напишите Claude… (прочитает перед следующим шагом)",
+  "film.phQuestion": "Ответьте на вопрос Claude…",
+  "film.phResume": "Ответьте… (работа продолжится с места остановки)",
+  "film.phSucceeded": "Опишите, что изменить… (после отправки начнётся правка)",
+  "film.progressLabel": "Прогресс",
+  "film.projectFallback": "Проект",
+  "film.projectLabel": "Проект:",
+  "film.queuedWait": "Ожидание в очереди…",
+  "film.send": "Отправить",
+  "film.sendError": "Не удалось отправить",
+  "film.sendLabel": "Сообщение для Claude",
+  "film.sizeKb": "{n} КБ",
+  "film.stage.build": "Графика, анимация и звук",
+  "film.stage.finish": "Экспорт видео",
+  "film.stage.images": "Изображения в Flow AI",
+  "film.stage.plan": "Сценарий",
+  "film.stage.read": "Изучение стиля",
+  "film.stage.render": "Рендер и проверка",
+  "film.steps": "Шагов: {n}",
+  "film.tagAnswer": "Ответ",
+  "film.tagNote": "Заметка",
+  "film.tagPlan": "Обсуждение плана",
+  "film.working": "Работаю…",
+  "lang.label": "Язык",
+  "nav.label": "Студия",
+  "nav.new": "Новое видео",
+  "nav.projects": "Мои проекты",
+  "new.all": "Все ({n})",
+  "new.aspect": "Соотношение сторон",
+  "new.attach": "Прикрепить файлы",
+  "new.attachTitle": "Прикрепить файлы (можно также перетащить или вставить)",
+  "new.attachedCount": "Добавлено: {n}",
+  "new.badgeFlow": "✦ Изображения Flow AI",
+  "new.badgeNoGen": "✦ Без генератора изображений",
+  "new.cancel": "Отмена",
+  "new.category": "Категория",
+  "new.create": "Создать",
+  "new.dropHere": "Перетащите файлы сюда",
+  "new.duration": "Длительность",
+  "new.episode": "Серия {n}",
+  "new.filesNote": "Вот файлы.",
+  "new.flowBody": "Claude откроет Flow в вашем Chrome и создаст нужные изображения. Не закрывайте Chrome, пока видео создаётся. Будет потрачено немного кредитов Flow.",
+  "new.flowTitle": "✦ Изображения создаются автоматически в Google Flow AI.",
+  "new.hello": "Привет! Расскажите простыми словами, какое видео в стиле «{style}» вы хотите. Если что-то будет непонятно, я спрошу.",
+  "new.language": "Язык",
+  "new.listSep": ", ",
+  "new.make": "Создать видео",
+  "new.makeRest": "Пусть Claude решит остальное и создаст видео",
+  "new.material": "Добавить материалы",
+  "new.materialHint": "файлы, аудио, фото (необязательно)",
+  "new.maxFiles": "Можно прикрепить до {max} файлов.",
+  "new.messageLabel": "Сообщение для Claude",
+  "new.ncAfter": " использования. Для работы на клиентов или бизнеса нужна коммерческая лицензия (onetake Pro).",
+  "new.ncBefore": "Этот стиль бесплатен только для ",
+  "new.ncStrong": "некоммерческого",
+  "new.needField": "Для этого стиля нужно: {field}.",
+  "new.needs": "Нужно: {list}",
+  "new.newProject": "+ Новый проект…",
+  "new.noGen": "Этому стилю нужны изображения от ИИ, а на этом сервере генератор изображений не включён, поэтому создавать видео пока нельзя.",
+  "new.noProject": "Без проекта (разовое видео)",
+  "new.noReply": "Claude сейчас не может ответить",
+  "new.pickLeft": "Выберите стиль из списка.",
+  "new.pickStyle": "Сначала выберите стиль.",
+  "new.pickStyleShort": "Сначала выберите стиль",
+  "new.placeholder": "Опишите, что вы хотите… перетащите или вставьте сюда изображения и файлы",
+  "new.planDraft": "Черновик плана (бриф, который отправит Claude)",
+  "new.planReady": "✓ План видео (бриф, который отправит Claude)",
+  "new.project": "Проект",
+  "new.projectFailed": "Не удалось создать проект",
+  "new.projectName": "Название проекта",
+  "new.samples": "Примеры: нажмите, чтобы отправить",
+  "new.searchLabel": "Поиск стилей",
+  "new.searchPlaceholder": "Поиск: акварель, объяснение, новости…",
+  "new.seconds": "{n} с",
+  "new.send": "Отправить",
+  "new.startFailed": "Не удалось запустить создание видео",
+  "new.starting": "Запуск…",
+  "new.step1": "1. Выберите стиль",
+  "new.step2": "2. Обсудите план с Claude",
+  "new.styleBeforeFiles": "Выберите стиль, прежде чем добавлять файлы.",
+  "new.stylesLabel": "Стили",
+  "new.tellFirst": "Сначала расскажите Claude, что вы хотите.",
+  "new.thinking": "Думаю…",
+  "new.uploading": "Загрузка файлов…",
+  "projects.addEpisode": "+ Серия {n}",
+  "projects.assets": "Общие материалы ({n}):",
+  "projects.back": "← Мои проекты",
+  "projects.bibleEmpty": "Claude заполнит это после первой серии.",
+  "projects.bibleHint": "Заметки Claude о персонажах, местах и стиле — он читает и дополняет их в каждой серии",
+  "projects.bibleTitle": "Библия сериала",
+  "projects.cancel": "Отмена",
+  "projects.cancelEdit": "Отмена",
+  "projects.continueEpisode": "Продолжить: серия {n}",
+  "projects.create": "Создать",
+  "projects.createError": "Не удалось создать",
+  "projects.descLabel": "О чём это",
+  "projects.descPlaceholder": "Персонажи, мир, стиль… Claude читает это перед каждой серией",
+  "projects.edit": "Изменить название/описание",
+  "projects.emptyBody": "Проект — это папка. Храните серии вместе, и Claude будет повторно использовать персонажей, места, стиль и музыку.",
+  "projects.emptyCta": "Создать первый проект",
+  "projects.emptyTitle": "Проектов пока нет",
+  "projects.episodeCount": "Серий: {n}",
+  "projects.episodeN": "Серия {n}",
+  "projects.firstEpisodeCta": "Создать серию 1",
+  "projects.loadError": "Не удалось загрузить",
+  "projects.loading": "Загрузка…",
+  "projects.nameLabel": "Название проекта",
+  "projects.namePlaceholder": "например, Война чайных",
+  "projects.nameRequired": "Укажите название",
+  "projects.newProject": "+ Новый проект",
+  "projects.newVideo": "Новое видео",
+  "projects.noEpisodesBody": "Первая серия задаёт персонажей, места и стиль. Следующие серии используют их снова.",
+  "projects.noEpisodesTitle": "Серий пока нет",
+  "projects.optional": "необязательно",
+  "projects.save": "Сохранить",
+  "projects.saveError": "Не удалось сохранить",
+  "projects.seconds": "{n} с",
+  "projects.singleCount": "Видео: {n}",
+  "projects.singles": "Отдельные видео",
+  "projects.singlesHint": "Видео вне проектов",
+  "projects.title": "Мои проекты",
+  "src.anyFile": "любой файл",
+  "src.badType": "{name}: этот тип файла не поддерживается.",
+  "src.canSource": "Ничего страшного, если у вас их нет: Claude сам найдёт общедоступную информацию.",
+  "src.choose": "Выбрать файлы",
+  "src.closeCommon": "− Свернуть",
+  "src.dropOr": "или перетащите сюда · {types} · до {max}",
+  "src.material.none": "Рисуется с нуля",
+  "src.material.optional": "Можно добавить свои материалы",
+  "src.material.required": "На основе реальных данных",
+  "src.maxFiles": "Не больше {max} файлов.",
+  "src.openCommon": "+ Добавить свой голос, музыку, фото, логотип",
+  "src.optional": "необязательно",
+  "src.remove": "Удалить",
+  "src.removeLabel": "Удалить {name}",
+  "src.required": "обязательно",
+  "src.tooBig": "{name} больше 500 МБ.",
+  "status.canceled": "Отменено",
+  "status.failed": "Ошибка",
+  "status.queued": "В очереди",
+  "status.running": "Создаётся",
+  "status.succeeded": "Готово"
+ },
+ "style": {
+  "3D model": "3D-модель",
+  "A 16-bit pixel RPG drawn in code.": "16-битная пиксельная RPG, нарисованная кодом.",
+  "A 1930s rubber-hose cartoon drawn in code.": "Мультфильм в стиле «резиновых шлангов» 1930-х, нарисованный кодом.",
+  "A 3D world redrawn in crayon, all in code.": "3D-мир, перерисованный восковыми мелками, полностью в коде.",
+  "A 60s spy title sequence cut from paper in code.": "Шпионская заставка 60-х, вырезанная из бумаги в коде.",
+  "A Chinese ink painting made in code.": "Китайская живопись тушью, созданная кодом.",
+  "A Memphis-style diorama built in code.": "Диорама в стиле «Мемфис», собранная в коде.",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "PNG, JPG или SVG логотипа — как можно крупнее и чище.",
+  "A beat-locked game show drawn in code; no source material needed.": "Игровое шоу точно в ритм музыки, нарисованное кодом; исходные материалы не нужны.",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "Выпуск новостей из графики в коде; можно вплести ваши видео, фото или логотип.",
+  "A colour-coded mechanism modelled and animated in code.": "Механизм с цветовой кодировкой, смоделированный и анимированный в коде.",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "Разрез цветными карандашами, нарисованный кодом; исходные материалы не нужны.",
+  "A copperplate engraving drawn in code from your facts.": "Гравюра на меди, нарисованная кодом по вашим фактам.",
+  "A crayon picture book drawn in code; no source material needed.": "Книжка-картинка восковыми мелками, нарисованная кодом; исходные материалы не нужны.",
+  "A drawing or photo of the character to keep the same in every scene.": "Рисунок или фото персонажа, чтобы он выглядел одинаково в каждой сцене.",
+  "A drawn production line explaining a process; no source material needed.": "Нарисованный конвейер, объясняющий процесс; исходные материалы не нужны.",
+  "A fictional glass product rendered in code; real products are not reproduced.": "Вымышленный стеклянный продукт, отрендеренный в коде; реальные товары не воспроизводятся.",
+  "A film whose feel you want; its rhythm is measured, not copied.": "Фильм, атмосферу которого вы хотите; его ритм измеряется, а не копируется.",
+  "A four-colour pop-art print made in code.": "Четырёхцветный поп-арт-принт, созданный кодом.",
+  "A gilded manuscript painting made in code.": "Миниатюра с позолотой, как в средневековой рукописи, созданная кодом.",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "Светящийся каркас вашего объекта, смоделированный в коде или из вашего 3D-файла.",
+  "A layered paper-cut lightbox built in code.": "Многослойный лайтбокс из вырезанной бумаги, собранный в коде.",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "Линейный разрез машины, смоделированный и нарисованный кодом.",
+  "A low-poly island world built in code.": "Низкополигональный остров, построенный в коде.",
+  "A mid-century cartoon drawn in code from your steps.": "Мультфильм в стиле середины века, нарисованный кодом по вашим шагам.",
+  "A model of your object to show as a wireframe.": "Модель вашего объекта для показа в виде каркаса.",
+  "A moving knife-painted oil painting made in code.": "Ожившая масляная живопись мастихином, созданная кодом.",
+  "A paper pop-up book on a real-looking desk, made in code.": "Бумажная книжка-раскладушка на реалистичном столе, созданная кодом.",
+  "A pen-and-wash urban sketch drawn in code.": "Городской скетч пером и размывкой, нарисованный кодом.",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "Фото или кадр для перерисовки в гравюру на дереве, например портрет.",
+  "A picture computed in spreadsheet cells; can use your own table.": "Изображение, вычисленное в ячейках таблицы; можно использовать вашу таблицу.",
+  "A pixel-art miniature world built in code.": "Пиксельный миниатюрный мир, построенный в коде.",
+  "A post, notes or a sketch of the system to draw from.": "Пост, заметки или набросок системы, по которым рисовать.",
+  "A printed case file with halftone characters, drawn in code.": "Печатное досье с растровыми персонажами, нарисованное кодом.",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "Процедурный игрушечный городок с эффектом тилт-шифт, созданный кодом.",
+  "A real simulation of little creatures run and filmed in code.": "Настоящая симуляция маленьких существ, запущенная и снятая в коде.",
+  "A risograph print made in code.": "Ризографический принт, созданный кодом.",
+  "A scene seen through a thermal camera, simulated in code.": "Сцена глазами тепловизора, смоделированная в коде.",
+  "A sci-fi sitcom cartoon drawn in code.": "Научно-фантастический мультситком, нарисованный кодом.",
+  "A scratchboard landscape long take made in code.": "Пейзаж в технике граттажа одним длинным планом, созданный кодом.",
+  "A silkscreen travel poster printed in code.": "Туристический плакат в технике шелкографии, напечатанный кодом.",
+  "A sketchnote page drawn in code.": "Страница скетчноутинга, нарисованная кодом.",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "Ролик о запуске софта с абстрактным интерфейсом в коде; ваш логотип задаёт акцентный цвет.",
+  "A stained-glass window lit in code.": "Витраж, подсвеченный в коде.",
+  "A table whose values drive the picture.": "Таблица, значения которой управляют изображением.",
+  "A tablet sketch drawn and coloured in code.": "Скетч на планшете, нарисованный и раскрашенный кодом.",
+  "A toy-brick world built and animated in code.": "Мир из игрушечных кубиков, построенный и анимированный в коде.",
+  "A track you have the rights to; otherwise music is composed for the film.": "Трек, на который у вас есть права; иначе музыку напишут для фильма.",
+  "A track you have the rights to; the film is cut to it.": "Трек, на который у вас есть права; фильм смонтируют под него.",
+  "A two-ink dithered 3D world made in code.": "Двухцветный дизерированный 3D-мир, созданный кодом.",
+  "A vertical clip; set the frame to 9:16.": "Вертикальный ролик; установите формат кадра 9:16.",
+  "A watercolour painting brushed in code.": "Акварель, написанная кодом.",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "Белая модель реальных зданий по открытым данным или вашим планам, освещённая проекцией данных.",
+  "A whiteboard explainer drawn in code.": "Объяснение на маркерной доске, нарисованное кодом.",
+  "An SVG, logo or icon to animate, if there is one.": "SVG, логотип или иконка для анимации, если есть.",
+  "An assembly-manual drawing made in code from your steps.": "Рисунок из инструкции по сборке, созданный кодом по вашим шагам.",
+  "An isometric infographic drawn in code.": "Изометрическая инфографика, нарисованная кодом.",
+  "An isometric scene of people following a rule, made in code.": "Изометрическая сцена с людьми, следующими правилу, созданная кодом.",
+  "An old recording you own that can play under the archive.": "Ваша старая запись, которая может звучать под архивными кадрами.",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "Экраны приложения в виде бумажных карточек на столе, созданные кодом; фирменные цвета приветствуются.",
+  "Archive film or video about your subject.": "Архивные фильмы или видео по вашей теме.",
+  "Archive scans": "Сканы архивов",
+  "Article or notes": "Статья или заметки",
+  "Audio recordings or readings such as telemetry or weather.": "Аудиозаписи или показания, например телеметрия или погода.",
+  "BOM or spec sheet": "Спецификация или техпаспорт",
+  "Bill of materials and spec sheet for part names and numbers.": "Спецификация материалов и техпаспорт с названиями и номерами деталей.",
+  "Black silhouettes moving to the beat, made in code.": "Чёрные силуэты, движущиеся в ритм, созданные кодом.",
+  "Brand feel": "Характер бренда",
+  "Brand fonts you are licensed to use.": "Фирменные шрифты, на которые у вас есть лицензия.",
+  "Building data": "Данные о зданиях",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "Строится по CAD-файлам продукта; для вашего продукта они обязательны, иначе берём открытое оборудование.",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "Строится по реальному скану микроскопа; пришлите свой или мы найдём препарат с чистой лицензией.",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "Строится из реальных архивных предметов; пришлите свои сканы или мы возьмём общественное достояние.",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "Строится по реальным точкам лазерного сканирования; пришлите свой скан или мы возьмём открытые съёмки LiDAR.",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "Строится по реальным фотографиям предметов; пришлите свои или мы возьмём фото с чистой лицензией.",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "Строится по съёмке одного события в реальном времени; пришлите свою или мы возьмём записи из общественного достояния.",
+  "Built from your product: screenshots and a link make the UI and copy real.": "Строится по вашему продукту: скриншоты и ссылка делают интерфейс и тексты настоящими.",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "Строится на реальных данных рельефа и спутниковых снимках места, поверх которых светятся ваши данные.",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "Строится на реальных кадрах матча; пришлите свои клипы или мы поищем с открытой лицензией.",
+  "CAD files": "CAD-файлы",
+  "Captions and cards are added over your own video.": "Субтитры и карточки добавляются поверх вашего видео.",
+  "Carved in code; a photo can be recut into a woodcut plate.": "Вырезано в коде; фото можно перевести в гравюру на дереве.",
+  "Chalk writing and drawing made in code; no source material needed.": "Надписи и рисунки мелом, созданные кодом; исходные материалы не нужны.",
+  "Character designs": "Дизайн персонажей",
+  "Character reference": "Образ персонажа",
+  "Characters and scenes made of glowing points, all in code.": "Персонажи и сцены из светящихся точек, полностью в коде.",
+  "Clip links": "Ссылки на клипы",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "Коллаж из реальных гравюр и эфемер общественного достояния, вырезанных вручную.",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "Сопоставляет реальные видео, фото, документы и данные одного события; ваши материалы — в первую очередь.",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "Смонтировано из реальной архивной плёнки, печати и записей; сначала ваши, иначе архивы общественного достояния.",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "Смонтировано из реальных видео, фото и документов; сначала ваши, пробелы заполняют открытые архивы.",
+  "Cut to your own song; send the track.": "Монтаж под вашу песню; пришлите трек.",
+  "Dashcam, CCTV, phone or archive video of the event.": "Видео с видеорегистратора, камеры наблюдения, телефона или архивное видео события.",
+  "Data to plot": "Данные для графика",
+  "Dataset": "Набор данных",
+  "Describe the voice you want, e.g. calm female, British English.": "Опишите нужный голос, например спокойный женский, британский английский.",
+  "Documents": "Документы",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "Полностью нарисовано кодом как светящийся текст терминала; исходные материалы не нужны.",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "Полностью нарисовано кодом в чёрно-золотом ар-деко; исходные материалы не нужны.",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "Нарисовано кодом; ваши старые клипы можно перерисовать тушью в духе эпохи.",
+  "Drawn on a blueprint sheet in code; no source material needed.": "Нарисовано кодом на листе чертежа; исходные материалы не нужны.",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "Рисует реальную сеть по проверенным данным; сначала ваши, иначе открытые данные операторов.",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "Смонтировано из реальных съёмок места; пришлите свои или мы найдём клипы с чистой лицензией.",
+  "Event footage": "Съёмка события",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "Каждый элемент — реальное число; пришлите свой набор данных или мы возьмём открытые данные.",
+  "Family, company or sports clips to redraw as ink.": "Семейные, корпоративные или спортивные клипы для перерисовки тушью.",
+  "Field data": "Полевые данные",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "Наполняет силуэты животных реальными пейзажными фото — вашими или из общественного достояния.",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "Плоские фигуры Баухауса по вашим числам; исходные материалы не нужны.",
+  "Flat science explainer zooming across scales, drawn in code.": "Плоское научное объяснение с переходом между масштабами, нарисованное кодом.",
+  "Fonts": "Шрифты",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "Видео или фото, снятые вами или с правами; остальное найдём в открытых источниках или создадим.",
+  "Generated images": "Сгенерированные изображения",
+  "Gridded wind, current or flow data, if you have it.": "Сеточные данные о ветре, течениях или потоках, если есть.",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "Аниме 80-х в стиле ручной росписи, созданное кодом; исходные материалы не нужны.",
+  "Key points for cards": "Ключевые пункты для карточек",
+  "Landscape photos": "Пейзажные фото",
+  "Large, clear photos of the real objects being compared.": "Крупные чёткие фото сравниваемых реальных предметов.",
+  "Laser scan": "Лазерный скан",
+  "Line-ups or event data": "Составы или данные о событии",
+  "Line-ups or event data for the match.": "Составы команд или данные о матче.",
+  "Lines, stations, opening dates, lengths or ridership.": "Линии, станции, даты открытия, протяжённость или пассажиропоток.",
+  "Link to the product or its documentation.": "Ссылка на продукт или его документацию.",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "Ссылки на видео YouTube/TikTok для реакции или цитирования, через пробел.",
+  "Logos": "Логотипы",
+  "Logos to show, ideally SVG or transparent PNG.": "Логотипы для показа, лучше SVG или PNG с прозрачным фоном.",
+  "Lyrics": "Текст песни",
+  "Marker drawing on paper, made in code.": "Рисунок маркером на бумаге, созданный кодом.",
+  "Match clips you have the rights to use.": "Клипы матча, на использование которых у вас есть права.",
+  "Microscope scans": "Сканы микроскопа",
+  "Music": "Музыка",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "Имена, числа или пункты для карточек; иначе их выберут из сказанного.",
+  "Narration script": "Текст для диктора",
+  "Needs an image generator for characters and panels; your designs and products come first.": "Нужен генератор изображений для персонажей и панелей; ваши дизайны и продукты — в первую очередь.",
+  "Needs an image generator for the characters; your own designs come first.": "Нужен генератор изображений для персонажей; ваши дизайны — в первую очередь.",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "Нужен генератор изображений для листов с куклами; ваши дизайны персонажей — в первую очередь.",
+  "Neon signs built and animated in code.": "Неоновые вывески, собранные и анимированные в коде.",
+  "Network data": "Данные о сети",
+  "Newspapers, magazines, letters or documents, scanned.": "Отсканированные газеты, журналы, письма или документы.",
+  "Object photos": "Фото предметов",
+  "Objects seen through an X-ray console, modelled in code.": "Предметы на экране рентгеновского сканера, смоделированные в коде.",
+  "Old film or video about your subject.": "Старая плёнка или видео по вашей теме.",
+  "One character, kept the same in every scene and episode.": "Один персонаж, одинаковый в каждой сцене и серии.",
+  "One continuous line drawn in code.": "Одна непрерывная линия, нарисованная кодом.",
+  "One idea carries the whole ad; your product appears as the result.": "Вся реклама строится на одной идее; ваш продукт появляется как результат.",
+  "Only if no image generator is connected: images made from our prompts.": "Только если генератор изображений не подключён: изображения по нашим промптам.",
+  "Period recording": "Запись той эпохи",
+  "Photos": "Фото",
+  "Photos of people, products or places that should appear.": "Фото людей, товаров или мест, которые должны появиться.",
+  "Photos of the places the animal belongs to; shown in black and white.": "Фото мест, где обитает животное; показываются в чёрно-белом цвете.",
+  "Pictograms and cards animated in code.": "Пиктограммы и карточки, анимированные в коде.",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "Название места или координаты, если они не ясны из темы.",
+  "Place or coordinates": "Место или координаты",
+  "Plans, a city model or survey heights for your site.": "Планы, модель города или высотные отметки вашего участка.",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "Нарисовано плоттером; карты и записи используют реальные данные — ваши или найденные нами.",
+  "Preferred voice": "Предпочтительный голос",
+  "Print scans": "Сканы гравюр",
+  "Product link": "Ссылка на продукт",
+  "Rapid microgames in changing art styles, all made in code.": "Быстрые микроигры в меняющихся художественных стилях, полностью в коде.",
+  "Real maths drawn as oscilloscope light, computed in code.": "Настоящая математика в виде света осциллографа, вычисленная в коде.",
+  "Real statistics built as physical objects; your own numbers or published open data.": "Реальная статистика в виде физических объектов; ваши числа или опубликованные открытые данные.",
+  "Recordings or data": "Записи или данные",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "Перемонтировано из реальной архивной плёнки, фото и документов; ваши ведут, архивы заполняют пробелы.",
+  "Red paper-cut scenes made in code.": "Сцены из красной вырезанной бумаги, созданные кодом.",
+  "Redraws your real product's interface; screenshots help it match exactly.": "Перерисовывает интерфейс вашего реального продукта; скриншоты помогут добиться точности.",
+  "Reference clip": "Референсный клип",
+  "Reference photo": "Референсное фото",
+  "Rendered found-footage of empty interiors, all made in code.": "Отрендеренные «найденные плёнки» пустых интерьеров, полностью в коде.",
+  "Reports, statements or memos about the event.": "Отчёты, заявления или служебные записки о событии.",
+  "Routes or map data": "Маршруты или картографические данные",
+  "Routes, points or areas to draw on the map.": "Маршруты, точки или области для отображения на карте.",
+  "STEP, IGES or KiCad exports of your product.": "Экспорт вашего продукта в STEP, IGES или KiCad.",
+  "SVG or icon": "SVG или иконка",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "Сканы негативов, писем, фото или вырезок, на которые у вас есть права.",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "Сканы старых гравюр, марок или эфемер, на которые у вас есть права.",
+  "Scans of reports, brochures, letters or photographs.": "Сканы отчётов, брошюр, писем или фотографий.",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "Сцены, проявляющиеся под сканирующим лучом, построенные в коде; реальные данные сканирования не нужны.",
+  "Schedules, filings or results shown as paper.": "Расписания, документы или результаты в виде бумаг.",
+  "Scratched-film animation made in code.": "Анимация, процарапанная на плёнке, созданная кодом.",
+  "Screens of your product so the UI is redrawn accurately.": "Экраны вашего продукта, чтобы точно перерисовать интерфейс.",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "Пришлите логотип — он будет перерисован чистыми векторными формами и анимирован.",
+  "Shadow puppets on a lit screen, made in code.": "Театр теней на освещённом экране, созданный кодом.",
+  "Song lyrics, if this is a music video.": "Текст песни, если это музыкальный клип.",
+  "Stick figures act out the idea, drawn in code.": "Человечки-палочки разыгрывают идею, нарисованы кодом.",
+  "Streamlines of a real or modelled field such as wind or currents.": "Линии тока реального или смоделированного поля, например ветра или течений.",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "Съёмка, рельеф или измерения для графика, если лист показывает реальные данные.",
+  "Swiss grid motion graphics made in code.": "Моушн-графика в швейцарской сетке, созданная кодом.",
+  "The report or document the numbers come from, as PDF.": "Отчёт или документ с исходными цифрами, в PDF.",
+  "The report your figures come from.": "Отчёт, из которого взяты ваши цифры.",
+  "The site to survey, if not clear from your topic.": "Участок для съёмки, если он не ясен из темы.",
+  "The talking video to caption; it is kept as it is.": "Видео с речью для субтитров; оно остаётся без изменений.",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "Три слова о том, как должен двигаться бренд, например спокойно, точно, дружелюбно.",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "Таймлапсы, гиперлапсы, аэросъёмка или фото места.",
+  "UI screenshots": "Скриншоты интерфейса",
+  "Ukiyo-e woodblock prints made in code.": "Японские гравюры укиё-э, созданные кодом.",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "Использует реальные спутниковые снимки места; если у вас их нет, мы возьмём общедоступные.",
+  "Video or audio of the same event from several angles.": "Видео или аудио одного события с нескольких ракурсов.",
+  "Voice recording": "Запись голоса",
+  "Voice-over script": "Текст закадрового голоса",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "Что говорит диктор, если у вас есть текст; иначе он будет написан по вашей теме.",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "Что должен сказать диктор, если у вас есть текст; иначе мы напишем его за вас.",
+  "Whole-slide scans or micrographs with a scale.": "Полные сканы препаратов или микрофотографии с масштабом.",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "Вы получите файл Lottie .json для приложения или сайта и MP4 для предпросмотра.",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "Вы получите фильм, редактируемый файл .excalidraw, PNG и GIF.",
+  "Your GIS layers": "Ваши ГИС-слои",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "Экраны вашего приложения воссоздаются в HTML и показываются с озвучкой; пришлите экраны каждой функции.",
+  "Your character designs or product photos; otherwise generated.": "Ваши дизайны персонажей или фото товаров; иначе они будут сгенерированы.",
+  "Your clips": "Ваши клипы",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "Ваши клипы, видео с открытой лицензией, фрагменты чужих каналов для комментирования и изображения Flow AI смешиваются с инфографикой в коде под тайский закадровый текст.",
+  "Your figures as a table; otherwise open published data is used.": "Ваши цифры в виде таблицы; иначе используются открытые опубликованные данные.",
+  "Your figures, e.g. from an annual or ESG report.": "Ваши цифры, например из годового или ESG-отчёта.",
+  "Your footage": "Ваши съёмки",
+  "Your logo": "Ваш логотип",
+  "Your own character or product designs; otherwise they are generated.": "Ваши собственные дизайны персонажей или продуктов; иначе они будут сгенерированы.",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "Ваши клипы, видео с открытой лицензией и изображения Flow AI смешиваются с инфографикой в коде; ничего не берётся с чужих каналов.",
+  "Your own footage or b-roll stills to grade into the package.": "Ваши съёмки или кадры b-roll для цветокоррекции и включения в сюжет.",
+  "Your own narration; otherwise we use a synthetic voice.": "Ваш собственный закадровый голос; иначе используем синтезированный.",
+  "Your own site, drone or terrestrial scan.": "Ваш собственный скан участка, с дрона или наземный.",
+  "Your own surveys or GIS layers, if the place is yours.": "Ваши съёмки или ГИС-слои, если место ваше.",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "Ваши видеоклипы; иначе подберём архивные кадры с чистой лицензией.",
+  "Your song": "Ваша песня",
+  "Your subject drawn as a circuit board in code.": "Ваша тема в виде печатной платы, нарисованной кодом.",
+  "Your video": "Ваше видео",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "160 пипов стаей наперегонки бегут за бобами: быстрые едят первыми и первыми выдыхаются, а через 20 поколений поле становится синим.",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "1926 год: газеты пишут, что чарльстон погубит колени Америки; а на пикнике у самого Форда дети всё равно его танцуют.",
+  "3D & Miniature": "3D и миниатюры",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "Лист авиапочтовых марок 1918 года с самолётом вверх ногами: куплен за 24 $, разрезан и разошёлся по свету, а номер 66 до сих пор не найден.",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "Ролик 9:16 для Reels, TikTok и Shorts: зацепка в первую же секунду, крупная кинетическая типографика, быстрый ритм и субтитры, понятные без звука.",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "Lottie-анимация для приложения или сайта — файл .json плюс MP4: лоадеры, иконки, состояния успеха, плашки, счётчики и небольшие промо.",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "Воскресная утренняя прогулка на велосипеде по городу — пекарня, парк, набережная — каждая остановка добавляет краску, пока три сбитые формы не лягут друг на друга.",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "Мальчишка-пекарь гонится под горку за сбежавшей буханкой, а потом разламывает её пополам для голодной девочки.",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "Нарисованная от руки схема архитектуры или процесса на чёрном фоне, по потокам которой бегут светящиеся точки; в комплекте редактируемый файл Excalidraw и GIF.",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "Тело в разрезе как фабрика, работающая задом наперёд: бутерброд, съеденный в 12:30, разбирают цех за цехом, а через шесть часов он бежит на автобус.",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "Космонавт из кубиков собирает ракету из запчастей и летит на кубиковую луну.",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "Картонный кукольный театр: узорная бумага, гуашевые вырезки с полями от наклеек, декорации скользят по сцене.",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "Фото кота прыгает по карточкам приложений на залитом солнцем столе — с одного телефона на телефон друга.",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "Цепочка рук от вас до незнакомца: проверена письмами в 1967-м, объяснена кругами, которые перерастают Землю, и замкнута вокруг планеты.",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "Пухлого рыжего кота судят за опыты с гравитацией и паркур в 4 утра — и отпускают на свободу.",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "Неуклюжий курсант проходит пятисекундный учебный лагерь всё быстрее и быстрее, вплоть до босса — посадки дома.",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "Кофейная чашка гоняется по кухне за сбежавшим кусочком сахара — в духе мультфильмов 1930-х.",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "Путь кофе с плантации до ваших рук в одном изометрическом мире.",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "Концертная афиша сама собирается по пяти правилам швейцарского дизайна; пятое — нарушить ровно одно из них.",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "Девушка-курьер мчится по залитому дождём неоновому городу, чтобы доставить кассету до рассветного запуска.",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "Фломастер вычисляет, как далеко горизонт от пляжа, а потом показывает: подняться в сто раз выше — значит видеть лишь в десять раз дальше.",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "Светящийся анчоус длиной с палец поднимается в темноте на полкилометра, прячет свою тень собственными огоньками и оказывается лишь одним из несметных животных, всплывающих каждую ночь.",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "Вспышка светлячка — это вопрос: девочка получает ответ в облике оленя, теряет все огоньки в грозе и последним спрашивает всю темноту.",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "Полёт от первого лица над восковой деревней к одному цветку в саду старика; затем его глаза и то, что он говорит.",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "Стая фламинго движется на каждый бит, а один молодой фламинго всегда опаздывает на полдоли; круги на воде, оставленные остальными, учат его ритму.",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "Пожелтевшая страница альбома: рваные карточки, скотч, раскрашенные вручную гравюры, машинописные ярлыки и буквы, вырезанные как в анонимке, рассказывают историю.",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "Гранд-отель, 1930 год: посыльный наперегонки с лифтами и вращающимися дверями несёт одно письмо до полуночи.",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "Сто лет летних температур — и историю рассказывает сам график.",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "Пресыщенный гений открывает портал, только чтобы купить кофе, и кувырком летит сквозь всё более странные вселенные.",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "Лазерная съёмка снимает полог леса в Коннектикуте и находит 3,4 км старых фермерских стен.",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "Запускной фильм приложения одним непрерывным кадром: строка промпта раскрывается в календарь, календарь перетекает в телефон, и каждый бит вырастает из предыдущего.",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "Письмо, звонок, стена окон, тринадцать ступеней: девушка, которая велела ему не оглядываться, всегда на шаг ближе — пока не повернёт голову.",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "Маленький зонд с объективом-зумом вместо глаза пускает пунктир прицела к каждой следующей остановке и ведёт нас от Млечного Пути до вируса.",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "ИИ лунной базы просыпается через сорок лет от сигнала с Земли и отвечает, рисуя символами слово «дом».",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "Клип на вашу собственную песню: биты и части измеряются по треку, а текст, фигуры и цвет движутся вместе с ними.",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "Рассказчик, которого не видно: реальные кадры, 3D и ИИ-реконструкции, инфографика масштаба, карты и субтитры по очереди рассказывают одну поразительную правдивую историю.",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "Естественно-научная таблица гравирует сама себя: резец врезается в медь, пчела проявляется линия за линией, а акварельная заливка оживляет её.",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "Неоновый кот отправляется за золотой рыбкой с вывески в конце улицы, раскалывает её аквариум и под дождём несёт гаснущую рыбку домой — в бокал на своей вывеске.",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "Новичок ночной смены снимает свою первую ночь в бесконечном жёлтом офисе, следуя правилам на стене.",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "Парк, который лишь набросок пером; куда ветер уносит её соломенную шляпку, туда приходит цвет.",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "Телефон теряет сигнал, если держать его за угол; в разобранном виде его металлическая рамка оказывается антенной, разрезанной на части, которые ваша рука может замкнуть.",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "На столе раскрывается книжка-раскладушка; эльф по имени Пип путешествует по бумажным мирам и выпрыгивает в наш.",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "Печатная схема метро вырастает из одной линии длиной 6 км в 1993-м до 21 линии и 906 км.",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "Обзор продукта с озвучкой: интерфейс приложения, воссозданный по скриншотам, камера, приближающаяся к каждой функции, субтитры и тот же фильм на других языках.",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "Проектор слой за слоем раскрашивает белый макет Роттердама — от пустоты 1940 года до сегодняшних башен.",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "Робот-пылесос, настроенный в три шага, — в духе учебного фильма 1950-х.",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "Спутник по карте летит к Аральскому морю и находит пустыню; вернулась лишь та часть, которую кто-то перегородил плотиной.",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "Шторм в Парксе, 21 июля 1969 года: 64-метровая тарелка, наклонённая до предела, держится и ловит для всего мира прогулку по Луне.",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "Уличный фотограф гонится за бегущим светом до мгновения, когда взлетают голуби; её карманная камера делит эту секунду на тридцать кадров.",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "Мечник переходит реку по воде и рассекает течение одним ударом.",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "Тепловизор облетает старый жилой дом снежной ночью: окно с утечкой тепла, трубы в стенах, кот, спящий на тёплом капоте, и тот же дом через год после утепления.",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "Путешественник пересекает мир, шелкографию за шелкографией во весь лист, корешок билета отсчитывает расстояние от дома — пока дальний край не станет дорогой назад.",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "Путник идёт к далёкой горе; каждый кадр — гравюра на дереве, большая волна в кульминации, а в финале гора и весь свиток.",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "Деревня всю зиму отливает один колокол; когда он звонит впервые, снег прекращается.",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "Часы без батарейки вскрыты: три их системы окрашиваются по очереди, колёсная передача мчится, когда вынимают спуск, а один замедленный тик снова всё отпускает.",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "Жёлтый зонт, забытый в автобусе, пережидает солнечный день на полке бюро находок, а когда возвращается гроза, раскрывается вместе с 312 другими: предметы, транспорт, погода и знаки — геометрическими пиктограммами точно в ритм.",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "Заливка спиртовыми маркерами с жёсткой границей тени под одним плотным контуром: яркий комиксовый мир в движении.",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "Почти все бананы в магазинах — одно растение, скопированное: стена одинаковых оттисков, старый банан, почерневший от точек, и волна цвета, которая превращается во множество бананов.",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "Эльзас-Лотарингия четыре раза переходила из рук в руки с 1871 по 1945 год: каждый раз кто-то срывал бумагу и наклеивал новую, а женщина, жившая там, так и не переехала.",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "Америка потеряла 1,3 млн пчелиных семей, а их число всё равно выросло на 6 %: новостной ролик, понятный без звука.",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "Электровелосипед сканируется в голограмму; рамки прицела захватывают батарею, мотор и тормоза.",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "Чертёж изобретателя рисует, разбирает и собирает машину для ловли облаков, и её облачко правок начинает дождить.",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "Остров и его деревня растут плитка за плиткой из пустого моря, каждая плитка — нота, до самой звёздной ночи.",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "Старый ночной поезд совершает последний рейс — от заснеженного горного полустанка через длинный тоннель к морю, а его освещённые окна гаснут одно за другим на конечной.",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "Ночью под настольной лампой графопостроитель четырьмя ручками рисует Джомолунгму по реальным данным высот, а её высоту пишет последней.",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "У двери финального босса герой сохраняется, и экран сохранения прокручивает всё путешествие заново.",
+  "Cartoons": "Мультфильмы",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "Мел пишет расхожее утверждение о двух иероглифах, стирает его и прослеживает 射 на три тысячи лет назад.",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd выпрыгивает из терминала в приложение Claude и одним дублем разыгрывает режим планирования и самопроверку.",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "Чистые векторные формы, плоские заливки, длинные тени и лёгкое зерно: чёткая современная иллюстрация в движении.",
+  "Data & Maps": "Данные и карты",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "Кормят ли деревья друг друга? Карандашный рисунок уходит под траву, следует за крупинкой сахара по грибной нити к соседнему дереву и отъезжает, показывая целый лес, связанный под землёй.",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "Уступая 0:3 в перерыве, «Фенербахче» забил три мяча за 12 минут: стоп-кадр, разметка, сплит-скрин, карта ударов.",
+  "Edit & Documentary": "Монтаж и документалистика",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "Февраль 1966 года: первый крупный план Луны приходит на английский радиотелескоп газетным факсом, напечатанным строка за строкой в две краски, на день раньше и растянутым по высоте.",
+  "Film & Tape": "Плёнка и лента",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "Следуйте за дождём от красного сердца австралийской пустыни до её зелёного побережья в одной непрерывной живописной прогулке.",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "Четыре ИИ-новости за неделю в полноценном эфирном выпуске: план выпуска, плашка с заголовком, табло цен, карточка характеристик.",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "Четыре типа мостов проходят испытания на одной стене брифинга, а победителя выбирает корабль, которому под ним проходить.",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "От глобуса вниз в пролив, через который протискивается пятая часть мировой нефти: две полосы, траншея в морском дне и трубопроводы, способные обвести лишь малую её часть.",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "С гор к морю в сумерках: олень, волк, орёл, лосось и кит, каждый несёт своё место в силуэте, пока гавань кита не ложится на настоящий берег.",
+  "Games": "Игры",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "Мягкий книжный карандаш с акварелью для одного постоянного персонажа, который остаётся неизменным в каждой сцене.",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "Гуашь и акварель поверх карандаша: плотно на переднем плане, истончаясь до размывки и голого карандаша вдали.",
+  "Graphic & Type": "Графика и шрифт",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "Половина клавиатуры с открытым исходным кодом разбирается за один облёт — до самого чипа — и собирается обратно с реальными размерами.",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "Как скатать квадрат из кругов? Вращающиеся круги складываются в прямоугольную волну, пока погружение в один угол не находит 9-процентный выброс, который никогда не исчезает.",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "Как телефон знает, где вы: GPS, атомные часы и 38 микросекунд, которые теория относительности добавляет каждый день.",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "На серой дождливой площади раскрывается один красный зонт, и вальс раскрашивает всю площадь.",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "В нарисованном мире, где сияет только золото, гаснет солнце; девочка несёт последнюю лампу на гору и возвращает ему свет.",
+  "Instruments & Evidence": "Приборы и улики",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "Запускной фильм для Tidy, вымышленного приложения: один затерянный курсор возвращает на место сотни окон.",
+  "Light & Lines": "Свет и линии",
+  "Line Diagrams": "Линейные схемы",
+  "Logo & Lottie": "Логотип и Lottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "Утренний час пик в городке, похожем на макет: машины, поезда и крошечные люди.",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "Кинохроника, фото, показания и расследование 1937 года на одной временной шкале: пять источников указывают на одну точку.",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "В канун Нового года в город приходит чудище Нянь, и гигантская вырезка из бумаги одной девочки освещает деревню и отпугивает его.",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "Одна пчела за жизнь делает 1/12 чайной ложки мёда; перо следует за жёлтой каплей от цветка до банки, пока вся страница не станет плакатом.",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "Одна синяя шариковая ручка на кремовой бумаге: тон только от расположения штриховки, как оживший рисунок из блокнота.",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "Одно непрерывное движение от среза печени до единственного ядра; два круга, подсчитанные пиксель за пикселем, различаются по синему в 2,4 раза.",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "Один день в Нью-Йорке в таймлапсе: реки света, сетка на шестнадцатых, 1899 год рядом с сегодняшним днём.",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "Точка удваивается каждые десять лет: 128 через семьдесят, 6,02 без сложного процента, и последние десять лет стоят всех остальных.",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "Одно тонкое рапидо, точки строго вертикально: тон только от плотности точек, как на старой естественно-научной таблице.",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "Одна идея держит всю рекламу: цепная реакция на столе, где каждый бит — столкновение, запускающее следующее, от одного нажатия клавиши до десяти готовых задач.",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "Ночь у досмотрового пульта в аэропорту: павербанк, бутылка воды и шесть живых крабов, шевелящихся на КТ.",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "Одна излучина реки, четыре времени года, один дубль; каждое сменяется, когда большое дерево приседает и распрямляется.",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "Одна тонкая ручка на тёплой бумаге: улица у канала с чайными и банями, жители по своим делам, окна загораются, когда день сменяется ночью.",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "Одна непрерывная линия рисует целую жизнь, а затем перо переходит к ребёнку.",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "Вступительные титры воображаемого шпионского фильма 1964 года: погоня за украденным ключом, пока фигуры не сложатся в название.",
+  "Painting & Illustration": "Живопись и иллюстрация",
+  "Print & Printmaking": "Печать и графика",
+  "Product Launch · onetake": "Запуск продукта · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "Японские журавли в долине Хоккайдо, один дубль на скретчборде, отсчёт назад от 33 до 1927.",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "Реки становятся медными дорожками, пока ток бежит 2080 км от плотины до зарядки телефона.",
+  "Screens & Interfaces": "Экраны и интерфейсы",
+  "Sketch & Board": "Скетч и доска",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "Гладкие сюрреалистичные масляные лессировки под низким солнцем: невозможные предметы, длинные тени и тихая логика сна.",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "Мулине, продетое сквозь лён в буковых пяльцах, каждый стежок вышит на экране.",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "Солнечный свет от рассвета до заката проходит по витражу собора, пробуждая каждое стекло истории о рыцаре и драконе.",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "Десять солнц испепеляют землю, пока лучник Хоу И не натягивает лук, — рассказано кожаными куклами на освещённом экране.",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "Буклет Эмпайр-стейт-билдинг 1931 года благодарит строителей; съёмки со стройки и фото Хайна отвечают: 2500 человек в день.",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "Кофе в вашей чашке превращается в красную ягоду, а потом возвращается в чашку: созревание, сушка, обжарка и помол — по одной смене цвета на одной карандашной странице.",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "История ИИ как ритм-игра: модели выходят на сцену в такт, а табель успеваемости завершает шоу.",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "Последняя минута запуска Artemis II без склеек: одна ячейка раскрывается в девять, и они сливаются в одну при зажигании.",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "Маяк гаснет; девочка несёт последний огонь через ночной лес и вверх по штормовым скалам.",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "Луне не спится, и маленькая девочка забирается на крышу, чтобы спеть ей колыбельную.",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "В телеграмме было 57 секунд; под лупой стеклянные негативы братьев Райт и архив говорят: 59.",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "Итог говорит за лечение B; откройте скрытые столбцы с размером камней — и A выигрывает в каждой группе. Парадокс Симпсона на одном листе, 1 ячейка = 1 пациент.",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "Тысячи чернильных линий ветра, рассчитанных по траектории, рисуют супертайфун Яги: глаз, раскрывающийся над Южно-Китайским морем, выход на Хайнань, спираль, распадающуюся над Вьетнамом, и целую неделю, свёрнутую в одну последнюю линию.",
+  "Traditional Crafts": "Традиционные ремёсла",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "Пассажиры садятся в изометрический самолёт, и порядок посадки показывает, почему один способ почти вдвое быстрее.",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "Двенадцать лет ветровой и солнечной энергии, сложенные настоящими пластинами, по спирали вокруг орехового циферблата, пока солнце не вырвется вперёд.",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "Двое новичков собирают детскую кроватку по инструкции из плоской коробки, десять шагов на одной странице под 45°; шага десять в инструкции никогда не было.",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "Распаковка и крупные планы Aura — вымышленных стеклянных наушников — в бликах световых полос и каустике.",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "Несмешанные мазки масла рядом друг с другом, чтобы их смешал глаз: свет на воде, сумерки, лодка пересекает залив.",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "Виноградный уголь на тряпичной бумаге: растушёван, высветлен ластиком и перерисован поверх собственного призрака.",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "Ваш логотип перерисовывается в чистый SVG, а затем оживает деталь за деталью по принципам анимации Disney: появление, которое точно приходит к вашему знаку.",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "Ваше собственное видео с речью, как есть: пословные субтитры в такт голосу, плашка с именем и простые графические карточки на ключевых моментах.",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "Ни одной нарисованной линии: рваная бумага с белыми волокнистыми краями, вырезанные ножницами кусочки, каждый с мягкой тенью.",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "На день рождения сына сделайте мультик, где ракета из игрушечных кубиков улетает на Луну.",
+   "Хочу показать, как новый набор кубиков из нашего детского магазина деталь за деталью превращается в домик.",
+   "Хочу видео, где из кубиков шаг за шагом собирают храм Василия Блаженного и заодно рассказывают детям его историю."
+  ],
+  "paper-popup": [
+   "Для сказки на ночь дочке: книжка открывается, и из бумажного леса выпрыгивает зайчик.",
+   "У нас выходит новая детская книжка — хочу рекламу, где страницы поднимаются, как в книжке-раскладушке.",
+   "Хочу показать, как в бумажной книжке маленькая лодка плывёт по Байкалу мимо острова Ольхон."
+  ],
+  "tilt-shift": [
+   "Покажите утреннюю толпу на Казанском вокзале так, будто это крошечный игрушечный город.",
+   "Хочу рекламу нашего жилого комплекса и соседних улиц сверху, как макет игрушечного города.",
+   "Хочу посмотреть на утреннюю суету у Даниловского рынка — машины, продавцы, покупатели — как на игрушечный мир."
+  ],
+  "lowpoly-island": [
+   "Сделайте тизер нашей новой игры: из океана клетка за клеткой поднимаются остров и деревня.",
+   "Хочу спокойно посмотреть, как на острове медленно растёт деревня, а ночью зажигаются звёзды.",
+   "Хочу объяснить детям, как на одном из Соловецких островов постепенно вырос рыбацкий посёлок."
+  ],
+  "glass-product": [
+   "Красиво покажите стеклянный флакон нашей новой сыворотки для лица — с бликами, которые скользят по стеклу.",
+   "Хочу видео-презентацию новых наушников: распаковка и красивые крупные планы.",
+   "Хочу показать флакон духов, купленный маме на день рождения, будто вокруг него играет свет."
+  ],
+  "memphis-diorama": [
+   "Хочу яркую сцену, где на излучине Волги сменяются весна, лето, осень и зима.",
+   "Сделайте милую сценку для шапки нашего сайта: маленькая кофейня, вокруг которой меняются времена года.",
+   "Хочу показать детям, как старая яблоня у нашего дома за год цветёт, плодоносит и сбрасывает листья."
+  ],
+  "isometric-picture-book": [
+   "Объясните в картинках, почему одна общая очередь в банке движется быстрее.",
+   "Хочу понятно показать пациентам новую систему электронной очереди в нашей поликлинике.",
+   "Хочу объяснить детям, почему посадка в автобус через все двери быстрее."
+  ],
+  "crayon-world": [
+   "Сделайте видео на память: полёт над дедушкиной деревней к берёзе, которую он когда-то посадил.",
+   "Хочу историю в честь бывшей учительницы: путешествие к школе, будто раскрашенное детскими мелками.",
+   "Хочу показать путь парня из деревни в большой город на заработки — рисунками мелками, как у ребёнка."
+  ],
+  "rubber-hose": [
+   "Сделайте рекламу нашей блинной в стиле старого мультфильма: блин убегает от сковородки, а та за ним гоняется.",
+   "Хочу смешной мультик, где чашка чая гоняется по кухне за сбежавшим кусочком сахара.",
+   "Хочу научить детей чистить зубы: старый мультик, где щётка и паста прогоняют микробов."
+  ],
+  "cel-anime-80s": [
+   "Сделайте историю про девушку-курьера, которая дождливой ночью на мопеде должна успеть доставить посылку по Петербургу до рассвета.",
+   "Хочу клип на новую песню нашей группы: ночной город в неоне, как в аниме 80-х.",
+   "Хочу показать историю о том, как мы с друзьями в детстве катались на великах, — в цветах мультиков нашего детства."
+  ],
+  "scifi-toon": [
+   "Сделайте комедию про учёного, который открыл портал ради чашки чая и провалился в череду странных миров.",
+   "Хочу смешную рекламу о том, как быстро работает наше приложение для переводов: прыжки с планеты на планету.",
+   "Хочу безумный мультик, где два брата летят на звездолёте в прошлое, потому что забыли дома домашку."
+  ],
+  "midcentury-toon": [
+   "Объясните установку нашего нового фильтра для воды в три шага, как в учебном фильме 1950-х.",
+   "Хочу смешное видео в стиле старого мультфильма, чтобы научить маму звонить по видеосвязи.",
+   "Хочу показать, как правильно пользоваться мультиваркой, как в старом просветительском мультике."
+  ],
+  "comic-history": [
+   "Хочу легко, как в комиксе, показать, как столица Руси переезжала: Киев, Владимир, Москва, Петербург и снова Москва.",
+   "Сделайте смешной комикс о том, как три кофейни в нашем районе борются за посетителей.",
+   "Объясните в комиксе, как за годы речной берег между двумя сёлами сместился с одной стороны на другую."
+  ],
+  "manga-panels": [
+   "Хочу разбить на кадры манги одну секунду, когда голуби взлетают над Красной площадью.",
+   "Представьте новую камеру из нашего фотомагазина: кадры манги появляются один за другим.",
+   "Сделайте на память момент, когда сестрёнка финиширует на забеге, — кадрами, как в комиксе."
+  ],
+  "dataviz": [
+   "Хочу, чтобы график сам рассказал историю 50 лет летних температур в Москве по метеоданным.",
+   "Красиво покажите на графике продажи нашего семейного ателье за пять лет.",
+   "Хочу понятно объяснить школьникам на графике, как год за годом менялся экспорт российской пшеницы."
+  ],
+  "white-model": [
+   "Хочу показать на белой модели, как центр Москвы рос этаж за этажом — от купеческих особняков до Москва-Сити.",
+   "Сделайте выставочное видео: планировка участков нашего жилого комплекса, шаг за шагом подсвеченная на белом макете.",
+   "Хочу по картографическим данным постепенно проявить на белой модели план Казанского кремля и улиц вокруг."
+  ],
+  "data-physical": [
+   "Хочу показать выработку гидро- и солнечной энергии в России по годам так, будто это стопки пластин, которые можно потрогать.",
+   "Покажите продажи из годового отчёта нашей компании как сложенные деревянные бруски.",
+   "Хочу показать урожай нашей семейной пасеки за десять лет, будто это настоящие сложенные предметы."
+  ],
+  "transit-map": [
+   "Покажите, как на печатной схеме одна за другой появляются станции Кольцевой линии метро.",
+   "Хочу в стиле схемы метро показать, как за годы разрастались автобусные маршруты Новосибирска.",
+   "Хочу показать, как за десять лет росло число городов, куда возит грузы наша компания, — как на карте метро."
+  ],
+  "map-explainer": [
+   "Объясните на карте, приближаясь от глобуса, как Волга течёт от Валдая до Каспийского моря.",
+   "Хочу видео с картой о том, почему мировые грузовые суда идут через Суэцкий канал.",
+   "Хочу объяснить по настоящей карте и рельефу, как размывается берег речки у нашей деревни."
+  ],
+  "pip-simulation": [
+   "Покажите на бегающих существах, как инфекция передаётся от одного к другому.",
+   "Хочу на маленьких существах показать, что происходит, когда продавцы на рынке начинают сбивать цены.",
+   "Хочу наглядно показать школьникам, как работает естественный отбор, — смена поколений прямо на глазах."
+  ],
+  "caption-news": [
+   "Сделайте короткую новость, которую можно смотреть без звука: метеоданные о рекордно жарком лете этого года.",
+   "Хочу короткий сюжет с надписями о реальных итогах сбора средств в нашем районе.",
+   "Хочу, чтобы отчёт о сокращении числа пчелиных семей в мире сразу был понятен на телефоне благодаря надписям."
+  ],
+  "newsreel": [
+   "Хочу показать эпоху московских трамваев 1930-х на архивных фото — как в старой кинохронике.",
+   "К 50-летию нашего магазина сделайте старую кинохронику из дедушкиных фотографий.",
+   "Хочу пересказать, как люди удивлялись первому радио, — заголовками старых газет, как в кинохронике."
+  ],
+  "countdown": [
+   "Хочу отсчитать последнюю минуту перед перерезанием ленточки на открытии нашего магазина, разбив настоящее видео на квадраты.",
+   "Соберите видео друзей с новогодней ночи в виде отсчёта последних десяти секунд до курантов.",
+   "Хочу разбить настоящее видео запуска ракеты на девять кадров, которые сливаются в один в момент зажигания."
+  ],
+  "city-symphony": [
+   "Смонтируйте мои таймлапсы одного дня в Москве в ритм музыки, как городскую симфонию.",
+   "Хочу смонтировать в ритм старые фото Петербурга рядом с сегодняшними видео.",
+   "Для нашего отеля сделайте заставку из видов Казани с утра до ночи, смонтированных под музыку."
+  ],
+  "visual-investigation": [
+   "Хочу восстановить на одной временной шкале ДТП на нашем перекрёстке по записи камеры, фото и показаниям очевидцев.",
+   "Хочу на фактах проверить, где и когда на самом деле снято фото наводнения, которое гуляет по соцсетям.",
+   "Восстановите по времени, как развивался пожар на заводе, — по фото, отчёту и рассказам сотрудников."
+  ],
+  "kino-montage": [
+   "Хочу показать, как дед основал нашу семейную мельницу, — старые фото, амбарные книги и труд рабочих.",
+   "Хочу соединить старые фото и видео субботника, где тысячи людей работают вместе, и показать силу общего дела.",
+   "К 20-летию нашего завода сделайте резкий монтаж из архивных фото и цифр о сотрудниках."
+  ],
+  "telestrator": [
+   "Хочу разобрать с линиями на реальном видео матча, как наша дворовая команда отыгралась во втором тайме.",
+   "Сделайте тренерское видео: остановить запись хоккейного матча и нарисовать линиями движения игроков.",
+   "Хочу стрелками объяснить, как располагались игроки школьной футбольной команды в голевых эпизодах."
+  ],
+  "news-package": [
+   "Сделайте выпуск в стиле теленовостей с плашками и табло цен: как на этой неделе изменились цены на бензин, гречку и курс рубля.",
+   "Хочу показать новости нашей школы за месяц по рубрикам, как настоящую новостную программу.",
+   "Соберите технологические новости недели и подайте их в формате новостной студии."
+  ],
+  "ascii-crt": [
+   "Представьте наш новый программный инструмент так, будто его рисуют символами на старом зелёном экране.",
+   "Хочу историю о роботе на Луне, который проспал много лет и отвечает на сигнал с Земли символами.",
+   "Нарисуйте символами поздравление с днём рождения, как на экране старого компьютера, на котором папа работал в молодости."
+  ],
+  "silent-film": [
+   "Сделайте немое кино: парень из булочной гонится за укатившейся булкой и в итоге делится ею с голодным ребёнком.",
+   "Хочу смешную чёрно-белую рекламу в духе немого кино для нашей старинной пекарни.",
+   "Хочу показать, как мы с папой ходили на рыбалку и вместо рыбы поймали старый ботинок, — как в немом кино."
+  ],
+  "backrooms": [
+   "Сделайте страшилку: новый ночной сотрудник в бесконечном жёлтом офисе снимает свою первую ночь, следуя правилам на стене.",
+   "Для нашей новой хоррор-игры хочу тизер, где человек блуждает по бесконечному жуткому коридору.",
+   "Хочу страшную историю: человек ночью один снимает на телефон коридор заброшенной больницы, а коридор всё не кончается."
+  ],
+  "scratch-film": [
+   "Хочу историю о светлячке, который путешествует над тёмным прудом со своим огоньком.",
+   "Объясните светлыми линиями, процарапанными в темноте, как глубоководные рыбы каждую ночь поднимаются наверх.",
+   "Хочу показать, как на нашей ночной ярмарке один за другим загораются огоньки, — будто процарапано на плёнке."
+  ],
+  "double-exposure": [
+   "Хочу наложить мои пейзажи от Алтайских гор до Телецкого озера на силуэты медведя, оленя и рыбы.",
+   "Для нашего турагентства в Калининграде сделайте заставку, где настоящие фото города наложены на силуэт человека.",
+   "Хочу на память наложить старые фото деревни, где вырос папа, на его профиль."
+  ],
+  "pixel-rpg": [
+   "К двухлетию отношений хочу показать наш путь от первой встречи до сегодня, как сохранённое прохождение старой игры.",
+   "Сделайте рекламу нашей новой мобильной игры в стиле старых пиксельных игр: герой стоит перед дверью босса.",
+   "Хочу рассказать о годе студенческой жизни так, будто это уровни старой игры, пройденные один за другим."
+  ],
+  "hd-2d": [
+   "Сделайте историю: маяк погас, и девочка несёт последний огонёк через ночной лес на утёс сквозь бурю.",
+   "Для нашей новой фэнтези-игры хочу рекламу, где отряд героев странствует по долине древних храмов.",
+   "Хочу показать младшему брату сказку о мальчике, который уходит из деревни искать дракона, — как красивую игру."
+  ],
+  "microgame": [
+   "Покажите, как пользоваться нашим новым приложением, быстрыми мини-играми, которые идут одна за другой всё быстрее.",
+   "Сделайте смешное видео о том, как утром встать и собраться в школу, — как серия мини-игр с нарастающей скоростью.",
+   "Хочу научить новых сотрудников тому, что нужно знать в первый день, с помощью ускоряющихся мини-игр."
+  ],
+  "game-show": [
+   "Покажите успехи нашей компании за год в ритме игрового шоу, а в конце — карточка с итоговым счётом.",
+   "Хочу весело показать историю связи от телеграфа до смартфона, как ритмичное игровое шоу.",
+   "Хочу собрать события нашей семьи за год в смешное телевизионное игровое шоу."
+  ],
+  "swiss-motion": [
+   "Сделайте так, чтобы афиша нашего концерта сама собралась по правилам швейцарского дизайна.",
+   "Хочу представить новый фирменный стиль нашей дизайн-студии: сетка, шрифт и цвета выстраиваются один за другим.",
+   "Хочу понятно научить студентов-дизайнеров пяти правилам композиции плаката."
+  ],
+  "spy-titles": [
+   "Сделайте вступительные титры, как в шпионском фильме 1960-х: фигуры носятся по экрану и складываются в название нашего фильма.",
+   "Хочу эффектные шпионские титры для открытия юбилея компании.",
+   "На свадьбу друга сделайте ретро-титры, где жених и невеста — два шпиона."
+  ],
+  "art-deco": [
+   "Сделайте приглашение на ужин в нашем отеле в роскошном золотом стиле 1930-х.",
+   "Хочу историю о лифтёре в старинном гранд-отеле, который должен доставить письмо до полуночи.",
+   "Сделайте роскошное видео-приглашение в стиле ар-деко на 30-летие свадьбы родителей."
+  ],
+  "pictogram-motion": [
+   "Сделайте историю: забытый в автобусе зонтик ждёт на полке находок, а когда снова идёт дождь, раскрывается вместе с множеством других зонтов.",
+   "Хочу объяснить жителям правила раздельного сбора мусора пиктограммами, которые двигаются в ритм.",
+   "Хочу фирменное видео для нашего фестиваля, где пиктограммы машины, поезда и самолёта появляются в ритм."
+  ],
+  "bauhaus-shapes": [
+   "Объясните кругами и квадратами, насколько мощны сложные проценты при накоплениях.",
+   "Хочу объяснить участникам, как работает наша касса взаимопомощи, фигурами в стиле Баухаус.",
+   "Сделайте вступительные карточки для глав курса, где играют красные, жёлтые и синие фигуры."
+  ],
+  "flat-space-explainer": [
+   "Сделайте объяснение масштабов: от Млечного Пути к Земле, России и, наконец, к одному вирусу.",
+   "Хочу показать детям вместе с маленьким зондом, как далеко друг от друга планеты Солнечной системы.",
+   "Для нашего образовательного канала объясните простым мультиком, как спутники вращаются вокруг Земли."
+  ],
+  "text-flash-cuts": [
+   "Сделайте трейлер к триллеру со вспышками текста: письмо, звонок, ступени… всё ближе и ближе.",
+   "Хочу мощно показать девиз нашего молодёжного движения — крупными словами, которые вспыхивают одно за другим.",
+   "Сделайте захватывающую заставку нового сериала с быстрым монтажом текста и картинок."
+  ],
+  "silhouette-rhythm": [
+   "Сделайте музыкальный клип в силуэтах о птенце, который всегда отстаёт от стаи и учится держать ритм.",
+   "Хочу командное видео: силуэты игроков нашей волейбольной команды на закате движутся в ритм.",
+   "Хочу для открытия Масленицы показать силуэты людей, которые водят хоровод с факелами под ритм барабанов."
+  ],
+  "satellite-briefing": [
+   "Хочу сравнить на настоящих спутниковых снимках, как за годы высохло Аральское море.",
+   "Объясните в формате короткой сводки на спутниковых снимках, какими были поля в пойме Амура до и после наводнения.",
+   "Хочу показать школьникам на спутниковой карте, как за десять лет изменились леса на побережье Карелии."
+  ],
+  "briefing-board": [
+   "Хочу сравнить три проекта моста через речку к нашей деревне по стоимости, прочности и реальным замерам.",
+   "Сравните на доске три места для нового филиала по реальным данным об аренде и потоке людей.",
+   "Хочу сравнить по реальным ценам три варианта электричества для дома: солнечные панели, генератор и аккумулятор."
+  ],
+  "lidar-survey": [
+   "Хочу по данным лазерного сканирования показать остатки древнего городища, скрытые под лесом в Подмосковье.",
+   "Покажите рельеф нашего строительного участка по данным лазерной съёмки с дрона.",
+   "Хочу показать, что видно, если по лидарной съёмке «убрать» деревья с крепостных валов древней Старой Ладоги."
+  ],
+  "microscope": [
+   "Хочу показать под микроскопом на реальных снимках, почему наша голубая глина полезна для кожи.",
+   "Для школьников покажите непрерывное увеличение клеток кожицы лука, снятых в лаборатории, вплоть до ядра.",
+   "Хочу сравнить на снимках с микроскопа строение зерна двух сортов нашей пшеницы."
+  ],
+  "archive-lighttable": [
+   "Хочу разложить на световом столе дедушкины стеклянные негативы и старые письма и восстановить историю семьи.",
+   "Покажите 60-летнюю историю нашей чайной фабрики через оригинальные бухгалтерские книги и старые этикетки.",
+   "Для музея хочу рассмотреть под лупой старинную берестяную грамоту и объяснить, что в ней написано."
+  ],
+  "security-xray": [
+   "Сделайте смешное видео: чемоданы едут через сканер в аэропорту, а в одном шевелятся живые раки.",
+   "Хочу показать клиентам, как в нашем логистическом складе проверяют посылки на рентгене.",
+   "Покажите детям так, чтобы было интересно, что внутри пауэрбанка, если посмотреть на рентгене."
+  ],
+  "dark-documentary": [
+   "Хочу показать в мрачном и серьёзном документальном стиле, как древние мастера строили деревянные храмы Кижей без единого гвоздя.",
+   "Сделайте инженерную документалку, восстанавливающую самую тяжёлую ночь на стройке нашей плотины.",
+   "Объясните как космическую документалку, как огромные радиотелескопы слушали небо."
+  ],
+  "thermal-camera": [
+   "Покажите, будто через тепловизор, почему в нашей квартире зимой холодно: стены, окна, крыша.",
+   "Хочу видео, будто мы подглядываем ночью за лесными зверями через тепловизор.",
+   "Хочу показать клиентам нашей электромастерской, как тепловизор помогает найти перегретую проводку."
+  ],
+  "circuit-board": [
+   "Покажите в виде печатной платы, как электричество идёт от ГЭС до зарядки телефона у нас дома.",
+   "Хочу показать медными дорожками путь товаров нашего магазина электроники от завода до покупателя.",
+   "Хочу увлечь школьников: реки превращаются в медные дорожки, и весь город загорается огнями."
+  ],
+  "firefly-pointillism": [
+   "Сделайте сказку о светлячке, который задаёт вопросы своим огоньком в темноте и находит друзей.",
+   "На день рождения сестрёнки хочу видео, где множество светящихся точек собирается в её портрет.",
+   "Хочу показать идею единства: огоньки каждого участника нашей команды сливаются в один большой свет."
+  ],
+  "flow-field": [
+   "Нарисуйте линиями воздушных потоков, как тайфун пришёл с Тихого океана на побережье Приморья.",
+   "Хочу тысячами текущих линий показать, как атлантические ветры приносят дожди в европейскую часть России.",
+   "Покажите текущими линиями весеннее половодье на Оби и моменты, когда вода превышает опасную отметку."
+  ],
+  "oscilloscope-math": [
+   "Объясните на экране осциллографа, как вращающиеся круги, сложенные вместе, дают прямоугольную волну.",
+   "Для наших занятий по физике хочу показать зелёными волнами, как работают звуковые волны.",
+   "Хочу показать детям на осциллографе форму волны каждой струны балалайки."
+  ],
+  "neon-tubes": [
+   "К открытию нашей закусочной сделайте историю о неоновом коте, который бегает между вывесками.",
+   "Хочу видео ночного города, где одна за другой загораются неоновые вывески на Невском проспекте.",
+   "Сделайте клип на мою песню в стиле сити-поп: дождливая ночь и танцующие неоновые фигуры."
+  ],
+  "blueprint": [
+   "Хочу показать своё изобретение — небольшую сеялку — на синем чертеже: нарисовать, разобрать и собрать обратно.",
+   "Представьте на инженерном чертеже новый насос на солнечных батареях, который выпускает наша компания.",
+   "Хочу объяснить детям на синем чертеже, как работает большая установка для сбора дождевой воды."
+  ],
+  "iso-infographic": [
+   "Покажите в одном маленьком мире путь чая от плантации в Краснодарском крае до чашки в московском кафе.",
+   "Хочу в картинках объяснить процесс в нашей компании — от оформления заказа до доставки домой.",
+   "Хочу объяснить детям, как зерно пшеницы попадает с поля на мельницу, в пекарню и к нам на стол."
+  ],
+  "teardown": [
+   "Разберите наш вентилятор по деталям с реальными размерами и соберите обратно.",
+   "Хочу видео, где мою клавиатуру разбирают до чипа и показывают каждую деталь в реальном размере.",
+   "Хочу показать студентам-механикам, из чего состоит мотоциклетный двигатель, разобрав его на детали."
+  ],
+  "hardcore-info": [
+   "Разберите телефон и объясните через антенну, почему связь пропадает, если держать его за угол.",
+   "Хочу показать во всех инженерных деталях, почему наш новый холодильник экономит электричество.",
+   "Хочу подробно разобрать для студентов, почему зонт выворачивает на сильном ветру."
+  ],
+  "precise-mechanism": [
+   "Объясните в разрезе с цветовой кодировкой, как крутятся шестерёнки в механических часах без батарейки.",
+   "Хочу показать клиентам, как работают механизмы внутри нашей старой швейной машинки.",
+   "Покажите студентам в разрезе по деталям, как переключаются передачи на велосипеде."
+  ],
+  "instruction-manual": [
+   "Сделайте инструкцию в картинках из десяти шагов: молодая пара впервые собирает детскую кроватку.",
+   "Хочу видео в стиле инструкции, чтобы покупатели нашего мебельного магазина сами собрали книжный стеллаж.",
+   "Хочу пошагово показать, как безопасно пользоваться газовой плитой, — картинками, как в инструкции."
+  ],
+  "pen-plotter": [
+   "Хочу показать, как плоттер ночью под настольной лампой ручкой рисует Эльбрус по реальным данным высот.",
+   "Покажите карту холмов возле нашей деревни, где горизонтали рисуются одна за другой.",
+   "Хочу показать, как плоттер медленно рисует логотип нашей дизайн-студии ручками четырёх цветов."
+  ],
+  "assembly-line-diagram": [
+   "Покажите, как тарелка борща поэтапно переваривается в организме, будто на заводе.",
+   "Хочу схемой производственного процесса объяснить, как на нашем заводе получается бутылка питьевой воды.",
+   "Хочу объяснить детям путешествие капли крови по телу, как конвейер на фабрике."
+  ],
+  "crayon-book": [
+   "Сделайте сказку на ночь: Луна не может уснуть, и девочка забирается на крышу спеть ей колыбельную.",
+   "Хочу рекламу новой книжки нашего детского книжного магазина, будто нарисованную восковыми мелками.",
+   "Хочу научить детей русскому алфавиту, начиная с «А», картинками восковыми мелками."
+  ],
+  "watercolor": [
+   "Покажите одним непрерывным планом, будто идёшь внутри акварели, рассвет над Байкалом со льдом и туманом.",
+   "Для нашего турагентства хочу акварельное путешествие по Золотому кольцу — от Суздаля до Ярославля.",
+   "Хочу объяснить детям акварелью, как капля дождя стекает с гор в реку, а потом в море."
+  ],
+  "impasto": [
+   "Сделайте видео: на сером дождливом дворе раскрывается красный зонт, и под музыку по картине расплываются краски.",
+   "Хочу полный чувств клип на мою новую песню о любви — густыми масляными красками.",
+   "К открытию нашей галереи сделайте рекламу с вечерним Петербургом, написанным густыми мазками масла."
+  ],
+  "urban-sketch": [
+   "Покажите, как шляпу уносит ветер между старыми домами Петербурга, а за ней тянутся краски.",
+   "Хочу показать нашу кофейню и улочку, будто их быстро набросали ручкой и подкрасили акварелью.",
+   "Хочу путевой скетч-дневник прогулки по набережной Калининграда."
+  ],
+  "colored-pencil": [
+   "Покажите в разрезе цветными карандашами, как деревья под землёй делятся питанием через грибницу.",
+   "Хочу показать цветными карандашами, как в нашем саду вода поднимается по растению от корней до цветка.",
+   "Хочу объяснить разрезом цветными карандашами, как в книжке, как кувшинка живёт под водой."
+  ],
+  "risograph": [
+   "Сделайте ризо-видео: воскресное утро, едем на велосипеде по Москве — в пекарню, в парк, к Патриаршим прудам.",
+   "Хочу милую рекламу для нашего магазина сумок ручной работы, будто напечатанную в пару цветов.",
+   "Чтобы представить наш новый поэтический журнал, сделайте видео в стиле ризографии со смещёнными цветами."
+  ],
+  "halftone-dossier": [
+   "Сделайте смешное судебное досье на нашего толстого кота: носится в четыре утра и сбрасывает чашки.",
+   "Хочу показать дело собаки, сгрызшей тапки, как детективную папку с растровыми картинками из старых газет.",
+   "Для нашего зоомагазина хочу смешную рекламу-досье про кота, ворующего корм."
+  ],
+  "woodcut": [
+   "Сделайте сказку: вся деревня целую зиму отливает колокол, а когда в него впервые звонят, снегопад прекращается.",
+   "Хочу показать работу мастеров нашей хохломской мастерской картинками в стиле гравюры на дереве.",
+   "Сделайте рекламу моего нового фэнтези-романа в стиле гравюры на дереве."
+  ],
+  "engraving": [
+   "Для музея покажите, как пчелу гравируют на медной пластине линия за линией и подкрашивают акварелью.",
+   "Хочу рекламу в стиле старинной гравюры о наследии нашего семейного медового промысла.",
+   "Хочу показать орхидеи России по одной, как гравюры из старинной книги по естествознанию."
+  ],
+  "silkscreen-poster": [
+   "Для нашего турагентства сделайте путеводитель, где Байкал, Камчатка и Карелия показаны как большие плакаты.",
+   "Хочу показать плакат за плакатом путь брата, который возвращается домой после работы за границей.",
+   "Хочу рекламу нашего музыкального фестиваля в стиле шелкографического плаката."
+  ],
+  "printed-long-take": [
+   "Покажите стаю перелётных птиц над озером одним непрерывным планом, будто процарапано.",
+   "Хочу показать наш поход от подножия до вершины одним непрерывным гравюрным пейзажем.",
+   "Хочу показать путь на лодке вверх по Енисею без склеек, как одну печатную картину."
+  ],
+  "pop-art": [
+   "Объясните поп-арт картинками, что большинство бананов в магазинах — клоны одного сорта.",
+   "Прорекламируйте наше новое мороженое яркими поп-арт плакатами.",
+   "Хочу в стиле поп-арт с растровыми точками показать, сколько сахара в банке газировки."
+  ],
+  "vintage-collage": [
+   "Хочу показать историю советских почтовых марок коллажем из архивных картинок и старых бумаг.",
+   "Покажите дедушкину коллекцию старых банкнот на настоящих сканах, как журнальный коллаж.",
+   "Хочу рассказать историю нашей фабрики павловопосадских платков, соединив старую рекламу и фотографии."
+  ],
+  "dark-keynote": [
+   "Эффектно представьте наше новое мобильное приложение, как презентацию на сцене с тёмным фоном.",
+   "Хочу рекламу, где наша бухгалтерская программа одним нажатием приводит в порядок хаос из файлов.",
+   "Для годовщины нашего стартапа сделайте эффектный ролик-презентацию новых функций."
+  ],
+  "living-screencast": [
+   "Покажите на реальных скриншотах, как сделать заказ в нашем интернет-магазине, — а мультяшный персонаж подсказывает путь.",
+   "Хочу урок, где на настоящем экране пошагово показано, как записаться к врачу на сайте нашей клиники.",
+   "Сделайте видео, где из настоящей записи экрана выпрыгивает персонаж и показывает новую функцию нашей программы."
+  ],
+  "hologram-hud": [
+   "Отсканируйте наш новый электроскутер как голограмму и покажите батарею, мотор и тормоза в рамках прицела.",
+   "Для выставки хочу объяснить характеристики нашего фильтра для воды на голографическом интерфейсе.",
+   "Сделайте кинематографичное видео, где игрушечный звездолёт сына сканируют голограммой и показывают детали."
+  ],
+  "desktop-flythrough": [
+   "Покажите, как фото моего кота прыгает с моего телефона на телефон подруги через карточки приложений.",
+   "Хочу показать карточками на столе, как из нашего приложения отправляется счёт клиенту.",
+   "Хочу видео, где на освещённом солнцем столе объясняется, как школьники отправляют домашку учителю с телефона."
+  ],
+  "spreadsheet": [
+   "Объясните, раскрывая столбцы таблицы, на что больше всего уходит наш семейный бюджет.",
+   "Хочу в таблице, ячейка за ячейкой, сравнить прибыль двух точек нашей пельменной.",
+   "Хочу объяснить школьникам одной таблицей парадокс Симпсона — как общие итоги могут обманывать."
+  ],
+  "one-bit-dither": [
+   "Хочу показать чёрно-белыми точками, как первый снимок обратной стороны Луны строка за строкой передавался на Землю.",
+   "Хочу рассказать в чёрно-белой печатной манере, как телеграмма времён дедушки дошла до деревни.",
+   "Сделайте двухцветными точками ночную сцену, где работают старые станки нашей маленькой типографии."
+  ],
+  "one-line": [
+   "Нарисуйте одной линией всю жизнь мамы, а в конце она передаёт ручку внучке.",
+   "Хочу простую рекламу, где история бренда нашего ювелирного магазина рисуется одной непрерывной линией.",
+   "На свадьбу подруги хочу одной линией нарисовать путь от дня знакомства до свадьбы."
+  ],
+  "whiteboard": [
+   "Объясните на маркерной доске, как телефон узнаёт, где мы находимся, — спутники и GPS.",
+   "Для нашего онлайн-курса бухгалтерии хочу на доске научить вести учёт доходов и расходов.",
+   "Хочу объяснить сотрудникам на доске, как работает оплата по QR-коду в нашем магазине."
+  ],
+  "chalkboard": [
+   "Объясните мелом на доске, откуда произошло слово «спасибо».",
+   "Хочу разобрать на школьной доске, правда ли, что от сквозняка можно простудиться.",
+   "Покажите формулу из наших занятий по математике, как будто учитель пишет её мелом на доске."
+  ],
+  "sketchnote": [
+   "Покажите скетчноутом, сколько мёда пчела производит за жизнь, — от цветка до банки, чтобы получился плакат.",
+   "Соберите главные мысли бизнес-конференции, на которой я был, в одну страницу заметок с картинками.",
+   "Хочу краткую страницу с картинками и стрелками об услугах нашего магазинчика."
+  ],
+  "stick-explainer": [
+   "Объясните человечками-палочками, что любые два человека на Земле связаны примерно через шесть рукопожатий.",
+   "Хочу просто показать человечками нашу программу «приведи друга».",
+   "Хочу показать человечками, как жители маленького города общаются с родными, уехавшими работать далеко."
+  ],
+  "ipad-sketch": [
+   "Покажите, как чашка кофе превращается в красную кофейную ягоду, а потом её сушат, обжаривают, мелют — и она снова в чашке.",
+   "Хочу показать рецепт блинов на одной странице скетча, где каждый шаг меняет цвет.",
+   "Хочу объяснить, как мы делаем мыло ручной работы, будто его рисуют карандашом на планшете."
+  ],
+  "marker-paper": [
+   "Посчитайте маркером на бумаге, как далеко с берега до горизонта.",
+   "Хочу пошагово решить маркером задачу по физике для учеников наших курсов.",
+   "Сделайте видео, где на бумаге маркером показано, как считать процент скидки в нашем магазине."
+  ],
+  "ink-wash": [
+   "Сделайте историю тушью: мечник идёт по реке и одним ударом рассекает течение.",
+   "Для нашей чайной марки хочу спокойную рекламу тушью среди гор и тумана.",
+   "Хочу показать моё стихотворение через растекающиеся мазки туши."
+  ],
+  "shadow-puppet": [
+   "Покажите кожаными куклами театра теней легенду о лучнике, который сбил девять солнц, сжигавших землю.",
+   "Хочу показать детям сказку о Кощее и Иване-царевиче куклами театра теней на светящемся экране.",
+   "Для открытия нашего фестиваля культуры сделайте видео-приглашение в стиле традиционного театра теней."
+  ],
+  "ukiyoe": [
+   "Сделайте путь странника к далёкой горе, где каждая сцена — гравюра, а кульминация — большая волна.",
+   "Хочу рекламу в стиле укиё-э к открытию нашего японского ресторана.",
+   "Хочу поэтично показать восхождение на Эльбрус в стиле японской гравюры на дереве."
+  ],
+  "papercut-red": [
+   "Сделайте сказку: в новогоднюю ночь в деревню приходит чудище Нянь, а большая бумажная вырезка девочки загорается и прогоняет его.",
+   "Хочу видео в стиле красной бумажной вырезки, чтобы поздравить клиентов нашего магазина с Китайским Новым годом.",
+   "Сделайте рекламу к празднику середины осени для семейной кондитерской в китайском квартале красными бумажными вырезками."
+  ],
+  "paper-lantern": [
+   "Хочу показать последний рейс старого поезда, где огоньки в окнах гаснут один за другим, как в бумажном фонаре.",
+   "На проводы дедушки на пенсию сделайте историю станции, где он работал, будто она светится фонариками.",
+   "Для нашего отеля хочу показать ночной поезд по Кругобайкальской дороге, светящийся, как фонарь."
+  ],
+  "stained-glass": [
+   "Покажите, как с утра до вечера солнце проходит по витражу, и в каждом стекле оживает история рыцаря и дракона.",
+   "Сделайте сказку в стиле витража для нашей рождественской открытки.",
+   "Хочу показать наследие старинного католического собора в Москве историей в стиле витража."
+  ],
+  "gilded-illumination": [
+   "Сделайте сказку: в мире, сияющем только золотом, погасло солнце, и девочка несёт последний фонарь на гору.",
+   "Хочу поэтичное праздничное видео к Рождеству, как расписная миниатюра с позолотой.",
+   "Хочу показать историю нашей мастерской золотого шитья в стиле старинной книги с позолоченными миниатюрами."
+  ],
+  "line-art-ink": [
+   "Хочу показать маленький переулок в Москве с утра до ночи, будто нарисованный тушью: кофейня, прохожие, зажигаются вечерние огни.",
+   "Сделайте милую линейную картинку нашей блинной — от раннего открытия до прихода посетителей.",
+   "Хочу посмотреть на деревушку у Онежского озера: лодочник, котик, птицы, закат и наступающая ночь."
+  ],
+  "onetake-launch": [
+   "Мы запускаем новое приложение для аренды самокатов — хочу launch-видео секунд на 20. Скриншоты пришлю.",
+   "Сделайте стильный тизер для сайта, где можно заказать подарки на день рождения.",
+   "Хочу рекламу одним дублем без склеек для приложения, которое помогает студентам отслеживать время учёбы."
+  ],
+  "onetake-demo": [
+   "Хочу видео с русской озвучкой о том, как в нашем бухгалтерском приложении выставить счёт и посмотреть отчёт.",
+   "Сделайте пошаговое видео о приложении для записи к врачу, понятное пожилым людям. Скриншоты есть.",
+   "Хочу видео на двух языках, русском и английском, о трёх новых функциях нашей кассовой системы."
+  ],
+  "onetake-concept": [
+   "Хочу концептуальную рекламу для приложения доставки: одно нажатие — и посылки одна за другой долетают до адресатов.",
+   "Хочу рекламу кофейни одним дублем — от одного кофейного зерна до чашки.",
+   "Покажите, как приложение для переводов экономит время: год сжимается до одной минуты."
+  ],
+  "hf-captions": [
+   "Добавьте субтитры к видео, где я рассказываю о своём магазине, и карточку с его названием.",
+   "Хочу, чтобы три главные мысли из моего видеоинтервью появлялись на карточках.",
+   "Сделайте субтитры к фрагменту из прямого эфира ВКонтакте, чтобы его можно было понять без звука."
+  ],
+  "hf-vertical": [
+   "Сделайте вертикальный ролик для TikTok: три совета, как заварить вкусный чай.",
+   "Хочу быструю рекламу зимней распродажи нашего магазина одежды для Reels.",
+   "Покажите крупными буквами пять полезных утренних привычек для Shorts."
+  ],
+  "hf-music": [
+   "Сделайте lyric video на мою песню. Файл с треком пришлю.",
+   "Хочу яркое видео в такт короткому джинглу нашего магазина.",
+   "Сделайте видео из фотографий в такт песне, которую мы записали на день рождения."
+  ],
+  "logo-reveal": [
+   "Сделайте 5-секундное появление логотипа нашей кофейни для начала видео на YouTube.",
+   "Хочу анимацию логотипа компании для заставки при открытии сайта — спокойную, внушающую доверие.",
+   "Хочу, чтобы логотип нашего магазина игрушек появлялся весело, с прыжками."
+  ],
+  "lottie-anim": [
+   "Хочу анимацию галочки, которая появляется в приложении после успешной оплаты.",
+   "Сделайте индикатор загрузки для сайта в фиолетовом цвете нашего бренда.",
+   "Сделайте анимацию нижней плашки с именем и должностью для видео на YouTube."
+  ],
+  "ad-marker-comic": [
+   "Сделайте мультик, где любимый котёнок дочки становится супергероем и спасает детей во дворе.",
+   "Хочу показать в виде цветного комикса смешную историю, которая каждое утро случается в моей кофейне.",
+   "Хочу юмористический мультик, где два брата ссорятся во время игры в снежки, а потом мирятся."
+  ],
+  "ad-scrapbook": [
+   "Сделайте видео, рассказывающее историю нашей семьи со свадьбы бабушки и дедушки до сегодня, как старый фотоальбом.",
+   "Хочу показать историю строительства Петербурга, как альбом со старыми бумагами и заметками.",
+   "Хочу рассказать по старым счетам и фотографиям, как больше пятидесяти лет держится наша семейная мастерская валенок."
+  ],
+  "ad-ballpoint": [
+   "Хочу тихо показать, будто нарисовано шариковой ручкой, как мама каждое утро собирает мне обед с собой.",
+   "Представьте мои кожаные кошельки ручной работы, будто их набросали ручкой в блокноте.",
+   "Сделайте короткую историю в стиле наброска ручкой о парте, за которой я сидел со школьным другом."
+  ],
+  "ad-broken-colour": [
+   "Хочу красиво показать, как на закате по Ладожскому озеру проплывает лодка, — как масляная картина.",
+   "Прорекламируйте наш гостевой дом у моря в утреннем свете, как живописное полотно.",
+   "Сделайте путевое воспоминание: на рассвете над Каппадокией среди скал поднимаются воздушные шары."
+  ],
+  "ad-embroidery": [
+   "На мамин день рождения сделайте видео, где стежок за стежком вышиваются цветы и появляется поздравление.",
+   "Хочу рекламу для моего магазина вышитых сумок, будто она вышита нитками.",
+   "Покажите смену времён года, будто цветы и птицы средней полосы вышиты нитками."
+  ],
+  "ad-stipple": [
+   "Хочу объяснить детям стадии жизни светлячка точечными рисунками, как в старой научной книге.",
+   "Познакомьте с разными ракушками Чёрного моря точечными рисунками тушью, по одной.",
+   "Хочу показать иван-чай из нашего магазина трав, как в старинном ботаническом атласе."
+  ],
+  "ad-charcoal": [
+   "Хочу вспомнить покойного отца — дни, когда мы ходили с ним на рыбалку, — рисунками углём.",
+   "Сделайте короткую историю о первой ночи парня, который приехал из деревни в город искать работу.",
+   "Для моих курсов рисования хочу показать, как портрет рисуют углём, стирают и рисуют снова."
+  ],
+  "ad-flat-vector": [
+   "Просто объясните, как пользоваться нашим приложением для заказа овощей онлайн.",
+   "Хочу показать в современных картинках маршрут из Москвы в Сергиев Посад и Ростов Великий.",
+   "Объясните картинками для друзей-иностранцев, как правильно париться в русской бане."
+  ],
+  "ad-cut-paper": [
+   "Сделайте для сына сказку «Колобок», будто вырезанную и наклеенную из бумаги.",
+   "Хочу показать детям смену времён года рваными кусочками бумаги.",
+   "Сделайте милую рекламу тортов моей кондитерской из цветной вырезанной бумаги."
+  ],
+  "ad-toy-theatre": [
+   "Сделайте сказку о принцессе и дракончике, как картонный кукольный театр, чтобы показать на дне рождения дочки.",
+   "Хочу рекламу праздничного спектакля нашего кукольного театра, где персонажи выезжают на маленькую сцену.",
+   "Сделайте сказку о Василисе Прекрасной и Бабе-яге, будто её разыгрывают на маленькой бумажной сцене для детей."
+  ],
+  "ad-storybook": [
+   "Сделайте серию сказок на ночь, где главный герой — мой сын, по одной серии на каждый вечер.",
+   "Хочу видео, где кот-персонаж нашей детской библиотеки приглашает детей приходить читать.",
+   "Сделайте детский мини-сериал о слонёнке, который путешествует от Байкала до Чёрного моря."
+  ],
+  "ad-folk-tale": [
+   "Сделайте сказку на ночь по сказке о хитрой лисе, которую мама рассказывала мне в детстве.",
+   "Хочу сказочную историю о том, как крестьянская семья в деревне убирает урожай.",
+   "Тепло представьте пасеку нашей деревни, как иллюстрации из старой книги сказок."
+  ],
+  "ad-dream-glaze": [
+   "Хочу показать домик, парящий в небе, который я видел во сне в детстве, — как странную и красивую картину.",
+   "Сделайте художественный короткометражный фильм с лестницей до облаков о вопросе, откуда мы пришли и куда идём.",
+   "Для рекламы моей выставки сделайте сказочную сцену, где над гладью озера возникает белая церковь."
+  ],
+  "arch-diagram": [
+   "Объясните схемой, как заказ из нашего приложения попадает на кухню, готовится и уходит к курьеру.",
+   "Хочу показать новым сотрудникам процесс нашей семейной аптеки — от заказа товара до склада, витрины и кассы.",
+   "Сделайте видео со схемой для студентов: как проходит перевод с телефона через банковскую систему."
+  ],
+  "doc-mix": [
+   "Сделайте документальное видео минуты на три о том, насколько огромен синий кит и как он эволюционировал.",
+   "Хочу видео с картами и чертежами о том, как строили деревянные церкви Кижей и почему они выдерживают века.",
+   "Сделайте минутное видео для Shorts с удивительными фактами о самых больших звёздах в сравнении с Солнцем."
+  ]
+ }
+}

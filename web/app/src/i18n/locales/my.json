@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "{name} ဖယ်မယ်",
+  "att.tooBig": "{names} က 500 MB ကျော်နေလို့ မထည့်ပါ။",
+  "att.trayLabel": "တွဲထားတဲ့ ဖိုင်များ",
+  "board.addHint": "ပုံ၊ ဗီဒီယို၊ အသံ၊ သီချင်း၊ စာရွက်စာတမ်း",
+  "board.addRefs": "Reference ထည့်မယ်",
+  "board.addStyle": "+ Style ပေါင်းမယ်",
+  "board.aspect": "အချိုး",
+  "board.blendStyle": "ပေါင်းသုံးမယ့် style",
+  "board.chatTitle": "ဗီဒီယို {n} ကို Claude နဲ့ စီစဉ်မယ်",
+  "board.close": "ပိတ်မယ်",
+  "board.delete": "ဖျက်မယ်",
+  "board.deleteConfirm": "{name} ကို ဒီ project ထဲက ဖျက်မလား?",
+  "board.deleteError": "ဖိုင်ကို ဖျက်လို့ မရပါ",
+  "board.done": "ပြီးပြီ ({n})",
+  "board.download": "ဒေါင်းလုဒ်",
+  "board.dropHere": "ဒီ project ထဲ ထည့်ဖို့ ဖိုင်တွေကို ဒီမှာ ချပါ",
+  "board.emptyBody": "ပုံ၊ ဗီဒီယို၊ အသံ ဒါမှမဟုတ် သီချင်းတွေကို ဒီမှာ ဆွဲချပြီး ပထမဆုံး ဗီဒီယိုကို chat မှာ Claude နဲ့ စီစဉ်ပါ။",
+  "board.emptyTitle": "Project အလွတ်",
+  "board.filter.all": "အားလုံး",
+  "board.filter.films": "ဗီဒီယိုများ",
+  "board.filter.made": "Claude လုပ်ထားတာ",
+  "board.filter.refs": "Reference များ",
+  "board.filterLabel": "ပြမယ်",
+  "board.helloNoStyle": "မင်္ဂလာပါ။ အပေါ်က style တစ်ခု ရွေးပါ (ဒါမှမဟုတ် အကြံပြုချက်ကို နှိပ်ပါ)၊ ပြီးရင် ဗီဒီယိုမှာ ဘာဖြစ်ချင်လဲ ပြောပြပါ။ မရှင်းတာရှိရင် မလုပ်ခင် ကျွန်တော် ပြန်မေးပါမယ်။",
+  "board.hint": "+ နဲ့ reference ရွေးပြီး နောက်ဗီဒီယိုကို chat မှာ စီစဉ်ပါ",
+  "board.inProject": "ဒီ project မှာ သုံးထားတာ",
+  "board.length": "ကြာချိန်",
+  "board.made": "Claude လုပ်ထားတာ",
+  "board.mainStyle": "အဓိက style",
+  "board.make": "ဗီဒီယို လုပ်မယ်",
+  "board.makeError": "ဗီဒီယို စမလုပ်နိုင်ပါ",
+  "board.makeHint": "အခုပဲ လုပ်မယ် (Ctrl/⌘ + Enter)",
+  "board.newChat": "Chat အသစ်",
+  "board.open": "{name} ဖွင့်မယ်",
+  "board.pick": "နောက်ဗီဒီယိုမှာ သုံးမယ်",
+  "board.pickHint": "ပထမဆုံး ရွေးတာက အဓိက style ပါ၊ ကျန်တာတွေကို ပေါင်းသုံးပါမယ်။",
+  "board.pickStyle": "Style ရွေးမယ်",
+  "board.pickStyles": "Style များ ရွေးမယ်",
+  "board.picked": "နောက်ဗီဒီယိုမှာ သုံးမယ်",
+  "board.pickedLabel": "နောက်ဗီဒီယိုအတွက် reference များ",
+  "board.placeholder": "ဗီဒီယို {n} ကို ပြောပြပါ: ဘာဖြစ်မလဲ၊ ဘယ်သူတွေ ပါမလဲ၊ ခံစားချက်…",
+  "board.planFirst": "Claude နဲ့ chat မှာ အရင် စီစဉ်မယ် →",
+  "board.promptLabel": "နောက်ဗီဒီယိုမှာ ဘာဖြစ်ချင်လဲ",
+  "board.ref": "Reference",
+  "board.removeStyle": "{name} ကို ဖယ်မယ်",
+  "board.replyPlaceholder": "Claude ကို ပြန်ဖြေမယ်…",
+  "board.searchStyles": "Style ရှာမယ်",
+  "board.starting": "စနေပြီ…",
+  "board.suggestAgain": "ထပ် အကြံပေး",
+  "board.suggested": "အကြံပြု style များ",
+  "board.tooShort": "ဗီဒီယိုအကြောင်း နည်းနည်း ထပ်ရေးပါ (အနည်းဆုံး စာလုံး ၁၀ လုံး)။",
+  "board.unpick": "မသုံးတော့ဘူး",
+  "board.unpickName": "{name} ကို မသုံးတော့ဘူး",
+  "board.uploadError": "ဖိုင်တွေ ထည့်လို့ မရပါ",
+  "board.uploading": "{n} ခု ထည့်နေတယ်…",
+  "board.usedBefore": "ဒီ project မှာ သုံးဖူးတယ်",
+  "board.voice": "အသံ ဘာသာ",
+  "film.askHead": "Claude က မေးနေတယ် - ဖြေမှ ဆက်လုပ်ပါမယ်",
+  "film.attach": "ဖိုင် တွဲမယ်",
+  "film.backSingle": "တစ်ခုချင်း ဗီဒီယိုများ",
+  "film.briefTitle": "Claude ရေးထားတဲ့ brief",
+  "film.cancel": "ရပ်မယ်",
+  "film.canceledNote": "ဒီဗီဒီယိုကို ရပ်လိုက်ပါတယ်။",
+  "film.chatIdle": "စာပို့ရင် ဒီဗီဒီယိုကို ဆက်လုပ်ပါမယ်",
+  "film.chatLive": "ဗီဒီယို စလုပ်နေပါပြီ (ခလုတ် ထပ်နှိပ်စရာ မလိုပါ)။ Claude လုပ်နေတာကို ဒီမှာ တိုက်ရိုက် ပြနေတယ်။",
+  "film.chatTitle": "Claude နဲ့ chat",
+  "film.downloadFile": "{name} ဒေါင်းမယ်",
+  "film.downloadMp4": "MP4 ဒေါင်းမယ်",
+  "film.dropHere": "ဖိုင်တွေကို Claude ဆီ ပို့ဖို့ ဒီမှာ ချလိုက်ပါ",
+  "film.elapsedDone": "{time} ကြာခဲ့",
+  "film.elapsedLive": "{time} ကြာပြီ",
+  "film.estimateHint": "ရာခိုင်နှုန်းက Claude လုပ်နေတဲ့ အဆင့်ကို ကြည့်ပြီး ခန့်မှန်းထားတာပါ။ ဗီဒီယို တစ်ခုကို ပုံမှန် ၁၀–၂၀ မိနစ် ကြာပါတယ်။",
+  "film.failedNote": "ဗီဒီယို မထွက်သေးပါ။ ဘာဖြစ်လဲဆိုတာ ညာဘက် chat မှာ ကြည့်ပြီး ပြန်ဖြေရင် ဆက်လုပ်ပါမယ်။",
+  "film.headDone": "ပြီးပါပြီ",
+  "film.headFailed": "ရပ်သွားတယ် - chat မှာ ဖြေရင် ဆက်လုပ်မယ်",
+  "film.headQueued": "တန်းစီနေတယ်",
+  "film.headRunning": "လုပ်နေတယ်",
+  "film.imagesGot": "{n} ပုံ ရပြီ",
+  "film.inputsTitle": "ထည့်ပေးခဲ့တဲ့ ပစ္စည်း",
+  "film.loadError": "ဒီဗီဒီယိုကို ဖွင့်လို့ မရပါ",
+  "film.loading": "ဖွင့်နေတယ်…",
+  "film.making": "Claude က ဗီဒီယို လုပ်နေတယ်…",
+  "film.noProject": "မရှိ",
+  "film.now": "အခု",
+  "film.phLive": "Claude ကို မှတ်ချက် ပို့မယ်… (နောက်အဆင့် မစခင် ဖတ်ပါမယ်)",
+  "film.phQuestion": "Claude ရဲ့ မေးခွန်းကို ဖြေပါ…",
+  "film.phResume": "ပြန်ဖြေပါ… (ပို့ရင် ရပ်ခဲ့တဲ့နေရာကနေ ဆက်လုပ်ပါမယ်)",
+  "film.phSucceeded": "ပြင်ချင်တာ ပြောပါ… (ပို့ရင် ဆက်ပြင်ပေးပါမယ်)",
+  "film.progressLabel": "တိုးတက်မှု",
+  "film.projectFallback": "Project",
+  "film.projectLabel": "Project:",
+  "film.queuedWait": "တန်းစီ စောင့်နေတယ်…",
+  "film.send": "ပို့မယ်",
+  "film.sendError": "မပို့နိုင်ပါ",
+  "film.sendLabel": "Claude ကို စာပို့မယ်",
+  "film.sizeKb": "{n} KB",
+  "film.stage.build": "ပုံ၊ လှုပ်ရှားမှု၊ အသံ တည်ဆောက်",
+  "film.stage.finish": "ဗီဒီယို ထုတ်",
+  "film.stage.images": "Flow AI နဲ့ ပုံထုတ်",
+  "film.stage.plan": "ဇာတ်ညွှန်း စီစဉ်",
+  "film.stage.read": "Style ကို လေ့လာ",
+  "film.stage.render": "Render လုပ်ပြီး စစ်ဆေး",
+  "film.steps": "အဆင့် {n} ဆင့်",
+  "film.tagAnswer": "အဖြေ",
+  "film.tagNote": "မှတ်ချက်",
+  "film.tagPlan": "စီစဉ်ခဲ့တဲ့ chat",
+  "film.working": "အလုပ်လုပ်နေတယ်…",
+  "lang.label": "ဘာသာစကား",
+  "nav.label": "Studio",
+  "nav.new": "ဗီဒီယို အသစ်",
+  "nav.projects": "ကျွန်ုပ်၏ Projects",
+  "new.all": "အားလုံး ({n})",
+  "new.aspect": "အချိုး",
+  "new.attach": "ဖိုင် တွဲမယ်",
+  "new.attachTitle": "ဖိုင် တွဲမယ် (ဆွဲချ ဒါမှမဟုတ် paste လုပ်လို့လည်းရ)",
+  "new.attachedCount": "{n} ခု ထည့်ထား",
+  "new.badgeFlow": "✦ Flow AI ပုံ",
+  "new.badgeNoGen": "✦ ပုံထုတ်စက် မရှိ",
+  "new.cancel": "မလုပ်တော့",
+  "new.category": "အမျိုးအစား",
+  "new.create": "လုပ်မယ်",
+  "new.dropHere": "ဖိုင်တွေကို ဒီမှာ ချလိုက်ပါ",
+  "new.duration": "ကြာချိန်",
+  "new.episode": "Episode {n}",
+  "new.filesNote": "ဒီဖိုင်တွေ ထည့်ပေးလိုက်တယ်။",
+  "new.flowBody": "Claude က သင့် Chrome ထဲမှာ Flow ကို ဖွင့်ပြီး လိုတဲ့ပုံတွေ ထုတ်ပါမယ်။ ဗီဒီယို လုပ်နေတုန်း Chrome ကို ဖွင့်ထားပါ။ Flow credit နည်းနည်း ကုန်ပါမယ်။",
+  "new.flowTitle": "✦ Google Flow AI နဲ့ ပုံတွေ auto ထုတ်မယ်။",
+  "new.hello": "မင်္ဂလာပါ။ {style} ပုံစံနဲ့ ဘာဗီဒီယို လိုချင်လဲ ရိုးရိုးပြောပြပါ။ မရှင်းတာရှိရင် ကျွန်တော် ပြန်မေးပါမယ်။",
+  "new.language": "ဘာသာ",
+  "new.listSep": "၊ ",
+  "new.make": "ဗီဒီယို လုပ်မယ်",
+  "new.makeRest": "ကျန်တာ Claude ဆုံးဖြတ်ပြီး လုပ်မယ်",
+  "new.material": "ပစ္စည်း ထည့်မယ်",
+  "new.materialHint": "ဖိုင်၊ အသံ၊ ဓာတ်ပုံ (မထည့်လည်းရ)",
+  "new.maxFiles": "ဖိုင် {max} ခုအထိပဲ တွဲလို့ရပါတယ်။",
+  "new.messageLabel": "Claude ကို စာပို့မယ်",
+  "new.ncAfter": " အသုံးအတွက်ပဲ အခမဲ့ပါ။ Client အလုပ် ဒါမှမဟုတ် လုပ်ငန်းအတွက် သုံးရင် commercial licence (onetake Pro) လိုပါတယ်။",
+  "new.ncBefore": "ဒီ style က ",
+  "new.ncStrong": "စီးပွားရေးအတွက် မဟုတ်တဲ့",
+  "new.needField": "ဒီ style အတွက် {field} လိုပါတယ်။",
+  "new.needs": "{list} လိုအပ်",
+  "new.newProject": "+ Project အသစ်…",
+  "new.noGen": "ဒီ style က AI နဲ့ ပုံထုတ်ရပါတယ်။ ဒီ server မှာ ပုံထုတ်စက် မဖွင့်ထားလို့ ဗီဒီယို လုပ်လို့ မရသေးပါ။",
+  "new.noProject": "Project မရှိ (တစ်ခုချင်း)",
+  "new.noReply": "Claude ပြန်မဖြေနိုင်သေးပါ",
+  "new.pickLeft": "ဘယ်ဘက်က style တစ်ခု ရွေးပါ။",
+  "new.pickStyle": "ပုံစံ (style) တစ်ခု အရင်ရွေးပါ။",
+  "new.pickStyleShort": "Style အရင်ရွေးပါ",
+  "new.placeholder": "လိုချင်တာ ရေးပါ… ပုံ/ဖိုင်ကို ဆွဲချ ဒါမှမဟုတ် paste လုပ်လို့ရ",
+  "new.planDraft": "အစီအစဉ် ကြမ်း (Claude ပို့မယ့် brief)",
+  "new.planReady": "✓ ဗီဒီယို အစီအစဉ် (Claude ပို့မယ့် brief)",
+  "new.project": "Project",
+  "new.projectFailed": "Project မလုပ်နိုင်ပါ",
+  "new.projectName": "Project နာမည်",
+  "new.samples": "နမူနာ - နှိပ်ရင် ပို့ပေးမယ်",
+  "new.searchLabel": "Style ရှာမယ်",
+  "new.searchPlaceholder": "ရှာမယ်: watercolour, explainer, news…",
+  "new.seconds": "{n} စက္ကန့်",
+  "new.send": "ပို့မယ်",
+  "new.startFailed": "ဗီဒီယို စမလုပ်နိုင်ပါ",
+  "new.starting": "စနေပြီ…",
+  "new.step1": "1. Style ရွေးပါ",
+  "new.step2": "2. Claude နဲ့ စီစဉ်မယ်",
+  "new.styleBeforeFiles": "Style အရင်ရွေးပြီးမှ ဖိုင်ထည့်ပါ။",
+  "new.stylesLabel": "Style များ",
+  "new.tellFirst": "လိုချင်တာကို Claude ကို အရင်ပြောပြပါ။",
+  "new.thinking": "စဉ်းစားနေတယ်…",
+  "new.uploading": "ဖိုင်တင်နေတယ်…",
+  "projects.addEpisode": "+ Episode {n}",
+  "projects.assets": "ပြန်သုံးလို့ရတဲ့ ပစ္စည်း ({n}):",
+  "projects.back": "← ကျွန်ုပ်၏ Projects",
+  "projects.bibleEmpty": "ပထမ episode ပြီးရင် Claude က ဒီမှာ ရေးပါမယ်။",
+  "projects.bibleHint": "Claude က episode တိုင်းမှာ ဖတ်ပြီး ပြင်ထားတဲ့ ဇာတ်ကောင်၊ နေရာ၊ ပုံစံ မှတ်စု",
+  "projects.bibleTitle": "Series bible",
+  "projects.cancel": "မလုပ်တော့ဘူး",
+  "projects.cancelEdit": "မပြင်တော့ဘူး",
+  "projects.continueEpisode": "Episode {n} ကို ဆက်လုပ်လို့ရ",
+  "projects.create": "လုပ်မယ်",
+  "projects.createError": "မလုပ်နိုင်ပါ",
+  "projects.descLabel": "ဘာအကြောင်းလဲ",
+  "projects.descPlaceholder": "ဇာတ်ကောင်တွေ၊ ကမ္ဘာ၊ ပုံစံ… Claude က episode တိုင်းမှာ ဒါကို ဖတ်ပါမယ်",
+  "projects.edit": "နာမည်/အကြောင်း ပြင်မယ်",
+  "projects.emptyBody": "Project တစ်ခုက folder တစ်ခုပါ။ အပိုင်းလိုက် (episode) ဗီဒီယိုတွေ အတူထားရင် ဇာတ်ကောင်၊ နေရာ၊ ပုံစံ၊ သီချင်းတွေကို Claude က ပြန်သုံးပေးပါတယ်။",
+  "projects.emptyCta": "ပထမ project လုပ်မယ်",
+  "projects.emptyTitle": "Project မရှိသေးပါ",
+  "projects.episodeCount": "{n} ပိုင်း",
+  "projects.episodeN": "Episode {n}",
+  "projects.firstEpisodeCta": "Episode 1 လုပ်မယ်",
+  "projects.loadError": "မဖွင့်နိုင်ပါ",
+  "projects.loading": "ဖွင့်နေသည်…",
+  "projects.nameLabel": "Project နာမည်",
+  "projects.namePlaceholder": "ဥပမာ - လက်ဖက်ရည်ဆိုင် စစ်ပွဲ",
+  "projects.nameRequired": "နာမည် ပေးပါ",
+  "projects.newProject": "+ Project အသစ်",
+  "projects.newVideo": "ဗီဒီယို အသစ်",
+  "projects.noEpisodesBody": "ပထမ episode မှာ ဇာတ်ကောင်၊ နေရာ၊ ပုံစံတွေ သတ်မှတ်ပါမယ်။ နောက် episode တွေက အဲ့ဒါကို ပြန်သုံးပါမယ်။",
+  "projects.noEpisodesTitle": "Episode မရှိသေးပါ",
+  "projects.optional": "မထည့်လည်းရ",
+  "projects.save": "သိမ်းမယ်",
+  "projects.saveError": "မသိမ်းနိုင်ပါ",
+  "projects.seconds": "{n} စက္ကန့်",
+  "projects.singleCount": "{n} ခု",
+  "projects.singles": "တစ်ခုချင်း ဗီဒီယိုများ",
+  "projects.singlesHint": "Project မထည့်ရသေးတဲ့ ဗီဒီယိုတွေ",
+  "projects.title": "ကျွန်ုပ်၏ Projects",
+  "src.anyFile": "ဘယ်ဖိုင်မဆို",
+  "src.badType": "{name} ဖိုင်အမျိုးအစား မရပါ။",
+  "src.canSource": "မရှိရင်လည်း ရပါတယ်။ Claude က အများသုံးလို့ရတဲ့ အချက်အလက်တွေကို ကိုယ်တိုင်ရှာပါမယ်။",
+  "src.choose": "ဖိုင်ရွေးမယ်",
+  "src.closeCommon": "− ပိတ်မယ်",
+  "src.dropOr": "ဒါမှမဟုတ် ဒီမှာ ဆွဲချ · {types} · {max} ခုအထိ",
+  "src.material.none": "အစကနေ ဆွဲမယ်",
+  "src.material.optional": "ကိုယ့်ပစ္စည်း ထည့်လို့ရ",
+  "src.material.required": "တကယ့် အချက်အလက်နဲ့ လုပ်မယ်",
+  "src.maxFiles": "ဖိုင် {max} ခုအထိပဲ ရပါတယ်။",
+  "src.openCommon": "+ ကိုယ့်အသံ၊ သီချင်း၊ ဓာတ်ပုံ၊ logo ထည့်မယ်",
+  "src.optional": "မထည့်လည်းရ",
+  "src.remove": "ဖယ်မယ်",
+  "src.removeLabel": "{name} ဖယ်မယ်",
+  "src.required": "လိုအပ်",
+  "src.tooBig": "{name} က 500 MB ကျော်နေတယ်။",
+  "status.canceled": "ရပ်လိုက်ပြီ",
+  "status.failed": "မအောင်မြင်",
+  "status.queued": "တန်းစီနေ",
+  "status.running": "လုပ်နေဆဲ",
+  "status.succeeded": "ပြီးပြီ"
+ },
+ "style": {
+  "3D model": "3D မော်ဒယ်",
+  "A 16-bit pixel RPG drawn in code.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ 16-bit pixel RPG တစ်ခု။",
+  "A 1930s rubber-hose cartoon drawn in code.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ 1930 ခုနှစ်တွေက rubber-hose ကာတွန်း။",
+  "A 3D world redrawn in crayon, all in code.": "3D ကမ္ဘာကို ခရေယွန်နဲ့ ပြန်ဆွဲထားတာ၊ အားလုံး ကုဒ်နဲ့ပါ။",
+  "A 60s spy title sequence cut from paper in code.": "ကုဒ်နဲ့ စက္ကူဖြတ်ပြီး လုပ်ထားတဲ့ 60 ခုနှစ်တွေက သူလျှိုရုပ်ရှင် ခေါင်းစဉ်အခန်း။",
+  "A Chinese ink painting made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ တရုတ်မင်ပန်းချီ။",
+  "A Memphis-style diorama built in code.": "ကုဒ်နဲ့ တည်ဆောက်ထားတဲ့ Memphis စတိုင် diorama။",
+  "A beat-locked game show drawn in code; no source material needed.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ beat နဲ့ကိုက်တဲ့ game show၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "ကုဒ်ဂရပ်ဖစ်နဲ့ တည်ဆောက်ထားတဲ့ သတင်းအစီအစဉ်၊ သင့်ဗီဒီယို၊ ဓာတ်ပုံ ဒါမှမဟုတ် logo ကို ထည့်သွင်းနိုင်ပါတယ်။",
+  "A colour-coded mechanism modelled and animated in code.": "အရောင်ခွဲပြထားတဲ့ စက်ယန္တရားကို ကုဒ်နဲ့ မော်ဒယ်လုပ်ပြီး လှုပ်ရှားအောင် လုပ်ထားတာ။",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ ရောင်စုံခဲတံ ဖြတ်ပိုင်းပုံ၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "A copperplate engraving drawn in code from your facts.": "သင့်အချက်အလက်တွေကနေ ကုဒ်နဲ့ ဆွဲထားတဲ့ ကြေးပြား ထွင်းပုံ။",
+  "A crayon picture book drawn in code; no source material needed.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ ခရေယွန် ပုံပြင်စာအုပ်၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "A drawn production line explaining a process; no source material needed.": "လုပ်ငန်းစဉ်တစ်ခုကို ရှင်းပြတဲ့ ဆွဲထားသော ထုတ်လုပ်ရေးလိုင်း၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "A fictional glass product rendered in code; real products are not reproduced.": "ကုဒ်နဲ့ render လုပ်ထားတဲ့ စိတ်ကူးယဉ် ဖန်ထုတ်ကုန်၊ တကယ့်ထုတ်ကုန်တွေကို ပုံတူမလုပ်ပါ။",
+  "A four-colour pop-art print made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ လေးရောင် pop-art ပုံနှိပ်။",
+  "A gilded manuscript painting made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ ရွှေချ လက်ရေးစာမူ ပန်းချီ။",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "သင့်ပစ္စည်းရဲ့ တောက်ပနေတဲ့ wireframe၊ ကုဒ်နဲ့ မော်ဒယ်လုပ်ထားတာ ဒါမှမဟုတ် သင့် 3D ဖိုင်ကနေ ယူထားတာ။",
+  "A layered paper-cut lightbox built in code.": "ကုဒ်နဲ့ တည်ဆောက်ထားတဲ့ အလွှာလိုက် စက္ကူဖြတ် မီးအိမ်သေတ္တာ။",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "ကုဒ်နဲ့ မော်ဒယ်လုပ်ပြီး ဆွဲထားတဲ့ စက်တစ်လုံးရဲ့ line-art ဖြတ်ပိုင်းပုံ။",
+  "A low-poly island world built in code.": "ကုဒ်နဲ့ တည်ဆောက်ထားတဲ့ low-poly ကျွန်းကမ္ဘာ။",
+  "A mid-century cartoon drawn in code from your steps.": "သင့်အဆင့်တွေကနေ ကုဒ်နဲ့ ဆွဲထားတဲ့ ရာစုအလယ်ပိုင်း ကာတွန်း။",
+  "A model of your object to show as a wireframe.": "wireframe အဖြစ် ပြဖို့ သင့်ပစ္စည်းရဲ့ မော်ဒယ်။",
+  "A moving knife-painted oil painting made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ ဓားနဲ့ဆေးသုတ်ထားတဲ့ လှုပ်ရှားနေသော ဆီဆေးပန်းချီ။",
+  "A paper pop-up book on a real-looking desk, made in code.": "တကယ့်လိုပဲ ထင်ရတဲ့ စားပွဲပေါ်က စက္ကူ pop-up စာအုပ်၊ ကုဒ်နဲ့ ဖန်တီးထားတာ။",
+  "A pen-and-wash urban sketch drawn in code.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ ဘောပင်နဲ့ ရေဆေး မြို့ပြ sketch။",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "သစ်သားထွင်းပုံအဖြစ် ပြန်ပြောင်းဖို့ ဓာတ်ပုံ ဒါမှမဟုတ် frame တစ်ခု၊ ဥပမာ ပုံတူ။",
+  "A picture computed in spreadsheet cells; can use your own table.": "spreadsheet ဆဲလ်တွေထဲမှာ တွက်ချက်ထားတဲ့ ပုံ၊ သင့်ကိုယ်ပိုင် ဇယားကို သုံးနိုင်ပါတယ်။",
+  "A pixel-art miniature world built in code.": "ကုဒ်နဲ့ တည်ဆောက်ထားတဲ့ pixel-art ပုံစံငယ် ကမ္ဘာ။",
+  "A printed case file with halftone characters, drawn in code.": "halftone ဇာတ်ကောင်တွေပါတဲ့ ပုံနှိပ် အမှုတွဲဖိုင်၊ ကုဒ်နဲ့ ဆွဲထားတာ။",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "tilt-shift ပုံစံနဲ့ ရိုက်ထားတဲ့ procedural ပုံစံငယ် မြို့လေး၊ ကုဒ်နဲ့ ဖန်တီးထားတာ။",
+  "A real simulation of little creatures run and filmed in code.": "သတ္တဝါလေးတွေရဲ့ တကယ့် simulation ကို ကုဒ်နဲ့ run ပြီး ရိုက်ကူးထားတာ။",
+  "A risograph print made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ risograph ပုံနှိပ်။",
+  "A scene seen through a thermal camera, simulated in code.": "အပူချိန်ကင်မရာ (thermal camera) ကနေ မြင်ရတဲ့ မြင်ကွင်း၊ ကုဒ်နဲ့ simulate လုပ်ထားတာ။",
+  "A sci-fi sitcom cartoon drawn in code.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ sci-fi sitcom ကာတွန်း။",
+  "A scratchboard landscape long take made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ scratchboard ရှုခင်း long take။",
+  "A silkscreen travel poster printed in code.": "ကုဒ်နဲ့ ပုံနှိပ်ထားတဲ့ silkscreen ခရီးသွား ပိုစတာ။",
+  "A sketchnote page drawn in code.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ sketchnote စာမျက်နှာ။",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ abstract UI ပါ software မိတ်ဆက် ဗီဒီယို၊ သင့် logo က အဓိကအရောင်ကို သတ်မှတ်ပေးပါတယ်။",
+  "A stained-glass window lit in code.": "ကုဒ်နဲ့ မီးထွန်းထားတဲ့ ဆေးရောင်ခြယ်ဖန် ပြတင်းပေါက်။",
+  "A table whose values drive the picture.": "တန်ဖိုးတွေက ပုံကို ထိန်းချုပ်ပေးတဲ့ ဇယား။",
+  "A tablet sketch drawn and coloured in code.": "ကုဒ်နဲ့ ဆွဲပြီး အရောင်ခြယ်ထားတဲ့ tablet sketch။",
+  "A toy-brick world built and animated in code.": "ကုဒ်နဲ့ တည်ဆောက်ပြီး လှုပ်ရှားအောင် လုပ်ထားတဲ့ အရုပ်အုတ်ခဲ ကမ္ဘာ။",
+  "A track you have the rights to; otherwise music is composed for the film.": "သင့်မှာ အခွင့်အရေးရှိတဲ့ သီချင်း၊ မဟုတ်ရင် ဗီဒီယိုအတွက် ဂီတကို ဖန်တီးပေးပါမယ်။",
+  "A two-ink dithered 3D world made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ မင်နှစ်ရောင် dither လုပ်ထားသော 3D ကမ္ဘာ။",
+  "A watercolour painting brushed in code.": "ကုဒ်နဲ့ စုတ်တံဆွဲထားတဲ့ ရေဆေးပန်းချီ။",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "open data ဒါမှမဟုတ် သင့်ကိုယ်ပိုင် အစီအစဉ်ပုံတွေကနေ ယူထားတဲ့ တကယ့်အဆောက်အအုံတွေရဲ့ အဖြူရောင်မော်ဒယ်၊ data ကို projection နဲ့ အလင်းထိုးပြထားတာ။",
+  "A whiteboard explainer drawn in code.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ whiteboard ရှင်းလင်းချက် ဗီဒီယို။",
+  "An assembly-manual drawing made in code from your steps.": "သင့်အဆင့်တွေကနေ ကုဒ်နဲ့ ဖန်တီးထားတဲ့ တပ်ဆင်နည်းလမ်းညွှန် ပုံ။",
+  "An isometric infographic drawn in code.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ isometric infographic။",
+  "An isometric scene of people following a rule, made in code.": "စည်းမျဉ်းတစ်ခုကို လိုက်နာနေတဲ့ လူတွေရဲ့ isometric မြင်ကွင်း၊ ကုဒ်နဲ့ ဖန်တီးထားတာ။",
+  "An old recording you own that can play under the archive.": "မှတ်တမ်းဟောင်းတွေနောက်ခံမှာ ဖွင့်နိုင်တဲ့ သင်ပိုင်ဆိုင်တဲ့ အသံသွင်းဟောင်း။",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "စားပွဲပေါ်က စက္ကူကတ်တွေအဖြစ် app မျက်နှာပြင်များ၊ ကုဒ်နဲ့ ဖန်တီးထားတာ၊ brand အရောင်တွေ ထည့်နိုင်ပါတယ်။",
+  "Archive film or video about your subject.": "သင့်အကြောင်းအရာနဲ့ပတ်သက်တဲ့ မှတ်တမ်းဟောင်း ရုပ်ရှင် ဒါမှမဟုတ် ဗီဒီယို။",
+  "Archive scans": "မှတ်တမ်း scan များ",
+  "Audio recordings or readings such as telemetry or weather.": "တယ်လီမီတာ ဒါမှမဟုတ် ရာသီဥတုလို အသံသွင်းချက်တွေ ဒါမှမဟုတ် တိုင်းတာချက်တွေ။",
+  "BOM or spec sheet": "BOM ဒါမှမဟုတ် spec sheet",
+  "Bill of materials and spec sheet for part names and numbers.": "အစိတ်အပိုင်းအမည်နဲ့ နံပါတ်တွေအတွက် ပစ္စည်းစာရင်း (BOM) နဲ့ spec sheet။",
+  "Black silhouettes moving to the beat, made in code.": "beat နဲ့အညီ လှုပ်ရှားနေတဲ့ အနက်ရောင် ပုံရိပ်များ၊ ကုဒ်နဲ့ ဖန်တီးထားတာ။",
+  "Brand fonts you are licensed to use.": "သင့်မှာ သုံးခွင့်လိုင်စင်ရှိတဲ့ brand font များ။",
+  "Building data": "အဆောက်အအုံ data",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "ထုတ်ကုန်ရဲ့ ကိုယ်ပိုင် CAD ဖိုင်တွေကနေ တည်ဆောက်တာ၊ သင့်ကိုယ်ပိုင်ထုတ်ကုန်ဆိုရင် လိုအပ်ပါတယ်၊ မဟုတ်ရင် open hardware ကို ကျွန်ုပ်တို့ သုံးပါမယ်။",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "တကယ့် microscope scan ကနေ တည်ဆောက်တာ၊ သင့်ကိုယ်ပိုင်ကို ပို့ပါ ဒါမှမဟုတ် လိုင်စင်ပြဿနာမရှိတဲ့ slide ကို ကျွန်ုပ်တို့ ရှာပေးပါမယ်။",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "တကယ့် မှတ်တမ်းဟောင်းပစ္စည်းတွေကနေ တည်ဆောက်တာ၊ သင့်ကိုယ်ပိုင် scan တွေကို ပို့ပါ၊ မဟုတ်ရင် public-domain စုစည်းမှုတွေကို ကျွန်ုပ်တို့ သုံးပါမယ်။",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "တကယ့် laser-scan အမှတ်တွေကနေ တည်ဆောက်တာ၊ သင့်ကိုယ်ပိုင် scan ကို ပို့ပါ ဒါမှမဟုတ် အများသုံး LiDAR စစ်တမ်းတွေကို ကျွန်ုပ်တို့ သုံးပါမယ်။",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "ပစ္စည်းတွေရဲ့ တကယ့်ဓာတ်ပုံတွေကနေ တည်ဆောက်တာ၊ သင့်ကိုယ်ပိုင်ကို ပို့ပါ ဒါမှမဟုတ် လိုင်စင်ပြဿနာမရှိတဲ့ ဓာတ်ပုံတွေကို ကျွန်ုပ်တို့ သုံးပါမယ်။",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "ဖြစ်ရပ်တစ်ခုရဲ့ အချိန်နဲ့တပြေးညီ ရိုက်ထားတဲ့ ဗီဒီယိုကနေ တည်ဆောက်တာ၊ သင့်ကိုယ်ပိုင်ကို ပို့ပါ ဒါမှမဟုတ် public-domain မှတ်တမ်းတွေကို ကျွန်ုပ်တို့ သုံးပါမယ်။",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "နေရာရဲ့ တကယ့် အမြင့်ပြ data နဲ့ ဂြိုဟ်တုပုံတွေပေါ်မှာ တည်ဆောက်ပြီး သင့် data ကို အပေါ်မှာ တောက်ပအောင် ပြထားတာ။",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "တကယ့်ပွဲစဉ် ဗီဒီယိုပေါ်မှာ တည်ဆောက်တာ၊ သင့်ကိုယ်ပိုင် clip တွေကို ပို့ပါ ဒါမှမဟုတ် open license ရှိတဲ့ clip တွေကို ကျွန်ုပ်တို့ ရှာပေးပါမယ်။",
+  "CAD files": "CAD ဖိုင်များ",
+  "Carved in code; a photo can be recut into a woodcut plate.": "ကုဒ်နဲ့ ထွင်းထားတာ၊ ဓာတ်ပုံတစ်ပုံကို သစ်သားထွင်းပြားအဖြစ် ပြန်ပြောင်းနိုင်ပါတယ်။",
+  "Chalk writing and drawing made in code; no source material needed.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ မြေဖြူခဲ စာရေးခြင်းနဲ့ ပုံဆွဲခြင်း၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "Character designs": "ဇာတ်ကောင် ဒီဇိုင်းများ",
+  "Characters and scenes made of glowing points, all in code.": "တောက်ပတဲ့ အစက်လေးတွေနဲ့ ဖွဲ့ထားတဲ့ ဇာတ်ကောင်နဲ့ မြင်ကွင်းများ၊ အားလုံး ကုဒ်နဲ့ပါ။",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "တကယ့် public-domain ပုံနှိပ်တွေနဲ့ စာရွက်စာတမ်းအဟောင်းတွေကို လက်နဲ့ ဖြတ်ပြီး collage လုပ်ထားတာ။",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "ဖြစ်ရပ်တစ်ခုရဲ့ တကယ့် ဗီဒီယို၊ ဓာတ်ပုံ၊ စာရွက်စာတမ်းနဲ့ data တွေကို တိုက်ဆိုင်စစ်ဆေးတာ၊ သင့်ဟာတွေကို ဦးစားပေးပါတယ်။",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "တကယ့် မှတ်တမ်းဟောင်း ရုပ်ရှင်၊ ပုံနှိပ်နဲ့ အသံသွင်းတွေကနေ ဖြတ်တည်းထားတာ၊ သင့်ဟာကို ဦးစားပေးပြီး မဟုတ်ရင် public-domain မှတ်တမ်းတိုက်တွေကို သုံးပါတယ်။",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "တကယ့် ဗီဒီယို၊ ဓာတ်ပုံနဲ့ မူရင်းစာရွက်စာတမ်းတွေကနေ ဖြတ်တည်းထားတာ၊ သင့်ဟာတွေကို ဦးစားပေးပြီး လိုတာကို အများသုံး မှတ်တမ်းတိုက်တွေက ဖြည့်ပါတယ်။",
+  "Dashcam, CCTV, phone or archive video of the event.": "ဖြစ်ရပ်ရဲ့ dashcam၊ CCTV၊ ဖုန်း ဒါမှမဟုတ် မှတ်တမ်းဟောင်း ဗီဒီယို။",
+  "Data to plot": "ပုံဆွဲပြမယ့် data",
+  "Dataset": "Dataset",
+  "Describe the voice you want, e.g. calm female, British English.": "လိုချင်တဲ့ အသံကို ဖော်ပြပါ၊ ဥပမာ တည်ငြိမ်တဲ့ အမျိုးသမီးအသံ၊ British English။",
+  "Documents": "စာရွက်စာတမ်းများ",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "တောက်ပတဲ့ terminal စာသားအဖြစ် ကုဒ်နဲ့ အပြည့်အဝ ဆွဲထားတာ၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "ရွှေရောင်နဲ့ အနက်ရောင် Art Deco အဖြစ် ကုဒ်နဲ့ အပြည့်အဝ ဆွဲထားတာ၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "ကုဒ်နဲ့ ဆွဲထားတာ၊ သင့်ကိုယ်ပိုင် clip ဟောင်းတွေကို ခေတ်ဟောင်း မင်ပုံစံနဲ့ ပြန်ဆွဲနိုင်ပါတယ်။",
+  "Drawn on a blueprint sheet in code; no source material needed.": "ကုဒ်နဲ့ blueprint စာရွက်ပေါ်မှာ ဆွဲထားတာ၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "စစ်ဆေးပြီးသား data ကနေ တကယ့်ကွန်ရက်ကို ဆွဲပြတာ၊ သင့်ဟာကို ဦးစားပေးပြီး မဟုတ်ရင် operator ရဲ့ open data ကို သုံးပါတယ်။",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "နေရာတစ်ခုရဲ့ တကယ့် ဗီဒီယိုကနေ တည်းဖြတ်ထားတာ၊ သင့်ကိုယ်ပိုင်ကို ပို့ပါ ဒါမှမဟုတ် လိုင်စင်ပြဿနာမရှိတဲ့ clip တွေကို ကျွန်ုပ်တို့ ရှာပေးပါမယ်။",
+  "Event footage": "ဖြစ်ရပ် ဗီဒီယို",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "အမှတ်အသားတိုင်းက တကယ့်ကိန်းဂဏန်းပါ၊ သင့် dataset ကို ပို့ပါ ဒါမှမဟုတ် open license ရှိတဲ့ data ကို ကျွန်ုပ်တို့ သုံးပါမယ်။",
+  "Family, company or sports clips to redraw as ink.": "မင်ပုံစံအဖြစ် ပြန်ဆွဲဖို့ မိသားစု၊ ကုမ္ပဏီ ဒါမှမဟုတ် အားကစား clip များ။",
+  "Field data": "ကွင်းဆင်း data",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "တိရစ္ဆာန် ပုံရိပ်တွေထဲကို တကယ့် ရှုခင်းဓာတ်ပုံတွေ ဖြည့်ထားတာ၊ သင့်ဟာ ဒါမှမဟုတ် public-domain ပုံတွေ။",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "သင့်ကိန်းဂဏန်းတွေအလိုက် အရွယ်ညှိထားတဲ့ Bauhaus ပုံသဏ္ဌာန်ပြားများ၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "Flat science explainer zooming across scales, drawn in code.": "အတိုင်းအတာ အမျိုးမျိုးကို zoom ဖြတ်သွားတဲ့ flat သိပ္ပံ ရှင်းလင်းချက် ဗီဒီယို၊ ကုဒ်နဲ့ ဆွဲထားတာ။",
+  "Fonts": "Font များ",
+  "Generated images": "ဖန်တီးထားသော ပုံများ",
+  "Gridded wind, current or flow data, if you have it.": "သင့်မှာရှိရင် grid ပုံစံ လေ၊ ရေစီးကြောင်း ဒါမှမဟုတ် စီးဆင်းမှု data။",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ လက်ဆွဲပုံစံ 80 ခုနှစ်တွေက anime၊ မူရင်းပစ္စည်း မလိုပါ။",
+  "Landscape photos": "ရှုခင်း ဓာတ်ပုံများ",
+  "Large, clear photos of the real objects being compared.": "နှိုင်းယှဉ်မယ့် တကယ့်ပစ္စည်းတွေရဲ့ ကြီးပြီး ကြည်လင်တဲ့ ဓာတ်ပုံများ။",
+  "Laser scan": "Laser scan",
+  "Line-ups or event data": "ကစားသမားစာရင်း ဒါမှမဟုတ် ပွဲစဉ် data",
+  "Line-ups or event data for the match.": "ပွဲစဉ်အတွက် ကစားသမားစာရင်း ဒါမှမဟုတ် ပွဲစဉ် data။",
+  "Lines, stations, opening dates, lengths or ridership.": "လိုင်းများ၊ ဘူတာများ၊ ဖွင့်လှစ်ရက်များ၊ အရှည်များ ဒါမှမဟုတ် ခရီးသည်အရေအတွက်။",
+  "Link to the product or its documentation.": "ထုတ်ကုန် ဒါမှမဟုတ် ၎င်းရဲ့ documentation သို့ link။",
+  "Logos": "Logo များ",
+  "Logos to show, ideally SVG or transparent PNG.": "ပြမယ့် logo များ၊ SVG ဒါမှမဟုတ် နောက်ခံဖောက်ထွင်းမြင်ရတဲ့ PNG ဆိုရင် အကောင်းဆုံး။",
+  "Lyrics": "သီချင်းစာသား",
+  "Marker drawing on paper, made in code.": "စက္ကူပေါ်မှာ marker နဲ့ ဆွဲထားတဲ့ပုံ၊ ကုဒ်နဲ့ ဖန်တီးထားတာ။",
+  "Match clips you have the rights to use.": "သင့်မှာ သုံးခွင့်ရှိတဲ့ ပွဲစဉ် clip များ။",
+  "Microscope scans": "Microscope scan များ",
+  "Music": "ဂီတ",
+  "Needs an image generator for characters and panels; your designs and products come first.": "ဇာတ်ကောင်နဲ့ ပုံကွက်တွေအတွက် image generator လိုပါတယ်၊ သင့်ဒီဇိုင်းနဲ့ ထုတ်ကုန်တွေကို ဦးစားပေးပါတယ်။",
+  "Needs an image generator for the characters; your own designs come first.": "ဇာတ်ကောင်တွေအတွက် image generator လိုပါတယ်၊ သင့်ကိုယ်ပိုင် ဒီဇိုင်းတွေကို ဦးစားပေးပါတယ်။",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "ရုပ်သေးပုံစာရွက်တွေအတွက် image generator လိုပါတယ်၊ သင့်ကိုယ်ပိုင် ဇာတ်ကောင်ဒီဇိုင်းတွေကို ဦးစားပေးပါတယ်။",
+  "Neon signs built and animated in code.": "ကုဒ်နဲ့ တည်ဆောက်ပြီး လှုပ်ရှားအောင် လုပ်ထားတဲ့ နီယွန် ဆိုင်းဘုတ်များ။",
+  "Network data": "ကွန်ရက် data",
+  "Newspapers, magazines, letters or documents, scanned.": "scan ဖတ်ထားတဲ့ သတင်းစာ၊ မဂ္ဂဇင်း၊ စာ ဒါမှမဟုတ် စာရွက်စာတမ်းများ။",
+  "Object photos": "ပစ္စည်း ဓာတ်ပုံများ",
+  "Objects seen through an X-ray console, modelled in code.": "X-ray console ကနေ မြင်ရတဲ့ ပစ္စည်းများ၊ ကုဒ်နဲ့ မော်ဒယ်လုပ်ထားတာ။",
+  "Old film or video about your subject.": "သင့်အကြောင်းအရာနဲ့ပတ်သက်တဲ့ ရုပ်ရှင်ဟောင်း ဒါမှမဟုတ် ဗီဒီယိုဟောင်း။",
+  "One continuous line drawn in code.": "ကုဒ်နဲ့ ဆွဲထားတဲ့ မပြတ်တဲ့ မျဉ်းတစ်ကြောင်း။",
+  "Only if no image generator is connected: images made from our prompts.": "image generator ချိတ်ဆက်မထားမှသာ: ကျွန်ုပ်တို့ရဲ့ prompt တွေကနေ ဖန်တီးထားတဲ့ ပုံများ။",
+  "Period recording": "ခေတ်ဟောင်း အသံသွင်း",
+  "Photos": "ဓာတ်ပုံများ",
+  "Photos of people, products or places that should appear.": "ပါဝင်သင့်တဲ့ လူ၊ ထုတ်ကုန် ဒါမှမဟုတ် နေရာတွေရဲ့ ဓာတ်ပုံများ။",
+  "Photos of the places the animal belongs to; shown in black and white.": "တိရစ္ဆာန်နဲ့ သက်ဆိုင်တဲ့ နေရာတွေရဲ့ ဓာတ်ပုံများ၊ အဖြူအမည်းနဲ့ ပြပါမယ်။",
+  "Pictograms and cards animated in code.": "ကုဒ်နဲ့ လှုပ်ရှားအောင် လုပ်ထားတဲ့ pictogram နဲ့ ကတ်များ။",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "သင့်အကြောင်းအရာကနေ မရှင်းရင် နေရာအမည် ဒါမှမဟုတ် lat/lon ကိုဩဒိနိတ်။",
+  "Place or coordinates": "နေရာ ဒါမှမဟုတ် ကိုဩဒိနိတ်",
+  "Plans, a city model or survey heights for your site.": "သင့်နေရာအတွက် အစီအစဉ်ပုံ၊ မြို့မော်ဒယ် ဒါမှမဟုတ် စစ်တမ်း အမြင့်များ။",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "စက်ဘောပင်နဲ့ plot ဆွဲထားတာ၊ မြေပုံနဲ့ မှတ်တမ်းတွေက သင်ပို့တဲ့ ဒါမှမဟုတ် ကျွန်ုပ်တို့ ရှာတဲ့ တကယ့် data ကို သုံးပါတယ်။",
+  "Preferred voice": "နှစ်သက်တဲ့ အသံ",
+  "Print scans": "ပုံနှိပ် scan များ",
+  "Product link": "ထုတ်ကုန် link",
+  "Rapid microgames in changing art styles, all made in code.": "အနုပညာပုံစံ ပြောင်းလဲနေတဲ့ မြန်ဆန်တဲ့ microgame များ၊ အားလုံး ကုဒ်နဲ့ ဖန်တီးထားတာ။",
+  "Real maths drawn as oscilloscope light, computed in code.": "oscilloscope အလင်းအဖြစ် ဆွဲထားတဲ့ တကယ့်သင်္ချာ၊ ကုဒ်နဲ့ တွက်ချက်ထားတာ။",
+  "Real statistics built as physical objects; your own numbers or published open data.": "တကယ့်စာရင်းအင်းတွေကို ရုပ်ဝတ္ထုပစ္စည်းတွေအဖြစ် တည်ဆောက်ထားတာ၊ သင့်ကိုယ်ပိုင် ကိန်းဂဏန်း ဒါမှမဟုတ် ထုတ်ပြန်ထားတဲ့ open data။",
+  "Recordings or data": "အသံသွင်းချက် ဒါမှမဟုတ် data",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "တကယ့် မှတ်တမ်းဟောင်း ရုပ်ရှင်၊ ဓာတ်ပုံနဲ့ စာရွက်စာတမ်းတွေကနေ ပြန်တည်းဖြတ်ထားတာ၊ သင့်ဟာက ဦးဆောင်ပြီး လိုတာကို မှတ်တမ်းတိုက်တွေက ဖြည့်ပါတယ်။",
+  "Red paper-cut scenes made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ အနီရောင် စက္ကူဖြတ် မြင်ကွင်းများ။",
+  "Redraws your real product's interface; screenshots help it match exactly.": "သင့်တကယ့်ထုတ်ကုန်ရဲ့ interface ကို ပြန်ဆွဲတာ၊ screenshot တွေက တိတိကျကျ တူအောင် ကူညီပါတယ်။",
+  "Reference photo": "ကိုးကား ဓာတ်ပုံ",
+  "Rendered found-footage of empty interiors, all made in code.": "လူမရှိတဲ့ အခန်းတွင်းတွေရဲ့ render လုပ်ထားတဲ့ found-footage၊ အားလုံး ကုဒ်နဲ့ ဖန်တီးထားတာ။",
+  "Reports, statements or memos about the event.": "ဖြစ်ရပ်နဲ့ပတ်သက်တဲ့ အစီရင်ခံစာ၊ ထုတ်ပြန်ချက် ဒါမှမဟုတ် memo များ။",
+  "Routes or map data": "လမ်းကြောင်း ဒါမှမဟုတ် မြေပုံ data",
+  "Routes, points or areas to draw on the map.": "မြေပုံပေါ်မှာ ဆွဲမယ့် လမ်းကြောင်း၊ အမှတ် ဒါမှမဟုတ် ဧရိယာများ။",
+  "STEP, IGES or KiCad exports of your product.": "သင့်ထုတ်ကုန်ရဲ့ STEP၊ IGES ဒါမှမဟုတ် KiCad export ဖိုင်များ။",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "သင့်မှာ မူပိုင်ခွင့်ရှိတဲ့ negative၊ စာ၊ ဓာတ်ပုံ ဒါမှမဟုတ် သတင်းဖြတ်ပိုင်းတွေရဲ့ scan များ။",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "သင့်မှာ မူပိုင်ခွင့်ရှိတဲ့ ထွင်းပုံဟောင်း၊ တံဆိပ်ခေါင်း ဒါမှမဟုတ် စာရွက်စာတမ်းအဟောင်းတွေရဲ့ scan များ။",
+  "Scans of reports, brochures, letters or photographs.": "အစီရင်ခံစာ၊ လက်ကမ်းစာစောင်၊ စာ ဒါမှမဟုတ် ဓာတ်ပုံတွေရဲ့ scan များ။",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "scan ဖတ်တဲ့ အလင်းတန်းက ဖော်ပြတဲ့ မြင်ကွင်းများ၊ ကုဒ်နဲ့ တည်ဆောက်ထားတာ၊ တကယ့် scan data မလိုပါ။",
+  "Schedules, filings or results shown as paper.": "စက္ကူအဖြစ် ပြထားတဲ့ အချိန်ဇယား၊ တင်သွင်းချက် ဒါမှမဟုတ် ရလဒ်များ။",
+  "Scratched-film animation made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ ဖလင်ခြစ် animation။",
+  "Screens of your product so the UI is redrawn accurately.": "UI ကို တိတိကျကျ ပြန်ဆွဲနိုင်ဖို့ သင့်ထုတ်ကုန်ရဲ့ မျက်နှာပြင်များ။",
+  "Shadow puppets on a lit screen, made in code.": "မီးထွန်းထားတဲ့ ပိတ်ကားပေါ်က အရိပ်ရုပ်သေးများ၊ ကုဒ်နဲ့ ဖန်တီးထားတာ။",
+  "Song lyrics, if this is a music video.": "ဒါက music video ဆိုရင် သီချင်းစာသား။",
+  "Stick figures act out the idea, drawn in code.": "တုတ်ချောင်းလူရုပ်လေးတွေက အကြံကို သရုပ်ဆောင်ပြတာ၊ ကုဒ်နဲ့ ဆွဲထားတာ။",
+  "Streamlines of a real or modelled field such as wind or currents.": "လေ ဒါမှမဟုတ် ရေစီးကြောင်းလို တကယ့် ဒါမှမဟုတ် မော်ဒယ်လုပ်ထားတဲ့ field တစ်ခုရဲ့ စီးကြောင်းမျဉ်းများ။",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "စာရွက်က တကယ့် data ကို ပြမယ်ဆိုရင် plot ဆွဲမယ့် စစ်တမ်း၊ မြေမျက်နှာသွင်ပြင် ဒါမှမဟုတ် တိုင်းတာထားတဲ့ data။",
+  "Swiss grid motion graphics made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ Swiss grid motion graphics။",
+  "The report or document the numbers come from, as PDF.": "ကိန်းဂဏန်းတွေ ယူထားတဲ့ အစီရင်ခံစာ ဒါမှမဟုတ် စာရွက်စာတမ်း၊ PDF အဖြစ်။",
+  "The report your figures come from.": "သင့်ကိန်းဂဏန်းတွေ ယူထားတဲ့ အစီရင်ခံစာ။",
+  "The site to survey, if not clear from your topic.": "သင့်အကြောင်းအရာကနေ မရှင်းရင် စစ်တမ်းကောက်မယ့် နေရာ။",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "နေရာရဲ့ time-lapse၊ hyperlapse၊ လေကြောင်းရိုက်ပုံ ဒါမှမဟုတ် ဓာတ်ပုံများ။",
+  "UI screenshots": "UI screenshot များ",
+  "Ukiyo-e woodblock prints made in code.": "ကုဒ်နဲ့ ဖန်တီးထားတဲ့ Ukiyo-e သစ်သားထွင်း ပုံနှိပ်များ။",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "နေရာရဲ့ တကယ့် ဂြိုဟ်တုပုံတွေကို သုံးတာ၊ သင့်မှာမရှိရင် အများသုံး ပုံတွေကို ကျွန်ုပ်တို့ ယူပေးပါမယ်။",
+  "Video or audio of the same event from several angles.": "ဖြစ်ရပ်တစ်ခုတည်းကို ထောင့်အမျိုးမျိုးကနေ ရိုက်ထားတဲ့ ဗီဒီယို ဒါမှမဟုတ် အသံ။",
+  "Voice recording": "အသံသွင်းဖိုင်",
+  "Whole-slide scans or micrographs with a scale.": "scale ပါတဲ့ whole-slide scan ဒါမှမဟုတ် micrograph များ။",
+  "Your GIS layers": "သင့် GIS layer များ",
+  "Your character designs or product photos; otherwise generated.": "သင့်ဇာတ်ကောင်ဒီဇိုင်း ဒါမှမဟုတ် ထုတ်ကုန်ဓာတ်ပုံများ၊ မဟုတ်ရင် generate လုပ်ပေးပါမယ်။",
+  "Your figures as a table; otherwise open published data is used.": "သင့်ကိန်းဂဏန်းတွေကို ဇယားအဖြစ်၊ မဟုတ်ရင် ထုတ်ပြန်ထားတဲ့ open data ကို သုံးပါမယ်။",
+  "Your figures, e.g. from an annual or ESG report.": "သင့်ကိန်းဂဏန်းများ၊ ဥပမာ နှစ်ပတ်လည် ဒါမှမဟုတ် ESG အစီရင်ခံစာကနေ။",
+  "Your footage": "သင့်ဗီဒီယို",
+  "Your own character or product designs; otherwise they are generated.": "သင့်ကိုယ်ပိုင် ဇာတ်ကောင် ဒါမှမဟုတ် ထုတ်ကုန် ဒီဇိုင်းများ၊ မဟုတ်ရင် generate လုပ်ပေးပါမယ်။",
+  "Your own footage or b-roll stills to grade into the package.": "package ထဲကို အရောင်ညှိပြီး ထည့်မယ့် သင့်ကိုယ်ပိုင် ဗီဒီယို ဒါမှမဟုတ် b-roll ဓာတ်ပုံများ။",
+  "Your own narration; otherwise we use a synthetic voice.": "သင့်ကိုယ်ပိုင် နောက်ခံစကားပြော၊ မဟုတ်ရင် ကျွန်ုပ်တို့ synthetic အသံကို သုံးပါမယ်။",
+  "Your own site, drone or terrestrial scan.": "သင့်ကိုယ်ပိုင် site၊ drone ဒါမှမဟုတ် မြေပြင် scan။",
+  "Your own surveys or GIS layers, if the place is yours.": "နေရာက သင်ပိုင်ရင် သင့်ကိုယ်ပိုင် စစ်တမ်း ဒါမှမဟုတ် GIS layer များ။",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "သင့်ကိုယ်ပိုင် ဗီဒီယို clip များ၊ မဟုတ်ရင် လိုင်စင်ပြဿနာမရှိတဲ့ မှတ်တမ်းဟောင်း ဗီဒီယိုကို ရှာပေးပါမယ်။",
+  "Your subject drawn as a circuit board in code.": "သင့်အကြောင်းအရာကို circuit board အဖြစ် ကုဒ်နဲ့ ဆွဲထားတာ။",
+  "Reference clip": "နမူနာ ဗီဒီယို",
+  "A film whose feel you want; its rhythm is measured, not copied.": "ဒီလို ခံစားချက်မျိုး လိုချင်တဲ့ ဗီဒီယို။ အရှိန်အဟုန်ကို တိုင်းတာပြီး သုံးမှာပါ၊ ကူးမှာ မဟုတ်ပါ။",
+  "Voice-over script": "ပြောမယ့် စာသား (voice-over)",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "ရှိရင် ပြောစေချင်တဲ့ စာသား ထည့်ပါ။ မရှိရင် ရေးပေးပါမယ်။",
+  "Built from your product: screenshots and a link make the UI and copy real.": "သင့် product ကနေ တည်ဆောက်မှာပါ။ Screenshot နဲ့ link ပါရင် UI နဲ့ စာသားတွေ အစစ်အတိုင်း ဖြစ်ပါမယ်။",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "သင့် app ရဲ့ မျက်နှာပြင်တွေကို HTML နဲ့ ပြန်ဆောက်ပြီး အသံနဲ့ ရှင်းပြပါမယ်။ ပြချင်တဲ့ feature တစ်ခုစီရဲ့ screenshot ပို့ပေးပါ။",
+  "One idea carries the whole ad; your product appears as the result.": "Idea တစ်ခုတည်းက ကြော်ငြာတစ်ခုလုံးကို ဆွဲသွားပြီး သင့် product က ရလဒ်အဖြစ် ပေါ်လာပါမယ်။",
+  "Your video": "သင့်ဗီဒီယို",
+  "The talking video to caption; it is kept as it is.": "စာတန်းထိုးမယ့် ဗီဒီယို။ မူရင်းအတိုင်း ထားပါမယ်။",
+  "Key points for cards": "ကတ်မှာ ပြမယ့် အဓိကအချက်များ",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "ကတ်အဖြစ် ပြချင်တဲ့ နာမည်၊ ကိန်းဂဏန်း၊ အချက်တွေ။ မထည့်ရင် ပြောတာထဲက ရွေးပါမယ်။",
+  "Your song": "သင့်သီချင်း",
+  "A track you have the rights to; the film is cut to it.": "မူပိုင်ခွင့်ရှိတဲ့ သီချင်း။ ဗီဒီယိုကို ဒီသီချင်းနဲ့ ကိုက်အောင် ဖြတ်ပါမယ်။",
+  "Captions and cards are added over your own video.": "သင့်ဗီဒီယိုပေါ်မှာ စာတန်းထိုးနဲ့ ကတ်တွေ ထည့်ပေးပါမယ်။",
+  "A vertical clip; set the frame to 9:16.": "ဒေါင်လိုက် clip ပါ။ အချိုးကို 9:16 ရွေးပါ။",
+  "Cut to your own song; send the track.": "သင့်သီချင်းနဲ့ ကိုက်အောင် လုပ်ပါမယ်။ သီချင်းဖိုင် ပို့ပေးပါ။",
+  "Your logo": "သင့် logo",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "Logo ရဲ့ PNG၊ JPG ဒါမှမဟုတ် SVG ဖိုင်။ ရှိသလောက် အကြီးဆုံး၊ အသန့်ဆုံး ဖိုင်ပေးပါ။",
+  "Brand feel": "Brand ရဲ့ ခံစားချက်",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "Brand က ဘယ်လို လှုပ်ရှားစေချင်လဲ စကားလုံး ၃ လုံး၊ ဥပမာ - အေးဆေး၊ တိကျ၊ ဖော်ရွေ။",
+  "SVG or icon": "SVG ဒါမှမဟုတ် icon",
+  "An SVG, logo or icon to animate, if there is one.": "လှုပ်ရှားစေချင်တဲ့ SVG၊ logo ဒါမှမဟုတ် icon ရှိရင် ထည့်ပါ။",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "သင့် logo ကို ပို့ပေးပါ။ သန့်ရှင်းတဲ့ vector ပုံအဖြစ် ပြန်ဆွဲပြီး လှုပ်ရှားအောင် လုပ်ပေးပါမယ်။",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "App ဒါမှမဟုတ် website မှာ သုံးဖို့ Lottie .json ဖိုင်နဲ့ ကြည့်ဖို့ MP4 ရပါမယ်။",
+  "Article or notes": "ဆောင်းပါး ဒါမှမဟုတ် မှတ်စု",
+  "A post, notes or a sketch of the system to draw from.": "ဆွဲဖို့ အခြေခံမယ့် ဆောင်းပါး၊ မှတ်စု ဒါမှမဟုတ် စနစ်ပုံကြမ်း။",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "ဗီဒီယိုနဲ့ အတူ ပြင်လို့ရတဲ့ .excalidraw ဖိုင်၊ PNG နဲ့ GIF ပါ ရပါမယ်။",
+  "Character reference": "ဇာတ်ကောင် နမူနာပုံ",
+  "A drawing or photo of the character to keep the same in every scene.": "မြင်ကွင်းတိုင်းမှာ အတူတူ ဖြစ်စေချင်တဲ့ ဇာတ်ကောင်ရဲ့ ပုံ ဒါမှမဟုတ် ဓာတ်ပုံ။",
+  "One character, kept the same in every scene and episode.": "ဇာတ်ကောင် တစ်ယောက်ကို မြင်ကွင်းတိုင်း၊ အပိုင်းတိုင်းမှာ ပုံစံတူ ထားပေးပါမယ်။",
+  "Your clips": "သင့် clip များ",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "ကိုယ်တိုင်ရိုက်ထားတဲ့ ဒါမှမဟုတ် သုံးခွင့်ရှိတဲ့ ဗီဒီယို/ဓာတ်ပုံ။ ကျန်တာကို အခမဲ့ license ရှိတဲ့ နေရာတွေကနေ ရှာမယ် ဒါမှမဟုတ် ဖန်တီးမယ်။",
+  "Narration script": "ပြောမယ့် စာသား",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "ရှိရင် narrator ပြောရမယ့် စာသား ထည့်ပါ။ မရှိရင် ခေါင်းစဉ်ကနေ ရေးပေးပါမယ်။",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "ကိုယ့် clip၊ အခမဲ့ license ရှိတဲ့ footage နဲ့ Flow AI ပုံတွေကို code နဲ့ဆွဲတဲ့ infographic တွေနဲ့ ရောပြီး လုပ်ပါမယ်။ တခြား channel တွေရဲ့ ဗီဒီယိုကို မယူပါ။",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "ကိုယ့် clip၊ အခမဲ့ license footage၊ reaction/commentary အတွက် တခြား channel တွေရဲ့ clip နဲ့ Flow AI ပုံတွေကို infographic တွေနဲ့ ရောပြီး ထိုင်းအသံ narration နဲ့ လုပ်ပါမယ်။",
+  "Clip links": "Clip link များ",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "Reaction လုပ်မယ့် ဒါမှမဟုတ် ကိုးကားမယ့် YouTube/TikTok ဗီဒီယို link တွေ (space ခြားပြီး ထည့်ပါ)။",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "အမွေးနုနု Pip ၁၆၀ ကောင် ပဲစေ့လုကြတယ်။ မြန်တဲ့ကောင်တွေ အရင်စားရပြီး အရင်အားကုန်တယ်၊ မျိုးဆက် ၂၀ ကြာတော့ ဘုတ်တစ်ခုလုံး အပြာရောင်ပြောင်းသွားတယ်။",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "၁၉၂၆ ခုနှစ်။ ချားလ်စတန်အက အမေရိကန်တွေရဲ့ ဒူးကို ဖျက်ဆီးမယ်လို့ သတင်းစာတွေက ပြောတယ်၊ ဒါပေမဲ့ Ford ရဲ့ ပျော်ပွဲစားမှာတောင် ကလေးတွေက ကနေကြတုန်းပဲ။",
+  "3D & Miniature": "3D နဲ့ ပုံစံငယ်",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "လေယာဉ်ကို ဇောက်ထိုးရိုက်မိတဲ့ ၁၉၁၈ လေကြောင်းစာတိုက်တံဆိပ်ချပ်။ ဒေါ်လာ ၂၄ နဲ့ဝယ်၊ ဖြတ်ပြီး ပြန့်ကျဲသွားကာ နံပါတ် ၆၆ က အခုထိ ပျောက်နေတုန်း။",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "Reels၊ TikTok နဲ့ Shorts အတွက် 9:16 ကလစ်။ ပထမ စက္ကန့်မှာတင် ဆွဲဆောင်၊ လှုပ်ရှားစာလုံးကြီးတွေ၊ မြန်ဆန်တဲ့ စည်းချက်နဲ့ အသံပိတ်ထားလည်း ဖတ်လို့ရတဲ့ စာတန်းတွေ။",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "app ဒါမှမဟုတ် ဝက်ဘ်ဆိုက်အတွက် Lottie animation၊ .json ဖိုင်နဲ့ MP4 ပါပေးမယ်။ loader၊ icon၊ အောင်မြင်မှုပြ state၊ lower third၊ ကိန်းဂဏန်းရေတွက်စက်နဲ့ promo အတိုလေးတွေ။",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "တနင်္ဂနွေ မနက် မြို့ထဲ စက်ဘီးစီးတယ် — မုန့်တိုက်၊ ပန်းခြံ၊ မြစ်ကမ်း — နေရာတစ်ခုရောက်တိုင်း မင်တစ်ရောင်တိုးလာပြီး နေရာလွဲနေတဲ့ ပုံနှိပ်ပြား သုံးချပ် ထပ်ရိုက်မိသွားတယ်။",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "မုန့်ဖုတ်ဆိုင်က ကောင်လေးတစ်ယောက် တောင်စောင်းအောက် လိမ့်ဆင်းသွားတဲ့ ပေါင်မုန့်ကို လိုက်ဖမ်းပြီး ဗိုက်ဆာနေတဲ့ ကောင်မလေးကို တစ်ဝက်ခွဲပေးလိုက်တယ်။",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "အနက်ရောင်နောက်ခံပေါ် လက်နဲ့ဆွဲထားတဲ့ architecture ဒါမှမဟုတ် process diagram၊ လမ်းကြောင်းတစ်လျှောက် တောက်ပတဲ့အစက်တွေ ပြေးနေတယ်။ ပြင်လို့ရတဲ့ Excalidraw ဖိုင်နဲ့ GIF လည်း ပါတယ်။",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "ခန္ဓာကိုယ်ကို နောက်ပြန်လည်ပတ်တဲ့ စက်ရုံတစ်ခုလို ခွဲပြတယ်။ ၁၂:၃၀ က စားတဲ့ ဆန်းဝစ်ကို ဌာနတစ်ခုချင်း ဖြုတ်ခွဲပြီး ခြောက်နာရီအကြာမှာ ဘတ်စ်ကားမီအောင် ပြေးတဲ့အားဖြစ်သွားတယ်။",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "အုတ်ခဲအရုပ် အာကာသယာဉ်မှူးက အပိုအစိတ်အပိုင်းတွေနဲ့ ဒုံးပျံဆောက်ပြီး အုတ်ခဲလပေါ် ပျံသွားတယ်။",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "ကတ်ထူပြား အရုပ်ပြဇာတ်ရုံ။ ပုံစံပါစက္ကူ၊ စတစ်ကာအနားသတ်ပါတဲ့ gouache ဖြတ်ပုံတွေနဲ့ စင်ပေါ် ရွှေ့လျားနေတဲ့ နောက်ခံကားချပ်တွေ။",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "နေရောင်ကျနေတဲ့ စားပွဲပေါ်မှာ ကြောင်ဓာတ်ပုံတစ်ပုံ app ကတ်တွေကို ခုန်ကျော်ပြီး ဖုန်းတစ်လုံးကနေ သူငယ်ချင်းဖုန်းဆီ ရောက်သွားတယ်။",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "သင်ကနေ သူစိမ်းတစ်ယောက်ဆီအထိ လက်ကွင်းဆက်။ ၁၉၆၇ မှာ စာတွေနဲ့ စမ်းခဲ့၊ ကမ္ဘာထက်ကြီးလာတဲ့ ကွင်းတွေနဲ့ ရှင်းပြ၊ ကမ္ဘာကို ပတ်ပြီး ပြည့်စုံသွားတယ်။",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "ဆွဲငင်အားကို စမ်းသပ်ပြီး မနက် ၄ နာရီ parkour လုပ်တဲ့အတွက် ဝဝတုတ်တုတ် ကြောင်လိမ္မော်ရောင် တရားခံဖြစ်လာပေမဲ့ အပြစ်မရှိဘဲ လွတ်သွားတယ်။",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "ချော်လဲတတ်တဲ့ စစ်သင်တန်းသားတစ်ယောက် ငါးစက္ကန့် သင်တန်းကို ဖြတ်ကျော်တယ်၊ ပိုမြန်လာလိုက်တာ နောက်ဆုံး boss အထိ — အိမ်ကို ဆင်းသက်ဖို့။",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "ကော်ဖီခွက်တစ်ခုက ထွက်ပြေးတဲ့ သကြားတုံးကို မီးဖိုချောင်တစ်ခွင် လိုက်ဖမ်းတယ်၊ ၁၉၃၀ ကာတွန်းစတိုင်။",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "ကော်ဖီစိုက်ခင်းကနေ သင့်လက်ထဲအထိ ကော်ဖီရဲ့ ခရီး၊ isometric ကမ္ဘာတစ်ခုတည်းမှာ။",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "ဂီတဖျော်ဖြေပွဲ ပိုစတာတစ်ခု ဆွစ်ဒီဇိုင်း စည်းမျဉ်း ငါးချက်နဲ့ ကိုယ့်ဘာသာ layout ချတယ်၊ ပဉ္စမ စည်းမျဉ်းက တစ်ချက်တည်းကိုသာ ချိုးဖို့။",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "ပို့ဆောင်ရေး မိန်းကလေးတစ်ယောက် မိုးရေစိုနေတဲ့ နီယွန်မြို့ကို ဖြတ်ပြီး အရုဏ်ဦး ဒုံးလွှတ်ချိန်မတိုင်ခင် တိပ်ခွေတစ်ခု ပို့ရမယ်။",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "မာကာဘောပင်တစ်ချောင်းက ကမ်းခြေကနေ မိုးကုပ်စက်ဝိုင်း ဘယ်လောက်ဝေးလဲ တွက်ပြပြီး အဆတစ်ရာ မြင့်အောင်တက်ရင်တောင် ဆယ်ဆပဲ ပိုဝေးဝေး မြင်ရတယ်ဆိုတာ ပြတယ်။",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "လက်ချောင်းလောက်ရှည်တဲ့ မီးအိမ်ငါးလေး အမှောင်ထဲ ကီလိုမီတာဝက် တက်လာပြီး ကိုယ့်အလင်းနဲ့ကိုယ် အရိပ်ကိုဖုံးတယ်၊ ညတိုင်း တက်လာကြတဲ့ မရေမတွက်နိုင်တဲ့ သတ္တဝါတွေထဲက တစ်ကောင်ပဲ ဖြစ်နေတယ်။",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "ပိုးစုန်းကြူးရဲ့ မှိတ်တုတ်မှိတ်တုတ်က မေးခွန်းတစ်ခု။ ကောင်မလေးက သမင်အဖြစ် အဖြေရ၊ မုန်တိုင်းထဲမှာ အလင်းအားလုံး ဆုံးရှုံးပြီး နောက်ဆုံးအလင်းတစ်ခုနဲ့ အမှောင်တစ်ခုလုံးကို မေးလိုက်တယ်။",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "ခရေယွန်ရွာလေးပေါ် ပထမလူ ရှုထောင့်နဲ့ ပျံသန်းပြီး အဘိုးအိုတစ်ယောက်ရဲ့ ဥယျာဉ်ထဲက ပန်းတစ်ပွင့်ဆီ ရောက်တယ်၊ ပြီးတော့ သူ့မျက်လုံးတွေနဲ့ သူပြောတဲ့စကား။",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "ကြိုးကြာနီအုပ်တစ်အုပ် စည်းချက်တိုင်းမှာ လှုပ်ရှားတယ်၊ ငှက်ငယ်လေးတစ်ကောင်ကတော့ အမြဲ စည်းချက်တစ်ဝက် နောက်ကျတယ်။ တခြားငှက်တွေ ရေပေါ်ချန်ခဲ့တဲ့ လှိုင်းဂယက်တွေက စည်းချက်ကို သင်ပေးတယ်။",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "အရောင်ကွက်ထင်နေတဲ့ အယ်လ်ဘမ်စာမျက်နှာ။ ဆုတ်ဖြဲထားတဲ့ ကတ်တွေ၊ တိပ်၊ လက်နဲ့ အရောင်ခြယ်ထားတဲ့ ထွင်းပုံတွေ၊ လက်နှိပ်စက် တံဆိပ်တွေနဲ့ ပြန်ပေးဆွဲစာလို ညှပ်ထားတဲ့ စာလုံးတွေက ဇာတ်လမ်းပြောတယ်။",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "၁၉၃၀ ခမ်းနားတဲ့ ဟိုတယ်ကြီး။ bellboy လေးက ဓာတ်လှေကားနဲ့ လှည့်တံခါးတွေကို ပြိုင်ပြေးပြီး သန်းခေါင်မတိုင်ခင် စာတစ်စောင် ပို့ရမယ်။",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "နွေရာသီ အပူချိန် နှစ်တစ်ရာ၊ ဂရပ်ကိုယ်တိုင်က ဇာတ်လမ်းပြောပြတယ်။",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "ဘဝကို ငြီးငွေ့နေတဲ့ ပါရမီရှင်က ကော်ဖီဝယ်ဖို့သက်သက် portal ဖွင့်လိုက်ပြီး ပိုပိုထူးဆန်းလာတဲ့ စကြဝဠာတွေထဲ လိမ့်ကျသွားတယ်။",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "လေဆာ စစ်တမ်းက ကွန်နက်တီကတ် သစ်တောရဲ့ အုပ်မိုးကို ခွာလိုက်တော့ ၃.၄ ကီလိုမီတာရှည်တဲ့ ရှေးလယ်ယာ နံရံတွေ တွေ့ရတယ်။",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "တစ်ဆက်တည်း ရိုက်ထားတဲ့ app launch ရုပ်ရှင်။ prompt bar က ပြက္ခဒိန်အဖြစ် ပွင့်လာ၊ ပြက္ခဒိန်က ဖုန်းထဲ စီးဝင်သွားပြီး အခိုက်အတန့်တိုင်းက အရင်တစ်ခုကနေ ပေါက်ဖွားလာတယ်။",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "စာတစ်စောင်၊ ဖုန်းခေါ်သံ၊ ပြတင်းပေါက် နံရံ၊ လှေကားထစ် ဆယ့်သုံးထစ်။ နောက်လှည့်မကြည့်နဲ့လို့ ပြောခဲ့တဲ့ ကောင်မလေးက ခေါင်းလှည့်လာတဲ့အထိ တစ်လှမ်းစီ ပိုနီးလာတယ်။",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "ဇူးမ်မှန်ဘီလူးကို မျက်လုံးလုပ်ထားတဲ့ စူးစမ်းစက်လေးက နောက်ထပ်ရပ်နားမယ့်နေရာဆီ အစက်ချ ချိန်ရွယ်မျဉ်း ပစ်လွှတ်ပြီး နဂါးငွေ့တန်းကနေ ဗိုင်းရပ်စ်အထိ ခေါ်သွားတယ်။",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "လပေါ်စခန်းက AI တစ်ခု အနှစ်လေးဆယ်ကြာမှ ကမ္ဘာက အချက်ပြကြောင့် နိုးလာပြီး စာလုံးတွေနဲ့ “အိမ်” ဆိုတာ ဆွဲပြီး ပြန်ဖြေတယ်။",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "သင့်သီချင်းကိုယ်တိုင်နဲ့ ဖြတ်ညှပ်ထားတဲ့ MV။ စည်းချက်နဲ့ အပိုင်းတွေကို သီချင်းကနေ တိုင်းယူပြီး သီချင်းစာသား၊ ပုံသဏ္ဌာန်နဲ့ အရောင်တွေ လိုက်လှုပ်ရှားတယ်။",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "ဘယ်တော့မှ မမြင်ရတဲ့ ဇာတ်ကြောင်းပြောသူ။ တကယ့်ရုပ်ရှင်ကွင်း၊ 3D နဲ့ AI အစားထိုးပုံ၊ အတိုင်းအတာ infographic၊ မြေပုံနဲ့ စာတန်းတွေ အလှည့်ကျ ပြောပြတဲ့ အံ့မခန်း တကယ်ဖြစ်ခဲ့တဲ့ ဇာတ်လမ်း။",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "သဘာဝသမိုင်း ပုံချပ်တစ်ချပ် ကိုယ့်ဘာသာ ထွင်းတယ်။ ဆောက်က ကြေးပြားကို ဖြတ်၊ ပျားက မျဉ်းတစ်ကြောင်းချင်း ပေါ်လာပြီး ရေဆေး တစ်ထပ်က အသက်သွင်းပေးတယ်။",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "နီယွန်ကြောင်တစ်ကောင် လမ်းထိပ်က ဆိုင်းဘုတ်ပေါ်က ရွှေငါးကို သွားဖမ်းရင်း ငါးကန်ကို ကွဲသွားစေပြီး မှိန်လာတဲ့ငါးကို မိုးထဲ ပြေးသယ်ကာ ကိုယ့်ဆိုင်းဘုတ်ပေါ်က ဖန်ခွက်ထဲ ပြန်ထည့်တယ်။",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "ညဆိုင်း ဝန်ထမ်းအသစ်က အဆုံးမရှိတဲ့ အဝါရောင်ရုံးခန်းထဲ ပထမဆုံးညကို နံရံပေါ်က စည်းကမ်းတွေအတိုင်း လိုက်နာရင်း ရိုက်ကူးတယ်။",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "ဘောပင်ကြမ်းပုံ သက်သက်ဖြစ်တဲ့ ပန်းခြံ။ လေက သူမရဲ့ ကောက်ရိုးဦးထုပ်ကို ဘယ်ကို သယ်သွားသွား အရောင်တွေ နောက်က လိုက်လာတယ်။",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "ဖုန်းကို ထောင့်ကနေ ကိုင်ရင် လိုင်းပြတ်တယ်။ ဖြုတ်ကြည့်တော့ သတ္တုဘောင်က အင်တာနာ ဖြစ်နေပြီး သင့်လက်က ဆက်ပေးနိုင်တဲ့ အပိုင်းတွေ ဖြတ်ထားတာ တွေ့ရတယ်။",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "စားပွဲပေါ်မှာ pop-up စာအုပ်တစ်အုပ် ပွင့်လာပြီး Pip လို့ခေါ်တဲ့ နတ်သားလေးက စက္ကူကမ္ဘာတွေထဲ စွန့်စားကာ ကျွန်တော်တို့ကမ္ဘာထဲ ခုန်ထွက်လာတယ်။",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "ပုံနှိပ် မြေအောက်ရထား မြေပုံက ၁၉၉၃ မှာ ၆ ကီလိုမီတာ လိုင်းတစ်ခုကနေ လိုင်း ၂၁ ခု၊ ၉၀၆ ကီလိုမီတာ အထိ ကြီးထွားလာတယ်။",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "အသံနဲ့ ထုတ်ကုန် လမ်းညွှန်။ screenshot တွေကနေ app ရဲ့ UI ကို ပြန်တည်ဆောက်၊ feature တစ်ခုချင်းဆီ ကင်မရာ ချဉ်းကပ်၊ စာတန်းနဲ့ အဲဒီ ရုပ်ရှင်ကိုပဲ တခြားဘာသာစကားတွေနဲ့။",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "ပရိုဂျက်တာက ရော့တာဒမ်ရဲ့ အဖြူရောင် မော်ဒယ်ကို အလွှာလိုက် အရောင်ခြယ်တယ်၊ ၁၉၄၀ က ကွက်လပ်ကနေ ဒီနေ့ မိုးမျှော်တိုက်တွေအထိ။",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "စက်ရုပ် ဖုန်စုပ်စက်ကို အဆင့်သုံးဆင့်နဲ့ တပ်ဆင်ပုံ၊ ၁၉၅၀ ခုနှစ်တွေက စာသင်ခန်း ရုပ်ရှင်လို ပြောပြထားတယ်။",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "ဂြိုဟ်တုက မြေပုံအတိုင်း အာရယ်ပင်လယ်ဆီ လိုက်သွားတော့ သဲကန္တာရကို တွေ့တယ်၊ တစ်ယောက်ယောက် ဆည်ပိတ်ထားတဲ့ အပိုင်းကပဲ ပြန်ရလာတယ်။",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "ပါ့ခ်စ်မှာ မုန်တိုင်း၊ ၁၉၆၉ ဇူလိုင် ၂၁။ အကန့်အသတ်အထိ စောင်းထားတဲ့ ၆၄ မီတာ ပန်းကန်ပြား အင်တာနာက ခံနိုင်ရည်ရှိရှိ ကမ္ဘာ့အတွက် လပေါ်လမ်းလျှောက်ခြင်းကို ဖမ်းယူတယ်။",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "လမ်းပေါ် ဓာတ်ပုံဆရာမက ပြေးနေတဲ့ အလင်းကို ခိုများတွေ ပျံတက်တဲ့ အခိုက်အထိ လိုက်တယ်။ သူမရဲ့ အိတ်ဆောင်ကင်မရာက အဲဒီ တစ်စက္ကန့်ကို ကွက် သုံးဆယ် ခွဲပေးတယ်။",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "ဓားသမားက ရေပေါ်က မြစ်ကို ဖြတ်ကူးပြီး ဓားတစ်ချက်တည်းနဲ့ ရေစီးကြောင်းကို ခွဲလိုက်တယ်။",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "နှင်းကျတဲ့ညမှာ အပူချိန်ကင်မရာက တိုက်ခန်းအဟောင်းကို ပတ်ကြည့်တယ်။ အပူယိုတဲ့ ပြတင်းပေါက်၊ နံရံထဲက ပိုက်တွေ၊ နွေးနေတဲ့ ကားဘောနက်ပေါ် အိပ်နေတဲ့ကြောင်နဲ့ ပြုပြင်ပြီး တစ်နှစ်အကြာ အဲဒီ အဆောက်အအုံ။",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "ခရီးသွားတစ်ယောက် full-bleed silkscreen ပိုစတာ တစ်ချပ်ပြီးတစ်ချပ်နဲ့ ကမ္ဘာကို ဖြတ်တယ်၊ လက်မှတ်ပိုင်းက အိမ်နဲ့ အကွာအဝေးကို ရေတွက်ပြီး ဟိုဘက်ကမ်းက ပြန်လမ်း ဖြစ်လာတဲ့အထိ။",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "ခရီးသွားတစ်ယောက် အဝေးက တောင်ဆီ လျှောက်တယ်။ shot တိုင်းက သစ်သားပုံနှိပ်၊ climax မှာ လှိုင်းကြီး၊ အဆုံးမှာ တောင်နဲ့ ပုံလိပ်တစ်ခုလုံး။",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "ရွာတစ်ရွာ ဆောင်းရာသီ တစ်ခုလုံး ခေါင်းလောင်းတစ်လုံး သွန်းတယ်၊ ပထမဆုံး မြည်လိုက်တဲ့အခါ နှင်းကျတာ ရပ်သွားတယ်။",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "ဘက်ထရီမပါတဲ့ နာရီကို ခွဲလိုက်တယ်။ စနစ်သုံးခုကို တစ်ခုချင်း ဆိုးဆေးဆိုး၊ escapement ကို ဆွဲထုတ်တော့ ဂီယာတွေ အရှိန်နဲ့ လည်ပြီး နှေးသွားတဲ့ တစ်ချက်တည်းက အားလုံးကို ပြန်လွှတ်ပေးတယ်။",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "ဘတ်စ်ကားပေါ် ကျန်ခဲ့တဲ့ ထီးဝါတစ်လက် ပစ္စည်းပျောက် စင်ပေါ်မှာ နေသာတဲ့နေ့ကို စောင့်ပြီး မုန်တိုင်းပြန်လာတော့ နောက်ထပ် ၃၁၂ လက်နဲ့အတူ ပွင့်လာတယ်။ ပစ္စည်း၊ ယာဉ်၊ ရာသီဥတုနဲ့ ဆိုင်းဘုတ်တွေကို စည်းချက်ညီ ဂျီဩမေတြီ pictogram တွေအဖြစ်။",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "အယ်လ်ကိုဟောမာကာနဲ့ cel အရောင်ဖြည့်၊ မျဉ်းထူအောက်မှာ အနားထက်တဲ့ အရိပ်။ လှုပ်ရှားနေတဲ့ တောက်ပ ကာတွန်းကမ္ဘာ။",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "ဆိုင်တွေက ငှက်ပျောသီး အားလုံးနီးပါးဟာ ပင်တစ်ပင်တည်းကို ကူးထားတာ။ တစ်ပုံစံတည်း ပုံနှိပ်တွေနဲ့ နံရံ၊ အစက်တွေ စားလို့ မည်းသွားတဲ့ ငှက်ပျောအဟောင်းနဲ့ ငှက်ပျောအများကြီး ဖြစ်လာတဲ့ အရောင်လှိုင်း။",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "၁၈၇၁ နဲ့ ၁၉၄၅ ကြား အယ်လ်ဆေ့စ်-လော်ရိန်း လက်လေးကြိမ်ပြောင်းတယ်။ တစ်ခါပြောင်းတိုင်း တစ်ယောက်ယောက်က စက္ကူကို ဆုတ်ပြီး အသစ်ကပ်တယ်၊ အဲဒီပေါ်မှာ နေတဲ့ အမျိုးသမီးကတော့ ဘယ်တော့မှ မပြောင်းခဲ့ဘူး။",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "အမေရိကမှာ ပျားအုံ သန်း ၁.၃ ဆုံးရှုံးခဲ့ပေမဲ့ အရေအတွက်က ၆% တက်လာတယ်။ အသံပိတ်ထားလည်း နားလည်တဲ့ သတင်းတို။",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "လျှပ်စစ်စက်ဘီးကို hologram အဖြစ် scan ဖတ်ပြီး ပစ်မှတ်ဘောင်တွေက ဘက်ထရီ၊ မော်တာနဲ့ ဘရိတ်ကို lock လုပ်တယ်။",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "တီထွင်သူရဲ့ blueprint က တိမ်ဖမ်းစက်ကို ဆွဲ၊ ဖြုတ်ခွဲ၊ ပြန်တပ်ပြီး revision cloud က မိုးရွာလာတယ်။",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "ဗလာပင်လယ်ကနေ ကျွန်းနဲ့ ရွာလေးက အကွက်လိုက် ပေါ်လာတယ်၊ အကွက်တိုင်းက ဂီတသံတစ်ချက်၊ ကြယ်စုံတဲ့ညအထိ။",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "ညရထားဟောင်းရဲ့ နောက်ဆုံးခရီး၊ နှင်းဖုံးတောင်ပေါ် ဘူတာလေးကနေ ဥမင်ရှည်ကိုဖြတ်ပြီး ပင်လယ်ဆီ၊ လမ်းဆုံးမှာ မီးလင်းနေတဲ့ ပြတင်းပေါက်တွေ တစ်ခုချင်း ငြိမ်းသွားတယ်။",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "ညဘက် စားပွဲမီးအောက်မှာ pen plotter က တကယ့် အမြင့်ဒေတာနဲ့ ဘောပင် လေးချောင်းသုံးပြီး ချိုမိုလန်မာ တောင်ကို ဆွဲတယ်၊ အမြင့်ကို နောက်ဆုံးမှ ရေးတယ်။",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "နောက်ဆုံး boss တံခါးရှေ့မှာ သူရဲကောင်းက ဂိမ်းကို save လုပ်တော့ save screen က ခရီးတစ်ခုလုံးကို ပြန်ပြတယ်။",
+  "Cartoons": "ကာတွန်း",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "မြေဖြူက စာလုံးနှစ်လုံးအကြောင်း လူကြိုက်များတဲ့ အဆိုတစ်ခုကို ရေး၊ ဖျက်ပြီး 射 ကို နှစ်သုံးထောင် နောက်ပြန် ခြေရာခံတယ်။",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd က terminal ထဲကနေ Claude app ထဲ ခုန်ဝင်ပြီး plan mode နဲ့ ကိုယ့်ကိုယ်ကို စစ်ဆေးခြင်းကို တစ်ဆက်တည်း သရုပ်ပြတယ်။",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "သပ်ရပ်တဲ့ pen-tool ပုံသဏ္ဌာန်၊ ပြားချပ်ချပ် အရောင်ဖြည့်၊ အရိပ်ရှည်နဲ့ အစေ့အဆံ ပါးပါး။ လှုပ်ရှားနေတဲ့ ခေတ်မီ သရုပ်ဖော်ပုံ။",
+  "Data & Maps": "ဒေတာနဲ့ မြေပုံ",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "သစ်ပင်တွေ အချင်းချင်း အစာကျွေးကြသလား။ ခဲတံပုံက မြက်ခင်းအောက် နစ်ဆင်းပြီး မှိမျှင်တစ်လျှောက် သကြားစေ့တစ်စေ့ကို နောက်သစ်ပင်ဆီ လိုက်သွားကာ မြေအောက်မှာ ချိတ်ဆက်နေတဲ့ သစ်တောတစ်ခုလုံးကို ပြန်ဆုတ်ပြတယ်။",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "ပထမပိုင်း ၀-၃ နဲ့ နောက်ကျနေတဲ့ Fenerbahçe က ၁၂ မိနစ်အတွင်း သုံးဂိုး သွင်းတယ်။ freeze၊ ဆွဲမျဉ်း၊ split screen၊ shot map။",
+  "Edit & Documentary": "တည်းဖြတ်နဲ့ မှတ်တမ်းရုပ်ရှင်",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "၁၉၆၆ ဖေဖော်ဝါရီ။ လရဲ့ ပထမဆုံး အနီးကပ်ပုံက အင်္ဂလိပ် ရေဒီယို တယ်လီစကုပ်ဆီ သတင်းစာ fax အဖြစ် ရောက်လာတယ်၊ မင်နှစ်ရောင်နဲ့ တစ်ကြောင်းချင်း ရိုက်ထုတ်၊ တစ်ရက်စော ပြီး အရှည်လွန်နေတယ်။",
+  "Film & Tape": "ဖလင်နဲ့ တိပ်",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "သြစတြေးလျရဲ့ အနီရောင် သဲကန္တာရ အလယ်ကနေ အစိမ်းရောင် ကမ်းရိုးတန်းအထိ မိုးရေကို လိုက်ပါ၊ ဆေးခြယ် လမ်းလျှောက်ခရီး တစ်ဆက်တည်း။",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "တစ်ပတ်အတွင်း AI သတင်း လေးပုဒ်ကို ထုတ်လွှင့်ရေး package အပြည့်နဲ့။ rundown၊ ခေါင်းစီးတန်း၊ စျေးနှုန်းဘုတ်နဲ့ spec ကတ်။",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "တံတားအမျိုးအစား လေးမျိုးကို briefing နံရံ တစ်ခုတည်းမှာ စမ်းသပ်ပြီး အောက်ကဖြတ်ရမယ့် သင်္ဘောက အနိုင်ရသူကို ရွေးတယ်။",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "ကမ္ဘာလုံးကနေ ကမ္ဘာ့ရေနံ ငါးပုံတစ်ပုံ ဖြတ်စီးတဲ့ ရေလက်ကြားထဲ ဆင်းကြည့်တယ်။ လမ်းကြောင်းနှစ်ခု၊ ပင်လယ်ကြမ်းပြင်ကို ဖြတ်ထားတဲ့ မြောင်းနဲ့ အနည်းငယ်ပဲ လွှဲသယ်နိုင်တဲ့ ပိုက်လိုင်းတွေ။",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "နေဝင်ချိန် တောင်တန်းကနေ ပင်လယ်ဆီ။ သမင်၊ ဝံပုလွေ၊ လင်းယုန်၊ ဆယ်လ်မွန်ငါးနဲ့ ဝေလငါး တစ်ကောင်ချင်း ကိုယ့်နေရာကို ပုံရိပ်ထဲ သယ်ထားပြီး ဝေလငါးရဲ့ ဆိပ်ကမ်းက တကယ့် ကမ်းခြေပေါ် ကျရောက်လာတယ်။",
+  "Games": "ဂိမ်း",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "ညင်သာတဲ့ ပုံပြင်စာအုပ် ခဲတံနဲ့ ရေဆေး၊ ဇာတ်ကွက်တိုင်းမှာ ပုံစံမပြောင်းတဲ့ ဇာတ်ကောင်တစ်ယောက်အတွက် ဆွဲထားတယ်။",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "ခဲတံပေါ်မှာ gouache နဲ့ ရေဆေး။ ရှေ့မှာ ထူထူ၊ အဝေးမှာ ပါးလာပြီး ရေဆေးပါးနဲ့ ခဲတံမျဉ်း သက်သက်ဖြစ်လာတယ်။",
+  "Graphic & Type": "ဂရပ်ဖစ်နဲ့ စာလုံး",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "open-source ကီးဘုတ်တစ်ဝက်က ပတ်လည်လှည့်ရင်း chip အထိ ဖြုတ်ခွဲပြီး တကယ့် အတိုင်းအတာနဲ့ ပြန်ပိတ်တယ်။",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "စက်ဝိုင်းတွေနဲ့ စတုရန်းကို ဘယ်လိုလှိမ့်မလဲ။ လည်နေတဲ့ စက်ဝိုင်းတွေ ထပ်ပြီး square wave ဖြစ်လာ၊ ထောင့်တစ်ခုထဲ ဆင်းကြည့်တော့ ဘယ်တော့မှ မပျောက်တဲ့ ၉% spike ကို တွေ့တယ်။",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "သင့်ဖုန်းက သင်ဘယ်မှာလဲ ဘယ်လိုသိလဲ။ GPS၊ အဏုမြူနာရီတွေနဲ့ နှိုင်းရသီအိုရီက နေ့တိုင်း ပေါင်းထည့်တဲ့ မိုက်ခရိုစက္ကန့် ၃၈။",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "မီးခိုးရောင် မိုးရွာနေတဲ့ ရင်ပြင်မှာ ထီးနီတစ်လက် ပွင့်လာပြီး ဝေါ့ဇ်တီးလုံးက ရင်ပြင်တစ်ခုလုံးကို အရောင်ခြယ်ပေးတယ်။",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "ရွှေရောင်ပဲ တောက်ပတဲ့ ဆေးခြယ်ကမ္ဘာမှာ နေမင်း ငြိမ်းသွားတယ်။ ကောင်မလေးက နောက်ဆုံး မီးအိမ်ကို တောင်ပေါ် သယ်တက်ပြီး အလင်းကို ပြန်ပေးတယ်။",
+  "Instruments & Evidence": "တူရိယာနဲ့ အထောက်အထား",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "စိတ်ကူးယဉ် app Tidy ရဲ့ launch ရုပ်ရှင်။ မြုပ်နေတဲ့ cursor တစ်ခုက ပြတင်းပေါက် ရာနဲ့ချီကို နေရာပြန်ချပေးတယ်။",
+  "Light & Lines": "အလင်းနဲ့ မျဉ်း",
+  "Line Diagrams": "မျဉ်း Diagram",
+  "Logo & Lottie": "Logo နဲ့ Lottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "မော်ဒယ်လိုမြင်ရတဲ့ မြို့လေးရဲ့ မနက် အလုပ်သွားချိန်။ ယာဉ်ကြော၊ ရထားတွေနဲ့ လူသေးသေးလေးတွေ။",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "သတင်းရုပ်ရှင်၊ ဓာတ်ပုံ၊ ထွက်ဆိုချက်နဲ့ ၁၉၃၇ စုံစမ်းစစ်ဆေးချက်ကို နာရီတစ်ခုတည်းပေါ် တင်တယ်။ အရင်းအမြစ် ငါးခုလုံး နေရာတစ်ခုတည်းကို ညွှန်တယ်။",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "နှစ်သစ်ကူးညမှာ Nian သားရဲ မြို့ထဲ ရောက်လာပြီး ကောင်မလေးတစ်ယောက်ရဲ့ စက္ကူဖြတ်ပုံကြီးက ရွာကို လင်းထိန်စေကာ ခြောက်လှန့်မောင်းထုတ်တယ်။",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "ပျားတစ်ကောင် တစ်သက်လုံးမှာ ပျားရည် လက်ဖက်ရည်ဇွန်း ၁/၁၂ ပဲ ထုတ်တယ်။ ဘောပင်က အဝါရောင် အစက်တစ်စက်ကို ပန်းကနေ ပုလင်းအထိ လိုက်ပြီး စာမျက်နှာတစ်ခုလုံး ပိုစတာ ဖြစ်လာတယ်။",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "ခရင်မ်ရောင် စက္ကူပေါ် ဘောပင်အပြာ တစ်ချောင်း။ အရိပ်အလင်းက ခြစ်မျဉ်းနေရာကနေ သက်သက်၊ မှတ်စုစာအုပ်ထဲက ပုံ အသက်ဝင်လာသလို။",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "အသည်း slide ကနေ နျူကလိယ တစ်ခုတည်းဆီ တစ်ဆက်တည်း ရွေ့တယ်။ pixel တစ်ခုချင်း ရေတွက်ထားတဲ့ စက်ဝိုင်းနှစ်ခုဟာ အပြာရောင်မှာ ၂.၄ ဆ ကွာတယ်။",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "နယူးယောက်ရဲ့ တစ်နေ့ကို time-lapse နဲ့။ အလင်းမြစ်တွေ၊ ဆယ့်ခြောက်ပုံတစ်ပုံ စည်းချက်ပေါ်က grid နဲ့ ၁၈၉၉ ကို ဒီနေ့ဘေးမှာ။",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "အစက်တစ်စက် ဆယ်နှစ်တိုင်း နှစ်ဆဖြစ်တယ်။ နှစ်ခုနစ်ဆယ်ကြာ ၁၂၈၊ အတိုးပေါ်အတိုး မရှိရင် ၆.၀၂ ပဲ၊ နောက်ဆုံး ဆယ်နှစ်က ကျန်တာ အားလုံးနဲ့ တန်တယ်။",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "ပါးလွှာတဲ့ technical pen တစ်ချောင်းနဲ့ အပေါ်ကနေ တည့်တည့် အစက်ချတယ်။ အရိပ်အလင်းက အစက်သိပ်သည်းမှု သက်သက်၊ ရှေးဟောင်း သဘာဝသမိုင်း ပုံချပ်လို။",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "အိုင်ဒီယာ တစ်ခုတည်းက ကြော်ငြာတစ်ခုလုံးကို သယ်တယ်။ စားပွဲပေါ်က chain reaction မှာ အခိုက်တိုင်းက နောက်တစ်ခုကို စတင်စေတဲ့ တိုက်မိမှု၊ ကီးတစ်ချက်နှိပ်ရာကနေ ပြီးစီးတဲ့ အလုပ် ဆယ်ခုအထိ။",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "လေဆိပ် လုံခြုံရေး စစ်ဆေးစက်မှာ ညတစ်ည။ power bank၊ ရေဘူးတစ်ဘူးနဲ့ CT ထဲ လှုပ်ရှားနေတဲ့ အရှင် ဂဏန်း ခြောက်ကောင်။",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "မြစ်ကွေ့တစ်ခု၊ ရာသီလေးခု၊ တစ်ဆက်တည်း။ သစ်ပင်ကြီး ကုန်းကွကာ ပြန်ကန်တက်တိုင်း ရာသီ ပြောင်းတယ်။",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "နွေးတဲ့ စက္ကူပေါ် မင်ဘောပင် ပါးပါး တစ်ချောင်း။ လက်ဖက်ရည်ဆိုင်နဲ့ ရေချိုးအိမ်တွေရှိတဲ့ တူးမြောင်းလမ်း၊ ကိုယ့်အလုပ်ကိုယ်လုပ်နေတဲ့ ရွာသားတွေနဲ့ နေ့ကနေ ညပြောင်းတဲ့အခါ လင်းလာတဲ့ ပြတင်းပေါက်တွေ။",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "မပြတ်တဲ့ မျဉ်းတစ်ကြောင်းက ဘဝတစ်ခုလုံးကို ဆွဲပြီးနောက် ဘောပင်ကို ကလေးတစ်ယောက်ဆီ လွှဲပေးတယ်။",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "စိတ်ကူးယဉ် ၁၉၆၄ သူလျှို ရုပ်ရှင်ရဲ့ အဖွင့်ခေါင်းစဉ်။ ခိုးယူခံရတဲ့ သော့ကို လိုက်ရင်း ပုံသဏ္ဌာန်တွေ ခေါင်းစဉ်အဖြစ် ချိတ်မိသွားတယ်။",
+  "Painting & Illustration": "ပန်းချီနဲ့ သရုပ်ဖော်",
+  "Print & Printmaking": "ပုံနှိပ်နဲ့ ပုံနှိပ်အနုပညာ",
+  "Product Launch · onetake": "ထုတ်ကုန် Launch · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "ဟော့ကိုင်းဒိုး ချိုင့်ဝှမ်းထဲက ခေါင်းနီ ကြိုးကြာတွေ၊ scratchboard တစ်ဆက်တည်း၊ ၃၃ ကနေ ၁,၉၂၇ အထိ နောက်ပြန် ရေတွက်တယ်။",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "ဆည်ကနေ ဖုန်းအားသွင်းကြိုးဆီ လျှပ်စီး ၂,၀၈၀ ကီလိုမီတာ စီးဆင်းရင်း မြစ်တွေက ကြေးနီ trace တွေ ဖြစ်လာတယ်။",
+  "Screens & Interfaces": "မျက်နှာပြင်နဲ့ Interface",
+  "Sketch & Board": "ကြမ်းပုံနဲ့ ဘုတ်",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "နိမ့်နေတဲ့ နေရောင်တစ်ခုအောက် ချောမွေ့တဲ့ surreal ဆီဆေး glaze။ မဖြစ်နိုင်တဲ့ အရာဝတ္ထုတွေ၊ အရိပ်ရှည်တွေနဲ့ တိတ်ဆိတ်တဲ့ အိပ်မက်ယုတ္တိ။",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "ဘီချ်သစ်သား ကွင်းထဲက ပိတ်ချောပေါ် ချည်ကြိုးနဲ့ ထိုးထားတဲ့ ပန်းထိုး၊ ထိုးချက်တိုင်းကို မျက်နှာပြင်ပေါ်မှာ ချုပ်ပြတယ်။",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "အရုဏ်ကနေ ညနေထိ နေရောင်က ဘုရားရှိခိုးကျောင်းကြီးရဲ့ ပြတင်းပေါက်ကို ဖြတ်ပြီး သူရဲကောင်းနဲ့ နဂါး ပုံပြင်ရဲ့ မှန်ချပ်တစ်ချပ်ချင်းကို နိုးထစေတယ်။",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "နေမင်းဆယ်စင်း ကမ္ဘာကို လောင်ကျွမ်းစေတုန်း လေးသမား Hou Yi လေးကို ဆွဲတင်တယ်၊ မီးလင်းထားတဲ့ ကန့်လန့်ကာပေါ်က သားရေရုပ်သေးတွေနဲ့ ပြောပြထားတယ်။",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "အင်ပိုင်ယာစတိတ်ရဲ့ ၁၉၃၁ လက်ကမ်းစာစောင်က ဆောက်လုပ်သူတွေကို ဂုဏ်ပြုတယ်။ ဆောက်လုပ်ရေး ရုပ်ရှင်နဲ့ Hine ရဲ့ ဓာတ်ပုံတွေက ပြန်ဖြေတယ် — တစ်နေ့ ၂,၅၀၀။",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "သင့်ခွက်ထဲက ကော်ဖီက ချယ်ရီအနီသီး ပြန်ဖြစ်ပြီး ခွက်ဆီ ပြန်လမ်းလျှောက်လာတယ်။ မှည့်၊ အခြောက်လှန်း၊ လှော်၊ ကြိတ်၊ ခဲတံ စာမျက်နှာတစ်ခုတည်းပေါ် အရောင်တစ်ခါ တစ်ခုပြောင်းရင်း။",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "AI သမိုင်းကို rhythm game အဖြစ်။ model တွေ စည်းချက်နဲ့အညီ စင်ပေါ်တက်လာပြီး အမှတ်စာရင်းကတ်နဲ့ ရှိုးကို ပိတ်တယ်။",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "Artemis II ဒုံးလွှတ်ခြင်းရဲ့ နောက်ဆုံး မိနစ်၊ မဖြတ်မတောက်။ အကွက်တစ်ကွက် ကိုးကွက် ပွင့်လာပြီး မီးစလောင်ချိန်မှာ တစ်ကွက်တည်း ပြန်ပေါင်းသွားတယ်။",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "မီးပြတိုက် မှောင်သွားတယ်။ ကောင်မလေးက နောက်ဆုံး မီးတောက်ကို ညသစ်တောထဲ သယ်ပြီး မုန်တိုင်းထဲက ချောက်ကမ်းပါးကို တက်တယ်။",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "လမင်း အိပ်မပျော်လို့ ကောင်မလေးငယ်က အမိုးပေါ် တက်ပြီး ချော့သိပ်တေး ဆိုပေးတယ်။",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "ကြေးနန်းစာက ၅၇ စက္ကန့်လို့ ပြောတယ်။ မှန်ဘီလူးအောက်မှာ Wright ညီအစ်ကိုရဲ့ ဖန်အနုတ်ပုံတွေနဲ့ မော်ကွန်းက ၅၉ လို့ ပြောတယ်။",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "စုစုပေါင်းက ကုသမှု B လို့ ပြတယ်။ ဝှက်ထားတဲ့ ကျောက်အရွယ်အစား ကော်လံတွေ ဖော်လိုက်တော့ A က အုပ်စုတိုင်းမှာ နိုင်တယ်။ Simpson ရဲ့ ပဟေဠိကို sheet တစ်ခုတည်းနဲ့၊ ၁ ဆဲလ် = လူနာ ၁ ယောက်။",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "အကောင်းဆုံး လမ်းကြောင်းကနေ တွက်ထားတဲ့ မင်လေမျဉ်း ထောင်ပေါင်းများစွာက Super Typhoon Yagi ကို ဆွဲတယ်။ တောင်တရုတ်ပင်လယ်ပေါ် မုန်တိုင်းမျက်လုံးပွင့်၊ ဟိုင်နန်မှာ ကုန်းတွင်းဝင်၊ ဗီယက်နမ်မှာ ဝဲကြီး ပြိုကွဲပြီး တစ်ပတ်လုံးကို နောက်ဆုံးမျဉ်း တစ်ကြောင်းထဲ ခေါက်ထည့်လိုက်တယ်။",
+  "Traditional Crafts": "ရိုးရာ လက်မှုအနုပညာ",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "ခရီးသည်တွေ isometric လေယာဉ်ပေါ် တက်ကြပြီး အစီအစဉ်က နည်းလမ်းတစ်ခု ဘာကြောင့် နှစ်ဆနီးပါး မြန်လဲဆိုတာ ပြတယ်။",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "လေနဲ့ နေရောင်ခြည် စွမ်းအင် ဆယ့်နှစ်နှစ်ကို တကယ့်ပြားချပ်တွေအဖြစ် ထပ်ပြီး သစ်ကြားသား ဒိုင်ခွက်ပတ်လည် ဝဲပတ်ကာ နေရောင်ခြည်က ကျော်တက်သွားတယ်။",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "မိဘအသစ် နှစ်ယောက် flat-pack လက်စွဲနဲ့ ကလေးပုခက် တပ်ဆင်တယ်၊ ၄၅° စာမျက်နှာတစ်ခုပေါ် အဆင့်ဆယ်ဆင့်။ ဆယ်ခုမြောက် အဆင့်က လက်စွဲထဲ ဘယ်တုန်းကမှ မပါခဲ့ဘူး။",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "စိတ်ကူးယဉ် ဖန် နားကြပ် Aura ရဲ့ unboxing နဲ့ အနီးကပ်ပုံတွေ၊ strip-light ဖြတ်ဆွဲတဲ့ အလင်းနဲ့ caustics။",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "မရောထားတဲ့ ဆီဆေးချက်တွေကို ဘေးချင်းကပ်ထားပြီး မျက်လုံးက ရောပေးစေတယ်။ ရေပေါ်က အလင်း၊ ညနေစောင်းနဲ့ ပင်လယ်အော်ကို ဖြတ်တဲ့ လှေတစ်စင်း။",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "ချည်စက္ကူပေါ် စပျစ်နွယ်မီးသွေး၊ ပွတ်ဖျက်၊ ခဲဖျက်နဲ့ အလင်းဖော်ပြီး ကိုယ့်အရိပ်ယောင်ပေါ် ပြန်ဆွဲတယ်။",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "သင့် logo ပုံကို သန့်ရှင်းတဲ့ SVG အဖြစ် ပြန်ဆွဲပြီး Disney ရဲ့ animation အခြေခံသဘောတရားတွေနဲ့ အပိုင်းလိုက် အသက်သွင်းတယ်။ သင့်တံဆိပ်ပေါ် တိတိကျကျ ကျရောက်တဲ့ reveal။",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "သင်ကိုယ်တိုင် ပြောထားတဲ့ ဗီဒီယိုကို ဒီအတိုင်းထားပြီး အသံနဲ့ စကားလုံးတစ်လုံးချင်း ကိုက်ညီတဲ့ စာတန်း၊ နာမည်ကတ်နဲ့ အဓိကအချက်တွေပေါ် ရိုးရှင်းတဲ့ ဂရပ်ဖစ်ကတ်တွေ။",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "ဆွဲထားတဲ့ မျဉ်း လုံးဝမရှိ။ အဖြူရောင် အမျှင်အနားပါတဲ့ ဆုတ်ဖြဲစက္ကူတွေ၊ ကတ်ကြေးနဲ့ ညှပ်ထားတဲ့ အပိုင်းတွေ၊ တစ်ခုချင်းစီက အရိပ်နုနုလေး ထိုးတယ်။",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "သားလေးမွေးနေ့အတွက် အရုပ်အုတ်တုံးလေးတွေနဲ့ ဆောက်ထားတဲ့ ဒုံးပျံလေး လကမ္ဘာကို ပျံသွားတဲ့ ကာတွန်းလေး လုပ်ပေးပါ။",
+   "ကျွန်မတို့ ကလေးကစားစရာဆိုင်က အုတ်တုံးအရုပ်အစုံအသစ်ကို တစ်တုံးချင်း ဆက်ပြီး အိမ်လေးတစ်လုံး ဖြစ်လာတာ ပြချင်တယ်။",
+   "အုတ်တုံးအရုပ်လေးတွေနဲ့ ပုဂံဘုရားတစ်ဆူကို အဆင့်ဆင့် ဆောက်သွားပြီး ကလေးတွေကို ပုဂံအကြောင်း သင်ပေးတဲ့ ဗီဒီယို လိုချင်တယ်။"
+  ],
+  "paper-popup": [
+   "သမီးလေး အိပ်ရာဝင်ပုံပြင်အတွက် စာအုပ်ဖွင့်လိုက်တာနဲ့ စက္ကူတောအုပ်ထဲက ယုန်လေး ခုန်ထွက်လာတဲ့ ပုံပြင်လေး လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ကလေးပုံပြင်စာအုပ်အသစ် ထွက်မှာမို့ စာမျက်နှာတွေ ထောင်တက်လာတဲ့ ပေါ့ပ်အပ်ပုံစံ ကြော်ငြာလေး လိုချင်တယ်။",
+   "စက္ကူစာအုပ်ထဲက အင်းလေးကန်ပေါ်မှာ လှေသမားလေး ခြေထောက်နဲ့ လှော်ပြီး ရေပေါ်ကျွန်းလေးတွေ ဖြတ်သွားတာ ပြချင်တယ်။"
+  ],
+  "tilt-shift": [
+   "ရန်ကုန် မြို့ပတ်ရထား မနက်ခင်း လူစည်တဲ့ အချိန်ကို အရုပ်မြို့လေးလို သေးသေးလေး မြင်ရအောင် လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ကွန်ဒိုစီမံကိန်းနဲ့ ပတ်ဝန်းကျင်လမ်းတွေကို အပေါ်စီးကနေ မော်ဒယ်မြို့လေးလို ပြတဲ့ ကြော်ငြာ လိုချင်တယ်။",
+   "မန္တလေး ဈေးချိုနားက မနက်ခင်း ဆိုင်ကယ်တွေ၊ ဈေးသည်တွေ လှုပ်ရှားနေတာကို အရုပ်ကမ္ဘာလေးလို ကြည့်ချင်တယ်။"
+  ],
+  "lowpoly-island": [
+   "ကျွန်တော့် ဂိမ်းအသစ်အတွက် ပင်လယ်ပြင်ကနေ ကျွန်းလေးနဲ့ ရွာလေး တစ်ကွက်ချင်း ပေါ်လာတဲ့ ကြိုတင်ကြော်ငြာလေး လုပ်ပေးပါ။",
+   "ကျွန်းလေးပေါ်မှာ ရွာလေးတစ်ရွာ ဖြည်းဖြည်းချင်း ကြီးထွားလာပြီး ညကြယ်တွေ ထွန်းလာတာကို စိတ်အေးအေးနဲ့ ကြည့်ချင်တယ်။",
+   "မြိတ်ကျွန်းစုက ကျွန်းလေးတစ်ကျွန်းမှာ တံငါရွာလေး တဖြည်းဖြည်း ဖွံ့ဖြိုးလာပုံကို ကလေးတွေ နားလည်အောင် ပြချင်တယ်။"
+  ],
+  "glass-product": [
+   "ကျွန်မတို့ အသစ်ထုတ်တဲ့ မျက်နှာလိမ်းဆီ ဖန်ပုလင်းလေးကို အလင်းတန်းတွေ ဖြတ်ရွေ့ပြီး တောက်ပနေအောင် လှလှလေး ပြပေးပါ။",
+   "နားကြပ်အသစ်လေးကို ဘူးထဲက ဖွင့်ထုတ်ပြီး အနီးကပ် လှလှပပ ပြတဲ့ ထုတ်ကုန်မိတ်ဆက် ဗီဒီယို လိုချင်တယ်။",
+   "အမေ့ မွေးနေ့လက်ဆောင်အတွက် ဝယ်ထားတဲ့ ဖန်ရေမွှေးပုလင်းလေးကို အလင်းရောင်တွေ ကစားနေသလို ပြချင်တယ်။"
+  ],
+  "memphis-diorama": [
+   "ဧရာဝတီ မြစ်ကွေ့လေးတစ်ခုမှာ နွေ၊ မိုး၊ ဆောင်း ရာသီတွေ တစ်ခုပြီးတစ်ခု ပြောင်းသွားတာကို အရောင်တောက်တောက်လေးနဲ့ ကြည့်ချင်တယ်။",
+   "ကျွန်တော်တို့ ဝဘ်ဆိုက် ထိပ်ဆုံးမှာ ထားဖို့ ကော်ဖီဆိုင်လေးပတ်လည် ရာသီတွေ ပြောင်းနေတဲ့ ချစ်စရာ မြင်ကွင်းလေး လုပ်ပေးပါ။",
+   "အိမ်ရှေ့က သရက်ပင်ကြီး တစ်နှစ်ပတ်လုံး ပွင့်၊ သီး၊ ရွက်ကြွေ ဖြစ်သွားတာကို ကလေးတွေအတွက် ပြချင်တယ်။"
+  ],
+  "isometric-picture-book": [
+   "ဘဏ်မှာ တန်းတစ်တန်းတည်း စီတာက ဘာလို့ ပိုမြန်သလဲဆိုတာ ရုပ်ပြလေးတွေနဲ့ ရှင်းပြပေးပါ။",
+   "ကျွန်တော်တို့ ဆေးခန်းမှာ လူနာတွေ နံပါတ်ယူပြီး စောင့်ရတဲ့ စနစ်အသစ်ကို လူနာတွေ နားလည်အောင် ပြချင်တယ်။",
+   "ဘတ်စ်ကားပေါ် အနောက်ကနေ စတက်ရင် ဘာလို့ ပိုမြန်သလဲဆိုတာ ကလေးတွေ နားလည်အောင် ရှင်းပြချင်တယ်။"
+  ],
+  "crayon-world": [
+   "အဖိုးရဲ့ ရွာလေးပေါ်ကို ပျံသန်းသွားပြီး သူ စိုက်ခဲ့တဲ့ ပိတောက်ပင်လေးဆီ ရောက်သွားတဲ့ အမှတ်တရ ဗီဒီယို လုပ်ပေးပါ။",
+   "ဆရာမဟောင်းကို ဂုဏ်ပြုဖို့ ကလေးတွေ ခရေယောင်နဲ့ ခြယ်ထားသလို ကျောင်းလေးဆီ ခရီးသွားတဲ့ ဇာတ်လမ်းလေး လိုချင်တယ်။",
+   "ကလေးဆွဲသလို ခရေယောင်ပုံတွေနဲ့ ရွာကနေ မြို့ကို အလုပ်လာရှာတဲ့ ကောင်လေးတစ်ယောက်ရဲ့ ခရီးကို ပြချင်တယ်။"
+  ],
+  "rubber-hose": [
+   "ကျွန်မတို့ မုန့်ဟင်းခါးဆိုင်အတွက် ပဲကြော်လေးနဲ့ ဟင်းရည်ပန်းကန် လိုက်ဖမ်းကစားတဲ့ ရှေးကာတွန်းပုံစံ ကြော်ငြာ လုပ်ပေးပါ။",
+   "လက်ဖက်ရည်ခွက်လေးက ထွက်ပြေးတဲ့ သကြားခဲလေးကို မီးဖိုချောင်ပတ်ပတ်လည် လိုက်ဖမ်းတဲ့ ရယ်စရာ ကာတွန်းလေး လိုချင်တယ်။",
+   "သွားတိုက်တံလေးနဲ့ သွားတိုက်ဆေးက ပိုးမွှားတွေကို လိုက်နှင်ထုတ်တဲ့ ရှေးကာတွန်းလေးနဲ့ ကလေးတွေကို သွားတိုက်ဖို့ သင်ပေးချင်တယ်။"
+  ],
+  "cel-anime-80s": [
+   "မိုးရွာနေတဲ့ ရန်ကုန်ညမှာ ဆိုင်ကယ်နဲ့ ပစ္စည်းပို့တဲ့ ကောင်မလေးတစ်ယောက် မိုးမလင်းခင် အရောက်ပို့ရတဲ့ ဇာတ်လမ်း လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ တီးဝိုင်းရဲ့ သီချင်းအသစ်အတွက် ၈၀ ခုနှစ်တွေက အန်နီမေးလို နီယွန်မီးတွေနဲ့ ညမြို့ကြီး ဗီဒီယို လိုချင်တယ်။",
+   "ငယ်ငယ်က ကြည့်ခဲ့တဲ့ ကာတွန်းတွေလို အရောင်မျိုးနဲ့ သူငယ်ချင်းတွေ စက်ဘီးစီးခဲ့တဲ့ အမှတ်တရ ဇာတ်လမ်းလေး ပြချင်တယ်။"
+  ],
+  "scifi-toon": [
+   "လက်ဖက်ရည်တစ်ခွက် သောက်ချင်လို့ ပေါ်တယ်တံခါး ဖွင့်လိုက်တဲ့ သိပ္ပံပညာရှင်က ကမ္ဘာထူးဆန်းတွေထဲ လိမ့်ကျသွားတဲ့ ဟာသလေး လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ငွေလွှဲ app လေး ဘယ်လောက်မြန်လဲဆိုတာ ဂြိုဟ်တစ်ခုကနေ တစ်ခု ခုန်ကူးပြီး ပြတဲ့ ရယ်စရာ ကြော်ငြာ လိုချင်တယ်။",
+   "အိမ်စာ မေ့ကျန်ခဲ့လို့ ညီအစ်ကိုနှစ်ယောက် အာကာသယာဉ်နဲ့ အချိန်ပြန်သွားရတဲ့ ရူးကြောင်ကြောင် ကာတွန်းလေး ပြချင်တယ်။"
+  ],
+  "midcentury-toon": [
+   "ကျွန်တော်တို့ ရေသန့်စက်အသစ်ကို အဆင့်သုံးဆင့်နဲ့ တပ်ဆင်ပုံကို ၁၉၅၀ ခုနှစ်တွေက စာသင်ခန်းရုပ်ရှင်လို ရှင်းပြပေးပါ။",
+   "အမေ့ကို ဖုန်းနဲ့ ဗီဒီယိုခေါ်နည်း သင်ပေးချင်လို့ ရှေးကာတွန်းပုံစံနဲ့ ရယ်စရာလေး ရှင်းပြတဲ့ ဗီဒီယို လိုချင်တယ်။",
+   "ထမင်းပေါင်းအိုး မှန်မှန်ကန်ကန် သုံးနည်းကို အရင်ခေတ် ပညာပေးကာတွန်းလေးလို ပြချင်တယ်။"
+  ],
+  "comic-history": [
+   "မြန်မာ့ နေပြည်တော်တွေ ပုဂံ၊ အင်းဝ၊ အမရပူရ၊ မန္တလေး ပြောင်းရွှေ့ခဲ့ပုံကို ရုပ်ပြစာအုပ်လို ပေါ့ပေါ့ပါးပါး ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ရပ်ကွက်ထဲမှာ လက်ဖက်ရည်ဆိုင် သုံးဆိုင် ဖောက်သည်လုကြတဲ့ ဇာတ်လမ်းကို ရုပ်ပြပုံစံ ရယ်စရာလေး လုပ်ပေးပါ။",
+   "ရွာနှစ်ရွာကြားက မြစ်ကမ်းမြေ နှစ်တွေကြာလာတာနဲ့ တစ်ဖက်ကနေ တစ်ဖက် ပြောင်းသွားပုံကို ရုပ်ပြနဲ့ ရှင်းပြပေးပါ။"
+  ],
+  "manga-panels": [
+   "ရွှေတိဂုံ ဘုရားရင်ပြင်မှာ ခိုတွေ ပျံတက်သွားတဲ့ တစ်စက္ကန့်ကို မန်ဂါကွက်လေးတွေ ခွဲပြီး ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ကင်မရာဆိုင်က ကင်မရာအသစ်ကို မန်ဂါကွက်တွေ တစ်ကွက်ပြီးတစ်ကွက် ပေါ်လာတဲ့ ပုံစံနဲ့ မိတ်ဆက်ပေးပါ။",
+   "ညီမလေး ပြေးပွဲမှာ ပန်းဝင်တဲ့ အခိုက်အတန့်ကို ကာတွန်းစာအုပ်လို ကွက်လေးတွေနဲ့ အမှတ်တရ လုပ်ပေးပါ။"
+  ],
+  "dataviz": [
+   "ရန်ကုန်ရဲ့ နွေရာသီ အပူချိန် နှစ်ငါးဆယ်စာ မိုးလေဝသဒေတာကို ဇယားကိုယ်တိုင်က ပုံပြင်ပြောသလို ပြချင်တယ်။",
+   "ကျွန်မတို့ မိသားစု အပ်ချုပ်လုပ်ငန်းရဲ့ ငါးနှစ်စာ ရောင်းအား စာရင်းကို လှလှပပ ဇယားနဲ့ ပြပေးပါ။",
+   "မြန်မာနိုင်ငံ ဆန်တင်ပို့မှု နှစ်အလိုက် ကိန်းဂဏန်းတွေကို ကျောင်းသားတွေ နားလည်လွယ်အောင် ဇယားနဲ့ ရှင်းပြချင်တယ်။"
+  ],
+  "white-model": [
+   "ရန်ကုန် မြို့လယ်ရဲ့ အဆောက်အအုံတွေ ကိုလိုနီခေတ်ကနေ ယနေ့အထိ တစ်ထပ်ချင်း မြင့်တက်လာပုံကို အဖြူရောင် မော်ဒယ်ပေါ် ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ကုမ္ပဏီရဲ့ အိမ်ရာစီမံကိန်း မြေကွက်ပုံစံကို အဖြူမော်ဒယ်ပေါ် မီးထိုးပြီး အဆင့်ဆင့် ပြတဲ့ ပြပွဲဗီဒီယို လုပ်ပေးပါ။",
+   "မန္တလေး မြို့ကွက်ပုံစံနဲ့ နန်းမြို့ရိုးကို မြေပုံဒေတာကနေ အဖြူမော်ဒယ်ပေါ် ဖြည်းဖြည်းချင်း ဖော်ပြချင်တယ်။"
+  ],
+  "data-physical": [
+   "မြန်မာ့ ရေအားလျှပ်စစ်နဲ့ နေရောင်ခြည်စွမ်းအင် ထုတ်လုပ်မှု နှစ်အလိုက်ကို ပြားလေးတွေ ထပ်စီထားသလို တကယ်ကိုင်လို့ရသလို ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ကုမ္ပဏီ နှစ်ပတ်လည် အစီရင်ခံစာထဲက ရောင်းအား ကိန်းဂဏန်းတွေကို သစ်သားပြားတွေ စီထားသလို ပြပေးပါ။",
+   "ကျွန်မတို့ မိသားစု ရှမ်းလက်ဖက်ခြံရဲ့ ဆယ်နှစ်စာ အထွက်နှုန်းကို ပစ္စည်းအစစ်တွေ ထပ်ထားသလို ပြချင်တယ်။"
+  ],
+  "transit-map": [
+   "ရန်ကုန် မြို့ပတ်ရထားလမ်းရဲ့ ဘူတာတွေကို ပုံနှိပ်မြေပုံလေးပေါ်မှာ တစ်ဘူတာချင်း ပေါ်လာအောင် ပြပေးပါ။",
+   "ရန်ကုန် ဘတ်စ်ကားလိုင်းတွေ နှစ်တွေကြာလာတာနဲ့ ဘယ်လို တိုးချဲ့လာသလဲဆိုတာ ရထားမြေပုံ ပုံစံနဲ့ ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ကုန်စည်ပို့ဆောင်ရေးလုပ်ငန်း ပို့ပေးတဲ့ မြို့တွေ ဆယ်နှစ်အတွင်း တိုးလာပုံကို မက်ထရိုမြေပုံလို ပြချင်တယ်။"
+  ],
+  "map-explainer": [
+   "ဧရာဝတီမြစ်ဟာ မြစ်ဆုံကနေ မြစ်ဝကျွန်းပေါ်အထိ ဘယ်လို စီးဆင်းသွားလဲဆိုတာ ကမ္ဘာလုံးကနေ ချဲ့ဝင်ပြီး မြေပုံနဲ့ ရှင်းပြပေးပါ။",
+   "မလက္ကာရေလက်ကြားကို ကမ္ဘာ့ ကုန်တင်သင်္ဘောတွေ ဘာလို့ ဖြတ်သွားရလဲဆိုတာ မြေပုံနဲ့ ရှင်းပြတဲ့ ဗီဒီယို လိုချင်တယ်။",
+   "ကျွန်တော်တို့ ရွာက ချောင်းကမ်းပါး တိုက်စားခံရပုံကို တကယ့် မြေပုံနဲ့ မြေမျက်နှာသွင်ပြင်ကနေ ရှင်းပြချင်တယ်။"
+  ],
+  "pip-simulation": [
+   "ကူးစက်ရောဂါ တစ်ယောက်ကနေ တစ်ယောက်ကို ဘယ်လို ပြန့်ပွားသွားလဲဆိုတာ အကောင်လေးတွေ ပြေးလွှားနေတဲ့ ပုံနဲ့ သရုပ်ပြပေးပါ။",
+   "ဈေးထဲမှာ ဈေးသည်တွေ ဈေးနှုန်း ချင်းပြိုင်ကြရင် ဘာဖြစ်သွားလဲဆိုတာ အကောင်လေးတွေနဲ့ စမ်းသပ်ပြချင်တယ်။",
+   "သဘာဝရွေးချယ်မှု ဘယ်လို အလုပ်လုပ်လဲဆိုတာ မျိုးဆက်တွေ ပြောင်းသွားတာ ကျောင်းသားတွေ မျက်မြင် တွေ့ရအောင် ပြချင်တယ်။"
+  ],
+  "caption-news": [
+   "ဒီနှစ် မိုးရာသီ မိုးရေချိန် စံချိန်တင်ခဲ့တဲ့ မိုးလေဝသ ဒေတာကို အသံမဖွင့်ဘဲ ကြည့်လို့ရတဲ့ သတင်းတိုလေး လုပ်ပေးပါ။",
+   "ကျွန်မတို့ ရပ်ကွက် အလှူငွေ ကောက်ခံမှု ရလဒ် ကိန်းဂဏန်းအစစ်တွေကို စာတန်းတွေနဲ့ ပြတဲ့ သတင်းတိုလေး လိုချင်တယ်။",
+   "ကမ္ဘာ့ ပျားအုံ အရေအတွက် ကျဆင်းနေတဲ့ အစီရင်ခံစာကို ဖုန်းမှာ ချက်ချင်း နားလည်အောင် စာတန်းနဲ့ ပြချင်တယ်။"
+  ],
+  "newsreel": [
+   "၁၉၃၀ ခုနှစ်တွေက ရန်ကုန်မြို့ ဓာတ်ရထားတွေ ပြေးဆွဲခဲ့တဲ့ ခေတ်ကို မော်ကွန်းဓာတ်ပုံတွေနဲ့ ရှေးသတင်းရုပ်ရှင်လို ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ဆိုင်လေး နှစ်ငါးဆယ်ပြည့်အတွက် အဖိုးလက်ထက်က ဓာတ်ပုံဟောင်းတွေနဲ့ ရှေးသတင်းကားပုံစံ လုပ်ပေးပါ။",
+   "ရေဒီယို စပေါ်လာတုန်း လူတွေ အံ့ဩခဲ့ကြပုံကို သတင်းစာဟောင်း ခေါင်းစီးတွေနဲ့ ရှေးသတင်းရုပ်ရှင်လို ပြန်ပြောပြချင်တယ်။"
+  ],
+  "countdown": [
+   "ကျွန်တော်တို့ ဆိုင်ဖွင့်ပွဲမှာ ဖဲကြိုးဖြတ်ခါနီး နောက်ဆုံး တစ်မိနစ်ကို ရိုက်ထားတဲ့ ဗီဒီယိုအစစ်တွေနဲ့ ကွက်တွေ ခွဲပြီး ရေတွက်ပြချင်တယ်။",
+   "နှစ်သစ်ကူးညမှာ သူငယ်ချင်းတွေ ရိုက်ထားတဲ့ ဗီဒီယိုတွေကို နောက်ဆုံး ဆယ်စက္ကန့် ရေတွက်တဲ့ ပုံစံနဲ့ စုပေးပါ။",
+   "အာကာသ ဒုံးပျံ လွှတ်တင်ပွဲ တစ်ခုရဲ့ တကယ့် ဗီဒီယိုကို ကွက်ကိုးကွက် ခွဲပြီး မီးလောင်ချိန်မှာ တစ်ခုတည်း ပြန်ပေါင်းစေချင်တယ်။"
+  ],
+  "city-symphony": [
+   "ရန်ကုန်မြို့ရဲ့ တစ်နေ့တာကို ကျွန်တော် ရိုက်ထားတဲ့ အချိန်ရှုံ့ ဗီဒီယိုတွေနဲ့ ဂီတစည်းချက်အတိုင်း ဖြတ်ပြီး မြို့ပြတေးသံ လုပ်ပေးပါ။",
+   "မန္တလေးမြို့ ဓာတ်ပုံဟောင်းတွေနဲ့ ယနေ့ ရိုက်ထားတဲ့ ဗီဒီယိုတွေကို ဘေးချင်းယှဉ်ပြီး စည်းချက်ညီ ဖြတ်ပြချင်တယ်။",
+   "ကျွန်မတို့ ဟိုတယ်အတွက် ရန်ကုန် မနက်ခင်းကနေ ညအထိ ရိုက်ထားတဲ့ မြို့မြင်ကွင်းတွေကို တေးသံနဲ့ ကိုက်တဲ့ ဖွင့်ကား လုပ်ပေးပါ။"
+  ],
+  "visual-investigation": [
+   "ကျွန်တော်တို့ လမ်းထိပ်က ယာဉ်တိုက်မှုကို CCTV ဗီဒီယို၊ ဓာတ်ပုံနဲ့ မျက်မြင်သက်သေ ပြောချက်တွေကနေ အချိန်တစ်ခုတည်းပေါ် ပြန်စီပြချင်တယ်။",
+   "လူမှုကွန်ရက်မှာ ပျံ့နေတဲ့ ရေကြီးဓာတ်ပုံတစ်ပုံ တကယ် ဘယ်နေရာ ဘယ်တုန်းကလဲဆိုတာ အထောက်အထားတွေနဲ့ စစ်ဆေးပြချင်တယ်။",
+   "စက်ရုံ မီးလောင်မှု ဖြစ်ပွားပုံကို ဓာတ်ပုံတွေ၊ အစီရင်ခံစာနဲ့ ဝန်ထမ်းတွေ ပြောချက်ကနေ အချိန်လိုက် ပြန်တည်ဆောက်ပြပေးပါ။"
+  ],
+  "kino-montage": [
+   "မိသားစု ဆန်စက်ကို အဖိုးတို့ ဘယ်လို စတည်ခဲ့လဲဆိုတာ ဓာတ်ပုံဟောင်းတွေ၊ စာရင်းစာအုပ်တွေနဲ့ လုပ်သားတွေရဲ့ အားထုတ်မှုကို ပြချင်တယ်။",
+   "ဘုရားပွဲတော်မှာ လူထောင်ချီ ဝိုင်းဝန်းကြတဲ့ ဓာတ်ပုံဟောင်းတွေနဲ့ ဗီဒီယိုတွေကို ပေါင်းပြီး စုပေါင်းအားကို ပြချင်တယ်။",
+   "ကျွန်တော်တို့ စက်ရုံ နှစ်နှစ်ဆယ်ပြည့်အတွက် မော်ကွန်းဓာတ်ပုံတွေနဲ့ ဝန်ထမ်း ကိန်းဂဏန်းတွေကို ပြင်းပြင်းထန်ထန် ဖြတ်တောက်ပြီး လုပ်ပေးပါ။"
+  ],
+  "telestrator": [
+   "ကျွန်တော်တို့ ရပ်ကွက်ဘောလုံးပွဲမှာ ဒုတိယပိုင်း ပြန်လာနိုင်ခဲ့ပုံကို ပွဲဗီဒီယိုအစစ်ပေါ် မျဉ်းတွေဆွဲပြီး ခွဲခြမ်းပြချင်တယ်။",
+   "ချင်းလုံး ပြိုင်ပွဲ ဗီဒီယိုကို ရပ်ပြီး ခြေထောက်လှုပ်ရှားပုံတွေ မျဉ်းဆွဲပြတဲ့ နည်းပြ ဗီဒီယို လုပ်ပေးပါ။",
+   "ကျောင်းဘောလုံးအသင်းရဲ့ ဂိုးသွင်းတဲ့ ပွဲဗီဒီယိုတွေကို ကစားသမားတွေ နေရာယူပုံ မြှားတွေနဲ့ ရှင်းပြချင်တယ်။"
+  ],
+  "news-package": [
+   "ဒီတစ်ပတ် ရွှေဈေး၊ ဆီဈေး၊ ဆန်ဈေး အပြောင်းအလဲတွေကို တီဗီသတင်း အစီအစဉ်လို ခေါင်းစီးစာတန်း၊ ဈေးနှုန်းဘုတ်တွေနဲ့ လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ကျောင်းရဲ့ ဒီလ သတင်းလေးငါးခုကို တကယ့် သတင်းအစီအစဉ်လို အပိုင်းလိုက် ခွဲပြီး ပြချင်တယ်။",
+   "ဒီအပတ် နည်းပညာ သတင်းအသစ်တွေကို စုစည်းပြီး သတင်းကြေညာခန်း ပုံစံနဲ့ စုံစုံလင်လင် ပြပေးပါ။"
+  ],
+  "ascii-crt": [
+   "ကျွန်တော်တို့ ဆော့ဖ်ဝဲ ကိရိယာအသစ်ကို အစိမ်းရောင် ဖန်သားပြင်ဟောင်းပေါ်မှာ စာလုံးတွေနဲ့ ရေးဆွဲပြတဲ့ ပုံစံ မိတ်ဆက်ပေးပါ။",
+   "လပေါ်က စက်ရုပ်လေးတစ်ကောင် နှစ်ပေါင်းများစွာ အိပ်ပျော်ပြီး ကမ္ဘာ့ အချက်ပြကို စာလုံးတွေနဲ့ ပြန်ဖြေတဲ့ ဇာတ်လမ်း လိုချင်တယ်။",
+   "အဖေ ငယ်ငယ်က သုံးခဲ့တဲ့ ကွန်ပျူတာဟောင်း စခရင်လို ပုံစံနဲ့ မွေးနေ့ဆုတောင်းစာလေး စာလုံးတွေနဲ့ ဆွဲပေးပါ။"
+  ],
+  "silent-film": [
+   "ပေါင်မုန့်ဆိုင်က ကောင်လေး လိမ့်ထွက်သွားတဲ့ မုန့်လုံးကို လိုက်ဖမ်းရင်း ဆာနေတဲ့ ကလေးကို ခွဲကျွေးတဲ့ အသံတိတ်ရုပ်ရှင်လေး လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ရှေးဟောင်း မုန့်ဆိုင်လေးအတွက် ဖြူမဲ အသံတိတ်ရုပ်ရှင်ခေတ်လို ရယ်စရာ ကြော်ငြာလေး လိုချင်တယ်။",
+   "အဖေနဲ့ ငါးမျှားထွက်ရင်း ငါးမရဘဲ ဖိနပ်ဟောင်းပဲ မျှားမိတဲ့ ရယ်စရာလေးကို အသံတိတ်ရုပ်ရှင်လို ပြချင်တယ်။"
+  ],
+  "backrooms": [
+   "ညဆိုင်းဝန်ထမ်းအသစ်တစ်ယောက် ဆုံးမရှိတဲ့ ဝါဝါရုံးခန်းထဲ နံရံပေါ်က စည်းကမ်းတွေ လိုက်နာရင်း ပထမည ရိုက်ထားတဲ့ ကြောက်စရာ ဇာတ်လမ်း လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ လျှို့ဝှက်ဆန်းကြယ် ဂိမ်းအသစ်အတွက် ကျောချမ်းစရာ စင်္ကြံရှည်ကြီးထဲ လမ်းပျောက်နေတဲ့ ကြိုတင်ကြော်ငြာ လိုချင်တယ်။",
+   "ညဘက် ဆေးရုံဟောင်း စင်္ကြံထဲ တစ်ယောက်တည်း ဖုန်းနဲ့ ရိုက်ရင်း လမ်းဆုံးမရှိတော့တဲ့ ကြောက်စရာ ဇာတ်လမ်းလေး ပြချင်တယ်။"
+  ],
+  "scratch-film": [
+   "မှောင်မှောင် ကန်ရေပြင်ပေါ်မှာ ပိုးစုန်းကြူးလေးတစ်ကောင် သူ့အလင်းလေးနဲ့ ခရီးထွက်သွားတဲ့ ဇာတ်လမ်းလေး ပြချင်တယ်။",
+   "ပင်လယ်နက်နက်ထဲက ငါးလေးတွေ ညတိုင်း အပေါ်ကို တက်လာကြပုံကို အမှောင်ထဲ ခြစ်ဆွဲထားတဲ့ အလင်းမျဉ်းလေးတွေနဲ့ ရှင်းပြပေးပါ။",
+   "ကျွန်မတို့ ညဈေးလေးမှာ မီးလေးတွေ တစ်လုံးချင်း လင်းလာပြီး ဈေးတစ်ခုလုံး ဖြစ်သွားတာကို ဖလင်ပေါ် ခြစ်ဆွဲထားသလို ပြချင်တယ်။"
+  ],
+  "double-exposure": [
+   "ရှမ်းတောင်တန်းကနေ အင်းလေးကန်အထိ ကျွန်တော် ရိုက်ထားတဲ့ ရှုခင်းတွေကို ဆင်၊ ဒေါင်း၊ ငါး ရုပ်ပုံရိပ်တွေထဲ ထည့်ပြီး ထပ်ပြချင်တယ်။",
+   "ကျွန်မတို့ မော်လမြိုင် ခရီးသွားလုပ်ငန်းအတွက် မြို့ရဲ့ ဓာတ်ပုံအစစ်တွေကို လူ့ရုပ်ပုံရိပ်ထဲ ထပ်ထည့်တဲ့ ဖွင့်ကား လုပ်ပေးပါ။",
+   "အဖေ ငယ်ငယ်က နေခဲ့တဲ့ ရွာရဲ့ ဓာတ်ပုံဟောင်းတွေကို အဖေ့ ဘေးတိုက်ပုံရိပ်ထဲ ထပ်ထည့်ပြီး အမှတ်တရ လုပ်ချင်တယ်။"
+  ],
+  "pixel-rpg": [
+   "ချစ်သူနဲ့ နှစ်နှစ်ပြည့်အတွက် ဆုံခဲ့တဲ့နေ့ကနေ ဒီနေ့အထိ ခရီးကို ဂိမ်းဟောင်းထဲက သိမ်းထားတဲ့ ခရီးစဉ် ပြန်ကြည့်သလို ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ဖုန်းဂိမ်းအသစ်အတွက် ဘော့စ်တံခါးရှေ့ ရောက်နေတဲ့ သူရဲကောင်းလေးရဲ့ ပစ်ဆယ်ဂိမ်းဟောင်းပုံစံ ကြော်ငြာ လုပ်ပေးပါ။",
+   "ကျောင်းသားဘဝ တစ်နှစ်တာကို ဂိမ်းဟောင်းထဲက အဆင့်တွေ တစ်ဆင့်ချင်း ကျော်လာသလို ပြန်ပြောပြချင်တယ်။"
+  ],
+  "hd-2d": [
+   "မီးပြတိုက် မီးငြိမ်းသွားလို့ ကောင်မလေးက နောက်ဆုံးမီးတောက်လေးကို ညတောအုပ်ဖြတ်ပြီး မုန်တိုင်းထဲ ကမ်းပါးပေါ် သယ်သွားတဲ့ ဇာတ်လမ်း လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ စိတ်ကူးယဉ်ဂိမ်းအသစ်အတွက် ပုဂံလို ဘုရားကွင်းကြီးထဲ ခရီးသွားတဲ့ သူရဲကောင်းအဖွဲ့ ကြော်ငြာ လိုချင်တယ်။",
+   "ညီလေးအတွက် နဂါးကို ရှာဖို့ ရွာလေးကနေ ထွက်ခွာသွားတဲ့ ကလေးလေးရဲ့ ပုံပြင်ကို ဂိမ်းလှလှလေးလို ပြချင်တယ်။"
+  ],
+  "microgame": [
+   "ကျွန်တော်တို့ app အသစ် သုံးနည်းကို တိုတိုမြန်မြန် ဂိမ်းလေးတွေ ဆက်တိုက်ပေါ်လာပြီး ပိုပိုမြန်လာတဲ့ ပုံစံနဲ့ ပြပေးပါ။",
+   "မနက်အိပ်ရာထပြီး ကျောင်းသွားဖို့ ပြင်ဆင်ရတာကို အရှိန်တက်လာတဲ့ ဂိမ်းလေးတွေ ဆက်တိုက်လို ရယ်စရာ လုပ်ပေးပါ။",
+   "ကျွန်မတို့ ကုမ္ပဏီ ဝန်ထမ်းသစ်တွေ ပထမနေ့ သိရမယ့်အရာတွေကို အရှိန်တက်လာတဲ့ ဂိမ်းလေးတွေနဲ့ သင်ပေးချင်တယ်။"
+  ],
+  "game-show": [
+   "ကျွန်တော်တို့ ကုမ္ပဏီရဲ့ ဒီနှစ် အောင်မြင်မှုတွေကို ဂိမ်းရှိုးလို စည်းချက်နဲ့ ထွက်လာပြီး အဆုံးမှာ အမှတ်စာရင်းကတ်နဲ့ ပိတ်တဲ့ပုံ လုပ်ပေးပါ။",
+   "ဆက်သွယ်ရေး သမိုင်း ကြေးနန်းကနေ စမတ်ဖုန်းအထိကို စည်းချက်ဂိမ်းရှိုးလို ပျော်စရာ ပြချင်တယ်။",
+   "မိသားစု ဒီတစ်နှစ်တာ ဖြစ်ခဲ့တာတွေကို တီဗီဂိမ်းရှိုးလို ရယ်စရာ ပြန်စုပြီး ပြချင်တယ်။"
+  ],
+  "swiss-motion": [
+   "ကျွန်တော်တို့ ဂီတပွဲ ပိုစတာကို ဆွစ်ဒီဇိုင်း စည်းမျဉ်းတွေအတိုင်း သူ့ဘာသာ နေရာချသွားတဲ့ ပုံစံ လုပ်ပေးပါ။",
+   "ကျွန်မတို့ ဒီဇိုင်းစတူဒီယိုရဲ့ အမှတ်တံဆိပ်အသစ်ကို ဂရစ်၊ စာလုံး၊ အရောင်တွေ တစ်ခုပြီးတစ်ခု စီလာတဲ့ ပုံနဲ့ မိတ်ဆက်ချင်တယ်။",
+   "ဒီဇိုင်းကျောင်းသားတွေကို ပိုစတာ စာမျက်နှာ ဖွဲ့စည်းနည်း စည်းမျဉ်းငါးခုကို ရှင်းရှင်းလင်းလင်း သင်ပေးချင်တယ်။"
+  ],
+  "spy-titles": [
+   "၁၉၆၀ ခုနှစ်တွေက သူလျှိုရုပ်ရှင်လို ပုံသဏ္ဌာန်တွေ လိုက်ပြေးပြီး ကျွန်တော်တို့ ဇာတ်ကားနာမည် ဖြစ်သွားတဲ့ ဖွင့်စာတန်း လုပ်ပေးပါ။",
+   "ကုမ္ပဏီ နှစ်ပတ်လည်ပွဲ ဖွင့်ဖို့ သူလျှိုဇာတ်ကားလို ဆွဲဆောင်မှုရှိတဲ့ ဖွင့်ပွဲစာတန်း လိုချင်တယ်။",
+   "သူငယ်ချင်းရဲ့ မင်္ဂလာဆောင်အတွက် ချစ်သူနှစ်ယောက်ကို သူလျှိုနှစ်ယောက်လို တင်ပြတဲ့ ရှေးဟောင်း ဖွင့်စာတန်းလေး လုပ်ပေးပါ။"
+  ],
+  "art-deco": [
+   "ကျွန်မတို့ ဟိုတယ်ရဲ့ ညစာစားပွဲ ဖိတ်စာကို ၁၉၃၀ ခုနှစ်တွေက ခမ်းနားတဲ့ ရွှေရောင် ဒီဇိုင်းနဲ့ လုပ်ပေးပါ။",
+   "ကိုလိုနီခေတ် ဟိုတယ်ကြီးမှာ ဓာတ်လှေကားထိန်း ကောင်လေး စာတစ်စောင်ကို သန်းခေါင်မတိုင်ခင် ပို့ရတဲ့ ဇာတ်လမ်းလေး လိုချင်တယ်။",
+   "မိဘတွေရဲ့ မင်္ဂလာ နှစ်သုံးဆယ်ပြည့် ပွဲအတွက် ခမ်းနားတဲ့ အာ့တ်ဒက်ကို ပုံစံ ဖိတ်ကြားလွှာ ဗီဒီယို လုပ်ပေးပါ။"
+  ],
+  "pictogram-motion": [
+   "ဘတ်စ်ကားပေါ် ကျန်ခဲ့တဲ့ ထီးလေးက ပစ္စည်းပျောက်စင်ပေါ်မှာ စောင့်နေရင်း မိုးပြန်ရွာတော့ ထီးတွေအများကြီးနဲ့ အတူ ပွင့်လာတဲ့ ဇာတ်လမ်း လုပ်ပေးပါ။",
+   "မြို့နယ်ရဲ့ အမှိုက်ခွဲခြားစွန့်ပစ်နည်းကို သင်္ကေတပုံလေးတွေ စည်းချက်နဲ့ လှုပ်ရှားတဲ့ ပုံစံနဲ့ လူထုကို ရှင်းပြချင်တယ်။",
+   "ကျွန်တော်တို့ ပွဲတော်အတွက် ကား၊ ရထား၊ လေယာဉ် သင်္ကေတလေးတွေ စည်းချက်ညီ ပေါ်လာတဲ့ အမှတ်တံဆိပ် ဗီဒီယို လိုချင်တယ်။"
+  ],
+  "bauhaus-shapes": [
+   "ငွေစုရင် အတိုးပေါ် အတိုးထပ်တာ ဘယ်လောက် အစွမ်းထက်လဲဆိုတာ စက်ဝိုင်း၊ စတုရန်း ပုံလေးတွေနဲ့ ရှင်းပြပေးပါ။",
+   "ကျွန်တော်တို့ စုငွေအဖွဲ့လေး ဘယ်လို အလုပ်လုပ်လဲဆိုတာ ဘောက်ဟောက်စ် ပုံသဏ္ဌာန်လေးတွေနဲ့ အဖွဲ့ဝင်တွေကို ရှင်းပြချင်တယ်။",
+   "သင်ခန်းစာ အခန်းခေါင်းစဉ်တွေအတွက် အနီ၊ အဝါ၊ အပြာ ပုံသဏ္ဌာန်တွေ ကစားနေတဲ့ အခန်းဖွင့်ကတ်လေးတွေ လုပ်ပေးပါ။"
+  ],
+  "flat-space-explainer": [
+   "နဂါးငွေ့တန်းကနေ ကမ္ဘာ၊ မြန်မာပြည်၊ နောက်ဆုံး ဗိုင်းရပ်စ်တစ်ကောင်အထိ ချဲ့ကြည့်သွားတဲ့ အရွယ်အစား ရှင်းပြချက် လုပ်ပေးပါ။",
+   "ကလေးတွေကို နေအဖွဲ့အစည်းက ဂြိုဟ်တွေ ဘယ်လောက် ဝေးလဲဆိုတာ အာကာသစူးစမ်းယာဉ်လေးနဲ့ လိုက်ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ပညာရေး ချန်နယ်အတွက် ဂြိုဟ်တုတွေ ကမ္ဘာကို ဘယ်လို ပတ်နေလဲဆိုတာ ရိုးရှင်းတဲ့ ကာတွန်းနဲ့ ရှင်းပြပေးပါ။"
+  ],
+  "text-flash-cuts": [
+   "စာတစ်စောင်၊ ဖုန်းတစ်ခေါ်၊ လှေကားထစ်တွေ… တဖြည်းဖြည်း နီးလာတဲ့ ကျောချမ်းစရာ ဇာတ်ကားအတွက် စာသားတွေ လျှပ်တပြက် ပေါ်တဲ့ ကြော်ငြာ လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ လူငယ်အဖွဲ့ရဲ့ ယုံကြည်ချက် စကားလုံးတွေကို စာလုံးကြီးတွေ တဖျတ်ဖျတ် ပေါ်လာတဲ့ ပုံစံနဲ့ ပြင်းပြင်းထန်ထန် ပြချင်တယ်။",
+   "ဇာတ်လမ်းတွဲ အသစ်ရဲ့ ဖွင့်စာတန်းကို စာသားနဲ့ ပုံတွေ အမြန်ဖြတ်တောက်ပြီး စိတ်လှုပ်ရှားစရာ ဖြစ်အောင် လုပ်ပေးပါ။"
+  ],
+  "silhouette-rhythm": [
+   "ငှက်အုပ်ထဲက အမြဲ နောက်ကျနေတဲ့ ငှက်ငယ်လေးက စည်းချက်ကို သင်ယူသွားတဲ့ ရိပ်ပုံ ဂီတဗီဒီယို လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ချင်းလုံးအသင်းရဲ့ ကစားသမားတွေ နေဝင်ချိန် ရိပ်ပုံနဲ့ စည်းချက်ညီ လှုပ်ရှားနေတဲ့ အသင်းဗီဒီယို လိုချင်တယ်။",
+   "သီတင်းကျွတ် မီးထွန်းပွဲတော်ဖွင့်ဖို့ လူတွေ မီးပုံးတွေ ကိုင်ပြီး ဒိုးပတ်စည်းချက်နဲ့ ကနေတဲ့ ရိပ်ပုံတွေ ပြချင်တယ်။"
+  ],
+  "satellite-briefing": [
+   "အင်းလေးကန် ရေပြင် နှစ်တွေကြာလာတာနဲ့ ကျဉ်းလာပုံကို ဂြိုဟ်တုဓာတ်ပုံအစစ်တွေနဲ့ နှိုင်းယှဉ်ပြချင်တယ်။",
+   "ဧရာဝတီ မြစ်ဝကျွန်းပေါ်က လယ်ကွင်းတွေ ရေကြီးမှုမတိုင်ခင်နဲ့ နောက်ပိုင်းကို ဂြိုဟ်တုပုံတွေနဲ့ သတင်းတိုလို ရှင်းပြပေးပါ။",
+   "မြိတ်ကမ်းရိုးတန်းက ဒီရေတောတွေ ဆယ်နှစ်အတွင်း ပြောင်းလဲသွားပုံကို ဂြိုဟ်တုမြေပုံနဲ့ ကျောင်းသားတွေကို ပြချင်တယ်။"
+  ],
+  "briefing-board": [
+   "ကျွန်တော်တို့ ရွာကို ဆက်မယ့် ချောင်းကူးတံတား ဒီဇိုင်း သုံးမျိုးကို ကုန်ကျစရိတ်၊ ခံနိုင်ရည်နဲ့ တကယ့် တိုင်းတာချက်တွေနဲ့ နှိုင်းယှဉ်ပြချင်တယ်။",
+   "ဆိုင်ခွဲအသစ်ဖွင့်ဖို့ နေရာသုံးနေရာကို ငှားရမ်းခ၊ လူသွားလာမှု ဒေတာအစစ်တွေနဲ့ ဘုတ်ပေါ်မှာ ယှဉ်ပြပေးပါ။",
+   "နေရောင်ခြည်ပြား၊ ဂျင်နရေတာ၊ ဓာတ်ခဲ အိမ်သုံး လျှပ်စစ် ရွေးချယ်မှု သုံးမျိုးကို တကယ့်ဈေးနှုန်းတွေနဲ့ နှိုင်းယှဉ်ပြချင်တယ်။"
+  ],
+  "lidar-survey": [
+   "ပုဂံ ရှေးဟောင်းဇုန်က အပင်တွေအောက်မှာ ဖုံးနေတဲ့ စေတီပျက်တွေကို လေဆာ စကင်ဒေတာနဲ့ ဖော်ထုတ်ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ဆောက်လုပ်ရေး မြေကွက်ကို ဒရုန်း လေဆာစစ်တမ်း ဒေတာကနေ မြေမျက်နှာ အမြင့်အနိမ့်တွေ ပြပေးပါ။",
+   "သရေခေတ္တရာ မြို့ဟောင်းရဲ့ မြို့ရိုးတွေကို လေဆာစစ်တမ်းနဲ့ အပင်တွေ ဖယ်ကြည့်ရင် ဘာတွေ တွေ့ရမလဲဆိုတာ ပြချင်တယ်။"
+  ],
+  "microscope": [
+   "ကျွန်မတို့ သနပ်ခါးမှုန့်ကို အဏုကြည့်မှန်ပြောင်းအောက်က ပုံအစစ်တွေနဲ့ ချဲ့ကြည့်ပြီး အသားအရေအတွက် ဘာလို့ကောင်းလဲ ပြချင်တယ်။",
+   "ဓာတ်ခွဲခန်းမှာ ရိုက်ထားတဲ့ ကြက်သွန်နီ အခွံဆဲလ် ပုံတွေကို ကျောင်းသားတွေအတွက် နျူကလိယအထိ တစ်ဆက်တည်း ချဲ့ပြပေးပါ။",
+   "ကျွန်တော်တို့ စပါး နမူနာ နှစ်မျိုးကို အဏုကြည့်ပုံတွေနဲ့ အစေ့ဖွဲ့စည်းပုံ ကွာခြားချက် နှိုင်းယှဉ်ပြချင်တယ်။"
+  ],
+  "archive-lighttable": [
+   "အဖိုးရဲ့ မှန်ပြား ဓာတ်ပုံဟောင်းတွေနဲ့ စာဟောင်းတွေကို မီးအလင်းစားပွဲပေါ် တင်ပြီး မိသားစု သမိုင်းကို ပြန်ဖော်ချင်တယ်။",
+   "ကျွန်တော်တို့ လက်ဖက်ခြောက် လုပ်ငန်းရဲ့ နှစ်ခြောက်ဆယ် သမိုင်းကို မူရင်း ငွေစာရင်းစာအုပ်တွေ၊ တံဆိပ်ဟောင်းတွေနဲ့ ပြပေးပါ။",
+   "ပြတိုက်အတွက် ပေရွက်စာဟောင်းတစ်ချပ်ကို မှန်ဘီလူးအောက်မှာ ချဲ့ကြည့်ပြီး ဘာရေးထားလဲဆိုတာ ရှင်းပြချင်တယ်။"
+  ],
+  "security-xray": [
+   "လေဆိပ် လုံခြုံရေးစက်ထဲ ခရီးသည်အိတ်တွေ ဖြတ်သွားရင်း အိတ်တစ်လုံးထဲက ကဏန်းရှင်လေးတွေ လှုပ်နေတဲ့ ရယ်စရာလေး လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ပါဆယ်ပို့ဆောင်ရေး ဂိုဒေါင်မှာ ပစ္စည်းတွေကို ဓာတ်မှန်နဲ့ ဘယ်လို စစ်ဆေးလဲဆိုတာ ဖောက်သည်တွေကို ပြချင်တယ်။",
+   "ဓာတ်မှန်နဲ့ ကြည့်ရင် အားသွင်းဘူးလေး အထဲမှာ ဘာတွေပါလဲဆိုတာ ကလေးတွေ စိတ်ဝင်စားအောင် ပြပေးပါ။"
+  ],
+  "dark-documentary": [
+   "ပုဂံ အာနန္ဒာဘုရားကို ရှေးလူတွေ ဘယ်လို တည်ဆောက်ခဲ့လဲဆိုတာ မှောင်မှောင်လေးနဲ့ လေးနက်တဲ့ မှတ်တမ်းရုပ်ရှင်လို ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ဆည်ဆောက်လုပ်ရေး စီမံကိန်းရဲ့ အခက်ခဲဆုံး ညတစ်ညကို ပြန်တည်ဆောက်ထားတဲ့ အင်ဂျင်နီယာ မှတ်တမ်းပုံစံ လုပ်ပေးပါ။",
+   "ရေဒီယိုအဝေးကြည့်မှန်ပြောင်းကြီးတွေ ကောင်းကင်ကို နားထောင်ခဲ့ပုံကို အာကာသ မှတ်တမ်းရုပ်ရှင်လို ရှင်းပြပေးပါ။"
+  ],
+  "thermal-camera": [
+   "ကျွန်တော်တို့ တိုက်ခန်း ဘာလို့ ပူနေလဲဆိုတာ အပူကင်မရာနဲ့ ကြည့်သလို နံရံ၊ ပြတင်းပေါက်၊ ခေါင်မိုးတွေကို ပြပေးပါ။",
+   "ညဘက် တောထဲက တောကောင်လေးတွေကို အပူကင်မရာနဲ့ ချောင်းကြည့်သလို ဗီဒီယိုလေး လိုချင်တယ်။",
+   "ကျွန်တော်တို့ လျှပ်စစ်ပြင်ဆိုင်က ဝိုင်ယာကြိုး အပူလွန်နေတာကို အပူကင်မရာနဲ့ ရှာဖွေပုံ ဖောက်သည်တွေကို ပြချင်တယ်။"
+  ],
+  "circuit-board": [
+   "ရေအားလျှပ်စစ်ဆည်ကနေ ကျွန်တော်တို့အိမ်က ဖုန်းအားသွင်းကြိုးအထိ လျှပ်စစ် ဘယ်လို စီးလာလဲဆိုတာ ဆားကစ်ပြားပုံစံနဲ့ ပြပေးပါ။",
+   "ကျွန်တော်တို့ အီလက်ထရောနစ်ဆိုင်ရဲ့ ပစ္စည်းတွေ စက်ရုံကနေ ဖောက်သည်လက်ထဲ ရောက်လာပုံကို ကြေးနီလမ်းကြောင်းတွေနဲ့ ပြချင်တယ်။",
+   "မြစ်တွေ ကြေးနီလိုင်းတွေ ဖြစ်သွားပြီး မြို့တစ်မြို့လုံး မီးလင်းလာပုံကို ကျောင်းသားတွေ စိတ်ဝင်စားအောင် ပြချင်တယ်။"
+  ],
+  "firefly-pointillism": [
+   "ပိုးစုန်းကြူးလေးတစ်ကောင် မှောင်မှောင်ထဲ အလင်းလေးနဲ့ မေးခွန်းမေးရင်း သူငယ်ချင်းတွေ ရှာတွေ့သွားတဲ့ ပုံပြင်လေး လုပ်ပေးပါ။",
+   "ညီမလေး မွေးနေ့အတွက် အလင်းစက်လေးတွေ အများကြီး စုလိုက်တော့ သူ့ပုံလေး ဖြစ်သွားတဲ့ ဗီဒီယိုလေး လိုချင်တယ်။",
+   "ကျွန်မတို့ အသင်းဝင်တစ်ယောက်ချင်းရဲ့ အလင်းလေးတွေ ပေါင်းပြီး အလင်းကြီး ဖြစ်လာတဲ့ စုပေါင်းခြင်း အကြောင်း ပြချင်တယ်။"
+  ],
+  "flow-field": [
+   "မိုခါ မုန်တိုင်း ဘင်္ဂလားပင်လယ်အော်ကနေ ရခိုင်ကမ်းရိုးတန်းကို ဝင်ရောက်ခဲ့ပုံကို လေစီးကြောင်း မင်မျဉ်းတွေနဲ့ ဆွဲပြပေးပါ။",
+   "မုတ်သုံလေက မြန်မာနိုင်ငံကို ဘယ်လို မိုးသယ်လာလဲဆိုတာ စီးဆင်းနေတဲ့ မင်မျဉ်း ထောင်ချီနဲ့ ရှင်းပြချင်တယ်။",
+   "ဧရာဝတီမြစ် မိုးရာသီ ရေစီးကြောင်းနဲ့ အန္တရာယ်ရေမှတ် ကျော်တဲ့ အချိန်တွေကို စီးဆင်းနေတဲ့ မျဉ်းတွေနဲ့ ပြပေးပါ။"
+  ],
+  "oscilloscope-math": [
+   "စက်ဝိုင်းလေးတွေ ထပ်ပြီး လည်လိုက်ရင် စတုရန်းလှိုင်း ဖြစ်လာပုံကို အော်စီလိုစကုပ် စခရင်ပေါ်မှာ ရှင်းပြပေးပါ။",
+   "ကျွန်တော်တို့ ရူပဗေဒ ကျူရှင်အတွက် အသံလှိုင်း ဘယ်လို အလုပ်လုပ်လဲဆိုတာ အစိမ်းရောင်လှိုင်းမျဉ်းတွေနဲ့ ပြချင်တယ်။",
+   "ပတ္တလားသံ တစ်ချက်ချင်းရဲ့ လှိုင်းပုံစံကို အော်စီလိုစကုပ်ပေါ်မှာ မြင်ရအောင် ကလေးတွေကို ပြချင်တယ်။"
+  ],
+  "neon-tubes": [
+   "ကျွန်တော်တို့ ညစာဆိုင်လေး ဖွင့်ပွဲအတွက် နီယွန်ကြောင်လေး ဆိုင်းဘုတ်တွေကြား ပြေးလွှားတဲ့ ဇာတ်လမ်းလေး လုပ်ပေးပါ။",
+   "ရန်ကုန် တရုတ်တန်း ညဈေးက နီယွန်ဆိုင်းဘုတ်တွေ တစ်ခုပြီးတစ်ခု လင်းလာတဲ့ မြို့ညဗီဒီယို လိုချင်တယ်။",
+   "ကျွန်တော် ရေးထားတဲ့ စီးတီးပေါ့ သီချင်းအတွက် မိုးရွာညမှာ နီယွန်မီးချောင်း ရုပ်ပုံလေးတွေ ကနေတဲ့ ဗီဒီယို လုပ်ပေးပါ။"
+  ],
+  "blueprint": [
+   "ကျွန်တော် တီထွင်ထားတဲ့ စပါးလှေ့စက်လေးကို ပုံကြမ်းအပြာပေါ်မှာ ဆွဲ၊ ခွဲ၊ ပြန်တပ်တဲ့ ပုံစံနဲ့ ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ကုမ္ပဏီ ထုတ်မယ့် နေရောင်ခြည် ရေစုပ်စက်အသစ်ကို အင်ဂျင်နီယာ ပုံကြမ်းပေါ်မှာ မိတ်ဆက်ပေးပါ။",
+   "မိုးရေ စုတဲ့ စက်ကြီးတစ်လုံးကို ပုံကြမ်းအပြာပေါ်မှာ ဆွဲပြီး အလုပ်လုပ်ပုံကို ကလေးတွေကို ရှင်းပြချင်တယ်။"
+  ],
+  "iso-infographic": [
+   "ရှမ်းတောင်ပေါ်က လက်ဖက်ခြံကနေ ရန်ကုန် လက်ဖက်ရည်ဆိုင်ခွက်ထဲ ရောက်လာတဲ့ ခရီးကို ကမ္ဘာလေးတစ်ခုတည်းမှာ ပြပေးပါ။",
+   "ကျွန်တော်တို့ ကုမ္ပဏီမှာ အော်ဒါတစ်ခု မှာချိန်ကနေ အိမ်ရောက်တဲ့အထိ လုပ်ငန်းစဉ်ကို ပုံလေးတွေနဲ့ ရှင်းပြချင်တယ်။",
+   "ဆန်တစ်စေ့ လယ်ကွင်းကနေ ဆန်စက်၊ ဈေး၊ ထမင်းအိုးထဲ ရောက်လာပုံကို ကလေးတွေ နားလည်အောင် ပြချင်တယ်။"
+  ],
+  "teardown": [
+   "ကျွန်တော်တို့ ထုတ်တဲ့ ပန်ကာလေးကို တကယ့် အစိတ်အပိုင်းတွေ၊ အတိုင်းအတာတွေအတိုင်း တစ်ခုချင်း ခွဲထုတ်ပြီး ပြန်ပိတ်ပြပေးပါ။",
+   "ကျွန်တော် သုံးနေတဲ့ ကီးဘုတ်ကို ချစ်ပ်အထိ ဖြုတ်ပြီး အစိတ်အပိုင်းတိုင်းကို တကယ့် အရွယ်အစားတွေနဲ့ ပြပေးတဲ့ ဗီဒီယို လိုချင်တယ်။",
+   "ဆိုင်ကယ်အင်ဂျင်တစ်လုံးကို အစိတ်အပိုင်းတွေ ခွဲပြီး ဘာတွေ ပါလဲဆိုတာ စက်ပြင်ကျောင်းသားတွေကို ပြချင်တယ်။"
+  ],
+  "hardcore-info": [
+   "ဖုန်းကို ထောင့်ကနေ ကိုင်ရင် ဘာလို့ လိုင်းကျသွားလဲဆိုတာ ဖုန်းကို ခွဲကြည့်ပြီး အင်တင်နာ အကြောင်း ရှင်းပြပေးပါ။",
+   "ကျွန်တော်တို့ ရေခဲသေတ္တာအသစ်က ဘာလို့ မီးဖိုးသက်သာလဲဆိုတာ အတွင်းပိုင်း အင်ဂျင်နီယာ အသေးစိတ်နဲ့ ပြချင်တယ်။",
+   "ထီးတစ်လက် လေပြင်းထဲမှာ ဘာလို့ လန်သွားလဲဆိုတာ ကျောင်းသားတွေကို အသေးစိတ် ခွဲခြမ်းပြီး ရှင်းပြချင်တယ်။"
+  ],
+  "precise-mechanism": [
+   "ဓာတ်ခဲမပါတဲ့ လက်ပတ်နာရီ အထဲမှာ ဘီးတွေ ဘယ်လို လည်နေလဲဆိုတာ ဖြတ်ပြီး အရောင်ခွဲကာ ရှင်းပြပေးပါ။",
+   "ကျွန်တော်တို့ အပ်ချုပ်စက်ဟောင်း အထဲက ယန္တရားတွေ ဘယ်လို အလုပ်လုပ်လဲဆိုတာ ဖောက်သည်တွေကို ပြချင်တယ်။",
+   "စက်ဘီး ဂီယာ ဘယ်လို ပြောင်းလဲဆိုတာ ကျောင်းသားတွေ မြင်သာအောင် အစိတ်အပိုင်းလိုက် ဖြတ်ပြပေးပါ။"
+  ],
+  "instruction-manual": [
+   "ကလေးကုတင်လေးကို ပထမဆုံးအကြိမ် တပ်ဆင်တဲ့ ဇနီးမောင်နှံရဲ့ အဆင့်ဆယ်ဆင့် လက်စွဲပုံလေး လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ပရိဘောဂဆိုင်က စာအုပ်စင်ကို ဝယ်သူတွေ ကိုယ်တိုင် တပ်ဆင်နိုင်အောင် လက်စွဲစာအုပ်ပုံစံ ဗီဒီယို လိုချင်တယ်။",
+   "ဓာတ်ငွေ့မီးဖို လုံခြုံစွာ သုံးနည်းကို လက်စွဲစာအုပ်ထဲက ပုံလေးတွေလို အဆင့်လိုက် ပြချင်တယ်။"
+  ],
+  "pen-plotter": [
+   "ခါကာဘိုရာဇီ တောင်ကို တကယ့် အမြင့်ဒေတာကနေ ပုံဆွဲစက်လေးက ညဘက် စားပွဲမီးအောက်မှာ ဘောပင်နဲ့ ဆွဲသွားတာ ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ရွာနားက တောင်ကုန်းတွေရဲ့ မြေပုံကို ကွန်တိုမျဉ်းတွေ တစ်ကြောင်းချင်း ဆွဲသွားတဲ့ ပုံစံနဲ့ ပြပေးပါ။",
+   "ကျွန်မတို့ ဒီဇိုင်းစတူဒီယိုရဲ့ လိုဂိုကို ပုံဆွဲစက်က ဘောပင်လေးရောင်နဲ့ ဖြည်းဖြည်းချင်း ဆွဲသွားတာ ပြချင်တယ်။"
+  ],
+  "assembly-line-diagram": [
+   "မုန့်ဟင်းခါးတစ်ပွဲ စားလိုက်တာနဲ့ ခန္ဓာကိုယ်ထဲမှာ စက်ရုံလို အဆင့်ဆင့် ခွဲခြမ်းချေဖျက်သွားပုံကို ပြပေးပါ။",
+   "ကျွန်တော်တို့ ရေသန့်စက်ရုံမှာ ရေတစ်ပုလင်း ဘယ်လို ထွက်လာလဲဆိုတာ စက်ရုံလုပ်ငန်းစဉ်ပုံနဲ့ ရှင်းပြချင်တယ်။",
+   "သွေးတစ်စက် ခန္ဓာကိုယ်ထဲ ခရီးသွားတာကို စက်ရုံ ထုတ်လုပ်ရေးလိုင်းလို ကလေးတွေကို ရှင်းပြချင်တယ်။"
+  ],
+  "crayon-book": [
+   "လမင်းကြီး အိပ်မပျော်လို့ ကောင်မလေးက ခေါင်မိုးပေါ်တက်ပြီး ပုခက်တေးလေး ဆိုပေးတဲ့ အိပ်ရာဝင် ပုံပြင် လုပ်ပေးပါ။",
+   "ကျွန်မတို့ ကလေးစာအုပ်ဆိုင်ရဲ့ ပုံပြင်စာအုပ်အသစ်ကို ခရေယောင်နဲ့ ဆွဲထားသလို ကြော်ငြာလေး လိုချင်တယ်။",
+   "မြန်မာ ဗျည်းအက္ခရာတွေကို က ကြီးကနေ စပြီး ကလေးတွေ သင်ယူရအောင် ခရေယောင်ပုံလေးတွေနဲ့ ပြချင်တယ်။"
+  ],
+  "watercolor": [
+   "ပုဂံ နေထွက်ချိန် လေပူဖောင်းတွေ ပျံနေတဲ့ ရှုခင်းကို ရေဆေးပန်းချီထဲ လမ်းလျှောက်ကြည့်သလို တစ်ဆက်တည်း ပြပေးပါ။",
+   "ကျွန်မတို့ ခရီးသွားကုမ္ပဏီအတွက် ရှမ်းတောင်တန်းတွေကနေ အင်းလေးကန်အထိ ရေဆေးပန်းချီ ခရီးစဉ် လိုချင်တယ်။",
+   "မိုးရေတစ်စက် တောင်ပေါ်ကနေ မြစ်၊ ပင်လယ်အထိ စီးသွားပုံကို ရေဆေးပန်းချီနဲ့ ကလေးတွေကို ရှင်းပြချင်တယ်။"
+  ],
+  "impasto": [
+   "မိုးရွာနေတဲ့ မီးခိုးရောင် ရင်ပြင်မှာ ထီးနီလေးတစ်လက် ပွင့်လာပြီး တေးသံနဲ့အတူ အရောင်တွေ ပြန့်သွားတဲ့ ဗီဒီယို လုပ်ပေးပါ။",
+   "ကျွန်တော့် အချစ်သီချင်းအသစ်အတွက် ဆီဆေး ထူထူ အရောင်တွေနဲ့ ခံစားချက်ပြည့်တဲ့ ဗီဒီယို လိုချင်တယ်။",
+   "ကျွန်မတို့ ပန်းချီပြခန်း ဖွင့်ပွဲအတွက် ရွှေတိဂုံ ညနေခင်းကို ဆီဆေး စုတ်ချက်ထူထူတွေနဲ့ ပြတဲ့ ကြော်ငြာ လုပ်ပေးပါ။"
+  ],
+  "urban-sketch": [
+   "ရန်ကုန် ကိုလိုနီခေတ် အဆောက်အအုံတွေကြား လေတိုက်သွားတဲ့ ဦးထုပ်လေး နောက်ကို အရောင်တွေ လိုက်ပါလာတဲ့ ပုံစံ ပြပေးပါ။",
+   "ကျွန်မတို့ ကော်ဖီဆိုင်လေးနဲ့ လမ်းကလေးကို ဘောပင်နဲ့ ကြမ်းကြမ်း ဆွဲပြီး ရေဆေးလေး ခြယ်ထားသလို ပြချင်တယ်။",
+   "မော်လမြိုင် ကမ်းနားလမ်းတစ်လျှောက် လမ်းလျှောက်ရင်း ပုံကြမ်းဆွဲသွားတဲ့ ခရီးမှတ်တမ်းလေး လိုချင်တယ်။"
+  ],
+  "colored-pencil": [
+   "သစ်ပင်တွေ မြေအောက်မှာ မှိုမျှင်တွေနဲ့ အစာမျှဝေကြတယ်ဆိုတာ ခဲတံရောင်စုံပုံနဲ့ မြေအောက်ကို ဖြတ်ပြပေးပါ။",
+   "ကျွန်မတို့ ပန်းခြံမှာ ပန်းပင်တစ်ပင် အမြစ်ကနေ ပန်းပွင့်အထိ ရေတက်သွားပုံကို ခဲတံရောင်စုံနဲ့ ပြချင်တယ်။",
+   "ကြာပင်လေး ရေအောက်မှာ ဘယ်လို ရှင်သန်လဲဆိုတာ ပုံပြင်စာအုပ်လို ခဲတံရောင်စုံ ဖြတ်ပိုင်းပုံနဲ့ ရှင်းပြချင်တယ်။"
+  ],
+  "risograph": [
+   "တနင်္ဂနွေမနက် ရန်ကုန်မြို့ထဲ စက်ဘီးစီးရင်း မုန့်ဆိုင်၊ ပန်းခြံ၊ ကန်တော်ကြီးကို ဝင်သွားတဲ့ ပုံနှိပ်အရောင်ထပ် ဗီဒီယို လုပ်ပေးပါ။",
+   "ကျွန်မတို့ လက်လုပ်အိတ်ဆိုင်လေးအတွက် အရောင်နည်းနည်းနဲ့ ပုံနှိပ်ထားသလို ချစ်စရာ ကြော်ငြာလေး လိုချင်တယ်။",
+   "ကျွန်တော်တို့ ကဗျာစာစောင်အသစ် မိတ်ဆက်ဖို့ အရောင်လွဲနေတဲ့ ရီဆိုပုံနှိပ် ပုံစံ ဗီဒီယိုလေး လုပ်ပေးပါ။"
+  ],
+  "halftone-dossier": [
+   "ကျွန်မတို့ ကြောင်ဝဝလေး မနက်လေးနာရီ ပြေးလွှားတာ၊ ခွက်တွေ တွန်းချတာအတွက် တရားရုံးတင်တဲ့ ရယ်စရာ အမှုတွဲ လုပ်ပေးပါ။",
+   "ခွေးလေး ဖိနပ်တွေ ကိုက်ဖျက်ခဲ့တဲ့ အမှုကို သတင်းစာဟောင်း အစက်ပုံတွေနဲ့ စုံထောက်ဖိုင်လို ပြချင်တယ်။",
+   "ကျွန်တော်တို့ အိမ်မွေးတိရစ္ဆာန် အစာဆိုင်အတွက် ကြောင်လေး အစာခိုးစားတဲ့ အမှုတွဲ ရယ်စရာ ကြော်ငြာ လိုချင်တယ်။"
+  ],
+  "woodcut": [
+   "ရွာတစ်ရွာလုံး ဆောင်းတစ်ခုလုံး ခေါင်းလောင်းကြီး သွန်းကြပြီး ပထမဆုံး ထိုးလိုက်တဲ့အခါ နှင်းရပ်သွားတဲ့ ပုံပြင် လုပ်ပေးပါ။",
+   "ကျွန်မတို့ ယွန်းထည် လက်မှုလုပ်ငန်းက လက်မှုပညာရှင်တွေ အလုပ်လုပ်ပုံကို သစ်ထွင်းပုံနှိပ်လို ပုံတွေနဲ့ ပြချင်တယ်။",
+   "ကျွန်တော် ရေးထားတဲ့ ဒဏ္ဍာရီဝတ္ထုအသစ်အတွက် သစ်ထွင်းပုံနှိပ် ပုံစံ စာအုပ်ကြော်ငြာ လုပ်ပေးပါ။"
+  ],
+  "engraving": [
+   "ပြတိုက်အတွက် ပျားတစ်ကောင်ကို ကြေးပြားပေါ် မျဉ်းတစ်ကြောင်းချင်း ထွင်းပြီး ရေဆေးလေး ခြယ်လိုက်တဲ့ ပုံ ပြပေးပါ။",
+   "ကျွန်တော်တို့ ရှေးဟောင်း ပျားရည်လုပ်ငန်းရဲ့ အမွေအနှစ်ကို ကြေးထွင်းပုံဟောင်းလို ဖော်ပြတဲ့ ကြော်ငြာ လိုချင်တယ်။",
+   "မြန်မာ့ သစ်ခွပန်းမျိုးတွေကို သဘာဝသမိုင်း စာအုပ်ဟောင်းထဲက ထွင်းပုံတွေလို တစ်မျိုးချင်း ပြချင်တယ်။"
+  ],
+  "silkscreen-poster": [
+   "ကျွန်မတို့ ခရီးသွားလုပ်ငန်းအတွက် ပုဂံ၊ အင်းလေး၊ ငပလီ နေရာတစ်ခုချင်းကို ပိုစတာကြီးတွေလို ပြတဲ့ ခရီးလမ်းညွှန် လုပ်ပေးပါ။",
+   "နိုင်ငံခြားမှာ အလုပ်လုပ်နေတဲ့ အစ်ကို အိမ်ပြန်လာတဲ့ ခရီးကို ပိုစတာတစ်ချပ်ပြီးတစ်ချပ် ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ဂီတပွဲတော်အတွက် ပိုးကွက်ပုံနှိပ် ပိုစတာပုံစံ ကြော်ငြာ လိုချင်တယ်။"
+  ],
+  "printed-long-take": [
+   "အင်းတော်ကြီးကန်က ရေငှက်အုပ်ကြီးကို ကန်ရေပြင်တစ်လျှောက် မဖြတ်ဘဲ တစ်ဆက်တည်း ခြစ်ဆွဲပုံလို ပြပေးပါ။",
+   "ကျွန်တော်တို့ တောင်တက်ခရီးစဉ်ကို တောင်ခြေကနေ ထိပ်ဖျားအထိ တစ်ဆက်တည်း ပုံနှိပ်ထွင်းပုံ ရှုခင်းအဖြစ် ပြချင်တယ်။",
+   "ချင်းတွင်းမြစ်တစ်လျှောက် လှေနဲ့ ဆန်တက်သွားတဲ့ ခရီးကို မဖြတ်ဘဲ တစ်ဆက်တည်း ပုံနှိပ်ပန်းချီလို ပြချင်တယ်။"
+  ],
+  "pop-art": [
+   "ဈေးထဲက ငှက်ပျောသီးအများစုက မျိုးတစ်မျိုးတည်းကနေ ပွားထားတာဆိုတာ ပေါ့ပ်အတ်ပုံတွေ ထပ်ပြီး ရှင်းပြပေးပါ။",
+   "ကျွန်တော်တို့ ရေခဲမုန့်အသစ်ကို အရောင်တောက်တောက် ပေါ့ပ်အတ် ပိုစတာတွေလို ကြော်ငြာပေးပါ။",
+   "လက်ဖက်ရည်တစ်ခွက်ထဲ သကြား ဘယ်လောက်ပါလဲဆိုတာ အစက်အပြောက်တွေနဲ့ ပေါ့ပ်အတ်ပုံစံ ပြချင်တယ်။"
+  ],
+  "vintage-collage": [
+   "မြန်မာ့ တံဆိပ်ခေါင်းဟောင်းတွေရဲ့ သမိုင်းကို မော်ကွန်းပုံတွေ၊ စာရွက်ဟောင်းတွေ ကပ်ထားတဲ့ ကော်လာ့ပုံစံနဲ့ ပြချင်တယ်။",
+   "အဖိုးရဲ့ ငွေစက္ကူဟောင်း စုဆောင်းမှုတွေကို စကင်ဖတ်ထားတဲ့ ပုံအစစ်တွေနဲ့ မဂ္ဂဇင်းကော်လာ့လို ပြပေးပါ။",
+   "ကျွန်တော်တို့ ပုသိမ်ထီး လက်မှုလုပ်ငန်းရဲ့ သမိုင်းကို ကြော်ငြာဟောင်းတွေ၊ ဓာတ်ပုံဟောင်းတွေ ပေါင်းပြီး ပြချင်တယ်။"
+  ],
+  "dark-keynote": [
+   "ကျွန်တော်တို့ ဖုန်း app အသစ်ကို မှောင်မှောင်နောက်ခံ စင်ပေါ်က မိတ်ဆက်ပွဲပုံစံနဲ့ ခမ်းခမ်းနားနား မိတ်ဆက်ပေးပါ။",
+   "ကျွန်မတို့ စာရင်းကိုင် ဆော့ဖ်ဝဲက ရှုပ်ပွနေတဲ့ ဖိုင်တွေကို တစ်ချက်နှိပ်တာနဲ့ စနစ်တကျ ဖြစ်သွားတာ ပြတဲ့ ကြော်ငြာ လိုချင်တယ်။",
+   "ကျွန်တော်တို့ စတားတပ် နှစ်ပတ်လည်ပွဲမှာ ပြဖို့ လုပ်ဆောင်ချက်အသစ်တွေကို ခမ်းနားတဲ့ မိတ်ဆက်ကားလို လုပ်ပေးပါ။"
+  ],
+  "living-screencast": [
+   "ကျွန်တော်တို့ အွန်လိုင်းဆိုင် app ထဲမှာ ပစ္စည်းမှာနည်းကို တကယ့် စခရင်ရိုက်ချက်တွေနဲ့ ကာတွန်းကောင်လေး လမ်းပြသလို ပြပေးပါ။",
+   "ကျွန်မတို့ ဆေးခန်း ချိန်းဆိုမှု ဝဘ်ဆိုက်ကို သုံးနည်း အဆင့်ဆင့် တကယ့် စခရင်ပေါ်မှာ ပြတဲ့ သင်ခန်းစာ လိုချင်တယ်။",
+   "ကျွန်တော်တို့ ဆော့ဖ်ဝဲရဲ့ လုပ်ဆောင်ချက်အသစ်ကို တကယ့် စခရင်ရိုက်ကူးချက်ထဲက အရုပ်လေး ခုန်ထွက်လာပြီး ပြတဲ့ပုံ လုပ်ပေးပါ။"
+  ],
+  "hologram-hud": [
+   "ကျွန်တော်တို့ လျှပ်စစ်ဆိုင်ကယ်အသစ်ကို ဟိုလိုဂရမ်လို စကင်ဖတ်ပြီး ဘက်ထရီ၊ မော်တာ၊ ဘရိတ်တွေကို ပစ်မှတ်ဘောင်တွေနဲ့ ပြပေးပါ။",
+   "ကုန်စည်ပြပွဲမှာ ပြဖို့ ကျွန်မတို့ ရေစစ်စက်ရဲ့ အတွင်းပိုင်း သတ်မှတ်ချက်တွေကို ဟိုလိုဂရမ် မျက်နှာပြင်နဲ့ ရှင်းပြချင်တယ်။",
+   "သားလေးရဲ့ အရုပ်အာကာသယာဉ်ကို ဟိုလိုဂရမ်နဲ့ စကင်ဖတ်ပြီး အစိတ်အပိုင်းတွေ ပြတဲ့ ရုပ်ရှင်ဆန်ဆန် ဗီဒီယိုလေး လုပ်ပေးပါ။"
+  ],
+  "desktop-flythrough": [
+   "ကျွန်မ ရိုက်ထားတဲ့ ကြောင်ပုံလေး ကိုယ့်ဖုန်းကနေ သူငယ်ချင်းဖုန်းဆီ app ကတ်တွေ ဖြတ်ပြီး ခုန်သွားတာ ပြပေးပါ။",
+   "ကျွန်တော်တို့ app ကနေ ဖောက်သည်ဆီ ငွေတောင်းခံလွှာ ပို့ပုံ လုပ်ငန်းစဉ်ကို စားပွဲပေါ်က ကတ်လေးတွေနဲ့ ပြချင်တယ်။",
+   "ကျောင်းသားတွေ အိမ်စာကို ဖုန်းကနေ ဆရာ့ဆီ ပို့ပုံကို နေရောင်ထိုးတဲ့ စားပွဲပေါ်မှာ ရှင်းပြတဲ့ ဗီဒီယို လိုချင်တယ်။"
+  ],
+  "spreadsheet": [
+   "ကျွန်မတို့ အိမ်သုံးစရိတ် စာရင်းကို ဇယားကွက်ထဲမှာ ဘယ်နေရာ အကုန်များလဲဆိုတာ ကော်လံတွေ ဖွင့်ပြရင်း ရှင်းပြပေးပါ။",
+   "ကျွန်တော်တို့ မုန့်ဟင်းခါးဆိုင် ဆိုင်ခွဲနှစ်ခုရဲ့ အမြတ်ကို ဇယားကွက်ထဲမှာ ဆဲလ်တစ်ကွက်ချင်း ယှဉ်ပြချင်တယ်။",
+   "စုစုပေါင်း ကိန်းဂဏန်းက လှည့်စားနိုင်ပုံ ဆင်းမ်ဆန်ရဲ့ ဝိရောဓိကို ဇယားကွက်တစ်ခုတည်းနဲ့ ကျောင်းသားတွေကို ရှင်းပြချင်တယ်။"
+  ],
+  "one-bit-dither": [
+   "လကမ္ဘာရဲ့ ပထမဆုံး အနီးကပ်ဓာတ်ပုံ ဖက်စ်ကနေ တစ်ကြောင်းချင်း ပုံနှိပ်ထွက်လာခဲ့ပုံကို အဖြူအမဲ အစက်လေးတွေနဲ့ ပြချင်တယ်။",
+   "အဖိုးလက်ထက်က ကြေးနန်းစာတစ်စောင် ရွာကို ဘယ်လို ရောက်လာလဲဆိုတာ အဖြူအမဲ ပုံနှိပ်ပုံစံနဲ့ ပြန်ပြောပြချင်တယ်။",
+   "ကျွန်တော်တို့ ပုံနှိပ်တိုက်လေးရဲ့ စက်ဟောင်းတွေ ညဘက် အလုပ်လုပ်နေတဲ့ မြင်ကွင်းကို မင်နှစ်ရောင် အစက်ပုံစံနဲ့ လုပ်ပေးပါ။"
+  ],
+  "one-line": [
+   "အမေ့ ဘဝတစ်ခုလုံးကို မျဉ်းတစ်ကြောင်းတည်းနဲ့ ဆွဲပြပြီး အဆုံးမှာ မြေးလေးဆီ ဘောပင်လက်လွှဲပေးတဲ့ ပုံလေး လုပ်ပေးပါ။",
+   "ကျွန်မတို့ လက်ဝတ်ရတနာဆိုင်ရဲ့ အမှတ်တံဆိပ်ဇာတ်လမ်းကို မျဉ်းတစ်ကြောင်းတည်း မပြတ်ဘဲ ဆွဲသွားတဲ့ ရိုးရှင်းတဲ့ ကြော်ငြာ လိုချင်တယ်။",
+   "သူငယ်ချင်းရဲ့ မင်္ဂလာဆောင်အတွက် ဆုံခဲ့တဲ့နေ့ကနေ လက်ထပ်ပွဲအထိ မျဉ်းတစ်ကြောင်းတည်းနဲ့ ဆွဲပြချင်တယ်။"
+  ],
+  "whiteboard": [
+   "ဖုန်းက ကျွန်တော်တို့ ဘယ်နေရာ ရှိလဲဆိုတာ ဘယ်လိုသိလဲ၊ ဂြိုဟ်တုတွေနဲ့ GPS အကြောင်း ဝိုက်ဘုတ်ပေါ်မှာ ရေးဆွဲပြီး ရှင်းပြပေးပါ။",
+   "ကျွန်တော်တို့ အွန်လိုင်း စာရင်းကိုင် သင်တန်းအတွက် ဝင်ငွေ၊ ထွက်ငွေ စာရင်းသွင်းနည်းကို ဝိုက်ဘုတ်ပေါ် ရေးပြီး သင်ပေးချင်တယ်။",
+   "ကျွန်မတို့ ဆိုင်လေးရဲ့ ဖုန်းငွေလွှဲ ပေးချေမှုစနစ် ဘယ်လို အလုပ်လုပ်လဲဆိုတာ ဝန်ထမ်းတွေကို ဝိုက်ဘုတ်ပေါ်မှာ ရှင်းပြချင်တယ်။"
+  ],
+  "chalkboard": [
+   "'မင်္ဂလာ' ဆိုတဲ့ စကားလုံး ဘယ်ကနေ ဆင်းသက်လာလဲဆိုတာ ကျောက်သင်ပုန်းပေါ် မြေဖြူနဲ့ ရေးပြီး ရှင်းပြပေးပါ။",
+   "'ညဘက် ခေါင်းလျှော်ရင် ဖျားတယ်' ဆိုတဲ့ အယူကို ကျောက်သင်ပုန်းပေါ်မှာ ဟုတ်မဟုတ် ရှင်းပြချင်တယ်။",
+   "ကျွန်တော်တို့ ကျူရှင်ရဲ့ သင်္ချာ ဖော်မြူလာ တစ်ခုကို စာသင်ခန်း ကျောက်သင်ပုန်းပေါ်မှာ ဆရာ ရေးပြသလို ပြပေးပါ။"
+  ],
+  "sketchnote": [
+   "ပျားတစ်ကောင် တစ်သက်လုံး ပျားရည် ဘယ်လောက်ထုတ်လဲဆိုတာ ပန်းကနေ ပုလင်းထဲအထိ မှတ်စုပုံလေးတွေနဲ့ ပိုစတာတစ်ခု ဖြစ်လာအောင် ပြပေးပါ။",
+   "ကျွန်တော် တက်ခဲ့တဲ့ စီးပွားရေး ဟောပြောပွဲရဲ့ အဓိကအချက်တွေကို ပုံလေးတွေနဲ့ မှတ်စုတစ်မျက်နှာအဖြစ် စုပေးပါ။",
+   "ကျွန်မတို့ ဆိုင်လေးရဲ့ ဝန်ဆောင်မှုတွေကို ပုံလေးတွေ၊ မြှားလေးတွေနဲ့ ဆွဲထားတဲ့ တစ်မျက်နှာ အနှစ်ချုပ်လေး လုပ်ချင်တယ်။"
+  ],
+  "stick-explainer": [
+   "ကမ္ဘာပေါ်က ဘယ်သူ့ကိုမဆို လူခြောက်ယောက်လောက် ဖြတ်ပြီး ဆက်မိနေတယ်ဆိုတာ တုတ်ချောင်းလူရုပ်လေးတွေနဲ့ ရှင်းပြပေးပါ။",
+   "ကျွန်တော်တို့ ဆိုင်ရဲ့ ဖောက်သည်က ဖောက်သည်ကို ညွှန်းပေးတဲ့ အစီအစဉ်ကို လူရုပ်လေးတွေနဲ့ ရိုးရိုးရှင်းရှင်း ပြချင်တယ်။",
+   "ရွာက လူတွေ ပြည်ပမှာ အလုပ်လုပ်နေတဲ့ မိသားစုတွေနဲ့ ဘယ်လို ဆက်သွယ်နေကြလဲဆိုတာ တုတ်ချောင်းလူရုပ်လေးတွေနဲ့ ပြချင်တယ်။"
+  ],
+  "ipad-sketch": [
+   "ရှမ်းကော်ဖီ ခွက်ထဲကနေ အနီရောင် ကော်ဖီသီးလေး ဖြစ်သွားပြီး အခြောက်ခံ၊ လှော်၊ ကြိတ်ပြီး ခွက်ထဲ ပြန်ရောက်လာတာ ပြပေးပါ။",
+   "မုန့်လုံးရေပေါ် လုပ်နည်းကို ခဲတံစာမျက်နှာ တစ်ခုတည်းပေါ်မှာ အရောင်တစ်ရောင်စီ ပြောင်းသွားတဲ့ ပုံလေးတွေနဲ့ ပြချင်တယ်။",
+   "ကျွန်မတို့ လက်လုပ်ဆပ်ပြာလေးတွေ ပြုလုပ်ပုံကို တက်ဘလက်ပေါ်မှာ ခဲတံနဲ့ ဆွဲသွားသလို ရှင်းပြချင်တယ်။"
+  ],
+  "marker-paper": [
+   "ကမ်းခြေကနေ မိုးကုပ်စက်ဝိုင်း ဘယ်လောက်ဝေးလဲဆိုတာ မာကာနဲ့ စက္ကူပေါ်မှာ တွက်ပြပေးပါ။",
+   "ကျွန်တော်တို့ ကျူရှင်က ကျောင်းသားတွေအတွက် ရူပဗေဒ ပုစ္ဆာတစ်ပုဒ်ကို မာကာနဲ့ အဆင့်ဆင့် ဖြေရှင်းပြချင်တယ်။",
+   "ကျွန်မတို့ ဆိုင်ရဲ့ လျှော့ဈေး ရာခိုင်နှုန်း တွက်နည်းကို စက္ကူပေါ်မှာ မာကာနဲ့ ရေးတွက်ပြတဲ့ ပုံစံ လုပ်ပေးပါ။"
+  ],
+  "ink-wash": [
+   "ဓားသမားတစ်ယောက် မြစ်ရေပြင်ပေါ် လျှောက်ဖြတ်ပြီး ဓားတစ်ချက်နဲ့ ရေစီးကို ခွဲလိုက်တဲ့ မင်ရည်ပန်းချီ ဇာတ်လမ်း လုပ်ပေးပါ။",
+   "ကျွန်မတို့ လက်ဖက်ခြောက် တံဆိပ်အတွက် တောင်တန်းတွေ၊ မြူခိုးတွေကြား မင်ရည်ပန်းချီပုံစံ ငြိမ်ငြိမ်လေး ကြော်ငြာ လိုချင်တယ်။",
+   "ကျွန်တော် ရေးထားတဲ့ ကဗျာလေးကို မင်ရည်စုတ်ချက်တွေ ပြန့်သွားတဲ့ ပုံလေးတွေနဲ့ ဖော်ပြချင်တယ်။"
+  ],
+  "shadow-puppet": [
+   "နေလုံးဆယ်လုံး ကမ္ဘာကို ပူလောင်စေလို့ လေးသမားက လေးနဲ့ ပစ်ချတဲ့ ဒဏ္ဍာရီကို သားရေရုပ်သေးလေးတွေနဲ့ ပြပေးပါ။",
+   "ရိုးရာ ဘီလူးနဲ့ မင်းသားလေး ပုံပြင်ကို မီးပြကွက်ပေါ်က အရိပ်ရုပ်သေးလေးတွေနဲ့ ကလေးတွေအတွက် ပြချင်တယ်။",
+   "ကျွန်တော်တို့ ယဉ်ကျေးမှု ပွဲတော်ဖွင့်ပွဲအတွက် ရိုးရာ အရိပ်ရုပ်သေး ပုံစံ ဖိတ်ကြားဗီဒီယို လုပ်ပေးပါ။"
+  ],
+  "ukiyoe": [
+   "ခရီးသည်တစ်ယောက် ဝေးလံတဲ့ တောင်ဆီ လျှောက်သွားရင်း မြင်ကွင်းတိုင်း သစ်ထွင်းပုံနှိပ်ပန်းချီ ဖြစ်ပြီး လှိုင်းကြီးနဲ့ အထွတ်အထိပ် ရောက်တာ လုပ်ပေးပါ။",
+   "ကျွန်မတို့ ဂျပန်စားသောက်ဆိုင်လေး ဖွင့်ပွဲအတွက် ဥကိယိုအဲ ပန်းချီပုံစံ ကြော်ငြာလေး လိုချင်တယ်။",
+   "ကျိုက်ထီးရိုး ဘုရားဆီ တောင်တက်ခရီးကို ဂျပန် သစ်ထွင်းပုံနှိပ် ပန်းချီပုံစံနဲ့ ကဗျာဆန်ဆန် ပြချင်တယ်။"
+  ],
+  "papercut-red": [
+   "တရုတ်နှစ်သစ်ကူးညမှာ နီယန်သားရဲ ရွာထဲ ရောက်လာပြီး ကောင်မလေးရဲ့ စက္ကူဖြတ်ပန်းချီကြီးက မီးလင်းပြီး မောင်းထုတ်တဲ့ ပုံပြင် လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ဆိုင်ကနေ ဖောက်သည်တွေကို တရုတ်နှစ်သစ်ကူး ဆုတောင်းပို့ဖို့ အနီရောင် စက္ကူဖြတ်ပုံစံ ဗီဒီယိုလေး လိုချင်တယ်။",
+   "ကျွန်မတို့ တရုတ်တန်းက မိသားစုမုန့်ဆိုင်ရဲ့ လမုန့်ပွဲတော် ကြော်ငြာကို အနီရောင် စက္ကူဖြတ်ပုံလေးတွေနဲ့ လုပ်ပေးပါ။"
+  ],
+  "paper-lantern": [
+   "ရထားဟောင်းတစ်စင်းရဲ့ နောက်ဆုံးခရီးစဉ်ကို ပြတင်းပေါက်မီးလေးတွေ တစ်ခုချင်း ငြိမ်းသွားတဲ့ စက္ကူမီးပုံး ပုံစံနဲ့ ပြချင်တယ်။",
+   "အဖိုး အငြိမ်းစားယူတဲ့နေ့အတွက် သူ အလုပ်လုပ်ခဲ့တဲ့ ဘူတာလေးရဲ့ ဇာတ်လမ်းကို မီးပုံးလေးတွေလို လင်းနေတဲ့ ပုံစံ လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ခရီးသွား ဟိုတယ်အတွက် ဂုတ်ထိပ်တံတားကို ဖြတ်သွားတဲ့ ညရထားလေး မီးပုံးလို လင်းနေတာ ပြချင်တယ်။"
+  ],
+  "stained-glass": [
+   "မနက်ကနေ ညနေထိ နေရောင်ဖြတ်သွားရင်း ပြတင်းမှန်ချပ်တစ်ချပ်ချင်းမှာ သူရဲကောင်းနဲ့ နဂါး ဇာတ်လမ်း နိုးထလာတာ ပြပေးပါ။",
+   "ကျွန်မတို့ ခရစ္စမတ် ဆုတောင်းကတ်အတွက် အရောင်စုံ မှန်ပြတင်းပုံစံ ပုံပြင်လေး လုပ်ပေးပါ။",
+   "ရန်ကုန်က ရှေးဟောင်း ဘုရားရှိခိုးကျောင်းကြီးရဲ့ အမွေအနှစ်ကို အရောင်စုံမှန်ပုံစံ ဇာတ်လမ်းလေးနဲ့ ပြချင်တယ်။"
+  ],
+  "gilded-illumination": [
+   "ရွှေရောင်ပဲ တောက်တဲ့ ကမ္ဘာမှာ နေမင်း ငြိမ်းသွားလို့ ကောင်မလေးက နောက်ဆုံးမီးအိမ်လေးကို တောင်ပေါ် သယ်သွားတဲ့ ပုံပြင် လုပ်ပေးပါ။",
+   "သီတင်းကျွတ် မီးထွန်းပွဲတော်အတွက် ရွှေချထားတဲ့ ပုရပိုက်ပန်းချီလို ကဗျာဆန်တဲ့ ပွဲတော်ဗီဒီယိုလေး လိုချင်တယ်။",
+   "ကျွန်တော်တို့ ရွှေဆိုင်းလက်မှုလုပ်ငန်းရဲ့ မူလဇာတ်လမ်းကို ရွှေရောင် တောက်တဲ့ ရှေးပုံဆွဲစာအုပ်ပုံစံ ပြချင်တယ်။"
+  ],
+  "line-art-ink": [
+   "ရန်ကုန် လမ်း ၁၉ လမ်းလေးကို မနက်ကနေ ညအထိ မင်နဲ့ ဆွဲထားသလို ပြချင်တယ်။ လက်ဖက်ရည်ဆိုင်၊ ဈေးသည်တွေ၊ ညဘက်မီးတွေ လင်းလာတာ။",
+   "ကျွန်မတို့ မုန့်ဟင်းခါးဆိုင်လေးကို မနက်စောစော ဆိုင်ဖွင့်တဲ့အချိန်ကနေ ဖောက်သည်တွေ ဝင်လာတဲ့အထိ ချစ်စရာ လိုင်းဆွဲပုံလေးနဲ့ လုပ်ပေးပါ။",
+   "အင်းလေးကန်က ရွာလေးမှာ လှေလှော်သူ၊ ကြောင်လေး၊ ငှက်တွေနဲ့ နေဝင်ပြီး ညရောက်သွားတဲ့ ရှုခင်းလေး ကြည့်ချင်တယ်။"
+  ],
+  "onetake-launch": [
+   "ကျွန်တော်တို့ ဆိုင်ကယ်ငှားတဲ့ app အသစ် ထွက်မှာမို့ ၂၀ စက္ကန့်လောက် launch ဗီဒီယို လိုချင်တယ်။ Screenshot တွေ ပို့ပေးမယ်။",
+   "မွေးနေ့လက်ဆောင် မှာလို့ရတဲ့ website လေးအတွက် ခေတ်ဆန်ဆန် teaser လေး လုပ်ပေးပါ။",
+   "ကျောင်းသားတွေ စာကျက်ချိန် မှတ်တဲ့ app အတွက် ဖြတ်မပြဘဲ တစ်ဆက်တည်း ပြတဲ့ ကြော်ငြာ လိုချင်တယ်။"
+  ],
+  "onetake-demo": [
+   "ကျွန်မတို့ စာရင်းကိုင် app မှာ ဘောက်ချာ ထုတ်ပုံ၊ အစီရင်ခံစာ ကြည့်ပုံကို မြန်မာလို အသံနဲ့ ရှင်းပြတဲ့ ဗီဒီယို လိုချင်တယ်။",
+   "ဆေးခန်း ချိန်းဆိုတဲ့ app ကို လူကြီးတွေ နားလည်အောင် အဆင့်လိုက် ပြတဲ့ ဗီဒီယို လုပ်ပေးပါ။ Screenshot တွေ ပါတယ်။",
+   "ကျွန်တော်တို့ POS စနစ်ရဲ့ feature အသစ် ၃ ခုကို English နဲ့ မြန်မာ နှစ်ဘာသာ ဗီဒီယို လုပ်ချင်တယ်။"
+  ],
+  "onetake-concept": [
+   "ပို့ဆောင်ရေး app အတွက် ခလုတ်တစ်ချက် နှိပ်လိုက်တာနဲ့ ပစ္စည်းတွေ တစ်ခုပြီးတစ်ခု ဆက်တိုက် ရောက်သွားတဲ့ concept ကြော်ငြာ လိုချင်တယ်။",
+   "ကော်ဖီဆိုင် ကြော်ငြာကို ကော်ဖီစေ့ တစ်စေ့ကနေ ခွက်ထဲရောက်တဲ့အထိ ဖြတ်မပြဘဲ တစ်ဆက်တည်း ပြချင်တယ်။",
+   "ငွေလွှဲ app က အချိန်ကုန်သက်သာတာကို တစ်နှစ်ကနေ တစ်မိနစ်အထိ ချုံ့သွားတဲ့ ပုံစံနဲ့ ပြပေးပါ။"
+  ],
+  "hf-captions": [
+   "ကျွန်မ ဆိုင်အကြောင်း ပြောထားတဲ့ ဗီဒီယိုမှာ စာတန်းထိုး ထည့်ပြီး ဆိုင်နာမည်ကတ်လေး ထည့်ပေးပါ။",
+   "ကျွန်တော့် interview ဗီဒီယိုမှာ အဓိကပြောတဲ့ အချက် ၃ ချက်ကို ကတ်နဲ့ ပေါ်စေချင်တယ်။",
+   "Facebook live ကနေ ဖြတ်ထားတဲ့ clip လေးကို အသံမဖွင့်လည်း နားလည်အောင် စာတန်းထိုး လုပ်ပေးပါ။"
+  ],
+  "hf-vertical": [
+   "လက်ဖက်ရည် ကောင်းကောင်း ဖျော်နည်း ၃ ချက်ကို TikTok အတွက် ဒေါင်လိုက် clip လေး လုပ်ပေးပါ။",
+   "ကျွန်မတို့ အဝတ်ဆိုင်ရဲ့ ဆောင်းရာသီ sale ကို Reels အတွက် မြန်မြန်ဆန်ဆန် ကြော်ငြာ လိုချင်တယ်။",
+   "မနက်ခင်း အလေ့အကျင့်ကောင်း ၅ ခုကို Shorts အတွက် စာလုံးကြီးကြီးနဲ့ ပြပေးပါ။"
+  ],
+  "hf-music": [
+   "ကျွန်တော် ဆိုထားတဲ့ သီချင်းအတွက် lyric video လေး လုပ်ပေးပါ။ သီချင်းဖိုင် ပို့ပေးမယ်။",
+   "ဆိုင်ရဲ့ jingle သီချင်းတိုလေးကို beat နဲ့ ကိုက်တဲ့ အရောင်စုံ ဗီဒီယို လုပ်ချင်တယ်။",
+   "မွေးနေ့အတွက် ဆိုထားတဲ့ သီချင်းကို ဓာတ်ပုံတွေနဲ့ beat ကိုက်အောင် ဗီဒီယို လုပ်ပေးပါ။"
+  ],
+  "logo-reveal": [
+   "ကျွန်တော်တို့ ကော်ဖီဆိုင် logo ကို YouTube ဗီဒီယို အစမှာ ထည့်ဖို့ ၅ စက္ကန့် logo reveal လုပ်ပေးပါ။",
+   "ကုမ္ပဏီ logo ကို website ဖွင့်ချိန်မှာ ပေါ်တဲ့ splash animation လေးအဖြစ် လုပ်ချင်တယ်။ အေးဆေး၊ ယုံကြည်ရတဲ့ ခံစားချက်မျိုး။",
+   "ကလေးကစားစရာ ဆိုင် logo လေးကို ပျော်ပျော်ရွှင်ရွှင် ခုန်ပေါက်ပြီး ပေါ်လာစေချင်တယ်။"
+  ],
+  "lottie-anim": [
+   "App ထဲမှာ ငွေပေးချေမှု အောင်မြင်ရင် ပြမယ့် အမှန်ခြစ် animation လေး လိုချင်တယ်။",
+   "Website အတွက် loading spinner လေးကို ကျွန်တော်တို့ brand အရောင် ခရမ်းနဲ့ လုပ်ပေးပါ။",
+   "YouTube ဗီဒီယိုမှာ သုံးဖို့ နာမည်နဲ့ ရာထူး ပြတဲ့ lower third animation လုပ်ပေးပါ။"
+  ],
+  "ad-marker-comic": [
+   "သမီးလေးကြိုက်တဲ့ ကြောင်လေးက သူရဲကောင်းဖြစ်ပြီး ရပ်ကွက်ထဲက ကလေးတွေကို ကယ်တင်တဲ့ ကာတွန်းလေး လုပ်ပေးပါ။",
+   "ကျွန်တော့် လက်ဖက်ရည်ဆိုင်လေးမှာ မနက်တိုင်း ဖြစ်တဲ့ ရယ်စရာ ဇာတ်လမ်းလေးကို ရုပ်ပြစာအုပ်လို ရောင်စုံကာတွန်းနဲ့ ပြချင်တယ်။",
+   "သင်္ကြန်မှာ ရေပက်ရင်း ညီအစ်ကိုနှစ်ယောက် ရန်ဖြစ်ပြီး ပြန်တည့်သွားတဲ့ ဟာသကာတွန်းလေး လိုချင်တယ်။"
+  ],
+  "ad-scrapbook": [
+   "အဘိုးအဘွားတို့ လက်ထပ်ခဲ့တဲ့အချိန်ကနေ အခုထိ မိသားစုသမိုင်းကို ဓာတ်ပုံဟောင်းအယ်လ်ဘမ်လို ပြန်ပြောပြတဲ့ ဗီဒီယို လုပ်ပေးပါ။",
+   "ပုဂံဘုရားတွေ ဘယ်လို တည်ဆောက်ခဲ့လဲဆိုတဲ့ သမိုင်းကို စာရွက်ဟောင်းတွေ၊ မှတ်စုလေးတွေ ကပ်ထားတဲ့ စာအုပ်လို ပြချင်တယ်။",
+   "ကျွန်မတို့ မိသားစု ပုဆိုးယက်လုပ်ငန်း နှစ်ငါးဆယ်ကျော် ရပ်တည်လာပုံကို စာရင်းဟောင်းတွေ၊ ဓာတ်ပုံတွေနဲ့ ပြန်ပြောချင်တယ်။"
+  ],
+  "ad-ballpoint": [
+   "အမေ မနက်တိုင်း ထမင်းချိုင့် ပြင်ပေးတဲ့ ပုံလေးကို ဘောပင်နဲ့ ဆွဲထားသလို တိတ်တိတ်လေး ပြချင်တယ်။",
+   "ကျွန်တော့် လက်လုပ် သားရေပိုက်ဆံအိတ်လေးတွေကို မှတ်စုစာအုပ်ထဲ ဘောပင်နဲ့ ပုံကြမ်းဆွဲထားသလို မိတ်ဆက်ပေးပါ။",
+   "ကျောင်းတုန်းက သူငယ်ချင်းနဲ့ အတူထိုင်ခဲ့တဲ့ ခုံတန်းလေးအကြောင်း အမှတ်တရ ဇာတ်လမ်းတိုလေး ဘောပင်ပုံကြမ်းပုံစံနဲ့ လုပ်ပေးပါ။"
+  ],
+  "ad-broken-colour": [
+   "အင်းလေးကန်ပေါ်မှာ နေဝင်ချိန် လှေလေးတစ်စင်း ဖြတ်သွားတဲ့ မြင်ကွင်းကို ဆီဆေးပန်းချီကားလို လှလှလေး ပြချင်တယ်။",
+   "ကမ်းခြေနားက ကျွန်မတို့ တည်းခိုခန်းလေးကို မနက်ခင်းအလင်းရောင်နဲ့ ပန်းချီကားလို ကြော်ငြာပေးပါ။",
+   "ပုဂံမှာ မိုးလင်းချိန် ဘုရားတွေကြား မီးပုံးပျံတွေ တက်လာတဲ့ ခရီးသွားအမှတ်တရလေး လုပ်ပေးပါ။"
+  ],
+  "ad-embroidery": [
+   "အမေ့မွေးနေ့အတွက် ပန်းလေးတွေ တစ်ထိုးချင်း ချုပ်ထိုးပြီး ဆုတောင်းစကား ပေါ်လာတဲ့ ဗီဒီယိုလေး လုပ်ပေးပါ။",
+   "ကျွန်မ လက်ချုပ်ပန်းထိုးအိတ်လေးတွေ ရောင်းတဲ့ဆိုင်အတွက် အပ်ချည်နဲ့ ပန်းထိုးနေသလို ကြော်ငြာလေး ပြချင်တယ်။",
+   "ရှမ်းတောင်ပေါ်က ပန်းတွေ၊ ငှက်လေးတွေကို အပ်ချည်နဲ့ ထိုးထားသလို ရာသီပြောင်းလဲပုံ ပြပေးပါ။"
+  ],
+  "ad-stipple": [
+   "ကလေးတွေကို ပိုးစုန်းကြူးရဲ့ ဘဝအဆင့်ဆင့်ကို သိပ္ပံစာအုပ်ဟောင်းထဲက ပုံလို အစက်လေးတွေနဲ့ ရှင်းပြချင်တယ်။",
+   "မြိတ်ကျွန်းစုက ခရုခွံအမျိုးမျိုးကို အစက်ချ မှင်ပုံလေးတွေနဲ့ တစ်ခုချင်း မိတ်ဆက်ပေးပါ။",
+   "ကျွန်တော်တို့ ဆေးဖက်ဝင်အပင်ဆိုင်က သနပ်ခါးပင်အကြောင်းကို ရှေးဟောင်း အပင်ပုံစာအုပ်လို ပြချင်တယ်။"
+  ],
+  "ad-charcoal": [
+   "ဆုံးသွားတဲ့ အဖေ့ကို သတိရလို့ သူနဲ့အတူ ငါးမျှားခဲ့တဲ့ နေ့တွေကို မီးသွေးပုံဆွဲလို ပြန်ပြချင်တယ်။",
+   "ရွာကနေ မြို့ကို အလုပ်လာရှာတဲ့ ကောင်လေးတစ်ယောက်ရဲ့ ပထမဆုံးညအကြောင်း ဇာတ်လမ်းတိုလေး လုပ်ပေးပါ။",
+   "ကျွန်တော့် ပန်းချီသင်တန်းအတွက် မျက်နှာပုံကို မီးသွေးနဲ့ ဆွဲ၊ ဖျက်၊ ပြန်ဆွဲတဲ့ ပုံစံ ပြချင်တယ်။"
+  ],
+  "ad-flat-vector": [
+   "ကျွန်မတို့ ဟင်းသီးဟင်းရွက် အွန်လိုင်းအော်ဒါတင်တဲ့ အက်ပ်ကို ဘယ်လိုသုံးရလဲ ရိုးရိုးရှင်းရှင်း ရှင်းပြပေးပါ။",
+   "မန္တလေးကနေ ပြင်ဦးလွင်၊ ဂုတ်ထိပ်တံတားအထိ ခရီးစဉ်ကို ခေတ်မီ ပုံလေးတွေနဲ့ ပြချင်တယ်။",
+   "သနပ်ခါး ဘယ်လိုသွေးပြီး လိမ်းရလဲဆိုတာ နိုင်ငံခြားသား သူငယ်ချင်းတွေ နားလည်အောင် ပုံလေးတွေနဲ့ ရှင်းပြပေးပါ။"
+  ],
+  "ad-cut-paper": [
+   "သားလေးအတွက် ယုန်နဲ့ လိပ် ပြေးပွဲပုံပြင်ကို စက္ကူညှပ်ပြီး ကပ်ထားသလို လုပ်ပေးပါ။",
+   "နွေ၊ မိုး၊ ဆောင်း ရာသီသုံးမျိုး ပြောင်းလဲပုံကို စက္ကူစုတ်လေးတွေနဲ့ ကလေးတွေကို ပြချင်တယ်။",
+   "ကျွန်မ မုန့်ဆိုင်လေးက ကိတ်မုန့်တွေကို ရောင်စုံ စက္ကူညှပ်ပုံလေးတွေနဲ့ ချစ်စရာကြော်ငြာ လုပ်ပေးပါ။"
+  ],
+  "ad-toy-theatre": [
+   "သမီးလေးရဲ့ မွေးနေ့ပွဲမှာ ပြဖို့ မင်းသမီးလေးနဲ့ နဂါးလေး ပုံပြင်ကို ကတ်ထူပြဇာတ်ရုံလေးလို လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ရုပ်သေးအဖွဲ့ရဲ့ ပွဲတော်ဖျော်ဖြေပွဲကို ကြော်ငြာဖို့ ဇာတ်စင်လေးပေါ် ဇာတ်ကောင်တွေ လျှောထွက်လာသလို ပြချင်တယ်။",
+   "ဘီလူးနဲ့ မင်းသားလေး ပုံပြင်ကို ကလေးတွေ ကြည့်ဖို့ စက္ကူဇာတ်စင်လေးပေါ်မှာ ကပြသလို လုပ်ပေးပါ။"
+  ],
+  "ad-storybook": [
+   "ကျွန်မ သားလေးကို ဇာတ်ကောင်လုပ်ပြီး အိပ်ရာဝင်ချိန်တိုင်း ကြည့်ဖို့ အပိုင်းလိုက် ပုံပြင်လေးတွေ လုပ်ပေးပါ။",
+   "ကျွန်တော်တို့ ကလေးစာကြည့်တိုက်ရဲ့ ကြောင်လေးဇာတ်ကောင်က ကလေးတွေကို စာလာဖတ်ဖို့ ဖိတ်ခေါ်တဲ့ ဗီဒီယို ပြချင်တယ်။",
+   "ဆင်ပေါက်လေးတစ်ကောင် အင်းလေးကန်ကနေ ပုဂံအထိ ခရီးထွက်တဲ့ ကလေးပုံပြင် ဇာတ်လမ်းတွဲလေး လုပ်ပေးပါ။"
+  ],
+  "ad-folk-tale": [
+   "အမေ ငယ်ငယ်က ပြောပြခဲ့တဲ့ ယုန်ပညာရှိ ပုံပြင်ကို အိပ်ရာဝင်ပုံပြင်လေးအဖြစ် လုပ်ပေးပါ။",
+   "ရှမ်းရွာလေးမှာ လယ်သမားမိသားစု စပါးရိတ်သိမ်းကြတဲ့ ပုံပြင်ဆန်ဆန် ဇာတ်လမ်းလေး ပြချင်တယ်။",
+   "ကျွန်မတို့ ရွာက ထန်းလျက်လုပ်ငန်းကို ရှေးပုံပြင်စာအုပ်ထဲက ပုံတွေလို နွေးနွေးထွေးထွေး မိတ်ဆက်ပေးပါ။"
+  ],
+  "ad-dream-glaze": [
+   "ငယ်ငယ်က အိပ်မက်ထဲ မြင်ခဲ့တဲ့ ကောင်းကင်မှာ ပျံနေတဲ့ အိမ်လေးကို ထူးဆန်းလှပတဲ့ ပန်းချီကားလို ပြချင်တယ်။",
+   "လူတွေ ဘယ်ကလာပြီး ဘယ်ကိုသွားမလဲဆိုတဲ့ မေးခွန်းကို တိမ်ထဲအထိ ရောက်နေတဲ့ လှေကားနဲ့ အနုပညာဆန်ဆန် ရုပ်ရှင်တိုလေး လုပ်ပေးပါ။",
+   "ကျွန်မ ပန်းချီပြပွဲ ကြော်ငြာအတွက် ကန်ရေပြင်ပေါ်မှာ ဘုရားစေတီ ပေါ်နေတဲ့ အိပ်မက်ဆန်တဲ့ မြင်ကွင်းလေး လုပ်ပေးပါ။"
+  ],
+  "arch-diagram": [
+   "ကျွန်တော်တို့ အက်ပ်ကနေ အော်ဒါတင်ရင် မီးဖိုချောင်ကို ရောက်၊ ချက်ပြီး ပို့ဆောင်သူဆီ ရောက်သွားပုံကို ပုံကြမ်းနဲ့ ရှင်းပြပေးပါ။",
+   "မိသားစုဆေးဆိုင်ရဲ့ ပစ္စည်းမှာတာကနေ ဂိုဒေါင်၊ ဆိုင်ခန်း၊ ငွေရှင်းတာအထိ လုပ်ငန်းစဉ်ကို ဝန်ထမ်းသစ်တွေ နားလည်အောင် ပြချင်တယ်။",
+   "ဖုန်းကနေ ငွေလွှဲလိုက်ရင် ဘဏ်စနစ်ထဲမှာ ဘယ်လို ဖြတ်သွားလဲဆိုတာ ကျောင်းသားတွေကို ပုံနဲ့ ရှင်းပြတဲ့ ဗီဒီယို လုပ်ပေးပါ။"
+  ],
+  "doc-mix": [
+   "ဝေလငါးပြာ ဘယ်လောက်ကြီးလဲ၊ ဘယ်လို ဆင့်ကဲပြောင်းလဲလာလဲ ဆိုတာကို documentary ပုံစံနဲ့ ၃ မိနစ်လောက် လုပ်ပေးပါ။",
+   "ပုဂံ ဘုရားတွေ ဘယ်လို ဆောက်ခဲ့လဲ၊ ငလျင်ဒဏ်ကို ဘယ်လို ခံနိုင်လဲ ဆိုတာကို မြေပုံ၊ ပုံကြမ်းတွေနဲ့ ရှင်းပြတဲ့ ဗီဒီယို လိုချင်တယ်။",
+   "ကမ္ဘာပေါ်က အကြီးဆုံး ကြယ်တွေကို နေနဲ့ နှိုင်းယှဉ်ပြီး အံ့ဩစရာ အချက်တွေနဲ့ Shorts အတွက် ၁ မိနစ် ဗီဒီယို လုပ်ပေးပါ။"
+  ]
+ }
+}

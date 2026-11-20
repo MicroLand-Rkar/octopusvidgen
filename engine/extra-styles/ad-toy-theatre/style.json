@@ -1,0 +1,18 @@
+{
+  "slug": "ad-toy-theatre",
+  "num": "118",
+  "en": "Toy-Theatre Collage",
+  "cn": "纸剧场",
+  "category_en": "anidoodle",
+  "film": "Toy-Theatre Collage",
+  "line": "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.",
+  "uses": [
+    "Fairy tales",
+    "Shows",
+    "Gifts"
+  ],
+  "dur": 30,
+  "needs": [],
+  "skill": "anidoodle",
+  "engine_style": "paperCraft"
+}

@@ -1,0 +1,23 @@
+# Your own films, projects, trend reports and the database
+/data/
+
+# Secrets and machine-specific settings
+/server/.env
+/.claude/settings.json
+/.claude/settings.local.json
+
+# Build output
+/server/target/
+/web/app/dist/
+*.tsbuildinfo
+
+# Installed packages (each engine's setup downloads them again)
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Design-check caches
+/web/landing/.taste-skill/
+
+.DS_Store

@@ -1,0 +1,847 @@
+{
+ "ui": {
+  "att.remove": "Remove {name}",
+  "att.tooBig": "Not added (over 500 MB): {names}",
+  "att.trayLabel": "Attached files",
+  "board.addHint": "Pictures, clips, voice, music, documents",
+  "board.addRefs": "Add references",
+  "board.addStyle": "+ Blend a style",
+  "board.aspect": "Aspect ratio",
+  "board.blendStyle": "Blended in",
+  "board.chatTitle": "Plan film {n} with Claude",
+  "board.close": "Close",
+  "board.delete": "Delete",
+  "board.deleteConfirm": "Delete {name} from this project?",
+  "board.deleteError": "Couldn't delete the file",
+  "board.done": "Done ({n})",
+  "board.download": "Download",
+  "board.dropHere": "Drop files to add them to this project",
+  "board.emptyBody": "Drop pictures, clips, voice or music here, then plan the first film with Claude in the chat.",
+  "board.emptyTitle": "An empty project",
+  "board.filter.all": "All",
+  "board.filter.films": "Films",
+  "board.filter.made": "Made by Claude",
+  "board.filter.refs": "References",
+  "board.filterLabel": "Show",
+  "board.helloNoStyle": "Hi. Pick a style above (or tap a suggestion), then tell me what the film should be. I'll ask about anything unclear before we make it.",
+  "board.hint": "Pick references with +, then plan the next film in the chat",
+  "board.inProject": "In this project",
+  "board.length": "Length",
+  "board.made": "Made by Claude",
+  "board.mainStyle": "Main style",
+  "board.make": "Make video",
+  "board.makeError": "Couldn't start the film",
+  "board.makeHint": "Make the film now (Ctrl/⌘ + Enter)",
+  "board.newChat": "New chat",
+  "board.open": "Open {name}",
+  "board.pick": "Use in next film",
+  "board.pickHint": "The first one you pick leads; the others are blended in.",
+  "board.pickStyle": "Choose a style",
+  "board.pickStyles": "Choose styles",
+  "board.picked": "In next film",
+  "board.pickedLabel": "References for the next film",
+  "board.placeholder": "Describe film {n}: what happens, who's in it, the mood…",
+  "board.planFirst": "Plan it in a chat first →",
+  "board.promptLabel": "What the next film should be",
+  "board.ref": "Reference",
+  "board.removeStyle": "Remove {name}",
+  "board.replyPlaceholder": "Reply to Claude…",
+  "board.searchStyles": "Search styles",
+  "board.starting": "Starting…",
+  "board.suggestAgain": "Suggest again",
+  "board.suggested": "Suggested",
+  "board.tooShort": "Write a little more about the film (10 characters at least).",
+  "board.unpick": "Don't use",
+  "board.unpickName": "Don't use {name}",
+  "board.uploadError": "Couldn't add the files",
+  "board.uploading": "Adding {n}…",
+  "board.usedBefore": "Used in this project",
+  "board.voice": "Narration language",
+  "film.askHead": "Claude is asking — work continues once you answer",
+  "film.attach": "Attach files",
+  "film.backSingle": "Single videos",
+  "film.briefTitle": "Brief written by Claude",
+  "film.cancel": "Stop",
+  "film.canceledNote": "This video was stopped.",
+  "film.chatIdle": "Send a message to keep working on this video",
+  "film.chatLive": "The video is being made (no need to press the button again). Claude's work is shown live here.",
+  "film.chatTitle": "Chat with Claude",
+  "film.downloadFile": "Download {name}",
+  "film.downloadMp4": "Download MP4",
+  "film.dropHere": "Drop files here to send them to Claude",
+  "film.elapsedDone": "took {time}",
+  "film.elapsedLive": "{time} elapsed",
+  "film.estimateHint": "The percentage is an estimate based on the step Claude is on. A video usually takes 10–20 minutes.",
+  "film.failedNote": "The video isn't out yet. See what happened in the chat on the right — reply there and work will continue.",
+  "film.headDone": "Done",
+  "film.headFailed": "Stopped — reply in the chat to continue",
+  "film.headQueued": "In the queue",
+  "film.headRunning": "Working",
+  "film.imagesGot": "{n} images so far",
+  "film.inputsTitle": "Materials you provided",
+  "film.loadError": "Could not load this film",
+  "film.loading": "Loading…",
+  "film.making": "Claude is making the video…",
+  "film.noProject": "None",
+  "film.now": "Now",
+  "film.phLive": "Send Claude a note… (read before the next step)",
+  "film.phQuestion": "Answer Claude's question…",
+  "film.phResume": "Reply… (sending resumes where it stopped)",
+  "film.phSucceeded": "Say what you'd like changed… (sending starts the edit)",
+  "film.progressLabel": "Progress",
+  "film.projectFallback": "Project",
+  "film.projectLabel": "Project:",
+  "film.queuedWait": "Waiting in the queue…",
+  "film.send": "Send",
+  "film.sendError": "Could not send",
+  "film.sendLabel": "Message Claude",
+  "film.sizeKb": "{n} KB",
+  "film.stage.build": "Build visuals, motion and sound",
+  "film.stage.finish": "Export the video",
+  "film.stage.images": "Make images with Flow AI",
+  "film.stage.plan": "Plan the script",
+  "film.stage.read": "Study the style",
+  "film.stage.render": "Render and check",
+  "film.steps": "{n} steps",
+  "film.tagAnswer": "Answer",
+  "film.tagNote": "Note",
+  "film.tagPlan": "Planning chat",
+  "film.working": "Working…",
+  "lang.label": "Language",
+  "nav.label": "Studio",
+  "nav.new": "New video",
+  "nav.projects": "My projects",
+  "new.all": "All ({n})",
+  "new.aspect": "Aspect ratio",
+  "new.attach": "Attach files",
+  "new.attachTitle": "Attach files (you can also drag or paste them)",
+  "new.attachedCount": "{n} added",
+  "new.badgeFlow": "✦ Flow AI images",
+  "new.badgeNoGen": "✦ No image generator",
+  "new.cancel": "Cancel",
+  "new.category": "Category",
+  "new.create": "Create",
+  "new.dropHere": "Drop files here",
+  "new.duration": "Length",
+  "new.episode": "Episode {n}",
+  "new.filesNote": "Here are some files.",
+  "new.flowBody": "Claude opens Flow in your Chrome and makes the images it needs. Keep Chrome open while the video is being made. This uses a few Flow credits.",
+  "new.flowTitle": "✦ Images are made automatically with Google Flow AI.",
+  "new.hello": "Hi. Tell me in plain words what video you'd like in the {style} style. If anything is unclear, I'll ask.",
+  "new.language": "Language",
+  "new.listSep": ", ",
+  "new.make": "Make video",
+  "new.makeRest": "Let Claude decide the rest and make it",
+  "new.material": "Add material",
+  "new.materialHint": "files, audio, photos (optional)",
+  "new.maxFiles": "You can attach up to {max} files.",
+  "new.messageLabel": "Message Claude",
+  "new.ncAfter": " use. For client or business work you need a commercial licence (onetake Pro).",
+  "new.ncBefore": "This style is free only for ",
+  "new.ncStrong": "non-commercial",
+  "new.needField": "This style needs {field}.",
+  "new.needs": "Needs {list}",
+  "new.newProject": "+ New project…",
+  "new.noGen": "This style needs AI-made images, and no image generator is turned on for this server, so it can't make videos yet.",
+  "new.noProject": "No project (one-off)",
+  "new.noReply": "Claude couldn't reply just now",
+  "new.pickLeft": "Pick a style from the list.",
+  "new.pickStyle": "Pick a style first.",
+  "new.pickStyleShort": "Pick a style first",
+  "new.placeholder": "Write what you want… drag or paste images and files here",
+  "new.planDraft": "Draft plan (the brief Claude will send)",
+  "new.planReady": "✓ Video plan (the brief Claude will send)",
+  "new.project": "Project",
+  "new.projectFailed": "Couldn't create the project",
+  "new.projectName": "Project name",
+  "new.samples": "Examples: tap one to send it",
+  "new.searchLabel": "Search styles",
+  "new.searchPlaceholder": "Search: watercolour, explainer, news…",
+  "new.seconds": "{n} sec",
+  "new.send": "Send",
+  "new.startFailed": "Couldn't start the video",
+  "new.starting": "Starting…",
+  "new.step1": "1. Choose a style",
+  "new.step2": "2. Plan with Claude",
+  "new.styleBeforeFiles": "Pick a style before adding files.",
+  "new.stylesLabel": "Styles",
+  "new.tellFirst": "Tell Claude what you want first.",
+  "new.thinking": "Thinking…",
+  "new.uploading": "Uploading files…",
+  "projects.addEpisode": "+ Episode {n}",
+  "projects.assets": "Reusable assets ({n}):",
+  "projects.back": "← My projects",
+  "projects.bibleEmpty": "Claude will write here after the first episode.",
+  "projects.bibleHint": "Claude's notes on characters, places and style, read and updated every episode",
+  "projects.bibleTitle": "Series bible",
+  "projects.cancel": "Cancel",
+  "projects.cancelEdit": "Cancel",
+  "projects.continueEpisode": "Continue with Episode {n}",
+  "projects.create": "Create",
+  "projects.createError": "Couldn't create",
+  "projects.descLabel": "What's it about",
+  "projects.descPlaceholder": "Characters, world, style… Claude reads this for every episode",
+  "projects.edit": "Edit name/description",
+  "projects.emptyBody": "A project is a folder. Keep a series of episodes together and Claude reuses the characters, places, style and music.",
+  "projects.emptyCta": "Create your first project",
+  "projects.emptyTitle": "No projects yet",
+  "projects.episodeCount": "Episodes: {n}",
+  "projects.episodeN": "Episode {n}",
+  "projects.firstEpisodeCta": "Make Episode 1",
+  "projects.loadError": "Couldn't load",
+  "projects.loading": "Loading…",
+  "projects.nameLabel": "Project name",
+  "projects.namePlaceholder": "e.g. The Tea Shop War",
+  "projects.nameRequired": "Give it a name",
+  "projects.newProject": "+ New project",
+  "projects.newVideo": "New video",
+  "projects.noEpisodesBody": "The first episode sets the characters, places and style. Later episodes reuse them.",
+  "projects.noEpisodesTitle": "No episodes yet",
+  "projects.optional": "optional",
+  "projects.save": "Save",
+  "projects.saveError": "Couldn't save",
+  "projects.seconds": "{n} s",
+  "projects.singleCount": "Films: {n}",
+  "projects.singles": "Single videos",
+  "projects.singlesHint": "Videos not in a project",
+  "projects.title": "My projects",
+  "src.anyFile": "any file",
+  "src.badType": "{name}: this file type isn't accepted.",
+  "src.canSource": "Fine if you don't have any. Claude will look up publicly available information itself.",
+  "src.choose": "Choose files",
+  "src.closeCommon": "− Close",
+  "src.dropOr": "or drag here · {types} · up to {max}",
+  "src.material.none": "Drawn from scratch",
+  "src.material.optional": "Your own material welcome",
+  "src.material.required": "Made from real information",
+  "src.maxFiles": "Up to {max} files only.",
+  "src.openCommon": "+ Add your own voice, music, photos, logo",
+  "src.optional": "optional",
+  "src.remove": "Remove",
+  "src.removeLabel": "Remove {name}",
+  "src.required": "required",
+  "src.tooBig": "{name} is over 500 MB.",
+  "status.canceled": "Canceled",
+  "status.failed": "Failed",
+  "status.queued": "Queued",
+  "status.running": "Making",
+  "status.succeeded": "Ready"
+ },
+ "examples": {
+  "brick-toy": [
+   "For my son's birthday, please make a little cartoon of a toy-brick rocket flying to the moon.",
+   "I want to show our toy shop's new brick set snapping together piece by piece until it becomes a little house.",
+   "I'd like a video that builds a Bagan pagoda step by step out of toy bricks and teaches kids about Bagan."
+  ],
+  "paper-popup": [
+   "For my daughter's bedtime story, make a tale where the book opens and a little rabbit hops out of a paper forest.",
+   "Our new children's picture book is coming out, so I want a short pop-up style ad with the pages folding up.",
+   "I want to show a little Inle Lake fisherman leg-rowing his boat past the floating gardens inside a paper book."
+  ],
+  "tilt-shift": [
+   "Please make the busy morning rush on Yangon's Circle Line train look like a tiny toy town.",
+   "I want an ad showing our condo project and the streets around it from above, like a little model city.",
+   "I'd love to watch the morning motorbikes and vendors around Mandalay's Zegyo Market like a miniature toy world."
+  ],
+  "lowpoly-island": [
+   "For my new game, please make a teaser where an island and a village appear tile by tile out of the open sea.",
+   "I want to calmly watch a little village slowly grow on an island until the night stars come out.",
+   "I want to show kids how a small fishing village on one of the Myeik islands slowly grows."
+  ],
+  "glass-product": [
+   "Please show off our new face-oil glass bottle beautifully, with streaks of light sweeping across so it sparkles.",
+   "I'd like a product intro video that unboxes our new earbuds and shows them up close, nice and polished.",
+   "I want to show the glass perfume bottle I bought for my mum's birthday with light playing all over it."
+  ],
+  "memphis-diorama": [
+   "I want to watch the hot, rainy and cool seasons change one after another on a bend of the Ayeyarwady, in bright colours.",
+   "Please make a cute scene of the seasons changing around a little coffee shop for the top of our website.",
+   "I want to show kids the big mango tree in front of our house flowering, fruiting and dropping its leaves over a whole year."
+  ],
+  "isometric-picture-book": [
+   "Please explain with little pictures why one single queue at the bank is actually faster.",
+   "I want to help patients understand the new take-a-number waiting system at our clinic.",
+   "I want to explain to kids why boarding a bus from the back door makes it faster."
+  ],
+  "crayon-world": [
+   "Please make a keepsake video that flies over Grandpa's village and lands at the padauk tree he planted.",
+   "To honour our old teacher, I'd like a little story of a trip to the school, as if the kids coloured it in crayon.",
+   "I want to show, in childlike crayon drawings, the journey of a boy who leaves his village to find work in the city."
+  ],
+  "rubber-hose": [
+   "Please make an old-cartoon style ad for our mohinga shop where a fritter and a soup bowl chase each other around.",
+   "I'd like a funny cartoon of a teacup chasing a runaway sugar cube all around the kitchen.",
+   "I want to teach kids to brush their teeth with an old cartoon where a toothbrush and toothpaste chase the germs away."
+  ],
+  "cel-anime-80s": [
+   "Please make a story about a girl delivering a parcel by motorbike through rainy Yangon at night, racing to arrive before dawn.",
+   "For our band's new song, I want a neon-lit night city video like 80s anime.",
+   "I want to show a nostalgic story of my friends and me riding bikes, in the colours of the cartoons we watched as kids."
+  ],
+  "scifi-toon": [
+   "Please make a comedy about a scientist who opens a portal just to get a cup of tea and tumbles into strange worlds.",
+   "I want a funny ad showing how fast our money-transfer app is by hopping from one planet to another.",
+   "I want a crazy little cartoon about two brothers who forgot their homework and have to time-travel in a spaceship."
+  ],
+  "midcentury-toon": [
+   "Please explain how to install our new water purifier in three steps, like a 1950s classroom film.",
+   "I want to teach my mum how to make video calls on her phone, explained in a funny old-cartoon style.",
+   "I want to show how to use a rice cooker properly, like an old-time educational cartoon."
+  ],
+  "comic-history": [
+   "I want to show, lightly and like a comic book, how Myanmar's royal capital moved from Bagan to Inwa, Amarapura and Mandalay.",
+   "Please make a funny comic-style story about three tea shops in our neighbourhood fighting over customers.",
+   "Please explain in comics how the riverbank land between two villages shifted from one side to the other over the years."
+  ],
+  "manga-panels": [
+   "I want to show the one second when pigeons take off from the Shwedagon Pagoda platform, split into manga panels.",
+   "Please introduce the new camera at our camera shop with manga panels appearing one after another.",
+   "Please make a keepsake of my little sister crossing the finish line at her race, in comic-book panels."
+  ],
+  "dataviz": [
+   "I want to show fifty years of Yangon's hot-season temperature data so the chart itself tells the story.",
+   "Please show five years of sales from our family tailoring business in a nice-looking chart.",
+   "I want to explain Myanmar's rice export figures by year in charts that students can easily understand."
+  ],
+  "white-model": [
+   "I want to show downtown Yangon's buildings rising floor by floor from the colonial era to today on a white model.",
+   "Please make an exhibition video that lights up our company's housing project plot layout step by step on a white model.",
+   "I want to slowly reveal Mandalay's city grid and palace walls on a white model built from map data."
+  ],
+  "data-physical": [
+   "I want to show Myanmar's yearly hydropower and solar output as stacked tiles, like something you could actually hold.",
+   "Please show the sales figures from our company's annual report as stacked wooden blocks.",
+   "I want to show ten years of yields from our family's Shan tea plantation as if real objects were piled up."
+  ],
+  "transit-map": [
+   "Please show the stations of Yangon's Circle Line appearing one by one on a little printed map.",
+   "I want to show how Yangon's bus lines have expanded over the years, in a train-map style.",
+   "I want to show how the towns our logistics business delivers to grew over ten years, like a metro map."
+  ],
+  "map-explainer": [
+   "Please explain with a map how the Ayeyarwady flows from its confluence to the delta, zooming in from the globe.",
+   "I'd like a map video explaining why the world's cargo ships have to pass through the Strait of Malacca.",
+   "I want to explain how the creek bank in our village is being eroded, using a real map and terrain."
+  ],
+  "pip-simulation": [
+   "Please demonstrate how an infectious disease spreads from person to person with little creatures running around.",
+   "I want to simulate with little creatures what happens when market vendors compete on price.",
+   "I want students to actually see how natural selection works as the generations change."
+  ],
+  "caption-news": [
+   "Please make a short news clip you can watch with the sound off about this year's record monsoon rainfall data.",
+   "I'd like a short news clip with captions showing the real figures from our neighbourhood's donation drive.",
+   "I want to show a report on the global decline in bee colonies with captions, so it's instantly clear on a phone."
+  ],
+  "newsreel": [
+   "I want to show the 1930s era when trams ran in Yangon, using archive photos, like an old newsreel.",
+   "For our little shop's 50th anniversary, please make an old newsreel using the old photos from Grandpa's time.",
+   "I want to retell how amazed people were when radio first came out, with old newspaper headlines, like a vintage newsreel."
+  ],
+  "countdown": [
+   "I want to count down the last minute before the ribbon-cutting at our shop opening, using the real footage we shot, split into panels.",
+   "Please put together the videos my friends shot on New Year's Eve as a countdown of the final ten seconds.",
+   "I want to split real footage of a rocket launch into nine panels that merge back into one at ignition."
+  ],
+  "city-symphony": [
+   "Please make a city symphony of a day in Yangon from my time-lapse clips, cut to the beat of the music.",
+   "I want to cut old photos of Mandalay side by side with videos shot today, in rhythm.",
+   "For our hotel, please make an opening film from city shots of Yangon from morning to night, cut to music."
+  ],
+  "visual-investigation": [
+   "I want to lay out the crash at the top of our street on one timeline from CCTV video, photos and eyewitness accounts.",
+   "I want to verify with evidence where and when a flood photo going around social media was really taken.",
+   "Please reconstruct how the factory fire unfolded over time from photos, the report and what the workers said."
+  ],
+  "kino-montage": [
+   "I want to show how Grandpa founded our family rice mill, with old photos, account books and the workers' effort.",
+   "I want to combine old photos and videos of thousands of people pitching in at the pagoda festival to show our collective strength.",
+   "For our factory's 20th anniversary, please make something with archive photos and staff numbers, cut hard and intense."
+  ],
+  "telestrator": [
+   "I want to break down how we came back in the second half of our neighbourhood football match by drawing lines over the real match video.",
+   "Please make a coaching video that pauses chinlone competition footage and draws lines showing the footwork.",
+   "I want to explain our school football team's goals by showing player positioning with arrows over the match video."
+  ],
+  "news-package": [
+   "Please make this week's gold, fuel and rice price changes like a TV news show, with headline captions and price boards.",
+   "I want to present our school's four or five news items this month split into segments, like a real news programme.",
+   "Please round up this week's new tech news, fully presented in a newsroom style."
+  ],
+  "ascii-crt": [
+   "Please introduce our new software tool as if it's drawn in text characters on an old green screen.",
+   "I'd like a story about a little robot on the moon that sleeps for years and then answers a signal from Earth in text characters.",
+   "Please draw a birthday message in text characters, styled like the old computer screens Dad used when he was young."
+  ],
+  "silent-film": [
+   "Please make a little silent film about a bakery boy chasing a rolling bun and then sharing it with a hungry kid.",
+   "I'd like a funny black-and-white silent-film-era ad for our old-fashioned bakery.",
+   "I want to show, like a silent film, the funny time Dad and I went fishing and caught nothing but an old shoe."
+  ],
+  "backrooms": [
+   "Please make a scary story filmed on the first night of a new night-shift worker following the rules on the wall in an endless yellow office.",
+   "For our new mystery game, I'd like a creepy teaser of being lost in an endless long corridor.",
+   "I want to show a scary little story of someone alone at night filming on a phone in an old hospital corridor that never ends."
+  ],
+  "scratch-film": [
+   "I want to show a little story of a firefly travelling across a dark pond with its own tiny light.",
+   "Please explain how little fish in the deep sea rise up every night, with lines of light scratched into the dark.",
+   "I want to show the lights at our night market switching on one by one until the whole market glows, as if scratched onto film."
+  ],
+  "double-exposure": [
+   "I want to layer the landscapes I shot from the Shan hills to Inle Lake inside silhouettes of an elephant, a peacock and a fish.",
+   "For our Mawlamyine travel business, please make an opening film that layers real photos of the town inside a person's silhouette.",
+   "I want to make a keepsake by layering old photos of the village Dad grew up in inside his profile silhouette."
+  ],
+  "pixel-rpg": [
+   "For our second anniversary, I want to show our journey from the day we met until today, like looking back at a saved quest in an old game.",
+   "For our new mobile game, please make a retro pixel-game ad of a little hero standing in front of the boss door.",
+   "I want to retell a year of student life as if clearing old-game levels one by one."
+  ],
+  "hd-2d": [
+   "Please make a story where the lighthouse goes dark and a girl carries the last little flame through the night forest to the cliff in a storm.",
+   "For our new fantasy game, I'd like an ad of a hero party travelling through a vast pagoda plain like Bagan.",
+   "For my little brother, I want to tell the tale of a kid leaving a small village to find a dragon, like a beautiful game."
+  ],
+  "microgame": [
+   "Please show how to use our new app with quick little games popping up one after another and getting faster and faster.",
+   "Please make getting up and ready for school in the morning into a funny string of little games that speed up.",
+   "I want to teach our new employees what they need to know on day one with little games that keep speeding up."
+  ],
+  "game-show": [
+   "Please present our company's wins this year like a game show, coming in on the beat and closing with a scoreboard card.",
+   "I want to show the history of communication, from the telegraph to the smartphone, as a fun beat-driven game show.",
+   "I want to round up everything our family went through this year, funny like a TV game show."
+  ],
+  "swiss-motion": [
+   "Please make our music festival poster arrange itself according to Swiss design rules.",
+   "I want to introduce our design studio's new brand with the grid, type and colours lining up one after another.",
+   "I want to clearly teach design students five rules for laying out a poster page."
+  ],
+  "spy-titles": [
+   "Please make an opening title like a 1960s spy film, where shapes chase each other and become our film's name.",
+   "I'd like a catchy spy-movie style opening title to kick off our company anniversary event.",
+   "For my friend's wedding, please make a retro opening title that presents the couple as two spies."
+  ],
+  "art-deco": [
+   "Please make our hotel's dinner invitation in a glamorous 1930s gold design.",
+   "I'd like a little story about a lift boy in a grand colonial-era hotel who has to deliver a letter before midnight.",
+   "Please make a glamorous Art Deco invitation video for my parents' 30th wedding anniversary."
+  ],
+  "pictogram-motion": [
+   "Please make a story about an umbrella left on a bus, waiting on the lost-and-found shelf, that opens along with lots of other umbrellas when the rain returns.",
+   "I want to explain our township's waste-sorting rules to the public with little symbols moving to a beat.",
+   "For our festival, I'd like a brand video where car, train and plane icons appear in rhythm."
+  ],
+  "bauhaus-shapes": [
+   "Please explain how powerful compound interest is when you save, using little circles and squares.",
+   "I want to explain to members how our little savings group works, using Bauhaus shapes.",
+   "Please make chapter opening cards for our lesson topics with red, yellow and blue shapes playing around."
+  ],
+  "flat-space-explainer": [
+   "Please make a scale explainer that zooms from the Milky Way to Earth, to Myanmar, and finally down to a single virus.",
+   "I want to show kids how far apart the planets in the solar system are by following a little space probe.",
+   "For our education channel, please explain how satellites orbit the Earth with a simple cartoon."
+  ],
+  "text-flash-cuts": [
+   "Please make a teaser with flashing words for a creepy film: a letter, a phone call, footsteps on the stairs... getting closer.",
+   "I want to show our youth group's words of belief hard and intense, with big letters flashing up.",
+   "Please make the opening titles of our new series exciting, with fast cuts of words and images."
+  ],
+  "silhouette-rhythm": [
+   "Please make a silhouette music video about a little bird who is always behind the flock and learns the rhythm.",
+   "I'd like a team video of our chinlone players moving to the beat as silhouettes at sunset.",
+   "To open the Thadingyut light festival, I want to show silhouettes of people holding lanterns and dancing to the dobat drum rhythm."
+  ],
+  "satellite-briefing": [
+   "I want to compare how Inle Lake has shrunk over the years using real satellite photos.",
+   "Please explain, like a short news brief, the Ayeyarwady delta rice fields before and after the flood using satellite images.",
+   "I want to show students how the mangroves on the Myeik coast changed over ten years with a satellite map."
+  ],
+  "briefing-board": [
+   "I want to compare three designs for the creek bridge to our village by cost, strength and real measurements.",
+   "Please compare three locations for our new branch on a board, with real rent and foot-traffic data.",
+   "I want to compare three home power options, solar panels, a generator and batteries, with real prices."
+  ],
+  "lidar-survey": [
+   "I want to reveal the ruined stupas hidden under trees in the Bagan archaeological zone with laser-scan data.",
+   "Please show the ups and downs of our construction site from a drone laser survey.",
+   "I want to show what you'd find if you stripped away the trees around the walls of the ancient city of Sri Ksetra with a laser survey."
+  ],
+  "microscope": [
+   "I want to zoom into our thanaka powder with real microscope images and show why it's good for your skin.",
+   "For students, please zoom continuously into onion-skin cell photos taken in the lab, all the way to the nucleus.",
+   "I want to compare the grain structure of our two rice samples using microscope images."
+  ],
+  "archive-lighttable": [
+   "I want to put Grandpa's old glass-plate photos and letters on a light table and piece our family history back together.",
+   "Please show the sixty-year history of our dried tea-leaf business with the original account books and old labels.",
+   "For a museum, I want to zoom into an old palm-leaf manuscript under a magnifier and explain what it says."
+  ],
+  "security-xray": [
+   "Please make a funny clip where bags go through the airport security scanner and live crabs are wriggling inside one of them.",
+   "I want to show our customers how parcels are X-ray checked at our delivery warehouse.",
+   "Please show kids, in a fun way, what's inside a power bank when you look at it with an X-ray."
+  ],
+  "dark-documentary": [
+   "I want to show how people long ago built Bagan's Ananda Temple, dark and serious like a documentary.",
+   "Please make an engineering-documentary style reconstruction of the hardest night on our dam construction project.",
+   "Please explain how giant radio telescopes listened to the sky, like a space documentary."
+  ],
+  "thermal-camera": [
+   "Please show why our apartment is so hot, looking at the walls, windows and roof as if through a thermal camera.",
+   "I'd like a little video of peeking at animals in the forest at night through a thermal camera.",
+   "I want to show our customers how our electrical repair shop finds overheating wires with a thermal camera."
+  ],
+  "circuit-board": [
+   "Please show how electricity flows from a hydropower dam to the phone charger in our house, as a circuit board.",
+   "I want to show how products from our electronics shop travel from the factory into customers' hands, as copper traces.",
+   "I want to get students interested by showing rivers turning into copper lines and a whole city lighting up."
+  ],
+  "firefly-pointillism": [
+   "Please make a little tale of a firefly asking questions with its light in the dark until it finds its friends.",
+   "For my little sister's birthday, I'd like a video where lots of dots of light gather and become her portrait.",
+   "I want to show what teamwork means: each member's small light adding up to one big light."
+  ],
+  "flow-field": [
+   "Please draw how Cyclone Mocha moved from the Bay of Bengal onto the Rakhine coast, with ink lines of wind flow.",
+   "I want to explain how the monsoon winds bring rain to Myanmar with thousands of flowing ink lines.",
+   "Please show the Ayeyarwady's monsoon currents and the times it rose above the danger mark with flowing lines."
+  ],
+  "oscilloscope-math": [
+   "Please explain on an oscilloscope screen how stacking spinning circles creates a square wave.",
+   "For our physics tutoring class, I want to show how sound waves work with green wave lines.",
+   "I want to show kids the waveform of each note on a pattala on an oscilloscope."
+  ],
+  "neon-tubes": [
+   "For the opening of our little night eatery, please make a story of a neon cat running among the signs.",
+   "I'd like a city-night video of the neon signs at Yangon's Chinatown night market lighting up one after another.",
+   "Please make a video of neon-tube figures dancing on a rainy night for the city-pop song I wrote."
+  ],
+  "blueprint": [
+   "I want to show the little rice-winnowing machine I invented being drawn, taken apart and put back together on a blueprint.",
+   "Please introduce our company's upcoming new solar water pump on an engineering blueprint.",
+   "I want to draw a big rainwater-harvesting machine on a blueprint and explain to kids how it works."
+  ],
+  "iso-infographic": [
+   "Please show the journey from a tea plantation in the Shan hills to a cup at a Yangon tea shop, all in one little world.",
+   "I want to explain our company's process from the moment an order is placed until it reaches your home, with little pictures.",
+   "I want to help kids understand how a grain of rice gets from the paddy to the mill, the market and the rice pot."
+  ],
+  "teardown": [
+   "Please take the fan we make apart piece by piece, with its real parts and dimensions, and then close it back up.",
+   "I'd like a video that takes my keyboard apart down to the chips and shows every part at its real size.",
+   "I want to show mechanic students what's inside a motorbike engine by taking it apart."
+  ],
+  "hardcore-info": [
+   "Please take a phone apart and explain the antenna, to show why you lose signal when you hold it by the corner.",
+   "I want to show, with detailed internal engineering, why our new fridge saves on electricity.",
+   "I want to explain to students in detail why an umbrella flips inside out in strong wind."
+  ],
+  "precise-mechanism": [
+   "Please cut open a watch with no battery and explain, colour-coded, how the wheels turn inside.",
+   "I want to show our customers how the mechanism inside our old sewing machine works.",
+   "Please cut a bicycle gear apart piece by piece so students can see how the shifting works."
+  ],
+  "instruction-manual": [
+   "Please make a ten-step manual drawing of a couple assembling a baby cot for the first time.",
+   "I'd like a manual-style video so buyers can put together the bookshelf from our furniture shop themselves.",
+   "I want to show how to use a gas stove safely, step by step, like the little pictures in a manual."
+  ],
+  "pen-plotter": [
+   "I want to show a little plotter drawing Hkakabo Razi from real elevation data with a pen at night under a desk lamp.",
+   "Please show a map of the hills near our village drawn contour line by contour line.",
+   "I want to show a plotter slowly drawing our design studio's logo with four coloured pens."
+  ],
+  "assembly-line-diagram": [
+   "Please show how a bowl of mohinga gets broken down step by step in the body, like a factory.",
+   "I want to explain how a bottle of water comes out of our water-bottling plant with a factory process diagram.",
+   "I want to explain to kids a drop of blood travelling through the body, like a factory production line."
+  ],
+  "crayon-book": [
+   "Please make a bedtime story where the moon can't sleep, so a girl climbs onto the roof and sings it a lullaby.",
+   "I'd like a little ad for our kids' bookshop's new storybook that looks like it's drawn in crayon.",
+   "I want to teach kids the Burmese consonants, starting from 'ka gyi', with little crayon pictures."
+  ],
+  "watercolor": [
+   "Please show the Bagan sunrise with hot-air balloons in one continuous take, as if walking through a watercolour painting.",
+   "For our travel company, I'd like a watercolour journey from the Shan hills to Inle Lake.",
+   "I want to explain to kids how a raindrop flows from the mountain to the river and the sea, in watercolour."
+  ],
+  "impasto": [
+   "Please make a video where a little red umbrella opens in a grey rainy square and colours spread with the music.",
+   "For my new love song, I'd like an emotional video full of thick oil-paint colours.",
+   "For our gallery opening, please make an ad showing Shwedagon in the evening with thick oil-paint strokes."
+  ],
+  "urban-sketch": [
+   "Please show a hat blowing through the wind between Yangon's colonial buildings, with colour following behind it.",
+   "I want to show our little coffee shop and its street as if roughly drawn in pen with a light watercolour wash.",
+   "I'd like a little travel journal sketched while walking along the Mawlamyine waterfront."
+  ],
+  "colored-pencil": [
+   "Please show in a coloured-pencil cutaway how trees share food underground through fungal threads.",
+   "I want to show, in coloured pencil, how water rises from the roots to the flower of a plant in our garden.",
+   "I want to explain how a lotus lives underwater with a coloured-pencil cutaway like a storybook."
+  ],
+  "risograph": [
+   "Please make a layered-colour print video of a Sunday morning bike ride through Yangon, stopping by a snack shop, a park and Kandawgyi Lake.",
+   "For our little handmade bag shop, I'd like a cute ad that looks printed in just a few colours.",
+   "Please make a little video in a misregistered riso print style to introduce our new poetry zine."
+  ],
+  "halftone-dossier": [
+   "Please make a funny case file taking our fat cat to court for running around at 4 a.m. and pushing cups off tables.",
+   "I want to show the case of the puppy who chewed up the shoes as a detective file with old newspaper halftone dots.",
+   "For our pet food shop, I'd like a funny ad that's a case file on a kitten caught stealing food."
+  ],
+  "woodcut": [
+   "Please make a folk tale where a whole village casts a great bell all winter, and when it's first struck the snow stops.",
+   "I want to show the artisans at our lacquerware workshop at work in pictures like woodcut prints.",
+   "Please make a woodcut-style book ad for the new fantasy novel I wrote."
+  ],
+  "engraving": [
+   "For a museum, please show a bee engraved line by line on a copper plate and then tinted with a watercolour wash.",
+   "I'd like an ad that presents the heritage of our old honey business like an old copper engraving.",
+   "I want to show Myanmar's orchid species one by one like the engravings in an old natural history book."
+  ],
+  "silkscreen-poster": [
+   "For our travel business, please make a travel guide showing Bagan, Inle and Ngapali each as a big poster.",
+   "I want to show my brother's journey home from working abroad, one poster after another.",
+   "For our music festival, I'd like an ad in a silkscreen-print poster style."
+  ],
+  "printed-long-take": [
+   "Please show the huge flocks of waterbirds at Indawgyi Lake across the water in one unbroken take, like a scratched drawing.",
+   "I want to show our trekking trip from the foot of the mountain to the summit as one continuous engraved landscape.",
+   "I want to show a boat trip up the Chindwin River as one unbroken printed painting."
+  ],
+  "pop-art": [
+   "Please explain, with repeated pop-art images, that most bananas at the market are cloned from a single variety.",
+   "Please advertise our new ice cream like bright, colourful pop-art posters.",
+   "I want to show how much sugar is in a cup of tea with dots, pop-art style."
+  ],
+  "vintage-collage": [
+   "I want to show the history of Myanmar's old postage stamps as a collage of archive pictures and old paper.",
+   "Please show Grandpa's collection of old banknotes as a magazine collage using real scanned images.",
+   "I want to show the history of our Pathein umbrella workshop by combining old ads and old photos."
+  ],
+  "dark-keynote": [
+   "Please introduce our new phone app grandly, like a keynote on a stage with a dark background.",
+   "I'd like an ad showing our accounting software turning messy files into neat order with one click.",
+   "Please make our new features into a grand launch film to show at our startup's anniversary event."
+  ],
+  "living-screencast": [
+   "Please show how to order in our online shop app using real screenshots, with a little cartoon character guiding the way.",
+   "I'd like a step-by-step tutorial on real screens showing how to use our clinic's appointment website.",
+   "Please show our software's new feature with a little character jumping out of a real screen recording."
+  ],
+  "hologram-hud": [
+   "Please scan our new electric motorbike like a hologram and show the battery, motor and brakes with targeting boxes.",
+   "I want to explain the internal specs of our water filter with a hologram display to show at a trade fair.",
+   "Please make a cinematic little video that hologram-scans my son's toy spaceship and shows its parts."
+  ],
+  "desktop-flythrough": [
+   "Please show a cat photo I took jumping from my phone to my friend's phone across app cards.",
+   "I want to show the process of sending an invoice to a customer from our app with little cards on a desk.",
+   "I'd like a video on a sunlit desk explaining how students send their homework from a phone to the teacher."
+  ],
+  "spreadsheet": [
+   "Please explain where our household spends the most by opening up the columns in our expense spreadsheet.",
+   "I want to compare the profits of our two mohinga shop branches cell by cell in a spreadsheet.",
+   "I want to explain Simpson's paradox to students, how totals can mislead, with just one spreadsheet."
+  ],
+  "one-bit-dither": [
+   "I want to show, in black-and-white dots, how the first close-up photo of the moon was printed line by line from a fax.",
+   "I want to retell how a telegram reached the village in Grandpa's day, in a black-and-white print style.",
+   "Please make a scene of the old machines at our little print shop working at night, in two-ink dots."
+  ],
+  "one-line": [
+   "Please draw Mum's whole life in a single line, ending with her handing the pen to her grandchild.",
+   "I'd like a simple ad that tells our jewellery shop's brand story in one unbroken line.",
+   "For my friend's wedding, I want to draw their story from the day they met to the wedding in one single line."
+  ],
+  "whiteboard": [
+   "Please explain on a whiteboard how a phone knows where we are, with satellites and GPS.",
+   "For our online bookkeeping course, I want to teach how to record income and expenses by writing on a whiteboard.",
+   "I want to explain to our staff how our shop's mobile-money payment system works on a whiteboard."
+  ],
+  "chalkboard": [
+   "Please explain where the word 'mingalar' comes from, writing in chalk on a blackboard.",
+   "I want to explain on a blackboard whether the belief 'washing your hair at night gives you a fever' is true or not.",
+   "Please show one maths formula from our tutoring class, as if a teacher is writing it on the classroom blackboard."
+  ],
+  "sketchnote": [
+   "Please show how much honey a bee makes in its lifetime, from flower to jar, building up a poster with little sketchnotes.",
+   "Please gather the key points from the business talk I attended into one page of notes with little drawings.",
+   "I want to make a one-page summary of our little shop's services drawn with little pictures and arrows."
+  ],
+  "stick-explainer": [
+   "Please explain with stick figures how anyone in the world is connected to anyone else through about six people.",
+   "I want to show our shop's customer referral programme simply with little stick figures.",
+   "I want to show with stick figures how people in the village stay in touch with family members working abroad."
+  ],
+  "ipad-sketch": [
+   "Please show a cup of Shan coffee turning back into a red coffee cherry, then being dried, roasted, ground and back in the cup.",
+   "I want to show how to make mont lone yay paw on a single pencil page, with each picture changing colour.",
+   "I want to explain how our handmade soaps are made as if sketched in pencil on a tablet."
+  ],
+  "marker-paper": [
+   "Please work out on paper with a marker how far the horizon is from the beach.",
+   "For students at our tutoring centre, I want to solve one physics problem step by step with a marker.",
+   "Please make a video that writes out how to calculate our shop's discount percentages with a marker on paper."
+  ],
+  "ink-wash": [
+   "Please make an ink-painting story of a swordsman walking across a river and splitting the current with one stroke.",
+   "For our tea brand, I'd like a calm ink-painting style ad among mountains and mist.",
+   "I want to present a little poem I wrote with pictures where ink-wash strokes spread out."
+  ],
+  "shadow-puppet": [
+   "Please show the legend of the archer who shot down the ten suns scorching the earth, with leather shadow puppets.",
+   "I want to show kids the traditional tale of the ogre and the little prince with shadow puppets on a lit screen.",
+   "Please make an invitation video in a traditional shadow-puppet style for the opening of our culture festival."
+  ],
+  "ukiyoe": [
+   "Please make a traveller walking towards a distant mountain, where every scene becomes a woodblock print, peaking with a great wave.",
+   "For the opening of our little Japanese restaurant, I'd like a short ad in an ukiyo-e painting style.",
+   "I want to show the pilgrimage climb to Kyaiktiyo Pagoda poetically, in a Japanese woodblock print style."
+  ],
+  "papercut-red": [
+   "Please make a tale where the Nian beast comes to the village on Chinese New Year's Eve and a girl's giant paper-cut lights up and drives it away.",
+   "I'd like a little red paper-cut style video for our shop to send Chinese New Year wishes to our customers.",
+   "Please make the Mid-Autumn mooncake ad for our family bakery in Chinatown with little red paper-cut pictures."
+  ],
+  "paper-lantern": [
+   "I want to show an old train's last journey in a paper-lantern style, with its window lights going out one by one.",
+   "For Grandpa's retirement day, please tell the story of the little station he worked at, glowing like lanterns.",
+   "For our travel hotel, I want to show a night train crossing the Gokteik Viaduct, glowing like a lantern."
+  ],
+  "stained-glass": [
+   "Please show a tale of a hero and a dragon waking up pane by pane in a window as the sunlight moves across it from morning to evening.",
+   "Please make a little tale in a stained-glass window style for our Christmas greeting card.",
+   "I want to show the heritage of an old church in Yangon through a little stained-glass style story."
+  ],
+  "gilded-illumination": [
+   "Please make a tale where, in a world that glows only gold, the sun goes out and a girl carries the last lantern up the mountain.",
+   "For the Thadingyut light festival, I'd like a poetic festival video like a gilded parabaik manuscript painting.",
+   "I want to show the origin story of our gold-leaf craft business in a glowing gold, old illuminated-book style."
+  ],
+  "line-art-ink": [
+   "I want to show Yangon's 19th Street from morning to night as if drawn in ink: the tea shops, the vendors and the lights coming on at night.",
+   "Please make a cute line drawing of our little mohinga shop, from opening early in the morning until the customers come in.",
+   "I'd love to watch a little village on Inle Lake with a rower, a kitten and birds as the sun sets and night falls."
+  ],
+  "onetake-launch": [
+   "Our new motorbike-rental app is coming out, so I'd like a launch video of about 20 seconds. I'll send screenshots.",
+   "Please make a trendy teaser for our little website where you can order birthday gifts.",
+   "I'd like an ad shown in one continuous take, with no cuts, for an app that tracks students' study time."
+  ],
+  "onetake-demo": [
+   "I'd like a video with Burmese voice-over explaining how to issue a voucher and view reports in our accounting app.",
+   "Please make a step-by-step video so older people can understand our clinic booking app. Screenshots included.",
+   "I want to make a bilingual English and Burmese video of three new features in our POS system."
+  ],
+  "onetake-concept": [
+   "For a delivery app, I'd like a concept ad where one tap sends parcels arriving one after another in a chain.",
+   "I want to show a coffee shop ad in one continuous take, from a single coffee bean all the way into the cup.",
+   "Please show how much time our money-transfer app saves by squeezing a year down to a minute."
+  ],
+  "hf-captions": [
+   "Please add subtitles to my video about my shop, plus a little name card for the shop.",
+   "I want the three key points I make in my interview video to pop up as cards.",
+   "Please add subtitles to a clip cut from my Facebook Live so it makes sense even with the sound off."
+  ],
+  "hf-vertical": [
+   "Please make a vertical TikTok clip of 3 tips for making a really good cup of tea.",
+   "I'd like a quick, snappy Reels ad for our clothing shop's winter sale.",
+   "Please show 5 good morning habits in big text for Shorts."
+  ],
+  "hf-music": [
+   "Please make a lyric video for a song I sang. I'll send the song file.",
+   "I want to make a colourful video that matches the beat of our shop's short jingle.",
+   "Please make a video of a song I sang for a birthday, with photos cut to the beat."
+  ],
+  "logo-reveal": [
+   "Please make a 5-second logo reveal of our coffee shop logo to put at the start of our YouTube videos.",
+   "I want to make our company logo into a little splash animation that shows when the website opens. Calm and trustworthy.",
+   "I want our toy shop's little logo to bounce in, happy and playful."
+  ],
+  "lottie-anim": [
+   "I'd like a little checkmark animation to show in the app when a payment succeeds.",
+   "Please make a loading spinner for our website in our brand purple.",
+   "Please make a lower-third animation showing a name and job title to use in YouTube videos."
+  ],
+  "ad-marker-comic": [
+   "Please make a little cartoon where my daughter's favourite kitten becomes a hero and saves the kids in our neighbourhood.",
+   "I want to show the funny thing that happens every morning at my little tea shop as a colourful comic-book cartoon.",
+   "I'd like a funny cartoon of two brothers who fight while splashing water at Thingyan and then make up."
+  ],
+  "ad-scrapbook": [
+   "Please make a video that retells our family history, from when my grandparents got married until now, like an old photo album.",
+   "I want to show the history of how Bagan's pagodas were built like a book with old papers and little notes stuck in.",
+   "I want to retell how our family's longyi-weaving business has kept going for over fifty years, with old ledgers and photos."
+  ],
+  "ad-ballpoint": [
+   "I want to quietly show Mum packing my lunch box every morning, as if drawn in ballpoint pen.",
+   "Please introduce my handmade leather wallets as if sketched in ballpoint pen in a notebook.",
+   "Please make a short nostalgic story about the school bench I shared with my friend, in a ballpoint sketch style."
+  ],
+  "ad-broken-colour": [
+   "I want to show a little boat crossing Inle Lake at sunset beautifully, like an oil painting.",
+   "Please advertise our little guesthouse by the beach in the morning light, like a painting.",
+   "Please make a travel keepsake of hot-air balloons rising between the pagodas at dawn in Bagan."
+  ],
+  "ad-embroidery": [
+   "For Mum's birthday, please make a little video where flowers are stitched one by one and a birthday wish appears.",
+   "For my shop selling hand-embroidered bags, I want a little ad that looks like it's being embroidered with needle and thread.",
+   "Please show the seasons changing with the flowers and little birds of the Shan hills, as if stitched in thread."
+  ],
+  "ad-stipple": [
+   "I want to explain the stages of a firefly's life to kids with little dots, like pictures in an old science book.",
+   "Please introduce the different seashells of the Myeik Archipelago one by one with little stippled ink drawings.",
+   "I want to show the thanaka tree for our herbal shop like an old botanical book."
+  ],
+  "ad-charcoal": [
+   "I miss my late father, so I want to show the days we went fishing together as a charcoal drawing.",
+   "Please make a short story about the first night of a boy who came from the village to find work in the city.",
+   "For my art class, I want to show a face being drawn, erased and redrawn in charcoal."
+  ],
+  "ad-flat-vector": [
+   "Please explain simply how to use our online vegetable ordering app.",
+   "I want to show the trip from Mandalay to Pyin Oo Lwin and the Gokteik Viaduct with modern little pictures.",
+   "Please explain with little pictures how to grind and apply thanaka, so my foreign friends understand."
+  ],
+  "ad-cut-paper": [
+   "For my son, please make the tortoise and the hare race as if cut out of paper and glued on.",
+   "I want to show kids how the three seasons, hot, rainy and cool, change with little torn paper pieces.",
+   "Please make a cute ad for the cakes at my little bakery with colourful cut-paper pictures."
+  ],
+  "ad-toy-theatre": [
+   "To show at my daughter's birthday party, please make the tale of a little princess and a little dragon like a cardboard toy theatre.",
+   "To promote our puppet troupe's festival show, I want characters sliding out onto a little stage.",
+   "Please make the tale of the ogre and the little prince as if performed on a paper stage for kids to watch."
+  ],
+  "ad-storybook": [
+   "Please make a series of little stories starring my son, one episode for every bedtime.",
+   "I want a video where the kitten character of our children's library invites kids to come and read.",
+   "Please make a little kids' story series about a baby elephant travelling from Inle Lake to Bagan."
+  ],
+  "ad-folk-tale": [
+   "Please make the wise-rabbit tale Mum told me when I was little into a bedtime story.",
+   "I want to show a storybook-like tale of a farming family harvesting rice in a little Shan village.",
+   "Please introduce our village's palm-sugar business warmly, like pictures from an old storybook."
+  ],
+  "ad-dream-glaze": [
+   "I want to show the little house floating in the sky that I saw in a dream as a kid, like a strange and beautiful painting.",
+   "Please make an arty short film about where people come from and where they go, with a staircase reaching into the clouds.",
+   "For my art exhibition ad, please make a dreamy scene of a pagoda appearing on the surface of a lake."
+  ],
+  "arch-diagram": [
+   "Please explain with a diagram how an order from our app goes to the kitchen, gets cooked and reaches the delivery rider.",
+   "I want new staff to understand our family pharmacy's process, from ordering stock to the warehouse, the shop floor and checkout.",
+   "Please make a video with diagrams explaining to students how a phone money transfer passes through the banking system."
+  ],
+  "doc-mix": [
+   "Please make a documentary-style video of about 3 minutes on how big the blue whale is and how it evolved.",
+   "I'd like a video explaining with maps and diagrams how Bagan's pagodas were built and how they withstand earthquakes.",
+   "Please make a 1-minute video for Shorts comparing the biggest stars in the universe with the Sun, with mind-blowing facts."
+  ]
+ }
+}

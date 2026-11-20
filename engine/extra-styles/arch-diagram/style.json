@@ -1,0 +1,17 @@
+{
+  "slug": "arch-diagram",
+  "num": "122",
+  "en": "Animated Architecture Diagram",
+  "cn": "动态架构图",
+  "category_en": "Line Diagrams",
+  "film": "The Internals of Your System",
+  "line": "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.",
+  "uses": [
+    "Tech explainers",
+    "Systems & workflows",
+    "Posts & slides"
+  ],
+  "dur": 15,
+  "needs": [],
+  "skill": "lanshu-animated-architecture-diagram"
+}

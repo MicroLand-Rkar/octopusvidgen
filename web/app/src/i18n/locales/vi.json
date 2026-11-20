@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "Xóa {name}",
+  "att.tooBig": "Chưa thêm (quá 500 MB): {names}",
+  "att.trayLabel": "Tệp đính kèm",
+  "board.addHint": "Hình ảnh, clip, giọng nói, nhạc, tài liệu",
+  "board.addRefs": "Thêm tư liệu tham khảo",
+  "board.addStyle": "+ Pha trộn một phong cách",
+  "board.aspect": "Tỉ lệ khung hình",
+  "board.blendStyle": "Đã pha trộn",
+  "board.chatTitle": "Lên kế hoạch phim {n} cùng Claude",
+  "board.close": "Đóng",
+  "board.delete": "Xóa",
+  "board.deleteConfirm": "Xóa {name} khỏi dự án này?",
+  "board.deleteError": "Không thể xóa tệp",
+  "board.done": "Xong ({n})",
+  "board.download": "Tải xuống",
+  "board.dropHere": "Thả tệp để thêm vào dự án này",
+  "board.emptyBody": "Thả hình ảnh, clip, giọng nói hoặc nhạc vào đây, rồi lên kế hoạch cho bộ phim đầu tiên cùng Claude trong cuộc trò chuyện.",
+  "board.emptyTitle": "Dự án trống",
+  "board.filter.all": "Tất cả",
+  "board.filter.films": "Phim",
+  "board.filter.made": "Do Claude tạo",
+  "board.filter.refs": "Tham khảo",
+  "board.filterLabel": "Hiển thị",
+  "board.helloNoStyle": "Xin chào. Hãy chọn một phong cách ở trên (hoặc chạm vào một gợi ý), rồi cho tôi biết bộ phim nên như thế nào. Tôi sẽ hỏi lại những gì chưa rõ trước khi bắt tay làm.",
+  "board.hint": "Chọn tư liệu tham khảo bằng +, rồi lên kế hoạch cho bộ phim tiếp theo trong cuộc trò chuyện",
+  "board.inProject": "Trong dự án này",
+  "board.length": "Thời lượng",
+  "board.made": "Do Claude tạo",
+  "board.mainStyle": "Phong cách chính",
+  "board.make": "Tạo video",
+  "board.makeError": "Không thể bắt đầu làm phim",
+  "board.makeHint": "Làm phim ngay (Ctrl/⌘ + Enter)",
+  "board.newChat": "Cuộc trò chuyện mới",
+  "board.open": "Mở {name}",
+  "board.pick": "Dùng trong phim tiếp theo",
+  "board.pickHint": "Mục bạn chọn đầu tiên sẽ dẫn dắt; các mục khác được pha trộn vào.",
+  "board.pickStyle": "Chọn một phong cách",
+  "board.pickStyles": "Chọn phong cách",
+  "board.picked": "Trong phim tiếp theo",
+  "board.pickedLabel": "Tư liệu tham khảo cho phim tiếp theo",
+  "board.placeholder": "Mô tả phim {n}: chuyện gì xảy ra, có ai, không khí ra sao…",
+  "board.planFirst": "Lên kế hoạch trong cuộc trò chuyện trước →",
+  "board.promptLabel": "Phim tiếp theo sẽ như thế nào",
+  "board.ref": "Tham khảo",
+  "board.removeStyle": "Bỏ {name}",
+  "board.replyPlaceholder": "Trả lời Claude…",
+  "board.searchStyles": "Tìm phong cách",
+  "board.starting": "Đang bắt đầu…",
+  "board.suggestAgain": "Gợi ý lại",
+  "board.suggested": "Gợi ý",
+  "board.tooShort": "Hãy viết thêm một chút về bộ phim (ít nhất 10 ký tự).",
+  "board.unpick": "Không dùng",
+  "board.unpickName": "Không dùng {name}",
+  "board.uploadError": "Không thể thêm tệp",
+  "board.uploading": "Đang thêm {n}…",
+  "board.usedBefore": "Đã dùng trong dự án này",
+  "board.voice": "Ngôn ngữ thuyết minh",
+  "film.askHead": "Claude đang hỏi — trả lời xong là làm tiếp",
+  "film.attach": "Đính kèm tệp",
+  "film.backSingle": "Video lẻ",
+  "film.briefTitle": "Bản brief do Claude viết",
+  "film.cancel": "Dừng",
+  "film.canceledNote": "Video này đã bị dừng.",
+  "film.chatIdle": "Gửi tin nhắn để tiếp tục làm video này",
+  "film.chatLive": "Video đang được làm (không cần bấm nút lại). Bạn có thể xem Claude làm việc trực tiếp tại đây.",
+  "film.chatTitle": "Trò chuyện với Claude",
+  "film.downloadFile": "Tải {name}",
+  "film.downloadMp4": "Tải MP4",
+  "film.dropHere": "Thả tệp vào đây để gửi cho Claude",
+  "film.elapsedDone": "mất {time}",
+  "film.elapsedLive": "đã chạy {time}",
+  "film.estimateHint": "Phần trăm là ước tính dựa trên bước Claude đang làm. Một video thường mất 10–20 phút.",
+  "film.failedNote": "Video chưa xong. Xem chuyện gì đã xảy ra trong khung chat bên phải — trả lời ở đó là làm tiếp.",
+  "film.headDone": "Xong",
+  "film.headFailed": "Đã dừng — trả lời trong chat để tiếp tục",
+  "film.headQueued": "Đang xếp hàng",
+  "film.headRunning": "Đang làm",
+  "film.imagesGot": "Đã có {n} ảnh",
+  "film.inputsTitle": "Tư liệu bạn đã gửi",
+  "film.loadError": "Không tải được video này",
+  "film.loading": "Đang tải…",
+  "film.making": "Claude đang làm video…",
+  "film.noProject": "Không có",
+  "film.now": "Bây giờ",
+  "film.phLive": "Gửi ghi chú cho Claude… (sẽ đọc trước bước tiếp theo)",
+  "film.phQuestion": "Trả lời câu hỏi của Claude…",
+  "film.phResume": "Trả lời… (gửi xong sẽ làm tiếp từ chỗ dừng)",
+  "film.phSucceeded": "Bạn muốn sửa gì… (gửi xong sẽ bắt đầu chỉnh)",
+  "film.progressLabel": "Tiến độ",
+  "film.projectFallback": "Dự án",
+  "film.projectLabel": "Dự án:",
+  "film.queuedWait": "Đang chờ đến lượt…",
+  "film.send": "Gửi",
+  "film.sendError": "Không gửi được",
+  "film.sendLabel": "Nhắn cho Claude",
+  "film.sizeKb": "{n} KB",
+  "film.stage.build": "Dựng hình, chuyển động và âm thanh",
+  "film.stage.finish": "Xuất video",
+  "film.stage.images": "Tạo ảnh bằng Flow AI",
+  "film.stage.plan": "Lên kịch bản",
+  "film.stage.read": "Tìm hiểu phong cách",
+  "film.stage.render": "Render và kiểm tra",
+  "film.steps": "{n} bước",
+  "film.tagAnswer": "Trả lời",
+  "film.tagNote": "Ghi chú",
+  "film.tagPlan": "Chat lên kế hoạch",
+  "film.working": "Đang làm…",
+  "lang.label": "Ngôn ngữ",
+  "nav.label": "Studio",
+  "nav.new": "Video mới",
+  "nav.projects": "Dự án của tôi",
+  "new.all": "Tất cả ({n})",
+  "new.aspect": "Tỉ lệ khung hình",
+  "new.attach": "Đính kèm tệp",
+  "new.attachTitle": "Đính kèm tệp (có thể kéo thả hoặc dán)",
+  "new.attachedCount": "Đã thêm {n}",
+  "new.badgeFlow": "✦ Ảnh Flow AI",
+  "new.badgeNoGen": "✦ Không cần tạo ảnh",
+  "new.cancel": "Hủy",
+  "new.category": "Danh mục",
+  "new.create": "Tạo",
+  "new.dropHere": "Thả tệp vào đây",
+  "new.duration": "Thời lượng",
+  "new.episode": "Tập {n}",
+  "new.filesNote": "Đây là một số tệp.",
+  "new.flowBody": "Claude sẽ mở Flow trong Chrome của bạn và tạo những ảnh cần thiết. Hãy để Chrome mở trong lúc làm video. Việc này tốn một ít credit Flow.",
+  "new.flowTitle": "✦ Ảnh được tạo tự động bằng Google Flow AI.",
+  "new.hello": "Chào bạn! Cứ kể đơn giản là bạn muốn video thế nào theo phong cách {style}. Chỗ nào chưa rõ, mình sẽ hỏi thêm.",
+  "new.language": "Ngôn ngữ",
+  "new.listSep": ", ",
+  "new.make": "Làm video",
+  "new.makeRest": "Để Claude quyết phần còn lại và làm luôn",
+  "new.material": "Thêm tư liệu",
+  "new.materialHint": "tệp, âm thanh, ảnh (không bắt buộc)",
+  "new.maxFiles": "Bạn có thể đính kèm tối đa {max} tệp.",
+  "new.messageLabel": "Nhắn cho Claude",
+  "new.ncAfter": ". Với dự án khách hàng hoặc kinh doanh, bạn cần giấy phép thương mại (onetake Pro).",
+  "new.ncBefore": "Phong cách này chỉ miễn phí cho mục đích ",
+  "new.ncStrong": "phi thương mại",
+  "new.needField": "Phong cách này cần {field}.",
+  "new.needs": "Cần {list}",
+  "new.newProject": "+ Dự án mới…",
+  "new.noGen": "Phong cách này cần ảnh do AI tạo, nhưng máy chủ này chưa bật công cụ tạo ảnh nào nên chưa làm video được.",
+  "new.noProject": "Không thuộc dự án (làm một lần)",
+  "new.noReply": "Claude chưa trả lời được lúc này",
+  "new.pickLeft": "Chọn một phong cách trong danh sách.",
+  "new.pickStyle": "Hãy chọn phong cách trước.",
+  "new.pickStyleShort": "Chọn phong cách trước",
+  "new.placeholder": "Viết điều bạn muốn… kéo hoặc dán ảnh và tệp vào đây",
+  "new.planDraft": "Bản nháp kế hoạch (brief Claude sẽ gửi)",
+  "new.planReady": "✓ Kế hoạch video (brief Claude sẽ gửi)",
+  "new.project": "Dự án",
+  "new.projectFailed": "Không tạo được dự án",
+  "new.projectName": "Tên dự án",
+  "new.samples": "Ví dụ: chạm để gửi",
+  "new.searchLabel": "Tìm phong cách",
+  "new.searchPlaceholder": "Tìm: màu nước, giải thích, tin tức…",
+  "new.seconds": "{n} giây",
+  "new.send": "Gửi",
+  "new.startFailed": "Không bắt đầu được video",
+  "new.starting": "Đang bắt đầu…",
+  "new.step1": "1. Chọn phong cách",
+  "new.step2": "2. Lên kế hoạch cùng Claude",
+  "new.styleBeforeFiles": "Chọn phong cách trước khi thêm tệp.",
+  "new.stylesLabel": "Phong cách",
+  "new.tellFirst": "Hãy nói với Claude điều bạn muốn trước.",
+  "new.thinking": "Đang suy nghĩ…",
+  "new.uploading": "Đang tải tệp lên…",
+  "projects.addEpisode": "+ Tập {n}",
+  "projects.assets": "Tài nguyên dùng lại ({n}):",
+  "projects.back": "← Dự án của tôi",
+  "projects.bibleEmpty": "Claude sẽ ghi vào đây sau tập đầu tiên.",
+  "projects.bibleHint": "Ghi chú của Claude về nhân vật, bối cảnh và phong cách, được đọc và cập nhật mỗi tập",
+  "projects.bibleTitle": "Sổ tay series",
+  "projects.cancel": "Hủy",
+  "projects.cancelEdit": "Hủy",
+  "projects.continueEpisode": "Làm tiếp Tập {n}",
+  "projects.create": "Tạo",
+  "projects.createError": "Không tạo được",
+  "projects.descLabel": "Nội dung về gì",
+  "projects.descPlaceholder": "Nhân vật, thế giới, phong cách… Claude đọc phần này cho mỗi tập",
+  "projects.edit": "Sửa tên/mô tả",
+  "projects.emptyBody": "Dự án giống như một thư mục. Gom các tập của một series lại, Claude sẽ dùng lại nhân vật, bối cảnh, phong cách và nhạc.",
+  "projects.emptyCta": "Tạo dự án đầu tiên",
+  "projects.emptyTitle": "Chưa có dự án nào",
+  "projects.episodeCount": "Số tập: {n}",
+  "projects.episodeN": "Tập {n}",
+  "projects.firstEpisodeCta": "Làm Tập 1",
+  "projects.loadError": "Không tải được",
+  "projects.loading": "Đang tải…",
+  "projects.nameLabel": "Tên dự án",
+  "projects.namePlaceholder": "VD: Cuộc chiến quán cà phê",
+  "projects.nameRequired": "Hãy đặt tên",
+  "projects.newProject": "+ Dự án mới",
+  "projects.newVideo": "Video mới",
+  "projects.noEpisodesBody": "Tập đầu tiên định hình nhân vật, bối cảnh và phong cách. Các tập sau sẽ dùng lại.",
+  "projects.noEpisodesTitle": "Chưa có tập nào",
+  "projects.optional": "không bắt buộc",
+  "projects.save": "Lưu",
+  "projects.saveError": "Không lưu được",
+  "projects.seconds": "{n} giây",
+  "projects.singleCount": "Video: {n}",
+  "projects.singles": "Video lẻ",
+  "projects.singlesHint": "Video không thuộc dự án nào",
+  "projects.title": "Dự án của tôi",
+  "src.anyFile": "mọi loại tệp",
+  "src.badType": "{name}: loại tệp này không được hỗ trợ.",
+  "src.canSource": "Không có cũng không sao. Claude sẽ tự tìm thông tin công khai.",
+  "src.choose": "Chọn tệp",
+  "src.closeCommon": "− Đóng",
+  "src.dropOr": "hoặc kéo vào đây · {types} · tối đa {max}",
+  "src.material.none": "Vẽ hoàn toàn từ đầu",
+  "src.material.optional": "Có thể dùng tư liệu của bạn",
+  "src.material.required": "Làm từ thông tin thật",
+  "src.maxFiles": "Chỉ tối đa {max} tệp.",
+  "src.openCommon": "+ Thêm giọng nói, nhạc, ảnh, logo của bạn",
+  "src.optional": "không bắt buộc",
+  "src.remove": "Xóa",
+  "src.removeLabel": "Xóa {name}",
+  "src.required": "bắt buộc",
+  "src.tooBig": "{name} vượt quá 500 MB.",
+  "status.canceled": "Đã hủy",
+  "status.failed": "Thất bại",
+  "status.queued": "Đang chờ",
+  "status.running": "Đang làm",
+  "status.succeeded": "Sẵn sàng"
+ },
+ "style": {
+  "3D model": "Mô hình 3D",
+  "A 16-bit pixel RPG drawn in code.": "Game RPG pixel 16-bit vẽ bằng code.",
+  "A 1930s rubber-hose cartoon drawn in code.": "Hoạt hình tay chân ống cao su thập niên 1930, vẽ bằng code.",
+  "A 3D world redrawn in crayon, all in code.": "Thế giới 3D vẽ lại bằng sáp màu, hoàn toàn bằng code.",
+  "A 60s spy title sequence cut from paper in code.": "Đoạn mở đầu phim điệp viên thập niên 60, cắt giấy bằng code.",
+  "A Chinese ink painting made in code.": "Tranh thủy mặc Trung Hoa làm bằng code.",
+  "A Memphis-style diorama built in code.": "Diorama phong cách Memphis dựng bằng code.",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "Logo dạng PNG, JPG hoặc SVG, càng to và rõ càng tốt.",
+  "A beat-locked game show drawn in code; no source material needed.": "Game show cắt theo nhịp, vẽ bằng code; không cần tư liệu.",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "Bản tin dựng từ đồ họa code; có thể lồng cảnh quay, ảnh hoặc logo của bạn.",
+  "A colour-coded mechanism modelled and animated in code.": "Cơ cấu máy phân màu, dựng mô hình và chuyển động bằng code.",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "Hình cắt lớp bút chì màu, vẽ bằng code; không cần tư liệu.",
+  "A copperplate engraving drawn in code from your facts.": "Tranh khắc đồng vẽ bằng code từ dữ kiện của bạn.",
+  "A crayon picture book drawn in code; no source material needed.": "Sách tranh sáp màu vẽ bằng code; không cần tư liệu.",
+  "A drawing or photo of the character to keep the same in every scene.": "Bản vẽ hoặc ảnh nhân vật để giữ nguyên ngoại hình ở mọi cảnh.",
+  "A drawn production line explaining a process; no source material needed.": "Dây chuyền sản xuất vẽ tay giải thích một quy trình; không cần tư liệu.",
+  "A fictional glass product rendered in code; real products are not reproduced.": "Sản phẩm thủy tinh hư cấu render bằng code; không sao chép sản phẩm thật.",
+  "A film whose feel you want; its rhythm is measured, not copied.": "Một bộ phim có cảm giác bạn muốn; nhịp phim được đo, không sao chép.",
+  "A four-colour pop-art print made in code.": "Tranh in pop-art bốn màu làm bằng code.",
+  "A gilded manuscript painting made in code.": "Tranh minh họa bản thảo dát vàng làm bằng code.",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "Khung dây phát sáng của vật thể, dựng bằng code hoặc từ tệp 3D của bạn.",
+  "A layered paper-cut lightbox built in code.": "Hộp đèn giấy cắt nhiều lớp dựng bằng code.",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "Hình cắt lớp nét mực của một cỗ máy, dựng và vẽ bằng code.",
+  "A low-poly island world built in code.": "Thế giới đảo low-poly dựng bằng code.",
+  "A mid-century cartoon drawn in code from your steps.": "Hoạt hình giữa thế kỷ 20 vẽ bằng code từ các bước của bạn.",
+  "A model of your object to show as a wireframe.": "Mô hình vật thể của bạn để hiển thị dạng khung dây.",
+  "A moving knife-painted oil painting made in code.": "Tranh sơn dầu vẽ dao chuyển động, làm bằng code.",
+  "A paper pop-up book on a real-looking desk, made in code.": "Sách pop-up giấy trên bàn như thật, làm bằng code.",
+  "A pen-and-wash urban sketch drawn in code.": "Ký họa đô thị bút mực và màu nước, vẽ bằng code.",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "Ảnh hoặc khung hình để khắc lại thành tranh khắc gỗ, VD: ảnh chân dung.",
+  "A picture computed in spreadsheet cells; can use your own table.": "Hình ảnh tính toán trong ô bảng tính; có thể dùng bảng của bạn.",
+  "A pixel-art miniature world built in code.": "Thế giới tí hon pixel art dựng bằng code.",
+  "A post, notes or a sketch of the system to draw from.": "Bài viết, ghi chú hoặc bản phác hệ thống để vẽ theo.",
+  "A printed case file with halftone characters, drawn in code.": "Hồ sơ vụ án in chấm halftone, vẽ bằng code.",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "Thị trấn tí hon sinh tự động, quay kiểu tilt-shift, làm bằng code.",
+  "A real simulation of little creatures run and filmed in code.": "Mô phỏng thật các sinh vật nhỏ, chạy và quay bằng code.",
+  "A risograph print made in code.": "Tranh in risograph làm bằng code.",
+  "A scene seen through a thermal camera, simulated in code.": "Cảnh nhìn qua camera nhiệt, mô phỏng bằng code.",
+  "A sci-fi sitcom cartoon drawn in code.": "Hoạt hình sitcom khoa học viễn tưởng vẽ bằng code.",
+  "A scratchboard landscape long take made in code.": "Phong cảnh khắc nền đen một cảnh quay dài, làm bằng code.",
+  "A silkscreen travel poster printed in code.": "Áp phích du lịch in lụa, in bằng code.",
+  "A sketchnote page drawn in code.": "Trang sketchnote vẽ bằng code.",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "Phim ra mắt phần mềm với UI trừu tượng làm bằng code; logo của bạn quyết định màu nhấn.",
+  "A stained-glass window lit in code.": "Cửa sổ kính màu chiếu sáng bằng code.",
+  "A table whose values drive the picture.": "Bảng số liệu điều khiển hình ảnh.",
+  "A tablet sketch drawn and coloured in code.": "Ký họa trên máy tính bảng, vẽ và tô màu bằng code.",
+  "A toy-brick world built and animated in code.": "Thế giới gạch đồ chơi dựng và chuyển động bằng code.",
+  "A track you have the rights to; otherwise music is composed for the film.": "Bản nhạc bạn có quyền dùng; nếu không, nhạc sẽ được sáng tác cho phim.",
+  "A track you have the rights to; the film is cut to it.": "Bản nhạc bạn có quyền dùng; phim sẽ được dựng theo nhạc.",
+  "A two-ink dithered 3D world made in code.": "Thế giới 3D dither hai màu mực, làm bằng code.",
+  "A vertical clip; set the frame to 9:16.": "Clip dọc; đặt khung hình 9:16.",
+  "A watercolour painting brushed in code.": "Tranh màu nước tô bằng code.",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "Mô hình trắng của các tòa nhà thật từ dữ liệu mở hoặc bản vẽ của bạn, chiếu sáng bằng dữ liệu.",
+  "A whiteboard explainer drawn in code.": "Video giải thích trên bảng trắng, vẽ bằng code.",
+  "An SVG, logo or icon to animate, if there is one.": "SVG, logo hoặc biểu tượng cần làm chuyển động, nếu có.",
+  "An assembly-manual drawing made in code from your steps.": "Bản vẽ hướng dẫn lắp ráp làm bằng code từ các bước của bạn.",
+  "An isometric infographic drawn in code.": "Infographic isometric vẽ bằng code.",
+  "An isometric scene of people following a rule, made in code.": "Cảnh isometric về những người làm theo một quy tắc, làm bằng code.",
+  "An old recording you own that can play under the archive.": "Bản ghi âm cũ thuộc sở hữu của bạn để phát nền cho tư liệu lưu trữ.",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "Màn hình ứng dụng thành thẻ giấy trên bàn, làm bằng code; có thể dùng màu thương hiệu.",
+  "Archive film or video about your subject.": "Phim hoặc video tư liệu về chủ đề của bạn.",
+  "Archive scans": "Bản scan tư liệu",
+  "Article or notes": "Bài viết hoặc ghi chú",
+  "Audio recordings or readings such as telemetry or weather.": "Bản ghi âm hoặc số đo như dữ liệu đo xa hay thời tiết.",
+  "BOM or spec sheet": "BOM hoặc bảng thông số",
+  "Bill of materials and spec sheet for part names and numbers.": "Danh mục vật tư và bảng thông số cho tên và mã linh kiện.",
+  "Black silhouettes moving to the beat, made in code.": "Hình bóng đen chuyển động theo nhịp, làm bằng code.",
+  "Brand feel": "Cảm giác thương hiệu",
+  "Brand fonts you are licensed to use.": "Phông chữ thương hiệu bạn có giấy phép dùng.",
+  "Building data": "Dữ liệu công trình",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "Dựng từ tệp CAD của sản phẩm thật; bắt buộc với sản phẩm của bạn, nếu không sẽ dùng phần cứng mở.",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "Dựng từ ảnh quét kính hiển vi thật; gửi của bạn hoặc chúng tôi tìm tiêu bản không vướng bản quyền.",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "Dựng từ hiện vật lưu trữ thật; gửi bản scan của bạn hoặc chúng tôi dùng bộ sưu tập phạm vi công cộng.",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "Dựng từ điểm quét laser thật; gửi bản quét của bạn hoặc chúng tôi dùng dữ liệu LiDAR công khai.",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "Dựng từ ảnh chụp thật của vật thể; gửi của bạn hoặc chúng tôi dùng ảnh không vướng bản quyền.",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "Dựng từ cảnh quay thời gian thực của một sự kiện; gửi của bạn hoặc chúng tôi dùng tư liệu phạm vi công cộng.",
+  "Built from your product: screenshots and a link make the UI and copy real.": "Dựng từ sản phẩm của bạn: ảnh chụp màn hình và đường link giúp UI và nội dung là thật.",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "Dựng trên dữ liệu độ cao và ảnh vệ tinh thật của địa điểm, dữ liệu của bạn phát sáng bên trên.",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "Dựng trên cảnh quay trận đấu thật; gửi clip của bạn hoặc chúng tôi tìm clip giấy phép mở.",
+  "CAD files": "Tệp CAD",
+  "Captions and cards are added over your own video.": "Phụ đề và thẻ chữ được thêm lên video của chính bạn.",
+  "Carved in code; a photo can be recut into a woodcut plate.": "Khắc bằng code; ảnh chụp có thể được khắc lại thành bản khắc gỗ.",
+  "Chalk writing and drawing made in code; no source material needed.": "Chữ viết và hình vẽ phấn làm bằng code; không cần tư liệu.",
+  "Character designs": "Thiết kế nhân vật",
+  "Character reference": "Tham chiếu nhân vật",
+  "Characters and scenes made of glowing points, all in code.": "Nhân vật và cảnh làm từ các điểm sáng, hoàn toàn bằng code.",
+  "Clip links": "Link clip",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "Cắt dán từ tranh in và ấn phẩm phạm vi công cộng thật, cắt bằng tay.",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "Đối chiếu cảnh quay, ảnh, tài liệu và dữ liệu thật của một sự kiện; của bạn được ưu tiên.",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "Dựng từ phim, ấn phẩm và bản ghi âm lưu trữ thật; ưu tiên của bạn, nếu không dùng kho phạm vi công cộng.",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "Dựng từ cảnh quay, ảnh và tài liệu gốc thật; của bạn được ưu tiên, kho lưu trữ công khai bù chỗ thiếu.",
+  "Cut to your own song; send the track.": "Dựng theo bài hát của bạn; gửi file nhạc.",
+  "Dashcam, CCTV, phone or archive video of the event.": "Video camera hành trình, CCTV, điện thoại hoặc tư liệu về sự kiện.",
+  "Data to plot": "Dữ liệu cần vẽ biểu đồ",
+  "Dataset": "Bộ dữ liệu",
+  "Describe the voice you want, e.g. calm female, British English.": "Mô tả giọng bạn muốn, VD: giọng nữ nhẹ nhàng, giọng Bắc.",
+  "Documents": "Tài liệu",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "Vẽ hoàn toàn bằng code thành chữ terminal phát sáng; không cần tư liệu.",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "Vẽ hoàn toàn bằng code theo phong cách Art Deco vàng đen; không cần tư liệu.",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "Vẽ bằng code; clip cũ của bạn có thể được vẽ lại thành nét mực cổ điển.",
+  "Drawn on a blueprint sheet in code; no source material needed.": "Vẽ trên tờ bản thiết kế xanh bằng code; không cần tư liệu.",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "Vẽ mạng lưới thật từ dữ liệu đã kiểm chứng; ưu tiên của bạn, nếu không dùng dữ liệu mở của nhà vận hành.",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "Dựng từ cảnh quay thật của một địa điểm; gửi của bạn hoặc chúng tôi tìm clip không vướng bản quyền.",
+  "Event footage": "Cảnh quay sự kiện",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "Mỗi điểm là một con số thật; gửi bộ dữ liệu của bạn hoặc chúng tôi dùng dữ liệu giấy phép mở.",
+  "Family, company or sports clips to redraw as ink.": "Clip gia đình, công ty hoặc thể thao để vẽ lại thành nét mực.",
+  "Field data": "Dữ liệu thực địa",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "Lấp đầy hình bóng động vật bằng ảnh phong cảnh thật; của bạn hoặc phạm vi công cộng.",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "Hình khối phẳng kiểu Bauhaus theo đúng tỉ lệ số liệu của bạn; không cần tư liệu.",
+  "Flat science explainer zooming across scales, drawn in code.": "Giải thích khoa học phong cách phẳng, zoom qua nhiều cấp độ, vẽ bằng code.",
+  "Fonts": "Phông chữ",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "Cảnh quay hoặc ảnh bạn tự chụp hoặc có quyền dùng; phần còn lại tìm từ nguồn mở hoặc tự tạo.",
+  "Generated images": "Ảnh được tạo",
+  "Gridded wind, current or flow data, if you have it.": "Dữ liệu gió, dòng chảy dạng lưới, nếu bạn có.",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "Anime thập niên 80 trông như vẽ tay, làm bằng code; không cần tư liệu.",
+  "Key points for cards": "Ý chính cho thẻ chữ",
+  "Landscape photos": "Ảnh phong cảnh",
+  "Large, clear photos of the real objects being compared.": "Ảnh lớn, rõ nét của các vật thể thật cần so sánh.",
+  "Laser scan": "Quét laser",
+  "Line-ups or event data": "Đội hình hoặc dữ liệu trận đấu",
+  "Line-ups or event data for the match.": "Đội hình hoặc dữ liệu diễn biến của trận đấu.",
+  "Lines, stations, opening dates, lengths or ridership.": "Tuyến, ga, ngày khai trương, chiều dài hoặc lượng khách.",
+  "Link to the product or its documentation.": "Link sản phẩm hoặc tài liệu của sản phẩm.",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "Link video YouTube/TikTok để reaction hoặc trích dẫn, cách nhau bằng dấu cách.",
+  "Logos": "Logo",
+  "Logos to show, ideally SVG or transparent PNG.": "Logo cần hiển thị, tốt nhất là SVG hoặc PNG nền trong.",
+  "Lyrics": "Lời bài hát",
+  "Marker drawing on paper, made in code.": "Tranh vẽ bút dạ trên giấy, làm bằng code.",
+  "Match clips you have the rights to use.": "Clip trận đấu bạn có quyền sử dụng.",
+  "Microscope scans": "Ảnh quét kính hiển vi",
+  "Music": "Nhạc",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "Tên, số liệu hoặc ý chính hiển thị thành thẻ; nếu không sẽ chọn từ lời thoại.",
+  "Narration script": "Kịch bản thuyết minh",
+  "Needs an image generator for characters and panels; your designs and products come first.": "Cần công cụ tạo ảnh cho nhân vật và khung truyện; thiết kế và sản phẩm của bạn được ưu tiên.",
+  "Needs an image generator for the characters; your own designs come first.": "Cần công cụ tạo ảnh cho nhân vật; thiết kế của bạn được ưu tiên.",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "Cần công cụ tạo ảnh cho bản rối; thiết kế nhân vật của bạn được ưu tiên.",
+  "Neon signs built and animated in code.": "Biển neon dựng và chuyển động bằng code.",
+  "Network data": "Dữ liệu mạng lưới",
+  "Newspapers, magazines, letters or documents, scanned.": "Báo, tạp chí, thư từ hoặc tài liệu đã scan.",
+  "Object photos": "Ảnh vật thể",
+  "Objects seen through an X-ray console, modelled in code.": "Vật thể nhìn qua màn hình soi X-quang, dựng bằng code.",
+  "Old film or video about your subject.": "Phim hoặc video cũ về chủ đề của bạn.",
+  "One character, kept the same in every scene and episode.": "Một nhân vật, giữ nguyên ngoại hình ở mọi cảnh và mọi tập.",
+  "One continuous line drawn in code.": "Một nét liền mạch vẽ bằng code.",
+  "One idea carries the whole ad; your product appears as the result.": "Một ý tưởng gánh cả quảng cáo; sản phẩm của bạn xuất hiện như kết quả.",
+  "Only if no image generator is connected: images made from our prompts.": "Chỉ khi chưa kết nối công cụ tạo ảnh: ảnh tạo từ prompt của chúng tôi.",
+  "Period recording": "Bản ghi âm thời đó",
+  "Photos": "Ảnh",
+  "Photos of people, products or places that should appear.": "Ảnh người, sản phẩm hoặc địa điểm cần xuất hiện.",
+  "Photos of the places the animal belongs to; shown in black and white.": "Ảnh nơi loài vật đó sinh sống; hiển thị đen trắng.",
+  "Pictograms and cards animated in code.": "Biểu tượng hình vẽ và thẻ chữ chuyển động bằng code.",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "Tên địa điểm hoặc tọa độ vĩ độ/kinh độ, nếu chủ đề chưa rõ.",
+  "Place or coordinates": "Địa điểm hoặc tọa độ",
+  "Plans, a city model or survey heights for your site.": "Bản vẽ, mô hình thành phố hoặc cao độ khảo sát của khu đất.",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "Vẽ bằng bút máy plotter; bản đồ và hồ sơ dùng dữ liệu thật bạn gửi hoặc chúng tôi tìm.",
+  "Preferred voice": "Giọng mong muốn",
+  "Print scans": "Bản scan tranh in",
+  "Product link": "Link sản phẩm",
+  "Rapid microgames in changing art styles, all made in code.": "Loạt minigame nhanh với phong cách hình ảnh thay đổi liên tục, hoàn toàn bằng code.",
+  "Real maths drawn as oscilloscope light, computed in code.": "Toán học thật vẽ thành ánh sáng máy hiện sóng, tính bằng code.",
+  "Real statistics built as physical objects; your own numbers or published open data.": "Số liệu thống kê thật dựng thành vật thể; dùng số của bạn hoặc dữ liệu mở đã công bố.",
+  "Recordings or data": "Bản ghi hoặc dữ liệu",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "Dựng lại từ phim, ảnh và tài liệu lưu trữ thật; của bạn dẫn dắt, kho lưu trữ bù chỗ thiếu.",
+  "Red paper-cut scenes made in code.": "Cảnh cắt giấy đỏ làm bằng code.",
+  "Redraws your real product's interface; screenshots help it match exactly.": "Vẽ lại giao diện sản phẩm thật của bạn; ảnh chụp màn hình giúp khớp chính xác.",
+  "Reference clip": "Clip tham khảo",
+  "Reference photo": "Ảnh tham khảo",
+  "Rendered found-footage of empty interiors, all made in code.": "Cảnh quay kiểu found-footage trong những căn phòng trống, hoàn toàn làm bằng code.",
+  "Reports, statements or memos about the event.": "Báo cáo, thông cáo hoặc biên bản về sự kiện.",
+  "Routes or map data": "Tuyến đường hoặc dữ liệu bản đồ",
+  "Routes, points or areas to draw on the map.": "Tuyến đường, điểm hoặc khu vực cần vẽ trên bản đồ.",
+  "STEP, IGES or KiCad exports of your product.": "Tệp xuất STEP, IGES hoặc KiCad của sản phẩm.",
+  "SVG or icon": "SVG hoặc biểu tượng",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "Bản scan phim âm bản, thư, ảnh hoặc bài báo cắt mà bạn có quyền.",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "Bản scan tranh khắc cũ, tem hoặc ấn phẩm mà bạn có quyền.",
+  "Scans of reports, brochures, letters or photographs.": "Bản scan báo cáo, tờ rơi, thư hoặc ảnh.",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "Cảnh hiện ra dưới tia sáng quét, dựng bằng code; không cần dữ liệu quét thật.",
+  "Schedules, filings or results shown as paper.": "Lịch trình, hồ sơ hoặc kết quả trình bày như giấy tờ.",
+  "Scratched-film animation made in code.": "Hoạt hình cào trên phim nhựa, làm bằng code.",
+  "Screens of your product so the UI is redrawn accurately.": "Màn hình sản phẩm của bạn để vẽ lại UI chính xác.",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "Gửi logo của bạn; logo được vẽ lại thành vector sạch và làm chuyển động.",
+  "Shadow puppets on a lit screen, made in code.": "Rối bóng trên màn sáng, làm bằng code.",
+  "Song lyrics, if this is a music video.": "Lời bài hát, nếu đây là video ca nhạc.",
+  "Stick figures act out the idea, drawn in code.": "Người que diễn lại ý tưởng, vẽ bằng code.",
+  "Streamlines of a real or modelled field such as wind or currents.": "Đường dòng của một trường thật hoặc mô phỏng như gió hay hải lưu.",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "Dữ liệu khảo sát, địa hình hoặc đo đạc để vẽ, nếu bản vẽ thể hiện dữ liệu thật.",
+  "Swiss grid motion graphics made in code.": "Đồ họa chuyển động lưới Thụy Sĩ làm bằng code.",
+  "The report or document the numbers come from, as PDF.": "Báo cáo hoặc tài liệu gốc của số liệu, dạng PDF.",
+  "The report your figures come from.": "Báo cáo gốc của số liệu bạn đưa.",
+  "The site to survey, if not clear from your topic.": "Khu vực cần khảo sát, nếu chủ đề chưa rõ.",
+  "The talking video to caption; it is kept as it is.": "Video nói chuyện cần làm phụ đề; video được giữ nguyên.",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "Ba từ mô tả cách thương hiệu chuyển động, VD: điềm tĩnh, chính xác, thân thiện.",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "Time-lapse, hyperlapse, ảnh flycam hoặc ảnh chụp địa điểm.",
+  "UI screenshots": "Ảnh chụp màn hình UI",
+  "Ukiyo-e woodblock prints made in code.": "Tranh khắc gỗ ukiyo-e làm bằng code.",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "Dùng ảnh vệ tinh thật của địa điểm; nếu bạn không có, chúng tôi lấy ảnh công khai.",
+  "Video or audio of the same event from several angles.": "Video hoặc âm thanh của cùng một sự kiện từ nhiều góc.",
+  "Voice recording": "Bản ghi giọng nói",
+  "Voice-over script": "Kịch bản lồng tiếng",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "Lời người dẫn chuyện, nếu bạn có; nếu không sẽ được viết từ chủ đề của bạn.",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "Lời người dẫn chuyện nên nói, nếu bạn có; nếu không sẽ được viết giúp bạn.",
+  "Whole-slide scans or micrographs with a scale.": "Ảnh quét toàn tiêu bản hoặc ảnh hiển vi có thước tỉ lệ.",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "Bạn nhận được tệp Lottie .json cho ứng dụng hoặc website, kèm MP4 để xem trước.",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "Bạn nhận được phim, tệp .excalidraw có thể chỉnh sửa, một PNG và một GIF.",
+  "Your GIS layers": "Lớp GIS của bạn",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "Màn hình ứng dụng của bạn được dựng lại bằng HTML và dẫn dắt bằng giọng nói; gửi màn hình của từng tính năng cần giới thiệu.",
+  "Your character designs or product photos; otherwise generated.": "Thiết kế nhân vật hoặc ảnh sản phẩm của bạn; nếu không sẽ được tạo.",
+  "Your clips": "Clip của bạn",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "Clip của bạn, cảnh quay giấy phép mở, clip từ kênh khác dùng để bình luận và ảnh Flow AI được trộn với infographic vẽ bằng code, kèm thuyết minh tiếng Thái.",
+  "Your figures as a table; otherwise open published data is used.": "Số liệu của bạn dạng bảng; nếu không sẽ dùng dữ liệu mở đã công bố.",
+  "Your figures, e.g. from an annual or ESG report.": "Số liệu của bạn, VD: từ báo cáo thường niên hoặc báo cáo ESG.",
+  "Your footage": "Cảnh quay của bạn",
+  "Your logo": "Logo của bạn",
+  "Your own character or product designs; otherwise they are generated.": "Thiết kế nhân vật hoặc sản phẩm của riêng bạn; nếu không sẽ được tạo.",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "Clip của bạn, cảnh quay giấy phép mở và ảnh Flow AI được trộn với infographic vẽ bằng code; không lấy gì từ kênh khác.",
+  "Your own footage or b-roll stills to grade into the package.": "Cảnh quay hoặc ảnh b-roll của bạn để chỉnh màu vào bản tin.",
+  "Your own narration; otherwise we use a synthetic voice.": "Giọng thuyết minh của bạn; nếu không sẽ dùng giọng tổng hợp.",
+  "Your own site, drone or terrestrial scan.": "Bản quét khu đất, drone hoặc quét mặt đất của riêng bạn.",
+  "Your own surveys or GIS layers, if the place is yours.": "Dữ liệu khảo sát hoặc lớp GIS của bạn, nếu địa điểm thuộc về bạn.",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "Clip video của bạn; nếu không sẽ tìm cảnh quay lưu trữ không vướng bản quyền.",
+  "Your song": "Bài hát của bạn",
+  "Your subject drawn as a circuit board in code.": "Chủ đề của bạn vẽ thành bảng mạch bằng code.",
+  "Your video": "Video của bạn",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "160 chú Pip theo đàn đua nhau giành hạt: con nhanh ăn trước và kiệt sức trước, và sau 20 thế hệ cả bàn chuyển sang màu xanh.",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "Năm 1926: báo chí bảo điệu Charleston sẽ phá hỏng đầu gối nước Mỹ; vậy mà ở buổi dã ngoại của chính hãng Ford, lũ trẻ vẫn nhảy.",
+  "3D & Miniature": "3D & mô hình thu nhỏ",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "Một tờ tem thư máy bay năm 1918 in ngược hình chiếc máy bay: mua với giá 24 đô, bị cắt rời và tản mát khắp nơi, đến nay số 66 vẫn mất tích.",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "Clip 9:16 làm cho Reels, TikTok và Shorts: hút người xem ngay giây đầu, chữ chuyển động cỡ lớn, nhịp nhanh và phụ đề đọc được cả khi tắt tiếng.",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "Hoạt ảnh Lottie cho ứng dụng hay website, giao dưới dạng tệp .json kèm MP4: loader, biểu tượng, trạng thái thành công, lower third, bộ đếm số và promo nhỏ.",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "Một buổi sáng Chủ nhật đạp xe quanh phố — tiệm bánh, công viên, bờ sông — mỗi điểm dừng thêm một màu mực, đến khi ba bản in lệch chồng lên nhau.",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "Cậu bé làm bánh đuổi theo ổ bánh mì lăn xuống dốc, rồi bẻ đôi chia cho một cô bé đang đói.",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "Sơ đồ kiến trúc hay quy trình vẽ tay trên nền đen, với những chấm sáng chạy dọc các luồng; kèm tệp Excalidraw chỉnh sửa được và một GIF.",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "Cơ thể được mổ ra như một nhà máy chạy ngược: chiếc bánh mì kẹp lúc 12:30 bị tháo rời từng công đoạn, và sáu tiếng sau nó chạy đi bắt xe buýt.",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "Phi hành gia bằng gạch đồ chơi ráp tên lửa từ phụ tùng thừa rồi bay lên mặt trăng bằng gạch.",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "Sân khấu rối giấy bằng bìa các-tông: giấy hoa văn, hình cắt vẽ màu gouache còn viền nhãn dán, phông cảnh trượt trên sân khấu.",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "Bức ảnh chú mèo nhảy qua các thẻ ứng dụng trên chiếc bàn đầy nắng, từ điện thoại này sang điện thoại của bạn bè.",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "Chuỗi bàn tay nối bạn với một người lạ: được thử bằng thư từ năm 1967, giải thích bằng những vòng tròn lớn hơn cả Trái Đất, và khép kín quanh địa cầu.",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "Chú mèo cam mũm mĩm hầu tòa vì thử nghiệm trọng lực và chơi parkour lúc 4 giờ sáng, rồi được tha bổng.",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "Anh tân binh vụng về sống sót qua khóa huấn luyện năm giây, ngày càng nhanh, cho đến trùm cuối: hạ cánh về nhà.",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "Tách cà phê rượt viên đường bỏ trốn khắp gian bếp, theo phong cách hoạt hình thập niên 1930.",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "Hành trình của ly cà phê từ đồn điền đến tay bạn, trong một thế giới isometric duy nhất.",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "Tấm poster hòa nhạc tự dàn trang theo năm quy tắc thiết kế Thụy Sĩ; quy tắc thứ năm là phá đúng một quy tắc.",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "Cô gái giao hàng phóng qua thành phố neon ướt đẫm mưa để kịp giao cuộn băng trước buổi phóng lúc bình minh.",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "Cây bút dạ tính xem đường chân trời cách bãi biển bao xa, rồi cho thấy leo cao gấp trăm lần cũng chỉ nhìn xa thêm gấp mười.",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "Chú cá đèn dài bằng ngón tay ngoi lên nửa cây số trong bóng tối, giấu bóng mình bằng chính ánh sáng của nó, và hóa ra chỉ là một trong vô số sinh vật trồi lên mỗi đêm.",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "Ánh chớp của đom đóm là một câu hỏi: cô bé nhận được câu trả lời trong hình hài một chú nai, mất hết ánh sáng trong cơn bão, và dùng đốm sáng cuối cùng hỏi cả màn đêm.",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "Chuyến bay góc nhìn thứ nhất qua ngôi làng bút sáp đến một bông hoa trong vườn của ông lão; rồi đôi mắt ông, và điều ông nói.",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "Đàn hồng hạc chuyển động theo từng nhịp, còn một chú chim non luôn chậm nửa nhịp; những gợn sóng các con khác để lại trên mặt nước dạy nó bắt nhịp.",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "Trang album ố vàng: thẻ rách, băng dính, tranh khắc tô màu tay, nhãn đánh máy và chữ cắt dán kiểu thư nặc danh kể lại câu chuyện.",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "Khách sạn sang trọng, năm 1930: cậu bồi phòng chạy đua với thang máy và cửa xoay để kịp giao một lá thư trước nửa đêm.",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "Một trăm năm nhiệt độ mùa hè, nơi chính biểu đồ kể câu chuyện.",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "Một thiên tài chán đời mở cổng không gian chỉ để mua cà phê, rồi lộn nhào qua những vũ trụ ngày càng kỳ quặc.",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "Quét laser bóc lớp tán rừng ở Connecticut và tìm thấy 3,4 km tường đá nông trại xưa.",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "Phim ra mắt ứng dụng trong một cú máy liền mạch: thanh prompt mở ra thành lịch, lịch chảy vào điện thoại, và mỗi nhịp mọc ra từ nhịp trước.",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "Một lá thư, một cuộc gọi, một bức tường cửa sổ, mười ba bậc thang: cô gái dặn anh đừng ngoảnh lại luôn gần thêm một bước, cho đến khi cô quay đầu.",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "Chú tàu thăm dò nhỏ với con mắt là ống kính zoom bắn đường ngắm chấm chấm tới từng điểm dừng, đưa ta từ dải Ngân Hà xuống tận một con virus.",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "AI của căn cứ mặt trăng thức dậy sau bốn mươi năm vì tín hiệu từ Trái Đất, và trả lời bằng cách vẽ chữ “nhà” từ các ký tự.",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "Video ca nhạc dựng theo chính bài hát của bạn: nhịp và các đoạn được đo từ bản nhạc, lời, hình khối và màu sắc chuyển động theo.",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "Người dẫn chuyện không bao giờ lộ mặt: cảnh quay thật, 3D và hình tái hiện bằng AI, đồ họa so sánh tỷ lệ, bản đồ và phụ đề lần lượt kể một câu chuyện có thật đầy kinh ngạc.",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "Một bản minh họa vạn vật tự khắc mình: dao khắc cắt vào đồng, chú ong hiện lên từng nét, và một lớp màu nước thổi hồn vào nó.",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "Chú mèo neon đi bắt con cá vàng trên tấm biển cuối phố, làm nứt bể cá, rồi chạy dưới mưa đưa con cá đang tắt dần về chiếc ly trên biển hiệu của chính mình.",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "Nhân viên ca đêm mới quay lại đêm đầu tiên trong văn phòng vàng vô tận, làm theo những quy tắc dán trên tường.",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "Công viên chỉ là một bản ký họa bằng bút; gió thổi chiếc mũ rơm của cô đến đâu, màu sắc theo đến đó.",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "Điện thoại mất sóng khi cầm ở góc; tháo ra mới thấy khung kim loại chính là ăng-ten, được cắt thành từng đoạn mà bàn tay bạn có thể nối liền.",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "Cuốn sách pop-up mở ra trên bàn; chú tiên nhỏ tên Pip phiêu lưu qua các thế giới giấy rồi nhảy ra thế giới của chúng ta.",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "Bản đồ metro in giấy lớn dần từ một tuyến 6 km năm 1993 thành 21 tuyến và 906 km.",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "Video giới thiệu sản phẩm có lồng tiếng: giao diện thật của ứng dụng dựng lại từ ảnh chụp màn hình, máy quay tiến sát từng tính năng, phụ đề, và cùng bộ phim bằng các ngôn ngữ khác.",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "Máy chiếu tô từng lớp lên mô hình trắng của Rotterdam, từ khoảng trống năm 1940 đến những tòa tháp hôm nay.",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "Cài đặt robot hút bụi trong ba bước, kể như một bộ phim giáo dục thập niên 1950.",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "Vệ tinh lần theo bản đồ đến biển Aral và chỉ thấy sa mạc; chỉ phần được ai đó đắp đập ngăn lại mới hồi sinh.",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "Cơn bão ở Parkes, 21/7/1969: chiếc chảo ăng-ten 64 mét nghiêng hết cỡ vẫn trụ vững và bắt được bước đi trên mặt trăng cho cả thế giới.",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "Nữ nhiếp ảnh gia đường phố đuổi theo vệt sáng đến khoảnh khắc đàn bồ câu bay lên; chiếc máy ảnh bỏ túi chia giây ấy thành ba mươi khung truyện.",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "Kiếm khách lướt trên mặt nước qua sông và chẻ đôi dòng chảy chỉ bằng một nhát kiếm.",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "Camera nhiệt bay quanh khu chung cư cũ trong đêm tuyết: ô cửa rò nhiệt, đường ống trong tường, chú mèo ngủ trên nắp ca-pô ấm, và cùng tòa nhà ấy một năm sau khi cải tạo.",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "Người lữ khách băng qua thế giới qua từng bức in lụa tràn viền, cuống vé đếm khoảng cách từ nhà, cho đến khi phía bên kia trở thành đường về.",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "Người lữ khách đi về phía ngọn núi xa; mỗi cảnh là một bức mộc bản, con sóng lớn ở cao trào, ngọn núi và cả cuộn tranh ở đoạn kết.",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "Cả làng dành trọn một mùa đông đúc một chiếc chuông; lần đầu chuông ngân, tuyết ngừng rơi.",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "Chiếc đồng hồ không pin bị mổ ra: ba hệ thống được nhuộm màu lần lượt, bộ bánh răng quay cuồng khi rút bộ thoát, và một nhịp tích tắc chậm lại thả mọi thứ ra lần nữa.",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "Chiếc ô vàng bỏ quên trên xe buýt chờ qua một ngày nắng trên kệ đồ thất lạc, rồi bung ra cùng 312 chiếc khác khi bão quay lại: đồ vật, xe cộ, thời tiết và biển báo thành pictogram hình học khớp nhịp.",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "Tô cel bằng bút marker cồn với mép bóng sắc nét dưới một đường viền đậm: thế giới truyện tranh rực rỡ chuyển động.",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "Gần như mọi quả chuối ngoài chợ đều là bản sao của một cây: bức tường những bản in giống hệt, quả chuối già bị đốm đen ăn mòn, và làn sóng màu biến thành vô số quả chuối.",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "Alsace-Lorraine đổi chủ bốn lần từ 1871 đến 1945: mỗi lần lại có người xé giấy cũ dán giấy mới, còn người phụ nữ sống ở đó chưa từng dọn đi.",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "Mỹ mất 1,3 triệu đàn ong, vậy mà con số vẫn tăng 6%: bản tin ngắn xem hiểu cả khi tắt tiếng.",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "Chiếc xe đạp điện được quét thành hình ba chiều; các khung ngắm khóa vào pin, động cơ và phanh.",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "Bản thiết kế của nhà phát minh vẽ, tách rời rồi lắp ráp cỗ máy bắt mây, và đám mây ghi chú sửa đổi bắt đầu đổ mưa.",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "Hòn đảo và ngôi làng mọc lên từng ô một từ biển trống, mỗi ô là một nốt nhạc, cho đến đêm đầy sao.",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "Chuyến tàu đêm cũ chạy lần cuối, từ ga xép phủ tuyết trên núi qua đường hầm dài ra biển, những ô cửa sáng đèn tắt dần ở ga cuối.",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "Đêm khuya dưới ánh đèn bàn, máy vẽ plotter dùng bốn cây bút vẽ Qomolangma từ dữ liệu độ cao thật, và ghi chiều cao của nó sau cùng.",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "Trước cửa trùm cuối, người hùng lưu game, và màn hình lưu chiếu lại cả chặng hành trình.",
+  "Cartoons": "Hoạt hình",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "Phấn viết một quan niệm phổ biến về hai chữ Hán, xóa đi, rồi truy ngược chữ 射 về ba nghìn năm trước.",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd nhảy ra khỏi terminal vào ứng dụng Claude và diễn chế độ lập kế hoạch cùng tự kiểm tra trong một cú máy.",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "Hình khối pen tool gọn gàng, màu phẳng, bóng đổ dài và chút hạt nhẹ: minh họa hiện đại sắc nét chuyển động.",
+  "Data & Maps": "Dữ liệu & bản đồ",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "Cây có nuôi nhau không? Bức vẽ chì chìm xuống dưới cỏ, theo một hạt đường dọc sợi nấm sang cây bên cạnh, rồi lùi ra cả khu rừng nối liền dưới lòng đất.",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "Bị dẫn 0-3 sau hiệp một, Fenerbahçe ghi ba bàn trong 12 phút: dừng hình, vẽ chiến thuật, chia màn hình, bản đồ dứt điểm.",
+  "Edit & Documentary": "Dựng phim & tài liệu",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "Tháng 2/1966: cận cảnh đầu tiên của Mặt Trăng đến một kính viễn vọng vô tuyến ở Anh dưới dạng fax báo, in từng dòng bằng hai màu mực, sớm một ngày và bị kéo dãn quá cao.",
+  "Film & Tape": "Phim nhựa & băng từ",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "Theo chân cơn mưa từ trái tim sa mạc đỏ của nước Úc đến vùng bờ biển xanh, trong một chuyến dạo liền mạch như tranh vẽ.",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "Bốn tin AI trong một tuần thành một bản tin truyền hình hoàn chỉnh: kịch bản chương trình, dải tiêu đề, bảng giá, thẻ thông số.",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "Bốn kiểu cầu được thử trên cùng một bảng thuyết trình, và con tàu phải đi qua bên dưới sẽ chọn người thắng.",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "Từ quả địa cầu xuống eo biển nơi một phần năm lượng dầu thế giới chen qua: hai luồng tàu, một rãnh cắt đáy biển, và những đường ống chỉ dẫn vòng được một phần nhỏ.",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "Từ núi xuống biển khi đêm buông: hươu, sói, đại bàng, cá hồi và cá voi, mỗi con mang nơi chốn của mình trong dáng hình, cho đến khi bến cảng của cá voi đáp xuống bờ biển thật.",
+  "Games": "Trò chơi",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "Bút chì và màu nước nhẹ nhàng kiểu sách truyện, vẽ cho một nhân vật xuyên suốt luôn giữ nguyên hình dáng trong mọi cảnh.",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "Gouache và màu nước trên nền chì: đặc ở tiền cảnh, nhạt dần thành lớp loang rồi chỉ còn nét chì ở phía xa.",
+  "Graphic & Type": "Đồ họa & chữ",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "Một nửa bàn phím mã nguồn mở tách rời trong một vòng quay, xuống tận con chip, rồi khép lại cùng kích thước thật.",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "Làm sao lăn ra hình vuông từ những vòng tròn? Các vòng tròn xoay chồng lên nhau thành sóng vuông, cho đến khi lao vào một góc và gặp vết nhô 9% không bao giờ biến mất.",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "Điện thoại biết bạn ở đâu bằng cách nào: GPS, đồng hồ nguyên tử và 38 micro giây mà thuyết tương đối cộng thêm mỗi ngày.",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "Giữa quảng trường xám xịt mưa rơi, một chiếc ô đỏ bung ra, và điệu valse tô màu cả quảng trường.",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "Trong thế giới tranh vẽ nơi chỉ có vàng tỏa sáng, mặt trời tắt lịm; cô bé mang ngọn đèn cuối cùng lên núi và trả lại ánh sáng cho mặt trời.",
+  "Instruments & Evidence": "Thiết bị & bằng chứng",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "Phim ra mắt Tidy, một ứng dụng hư cấu: một con trỏ bị vùi lấp kéo hàng trăm cửa sổ về đúng chỗ trong nháy mắt.",
+  "Light & Lines": "Ánh sáng & đường nét",
+  "Line Diagrams": "Sơ đồ nét",
+  "Logo & Lottie": "Logo & Lottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "Giờ cao điểm buổi sáng ở thị trấn trông như mô hình: xe cộ, tàu hỏa và những con người tí hon.",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "Phim thời sự, ảnh, lời khai và cuộc điều tra năm 1937 trên cùng một đồng hồ: năm nguồn cùng chỉ về một điểm.",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "Đêm Giao thừa, quái thú Niên kéo vào thị trấn, và bức cắt giấy khổng lồ của một cô bé thắp sáng cả làng để xua nó đi.",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "Một con ong làm ra 1/12 thìa cà phê mật trong cả đời; ngòi bút theo một giọt vàng từ bông hoa đến hũ mật, cho đến khi cả trang thành tấm poster.",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "Một cây bút bi xanh trên giấy màu kem: sáng tối chỉ nhờ vị trí nét gạch, như bức vẽ trong sổ tay bỗng sống dậy.",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "Một chuyển động liền mạch từ lam kính mô gan đến một nhân tế bào; hai vòng tròn, đếm từng pixel, chênh nhau 2,4 lần về màu xanh.",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "Một ngày ở New York qua time-lapse: những dòng sông ánh sáng, lưới khớp nốt móc kép, năm 1899 cạnh hôm nay.",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "Một chấm nhân đôi mỗi mười năm: 128 sau bảy mươi năm, 6,02 nếu không lãi kép, và mười năm cuối có giá trị bằng tất cả phần còn lại.",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "Một cây bút kỹ thuật nét mảnh chấm thẳng xuống: sáng tối chỉ nhờ mật độ chấm, như bản minh họa vạn vật xưa.",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "Một ý tưởng gánh cả quảng cáo: phản ứng dây chuyền trên mặt bàn, mỗi nhịp là một cú va chạm khởi động nhịp kế tiếp, từ một lần nhấn phím đến mười việc hoàn tất.",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "Một đêm bên màn hình soi chiếu ở sân bay: sạc dự phòng, chai nước, và sáu con cua sống cựa quậy trong máy CT.",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "Một khúc quanh sông, bốn mùa, một cú máy; mỗi mùa chuyển khi cây đại thụ khụy xuống rồi bật lên.",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "Một cây bút mực mảnh trên giấy ấm: con phố ven kênh với quán trà và nhà tắm, dân làng đi lo việc, cửa sổ sáng đèn khi ngày chuyển sang đêm.",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "Một nét liền không đứt vẽ trọn một đời người, rồi cây bút được trao cho một đứa trẻ.",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "Phần mở đầu cho một phim điệp viên tưởng tượng năm 1964: cuộc rượt đuổi chiếc chìa khóa bị đánh cắp, cho đến khi các hình khối khớp lại thành tựa phim.",
+  "Painting & Illustration": "Hội họa & minh họa",
+  "Print & Printmaking": "In ấn & đồ họa in",
+  "Product Launch · onetake": "Ra mắt sản phẩm · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "Sếu đầu đỏ trong một thung lũng ở Hokkaido, một cú máy trên scratchboard, đếm ngược từ 33 đến 1.927.",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "Những dòng sông hóa thành mạch đồng khi dòng điện chạy 2.080 km từ con đập đến cục sạc điện thoại.",
+  "Screens & Interfaces": "Màn hình & giao diện",
+  "Sketch & Board": "Phác thảo & bảng",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "Lớp dầu láng mịn siêu thực dưới mặt trời thấp: vật thể bất khả, bóng đổ dài và logic giấc mơ tĩnh lặng.",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "Chỉ thêu cotton xuyên qua vải lanh trên khung gỗ dẻ gai, từng mũi thêu hiện ra trên màn hình.",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "Ánh nắng băng qua ô kính nhà thờ lớn từ bình minh đến hoàng hôn, đánh thức từng mảnh kính của câu chuyện hiệp sĩ và rồng.",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "Mười mặt trời thiêu đốt mặt đất cho đến khi xạ thủ Hậu Nghệ giương cung, kể bằng rối da trên màn sáng.",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "Cuốn giới thiệu năm 1931 của tòa Empire State vinh danh những người xây dựng; phim công trường và ảnh của Hine đáp lại: 2.500 người mỗi ngày.",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "Cà phê trong tách hóa thành quả cherry đỏ, rồi đi ngược về tách: chín, phơi, rang và xay, từng lần đổi màu trên một trang vẽ chì duy nhất.",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "Lịch sử AI dưới dạng game nhịp điệu: các mô hình lên sân khấu theo nhịp, và một bảng điểm khép lại chương trình.",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "Phút cuối của vụ phóng Artemis II, không cắt: một ô mở ra thành chín, rồi hợp làm một lúc đánh lửa.",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "Ngọn hải đăng tắt; cô bé mang ngọn lửa cuối cùng băng qua khu rừng đêm và leo lên vách đá giữa bão.",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "Mặt trăng không ngủ được, nên một cô bé trèo lên mái nhà hát ru cho trăng.",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "Bức điện tín ghi 57 giây; dưới kính lúp, phim kính âm bản của anh em Wright và kho lưu trữ nói 59.",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "Tổng số nghiêng về phương pháp B; mở các cột kích thước sỏi bị ẩn và A thắng ở mọi nhóm. Nghịch lý Simpson trong một trang tính, 1 ô = 1 bệnh nhân.",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "Hàng nghìn đường gió bằng mực, tính từ quỹ đạo chuẩn, vẽ nên siêu bão Yagi: con mắt mở ra trên Biển Đông, đổ bộ vào Hải Nam, vòng xoáy tan rã ở Việt Nam, và cả một tuần gấp lại thành một đường cuối cùng.",
+  "Traditional Crafts": "Thủ công truyền thống",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "Hành khách lên một chiếc máy bay isometric, và thứ tự lên máy bay cho thấy vì sao một cách nhanh gần gấp đôi.",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "Mười hai năm điện gió và điện mặt trời xếp thành những tấm thật, xoắn quanh mặt đồng hồ gỗ óc chó cho đến khi điện mặt trời vượt lên.",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "Hai người lần đầu làm cha mẹ lắp cũi em bé theo sách hướng dẫn đồ lắp ráp, mười bước trên một trang góc 45°; bước mười chưa từng có trong sách.",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "Đập hộp và cận cảnh Aura, cặp tai nghe thủy tinh hư cấu, trong những vệt đèn dải lướt qua và hiệu ứng khúc xạ ánh sáng.",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "Những chấm sơn dầu không pha đặt cạnh nhau để mắt tự hòa màu: ánh sáng trên mặt nước, hoàng hôn, con thuyền băng qua vịnh.",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "Than nho trên giấy cotton, chà mờ, nhấc sáng bằng tẩy và vẽ lại đè lên chính bóng ma của nó.",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "Hình logo của bạn được vẽ lại thành SVG gọn gàng, rồi thổi hồn từng phần theo các nguyên tắc hoạt hình của Disney: màn xuất hiện đáp đúng vào biểu tượng của bạn.",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "Video bạn tự nói, giữ nguyên như vốn có: phụ đề từng chữ khớp với giọng, thẻ tên và những thẻ đồ họa đơn giản cho các ý chính.",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "Không một nét vẽ: giấy xé với mép xơ trắng, mảnh cắt bằng kéo, mỗi mảnh đổ một bóng mềm.",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "Làm giúp mình đoạn hoạt hình sinh nhật con trai: tên lửa lắp từ gạch đồ chơi bay lên mặt trăng.",
+   "Cửa hàng đồ chơi của mình có bộ lắp ghép mới, mình muốn cho thấy từng viên ghép lại thành một ngôi nhà nhỏ.",
+   "Mình muốn video dựng Chùa Một Cột bằng gạch đồ chơi từng bước, kèm kể cho các bé nghe về lịch sử ngôi chùa."
+  ],
+  "paper-popup": [
+   "Làm truyện trước giờ ngủ cho con gái mình: mở sách ra là chú thỏ nhảy ra từ khu rừng giấy.",
+   "Nhà mình sắp ra sách truyện thiếu nhi mới, muốn có quảng cáo kiểu trang sách pop-up dựng đứng lên.",
+   "Mình muốn thấy trong sách giấy, cô lái đò chèo thuyền qua Tràng An, len giữa những núi đá vôi."
+  ],
+  "tilt-shift": [
+   "Biến cảnh giờ cao điểm buổi sáng ở ngã tư Hàng Xanh thành thành phố đồ chơi tí hon giúp mình.",
+   "Mình muốn quảng cáo dự án căn hộ của công ty, nhìn từ trên cao thấy dự án và đường xá xung quanh như mô hình.",
+   "Mình muốn ngắm chợ Bến Thành buổi sáng, xe máy và tiểu thương tấp nập như một thế giới đồ chơi."
+  ],
+  "lowpoly-island": [
+   "Làm teaser cho game mới của mình: hòn đảo và ngôi làng hiện lên từng mảng giữa biển khơi.",
+   "Mình muốn thong thả ngắm một ngôi làng trên đảo nhỏ lớn dần lên, đến khi sao đêm sáng khắp trời.",
+   "Mình muốn các bé hiểu một làng chài trên đảo nhỏ ở Côn Đảo đã dần phát triển ra sao."
+  ],
+  "glass-product": [
+   "Giới thiệu giúp mình lọ serum thủy tinh mới của hãng, cho tia sáng lướt qua để nó lấp lánh thật đẹp.",
+   "Mình muốn video ra mắt tai nghe mới: mở hộp, lấy ra và quay cận thật sang.",
+   "Mình muốn khoe chai nước hoa thủy tinh mua tặng sinh nhật mẹ, ánh sáng nhảy múa quanh chai."
+  ],
+  "memphis-diorama": [
+   "Mình muốn ngắm một khúc quanh sông Hồng chuyển qua xuân, hạ, thu, đông bằng màu sắc rực rỡ.",
+   "Làm giúp mình cảnh dễ thương quán cà phê nhỏ với bốn mùa thay đổi quanh quán, để đặt đầu website.",
+   "Mình muốn cho các bé thấy cây xoài trước nhà ra hoa, kết trái rồi rụng lá suốt một năm."
+  ],
+  "isometric-picture-book": [
+   "Giải thích giúp mình bằng hình minh họa vì sao xếp một hàng chung ở ngân hàng lại nhanh hơn.",
+   "Mình muốn bệnh nhân hiểu cách lấy số thứ tự và chờ khám mới ở phòng khám của mình.",
+   "Mình muốn giải thích cho các bé vì sao lên xe buýt từ cửa sau lại nhanh hơn."
+  ],
+  "crayon-world": [
+   "Làm video kỷ niệm bay qua làng của ông nội, đến tận cây bàng ông trồng năm xưa.",
+   "Mình muốn câu chuyện hành trình về ngôi trường cũ như tranh sáp màu học trò vẽ, để tri ân cô giáo cũ.",
+   "Mình muốn kể hành trình của cậu thanh niên từ quê lên Sài Gòn tìm việc bằng tranh sáp màu kiểu trẻ con vẽ."
+  ],
+  "rubber-hose": [
+   "Làm quảng cáo hoạt hình kiểu cổ cho quán bún bò của mình: miếng chả và tô nước dùng đuổi bắt nhau.",
+   "Mình muốn đoạn hoạt hình vui: ly cà phê sữa đá chạy khắp bếp đuổi theo viên đường bỏ trốn.",
+   "Mình muốn dạy các bé đánh răng bằng hoạt hình cổ điển, bàn chải và kem đánh răng cùng đuổi vi khuẩn."
+  ],
+  "cel-anime-80s": [
+   "Làm câu chuyện cô gái giao hàng bằng xe máy trong đêm mưa Sài Gòn, phải giao kịp trước khi trời sáng.",
+   "Mình muốn video cho bài hát mới của ban nhạc: thành phố về đêm với đèn neon kiểu anime thập niên 80.",
+   "Mình muốn kể kỷ niệm đạp xe cùng đám bạn, với tông màu như phim hoạt hình hồi nhỏ."
+  ],
+  "scifi-toon": [
+   "Làm phim hài: nhà khoa học mở cổng không gian chỉ vì thèm ly trà đá, rồi lăn tuột vào những thế giới kỳ quặc.",
+   "Mình muốn quảng cáo vui cho thấy app chuyển tiền của mình nhanh cỡ nào, nhảy từ hành tinh này sang hành tinh khác.",
+   "Mình muốn hoạt hình tưng tửng: hai anh em quên bài tập về nhà nên phải lái tàu vũ trụ quay ngược thời gian."
+  ],
+  "midcentury-toon": [
+   "Giải thích giúp mình cách lắp máy lọc nước mới trong 3 bước, kiểu phim lớp học thập niên 1950.",
+   "Mình muốn dạy mẹ gọi video bằng điện thoại, nên cần video giải thích vui nhộn kiểu hoạt hình cổ.",
+   "Mình muốn hướng dẫn dùng nồi cơm điện cho đúng, như phim hoạt hình giáo dục ngày xưa."
+  ],
+  "comic-history": [
+   "Mình muốn kể chuyện kinh đô dời từ Hoa Lư ra Thăng Long rồi vào Huế, nhẹ nhàng như truyện tranh.",
+   "Làm giúp mình truyện tranh vui: ba quán cà phê cóc trong hẻm tranh giành khách.",
+   "Giải thích bằng truyện tranh giúp mình: bãi bồi giữa hai làng qua nhiều năm đã dịch từ bờ này sang bờ kia thế nào."
+  ],
+  "manga-panels": [
+   "Mình muốn chia khung manga cho khoảnh khắc đàn bồ câu bay lên trước Nhà thờ Đức Bà.",
+   "Giới thiệu máy ảnh mới của tiệm mình bằng các khung manga hiện ra lần lượt.",
+   "Làm giúp mình kỷ niệm em gái về đích ở giải chạy, chia khung như truyện tranh."
+  ],
+  "dataviz": [
+   "Mình muốn dữ liệu nhiệt độ mùa hè Hà Nội 50 năm tự kể chuyện qua biểu đồ.",
+   "Làm giúp mình biểu đồ đẹp thể hiện doanh số 5 năm của tiệm may gia đình.",
+   "Mình muốn giải thích số liệu xuất khẩu gạo Việt Nam theo năm bằng biểu đồ dễ hiểu cho học sinh."
+  ],
+  "white-model": [
+   "Mình muốn cho thấy các tòa nhà ở trung tâm Quận 1 cao dần lên từng tầng từ thời Pháp đến nay, trên mô hình trắng.",
+   "Làm video triển lãm mặt bằng dự án khu dân cư của công ty, chiếu sáng từng giai đoạn trên mô hình trắng.",
+   "Mình muốn hé lộ dần bố cục Kinh thành Huế và hào thành từ dữ liệu bản đồ trên mô hình trắng."
+  ],
+  "data-physical": [
+   "Mình muốn thể hiện sản lượng thủy điện và điện mặt trời của Việt Nam theo năm như những tấm vật liệu xếp chồng, chạm được.",
+   "Thể hiện giúp mình doanh số trong báo cáo thường niên của công ty như những tấm gỗ xếp chồng.",
+   "Mình muốn thể hiện sản lượng 10 năm của đồi chè nhà mình ở Thái Nguyên như những vật thật chồng lên nhau."
+  ],
+  "transit-map": [
+   "Hiện giúp mình từng ga tuyến metro Bến Thành – Suối Tiên trên tấm bản đồ in.",
+   "Mình muốn cho thấy mạng lưới xe buýt Hà Nội mở rộng qua các năm, theo kiểu bản đồ tàu điện.",
+   "Mình muốn thể hiện các tỉnh công ty vận chuyển của mình giao tới tăng lên trong 10 năm, như bản đồ metro."
+  ],
+  "map-explainer": [
+   "Giải thích bằng bản đồ giúp mình sông Mê Kông chảy từ cao nguyên Tây Tạng đến đồng bằng ra sao, zoom vào từ quả địa cầu.",
+   "Mình muốn video bản đồ giải thích vì sao tàu hàng khắp thế giới phải đi qua eo biển Malacca.",
+   "Mình muốn giải thích chuyện sạt lở bờ kênh ở làng mình bằng bản đồ và địa hình thật."
+  ],
+  "pip-simulation": [
+   "Mô phỏng giúp mình bệnh truyền nhiễm lây từ người sang người thế nào, bằng những sinh vật nhỏ chạy lăng xăng.",
+   "Mình muốn thử nghiệm bằng sinh vật nhỏ xem chuyện gì xảy ra khi tiểu thương trong chợ đua nhau giảm giá.",
+   "Mình muốn học sinh tận mắt thấy chọn lọc tự nhiên hoạt động ra sao khi các thế hệ thay đổi."
+  ],
+  "caption-news": [
+   "Làm bản tin ngắn xem không cần bật tiếng về dữ liệu lượng mưa kỷ lục mùa mưa năm nay.",
+   "Mình muốn bản tin ngắn có chữ, hiện số liệu thật của đợt quyên góp trong khu phố.",
+   "Mình muốn bản báo cáo về số tổ ong toàn cầu giảm dần được hiểu ngay trên điện thoại bằng chữ."
+  ],
+  "newsreel": [
+   "Mình muốn kể thời tàu điện leng keng chạy ở Hà Nội thập niên 1930 bằng ảnh tư liệu, như phim thời sự xưa.",
+   "Làm giúp mình kiểu phim thời sự cũ mừng tiệm nhà mình tròn 50 năm, bằng ảnh cũ thời ông nội.",
+   "Mình muốn kể lại người ta đã kinh ngạc thế nào khi radio mới xuất hiện, bằng tít báo cũ như phim thời sự xưa."
+  ],
+  "countdown": [
+   "Mình muốn đếm ngược phút cuối trước khi cắt băng khai trương cửa hàng, bằng video thật chia thành nhiều ô.",
+   "Gom giúp mình video bạn bè quay đêm giao thừa, theo kiểu đếm ngược 10 giây cuối.",
+   "Mình muốn chia video thật một vụ phóng tên lửa thành 9 ô, rồi gộp lại thành một khung khi động cơ khai hỏa."
+  ],
+  "city-symphony": [
+   "Dựng giúp mình bản giao hưởng thành phố từ các đoạn time-lapse một ngày ở Sài Gòn mình quay, cắt theo nhịp nhạc.",
+   "Mình muốn cắt ảnh cũ Hà Nội song song với video quay hôm nay, khớp theo nhịp.",
+   "Làm đoạn mở đầu cho khách sạn mình bằng cảnh phố Hà Nội từ sáng đến đêm, cắt khớp với nhạc."
+  ],
+  "visual-investigation": [
+   "Mình muốn xếp vụ va chạm ở đầu hẻm lên một dòng thời gian, từ video CCTV, ảnh và lời kể nhân chứng.",
+   "Mình muốn kiểm chứng bằng bằng chứng xem tấm ảnh lũ lụt đang lan trên mạng thực ra chụp ở đâu, khi nào.",
+   "Dựng lại giúp mình diễn biến vụ cháy nhà xưởng theo thời gian, từ ảnh, báo cáo và lời kể của công nhân."
+  ],
+  "kino-montage": [
+   "Mình muốn kể ông nội lập nên xưởng xay xát của gia đình thế nào, qua ảnh cũ, sổ sách và công sức của thợ.",
+   "Mình muốn ghép ảnh cũ và video hàng nghìn người chung tay ở lễ hội Gióng để thể hiện sức mạnh tập thể.",
+   "Làm giúp mình video mừng nhà máy tròn 20 năm, cắt dồn dập ảnh tư liệu và số liệu công nhân."
+  ],
+  "telestrator": [
+   "Mình muốn phân tích đội bóng khu phố đã lội ngược dòng ở hiệp hai thế nào, bằng cách vẽ đường lên video trận thật.",
+   "Làm video hướng dẫn đá cầu: dừng hình rồi vẽ đường thể hiện động tác chân.",
+   "Mình muốn giải thích vị trí đứng của cầu thủ trong các pha ghi bàn của đội bóng trường bằng mũi tên."
+  ],
+  "news-package": [
+   "Làm giúp mình tổng hợp giá vàng, xăng, gạo tuần này như chương trình thời sự, có dải tít và bảng giá.",
+   "Mình muốn trình bày bốn năm tin của trường tháng này, chia mục như bản tin thật.",
+   "Tổng hợp giúp mình tin công nghệ mới tuần này, trình bày đầy đủ kiểu phòng tin tức."
+  ],
+  "ascii-crt": [
+   "Giới thiệu công cụ phần mềm mới của mình như được vẽ bằng ký tự trên màn hình xanh lá đời cũ.",
+   "Mình muốn câu chuyện chú robot trên mặt trăng ngủ nhiều năm, rồi trả lời tín hiệu từ Trái Đất bằng chữ.",
+   "Vẽ giúp mình lời chúc sinh nhật bằng ký tự, giống màn hình máy tính cũ bố dùng hồi trẻ."
+  ],
+  "silent-film": [
+   "Làm phim câm: cậu bé tiệm bánh mì đuổi theo ổ bánh lăn mất, rồi chia cho một em bé đang đói.",
+   "Mình muốn quảng cáo hài đen trắng kiểu phim câm cho tiệm bánh lâu đời của nhà mình.",
+   "Mình muốn kể chuyện vui đi câu cá với bố mà chỉ câu được chiếc dép cũ, như phim câm."
+  ],
+  "backrooms": [
+   "Làm truyện kinh dị: nhân viên ca đêm mới quay lại đêm đầu tiên trong văn phòng vàng vô tận, làm theo những luật dán trên tường.",
+   "Mình muốn teaser cho game bí ẩn mới: lạc trong hành lang dài rợn người.",
+   "Mình muốn câu chuyện rùng rợn quay bằng điện thoại một mình trong hành lang bệnh viện bỏ hoang ban đêm, mà hành lang không bao giờ hết."
+  ],
+  "scratch-film": [
+   "Mình muốn kể chuyện chú đom đóm lên đường bằng ánh sáng nhỏ của mình trên mặt hồ tối.",
+   "Giải thích giúp mình cá biển sâu ngoi lên mỗi đêm thế nào, bằng những nét sáng cào trong bóng tối.",
+   "Mình muốn thể hiện chợ đêm của mình đèn sáng lên từng bóng cho đến khi cả khu chợ bừng lên, như cào trên phim."
+  ],
+  "double-exposure": [
+   "Mình muốn chồng các cảnh mình quay từ Sa Pa đến Hà Giang vào hình bóng con voi, chim công và cá.",
+   "Làm đoạn mở đầu cho công ty du lịch Hội An của mình, chồng ảnh thật của phố cổ vào hình bóng người.",
+   "Mình muốn làm kỷ niệm: chồng ảnh cũ ngôi làng bố từng sống vào hình bóng nghiêng của bố."
+  ],
+  "pixel-rpg": [
+   "Mình muốn kể hành trình từ ngày hai đứa gặp nhau đến kỷ niệm hai năm, như mở lại file save trong game cũ.",
+   "Làm quảng cáo game mobile mới của mình theo kiểu pixel game cũ: anh hùng đứng trước cửa phòng boss.",
+   "Mình muốn kể lại một năm học như vượt từng màn trong game cũ."
+  ],
+  "hd-2d": [
+   "Làm câu chuyện ngọn hải đăng tắt đèn, cô bé mang đốm lửa cuối cùng băng qua rừng đêm lên vách đá giữa cơn bão.",
+   "Mình muốn quảng cáo game fantasy mới: nhóm anh hùng du hành qua quần thể đền tháp cổ như Mỹ Sơn.",
+   "Mình muốn kể chuyện cậu bé rời làng đi tìm rồng cho em trai, đẹp như một tựa game."
+  ],
+  "microgame": [
+   "Hướng dẫn cách dùng app mới của mình bằng loạt minigame ngắn nối nhau, nhanh dần lên.",
+   "Làm chuyện vui buổi sáng thức dậy chuẩn bị đi học, như loạt minigame ngày càng nhanh.",
+   "Mình muốn dạy nhân viên mới những điều cần biết trong ngày đầu bằng các minigame tăng tốc dần."
+  ],
+  "game-show": [
+   "Làm giúp mình thành tích năm nay của công ty hiện ra theo nhịp như game show, kết bằng thẻ bảng điểm.",
+   "Mình muốn kể lịch sử liên lạc từ điện tín đến smartphone vui nhộn như game show theo nhịp.",
+   "Mình muốn gom lại chuyện cả nhà trong năm nay thành game show truyền hình vui nhộn."
+  ],
+  "swiss-motion": [
+   "Làm poster buổi hòa nhạc của mình tự sắp xếp theo quy tắc thiết kế Thụy Sĩ.",
+   "Mình muốn giới thiệu nhận diện mới của studio thiết kế: lưới, chữ và màu lần lượt xếp vào.",
+   "Mình muốn dạy sinh viên thiết kế 5 quy tắc dàn trang poster thật rõ ràng."
+  ],
+  "spy-titles": [
+   "Làm đoạn mở đầu: các hình khối đuổi nhau kiểu phim điệp viên thập niên 60 rồi thành tên phim của mình.",
+   "Mình muốn đoạn mở màn lễ kỷ niệm công ty thật cuốn như phim điệp viên.",
+   "Làm đoạn mở đầu cổ điển cho đám cưới bạn mình, giới thiệu cô dâu chú rể như hai điệp viên."
+  ],
+  "art-deco": [
+   "Làm thiệp mời tiệc tối của khách sạn mình bằng thiết kế vàng sang trọng thập niên 1930.",
+   "Mình muốn câu chuyện cậu bé trực thang máy ở khách sạn cổ phải giao một lá thư trước nửa đêm.",
+   "Làm video thiệp mời Art Deco lộng lẫy cho kỷ niệm 30 năm ngày cưới của bố mẹ."
+  ],
+  "pictogram-motion": [
+   "Làm câu chuyện chiếc ô bỏ quên trên xe buýt chờ trên kệ đồ thất lạc, đến khi trời mưa lại thì bung ra cùng bao chiếc ô khác.",
+   "Mình muốn giải thích cách phân loại rác của phường cho bà con bằng biểu tượng chuyển động theo nhịp.",
+   "Mình muốn video nhận diện cho lễ hội: biểu tượng ô tô, tàu hỏa, máy bay hiện ra theo nhịp."
+  ],
+  "bauhaus-shapes": [
+   "Giải thích bằng hình tròn, hình vuông giúp mình lãi kép khi tiết kiệm mạnh cỡ nào.",
+   "Mình muốn giải thích cho các thành viên cách hội góp vốn (chơi hụi) của nhóm vận hành, bằng hình khối Bauhaus.",
+   "Làm thẻ mở đầu cho từng chương bài học, có hình khối đỏ, vàng, xanh vui đùa."
+  ],
+  "flat-space-explainer": [
+   "Làm video giải thích kích thước: zoom từ Dải Ngân Hà xuống Trái Đất, Việt Nam, rồi đến một con virus.",
+   "Mình muốn cùng tàu thăm dò nhỏ cho các bé thấy các hành tinh trong Hệ Mặt Trời cách nhau bao xa.",
+   "Giải thích giúp kênh giáo dục của mình vệ tinh bay quanh Trái Đất thế nào, bằng hoạt hình đơn giản."
+  ],
+  "text-flash-cuts": [
+   "Làm trailer phim kinh dị với chữ lóe lên: một lá thư, một cuộc gọi, những bậc cầu thang… ngày càng gần.",
+   "Mình muốn thể hiện tuyên ngôn của nhóm thanh niên bằng chữ lớn lóe lên dồn dập, thật mạnh mẽ.",
+   "Làm đoạn mở đầu series mới, cắt nhanh chữ và hình cho thật hồi hộp."
+  ],
+  "silhouette-rhythm": [
+   "Làm MV hình bóng: chú chim nhỏ luôn bay chậm hơn cả đàn dần học được nhịp điệu.",
+   "Mình muốn video đội đá cầu: bóng các cầu thủ chuyển động theo nhịp lúc hoàng hôn.",
+   "Mình muốn mở màn đêm Trung thu bằng hình bóng người cầm đèn ông sao múa theo nhịp trống lân."
+  ],
+  "satellite-briefing": [
+   "Mình muốn so sánh ảnh vệ tinh thật xem Biển Hồ Tơ Nưng thu hẹp ra sao qua các năm.",
+   "Giải thích kiểu bản tin ngắn bằng ảnh vệ tinh: ruộng lúa đồng bằng sông Cửu Long trước và sau lũ.",
+   "Mình muốn cho học sinh thấy rừng ngập mặn Cà Mau thay đổi thế nào trong 10 năm bằng bản đồ vệ tinh."
+  ],
+  "briefing-board": [
+   "Mình muốn so sánh ba phương án cầu bắc qua kênh nối làng mình, theo chi phí, độ bền và số đo thật.",
+   "So sánh giúp mình ba mặt bằng mở chi nhánh mới trên bảng, bằng giá thuê và dữ liệu lượng người qua lại thật.",
+   "Mình muốn so sánh ba lựa chọn điện cho nhà: pin mặt trời, máy phát và ắc quy, bằng giá thật."
+  ],
+  "lidar-survey": [
+   "Mình muốn hé lộ những phế tích tháp Chăm ẩn dưới cây rừng bằng dữ liệu quét laser.",
+   "Thể hiện giúp mình địa hình cao thấp của công trường từ dữ liệu khảo sát laser bằng drone.",
+   "Mình muốn cho thấy nếu dùng quét laser bỏ lớp cây đi, tường thành Cổ Loa sẽ lộ ra những gì."
+  ],
+  "microscope": [
+   "Mình muốn phóng to bột nghệ của hãng dưới kính hiển vi bằng ảnh thật, cho thấy vì sao nó tốt cho da.",
+   "Phóng liền mạch giúp mình ảnh tế bào vỏ hành tím chụp ở phòng thí nghiệm đến tận nhân tế bào, cho học sinh.",
+   "Mình muốn so sánh cấu trúc hạt của hai giống lúa ST25 và nếp bằng ảnh hiển vi."
+  ],
+  "archive-lighttable": [
+   "Mình muốn đặt ảnh kính cũ và thư từ của ông nội lên bàn đèn, rồi dựng lại lịch sử gia đình.",
+   "Kể giúp mình 60 năm lịch sử nghề chè của nhà mình bằng sổ sách gốc và nhãn mác cũ.",
+   "Mình muốn phóng to một tờ sắc phong cổ dưới kính lúp và giải thích nội dung cho bảo tàng."
+  ],
+  "security-xray": [
+   "Làm chuyện vui: hành lý đi qua máy soi ở sân bay, trong một chiếc vali có mấy con cua sống đang bò.",
+   "Mình muốn cho khách hàng thấy kho bưu kiện của mình kiểm tra hàng bằng X-quang thế nào.",
+   "Cho các bé thấy thật thú vị bên trong cục sạc dự phòng có gì khi soi X-quang."
+  ],
+  "dark-documentary": [
+   "Mình muốn kể người xưa đã xây thánh địa Mỹ Sơn thế nào, kiểu phim tài liệu tông tối và sâu lắng.",
+   "Làm kiểu phim tài liệu kỹ thuật, tái hiện đêm khó khăn nhất của dự án xây đập của công ty.",
+   "Giải thích giúp mình những kính thiên văn vô tuyến khổng lồ lắng nghe bầu trời thế nào, như phim tài liệu vũ trụ."
+  ],
+  "thermal-camera": [
+   "Cho mình thấy vì sao căn hộ nóng, như nhìn tường, cửa sổ, mái nhà qua camera nhiệt.",
+   "Mình muốn video lén quan sát thú rừng ban đêm qua camera nhiệt.",
+   "Mình muốn cho khách thấy tiệm sửa điện của mình dùng camera nhiệt dò dây điện quá nhiệt thế nào."
+  ],
+  "circuit-board": [
+   "Thể hiện kiểu bảng mạch giúp mình dòng điện chạy từ thủy điện Hòa Bình đến dây sạc điện thoại ở nhà thế nào.",
+   "Mình muốn cho thấy hàng ở tiệm điện tử của mình đi từ nhà máy đến tay khách thế nào, bằng những đường đồng.",
+   "Mình muốn học sinh hứng thú: các dòng sông biến thành đường đồng và cả thành phố bừng sáng."
+  ],
+  "firefly-pointillism": [
+   "Làm truyện chú đom đóm nhỏ dùng ánh sáng của mình đặt câu hỏi trong bóng tối, rồi tìm được bạn bè.",
+   "Mình muốn video sinh nhật em gái: rất nhiều đốm sáng nhỏ tụ lại thành hình em.",
+   "Mình muốn kể về sức mạnh đoàn kết: ánh sáng nhỏ của từng thành viên gộp lại thành ánh sáng lớn."
+  ],
+  "flow-field": [
+   "Vẽ giúp mình bằng nét mực dòng gió: siêu bão Yagi từ Biển Đông đổ bộ vào miền Bắc thế nào.",
+   "Mình muốn giải thích gió mùa Tây Nam mang mưa đến Việt Nam ra sao bằng hàng nghìn nét mực đang chảy.",
+   "Thể hiện giúp mình dòng chảy sông Hồng mùa lũ và những lúc vượt mức báo động bằng các đường đang chảy."
+  ],
+  "oscilloscope-math": [
+   "Giải thích trên màn hình máy hiện sóng giúp mình: các vòng tròn nhỏ xoay chồng nhau tạo thành sóng vuông thế nào.",
+   "Mình muốn cho thấy sóng âm hoạt động ra sao bằng đường sóng xanh lá, cho lớp học thêm vật lý của mình.",
+   "Mình muốn các bé thấy dạng sóng của từng tiếng đàn bầu trên máy hiện sóng."
+  ],
+  "neon-tubes": [
+   "Làm câu chuyện khai trương quán ăn đêm của mình: chú mèo neon chạy nhảy giữa các biển hiệu.",
+   "Mình muốn video phố đêm: biển neon ở phố Tạ Hiện lần lượt bật sáng.",
+   "Làm video cho bài city pop mình viết: hình neon nhảy múa trong đêm mưa."
+  ],
+  "blueprint": [
+   "Mình muốn khoe chiếc máy tuốt lúa nhỏ mình tự chế: vẽ, tháo rời rồi lắp lại trên bản vẽ xanh.",
+   "Giới thiệu giúp mình máy bơm nước năng lượng mặt trời mới của công ty trên bản vẽ kỹ thuật.",
+   "Mình muốn giải thích cho các bé chiếc máy hứng nước mưa lớn hoạt động thế nào, vẽ trên bản vẽ xanh."
+  ],
+  "iso-infographic": [
+   "Thể hiện giúp mình hành trình của hạt cà phê từ nương rẫy Buôn Ma Thuột đến ly cà phê sữa đá ở Sài Gòn, trong một thế giới nhỏ.",
+   "Mình muốn giải thích quy trình từ lúc khách đặt hàng đến khi hàng về nhà bằng hình minh họa.",
+   "Mình muốn các bé hiểu một hạt gạo đi từ ruộng, nhà máy xay, chợ đến nồi cơm thế nào."
+  ],
+  "teardown": [
+   "Tháo giúp mình chiếc quạt nhà sản xuất ra từng linh kiện theo kích thước thật, rồi lắp lại.",
+   "Mình muốn video tháo bàn phím mình đang dùng đến tận con chip, hiện mọi linh kiện theo kích thước thật.",
+   "Mình muốn cho học sinh trường nghề thấy động cơ xe máy gồm những gì bằng cách tháo rời."
+  ],
+  "hardcore-info": [
+   "Mổ xẻ điện thoại giải thích về ăng-ten: vì sao cầm ở góc máy là mất sóng.",
+   "Mình muốn cho thấy bằng chi tiết kỹ thuật bên trong vì sao tủ lạnh mới của mình tiết kiệm điện.",
+   "Mình muốn giải thích tỉ mỉ cho học sinh vì sao chiếc ô bị lật ngược khi gặp gió mạnh."
+  ],
+  "precise-mechanism": [
+   "Cắt lớp và tô màu giải thích giúp mình các bánh răng trong đồng hồ cơ lên dây cót quay thế nào.",
+   "Mình muốn cho khách thấy cơ cấu bên trong chiếc máy may cũ của tiệm hoạt động ra sao.",
+   "Cắt từng bộ phận cho học sinh thấy rõ bộ đề xe đạp chuyển số thế nào."
+  ],
+  "instruction-manual": [
+   "Làm tranh hướng dẫn 10 bước của cặp vợ chồng lần đầu lắp nôi cho em bé.",
+   "Mình muốn video kiểu sách hướng dẫn để khách tự lắp kệ sách mua ở cửa hàng nội thất của mình.",
+   "Mình muốn hướng dẫn từng bước dùng bếp gas an toàn, như hình trong sách hướng dẫn."
+  ],
+  "pen-plotter": [
+   "Mình muốn xem máy vẽ dùng bút vẽ đỉnh Fansipan từ dữ liệu độ cao thật, dưới ánh đèn bàn ban đêm.",
+   "Vẽ giúp mình bản đồ đồi núi quanh làng từng đường đồng mức một.",
+   "Mình muốn thấy máy vẽ từ từ vẽ logo studio thiết kế của mình bằng bút bốn màu."
+  ],
+  "assembly-line-diagram": [
+   "Cho mình thấy một tô phở được tiêu hóa trong cơ thể từng bước như một nhà máy.",
+   "Mình muốn giải thích một chai nước ra đời từ nhà máy nước tinh khiết của mình thế nào, bằng sơ đồ dây chuyền.",
+   "Mình muốn giải thích cho các bé hành trình của một giọt máu trong cơ thể như dây chuyền nhà máy."
+  ],
+  "crayon-book": [
+   "Làm truyện trước giờ ngủ: ông trăng mất ngủ, cô bé trèo lên mái nhà hát ru cho ông nghe.",
+   "Mình muốn quảng cáo cuốn truyện mới của nhà sách thiếu nhi như được vẽ bằng sáp màu.",
+   "Mình muốn dạy các bé bảng chữ cái tiếng Việt từ chữ A bằng tranh sáp màu dễ thương."
+  ],
+  "watercolor": [
+   "Dẫn mình dạo liền mạch trong bức tranh màu nước: biển mây Tà Xùa lúc bình minh.",
+   "Mình muốn hành trình tranh màu nước từ đèo Mã Pì Lèng xuống sông Nho Quế cho công ty du lịch.",
+   "Mình muốn giải thích cho các bé bằng tranh màu nước giọt mưa đi từ núi xuống sông rồi ra biển thế nào."
+  ],
+  "impasto": [
+   "Làm video quảng trường xám trong ngày mưa, một chiếc ô đỏ bung ra và màu sắc lan tỏa theo tiếng nhạc.",
+   "Mình muốn video cho bản tình ca mới, đầy cảm xúc với lớp sơn dầu dày.",
+   "Làm quảng cáo khai trương phòng tranh của mình: Hồ Gươm chiều hoàng hôn bằng nét cọ sơn dầu dày."
+  ],
+  "urban-sketch": [
+   "Mình muốn thấy chiếc nón bay theo gió giữa những dãy nhà phố cổ Hà Nội, màu sắc trôi theo sau.",
+   "Mình muốn vẽ quán cà phê nhỏ và con phố trước quán bằng bút phác thô, rồi tô chút màu nước.",
+   "Mình muốn nhật ký du lịch vừa dạo bờ sông Hoài ở Hội An vừa ký họa."
+  ],
+  "colored-pencil": [
+   "Cắt xuống lòng đất bằng tranh bút chì màu, cho thấy cây cối chia sẻ thức ăn qua sợi nấm thế nào.",
+   "Mình muốn thể hiện bằng bút chì màu nước đi từ rễ lên hoa của cây trong vườn mình thế nào.",
+   "Mình muốn giải thích cây sen sống dưới nước ra sao bằng hình cắt lớp bút chì màu như sách truyện."
+  ],
+  "risograph": [
+   "Làm video in chồng màu: sáng Chủ nhật đạp xe quanh Hà Nội, ghé hàng bánh rồi ra Hồ Tây.",
+   "Mình muốn quảng cáo dễ thương cho tiệm túi handmade, như in bằng vài màu.",
+   "Làm video kiểu in riso lệch màu để ra mắt số tạp chí thơ mới của nhóm mình."
+  ],
+  "halftone-dossier": [
+   "Làm hồ sơ vụ án hài hước khởi tố con mèo béo nhà mình chạy lúc 4 giờ sáng và hất ly khỏi bàn.",
+   "Mình muốn trình bày vụ chó cắn dép thành hồ sơ thám tử, bằng hình chấm kiểu báo cũ.",
+   "Mình muốn quảng cáo vui cho tiệm thức ăn thú cưng: hồ sơ vụ mèo ăn vụng."
+  ],
+  "woodcut": [
+   "Làm truyện cả làng cùng đúc chiếc chuông lớn suốt mùa đông, lần đầu gióng lên thì tuyết ngừng rơi.",
+   "Mình muốn thể hiện nghệ nhân dệt thổ cẩm ở xưởng của mình đang làm việc, bằng hình kiểu khắc gỗ.",
+   "Làm quảng cáo sách cho tiểu thuyết huyền sử mới của mình theo phong cách tranh khắc gỗ."
+  ],
+  "engraving": [
+   "Cho bảo tàng: một con ong được khắc từng nét lên tấm đồng rồi tô màu nước.",
+   "Mình muốn quảng cáo kể di sản của nghề làm mật ong lâu đời nhà mình như tranh khắc đồng cổ.",
+   "Mình muốn giới thiệu từng loài lan Việt Nam như tranh khắc trong sách lịch sử tự nhiên xưa."
+  ],
+  "silkscreen-poster": [
+   "Làm cẩm nang du lịch cho công ty mình, giới thiệu Hạ Long, Hội An, Phú Quốc từng nơi như áp phích lớn.",
+   "Mình muốn kể hành trình anh trai đi xuất khẩu lao động trở về nhà, từng tấm áp phích một.",
+   "Mình muốn quảng cáo lễ hội âm nhạc của mình kiểu áp phích in lụa."
+  ],
+  "printed-long-take": [
+   "Thể hiện đàn chim nước ở Vườn quốc gia Tràm Chim, lướt dọc mặt nước liền mạch không cắt, như tranh khắc.",
+   "Mình muốn thể hiện chuyến leo núi từ chân đến đỉnh Lảo Thẩn thành một bức phong cảnh in liền mạch.",
+   "Mình muốn thể hiện chuyến đi thuyền ngược sông Gianh liền mạch không cắt, như tranh in."
+  ],
+  "pop-art": [
+   "Giải thích bằng hình pop-art lặp lại giúp mình: hầu hết chuối ngoài chợ nhân giống từ cùng một giống.",
+   "Quảng cáo kem vị mới của mình như áp phích pop-art màu rực.",
+   "Mình muốn thể hiện kiểu pop-art chấm bi xem một ly trà sữa có bao nhiêu đường."
+  ],
+  "vintage-collage": [
+   "Mình muốn kể lịch sử tem thư Việt Nam xưa kiểu cắt dán, ghép ảnh tư liệu với giấy cũ.",
+   "Trình bày giúp mình bộ sưu tập tiền giấy cũ của ông nội bằng ảnh scan thật, kiểu cắt dán tạp chí.",
+   "Mình muốn kể lịch sử nghề làm nón lá làng Chuông của nhà mình, ghép quảng cáo cũ và ảnh cũ."
+  ],
+  "dark-keynote": [
+   "Giới thiệu app điện thoại mới của mình kiểu sự kiện ra mắt trên sân khấu nền tối, thật hoành tráng.",
+   "Mình muốn quảng cáo cho thấy phần mềm kế toán của mình sắp xếp đống file lộn xộn chỉ với một cú nhấp.",
+   "Làm phim giới thiệu tính năng mới thật hoành tráng để chiếu ở lễ kỷ niệm startup của mình."
+  ],
+  "living-screencast": [
+   "Hướng dẫn đặt hàng trong app shop online của mình bằng ảnh màn hình thật, có nhân vật hoạt hình nhỏ dẫn đường.",
+   "Mình muốn bài hướng dẫn trên màn hình thật, dạy từng bước dùng website đặt lịch của phòng khám.",
+   "Giới thiệu tính năng mới của phần mềm mình, cho nhân vật nhỏ nhảy ra từ ảnh màn hình thật."
+  ],
+  "hologram-hud": [
+   "Quét xe máy điện mới của mình kiểu hologram, rồi hiện pin, động cơ, phanh bằng khung ngắm mục tiêu.",
+   "Mình muốn giải thích thông số bên trong máy lọc nước bằng màn hình hologram để chiếu ở hội chợ.",
+   "Làm video kiểu điện ảnh: quét tàu vũ trụ đồ chơi của con trai bằng hologram và hiện các bộ phận."
+  ],
+  "desktop-flythrough": [
+   "Mình muốn thấy tấm ảnh con mèo mình chụp nhảy từ điện thoại mình sang điện thoại bạn, qua các thẻ app.",
+   "Mình muốn thể hiện quy trình gửi hóa đơn cho khách từ app của mình bằng những tấm thẻ nhỏ trên bàn.",
+   "Mình muốn video giải thích trên chiếc bàn đầy nắng: học sinh gửi bài tập từ điện thoại cho thầy cô thế nào."
+  ],
+  "spreadsheet": [
+   "Giải thích trong bảng tính giúp mình chi tiêu gia đình tốn nhiều nhất vào đâu, mở từng cột một.",
+   "Mình muốn so sánh lợi nhuận hai chi nhánh quán phở của mình từng ô một trong bảng tính.",
+   "Mình muốn giải thích cho học sinh nghịch lý Simpson, con số tổng có thể đánh lừa thế nào, chỉ bằng một bảng tính."
+  ],
+  "one-bit-dither": [
+   "Mình muốn thể hiện bức ảnh cận cảnh mặt trăng đầu tiên in ra từ máy fax từng dòng, bằng chấm đen trắng.",
+   "Mình muốn kể lại bức điện tín thời ông nội đã đến được làng thế nào, theo kiểu in đen trắng.",
+   "Làm cảnh những cỗ máy cũ ở xưởng in nhỏ của mình chạy ban đêm, bằng chấm mực hai màu."
+  ],
+  "one-line": [
+   "Vẽ cả cuộc đời mẹ bằng một nét duy nhất, cuối cùng trao cây bút cho đứa cháu.",
+   "Mình muốn quảng cáo đơn giản kể câu chuyện thương hiệu tiệm trang sức bằng một nét vẽ không đứt.",
+   "Mình muốn vẽ chuyện của bạn mình từ ngày gặp nhau đến ngày cưới bằng một nét duy nhất, cho đám cưới."
+  ],
+  "whiteboard": [
+   "Viết và vẽ trên bảng trắng giải thích giúp mình điện thoại biết mình đang ở đâu, chuyện vệ tinh và GPS.",
+   "Mình muốn dạy cách ghi sổ thu chi trên bảng trắng cho khóa học kế toán online của mình.",
+   "Mình muốn giải thích cho nhân viên trên bảng trắng hệ thống thanh toán quét mã QR của tiệm hoạt động ra sao."
+  ],
+  "chalkboard": [
+   "Viết phấn trên bảng đen giải thích giúp mình từ 'xin chào' bắt nguồn từ đâu.",
+   "Mình muốn giải thích trên bảng đen quan niệm 'gội đầu buổi tối sẽ bị ốm' đúng hay sai.",
+   "Trình bày một công thức toán của trung tâm học thêm như thầy giáo viết trên bảng đen trong lớp."
+  ],
+  "sketchnote": [
+   "Cho thấy một con ong làm ra bao nhiêu mật cả đời, từ bông hoa đến cái lọ, bằng hình ghi chú rồi thành poster.",
+   "Tổng hợp giúp mình các ý chính từ hội thảo kinh doanh mình dự thành một trang sketchnote.",
+   "Mình muốn làm bản tóm tắt một trang các dịch vụ của tiệm bằng hình nhỏ và mũi tên."
+  ],
+  "stick-explainer": [
+   "Giải thích giúp mình bằng người que: ai trên Trái Đất cũng nối với nhau chỉ qua khoảng sáu người.",
+   "Mình muốn thể hiện chương trình khách giới thiệu khách của tiệm thật đơn giản bằng người que.",
+   "Mình muốn thể hiện bằng người que người trong làng liên lạc với người thân đi làm ở nước ngoài thế nào."
+  ],
+  "ipad-sketch": [
+   "Cho ly cà phê Cầu Đất quay ngược thành quả cà phê đỏ, rồi phơi, rang, xay và trở lại vào ly.",
+   "Mình muốn hướng dẫn làm bánh trôi trên một trang giấy, với hình chuyển từng màu một.",
+   "Mình muốn giải thích cách làm xà phòng handmade của tiệm như đang vẽ bằng bút chì trên máy tính bảng."
+  ],
+  "marker-paper": [
+   "Tính giúp mình trên giấy bằng bút dạ: đường chân trời cách bãi biển bao xa.",
+   "Mình muốn giải từng bước một bài vật lý bằng bút dạ cho học sinh ở trung tâm học thêm.",
+   "Làm kiểu viết tay bằng bút dạ trên giấy cách tính phần trăm giảm giá của tiệm mình."
+  ],
+  "ink-wash": [
+   "Làm truyện tranh thủy mặc: kiếm khách bước qua mặt sông, một nhát kiếm chẻ đôi dòng nước.",
+   "Mình muốn quảng cáo tĩnh lặng kiểu tranh thủy mặc, núi non và sương mù, cho thương hiệu chè của mình.",
+   "Mình muốn thể hiện bài thơ mình viết bằng hình những vệt mực loang dần."
+  ],
+  "shadow-puppet": [
+   "Kể giúp mình truyền thuyết mười mặt trời thiêu đốt mặt đất và người cung thủ bắn rơi, bằng rối da.",
+   "Mình muốn kể chuyện cổ tích Thạch Sanh đánh chằn tinh cho các bé bằng rối bóng trên màn sáng.",
+   "Làm video mời khai mạc lễ hội văn hóa của mình theo kiểu rối bóng truyền thống."
+  ],
+  "ukiyoe": [
+   "Làm câu chuyện lữ khách đi về phía ngọn núi xa, mỗi cảnh là một bức tranh khắc gỗ, cao trào là con sóng lớn.",
+   "Mình muốn quảng cáo khai trương quán ăn Nhật nhỏ của mình theo phong cách tranh ukiyo-e.",
+   "Mình muốn thể hiện chuyến leo núi lên chùa Yên Tử đầy chất thơ theo phong cách tranh khắc gỗ Nhật."
+  ],
+  "papercut-red": [
+   "Làm truyện đêm giao thừa: quái thú Niên xông vào làng, bức tranh cắt giấy lớn của cô bé sáng lên xua nó đi.",
+   "Mình muốn video chúc Tết kiểu cắt giấy đỏ để gửi khách hàng của tiệm.",
+   "Làm quảng cáo Trung thu cho tiệm bánh trung thu gia đình ở Chợ Lớn bằng tranh cắt giấy đỏ."
+  ],
+  "paper-lantern": [
+   "Mình muốn kể chuyến cuối của đoàn tàu cũ kiểu đèn lồng giấy, đèn cửa sổ tắt dần từng ô.",
+   "Làm câu chuyện nhà ga nhỏ nơi ông nội từng làm việc, sáng lên như đèn lồng, nhân ngày ông nghỉ hưu.",
+   "Mình muốn thể hiện đoàn tàu đêm băng qua cầu Long Biên sáng như đèn lồng, cho khách sạn của mình."
+  ],
+  "stained-glass": [
+   "Cho ánh nắng đi qua khung cửa từ sáng đến chiều, câu chuyện anh hùng và rồng thức dậy trong từng ô kính.",
+   "Làm câu chuyện nhỏ kiểu cửa sổ kính màu cho thiệp chúc Giáng sinh của nhà mình.",
+   "Mình muốn kể di sản của Nhà thờ Lớn Hà Nội bằng câu chuyện kiểu kính màu."
+  ],
+  "gilded-illumination": [
+   "Làm truyện thế giới chỉ rực ánh vàng, khi mặt trời tắt, cô bé mang chiếc đèn cuối cùng lên núi.",
+   "Mình muốn video lễ hội đầy chất thơ cho đêm hoa đăng Hội An, như tranh dát vàng trong sách cổ.",
+   "Mình muốn kể sự tích nghề sơn mài dát vàng của nhà mình theo kiểu sách tranh cổ rực ánh vàng."
+  ],
+  "line-art-ink": [
+   "Mình muốn thấy một con phố nhỏ ở phố cổ Hà Nội vẽ bằng mực từ sáng đến tối: quán trà đá, gánh hàng rong, rồi đèn đêm bật lên.",
+   "Làm giúp mình tranh nét dễ thương quán phở nhà mình, từ lúc mở cửa tờ mờ sáng đến khi khách bắt đầu vào.",
+   "Mình muốn ngắm làng chài ven sông ở Cái Bè: người chèo đò, con mèo, đàn chim, đến khi mặt trời lặn và đêm xuống."
+  ],
+  "onetake-launch": [
+   "App thuê xe máy mới của bọn mình sắp ra mắt, cần video launch khoảng 20 giây. Mình sẽ gửi screenshot.",
+   "Làm giúp mình teaser thật hiện đại cho website đặt quà sinh nhật.",
+   "Mình muốn quảng cáo quay một mạch không cắt cho app bấm giờ học bài của học sinh."
+  ],
+  "onetake-demo": [
+   "Mình muốn video giải thích cách xuất hóa đơn và xem báo cáo trong app kế toán, có giọng đọc tiếng Việt.",
+   "Làm video hướng dẫn từng bước app đặt lịch phòng khám để người lớn tuổi dễ hiểu. Có kèm screenshot.",
+   "Mình muốn làm video song ngữ Việt – Anh giới thiệu 3 tính năng mới của hệ thống POS."
+  ],
+  "onetake-concept": [
+   "Mình muốn quảng cáo concept cho app giao hàng: bấm một nút là hàng lần lượt tới nơi liên tiếp.",
+   "Mình muốn quảng cáo quán cà phê quay liền mạch không cắt, từ một hạt cà phê đến khi vào ly.",
+   "Thể hiện giúp mình app chuyển tiền tiết kiệm thời gian thế nào, rút gọn từ một năm còn một phút."
+  ],
+  "hf-captions": [
+   "Thêm phụ đề vào video mình nói về tiệm của mình, kèm thẻ tên tiệm giúp mình.",
+   "Mình muốn 3 ý chính trong video phỏng vấn hiện lên thành thẻ chữ.",
+   "Làm phụ đề cho clip cắt từ Facebook live để xem không bật tiếng vẫn hiểu."
+  ],
+  "hf-vertical": [
+   "Làm clip dọc cho TikTok: 3 bí quyết pha cà phê phin ngon.",
+   "Mình muốn quảng cáo nhanh gọn trên Reels cho đợt sale mùa đông của shop quần áo.",
+   "Làm 5 thói quen tốt buổi sáng cho Shorts với chữ thật to."
+  ],
+  "hf-music": [
+   "Làm lyric video cho bài hát mình hát. Mình sẽ gửi file nhạc.",
+   "Mình muốn làm video nhiều màu sắc khớp beat cho đoạn jingle ngắn của tiệm.",
+   "Làm video từ ảnh khớp beat bài hát mình hát mừng sinh nhật."
+  ],
+  "logo-reveal": [
+   "Làm logo reveal 5 giây cho logo quán cà phê của mình, để đặt đầu video YouTube.",
+   "Mình muốn làm logo công ty thành splash animation khi mở website. Cảm giác điềm tĩnh, đáng tin cậy.",
+   "Mình muốn logo tiệm đồ chơi trẻ em nhún nhảy xuất hiện thật vui tươi."
+  ],
+  "lottie-anim": [
+   "Mình cần animation dấu tích nhỏ hiện trong app khi thanh toán thành công.",
+   "Làm loading spinner cho website bằng màu tím thương hiệu của mình.",
+   "Làm animation lower third hiện tên và chức danh để dùng trong video YouTube."
+  ],
+  "ad-marker-comic": [
+   "Làm hoạt hình chú mèo con gái mình yêu thích hóa siêu anh hùng, giải cứu bọn trẻ trong xóm.",
+   "Mình muốn kể chuyện vui xảy ra mỗi sáng ở quán cà phê cóc của mình bằng hoạt hình màu kiểu truyện tranh.",
+   "Mình muốn hoạt hình hài: hai anh em giành nhau lì xì ngày Tết rồi lại làm lành."
+  ],
+  "ad-scrapbook": [
+   "Làm video kể lịch sử gia đình từ ngày ông bà cưới đến nay, như cuốn album ảnh cũ.",
+   "Mình muốn kể lịch sử xây Hoàng thành Thăng Long như cuốn sổ dán giấy cũ và ghi chú nhỏ.",
+   "Mình muốn kể lại nghề dệt lụa Vạn Phúc của nhà mình đã trụ hơn 50 năm thế nào, bằng sổ sách cũ và ảnh."
+  ],
+  "ad-ballpoint": [
+   "Mình muốn lặng lẽ kể cảnh mẹ chuẩn bị cặp lồng cơm mỗi sáng, như vẽ bằng bút bi.",
+   "Giới thiệu ví da handmade của mình như phác thảo bằng bút bi trong sổ tay.",
+   "Làm truyện ngắn kỷ niệm về chiếc bàn từng ngồi cùng bạn thời đi học, kiểu phác thảo bút bi."
+  ],
+  "ad-broken-colour": [
+   "Mình muốn cảnh chiếc thuyền nhỏ lướt qua đầm Tam Giang lúc hoàng hôn, đẹp như tranh sơn dầu.",
+   "Quảng cáo giúp homestay ven biển của mình bằng ánh nắng sớm, như một bức tranh.",
+   "Làm kỷ niệm chuyến đi: đèn hoa đăng trôi trên sông Hoài ở Hội An lúc chiều tà."
+  ],
+  "ad-embroidery": [
+   "Làm video sinh nhật mẹ: thêu từng mũi hoa cho đến khi lời chúc hiện ra.",
+   "Mình muốn quảng cáo cho tiệm túi thêu tay của mình như đang thêu bằng chỉ.",
+   "Thể hiện giúp mình hoa và chim trên núi Sa Pa thay đổi theo mùa như được thêu bằng chỉ."
+  ],
+  "ad-stipple": [
+   "Mình muốn giải thích cho các bé vòng đời đom đóm bằng hình chấm như trong sách khoa học cũ.",
+   "Giới thiệu từng loại vỏ ốc ở Côn Đảo bằng tranh mực chấm.",
+   "Mình muốn kể về cây nghệ của tiệm thảo dược như sách tranh thực vật cổ."
+  ],
+  "ad-charcoal": [
+   "Nhớ bố đã mất, mình muốn kể lại những ngày cùng bố đi câu cá như tranh vẽ than.",
+   "Làm truyện ngắn về đêm đầu tiên của chàng trai từ quê lên thành phố tìm việc.",
+   "Mình muốn thể hiện việc vẽ chân dung bằng than: vẽ, tẩy rồi vẽ lại, cho lớp vẽ của mình."
+  ],
+  "ad-flat-vector": [
+   "Giải thích đơn giản giúp mình cách dùng app đặt rau củ online của tiệm.",
+   "Mình muốn thể hiện hành trình từ Đà Lạt qua Nha Trang đến Phan Thiết bằng hình minh họa hiện đại.",
+   "Giải thích bằng hình giúp bạn bè nước ngoài hiểu cách cuốn gỏi cuốn."
+  ],
+  "ad-cut-paper": [
+   "Làm truyện rùa và thỏ chạy thi cho con trai mình như cắt dán giấy.",
+   "Mình muốn cho các bé thấy bốn mùa xuân hạ thu đông thay đổi thế nào bằng giấy xé nhỏ.",
+   "Làm quảng cáo dễ thương cho bánh kem ở tiệm mình bằng tranh cắt giấy nhiều màu."
+  ],
+  "ad-toy-theatre": [
+   "Làm truyện công chúa và chú rồng nhỏ kiểu nhà hát bìa cứng để chiếu ở tiệc sinh nhật con gái.",
+   "Mình muốn quảng cáo buổi diễn của gánh múa rối nước như các nhân vật trượt ra trên sân khấu nhỏ.",
+   "Kể truyện Tấm Cám cho các bé như diễn trên sân khấu giấy nhỏ."
+  ],
+  "ad-storybook": [
+   "Làm loạt truyện từng tập cho con trai làm nhân vật chính, để xem trước giờ ngủ mỗi tối.",
+   "Mình muốn video chú mèo linh vật của thư viện thiếu nhi mời các bé đến đọc sách.",
+   "Làm series truyện thiếu nhi về chú voi con lên đường từ Bản Đôn đến tận biển Nha Trang."
+  ],
+  "ad-folk-tale": [
+   "Làm truyện cổ tích Cây khế mà mẹ hay kể hồi nhỏ thành truyện trước giờ ngủ.",
+   "Mình muốn kể câu chuyện như cổ tích về gia đình nông dân miền Tây cùng gặt lúa.",
+   "Giới thiệu nghề làm đường thốt nốt ở An Giang quê mình, ấm áp như tranh trong sách cổ tích xưa."
+  ],
+  "ad-dream-glaze": [
+   "Mình muốn thể hiện ngôi nhà nhỏ bay lơ lửng trên trời trong giấc mơ hồi bé, kỳ lạ và đẹp như tranh.",
+   "Làm phim ngắn nghệ thuật hỏi con người từ đâu đến và sẽ đi về đâu, với chiếc cầu thang vươn vào mây.",
+   "Làm giúp mình cảnh như mơ, ngôi chùa hiện trên mặt hồ, để quảng cáo triển lãm tranh của mình."
+  ],
+  "arch-diagram": [
+   "Giải thích bằng sơ đồ giúp mình đơn đặt từ app đi tới bếp, nấu xong rồi đến tay shipper thế nào.",
+   "Mình muốn nhân viên mới hiểu quy trình nhà thuốc gia đình, từ nhập hàng, kho, quầy đến thu ngân.",
+   "Làm video giải thích bằng hình cho học sinh: chuyển tiền từ điện thoại thì tiền đi qua hệ thống ngân hàng thế nào."
+  ],
+  "doc-mix": [
+   "Làm phim tài liệu khoảng 3 phút về cá voi xanh to cỡ nào và đã tiến hóa ra sao.",
+   "Mình muốn video giải thích bằng bản đồ và bản phác: tháp Chăm được xây thế nào và chịu động đất ra sao.",
+   "Làm video 1 phút cho Shorts so sánh những ngôi sao lớn nhất vũ trụ với Mặt Trời, kèm sự thật thú vị."
+  ]
+ }
+}

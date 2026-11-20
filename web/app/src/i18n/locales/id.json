@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "Hapus {name}",
+  "att.tooBig": "Tidak ditambahkan (lebih dari 500 MB): {names}",
+  "att.trayLabel": "File terlampir",
+  "board.addHint": "Gambar, klip, suara, musik, dokumen",
+  "board.addRefs": "Tambahkan referensi",
+  "board.addStyle": "+ Padukan gaya",
+  "board.aspect": "Rasio aspek",
+  "board.blendStyle": "Dipadukan",
+  "board.chatTitle": "Rencanakan film {n} bersama Claude",
+  "board.close": "Tutup",
+  "board.delete": "Hapus",
+  "board.deleteConfirm": "Hapus {name} dari proyek ini?",
+  "board.deleteError": "Tidak dapat menghapus file",
+  "board.done": "Selesai ({n})",
+  "board.download": "Unduh",
+  "board.dropHere": "Lepaskan file untuk menambahkannya ke proyek ini",
+  "board.emptyBody": "Lepaskan gambar, klip, suara, atau musik di sini, lalu rencanakan film pertama bersama Claude di chat.",
+  "board.emptyTitle": "Proyek kosong",
+  "board.filter.all": "Semua",
+  "board.filter.films": "Film",
+  "board.filter.made": "Dibuat oleh Claude",
+  "board.filter.refs": "Referensi",
+  "board.filterLabel": "Tampilkan",
+  "board.helloNoStyle": "Hai. Pilih gaya di atas (atau ketuk saran), lalu ceritakan film seperti apa yang kamu mau. Aku akan menanyakan hal yang belum jelas sebelum kita membuatnya.",
+  "board.hint": "Pilih referensi dengan +, lalu rencanakan film berikutnya di chat",
+  "board.inProject": "Di proyek ini",
+  "board.length": "Durasi",
+  "board.made": "Dibuat oleh Claude",
+  "board.mainStyle": "Gaya utama",
+  "board.make": "Buat video",
+  "board.makeError": "Tidak dapat memulai film",
+  "board.makeHint": "Buat film sekarang (Ctrl/⌘ + Enter)",
+  "board.newChat": "Chat baru",
+  "board.open": "Buka {name}",
+  "board.pick": "Gunakan di film berikutnya",
+  "board.pickHint": "Yang pertama kamu pilih jadi acuan utama; sisanya dipadukan.",
+  "board.pickStyle": "Pilih gaya",
+  "board.pickStyles": "Pilih gaya",
+  "board.picked": "Di film berikutnya",
+  "board.pickedLabel": "Referensi untuk film berikutnya",
+  "board.placeholder": "Jelaskan film {n}: apa yang terjadi, siapa saja di dalamnya, suasananya…",
+  "board.planFirst": "Rencanakan dulu lewat chat →",
+  "board.promptLabel": "Seperti apa film berikutnya",
+  "board.ref": "Referensi",
+  "board.removeStyle": "Hapus {name}",
+  "board.replyPlaceholder": "Balas Claude…",
+  "board.searchStyles": "Cari gaya",
+  "board.starting": "Memulai…",
+  "board.suggestAgain": "Sarankan lagi",
+  "board.suggested": "Disarankan",
+  "board.tooShort": "Tulis sedikit lebih banyak tentang film ini (minimal 10 karakter).",
+  "board.unpick": "Jangan gunakan",
+  "board.unpickName": "Jangan gunakan {name}",
+  "board.uploadError": "Tidak dapat menambahkan file",
+  "board.uploading": "Menambahkan {n}…",
+  "board.usedBefore": "Pernah dipakai di proyek ini",
+  "board.voice": "Bahasa narasi",
+  "film.askHead": "Claude sedang bertanya — pekerjaan lanjut setelah kamu menjawab",
+  "film.attach": "Lampirkan file",
+  "film.backSingle": "Video tunggal",
+  "film.briefTitle": "Brief yang ditulis Claude",
+  "film.cancel": "Hentikan",
+  "film.canceledNote": "Video ini dihentikan.",
+  "film.chatIdle": "Kirim pesan untuk melanjutkan video ini",
+  "film.chatLive": "Video sedang dibuat (tidak perlu menekan tombol lagi). Pekerjaan Claude tampil langsung di sini.",
+  "film.chatTitle": "Chat dengan Claude",
+  "film.downloadFile": "Unduh {name}",
+  "film.downloadMp4": "Unduh MP4",
+  "film.dropHere": "Lepas file di sini untuk dikirim ke Claude",
+  "film.elapsedDone": "selesai dalam {time}",
+  "film.elapsedLive": "sudah {time}",
+  "film.estimateHint": "Persentase ini perkiraan berdasarkan tahap yang sedang dikerjakan Claude. Satu video biasanya butuh 10–20 menit.",
+  "film.failedNote": "Videonya belum jadi. Lihat apa yang terjadi di chat sebelah kanan — balas di sana dan pekerjaan akan dilanjutkan.",
+  "film.headDone": "Selesai",
+  "film.headFailed": "Berhenti — balas di chat untuk melanjutkan",
+  "film.headQueued": "Dalam antrean",
+  "film.headRunning": "Sedang dikerjakan",
+  "film.imagesGot": "{n} gambar sejauh ini",
+  "film.inputsTitle": "Materi yang kamu berikan",
+  "film.loadError": "Film ini tidak bisa dimuat",
+  "film.loading": "Memuat…",
+  "film.making": "Claude sedang membuat video…",
+  "film.noProject": "Tidak ada",
+  "film.now": "Sekarang",
+  "film.phLive": "Kirim catatan ke Claude… (dibaca sebelum tahap berikutnya)",
+  "film.phQuestion": "Jawab pertanyaan Claude…",
+  "film.phResume": "Balas… (mengirim akan melanjutkan dari titik berhenti)",
+  "film.phSucceeded": "Tulis apa yang ingin diubah… (mengirim akan memulai edit)",
+  "film.progressLabel": "Progres",
+  "film.projectFallback": "Proyek",
+  "film.projectLabel": "Proyek:",
+  "film.queuedWait": "Menunggu di antrean…",
+  "film.send": "Kirim",
+  "film.sendError": "Gagal mengirim",
+  "film.sendLabel": "Pesan ke Claude",
+  "film.sizeKb": "{n} KB",
+  "film.stage.build": "Membuat visual, gerak, dan suara",
+  "film.stage.finish": "Mengekspor video",
+  "film.stage.images": "Membuat gambar dengan Flow AI",
+  "film.stage.plan": "Menyusun naskah",
+  "film.stage.read": "Mempelajari gaya",
+  "film.stage.render": "Render dan pengecekan",
+  "film.steps": "{n} langkah",
+  "film.tagAnswer": "Jawaban",
+  "film.tagNote": "Catatan",
+  "film.tagPlan": "Chat perencanaan",
+  "film.working": "Sedang dikerjakan…",
+  "lang.label": "Bahasa",
+  "nav.label": "Studio",
+  "nav.new": "Video baru",
+  "nav.projects": "Proyek saya",
+  "new.all": "Semua ({n})",
+  "new.aspect": "Rasio aspek",
+  "new.attach": "Lampirkan file",
+  "new.attachTitle": "Lampirkan file (bisa juga seret atau tempel)",
+  "new.attachedCount": "{n} ditambahkan",
+  "new.badgeFlow": "✦ Gambar Flow AI",
+  "new.badgeNoGen": "✦ Tanpa generator gambar",
+  "new.cancel": "Batal",
+  "new.category": "Kategori",
+  "new.create": "Buat",
+  "new.dropHere": "Lepas file di sini",
+  "new.duration": "Durasi",
+  "new.episode": "Episode {n}",
+  "new.filesNote": "Ini beberapa file.",
+  "new.flowBody": "Claude membuka Flow di Chrome kamu dan membuat gambar yang dibutuhkan. Biarkan Chrome tetap terbuka selama video dibuat. Ini memakai sedikit kredit Flow.",
+  "new.flowTitle": "✦ Gambar dibuat otomatis dengan Google Flow AI.",
+  "new.hello": "Hai! Ceritakan dengan bahasa sehari-hari video seperti apa yang kamu mau dalam gaya {style}. Kalau ada yang kurang jelas, aku akan bertanya.",
+  "new.language": "Bahasa",
+  "new.listSep": ", ",
+  "new.make": "Buat video",
+  "new.makeRest": "Biarkan Claude menentukan sisanya dan membuatnya",
+  "new.material": "Tambah materi",
+  "new.materialHint": "file, audio, foto (opsional)",
+  "new.maxFiles": "Kamu bisa melampirkan maksimal {max} file.",
+  "new.messageLabel": "Pesan ke Claude",
+  "new.ncAfter": ". Untuk pekerjaan klien atau bisnis, kamu perlu lisensi komersial (onetake Pro).",
+  "new.ncBefore": "Gaya ini gratis hanya untuk penggunaan ",
+  "new.ncStrong": "non-komersial",
+  "new.needField": "Gaya ini membutuhkan {field}.",
+  "new.needs": "Butuh {list}",
+  "new.newProject": "+ Proyek baru…",
+  "new.noGen": "Gaya ini butuh gambar buatan AI, dan server ini belum mengaktifkan generator gambar, jadi belum bisa membuat video.",
+  "new.noProject": "Tanpa proyek (sekali buat)",
+  "new.noReply": "Claude belum bisa membalas sekarang",
+  "new.pickLeft": "Pilih gaya dari daftar.",
+  "new.pickStyle": "Pilih gaya dulu.",
+  "new.pickStyleShort": "Pilih gaya dulu",
+  "new.placeholder": "Tulis yang kamu mau… seret atau tempel gambar dan file di sini",
+  "new.planDraft": "Draf rencana (brief yang akan dikirim Claude)",
+  "new.planReady": "✓ Rencana video (brief yang akan dikirim Claude)",
+  "new.project": "Proyek",
+  "new.projectFailed": "Gagal membuat proyek",
+  "new.projectName": "Nama proyek",
+  "new.samples": "Contoh: ketuk salah satu untuk mengirimnya",
+  "new.searchLabel": "Cari gaya",
+  "new.searchPlaceholder": "Cari: cat air, explainer, berita…",
+  "new.seconds": "{n} detik",
+  "new.send": "Kirim",
+  "new.startFailed": "Gagal memulai video",
+  "new.starting": "Memulai…",
+  "new.step1": "1. Pilih gaya",
+  "new.step2": "2. Rencanakan bersama Claude",
+  "new.styleBeforeFiles": "Pilih gaya sebelum menambahkan file.",
+  "new.stylesLabel": "Gaya",
+  "new.tellFirst": "Ceritakan dulu ke Claude apa yang kamu mau.",
+  "new.thinking": "Berpikir…",
+  "new.uploading": "Mengunggah file…",
+  "projects.addEpisode": "+ Episode {n}",
+  "projects.assets": "Aset yang bisa dipakai ulang ({n}):",
+  "projects.back": "← Proyek saya",
+  "projects.bibleEmpty": "Claude akan menulis di sini setelah episode pertama.",
+  "projects.bibleHint": "Catatan Claude tentang tokoh, tempat, dan gaya — dibaca dan diperbarui tiap episode",
+  "projects.bibleTitle": "Series bible",
+  "projects.cancel": "Batal",
+  "projects.cancelEdit": "Batal",
+  "projects.continueEpisode": "Lanjut ke Episode {n}",
+  "projects.create": "Buat",
+  "projects.createError": "Gagal membuat",
+  "projects.descLabel": "Tentang apa",
+  "projects.descPlaceholder": "Tokoh, dunia, gaya… Claude membaca ini di setiap episode",
+  "projects.edit": "Ubah nama/deskripsi",
+  "projects.emptyBody": "Proyek itu seperti folder. Simpan satu seri episode bersama, dan Claude akan memakai ulang tokoh, tempat, gaya, dan musiknya.",
+  "projects.emptyCta": "Buat proyek pertamamu",
+  "projects.emptyTitle": "Belum ada proyek",
+  "projects.episodeCount": "Episode: {n}",
+  "projects.episodeN": "Episode {n}",
+  "projects.firstEpisodeCta": "Buat Episode 1",
+  "projects.loadError": "Gagal memuat",
+  "projects.loading": "Memuat…",
+  "projects.nameLabel": "Nama proyek",
+  "projects.namePlaceholder": "mis. Perang Warung Kopi",
+  "projects.nameRequired": "Beri nama dulu",
+  "projects.newProject": "+ Proyek baru",
+  "projects.newVideo": "Video baru",
+  "projects.noEpisodesBody": "Episode pertama menentukan tokoh, tempat, dan gaya. Episode berikutnya memakai ulang semuanya.",
+  "projects.noEpisodesTitle": "Belum ada episode",
+  "projects.optional": "opsional",
+  "projects.save": "Simpan",
+  "projects.saveError": "Gagal menyimpan",
+  "projects.seconds": "{n} dtk",
+  "projects.singleCount": "Film: {n}",
+  "projects.singles": "Video tunggal",
+  "projects.singlesHint": "Video yang tidak masuk proyek",
+  "projects.title": "Proyek saya",
+  "src.anyFile": "file apa saja",
+  "src.badType": "{name}: jenis file ini tidak diterima.",
+  "src.canSource": "Tidak punya juga tidak apa-apa. Claude akan mencari sendiri informasi yang tersedia untuk publik.",
+  "src.choose": "Pilih file",
+  "src.closeCommon": "− Tutup",
+  "src.dropOr": "atau seret ke sini · {types} · maksimal {max}",
+  "src.material.none": "Digambar dari nol",
+  "src.material.optional": "Boleh pakai materi sendiri",
+  "src.material.required": "Dibuat dari informasi nyata",
+  "src.maxFiles": "Maksimal {max} file saja.",
+  "src.openCommon": "+ Tambah suara, musik, foto, logo sendiri",
+  "src.optional": "opsional",
+  "src.remove": "Hapus",
+  "src.removeLabel": "Hapus {name}",
+  "src.required": "wajib",
+  "src.tooBig": "{name} lebih dari 500 MB.",
+  "status.canceled": "Dibatalkan",
+  "status.failed": "Gagal",
+  "status.queued": "Antre",
+  "status.running": "Dibuat",
+  "status.succeeded": "Siap"
+ },
+ "style": {
+  "3D model": "Model 3D",
+  "A 16-bit pixel RPG drawn in code.": "RPG piksel 16-bit yang digambar dengan kode.",
+  "A 1930s rubber-hose cartoon drawn in code.": "Kartun rubber-hose era 1930-an yang digambar dengan kode.",
+  "A 3D world redrawn in crayon, all in code.": "Dunia 3D yang digambar ulang dengan krayon, semuanya dengan kode.",
+  "A 60s spy title sequence cut from paper in code.": "Sekuens judul film mata-mata era 60-an dari guntingan kertas, dibuat dengan kode.",
+  "A Chinese ink painting made in code.": "Lukisan tinta Tiongkok yang dibuat dengan kode.",
+  "A Memphis-style diorama built in code.": "Diorama bergaya Memphis yang dibangun dengan kode.",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "File logo PNG, JPG, atau SVG, sebesar dan sebersih yang kamu punya.",
+  "A beat-locked game show drawn in code; no source material needed.": "Acara kuis yang mengikuti ketukan, digambar dengan kode; tidak perlu materi sumber.",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "Buletin dari grafis kode; footage, foto, atau logomu bisa ikut dimasukkan.",
+  "A colour-coded mechanism modelled and animated in code.": "Mekanisme berkode warna yang dimodelkan dan dianimasikan dengan kode.",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "Potongan penampang pensil warna yang digambar dengan kode; tidak perlu materi sumber.",
+  "A copperplate engraving drawn in code from your facts.": "Grafir pelat tembaga yang digambar dengan kode dari fakta-faktamu.",
+  "A crayon picture book drawn in code; no source material needed.": "Buku bergambar krayon yang digambar dengan kode; tidak perlu materi sumber.",
+  "A drawing or photo of the character to keep the same in every scene.": "Gambar atau foto tokoh agar tampil sama di setiap adegan.",
+  "A drawn production line explaining a process; no source material needed.": "Lini produksi bergambar yang menjelaskan sebuah proses; tidak perlu materi sumber.",
+  "A fictional glass product rendered in code; real products are not reproduced.": "Produk kaca fiktif yang dirender dengan kode; produk asli tidak ditiru.",
+  "A film whose feel you want; its rhythm is measured, not copied.": "Film yang nuansanya kamu inginkan; ritmenya diukur, bukan disalin.",
+  "A four-colour pop-art print made in code.": "Cetakan pop-art empat warna yang dibuat dengan kode.",
+  "A gilded manuscript painting made in code.": "Lukisan manuskrip bersepuh emas yang dibuat dengan kode.",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "Wireframe bercahaya dari bendamu, dimodelkan dengan kode atau dari file 3D-mu.",
+  "A layered paper-cut lightbox built in code.": "Lightbox potongan kertas berlapis yang dibangun dengan kode.",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "Penampang line-art sebuah mesin, dimodelkan dan digambar dengan kode.",
+  "A low-poly island world built in code.": "Dunia pulau low-poly yang dibangun dengan kode.",
+  "A mid-century cartoon drawn in code from your steps.": "Kartun pertengahan abad yang digambar dengan kode dari langkah-langkahmu.",
+  "A model of your object to show as a wireframe.": "Model bendamu untuk ditampilkan sebagai wireframe.",
+  "A moving knife-painted oil painting made in code.": "Lukisan cat minyak pisau palet yang bergerak, dibuat dengan kode.",
+  "A paper pop-up book on a real-looking desk, made in code.": "Buku pop-up kertas di atas meja yang tampak nyata, dibuat dengan kode.",
+  "A pen-and-wash urban sketch drawn in code.": "Sketsa kota pena dan cat air yang digambar dengan kode.",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "Foto atau frame untuk diubah jadi cukil kayu, misalnya potret.",
+  "A picture computed in spreadsheet cells; can use your own table.": "Gambar yang dihitung di sel spreadsheet; bisa memakai tabelmu sendiri.",
+  "A pixel-art miniature world built in code.": "Dunia miniatur pixel-art yang dibangun dengan kode.",
+  "A post, notes or a sketch of the system to draw from.": "Postingan, catatan, atau sketsa sistem sebagai acuan gambar.",
+  "A printed case file with halftone characters, drawn in code.": "Berkas kasus cetak dengan tokoh halftone, digambar dengan kode.",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "Kota miniatur prosedural dengan tampilan tilt-shift, dibuat dengan kode.",
+  "A real simulation of little creatures run and filmed in code.": "Simulasi nyata makhluk-makhluk kecil yang dijalankan dan direkam dengan kode.",
+  "A risograph print made in code.": "Cetakan risograf yang dibuat dengan kode.",
+  "A scene seen through a thermal camera, simulated in code.": "Adegan yang terlihat lewat kamera termal, disimulasikan dengan kode.",
+  "A sci-fi sitcom cartoon drawn in code.": "Kartun sitkom fiksi ilmiah yang digambar dengan kode.",
+  "A scratchboard landscape long take made in code.": "Long take lanskap scratchboard yang dibuat dengan kode.",
+  "A silkscreen travel poster printed in code.": "Poster wisata sablon yang dicetak dengan kode.",
+  "A sketchnote page drawn in code.": "Halaman sketchnote yang digambar dengan kode.",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "Film peluncuran software dengan UI abstrak yang dibuat dengan kode; logomu menentukan warna aksen.",
+  "A stained-glass window lit in code.": "Jendela kaca patri yang diterangi dengan kode.",
+  "A table whose values drive the picture.": "Tabel yang nilainya menggerakkan gambar.",
+  "A tablet sketch drawn and coloured in code.": "Sketsa tablet yang digambar dan diwarnai dengan kode.",
+  "A toy-brick world built and animated in code.": "Dunia bata mainan yang dibangun dan dianimasikan dengan kode.",
+  "A track you have the rights to; otherwise music is composed for the film.": "Lagu yang hak pakainya kamu miliki; kalau tidak ada, musik akan dibuat untuk film ini.",
+  "A track you have the rights to; the film is cut to it.": "Lagu yang hak pakainya kamu miliki; film dipotong mengikuti lagu itu.",
+  "A two-ink dithered 3D world made in code.": "Dunia 3D dither dua tinta yang dibuat dengan kode.",
+  "A vertical clip; set the frame to 9:16.": "Klip vertikal; atur frame ke 9:16.",
+  "A watercolour painting brushed in code.": "Lukisan cat air yang dikuas dengan kode.",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "Maket putih gedung nyata dari data terbuka atau denah milikmu, diterangi proyeksi data.",
+  "A whiteboard explainer drawn in code.": "Explainer papan tulis yang digambar dengan kode.",
+  "An SVG, logo or icon to animate, if there is one.": "SVG, logo, atau ikon untuk dianimasikan, jika ada.",
+  "An assembly-manual drawing made in code from your steps.": "Gambar manual perakitan yang dibuat dengan kode dari langkah-langkahmu.",
+  "An isometric infographic drawn in code.": "Infografis isometrik yang digambar dengan kode.",
+  "An isometric scene of people following a rule, made in code.": "Adegan isometrik orang-orang yang mengikuti sebuah aturan, dibuat dengan kode.",
+  "An old recording you own that can play under the archive.": "Rekaman lama milikmu yang bisa diputar di bawah arsip.",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "Layar aplikasi sebagai kartu kertas di atas meja, dibuat dengan kode; warna brand boleh dipakai.",
+  "Archive film or video about your subject.": "Film atau video arsip tentang topikmu.",
+  "Archive scans": "Pindaian arsip",
+  "Article or notes": "Artikel atau catatan",
+  "Audio recordings or readings such as telemetry or weather.": "Rekaman audio atau bacaan seperti telemetri atau cuaca.",
+  "BOM or spec sheet": "BOM atau lembar spesifikasi",
+  "Bill of materials and spec sheet for part names and numbers.": "Daftar komponen dan lembar spesifikasi untuk nama dan nomor part.",
+  "Black silhouettes moving to the beat, made in code.": "Siluet hitam yang bergerak mengikuti ketukan, dibuat dengan kode.",
+  "Brand feel": "Nuansa brand",
+  "Brand fonts you are licensed to use.": "Font brand yang lisensinya kamu miliki.",
+  "Building data": "Data bangunan",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "Dibangun dari file CAD produk itu sendiri; wajib untuk produkmu, atau kami pakai open hardware.",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "Dibangun dari pindaian mikroskop asli; kirim milikmu atau kami carikan slide yang bebas lisensi.",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "Dibangun dari benda arsip asli; kirim pindaianmu, atau kami pakai koleksi domain publik.",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "Dibangun dari titik pindaian laser asli; kirim pindaianmu atau kami pakai survei LiDAR publik.",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "Dibangun dari foto asli benda-bendanya; kirim milikmu atau kami pakai foto bebas lisensi.",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "Dibangun dari rekaman real-time satu peristiwa; kirim milikmu atau kami pakai rekaman domain publik.",
+  "Built from your product: screenshots and a link make the UI and copy real.": "Dibangun dari produkmu: screenshot dan tautan membuat UI dan teksnya nyata.",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "Dibangun di atas data elevasi dan citra satelit asli tempat itu, dengan datamu menyala di atasnya.",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "Dibangun dari rekaman pertandingan asli; kirim klipmu atau kami carikan yang berlisensi terbuka.",
+  "CAD files": "File CAD",
+  "Captions and cards are added over your own video.": "Teks dan kartu ditambahkan di atas videomu sendiri.",
+  "Carved in code; a photo can be recut into a woodcut plate.": "Diukir dengan kode; foto bisa diubah jadi pelat cukil kayu.",
+  "Chalk writing and drawing made in code; no source material needed.": "Tulisan dan gambar kapur yang dibuat dengan kode; tidak perlu materi sumber.",
+  "Character designs": "Desain tokoh",
+  "Character reference": "Referensi tokoh",
+  "Characters and scenes made of glowing points, all in code.": "Tokoh dan adegan dari titik-titik bercahaya, semuanya dengan kode.",
+  "Clip links": "Tautan klip",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "Kolase dari cetakan dan memorabilia domain publik asli, digunting dengan tangan.",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "Mencocokkan footage, foto, dokumen, dan data asli dari satu peristiwa; milikmu didahulukan.",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "Dipotong dari film, cetakan, dan rekaman arsip asli; milikmu dulu, selebihnya arsip domain publik.",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "Dipotong dari footage, foto, dan dokumen sumber asli; milikmu didahulukan, arsip publik mengisi kekurangannya.",
+  "Cut to your own song; send the track.": "Dipotong mengikuti lagumu sendiri; kirim lagunya.",
+  "Dashcam, CCTV, phone or archive video of the event.": "Video dashcam, CCTV, ponsel, atau arsip dari peristiwa itu.",
+  "Data to plot": "Data untuk diplot",
+  "Dataset": "Dataset",
+  "Describe the voice you want, e.g. calm female, British English.": "Jelaskan suara yang kamu mau, misalnya perempuan yang tenang, bahasa Inggris British.",
+  "Documents": "Dokumen",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "Digambar sepenuhnya dengan kode sebagai teks terminal bercahaya; tidak perlu materi sumber.",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "Digambar sepenuhnya dengan kode dalam Art Deco emas-hitam; tidak perlu materi sumber.",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "Digambar dengan kode; klip lamamu bisa digambar ulang dengan tinta bergaya zaman dulu.",
+  "Drawn on a blueprint sheet in code; no source material needed.": "Digambar di lembar cetak biru dengan kode; tidak perlu materi sumber.",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "Menggambar jaringan nyata dari data yang sudah dicek; datamu dulu, selebihnya data terbuka operator.",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "Diedit dari footage asli sebuah tempat; kirim milikmu atau kami carikan klip bebas lisensi.",
+  "Event footage": "Footage peristiwa",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "Setiap tanda adalah angka nyata; kirim datasetmu atau kami pakai data berlisensi terbuka.",
+  "Family, company or sports clips to redraw as ink.": "Klip keluarga, perusahaan, atau olahraga untuk digambar ulang dengan tinta.",
+  "Field data": "Data lapangan",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "Mengisi siluet hewan dengan foto lanskap asli; milikmu atau domain publik.",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "Bentuk Bauhaus datar yang ukurannya sesuai angkamu; tidak perlu materi sumber.",
+  "Flat science explainer zooming across scales, drawn in code.": "Explainer sains flat yang melompat antar skala, digambar dengan kode.",
+  "Fonts": "Font",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "Footage atau foto yang kamu rekam atau punya haknya; sisanya dicari dari sumber terbuka atau dibuat.",
+  "Generated images": "Gambar hasil generate",
+  "Gridded wind, current or flow data, if you have it.": "Data angin, arus, atau aliran berbentuk grid, jika kamu punya.",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "Anime 80-an bergaya lukisan tangan yang dibuat dengan kode; tidak perlu materi sumber.",
+  "Key points for cards": "Poin utama untuk kartu",
+  "Landscape photos": "Foto lanskap",
+  "Large, clear photos of the real objects being compared.": "Foto besar dan jelas dari benda-benda nyata yang dibandingkan.",
+  "Laser scan": "Pindaian laser",
+  "Line-ups or event data": "Susunan pemain atau data pertandingan",
+  "Line-ups or event data for the match.": "Susunan pemain atau data kejadian pertandingan.",
+  "Lines, stations, opening dates, lengths or ridership.": "Jalur, stasiun, tanggal pembukaan, panjang, atau jumlah penumpang.",
+  "Link to the product or its documentation.": "Tautan ke produk atau dokumentasinya.",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "Tautan video YouTube/TikTok untuk direaksi atau dikutip, pisahkan dengan spasi.",
+  "Logos": "Logo",
+  "Logos to show, ideally SVG or transparent PNG.": "Logo yang akan ditampilkan, sebaiknya SVG atau PNG transparan.",
+  "Lyrics": "Lirik",
+  "Marker drawing on paper, made in code.": "Gambar spidol di atas kertas, dibuat dengan kode.",
+  "Match clips you have the rights to use.": "Klip pertandingan yang boleh kamu pakai.",
+  "Microscope scans": "Pindaian mikroskop",
+  "Music": "Musik",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "Nama, angka, atau poin untuk ditampilkan sebagai kartu; kalau tidak ada, diambil dari yang diucapkan.",
+  "Narration script": "Naskah narasi",
+  "Needs an image generator for characters and panels; your designs and products come first.": "Butuh generator gambar untuk tokoh dan panel; desain dan produkmu didahulukan.",
+  "Needs an image generator for the characters; your own designs come first.": "Butuh generator gambar untuk tokoh; desainmu sendiri didahulukan.",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "Butuh generator gambar untuk lembar wayang; desain tokohmu sendiri didahulukan.",
+  "Neon signs built and animated in code.": "Papan neon yang dibangun dan dianimasikan dengan kode.",
+  "Network data": "Data jaringan",
+  "Newspapers, magazines, letters or documents, scanned.": "Koran, majalah, surat, atau dokumen yang dipindai.",
+  "Object photos": "Foto benda",
+  "Objects seen through an X-ray console, modelled in code.": "Benda-benda yang terlihat lewat konsol X-ray, dimodelkan dengan kode.",
+  "Old film or video about your subject.": "Film atau video lama tentang topikmu.",
+  "One character, kept the same in every scene and episode.": "Satu tokoh yang tampil sama di setiap adegan dan episode.",
+  "One continuous line drawn in code.": "Satu garis tak terputus yang digambar dengan kode.",
+  "One idea carries the whole ad; your product appears as the result.": "Satu ide membawa seluruh iklan; produkmu muncul sebagai hasilnya.",
+  "Only if no image generator is connected: images made from our prompts.": "Hanya jika tidak ada generator gambar yang terhubung: gambar dibuat dari prompt kami.",
+  "Period recording": "Rekaman zaman dulu",
+  "Photos": "Foto",
+  "Photos of people, products or places that should appear.": "Foto orang, produk, atau tempat yang perlu muncul.",
+  "Photos of the places the animal belongs to; shown in black and white.": "Foto tempat asal hewan itu; ditampilkan hitam-putih.",
+  "Pictograms and cards animated in code.": "Piktogram dan kartu yang dianimasikan dengan kode.",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "Nama tempat atau koordinat lat/lon, jika tidak jelas dari topikmu.",
+  "Place or coordinates": "Tempat atau koordinat",
+  "Plans, a city model or survey heights for your site.": "Denah, model kota, atau data ketinggian survei untuk lokasimu.",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "Diplot oleh pena mesin; peta dan catatan memakai data asli yang kamu kirim atau kami cari.",
+  "Preferred voice": "Suara pilihan",
+  "Print scans": "Pindaian cetakan",
+  "Product link": "Tautan produk",
+  "Rapid microgames in changing art styles, all made in code.": "Microgame cepat dengan gaya seni yang terus berganti, semuanya dengan kode.",
+  "Real maths drawn as oscilloscope light, computed in code.": "Matematika nyata yang digambar sebagai cahaya osiloskop, dihitung dengan kode.",
+  "Real statistics built as physical objects; your own numbers or published open data.": "Statistik nyata yang diwujudkan sebagai benda fisik; angkamu sendiri atau data terbuka yang dipublikasikan.",
+  "Recordings or data": "Rekaman atau data",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "Dipotong ulang dari film, foto, dan dokumen arsip asli; milikmu memimpin, arsip mengisi kekurangannya.",
+  "Red paper-cut scenes made in code.": "Adegan kertas gunting merah yang dibuat dengan kode.",
+  "Redraws your real product's interface; screenshots help it match exactly.": "Menggambar ulang antarmuka produk aslimu; screenshot membantu agar persis sama.",
+  "Reference clip": "Klip referensi",
+  "Reference photo": "Foto referensi",
+  "Rendered found-footage of empty interiors, all made in code.": "Found-footage ruangan kosong yang dirender, semuanya dibuat dengan kode.",
+  "Reports, statements or memos about the event.": "Laporan, pernyataan, atau memo tentang peristiwa itu.",
+  "Routes or map data": "Rute atau data peta",
+  "Routes, points or areas to draw on the map.": "Rute, titik, atau area untuk digambar di peta.",
+  "STEP, IGES or KiCad exports of your product.": "Ekspor STEP, IGES, atau KiCad dari produkmu.",
+  "SVG or icon": "SVG atau ikon",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "Pindaian negatif, surat, foto, atau kliping yang haknya kamu miliki.",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "Pindaian grafir lama, perangko, atau memorabilia yang haknya kamu miliki.",
+  "Scans of reports, brochures, letters or photographs.": "Pindaian laporan, brosur, surat, atau foto.",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "Adegan yang terungkap oleh cahaya pemindai, dibangun dengan kode; tidak perlu data pindaian asli.",
+  "Schedules, filings or results shown as paper.": "Jadwal, berkas, atau hasil yang ditampilkan sebagai kertas.",
+  "Scratched-film animation made in code.": "Animasi gores film yang dibuat dengan kode.",
+  "Screens of your product so the UI is redrawn accurately.": "Layar produkmu agar UI digambar ulang dengan akurat.",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "Kirim logomu; logo akan digambar ulang sebagai bentuk vektor yang bersih lalu dianimasikan.",
+  "Shadow puppets on a lit screen, made in code.": "Wayang bayangan di layar yang diterangi, dibuat dengan kode.",
+  "Song lyrics, if this is a music video.": "Lirik lagu, jika ini video musik.",
+  "Stick figures act out the idea, drawn in code.": "Tokoh stick figure memerankan idenya, digambar dengan kode.",
+  "Streamlines of a real or modelled field such as wind or currents.": "Garis aliran dari medan nyata atau hasil model, seperti angin atau arus.",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "Data survei, medan, atau hasil pengukuran untuk diplot, jika lembarnya menampilkan data nyata.",
+  "Swiss grid motion graphics made in code.": "Motion graphics grid Swiss yang dibuat dengan kode.",
+  "The report or document the numbers come from, as PDF.": "Laporan atau dokumen sumber angka-angkanya, dalam PDF.",
+  "The report your figures come from.": "Laporan sumber angka-angkamu.",
+  "The site to survey, if not clear from your topic.": "Lokasi yang akan disurvei, jika tidak jelas dari topikmu.",
+  "The talking video to caption; it is kept as it is.": "Video orang berbicara yang akan diberi teks; videonya dibiarkan apa adanya.",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "Tiga kata tentang bagaimana brand seharusnya bergerak, misalnya tenang, presisi, ramah.",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "Time-lapse, hyperlapse, foto udara, atau foto tempat itu.",
+  "UI screenshots": "Screenshot UI",
+  "Ukiyo-e woodblock prints made in code.": "Cetakan balok kayu ukiyo-e yang dibuat dengan kode.",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "Memakai citra satelit asli tempat itu; kami ambilkan citra publik jika kamu tidak punya.",
+  "Video or audio of the same event from several angles.": "Video atau audio dari peristiwa yang sama dari beberapa sudut.",
+  "Voice recording": "Rekaman suara",
+  "Voice-over script": "Naskah voice-over",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "Apa yang diucapkan narator, jika kamu punya; kalau tidak, ditulis dari topikmu.",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "Apa yang harus diucapkan narator, jika kamu punya; kalau tidak, akan dituliskan untukmu.",
+  "Whole-slide scans or micrographs with a scale.": "Pindaian whole-slide atau mikrograf dengan skala.",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "Kamu mendapat file Lottie .json untuk aplikasi atau situsmu, plus MP4 untuk pratinjau.",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "Kamu mendapat filmnya, file .excalidraw yang bisa diedit, sebuah PNG, dan sebuah GIF.",
+  "Your GIS layers": "Layer GIS milikmu",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "Layar aplikasimu dibangun ulang dalam HTML dan ditelusuri dengan suara; kirim layar setiap fitur yang mau ditampilkan.",
+  "Your character designs or product photos; otherwise generated.": "Desain tokoh atau foto produkmu; kalau tidak ada, akan dibuat dengan AI.",
+  "Your clips": "Klipmu",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "Klipmu, footage berlisensi terbuka, klip dari channel lain untuk komentar, dan gambar Flow AI dipadukan dengan infografis yang digambar kode, dengan narasi berbahasa Thai.",
+  "Your figures as a table; otherwise open published data is used.": "Angka-angkamu dalam bentuk tabel; kalau tidak ada, dipakai data terbuka yang dipublikasikan.",
+  "Your figures, e.g. from an annual or ESG report.": "Angka-angkamu, misalnya dari laporan tahunan atau ESG.",
+  "Your footage": "Footage-mu",
+  "Your logo": "Logomu",
+  "Your own character or product designs; otherwise they are generated.": "Desain tokoh atau produkmu sendiri; kalau tidak ada, akan dibuat dengan AI.",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "Klipmu sendiri, footage berlisensi terbuka, dan gambar Flow AI dipadukan dengan infografis yang digambar kode; tidak ada yang diambil dari channel lain.",
+  "Your own footage or b-roll stills to grade into the package.": "Footage atau still b-roll milikmu untuk di-grade ke dalam paket.",
+  "Your own narration; otherwise we use a synthetic voice.": "Narasimu sendiri; kalau tidak ada, kami pakai suara sintetis.",
+  "Your own site, drone or terrestrial scan.": "Pindaian lokasi, drone, atau terestrial milikmu sendiri.",
+  "Your own surveys or GIS layers, if the place is yours.": "Survei atau layer GIS milikmu, jika tempat itu milikmu.",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "Klip videomu sendiri; kalau tidak ada, dicarikan footage arsip bebas lisensi.",
+  "Your song": "Lagumu",
+  "Your subject drawn as a circuit board in code.": "Topikmu digambar sebagai papan sirkuit dengan kode.",
+  "Your video": "Videomu",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "160 Pip berkawanan berebut biji: yang cepat makan duluan dan habis tenaga duluan, dan setelah 20 generasi papan pun berubah biru.",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "1926: koran bilang dansa Charleston bakal merusak lutut Amerika; di piknik milik Ford sendiri, anak-anak tetap saja menari.",
+  "3D & Miniature": "3D & Miniatur",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "Selembar perangko pos udara 1918 dengan pesawat tercetak terbalik: dibeli seharga $24, dipotong dan tersebar, dan nomor 66 masih hilang sampai sekarang.",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "Klip 9:16 untuk Reels, TikTok, dan Shorts: hook di detik pertama, tipografi kinetik besar, ritme cepat, dan teks yang tetap terbaca tanpa suara.",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "Animasi Lottie untuk aplikasi atau situs, dikirim sebagai file .json plus MP4: loader, ikon, status berhasil, lower third, penghitung angka, dan promo kecil.",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "Bersepeda Minggu pagi keliling kota — toko roti, taman, tepi sungai — tiap perhentian menambah satu tinta sampai tiga pelat yang meleset saling menimpa.",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "Bocah tukang roti mengejar roti yang menggelinding menuruni bukit, lalu membelahnya dua untuk seorang gadis yang kelaparan.",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "Diagram arsitektur atau proses yang digambar tangan di kanvas hitam, dengan titik-titik bercahaya mengalir di sepanjang alurnya; termasuk file Excalidraw yang bisa diedit dan GIF.",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "Tubuh dibedah seperti pabrik yang berjalan mundur: roti lapis pukul 12.30 dibongkar pos demi pos, dan enam jam kemudian ia berlari mengejar bus.",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "Astronaut dari balok mainan merakit roket dari suku cadang bekas lalu terbang ke bulan dari balok.",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "Teater mainan dari kardus: kertas bermotif, potongan guas dengan tepi stiker, latar yang meluncur di panggung.",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "Foto kucing melompat di antara kartu aplikasi di meja yang bermandikan cahaya, dari satu ponsel ke ponsel teman.",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "Rantai tangan dari kamu ke orang asing: diuji lewat surat pada 1967, dijelaskan dengan lingkaran yang tumbuh melampaui Bumi, lalu tertutup mengelilingi dunia.",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "Kucing oranye gendut diadili karena menguji gravitasi dan parkour jam 4 pagi, lalu dibebaskan.",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "Kadet ceroboh bertahan di kamp pelatihan lima detik, makin lama makin cepat, sampai bos terakhir: mendarat di rumah.",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "Cangkir kopi mengejar gula batu yang kabur keliling dapur, ala kartun tahun 1930-an.",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "Perjalanan kopi dari perkebunan hingga ke tanganmu, dalam satu dunia isometrik.",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "Poster konser menata dirinya sendiri dengan lima aturan desain Swiss; aturan kelima: langgar satu saja.",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "Gadis kurir melaju menembus kota neon yang basah oleh hujan untuk mengantar kaset sebelum peluncuran fajar.",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "Spidol menghitung seberapa jauh cakrawala dari pantai, lalu menunjukkan bahwa naik seratus kali lebih tinggi hanya membuatmu melihat sepuluh kali lebih jauh.",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "Ikan lentera sepanjang jari naik setengah kilometer dalam gelap, menyembunyikan bayangannya dengan cahayanya sendiri, dan ternyata hanya satu dari tak terhitung hewan yang naik setiap malam.",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "Kedipan kunang-kunang adalah pertanyaan: seorang gadis mendapat jawabannya sebagai rusa, kehilangan semua cahaya dalam badai, lalu bertanya pada seluruh kegelapan dengan cahaya terakhir.",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "Terbang dari sudut pandang orang pertama di atas desa krayon menuju sekuntum bunga di kebun seorang kakek; lalu matanya, dan apa yang ia katakan.",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "Sekawanan flamingo bergerak di setiap ketukan, dan satu burung muda selalu telat setengah ketukan; riak yang ditinggalkan yang lain di air mengajarinya irama.",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "Halaman album yang menguning: kartu sobek, selotip, grafis cukil yang diwarnai tangan, label mesin tik, dan huruf guntingan ala surat kaleng menuturkan kisahnya.",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "Hotel megah, 1930: seorang bellboy berpacu dengan lift dan pintu putar untuk mengantar sepucuk surat sebelum tengah malam.",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "Seratus tahun suhu musim panas, di mana grafiknya sendiri yang bercerita.",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "Jenius yang sinis membuka portal hanya untuk beli kopi, lalu terguling melewati semesta yang makin aneh.",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "Pemindaian laser mengupas kanopi hutan Connecticut dan menemukan 3,4 km tembok ladang tua.",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "Film peluncuran aplikasi dalam satu take tanpa putus: bilah prompt terbuka menjadi kalender, kalender mengalir ke ponsel, dan setiap ketukan tumbuh dari ketukan sebelumnya.",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "Sepucuk surat, satu telepon, dinding penuh jendela, tiga belas anak tangga: gadis yang menyuruhnya jangan menoleh selalu selangkah lebih dekat, sampai ia memalingkan kepala.",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "Wahana kecil bermata lensa zoom menembakkan garis bidik putus-putus ke tiap perhentian berikutnya dan membawa kita dari Bima Sakti sampai ke sebuah virus.",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "AI pangkalan bulan terbangun setelah empat puluh tahun oleh sinyal dari Bumi, lalu membalas dengan menggambar “rumah” dari karakter.",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "Video musik yang dipotong mengikuti lagumu sendiri: ketukan dan bagian lagu diukur dari track, lalu lirik, bentuk, dan warna bergerak bersamanya.",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "Narator yang tak pernah terlihat: rekaman asli, peran pengganti 3D dan AI, infografis skala, peta, dan teks bergantian menuturkan satu kisah nyata yang menakjubkan.",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "Lembar ilustrasi sejarah alam mengukir dirinya sendiri: pahat menoreh tembaga, lebah terbentuk garis demi garis, dan sapuan cat air menghidupkannya.",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "Kucing neon pergi mengincar ikan mas di papan nama ujung jalan, meretakkan akuariumnya, lalu berlari di tengah hujan membawa ikan yang meredup pulang ke gelas di papan namanya sendiri.",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "Karyawan baru shift malam merekam malam pertamanya di kantor kuning tanpa ujung, mengikuti aturan yang tertempel di dinding.",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "Taman yang hanya berupa sketsa pena; ke mana pun angin membawa topi jeraminya, warna mengikuti.",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "Ponsel kehilangan sinyal saat dipegang di sudutnya; saat dibongkar, rangka logamnya ternyata antena, dipotong jadi bagian-bagian yang bisa dijembatani tanganmu.",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "Buku pop-up terbuka di atas meja; peri kecil bernama Pip bertualang di dunia kertas lalu melompat keluar ke dunia kita.",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "Peta metro cetak tumbuh dari satu jalur 6 km pada 1993 menjadi 21 jalur dan 906 km.",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "Panduan produk dengan narasi: UI asli aplikasi dibangun ulang dari tangkapan layar, kamera yang mendekat ke tiap fitur, teks, dan film yang sama dalam bahasa lain.",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "Proyektor mewarnai maket putih Rotterdam lapis demi lapis, dari lahan kosong 1940 hingga menara-menara hari ini.",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "Robot penyedot debu disiapkan dalam tiga langkah, dikisahkan seperti film pendidikan tahun 1950-an.",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "Satelit mengikuti peta ke Laut Aral dan menemukan gurun; hanya bagian yang dibendung seseorang yang kembali.",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "Badai di Parkes, 21 Juli 1969: piringan selebar 64 meter yang dimiringkan sampai batasnya tetap bertahan dan menangkap langkah di bulan untuk seluruh dunia.",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "Fotografer jalanan mengejar cahaya yang berlari sampai detik merpati terbang; kamera sakunya membelah detik itu menjadi tiga puluh panel.",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "Seorang pendekar pedang menyeberangi sungai di atas air dan membelah arus dengan satu tebasan.",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "Kamera termal mengitari blok apartemen tua di malam bersalju: jendela yang bocor panas, pipa di dalam dinding, kucing tidur di kap mobil yang hangat, dan blok yang sama setahun setelah direnovasi.",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "Seorang pengelana menyeberangi dunia, satu cetak saring penuh demi satu, potongan tiket menghitung jarak dari rumah, sampai ujung dunia berubah menjadi jalan pulang.",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "Seorang pengelana berjalan menuju gunung di kejauhan; setiap shot adalah cetak kayu, ombak besar di klimaks, dan gunung serta seluruh gulungan di akhir.",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "Sebuah desa menghabiskan satu musim dingin untuk mengecor satu lonceng; begitu pertama kali berdentang, salju berhenti.",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "Jam tangan tanpa baterai dibelah: tiga sistemnya diwarnai satu per satu, roda gigi melesat saat escapement dicabut, dan satu detak yang melambat melepaskan semuanya lagi.",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "Payung kuning yang tertinggal di bus menunggu sepanjang hari cerah di rak barang hilang, lalu terbuka bersama 312 payung lain saat badai kembali: benda, kendaraan, cuaca, dan rambu sebagai piktogram geometris yang pas dengan ketukan.",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "Isian cel spidol alkohol dengan tepi bayangan tegas di bawah satu kontur tebal: dunia komik cerah yang bergerak.",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "Hampir semua pisang di toko adalah satu tanaman yang digandakan: dinding cetakan yang identik, pisang tua yang menghitam dimakan bintik, dan gelombang warna yang berubah menjadi banyak pisang.",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "Alsace-Lorraine berganti tangan empat kali antara 1871 dan 1945: setiap kali seseorang merobek kertasnya dan menempel yang baru, sementara perempuan yang tinggal di sana tak pernah pindah.",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "Amerika kehilangan 1,3 juta koloni lebah, tapi jumlahnya justru naik 6%: berita singkat yang tetap jelas tanpa suara.",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "Sepeda listrik dipindai menjadi hologram; kotak target mengunci baterai, motor, dan rem.",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "Cetak biru seorang penemu menggambar, mengurai, dan merakit mesin penangkap awan, lalu awan revisinya mulai menurunkan hujan.",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "Sebuah pulau dan desanya tumbuh ubin demi ubin dari laut kosong, tiap ubin satu nada, hingga malam berbintang.",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "Kereta malam tua melakukan perjalanan terakhirnya, dari halte gunung bersalju melewati terowongan panjang menuju laut, jendela-jendelanya yang menyala padam satu per satu di ujung jalur.",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "Malam hari di bawah lampu meja, pen plotter menggambar Qomolangma dari data ketinggian asli dengan empat pena, dan menulis tingginya paling akhir.",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "Di depan pintu bos terakhir, sang pahlawan menyimpan permainan, dan layar save memutar ulang seluruh perjalanannya.",
+  "Cartoons": "Kartun",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "Kapur menulis anggapan populer tentang dua aksara, menghapusnya, lalu menelusuri 射 hingga tiga ribu tahun silam.",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd melompat keluar dari terminal ke aplikasi Claude dan memerankan mode rencana serta pemeriksaan mandiri dalam satu take.",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "Bentuk pen tool yang bersih, isian datar, bayangan panjang, dan sedikit grain: ilustrasi modern yang tajam dalam gerak.",
+  "Data & Maps": "Data & Peta",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "Apakah pohon saling memberi makan? Gambar pensil menyelam ke bawah rumput, mengikuti sebutir gula di sepanjang benang jamur ke pohon berikutnya, lalu mundur memperlihatkan seluruh hutan yang terhubung di bawah tanah.",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "Tertinggal 0-3 saat turun minum, Fenerbahçe mencetak tiga gol dalam 12 menit: bekukan, gambar, layar terbagi, peta tembakan.",
+  "Edit & Documentary": "Edit & Dokumenter",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "Februari 1966: foto close-up pertama Bulan tiba di teleskop radio Inggris sebagai faks koran, dicetak baris demi baris dengan dua tinta, sehari lebih awal dan terentang terlalu tinggi.",
+  "Film & Tape": "Film & Pita",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "Ikuti hujan dari jantung gurun merah Australia hingga pesisir hijaunya dalam satu perjalanan lukisan tanpa putus.",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "Empat berita AI dari satu minggu dalam paket siaran lengkap: rundown, strap judul, papan harga, kartu spesifikasi.",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "Empat jenis jembatan diuji di satu dinding briefing, dan kapal yang harus lewat di bawahnya memilih pemenangnya.",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "Dari bola dunia turun ke selat tempat seperlima minyak dunia berdesakan lewat: dua jalur, celah di dasar laut, dan pipa yang hanya bisa mengalihkan sebagian kecilnya.",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "Dari gunung ke laut saat malam tiba: rusa, serigala, elang, salmon, dan paus, masing-masing membawa tempatnya di dalam siluetnya, sampai pelabuhan sang paus mendarat di pantai yang nyata.",
+  "Games": "Game",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "Pensil dan cat air lembut ala buku cerita, digambar untuk satu karakter tetap yang selalu sama di setiap adegan.",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "Guas dan cat air di atas pensil: pekat di depan, menipis jadi sapuan encer lalu tinggal pensil di kejauhan.",
+  "Graphic & Type": "Grafis & Tipografi",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "Separuh keyboard open source terurai dalam satu putaran orbit, sampai ke chip-nya, lalu menutup kembali dengan dimensi aslinya.",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "Bagaimana menggelindingkan persegi dari lingkaran? Lingkaran berputar bertumpuk menjadi gelombang kotak, sampai menyelam ke satu sudut menemukan lonjakan 9% yang tak pernah hilang.",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "Bagaimana ponselmu tahu kamu di mana: GPS, jam atom, dan 38 mikrodetik yang ditambahkan relativitas setiap hari.",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "Di alun-alun kelabu yang diguyur hujan, satu payung merah terbuka, dan sebuah waltz mewarnai seluruh alun-alun.",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "Di dunia lukisan tempat hanya emas yang bersinar, matahari padam; seorang gadis membawa lampu terakhir ke puncak gunung dan mengembalikan cahayanya.",
+  "Instruments & Evidence": "Instrumen & Bukti",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "Film peluncuran Tidy, aplikasi fiktif: satu kursor yang terkubur mengembalikan ratusan jendela ke tempatnya dalam sekejap.",
+  "Light & Lines": "Cahaya & Garis",
+  "Line Diagrams": "Diagram Garis",
+  "Logo & Lottie": "Logo & Lottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "Jam sibuk pagi di kota yang tampak seperti maket: lalu lintas, kereta, dan orang-orang mungil.",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "Film berita, foto, kesaksian, dan penyelidikan 1937 di satu jam: lima sumber menunjuk ke titik yang sama.",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "Di malam Tahun Baru, monster Nian datang ke kota, dan guntingan kertas raksasa milik seorang gadis menerangi desa untuk mengusirnya.",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "Seekor lebah menghasilkan 1/12 sendok teh madu seumur hidupnya; pena mengikuti satu tetes kuning dari bunga ke toples sampai seluruh halaman menjadi poster.",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "Satu pulpen biru di kertas krem: gelap-terang hanya dari letak arsiran, seperti gambar buku catatan yang hidup.",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "Satu gerakan tanpa putus dari preparat hati sampai ke satu inti sel; dua lingkaran, dihitung piksel demi piksel, berbeda 2,4 kali dalam warna biru.",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "Sehari di New York dalam time-lapse: sungai cahaya, grid di nada seperenam belas, 1899 bersanding dengan hari ini.",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "Satu titik berlipat dua setiap sepuluh tahun: 128 setelah tujuh puluh tahun, 6,02 tanpa bunga majemuk, dan sepuluh tahun terakhir bernilai sama dengan semua sisanya.",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "Satu pena teknik halus menitik lurus ke bawah: gelap-terang hanya dari kerapatan titik, seperti lembar ilustrasi sejarah alam kuno.",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "Satu ide memikul seluruh iklan: reaksi berantai di atas meja, setiap ketukan adalah tabrakan yang memicu berikutnya, dari satu tekanan tombol hingga sepuluh tugas selesai.",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "Satu malam di konsol pemeriksaan bandara: power bank, sebotol air, dan enam kepiting hidup yang bergerak di CT.",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "Satu kelokan sungai, empat musim, satu take; tiap musim berganti saat pohon besar merunduk lalu memantul kembali.",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "Satu pena tinta tipis di kertas hangat: jalan tepi kanal dengan kedai teh dan pemandian, warga desa yang berlalu-lalang, jendela menyala saat siang berganti malam.",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "Satu garis tanpa putus menggambar seluruh hidup, lalu pena berpindah ke tangan seorang anak.",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "Judul pembuka film mata-mata khayalan tahun 1964: kejar-kejaran memburu kunci curian sampai bentuk-bentuk terkunci menjadi judul.",
+  "Painting & Illustration": "Lukisan & Ilustrasi",
+  "Print & Printmaking": "Cetak & Seni Grafis",
+  "Product Launch · onetake": "Peluncuran Produk · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "Bangau mahkota merah di lembah Hokkaido, satu take di scratchboard, dihitung mundur dari 33 hingga 1.927.",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "Sungai berubah menjadi jalur tembaga saat arus listrik mengalir 2.080 km dari bendungan ke pengisi daya ponsel.",
+  "Screens & Interfaces": "Layar & Antarmuka",
+  "Sketch & Board": "Sketsa & Papan",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "Glasir minyak surealis yang halus di bawah matahari rendah: benda mustahil, bayangan panjang, dan logika mimpi yang tenang.",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "Benang katun disulam menembus linen di ram kayu beech, setiap tusukan dijahit di layar.",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "Sinar matahari melintasi jendela katedral dari fajar hingga senja, membangunkan tiap panel kisah ksatria dan naga.",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "Sepuluh matahari membakar bumi sampai pemanah Hou Yi menarik busurnya, dikisahkan dengan wayang kulit di layar bercahaya.",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "Brosur Empire State tahun 1931 memuji para pembangunnya; film lokasi dan foto Hine menjawab: 2.500 orang sehari.",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "Kopi di cangkirmu berubah menjadi ceri merah, lalu berjalan kembali ke cangkir: pematangan, pengeringan, penyangraian, dan penggilingan, satu perubahan warna demi satu di satu halaman pensil.",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "Sejarah AI sebagai game ritme: model-model naik panggung mengikuti ketukan, dan rapor menutup pertunjukan.",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "Menit terakhir peluncuran Artemis II, tanpa potong: satu sel terbuka menjadi sembilan, lalu menyatu kembali saat penyalaan.",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "Mercusuar padam; seorang gadis membawa api terakhir melewati hutan malam dan mendaki tebing badai.",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "Bulan tak bisa tidur, jadi seorang gadis kecil memanjat atap untuk menyanyikan lagu nina bobo.",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "Telegram bilang 57 detik; di bawah kaca pembesar, negatif kaca Wright bersaudara dan arsip bilang 59.",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "Totalnya bilang pengobatan B; tampilkan kolom ukuran batu yang tersembunyi dan A menang di setiap kelompok. Paradoks Simpson dalam satu lembar, 1 sel = 1 pasien.",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "Ribuan garis angin dari tinta, dihitung dari jalur terbaik, menggambar Topan Super Yagi: mata yang terbuka di atas Laut China Selatan, pendaratan di Hainan, spiral yang terurai di Vietnam, dan seminggu penuh terlipat dalam satu garis terakhir.",
+  "Traditional Crafts": "Kerajinan Tradisional",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "Penumpang menaiki pesawat isometrik, dan urutan naiknya menunjukkan mengapa satu cara hampir dua kali lebih cepat.",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "Dua belas tahun energi angin dan surya ditumpuk sebagai pelat nyata, berputar spiral mengelilingi dial kayu walnut sampai surya menyalip.",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "Dua orang tua baru merakit boks bayi dari manual flat-pack, sepuluh langkah di satu halaman 45°; langkah kesepuluh tak pernah ada di manual.",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "Unboxing dan close-up Aura, earbud kaca fiktif, dalam sapuan lampu strip dan kaustik.",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "Sapuan cat minyak tak tercampur berdampingan agar mata yang mencampurnya: cahaya di air, senja, perahu menyeberangi teluk.",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "Arang anggur di kertas katun, digosok, diangkat dengan penghapus, dan digambar ulang di atas bayangannya sendiri.",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "Gambar logomu digambar ulang menjadi SVG yang bersih, lalu dihidupkan bagian demi bagian dengan prinsip animasi Disney: reveal yang mendarat tepat di logomu.",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "Video bicaramu sendiri, tetap apa adanya: teks kata demi kata yang selaras dengan suara, kartu nama, dan kartu grafis sederhana untuk poin-poin utama.",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "Nol garis gambar: kertas sobek dengan tepi berserat putih, potongan gunting, masing-masing mengangkat bayangan lembut.",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "Untuk ulang tahun anakku, tolong buatkan kartun roket dari bata mainan yang terbang ke bulan.",
+   "Aku ingin menunjukkan set bata mainan baru di toko mainan kami yang disusun satu per satu sampai jadi rumah kecil.",
+   "Aku mau video yang membangun Candi Borobudur dari bata mainan tahap demi tahap sambil mengajari anak-anak sejarahnya."
+  ],
+  "paper-popup": [
+   "Untuk dongeng sebelum tidur putriku, buatkan cerita di mana begitu buku dibuka, seekor kelinci melompat keluar dari hutan kertas.",
+   "Buku cerita anak kami yang baru akan terbit, jadi aku mau iklan bergaya pop-up dengan halaman yang berdiri satu per satu.",
+   "Aku ingin menunjukkan perahu kecil di Danau Toba dalam buku kertas yang melintasi pulau-pulau kecil."
+  ],
+  "tilt-shift": [
+   "Tolong buat keramaian KRL Jakarta di pagi hari terlihat mungil seperti kota mainan.",
+   "Aku mau iklan yang menampilkan proyek perumahan kami dan jalan-jalan sekitarnya dari atas seperti kota maket.",
+   "Aku ingin melihat hiruk-pikuk motor dan pedagang pagi hari di Pasar Beringharjo seperti dunia mainan kecil."
+  ],
+  "lowpoly-island": [
+   "Untuk game baruku, buatkan teaser di mana pulau dan desa kecil muncul dari laut sepotong demi sepotong.",
+   "Aku ingin bersantai melihat sebuah desa di pulau kecil tumbuh perlahan sampai bintang-bintang muncul di malam hari.",
+   "Aku ingin menunjukkan ke anak-anak bagaimana desa nelayan di salah satu pulau Raja Ampat berkembang sedikit demi sedikit."
+  ],
+  "glass-product": [
+   "Tolong tampilkan botol kaca serum wajah baru kami dengan berkas cahaya yang menyapu sampai botolnya berkilau cantik.",
+   "Aku mau video peluncuran produk yang memperlihatkan earbuds baru dikeluarkan dari kotaknya dengan close-up yang cantik.",
+   "Aku ingin menampilkan botol parfum kaca hadiah ulang tahun untuk ibuku seolah sedang bermain dengan cahaya."
+  ],
+  "memphis-diorama": [
+   "Aku ingin melihat musim kemarau dan musim hujan bergantian di sebuah tikungan Sungai Kapuas dengan warna-warna cerah.",
+   "Buatkan pemandangan lucu sebuah kedai kopi kecil dengan musim yang terus berganti di sekelilingnya untuk bagian atas website kami.",
+   "Aku ingin menunjukkan ke anak-anak bagaimana pohon mangga di depan rumah berbunga, berbuah, dan menggugurkan daun sepanjang tahun."
+  ],
+  "isometric-picture-book": [
+   "Tolong jelaskan dengan gambar-gambar kecil kenapa antre dalam satu barisan di bank justru lebih cepat.",
+   "Aku ingin pasien di klinik kami paham sistem baru ambil nomor antrean dan menunggu dipanggil.",
+   "Aku ingin menjelaskan ke anak-anak kenapa naik TransJakarta lebih cepat kalau kita mendahulukan penumpang yang turun."
+  ],
+  "crayon-world": [
+   "Tolong buatkan video kenangan yang terbang di atas desa kakek sampai ke pohon beringin yang dulu ia tanam.",
+   "Untuk menghormati guru lamaku, aku mau cerita perjalanan ke sekolah yang seperti diwarnai anak-anak dengan krayon.",
+   "Aku ingin menunjukkan perjalanan seorang pemuda dari desa ke kota mencari kerja dengan gambar krayon seperti buatan anak kecil."
+  ],
+  "rubber-hose": [
+   "Untuk warung bakso kami, buatkan iklan kartun jadul di mana pentol bakso dan mangkuk kuahnya main kejar-kejaran.",
+   "Aku mau kartun lucu tentang cangkir teh yang mengejar gula batu yang kabur keliling dapur.",
+   "Aku ingin mengajari anak-anak sikat gigi lewat kartun jadul di mana sikat gigi dan pasta gigi mengusir kuman."
+  ],
+  "cel-anime-80s": [
+   "Buatkan cerita tentang gadis kurir motor di malam Jakarta yang hujan, yang harus mengantar paket sebelum subuh.",
+   "Untuk lagu baru band kami, aku mau video kota malam penuh lampu neon seperti anime tahun 80-an.",
+   "Aku ingin menampilkan kenangan bersepeda bersama teman-teman dengan warna seperti kartun yang dulu kutonton waktu kecil."
+  ],
+  "scifi-toon": [
+   "Buatkan komedi tentang ilmuwan yang membuka portal cuma demi segelas teh, lalu terguling ke dunia-dunia aneh.",
+   "Aku mau iklan lucu yang menunjukkan secepat apa aplikasi e-wallet kami dengan melompat dari satu planet ke planet lain.",
+   "Aku ingin kartun kocak tentang dua kakak-adik yang harus naik pesawat luar angkasa kembali ke masa lalu karena lupa PR."
+  ],
+  "midcentury-toon": [
+   "Tolong jelaskan cara memasang dispenser air baru kami dalam tiga langkah seperti film kelas tahun 1950-an.",
+   "Aku mau video lucu bergaya kartun jadul untuk mengajari ibuku cara video call di HP.",
+   "Aku ingin menunjukkan cara memakai rice cooker dengan benar seperti kartun edukasi zaman dulu."
+  ],
+  "comic-history": [
+   "Aku ingin menunjukkan perpindahan ibu kota dari Batavia ke Yogyakarta, kembali ke Jakarta, lalu ke IKN dengan gaya buku komik yang santai.",
+   "Buatkan cerita komik lucu tentang tiga warung kopi di kampung kami yang berebut pelanggan.",
+   "Tolong jelaskan dengan komik bagaimana tanah tepi sungai di antara dua desa berpindah dari satu sisi ke sisi lain selama bertahun-tahun."
+  ],
+  "manga-panels": [
+   "Aku ingin menampilkan sedetik ketika burung-burung merpati terbang di pelataran Monas, dipecah jadi panel-panel manga.",
+   "Tolong perkenalkan kamera baru di toko kamera kami dengan panel manga yang muncul satu per satu.",
+   "Abadikan momen adikku menyentuh garis finis di lomba lari dalam panel-panel seperti buku komik."
+  ],
+  "dataviz": [
+   "Aku ingin menampilkan data suhu musim kemarau Jakarta selama lima puluh tahun seolah grafiknya sendiri yang bercerita.",
+   "Tolong tampilkan penjualan lima tahun usaha jahit keluarga kami dengan grafik yang cantik.",
+   "Aku ingin menjelaskan angka ekspor kopi Indonesia per tahun dengan grafik yang mudah dipahami siswa."
+  ],
+  "white-model": [
+   "Aku ingin menunjukkan di maket putih bagaimana gedung-gedung di pusat Jakarta tumbuh lantai demi lantai dari zaman kolonial sampai sekarang.",
+   "Buatkan video pameran yang menyorot tata kavling proyek perumahan perusahaan kami di maket putih tahap demi tahap.",
+   "Aku ingin memunculkan perlahan tata kota Keraton Yogyakarta dan benteng Baluwarti dari data peta di maket putih."
+  ],
+  "data-physical": [
+   "Aku ingin menunjukkan produksi listrik tenaga air dan surya Indonesia per tahun seperti tumpukan keping yang terasa bisa dipegang.",
+   "Tolong tampilkan angka penjualan dari laporan tahunan perusahaan kami seperti balok-balok kayu yang disusun.",
+   "Aku ingin menunjukkan hasil panen sepuluh tahun kebun teh keluarga kami di Puncak seperti tumpukan benda asli."
+  ],
+  "transit-map": [
+   "Tolong munculkan stasiun-stasiun MRT Jakarta satu per satu di atas peta cetak.",
+   "Aku ingin menunjukkan bagaimana rute TransJakarta berkembang dari tahun ke tahun dengan gaya peta kereta.",
+   "Aku ingin menunjukkan kota-kota tujuan pengiriman usaha logistik kami yang bertambah selama sepuluh tahun seperti peta metro."
+  ],
+  "map-explainer": [
+   "Tolong jelaskan dengan peta, mulai dari zoom bola dunia, bagaimana Sungai Mahakam mengalir dari hulu sampai deltanya.",
+   "Aku mau video yang menjelaskan dengan peta kenapa kapal kargo dunia harus melewati Selat Malaka.",
+   "Aku ingin menjelaskan pengikisan tebing sungai di desa kami dengan peta dan bentuk permukaan tanah yang asli."
+  ],
+  "pip-simulation": [
+   "Tolong peragakan bagaimana penyakit menular menyebar dari satu orang ke orang lain dengan makhluk-makhluk kecil yang berlarian.",
+   "Aku ingin bereksperimen dengan makhluk kecil untuk menunjukkan apa yang terjadi kalau pedagang di pasar saling banting harga.",
+   "Aku ingin siswa melihat langsung bagaimana seleksi alam bekerja saat generasi demi generasi berganti."
+  ],
+  "caption-news": [
+   "Buatkan berita singkat yang bisa ditonton tanpa suara tentang data curah hujan musim hujan tahun ini yang memecahkan rekor.",
+   "Aku mau berita singkat dengan teks yang menampilkan angka asli hasil penggalangan dana di kampung kami.",
+   "Aku ingin laporan tentang menurunnya jumlah sarang lebah dunia bisa langsung dipahami di HP lewat teks."
+  ],
+  "newsreel": [
+   "Aku ingin menampilkan era trem Batavia tahun 1930-an dengan foto arsip seperti film berita zaman dulu.",
+   "Untuk 50 tahun toko kami, buatkan gaya film berita jadul dengan foto-foto lama dari zaman kakek.",
+   "Aku ingin menceritakan ulang betapa takjubnya orang saat radio pertama kali muncul, dengan judul koran lama seperti film berita kuno."
+  ],
+  "countdown": [
+   "Aku ingin menghitung mundur satu menit terakhir sebelum gunting pita di pembukaan toko kami, dengan video asli yang dipecah jadi panel-panel.",
+   "Tolong gabungkan video malam tahun baru yang direkam teman-teman dalam gaya hitung mundur sepuluh detik terakhir.",
+   "Aku ingin video asli peluncuran roket dipecah jadi sembilan panel lalu menyatu jadi satu saat mesin menyala."
+  ],
+  "city-symphony": [
+   "Tolong buat simfoni kota dari time-lapse yang kurekam tentang satu hari di Jakarta, dipotong mengikuti ketukan musik.",
+   "Aku ingin memotong foto-foto lama Kota Tua Bandung dan video hari ini berdampingan, seirama dengan ketukan.",
+   "Untuk hotel kami, buatkan film pembuka dari pemandangan Bali yang kami rekam dari pagi sampai malam, cocok dengan musiknya."
+  ],
+  "visual-investigation": [
+   "Aku ingin menyusun ulang tabrakan di ujung jalan kami dalam satu linimasa dari video CCTV, foto, dan kesaksian saksi mata.",
+   "Aku ingin memeriksa dengan bukti di mana dan kapan sebenarnya foto banjir yang viral di media sosial itu diambil.",
+   "Tolong rekonstruksi bagaimana kebakaran pabrik terjadi secara urut waktu dari foto, laporan, dan keterangan karyawan."
+  ],
+  "kino-montage": [
+   "Aku ingin menunjukkan bagaimana kakek mendirikan penggilingan padi keluarga lewat foto lama, buku kas, dan kerja keras para buruhnya.",
+   "Aku ingin menggabungkan foto dan video lama ribuan orang bergotong royong saat sedekah bumi untuk menunjukkan kekuatan kebersamaan.",
+   "Untuk 20 tahun pabrik kami, tolong potong foto arsip dan angka-angka karyawan dengan potongan cepat yang bertenaga."
+  ],
+  "telestrator": [
+   "Aku ingin membedah comeback di babak kedua pertandingan sepak bola tarkam kami dengan menggambar garis di atas video aslinya.",
+   "Buatkan video pelatihan yang menghentikan video pertandingan sepak takraw dan menggambar garis gerakan kaki pemain.",
+   "Aku ingin menjelaskan posisi pemain di video gol tim sepak bola sekolah dengan panah-panah."
+  ],
+  "news-package": [
+   "Buatkan perubahan harga emas, BBM, dan cabai minggu ini seperti acara berita TV, lengkap dengan judul dan papan harga.",
+   "Aku ingin menampilkan empat-lima berita sekolah kami bulan ini seperti program berita sungguhan yang dibagi per segmen.",
+   "Tolong kumpulkan berita teknologi terbaru minggu ini dan tampilkan lengkap dengan gaya ruang redaksi."
+  ],
+  "ascii-crt": [
+   "Tolong perkenalkan tool software baru kami seolah digambar dengan huruf-huruf di layar hijau jadul.",
+   "Aku mau cerita tentang robot kecil di bulan yang tertidur bertahun-tahun lalu membalas sinyal dari Bumi dengan huruf-huruf.",
+   "Tolong gambar ucapan ulang tahun dengan huruf-huruf seperti layar komputer jadul yang dulu dipakai ayahku waktu muda."
+  ],
+  "silent-film": [
+   "Buatkan film bisu tentang anak toko roti yang mengejar roti yang menggelinding, lalu membaginya dengan anak yang kelaparan.",
+   "Aku mau iklan lucu ala film bisu hitam-putih untuk toko kue jadul kami.",
+   "Aku ingin menampilkan kejadian lucu saat mancing bersama ayah, bukannya ikan malah dapat sepatu bekas, seperti film bisu."
+  ],
+  "backrooms": [
+   "Buatkan cerita seram tentang karyawan shift malam baru yang merekam malam pertamanya di kantor kuning tanpa ujung sambil menaati aturan di dinding.",
+   "Untuk game misteri baru kami, aku mau teaser tersesat di lorong panjang yang bikin merinding.",
+   "Aku ingin cerita seram tentang merekam sendirian dengan HP di lorong rumah sakit tua pada malam hari, dan lorongnya tak pernah berakhir."
+  ],
+  "scratch-film": [
+   "Aku ingin cerita tentang seekor kunang-kunang yang berkelana di atas kolam gelap dengan cahaya kecilnya.",
+   "Tolong jelaskan kenapa ikan-ikan laut dalam naik ke permukaan setiap malam dengan garis-garis cahaya yang digores di kegelapan.",
+   "Aku ingin menunjukkan pasar malam kami yang lampunya menyala satu per satu sampai seluruh pasar terang, seperti digores di atas film."
+  ],
+  "double-exposure": [
+   "Aku ingin menumpuk pemandangan dari Dieng sampai Telaga Warna yang kurekam ke dalam siluet gajah, merak, dan ikan.",
+   "Untuk usaha wisata kami di Yogyakarta, buatkan film pembuka yang memasukkan foto asli kota ke dalam siluet manusia.",
+   "Aku ingin membuat kenangan dengan memasukkan foto-foto lama kampung masa kecil ayah ke dalam siluet wajah sampingnya."
+  ],
+  "pixel-rpg": [
+   "Untuk dua tahun jadian, aku ingin menampilkan perjalanan kami sejak pertama bertemu seperti melihat ulang save file game jadul.",
+   "Untuk game HP baru kami, buatkan iklan bergaya game piksel jadul dengan pahlawan yang berdiri di depan pintu bos.",
+   "Aku ingin menceritakan satu tahun masa kuliah seperti melewati level-level game jadul satu per satu."
+  ],
+  "hd-2d": [
+   "Buatkan cerita tentang gadis yang membawa api terakhir menembus hutan malam ke tebing di tengah badai karena mercusuar padam.",
+   "Untuk game fantasi baru kami, aku mau iklan rombongan pahlawan yang berkelana di kompleks candi seperti Prambanan.",
+   "Untuk adikku, aku ingin menampilkan dongeng anak kecil yang meninggalkan desanya untuk mencari naga, seperti game yang indah."
+  ],
+  "microgame": [
+   "Tolong tunjukkan cara memakai aplikasi baru kami dengan game-game mini yang muncul beruntun dan makin lama makin cepat.",
+   "Buatkan versi lucu dari bangun pagi dan siap-siap ke sekolah seperti rangkaian game mini yang makin ngebut.",
+   "Aku ingin mengajari karyawan baru apa saja yang perlu mereka tahu di hari pertama lewat game mini yang makin cepat."
+  ],
+  "game-show": [
+   "Buatkan pencapaian perusahaan kami tahun ini muncul berirama seperti acara kuis dan ditutup dengan kartu skor.",
+   "Aku ingin menampilkan sejarah komunikasi dari telegram sampai smartphone seperti kuis berirama yang seru.",
+   "Aku ingin merangkum kejadian keluarga sepanjang tahun ini dengan lucu seperti acara kuis TV."
+  ],
+  "swiss-motion": [
+   "Buatkan poster konser musik kami yang menata dirinya sendiri mengikuti aturan desain Swiss.",
+   "Aku ingin memperkenalkan identitas baru studio desain kami dengan grid, huruf, dan warna yang tersusun satu per satu.",
+   "Aku ingin mengajari mahasiswa desain lima aturan tata letak poster dengan jelas."
+  ],
+  "spy-titles": [
+   "Buatkan judul pembuka di mana bentuk-bentuk berlarian seperti film mata-mata tahun 1960-an lalu menjadi judul film kami.",
+   "Aku mau judul pembuka bergaya film mata-mata yang memikat untuk membuka acara ulang tahun perusahaan.",
+   "Untuk pernikahan temanku, buatkan judul pembuka retro yang menampilkan kedua mempelai sebagai dua mata-mata."
+  ],
+  "art-deco": [
+   "Tolong buat undangan makan malam hotel kami dengan desain emas mewah ala tahun 1930-an.",
+   "Aku mau cerita tentang anak operator lift di hotel megah zaman kolonial yang harus mengantar surat sebelum tengah malam.",
+   "Untuk ulang tahun pernikahan ke-30 orang tuaku, buatkan video undangan bergaya Art Deco yang megah."
+  ],
+  "pictogram-motion": [
+   "Buatkan cerita payung yang tertinggal di bus, menunggu di rak barang hilang, lalu mengembang bersama banyak payung saat hujan turun lagi.",
+   "Aku ingin menjelaskan cara memilah sampah dari pemda kepada warga dengan piktogram kecil yang bergerak berirama.",
+   "Untuk festival kami, aku mau video brand dengan ikon mobil, kereta, dan pesawat yang muncul seirama."
+  ],
+  "bauhaus-shapes": [
+   "Tolong jelaskan dengan lingkaran dan persegi betapa dahsyatnya bunga berbunga saat menabung.",
+   "Aku ingin menjelaskan ke anggota bagaimana arisan kami bekerja dengan bentuk-bentuk Bauhaus.",
+   "Buatkan kartu pembuka tiap bab pelajaran dengan bentuk merah, kuning, dan biru yang bermain-main."
+  ],
+  "flat-space-explainer": [
+   "Buatkan penjelasan skala yang zoom dari Bima Sakti ke Bumi, Indonesia, sampai akhirnya sebuah virus.",
+   "Aku ingin menunjukkan ke anak-anak seberapa jauh planet-planet tata surya dengan mengikuti sebuah wahana antariksa kecil.",
+   "Untuk channel edukasi kami, tolong jelaskan bagaimana satelit mengorbit Bumi dengan kartun sederhana."
+  ],
+  "text-flash-cuts": [
+   "Sepucuk surat, satu telepon, anak tangga… buatkan trailer dengan teks berkelebat untuk film thriller yang makin mendekat.",
+   "Aku ingin menampilkan kata-kata prinsip organisasi pemuda kami dengan huruf besar yang berkelebat cepat dan bertenaga.",
+   "Buat judul pembuka serial baru jadi menegangkan dengan potongan cepat teks dan gambar."
+  ],
+  "silhouette-rhythm": [
+   "Buatkan video musik siluet tentang burung kecil yang selalu tertinggal dari kawanannya lalu belajar mengikuti irama.",
+   "Aku mau video tim dengan siluet para pemain futsal kami yang bergerak seirama saat matahari terbenam.",
+   "Untuk membuka festival lampion, aku ingin menampilkan siluet orang-orang membawa lampion dan menari mengikuti tabuhan kendang."
+  ],
+  "satellite-briefing": [
+   "Aku ingin membandingkan dengan citra satelit asli bagaimana Danau Limboto menyusut dari tahun ke tahun.",
+   "Tolong jelaskan seperti berita singkat sawah-sawah di Demak sebelum dan sesudah banjir dengan citra satelit.",
+   "Aku ingin menunjukkan ke siswa perubahan hutan mangrove di pesisir Kalimantan dalam sepuluh tahun dengan peta satelit."
+  ],
+  "briefing-board": [
+   "Aku ingin membandingkan tiga desain jembatan sungai yang menghubungkan desa kami berdasarkan biaya, kekuatan, dan ukuran nyata.",
+   "Tolong bandingkan di papan tiga lokasi cabang baru dengan data asli harga sewa dan lalu lalang orang.",
+   "Aku ingin membandingkan tiga pilihan listrik rumah — panel surya, genset, baterai — dengan harga sebenarnya."
+  ],
+  "lidar-survey": [
+   "Aku ingin memperlihatkan reruntuhan candi yang tersembunyi di bawah pepohonan di situs Muara Jambi dengan data pindaian laser.",
+   "Tolong tunjukkan tinggi-rendah permukaan lahan proyek konstruksi kami dari data survei laser drone.",
+   "Aku ingin menunjukkan apa yang terlihat kalau pepohonan di situs Trowulan dihapus lewat survei laser."
+  ],
+  "microscope": [
+   "Aku ingin memperbesar bedak dingin kami dengan foto mikroskop asli dan menunjukkan kenapa bagus untuk kulit.",
+   "Tolong perbesar foto sel kulit bawang merah yang dipotret di lab secara terus-menerus sampai ke inti sel untuk siswa.",
+   "Aku ingin membandingkan perbedaan struktur bulir dua sampel padi kami dengan foto mikroskop."
+  ],
+  "archive-lighttable": [
+   "Aku ingin membuka kembali sejarah keluarga dengan menaruh foto pelat kaca dan surat-surat lama kakek di atas meja cahaya.",
+   "Tolong tampilkan 60 tahun sejarah usaha teh kami dengan buku kas asli dan label-label lama.",
+   "Untuk museum, aku ingin memperbesar sebuah naskah lontar kuno di bawah kaca pembesar dan menjelaskan isinya."
+  ],
+  "security-xray": [
+   "Buatkan video lucu saat koper-koper lewat mesin X-ray bandara dan di salah satunya ada kepiting hidup yang bergerak.",
+   "Aku ingin menunjukkan ke pelanggan bagaimana paket di gudang ekspedisi kami diperiksa dengan X-ray.",
+   "Tolong tunjukkan dengan menarik untuk anak-anak apa saja isi power bank kalau dilihat dengan X-ray."
+  ],
+  "dark-documentary": [
+   "Aku ingin menunjukkan bagaimana orang zaman dulu membangun Candi Borobudur seperti film dokumenter yang gelap dan serius.",
+   "Buatkan gaya dokumenter teknik yang merekonstruksi malam tersulit dalam proyek bendungan kami.",
+   "Tolong jelaskan bagaimana teleskop radio raksasa mendengarkan langit seperti film dokumenter antariksa."
+  ],
+  "thermal-camera": [
+   "Tolong tunjukkan kenapa apartemen kami panas dengan melihat dinding, jendela, dan atap seolah lewat kamera termal.",
+   "Aku mau video seperti mengintip hewan-hewan hutan di malam hari dengan kamera termal.",
+   "Aku ingin menunjukkan ke pelanggan bagaimana bengkel listrik kami mencari kabel yang kepanasan dengan kamera termal."
+  ],
+  "circuit-board": [
+   "Tolong tunjukkan dengan gaya papan sirkuit bagaimana listrik mengalir dari PLTA sampai ke charger HP di rumah kami.",
+   "Aku ingin menunjukkan dengan jalur tembaga bagaimana barang toko elektronik kami sampai dari pabrik ke tangan pelanggan.",
+   "Aku ingin membuat siswa tertarik dengan sungai-sungai yang berubah jadi jalur tembaga sampai seluruh kota menyala."
+  ],
+  "firefly-pointillism": [
+   "Buatkan dongeng tentang kunang-kunang yang bertanya-tanya dengan cahayanya di kegelapan sampai menemukan teman-temannya.",
+   "Untuk ulang tahun adikku, aku mau video di mana banyak titik cahaya berkumpul sampai membentuk wajahnya.",
+   "Aku ingin menunjukkan tentang kebersamaan, di mana cahaya kecil setiap anggota komunitas kami bergabung jadi cahaya besar."
+  ],
+  "flow-field": [
+   "Tolong gambarkan dengan garis-garis tinta aliran angin bagaimana Siklon Seroja bergerak dari Laut Sawu ke NTT.",
+   "Aku ingin menjelaskan bagaimana angin muson membawa hujan ke Indonesia dengan ribuan garis tinta yang mengalir.",
+   "Tolong tunjukkan dengan garis-garis yang mengalir arus Bengawan Solo saat musim hujan dan kapan melewati batas siaga."
+  ],
+  "oscilloscope-math": [
+   "Tolong jelaskan di layar osiloskop bagaimana lingkaran-lingkaran kecil yang berputar bertumpuk jadi gelombang kotak.",
+   "Untuk les fisika kami, aku ingin menunjukkan cara kerja gelombang suara dengan garis gelombang hijau.",
+   "Aku ingin menunjukkan ke anak-anak bentuk gelombang setiap pukulan gamelan di layar osiloskop."
+  ],
+  "neon-tubes": [
+   "Untuk pembukaan warung makan malam kami, buatkan cerita kucing neon yang berlarian di antara papan-papan nama.",
+   "Aku mau video malam kota di mana papan neon di Glodok menyala satu per satu.",
+   "Untuk lagu city pop yang kutulis, buatkan video tokoh-tokoh lampu neon kecil yang menari di malam hujan."
+  ],
+  "blueprint": [
+   "Aku ingin menunjukkan mesin perontok padi kecil buatanku digambar, dibongkar, dan dipasang lagi di atas cetak biru.",
+   "Tolong perkenalkan pompa air tenaga surya baru dari perusahaan kami di atas gambar teknik cetak biru.",
+   "Aku ingin menggambar mesin penampung air hujan besar di cetak biru dan menjelaskan cara kerjanya ke anak-anak."
+  ],
+  "iso-infographic": [
+   "Tolong tunjukkan perjalanan dari kebun kopi di Gayo sampai ke cangkir di kedai kopi Jakarta dalam satu dunia kecil.",
+   "Aku ingin menjelaskan proses dari pesanan dibuat sampai tiba di rumah di perusahaan kami dengan gambar-gambar kecil.",
+   "Aku ingin anak-anak paham bagaimana sebutir beras sampai dari sawah ke penggilingan, pasar, lalu ke rice cooker."
+  ],
+  "teardown": [
+   "Tolong bongkar kipas angin produksi kami satu per satu sesuai komponen dan ukuran aslinya, lalu tutup kembali.",
+   "Aku mau video yang membongkar keyboard yang kupakai sampai ke chip-nya dan menampilkan tiap komponen dengan ukuran asli.",
+   "Aku ingin menunjukkan ke siswa SMK otomotif apa saja isi mesin motor dengan membongkarnya per komponen."
+  ],
+  "hardcore-info": [
+   "Tolong jelaskan kenapa sinyal turun kalau HP dipegang di pojok, dengan membongkar HP dan membahas antenanya.",
+   "Aku ingin menunjukkan dengan detail teknik bagian dalamnya kenapa kulkas baru kami lebih hemat listrik.",
+   "Aku ingin menjelaskan ke siswa secara detail kenapa payung bisa terbalik saat angin kencang."
+  ],
+  "precise-mechanism": [
+   "Tolong jelaskan bagaimana roda-roda di dalam jam tangan tanpa baterai berputar, dengan potongan penampang dan warna yang dibedakan.",
+   "Aku ingin menunjukkan ke pelanggan bagaimana mekanisme di dalam mesin jahit lama kami bekerja.",
+   "Tolong potong per komponen supaya siswa jelas melihat bagaimana gigi sepeda berpindah."
+  ],
+  "instruction-manual": [
+   "Buatkan gambar manual sepuluh langkah tentang pasangan suami istri yang pertama kali merakit boks bayi.",
+   "Aku mau video bergaya buku manual supaya pembeli bisa merakit sendiri rak buku dari toko mebel kami.",
+   "Aku ingin menunjukkan cara aman memakai kompor gas langkah demi langkah seperti gambar di buku manual."
+  ],
+  "pen-plotter": [
+   "Aku ingin menunjukkan mesin plotter menggambar Gunung Rinjani dari data ketinggian asli dengan pulpen di bawah lampu meja malam hari.",
+   "Tolong tampilkan peta bukit-bukit dekat desa kami dengan garis kontur yang digambar satu per satu.",
+   "Aku ingin menunjukkan logo studio desain kami digambar perlahan oleh mesin plotter dengan pulpen empat warna."
+  ],
+  "assembly-line-diagram": [
+   "Tolong tunjukkan bagaimana sepiring nasi uduk dicerna tahap demi tahap di dalam tubuh seperti di pabrik.",
+   "Aku ingin menjelaskan bagaimana sebotol air keluar dari pabrik air minum kami dengan diagram proses pabrik.",
+   "Aku ingin menjelaskan ke anak-anak perjalanan setetes darah di dalam tubuh seperti lini produksi pabrik."
+  ],
+  "crayon-book": [
+   "Buatkan dongeng sebelum tidur tentang bulan yang tidak bisa tidur, lalu seorang gadis naik ke atap dan menyanyikan lagu nina bobo.",
+   "Aku mau iklan buku cerita baru di toko buku anak kami yang seperti digambar dengan krayon.",
+   "Aku ingin mengajari anak-anak huruf A sampai Z dengan gambar-gambar krayon."
+  ],
+  "watercolor": [
+   "Tolong tampilkan pemandangan matahari terbit di Gunung Bromo dengan lautan pasir dan kabut, seperti berjalan di dalam lukisan cat air dalam satu shot tanpa putus.",
+   "Untuk biro perjalanan kami, aku mau perjalanan cat air dari pegunungan Dieng sampai pantai selatan Yogyakarta.",
+   "Aku ingin menjelaskan ke anak-anak bagaimana setetes air hujan mengalir dari gunung ke sungai lalu ke laut dengan lukisan cat air."
+  ],
+  "impasto": [
+   "Buatkan video di mana sebuah payung merah mengembang di alun-alun kelabu yang diguyur hujan, lalu warna-warna menyebar mengikuti musik.",
+   "Untuk lagu cinta baruku, aku mau video penuh perasaan dengan warna cat minyak yang tebal.",
+   "Untuk pembukaan galeri kami, buatkan iklan senja di Pura Tanah Lot dengan sapuan cat minyak yang tebal."
+  ],
+  "urban-sketch": [
+   "Tolong tampilkan topi yang terbang tertiup angin di antara gedung-gedung kolonial Kota Lama Semarang, dengan warna yang mengikuti di belakangnya.",
+   "Aku ingin menampilkan kedai kopi kecil kami dan jalannya seperti sketsa pulpen kasar yang diberi sedikit cat air.",
+   "Aku mau catatan perjalanan sambil berjalan dan membuat sketsa di sepanjang Jalan Braga."
+  ],
+  "colored-pencil": [
+   "Tolong tunjukkan dengan potongan bawah tanah bergaya pensil warna bahwa pohon-pohon berbagi makanan lewat benang jamur.",
+   "Aku ingin menunjukkan dengan pensil warna bagaimana air naik dari akar sampai ke bunga di taman kami.",
+   "Aku ingin menjelaskan bagaimana tanaman teratai hidup di bawah air dengan potongan penampang pensil warna seperti buku cerita."
+  ],
+  "risograph": [
+   "Buatkan video berwarna seperti hasil cetak tentang bersepeda Minggu pagi di Jakarta, mampir ke tukang bubur, taman, dan Monas.",
+   "Untuk toko tas handmade kami, aku mau iklan lucu yang seperti dicetak dengan sedikit warna.",
+   "Untuk memperkenalkan zine puisi baru kami, buatkan video bergaya cetak riso dengan warna yang sedikit meleset."
+  ],
+  "halftone-dossier": [
+   "Buatkan berkas kasus lucu yang menyeret kucing gendut kami ke pengadilan karena lari-lari jam empat pagi dan menjatuhkan gelas.",
+   "Aku ingin menampilkan kasus anjing yang menggigiti sandal seperti berkas detektif dengan gambar titik-titik koran lama.",
+   "Untuk toko makanan hewan kami, aku mau iklan lucu tentang kasus kucing yang mencuri makanan."
+  ],
+  "woodcut": [
+   "Buatkan dongeng tentang satu desa yang sepanjang musim mengecor lonceng besar, dan saat pertama dibunyikan hujan abu pun berhenti.",
+   "Aku ingin menunjukkan para perajin tenun ikat kami bekerja dengan gambar seperti cetak cukil kayu.",
+   "Buatkan trailer buku bergaya cukil kayu untuk novel legenda baru yang kutulis."
+  ],
+  "engraving": [
+   "Untuk museum, tolong tampilkan seekor lebah yang diukir garis demi garis di pelat tembaga lalu diberi sedikit cat air.",
+   "Aku mau iklan yang menampilkan warisan usaha madu turun-temurun kami seperti grafir tembaga kuno.",
+   "Aku ingin menampilkan jenis-jenis anggrek Indonesia satu per satu seperti grafir di buku sejarah alam kuno."
+  ],
+  "silkscreen-poster": [
+   "Untuk biro wisata kami, buatkan panduan perjalanan yang menampilkan Bali, Labuan Bajo, dan Toraja masing-masing seperti poster besar.",
+   "Aku ingin menampilkan perjalanan pulang kakakku yang bekerja di luar negeri, poster demi poster.",
+   "Untuk festival musik kami, aku mau iklan bergaya poster sablon."
+  ],
+  "printed-long-take": [
+   "Tolong tampilkan kawanan burung air di Danau Sentarum di sepanjang permukaan danau tanpa putus, seperti satu gambar goresan yang bersambung.",
+   "Aku ingin menampilkan pendakian kami dari kaki sampai puncak gunung sebagai satu lanskap cetak grafir yang tak terputus.",
+   "Aku ingin menampilkan perjalanan perahu menyusuri Sungai Kapuas ke hulu tanpa potongan, seperti satu lukisan cetak yang bersambung."
+  ],
+  "pop-art": [
+   "Tolong jelaskan dengan gambar pop-art yang berulang bahwa kebanyakan pisang di pasar dibiakkan dari satu jenis saja.",
+   "Buatkan iklan es krim baru kami seperti poster pop-art berwarna mencolok.",
+   "Aku ingin menunjukkan berapa banyak gula dalam segelas es teh manis dengan gaya pop-art bertitik-titik."
+  ],
+  "vintage-collage": [
+   "Aku ingin menampilkan sejarah prangko lama Indonesia dengan gaya kolase yang menempelkan gambar arsip dan kertas-kertas tua.",
+   "Tolong tampilkan koleksi uang kertas lama kakek dengan hasil pindaian asli seperti kolase majalah.",
+   "Aku ingin menampilkan sejarah usaha batik tulis keluarga kami dengan menggabungkan iklan dan foto-foto lama."
+  ],
+  "dark-keynote": [
+   "Tolong perkenalkan aplikasi HP baru kami dengan megah seperti acara peluncuran di panggung berlatar gelap.",
+   "Aku mau iklan yang menunjukkan software akuntansi kami merapikan file-file berantakan hanya dengan satu klik.",
+   "Buatkan film peluncuran yang megah untuk memamerkan fitur-fitur baru di acara ulang tahun startup kami."
+  ],
+  "living-screencast": [
+   "Tolong tunjukkan cara memesan barang di aplikasi toko online kami dengan screenshot asli, dipandu tokoh kartun kecil.",
+   "Aku mau tutorial yang menunjukkan langkah demi langkah cara memakai website janji temu klinik kami di layar aslinya.",
+   "Buatkan video di mana tokoh kecil melompat keluar dari rekaman layar asli dan menunjukkan fitur baru software kami."
+  ],
+  "hologram-hud": [
+   "Tolong pindai motor listrik baru kami seperti hologram dan tampilkan baterai, motor, dan remnya dengan bingkai target.",
+   "Untuk pameran dagang, aku ingin menjelaskan spesifikasi bagian dalam alat penyaring air kami dengan tampilan hologram.",
+   "Buatkan video sinematik yang memindai pesawat luar angkasa mainan anakku dengan hologram dan menampilkan bagian-bagiannya."
+  ],
+  "desktop-flythrough": [
+   "Tolong tunjukkan foto kucing yang kupotret melompat dari HP-ku melewati kartu-kartu aplikasi sampai ke HP temanku.",
+   "Aku ingin menunjukkan proses mengirim invoice ke pelanggan dari aplikasi kami dengan kartu-kartu kecil di atas meja.",
+   "Aku mau video di atas meja yang terkena sinar matahari, menjelaskan cara siswa mengirim PR dari HP ke guru."
+  ],
+  "spreadsheet": [
+   "Tolong jelaskan di spreadsheet ke mana pengeluaran rumah tangga kami paling banyak, sambil membuka kolom-kolomnya.",
+   "Aku ingin membandingkan keuntungan dua cabang warung soto kami sel demi sel di spreadsheet.",
+   "Aku ingin menjelaskan ke siswa paradoks Simpson, bagaimana angka total bisa menipu, dengan satu spreadsheet saja."
+  ],
+  "one-bit-dither": [
+   "Aku ingin menunjukkan dengan titik-titik hitam-putih bagaimana foto close-up pertama bulan keluar dari mesin faks baris demi baris.",
+   "Aku ingin menceritakan ulang dengan gaya cetak hitam-putih bagaimana sebuah telegram sampai ke desa di zaman kakek.",
+   "Buatkan pemandangan mesin-mesin tua di percetakan kecil kami yang bekerja di malam hari, dengan gaya titik dua tinta."
+  ],
+  "one-line": [
+   "Tolong gambar seluruh hidup ibuku dengan satu garis saja, dan di akhir pulpennya diserahkan ke cucunya.",
+   "Aku mau iklan sederhana tentang kisah brand toko perhiasan kami yang digambar dengan satu garis tak terputus.",
+   "Untuk pernikahan temanku, aku ingin menggambar dari hari pertama mereka bertemu sampai hari pernikahan dengan satu garis."
+  ],
+  "whiteboard": [
+   "Tolong jelaskan di papan tulis bagaimana HP tahu di mana kita berada, tentang satelit dan GPS.",
+   "Untuk kursus akuntansi online kami, aku ingin mengajarkan cara mencatat pemasukan dan pengeluaran dengan menulis di papan tulis.",
+   "Aku ingin menjelaskan ke karyawan bagaimana sistem pembayaran QRIS di toko kami bekerja di papan tulis."
+  ],
+  "chalkboard": [
+   "Tolong jelaskan dengan kapur di papan tulis dari mana asal kata 'merdeka'.",
+   "Aku ingin menjelaskan di papan tulis benar tidaknya mitos 'mandi malam bikin rematik'.",
+   "Tolong tampilkan satu rumus matematika dari les kami seperti guru yang menulis di papan tulis kelas."
+  ],
+  "sketchnote": [
+   "Tolong tunjukkan berapa banyak madu yang dihasilkan seekor lebah seumur hidupnya, dari bunga sampai botol, dengan sketchnote yang menjadi satu poster.",
+   "Tolong rangkum poin-poin utama seminar bisnis yang kuikuti jadi satu halaman catatan dengan gambar-gambar kecil.",
+   "Aku ingin membuat ringkasan satu halaman tentang layanan toko kami yang digambar dengan ilustrasi dan panah kecil."
+  ],
+  "stick-explainer": [
+   "Tolong jelaskan dengan stick figure bahwa siapa pun di dunia ini terhubung lewat sekitar enam orang.",
+   "Aku ingin menunjukkan program ajak-teman di toko kami dengan stick figure secara sederhana.",
+   "Aku ingin menunjukkan dengan stick figure bagaimana warga desa tetap terhubung dengan keluarga yang bekerja sebagai TKI di luar negeri."
+  ],
+  "ipad-sketch": [
+   "Tolong tunjukkan secangkir kopi Toraja berubah jadi buah kopi merah, lalu dijemur, disangrai, digiling, dan kembali ke cangkir.",
+   "Aku ingin menunjukkan cara membuat klepon dengan gambar-gambar yang berganti warna di satu halaman sketsa.",
+   "Aku ingin menjelaskan proses membuat sabun handmade kami seperti digambar dengan pensil di tablet."
+  ],
+  "marker-paper": [
+   "Tolong hitung dengan spidol di atas kertas seberapa jauh cakrawala dari tepi pantai.",
+   "Untuk siswa les kami, aku ingin menyelesaikan satu soal fisika langkah demi langkah dengan spidol.",
+   "Buatkan cara menghitung persentase diskon di toko kami yang ditulis dengan spidol di atas kertas."
+  ],
+  "ink-wash": [
+   "Buatkan cerita lukisan tinta tentang pendekar yang berjalan di atas permukaan sungai dan membelah arus dengan satu tebasan pedang.",
+   "Untuk merek teh kami, aku mau iklan tenang bergaya lukisan tinta di antara pegunungan dan kabut.",
+   "Aku ingin menampilkan puisi pendek yang kutulis dengan gambar-gambar sapuan tinta yang menyebar."
+  ],
+  "shadow-puppet": [
+   "Tolong tampilkan legenda pemanah yang memanah jatuh sepuluh matahari yang membakar bumi dengan wayang kulit.",
+   "Aku ingin menampilkan dongeng raksasa dan pangeran untuk anak-anak dengan wayang bayangan di layar yang diterangi.",
+   "Untuk pembukaan festival budaya kami, buatkan video undangan bergaya wayang kulit tradisional."
+  ],
+  "ukiyoe": [
+   "Buatkan kisah pengembara yang berjalan ke gunung yang jauh, setiap pemandangannya jadi lukisan cetak kayu, dan puncaknya adalah ombak besar.",
+   "Untuk pembukaan restoran Jepang kami, aku mau iklan bergaya lukisan ukiyo-e.",
+   "Aku ingin menampilkan pendakian ke Gunung Semeru secara puitis dengan gaya lukisan cetak kayu Jepang."
+  ],
+  "papercut-red": [
+   "Buatkan dongeng malam Imlek tentang monster Nian yang datang ke desa lalu diusir oleh guntingan kertas besar milik seorang gadis yang menyala.",
+   "Aku mau video bergaya guntingan kertas merah untuk mengirim ucapan Imlek dari toko kami ke pelanggan.",
+   "Buatkan iklan festival kue bulan untuk toko kue keluarga kami di Glodok dengan gambar guntingan kertas merah."
+  ],
+  "paper-lantern": [
+   "Aku ingin menampilkan perjalanan terakhir sebuah kereta tua dengan lampu jendela yang padam satu per satu, bergaya lampion kertas.",
+   "Untuk hari pensiun kakek, buatkan kisah stasiun kecil tempat ia bekerja yang menyala seperti lampion.",
+   "Untuk hotel wisata kami, aku ingin menampilkan kereta malam yang melintasi jembatan Cikubang menyala seperti lampion."
+  ],
+  "stained-glass": [
+   "Tolong tampilkan kisah ksatria dan naga yang terbangun di setiap panel kaca saat sinar matahari bergerak dari pagi sampai sore.",
+   "Untuk kartu ucapan Natal kami, buatkan dongeng kecil bergaya jendela kaca patri.",
+   "Aku ingin menampilkan warisan Gereja Katedral Jakarta dengan cerita pendek bergaya kaca patri."
+  ],
+  "gilded-illumination": [
+   "Buatkan dongeng tentang dunia yang hanya bersinar emas, saat matahari padam seorang gadis membawa pelita terakhir ke puncak gunung.",
+   "Untuk Lebaran, aku mau video perayaan yang puitis seperti lukisan naskah kuno berhias emas.",
+   "Aku ingin menampilkan kisah awal usaha kerajinan prada emas kami dengan gaya buku bergambar kuno yang berkilau emas."
+  ],
+  "line-art-ink": [
+   "Aku ingin menampilkan sebuah gang di Jakarta dari pagi sampai malam seperti digambar dengan tinta — warung kopi, pedagang keliling, dan lampu-lampu yang menyala malam hari.",
+   "Buatkan warung nasi uduk kecil kami dari saat buka subuh-subuh sampai pelanggan berdatangan dengan gambar garis yang lucu.",
+   "Aku ingin melihat pemandangan desa di tepi Danau Toba dengan pendayung, kucing kecil, dan burung-burung saat matahari terbenam sampai malam."
+  ],
+  "onetake-launch": [
+   "Aplikasi sewa motor kami akan rilis, jadi aku mau video peluncuran sekitar 20 detik. Nanti kukirim screenshot-nya.",
+   "Buatkan teaser modern untuk website kecil kami tempat pesan kado ulang tahun.",
+   "Untuk aplikasi pencatat waktu belajar siswa, aku mau iklan yang tampil dalam satu shot tanpa potongan."
+  ],
+  "onetake-demo": [
+   "Aku mau video yang menjelaskan cara membuat nota dan melihat laporan di aplikasi akuntansi kami dengan suara berbahasa Indonesia.",
+   "Buatkan video langkah demi langkah supaya orang tua paham aplikasi janji temu klinik. Screenshot-nya sudah ada.",
+   "Aku ingin membuat video dua bahasa, Inggris dan Indonesia, tentang 3 fitur baru sistem POS kami."
+  ],
+  "onetake-concept": [
+   "Untuk aplikasi pengiriman, aku mau iklan konsep di mana sekali tekan tombol, barang-barang sampai beruntun satu demi satu.",
+   "Aku ingin iklan kedai kopi yang menampilkan perjalanan dari sebutir biji kopi sampai ke cangkir dalam satu shot tanpa potongan.",
+   "Tolong tunjukkan waktu yang dihemat aplikasi transfer dengan gaya satu tahun yang menyusut jadi satu menit."
+  ],
+  "hf-captions": [
+   "Tolong tambahkan subtitle di video tentang tokoku dan sisipkan kartu nama toko.",
+   "Aku ingin 3 poin utama yang kusampaikan di video wawancaraku muncul sebagai kartu.",
+   "Tolong beri subtitle klip pendek dari Instagram Live supaya tetap bisa dipahami tanpa suara."
+  ],
+  "hf-vertical": [
+   "Buatkan klip vertikal untuk TikTok tentang 3 tips bikin kopi tubruk yang enak.",
+   "Aku mau iklan cepat untuk Reels tentang diskon Lebaran di toko baju kami.",
+   "Tolong tampilkan 5 kebiasaan pagi yang baik untuk Shorts dengan huruf besar-besar."
+  ],
+  "hf-music": [
+   "Tolong buatkan lyric video untuk lagu yang kunyanyikan. Nanti kukirim file lagunya.",
+   "Aku ingin membuat video penuh warna yang pas dengan beat jingle pendek toko kami.",
+   "Tolong buat video dari lagu ulang tahun yang kunyanyikan, dengan foto-foto yang pas dengan beat-nya."
+  ],
+  "logo-reveal": [
+   "Buatkan logo reveal 5 detik untuk logo kedai kopi kami yang dipasang di awal video YouTube.",
+   "Aku ingin logo perusahaan jadi animasi splash saat website dibuka. Nuansanya tenang dan terpercaya.",
+   "Aku ingin logo toko mainan anak muncul sambil melompat-lompat dengan ceria."
+  ],
+  "lottie-anim": [
+   "Aku mau animasi tanda centang yang muncul saat pembayaran di aplikasi berhasil.",
+   "Tolong buat loading spinner untuk website dengan warna ungu brand kami.",
+   "Buatkan animasi lower third yang menampilkan nama dan jabatan untuk dipakai di video YouTube."
+  ],
+  "ad-marker-comic": [
+   "Buatkan kartun tentang kucing kesayangan putriku yang jadi pahlawan dan menyelamatkan anak-anak di kompleks.",
+   "Aku ingin menampilkan kejadian lucu yang terjadi tiap pagi di warung kopiku dengan kartun berwarna seperti buku komik.",
+   "Aku mau kartun lucu tentang dua kakak-adik yang bertengkar saat main perang air waktu Agustusan lalu akur lagi."
+  ],
+  "ad-scrapbook": [
+   "Buatkan video yang menceritakan sejarah keluarga dari pernikahan kakek-nenek sampai sekarang seperti album foto lama.",
+   "Aku ingin menampilkan sejarah pembangunan Candi Prambanan seperti buku tempel berisi kertas-kertas tua dan catatan kecil.",
+   "Aku ingin menceritakan bagaimana usaha tenun songket keluarga kami bertahan lebih dari lima puluh tahun dengan catatan dan foto lama."
+  ],
+  "ad-ballpoint": [
+   "Aku ingin menampilkan dengan tenang ibu yang setiap pagi menyiapkan bekal makan, seperti digambar dengan pulpen.",
+   "Tolong perkenalkan dompet kulit buatan tanganku seperti sketsa pulpen di buku catatan.",
+   "Buatkan cerita pendek kenangan tentang bangku yang dulu kududuki bersama sahabat di sekolah, bergaya sketsa pulpen."
+  ],
+  "ad-broken-colour": [
+   "Aku ingin menampilkan dengan indah perahu kecil yang melintasi Danau Toba saat matahari terbenam seperti lukisan cat minyak.",
+   "Tolong iklankan penginapan kecil kami di tepi pantai dengan cahaya pagi seperti lukisan.",
+   "Buatkan kenangan perjalanan saat balon udara terbang di antara candi-candi Borobudur saat fajar."
+  ],
+  "ad-embroidery": [
+   "Untuk ulang tahun ibu, buatkan video di mana bunga-bunga dijahit setusuk demi setusuk sampai ucapan selamat muncul.",
+   "Untuk toko tas sulam tanganku, aku mau iklan yang seperti sedang disulam dengan jarum dan benang.",
+   "Tolong tunjukkan bunga dan burung pegunungan Dieng yang seperti disulam dengan benang, berganti mengikuti musim."
+  ],
+  "ad-stipple": [
+   "Aku ingin menjelaskan ke anak-anak tahapan hidup kunang-kunang dengan titik-titik seperti gambar di buku sains lama.",
+   "Tolong perkenalkan satu per satu aneka kerang dari Raja Ampat dengan gambar tinta bertitik.",
+   "Untuk toko jamu kami, aku ingin menampilkan tanaman kunyit seperti buku botani kuno."
+  ],
+  "ad-charcoal": [
+   "Karena rindu ayah yang sudah tiada, aku ingin menampilkan lagi hari-hari kami memancing bersama seperti gambar arang.",
+   "Buatkan cerita pendek tentang malam pertama seorang pemuda yang datang dari desa ke kota untuk mencari kerja.",
+   "Untuk kelas melukisku, aku ingin menunjukkan potret wajah yang digambar, dihapus, lalu digambar lagi dengan arang."
+  ],
+  "ad-flat-vector": [
+   "Tolong jelaskan dengan sederhana cara memakai aplikasi pesan sayur online kami.",
+   "Aku ingin menampilkan perjalanan dari Bandung ke Lembang sampai Kawah Putih dengan gambar-gambar modern.",
+   "Tolong jelaskan dengan gambar supaya teman-teman bule paham cara membuat dan memakai lulur tradisional."
+  ],
+  "ad-cut-paper": [
+   "Untuk anakku, buatkan dongeng kancil dan siput yang lomba lari seperti kertas yang digunting dan ditempel.",
+   "Aku ingin menunjukkan ke anak-anak pergantian musim kemarau dan hujan dengan sobekan-sobekan kertas.",
+   "Buatkan iklan lucu kue-kue di toko kueku dengan gambar guntingan kertas warna-warni."
+  ],
+  "ad-toy-theatre": [
+   "Untuk pesta ulang tahun putriku, buatkan dongeng putri dan naga kecil seperti panggung teater dari kardus.",
+   "Untuk mempromosikan pentas festival kelompok wayang golek kami, aku ingin tokoh-tokohnya meluncur masuk ke panggung kecil.",
+   "Buatkan dongeng raksasa dan pangeran untuk ditonton anak-anak, seperti dimainkan di atas panggung kertas kecil."
+  ],
+  "ad-storybook": [
+   "Buatkan dongeng berseri dengan anakku sebagai tokohnya untuk ditonton setiap menjelang tidur.",
+   "Aku ingin video di mana tokoh kucing perpustakaan anak kami mengajak anak-anak datang membaca.",
+   "Buatkan serial dongeng anak tentang anak gajah yang berpetualang dari Way Kambas sampai Bali."
+  ],
+  "ad-folk-tale": [
+   "Tolong jadikan dongeng Si Kancil yang dulu diceritakan ibu waktu aku kecil sebagai cerita pengantar tidur.",
+   "Aku ingin menampilkan cerita bernuansa dongeng tentang keluarga petani di desa Bali yang memanen padi.",
+   "Tolong perkenalkan usaha gula aren desa kami dengan hangat seperti gambar di buku dongeng lama."
+  ],
+  "ad-dream-glaze": [
+   "Aku ingin menampilkan rumah kecil yang melayang di langit, yang kulihat di mimpi waktu kecil, seperti lukisan yang aneh tapi indah.",
+   "Buatkan film pendek artistik tentang pertanyaan dari mana kita datang dan ke mana kita pergi, dengan tangga yang menjulang sampai ke awan.",
+   "Untuk iklan pameran lukisanku, buatkan pemandangan seperti mimpi dengan candi yang muncul di atas permukaan danau."
+  ],
+  "arch-diagram": [
+   "Tolong jelaskan dengan diagram bagaimana pesanan dari aplikasi kami sampai ke dapur, dimasak, lalu sampai ke kurir.",
+   "Aku ingin karyawan baru paham proses di apotek keluarga kami, dari pemesanan barang ke gudang, etalase, sampai kasir.",
+   "Buatkan video bergambar untuk siswa tentang bagaimana uang mengalir di sistem bank saat kita transfer dari HP."
+  ],
+  "doc-mix": [
+   "Buatkan dokumenter sekitar 3 menit tentang seberapa besar paus biru dan bagaimana ia berevolusi.",
+   "Aku mau video yang menjelaskan dengan peta dan diagram bagaimana Borobudur dibangun dan bagaimana ia bisa tahan gempa.",
+   "Buatkan video 1 menit untuk Shorts yang membandingkan bintang-bintang terbesar di alam semesta dengan matahari, lengkap dengan fakta yang bikin takjub."
+  ]
+ }
+}

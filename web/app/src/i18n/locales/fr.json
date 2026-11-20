@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "Retirer {name}",
+  "att.tooBig": "Non ajouté (plus de 500 Mo) : {names}",
+  "att.trayLabel": "Fichiers joints",
+  "board.addHint": "Images, extraits, voix, musique, documents",
+  "board.addRefs": "Ajouter des références",
+  "board.addStyle": "+ Mélanger un style",
+  "board.aspect": "Format",
+  "board.blendStyle": "Mélangé",
+  "board.chatTitle": "Planifier le film {n} avec Claude",
+  "board.close": "Fermer",
+  "board.delete": "Supprimer",
+  "board.deleteConfirm": "Supprimer {name} de ce projet ?",
+  "board.deleteError": "Impossible de supprimer le fichier",
+  "board.done": "Terminé ({n})",
+  "board.download": "Télécharger",
+  "board.dropHere": "Dépose des fichiers pour les ajouter à ce projet",
+  "board.emptyBody": "Dépose ici des images, des extraits, une voix ou de la musique, puis planifie le premier film avec Claude dans le chat.",
+  "board.emptyTitle": "Un projet vide",
+  "board.filter.all": "Tout",
+  "board.filter.films": "Films",
+  "board.filter.made": "Créé par Claude",
+  "board.filter.refs": "Références",
+  "board.filterLabel": "Afficher",
+  "board.helloNoStyle": "Salut. Choisis un style ci-dessus (ou touche une suggestion), puis dis-moi ce que doit être le film. Je te poserai des questions sur tout ce qui n'est pas clair avant de le créer.",
+  "board.hint": "Choisis des références avec +, puis planifie le prochain film dans le chat",
+  "board.inProject": "Dans ce projet",
+  "board.length": "Durée",
+  "board.made": "Créé par Claude",
+  "board.mainStyle": "Style principal",
+  "board.make": "Créer la vidéo",
+  "board.makeError": "Impossible de lancer le film",
+  "board.makeHint": "Créer le film maintenant (Ctrl/⌘ + Enter)",
+  "board.newChat": "Nouveau chat",
+  "board.open": "Ouvrir {name}",
+  "board.pick": "Utiliser dans le prochain film",
+  "board.pickHint": "La première que tu choisis mène ; les autres y sont mélangées.",
+  "board.pickStyle": "Choisis un style",
+  "board.pickStyles": "Choisis des styles",
+  "board.picked": "Dans le prochain film",
+  "board.pickedLabel": "Références pour le prochain film",
+  "board.placeholder": "Décris le film {n} : ce qui se passe, qui y figure, l'ambiance…",
+  "board.planFirst": "Le planifier d'abord dans un chat →",
+  "board.promptLabel": "Ce que doit être le prochain film",
+  "board.ref": "Référence",
+  "board.removeStyle": "Retirer {name}",
+  "board.replyPlaceholder": "Répondre à Claude…",
+  "board.searchStyles": "Rechercher des styles",
+  "board.starting": "Démarrage…",
+  "board.suggestAgain": "Suggérer à nouveau",
+  "board.suggested": "Suggéré",
+  "board.tooShort": "Écris un peu plus sur le film (au moins 10 caractères).",
+  "board.unpick": "Ne pas utiliser",
+  "board.unpickName": "Ne pas utiliser {name}",
+  "board.uploadError": "Impossible d'ajouter les fichiers",
+  "board.uploading": "Ajout de {n}…",
+  "board.usedBefore": "Utilisé dans ce projet",
+  "board.voice": "Langue de la narration",
+  "film.askHead": "Claude te pose une question — le travail reprend dès que tu réponds",
+  "film.attach": "Joindre des fichiers",
+  "film.backSingle": "Vidéos uniques",
+  "film.briefTitle": "Brief rédigé par Claude",
+  "film.cancel": "Arrêter",
+  "film.canceledNote": "Cette vidéo a été arrêtée.",
+  "film.chatIdle": "Envoie un message pour continuer à travailler sur cette vidéo",
+  "film.chatLive": "La vidéo est en cours de création (inutile de recliquer). Le travail de Claude s'affiche ici en direct.",
+  "film.chatTitle": "Discuter avec Claude",
+  "film.downloadFile": "Télécharger {name}",
+  "film.downloadMp4": "Télécharger le MP4",
+  "film.dropHere": "Dépose des fichiers ici pour les envoyer à Claude",
+  "film.elapsedDone": "en {time}",
+  "film.elapsedLive": "{time} écoulé",
+  "film.estimateHint": "Le pourcentage est une estimation selon l'étape où en est Claude. Une vidéo prend en général 10 à 20 minutes.",
+  "film.failedNote": "La vidéo n'est pas encore prête. Regarde ce qui s'est passé dans le chat à droite — réponds-y et le travail reprendra.",
+  "film.headDone": "Terminé",
+  "film.headFailed": "Arrêté — réponds dans le chat pour continuer",
+  "film.headQueued": "En file d'attente",
+  "film.headRunning": "En cours",
+  "film.imagesGot": "{n} images pour l'instant",
+  "film.inputsTitle": "Éléments fournis",
+  "film.loadError": "Impossible de charger ce film",
+  "film.loading": "Chargement…",
+  "film.making": "Claude crée la vidéo…",
+  "film.noProject": "Aucun",
+  "film.now": "Maintenant",
+  "film.phLive": "Envoie une note à Claude… (lue avant l'étape suivante)",
+  "film.phQuestion": "Réponds à la question de Claude…",
+  "film.phResume": "Réponds… (l'envoi reprend là où ça s'est arrêté)",
+  "film.phSucceeded": "Dis ce que tu veux changer… (l'envoi lance la modification)",
+  "film.progressLabel": "Progression",
+  "film.projectFallback": "Projet",
+  "film.projectLabel": "Projet :",
+  "film.queuedWait": "En attente dans la file…",
+  "film.send": "Envoyer",
+  "film.sendError": "Envoi impossible",
+  "film.sendLabel": "Écrire à Claude",
+  "film.sizeKb": "{n} Ko",
+  "film.stage.build": "Créer visuels, animation et son",
+  "film.stage.finish": "Exporter la vidéo",
+  "film.stage.images": "Générer les images avec Flow AI",
+  "film.stage.plan": "Écrire le script",
+  "film.stage.read": "Étudier le style",
+  "film.stage.render": "Rendu et vérification",
+  "film.steps": "{n} étapes",
+  "film.tagAnswer": "Réponse",
+  "film.tagNote": "Note",
+  "film.tagPlan": "Échange de préparation",
+  "film.working": "En cours…",
+  "lang.label": "Langue",
+  "nav.label": "Studio",
+  "nav.new": "Nouvelle vidéo",
+  "nav.projects": "Mes projets",
+  "new.all": "Tous ({n})",
+  "new.aspect": "Format",
+  "new.attach": "Joindre des fichiers",
+  "new.attachTitle": "Joindre des fichiers (tu peux aussi les glisser ou les coller)",
+  "new.attachedCount": "{n} ajouté(s)",
+  "new.badgeFlow": "✦ Images Flow AI",
+  "new.badgeNoGen": "✦ Pas de générateur d'images",
+  "new.cancel": "Annuler",
+  "new.category": "Catégorie",
+  "new.create": "Créer",
+  "new.dropHere": "Dépose des fichiers ici",
+  "new.duration": "Durée",
+  "new.episode": "Épisode {n}",
+  "new.filesNote": "Voici quelques fichiers.",
+  "new.flowBody": "Claude ouvre Flow dans ton Chrome et crée les images nécessaires. Garde Chrome ouvert pendant la création de la vidéo. Cela consomme quelques crédits Flow.",
+  "new.flowTitle": "✦ Les images sont créées automatiquement avec Google Flow AI.",
+  "new.hello": "Salut ! Décris-moi simplement la vidéo que tu veux dans le style {style}. Si quelque chose n'est pas clair, je te demanderai.",
+  "new.language": "Langue",
+  "new.listSep": ", ",
+  "new.make": "Créer la vidéo",
+  "new.makeRest": "Laisser Claude décider du reste et lancer",
+  "new.material": "Ajouter des éléments",
+  "new.materialHint": "fichiers, audio, photos (facultatif)",
+  "new.maxFiles": "Tu peux joindre jusqu'à {max} fichiers.",
+  "new.messageLabel": "Écrire à Claude",
+  "new.ncAfter": ". Pour un client ou un usage professionnel, il te faut une licence commerciale (onetake Pro).",
+  "new.ncBefore": "Ce style est gratuit uniquement pour un usage ",
+  "new.ncStrong": "non commercial",
+  "new.needField": "Ce style nécessite : {field}.",
+  "new.needs": "Nécessite {list}",
+  "new.newProject": "+ Nouveau projet…",
+  "new.noGen": "Ce style a besoin d'images générées par IA, et aucun générateur d'images n'est activé sur ce serveur : il ne peut donc pas encore créer de vidéos.",
+  "new.noProject": "Aucun projet (vidéo unique)",
+  "new.noReply": "Claude n'a pas pu répondre pour le moment",
+  "new.pickLeft": "Choisis un style dans la liste.",
+  "new.pickStyle": "Choisis d'abord un style.",
+  "new.pickStyleShort": "Choisis d'abord un style",
+  "new.placeholder": "Écris ce que tu veux… glisse ou colle ici images et fichiers",
+  "new.planDraft": "Plan provisoire (le brief que Claude enverra)",
+  "new.planReady": "✓ Plan de la vidéo (le brief que Claude enverra)",
+  "new.project": "Projet",
+  "new.projectFailed": "Impossible de créer le projet",
+  "new.projectName": "Nom du projet",
+  "new.samples": "Exemples : touche-en un pour l'envoyer",
+  "new.searchLabel": "Rechercher un style",
+  "new.searchPlaceholder": "Rechercher : aquarelle, explication, actu…",
+  "new.seconds": "{n} s",
+  "new.send": "Envoyer",
+  "new.startFailed": "Impossible de lancer la vidéo",
+  "new.starting": "Démarrage…",
+  "new.step1": "1. Choisis un style",
+  "new.step2": "2. Prépare avec Claude",
+  "new.styleBeforeFiles": "Choisis un style avant d'ajouter des fichiers.",
+  "new.stylesLabel": "Styles",
+  "new.tellFirst": "Dis d'abord à Claude ce que tu veux.",
+  "new.thinking": "Réflexion…",
+  "new.uploading": "Envoi des fichiers…",
+  "projects.addEpisode": "+ Épisode {n}",
+  "projects.assets": "Éléments réutilisables ({n}) :",
+  "projects.back": "← Mes projets",
+  "projects.bibleEmpty": "Claude écrira ici après le premier épisode.",
+  "projects.bibleHint": "Les notes de Claude sur les personnages, les lieux et le style, relues et mises à jour à chaque épisode",
+  "projects.bibleTitle": "Bible de la série",
+  "projects.cancel": "Annuler",
+  "projects.cancelEdit": "Annuler",
+  "projects.continueEpisode": "Continuer avec l'épisode {n}",
+  "projects.create": "Créer",
+  "projects.createError": "Création impossible",
+  "projects.descLabel": "De quoi ça parle",
+  "projects.descPlaceholder": "Personnages, univers, style… Claude le lit à chaque épisode",
+  "projects.edit": "Modifier le nom/la description",
+  "projects.emptyBody": "Un projet, c'est un dossier. Regroupe une série d'épisodes et Claude réutilise les personnages, les lieux, le style et la musique.",
+  "projects.emptyCta": "Crée ton premier projet",
+  "projects.emptyTitle": "Aucun projet pour l'instant",
+  "projects.episodeCount": "Épisodes : {n}",
+  "projects.episodeN": "Épisode {n}",
+  "projects.firstEpisodeCta": "Créer l'épisode 1",
+  "projects.loadError": "Chargement impossible",
+  "projects.loading": "Chargement…",
+  "projects.nameLabel": "Nom du projet",
+  "projects.namePlaceholder": "ex. La guerre des boulangeries",
+  "projects.nameRequired": "Donne-lui un nom",
+  "projects.newProject": "+ Nouveau projet",
+  "projects.newVideo": "Nouvelle vidéo",
+  "projects.noEpisodesBody": "Le premier épisode définit les personnages, les lieux et le style. Les suivants les réutilisent.",
+  "projects.noEpisodesTitle": "Aucun épisode pour l'instant",
+  "projects.optional": "facultatif",
+  "projects.save": "Enregistrer",
+  "projects.saveError": "Enregistrement impossible",
+  "projects.seconds": "{n} s",
+  "projects.singleCount": "Films : {n}",
+  "projects.singles": "Vidéos uniques",
+  "projects.singlesHint": "Vidéos hors projet",
+  "projects.title": "Mes projets",
+  "src.anyFile": "tout type de fichier",
+  "src.badType": "{name} : ce type de fichier n'est pas accepté.",
+  "src.canSource": "Pas de souci si tu n'en as pas. Claude cherchera lui-même des informations publiques.",
+  "src.choose": "Choisir des fichiers",
+  "src.closeCommon": "− Fermer",
+  "src.dropOr": "ou glisse-les ici · {types} · jusqu'à {max}",
+  "src.material.none": "Dessiné de A à Z",
+  "src.material.optional": "Tes propres éléments sont bienvenus",
+  "src.material.required": "Basé sur des informations réelles",
+  "src.maxFiles": "{max} fichiers maximum.",
+  "src.openCommon": "+ Ajouter ta voix, ta musique, tes photos, ton logo",
+  "src.optional": "facultatif",
+  "src.remove": "Retirer",
+  "src.removeLabel": "Retirer {name}",
+  "src.required": "obligatoire",
+  "src.tooBig": "{name} dépasse 500 Mo.",
+  "status.canceled": "Annulée",
+  "status.failed": "Échec",
+  "status.queued": "En attente",
+  "status.running": "En création",
+  "status.succeeded": "Prête"
+ },
+ "style": {
+  "3D model": "Modèle 3D",
+  "A 16-bit pixel RPG drawn in code.": "Un RPG en pixel art 16 bits dessiné en code.",
+  "A 1930s rubber-hose cartoon drawn in code.": "Un dessin animé « rubber hose » des années 1930 dessiné en code.",
+  "A 3D world redrawn in crayon, all in code.": "Un monde en 3D redessiné aux crayons de cire, entièrement en code.",
+  "A 60s spy title sequence cut from paper in code.": "Un générique de film d'espionnage des années 60 découpé dans du papier, en code.",
+  "A Chinese ink painting made in code.": "Une peinture à l'encre chinoise réalisée en code.",
+  "A Memphis-style diorama built in code.": "Un diorama style Memphis construit en code.",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "Un PNG, JPG ou SVG du logo, le plus grand et le plus net possible.",
+  "A beat-locked game show drawn in code; no source material needed.": "Un jeu télévisé calé sur le rythme, dessiné en code ; aucun élément source nécessaire.",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "Un bulletin d'infos fait de graphismes en code ; tes vidéos, photos ou logo peuvent y être intégrés.",
+  "A colour-coded mechanism modelled and animated in code.": "Un mécanisme codé par couleurs, modélisé et animé en code.",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "Une vue en coupe aux crayons de couleur dessinée en code ; aucun élément source nécessaire.",
+  "A copperplate engraving drawn in code from your facts.": "Une gravure sur cuivre dessinée en code à partir de tes faits.",
+  "A crayon picture book drawn in code; no source material needed.": "Un livre d'images aux crayons de cire dessiné en code ; aucun élément source nécessaire.",
+  "A drawing or photo of the character to keep the same in every scene.": "Un dessin ou une photo du personnage, pour qu'il reste identique dans chaque scène.",
+  "A drawn production line explaining a process; no source material needed.": "Une chaîne de production dessinée qui explique un processus ; aucun élément source nécessaire.",
+  "A fictional glass product rendered in code; real products are not reproduced.": "Un produit en verre fictif rendu en code ; les vrais produits ne sont pas reproduits.",
+  "A film whose feel you want; its rhythm is measured, not copied.": "Un film dont tu aimes l'ambiance ; son rythme est mesuré, pas copié.",
+  "A four-colour pop-art print made in code.": "Une sérigraphie pop art en quatre couleurs réalisée en code.",
+  "A gilded manuscript painting made in code.": "Une enluminure dorée réalisée en code.",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "Un fil de fer lumineux de ton objet, modélisé en code ou à partir de ton fichier 3D.",
+  "A layered paper-cut lightbox built in code.": "Une boîte lumineuse en papier découpé à plusieurs couches, construite en code.",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "Une vue en coupe au trait d'une machine, modélisée et dessinée en code.",
+  "A low-poly island world built in code.": "Un monde insulaire low poly construit en code.",
+  "A mid-century cartoon drawn in code from your steps.": "Un dessin animé des années 50 dessiné en code à partir de tes étapes.",
+  "A model of your object to show as a wireframe.": "Un modèle de ton objet à montrer en fil de fer.",
+  "A moving knife-painted oil painting made in code.": "Une peinture à l'huile au couteau, animée et réalisée en code.",
+  "A paper pop-up book on a real-looking desk, made in code.": "Un livre pop-up en papier sur un bureau réaliste, fait en code.",
+  "A pen-and-wash urban sketch drawn in code.": "Un croquis urbain à la plume et au lavis dessiné en code.",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "Une photo ou une image à retravailler en gravure sur bois, ex. un portrait.",
+  "A picture computed in spreadsheet cells; can use your own table.": "Une image calculée dans les cellules d'un tableur ; tu peux utiliser ton propre tableau.",
+  "A pixel-art miniature world built in code.": "Un monde miniature en pixel art construit en code.",
+  "A post, notes or a sketch of the system to draw from.": "Un post, des notes ou un croquis du système à dessiner.",
+  "A printed case file with halftone characters, drawn in code.": "Un dossier imprimé avec des personnages en similigravure, dessiné en code.",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "Une ville miniature procédurale filmée façon tilt-shift, faite en code.",
+  "A real simulation of little creatures run and filmed in code.": "Une vraie simulation de petites créatures, exécutée et filmée en code.",
+  "A risograph print made in code.": "Une impression risographie réalisée en code.",
+  "A scene seen through a thermal camera, simulated in code.": "Une scène vue par une caméra thermique, simulée en code.",
+  "A sci-fi sitcom cartoon drawn in code.": "Un dessin animé de sitcom de science-fiction dessiné en code.",
+  "A scratchboard landscape long take made in code.": "Un long plan-séquence de paysage en carte à gratter réalisé en code.",
+  "A silkscreen travel poster printed in code.": "Une affiche de voyage sérigraphiée imprimée en code.",
+  "A sketchnote page drawn in code.": "Une page de sketchnote dessinée en code.",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "Un film de lancement de logiciel avec une interface abstraite faite en code ; ton logo donne la couleur d'accent.",
+  "A stained-glass window lit in code.": "Un vitrail illuminé en code.",
+  "A table whose values drive the picture.": "Un tableau dont les valeurs pilotent l'image.",
+  "A tablet sketch drawn and coloured in code.": "Un croquis sur tablette dessiné et colorié en code.",
+  "A toy-brick world built and animated in code.": "Un monde en briques de jouet construit et animé en code.",
+  "A track you have the rights to; otherwise music is composed for the film.": "Un morceau dont tu as les droits ; sinon, une musique est composée pour le film.",
+  "A track you have the rights to; the film is cut to it.": "Un morceau dont tu as les droits ; le film est monté dessus.",
+  "A two-ink dithered 3D world made in code.": "Un monde 3D tramé en deux encres réalisé en code.",
+  "A vertical clip; set the frame to 9:16.": "Un clip vertical ; règle le format sur 9:16.",
+  "A watercolour painting brushed in code.": "Une aquarelle peinte au pinceau en code.",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "Une maquette blanche de vrais bâtiments, à partir de données ouvertes ou de tes plans, éclairée par des données projetées.",
+  "A whiteboard explainer drawn in code.": "Une vidéo explicative sur tableau blanc dessinée en code.",
+  "An SVG, logo or icon to animate, if there is one.": "Un SVG, logo ou icône à animer, s'il y en a un.",
+  "An assembly-manual drawing made in code from your steps.": "Un dessin de notice de montage réalisé en code à partir de tes étapes.",
+  "An isometric infographic drawn in code.": "Une infographie isométrique dessinée en code.",
+  "An isometric scene of people following a rule, made in code.": "Une scène isométrique de personnes qui suivent une règle, faite en code.",
+  "An old recording you own that can play under the archive.": "Un vieil enregistrement qui t'appartient et peut accompagner les archives.",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "Des écrans d'app en cartes de papier sur un bureau, faits en code ; couleurs de marque bienvenues.",
+  "Archive film or video about your subject.": "Des films ou vidéos d'archive sur ton sujet.",
+  "Archive scans": "Scans d'archives",
+  "Article or notes": "Article ou notes",
+  "Audio recordings or readings such as telemetry or weather.": "Enregistrements audio ou relevés, comme de la télémétrie ou de la météo.",
+  "BOM or spec sheet": "Nomenclature ou fiche technique",
+  "Bill of materials and spec sheet for part names and numbers.": "Nomenclature et fiche technique pour les noms et références des pièces.",
+  "Black silhouettes moving to the beat, made in code.": "Des silhouettes noires qui bougent en rythme, faites en code.",
+  "Brand feel": "Esprit de marque",
+  "Brand fonts you are licensed to use.": "Les polices de ta marque dont tu as la licence.",
+  "Building data": "Données des bâtiments",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "Construit à partir des fichiers CAO d'un produit ; obligatoire pour ton propre produit, sinon on utilise du matériel open source.",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "Construit à partir d'un vrai scan de microscope ; envoie le tien ou on trouve une lame libre de droits.",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "Construit à partir de vrais objets d'archive ; envoie tes scans ou on utilise des collections du domaine public.",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "Construit à partir de vrais points de scan laser ; envoie ton scan ou on utilise des relevés LiDAR publics.",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "Construit à partir de vraies photos des objets ; envoie les tiennes ou on utilise des photos libres de droits.",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "Construit à partir d'images en temps réel d'un événement ; envoie les tiennes ou on utilise des archives du domaine public.",
+  "Built from your product: screenshots and a link make the UI and copy real.": "Construit à partir de ton produit : captures d'écran et lien rendent l'interface et les textes authentiques.",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "Basé sur l'altitude réelle et l'imagerie satellite du lieu, avec tes données qui brillent par-dessus.",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "Basé sur de vraies images de match ; envoie tes clips ou on cherche des images sous licence libre.",
+  "CAD files": "Fichiers CAO",
+  "Captions and cards are added over your own video.": "Des sous-titres et des cartons sont ajoutés sur ta propre vidéo.",
+  "Carved in code; a photo can be recut into a woodcut plate.": "Gravé en code ; une photo peut être retravaillée en planche de gravure sur bois.",
+  "Chalk writing and drawing made in code; no source material needed.": "Écriture et dessin à la craie faits en code ; aucun élément source nécessaire.",
+  "Character designs": "Designs de personnages",
+  "Character reference": "Référence du personnage",
+  "Characters and scenes made of glowing points, all in code.": "Personnages et scènes faits de points lumineux, entièrement en code.",
+  "Clip links": "Liens des clips",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "Collage de vraies gravures et d'éphémères du domaine public, découpés à la main.",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "Recoupe de vraies vidéos, photos, documents et données d'un même événement ; les tiens passent en premier.",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "Monté à partir de vrais films d'archive, imprimés et enregistrements ; les tiens d'abord, sinon des archives du domaine public.",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "Monté à partir de vraies vidéos, photos et documents sources ; les tiens d'abord, les archives publiques comblent les manques.",
+  "Cut to your own song; send the track.": "Monté sur ta propre chanson ; envoie le morceau.",
+  "Dashcam, CCTV, phone or archive video of the event.": "Vidéo de dashcam, de vidéosurveillance, de téléphone ou d'archive de l'événement.",
+  "Data to plot": "Données à représenter",
+  "Dataset": "Jeu de données",
+  "Describe the voice you want, e.g. calm female, British English.": "Décris la voix que tu veux, ex. féminine et posée, accent britannique.",
+  "Documents": "Documents",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "Entièrement dessiné en code en texte de terminal lumineux ; aucun élément source nécessaire.",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "Entièrement dessiné en code en Art déco or et noir ; aucun élément source nécessaire.",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "Dessiné en code ; tes vieux clips peuvent être redessinés à l'encre d'époque.",
+  "Drawn on a blueprint sheet in code; no source material needed.": "Dessiné sur un plan d'architecte en code ; aucun élément source nécessaire.",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "Trace un vrai réseau à partir de données vérifiées ; les tiennes d'abord, sinon les données ouvertes de l'opérateur.",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "Monté à partir de vraies images d'un lieu ; envoie les tiennes ou on trouve des clips libres de droits.",
+  "Event footage": "Images de l'événement",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "Chaque trait est un vrai chiffre ; envoie ton jeu de données ou on utilise des données sous licence libre.",
+  "Family, company or sports clips to redraw as ink.": "Clips de famille, d'entreprise ou de sport à redessiner à l'encre.",
+  "Field data": "Données de terrain",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "Remplit des silhouettes d'animaux avec de vraies photos de paysages ; les tiennes ou du domaine public.",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "Des formes Bauhaus plates proportionnées à tes chiffres ; aucun élément source nécessaire.",
+  "Flat science explainer zooming across scales, drawn in code.": "Une explication scientifique en aplats qui zoome d'une échelle à l'autre, dessinée en code.",
+  "Fonts": "Polices",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "Vidéos ou photos que tu as tournées ou dont tu as les droits ; le reste vient de sources ouvertes ou est créé.",
+  "Generated images": "Images générées",
+  "Gridded wind, current or flow data, if you have it.": "Données de vent, de courant ou de flux sur grille, si tu en as.",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "Animé des années 80 au look peint à la main, fait en code ; aucun élément source nécessaire.",
+  "Key points for cards": "Points clés pour les cartons",
+  "Landscape photos": "Photos de paysages",
+  "Large, clear photos of the real objects being compared.": "Grandes photos nettes des vrais objets comparés.",
+  "Laser scan": "Scan laser",
+  "Line-ups or event data": "Compositions d'équipe ou données de match",
+  "Line-ups or event data for the match.": "Compositions d'équipe ou données du match.",
+  "Lines, stations, opening dates, lengths or ridership.": "Lignes, stations, dates d'ouverture, longueurs ou fréquentation.",
+  "Link to the product or its documentation.": "Lien vers le produit ou sa documentation.",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "Liens de vidéos YouTube/TikTok à commenter ou citer, séparés par des espaces.",
+  "Logos": "Logos",
+  "Logos to show, ideally SVG or transparent PNG.": "Logos à afficher, idéalement en SVG ou PNG transparent.",
+  "Lyrics": "Paroles",
+  "Marker drawing on paper, made in code.": "Dessin au marqueur sur papier, fait en code.",
+  "Match clips you have the rights to use.": "Clips de match que tu as le droit d'utiliser.",
+  "Microscope scans": "Scans de microscope",
+  "Music": "Musique",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "Noms, chiffres ou points à afficher en cartons ; sinon ils sont tirés de ce qui est dit.",
+  "Narration script": "Texte de narration",
+  "Needs an image generator for characters and panels; your designs and products come first.": "Nécessite un générateur d'images pour les personnages et les cases ; tes designs et produits passent en premier.",
+  "Needs an image generator for the characters; your own designs come first.": "Nécessite un générateur d'images pour les personnages ; tes propres designs passent en premier.",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "Nécessite un générateur d'images pour les planches de marionnettes ; tes propres designs de personnages passent en premier.",
+  "Neon signs built and animated in code.": "Des enseignes au néon construites et animées en code.",
+  "Network data": "Données du réseau",
+  "Newspapers, magazines, letters or documents, scanned.": "Journaux, magazines, lettres ou documents scannés.",
+  "Object photos": "Photos d'objets",
+  "Objects seen through an X-ray console, modelled in code.": "Des objets vus à travers une console à rayons X, modélisés en code.",
+  "Old film or video about your subject.": "Vieux films ou vidéos sur ton sujet.",
+  "One character, kept the same in every scene and episode.": "Un personnage, identique dans chaque scène et chaque épisode.",
+  "One continuous line drawn in code.": "Une seule ligne continue dessinée en code.",
+  "One idea carries the whole ad; your product appears as the result.": "Une seule idée porte toute la pub ; ton produit apparaît comme le résultat.",
+  "Only if no image generator is connected: images made from our prompts.": "Uniquement si aucun générateur d'images n'est connecté : images créées à partir de nos prompts.",
+  "Period recording": "Enregistrement d'époque",
+  "Photos": "Photos",
+  "Photos of people, products or places that should appear.": "Photos de personnes, produits ou lieux à faire apparaître.",
+  "Photos of the places the animal belongs to; shown in black and white.": "Photos des lieux où vit l'animal ; affichées en noir et blanc.",
+  "Pictograms and cards animated in code.": "Pictogrammes et cartons animés en code.",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "Nom du lieu ou coordonnées lat/lon, si ce n'est pas clair d'après ton sujet.",
+  "Place or coordinates": "Lieu ou coordonnées",
+  "Plans, a city model or survey heights for your site.": "Plans, maquette de ville ou relevés d'altitude de ton site.",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "Tracé par un traceur à stylo ; cartes et relevés utilisent de vraies données que tu envoies ou qu'on trouve.",
+  "Preferred voice": "Voix souhaitée",
+  "Print scans": "Scans d'imprimés",
+  "Product link": "Lien du produit",
+  "Rapid microgames in changing art styles, all made in code.": "Des micro-jeux rapides dans des styles graphiques changeants, entièrement faits en code.",
+  "Real maths drawn as oscilloscope light, computed in code.": "De vraies maths dessinées en lumière d'oscilloscope, calculées en code.",
+  "Real statistics built as physical objects; your own numbers or published open data.": "De vraies statistiques transformées en objets physiques ; tes propres chiffres ou des données ouvertes publiées.",
+  "Recordings or data": "Enregistrements ou données",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "Remonté à partir de vrais films d'archive, photos et documents ; les tiens d'abord, les archives comblent les manques.",
+  "Red paper-cut scenes made in code.": "Des scènes en papier découpé rouge faites en code.",
+  "Redraws your real product's interface; screenshots help it match exactly.": "Redessine l'interface de ton vrai produit ; des captures d'écran aident à la reproduire fidèlement.",
+  "Reference clip": "Clip de référence",
+  "Reference photo": "Photo de référence",
+  "Rendered found-footage of empty interiors, all made in code.": "Des images « found footage » d'intérieurs vides, entièrement rendues en code.",
+  "Reports, statements or memos about the event.": "Rapports, déclarations ou notes sur l'événement.",
+  "Routes or map data": "Itinéraires ou données cartographiques",
+  "Routes, points or areas to draw on the map.": "Itinéraires, points ou zones à tracer sur la carte.",
+  "STEP, IGES or KiCad exports of your product.": "Exports STEP, IGES ou KiCad de ton produit.",
+  "SVG or icon": "SVG ou icône",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "Scans de négatifs, lettres, photos ou coupures de presse dont tu as les droits.",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "Scans de gravures anciennes, timbres ou éphémères dont tu as les droits.",
+  "Scans of reports, brochures, letters or photographs.": "Scans de rapports, brochures, lettres ou photographies.",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "Des scènes révélées par une lumière de scanner, construites en code ; aucune vraie donnée de scan nécessaire.",
+  "Schedules, filings or results shown as paper.": "Calendriers, dépôts ou résultats présentés sur papier.",
+  "Scratched-film animation made in code.": "Animation sur pellicule grattée réalisée en code.",
+  "Screens of your product so the UI is redrawn accurately.": "Écrans de ton produit pour redessiner l'interface fidèlement.",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "Envoie ton logo ; il est redessiné en formes vectorielles nettes et animé.",
+  "Shadow puppets on a lit screen, made in code.": "Des ombres chinoises sur un écran éclairé, faites en code.",
+  "Song lyrics, if this is a music video.": "Paroles de la chanson, s'il s'agit d'un clip musical.",
+  "Stick figures act out the idea, drawn in code.": "Des bonshommes bâtons mettent l'idée en scène, dessinés en code.",
+  "Streamlines of a real or modelled field such as wind or currents.": "Lignes de courant d'un champ réel ou modélisé, comme le vent ou les courants marins.",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "Relevés, terrain ou données mesurées à représenter, si la planche montre des données réelles.",
+  "Swiss grid motion graphics made in code.": "Motion design en grille suisse réalisé en code.",
+  "The report or document the numbers come from, as PDF.": "Le rapport ou document d'où viennent les chiffres, en PDF.",
+  "The report your figures come from.": "Le rapport d'où viennent tes chiffres.",
+  "The site to survey, if not clear from your topic.": "Le site à relever, si ce n'est pas clair d'après ton sujet.",
+  "The talking video to caption; it is kept as it is.": "La vidéo parlée à sous-titrer ; elle est conservée telle quelle.",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "Trois mots pour décrire comment la marque doit bouger, ex. calme, précise, chaleureuse.",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "Timelapses, hyperlapses, vues aériennes ou photos du lieu.",
+  "UI screenshots": "Captures d'écran de l'interface",
+  "Ukiyo-e woodblock prints made in code.": "Estampes ukiyo-e sur bois réalisées en code.",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "Utilise de vraies images satellite du lieu ; on récupère des images publiques si tu n'en as pas.",
+  "Video or audio of the same event from several angles.": "Vidéo ou audio du même événement sous plusieurs angles.",
+  "Voice recording": "Enregistrement vocal",
+  "Voice-over script": "Texte de la voix off",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "Ce que dit le narrateur, si tu l'as ; sinon, il est rédigé à partir de ton sujet.",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "Ce que doit dire le narrateur, si tu l'as ; sinon, on l'écrit pour toi.",
+  "Whole-slide scans or micrographs with a scale.": "Scans de lames entières ou micrographies avec échelle.",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "Tu reçois le fichier Lottie .json pour ton app ou ton site, et un MP4 pour le prévisualiser.",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "Tu reçois le film, un fichier .excalidraw modifiable, un PNG et un GIF.",
+  "Your GIS layers": "Tes couches SIG",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "Les écrans de ton app sont reconstruits en HTML et présentés avec une voix ; envoie les écrans de chaque fonctionnalité à montrer.",
+  "Your character designs or product photos; otherwise generated.": "Tes designs de personnages ou photos de produits ; sinon ils sont générés.",
+  "Your clips": "Tes clips",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "Tes clips, des images sous licence libre, des extraits d'autres chaînes utilisés pour commenter et des images Flow AI sont mêlés à des infographies dessinées en code, avec une narration en thaï.",
+  "Your figures as a table; otherwise open published data is used.": "Tes chiffres sous forme de tableau ; sinon, on utilise des données publiques ouvertes.",
+  "Your figures, e.g. from an annual or ESG report.": "Tes chiffres, ex. tirés d'un rapport annuel ou ESG.",
+  "Your footage": "Tes images",
+  "Your logo": "Ton logo",
+  "Your own character or product designs; otherwise they are generated.": "Tes propres designs de personnages ou de produits ; sinon ils sont générés.",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "Tes propres clips, des images sous licence libre et des images Flow AI sont mêlés à des infographies dessinées en code ; rien n'est repris d'autres chaînes.",
+  "Your own footage or b-roll stills to grade into the package.": "Tes propres images ou plans de coupe à étalonner dans le sujet.",
+  "Your own narration; otherwise we use a synthetic voice.": "Ta propre narration ; sinon, on utilise une voix de synthèse.",
+  "Your own site, drone or terrestrial scan.": "Ton propre scan de site, par drone ou terrestre.",
+  "Your own surveys or GIS layers, if the place is yours.": "Tes propres relevés ou couches SIG, si le lieu t'appartient.",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "Tes propres clips vidéo ; sinon, on trouve des images d'archive libres de droits.",
+  "Your song": "Ta chanson",
+  "Your subject drawn as a circuit board in code.": "Ton sujet dessiné comme un circuit imprimé en code.",
+  "Your video": "Ta vidéo",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "160 Pips en troupeau se disputent les grains : les plus rapides mangent les premiers et s'épuisent les premiers, et après 20 générations le plateau vire au bleu.",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "1926 : les journaux jurent que le charleston ruinera les genoux de l'Amérique ; au pique-nique de Ford, les enfants le dansent quand même.",
+  "3D & Miniature": "3D & miniatures",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "Une feuille de poste aérienne de 1918 imprimée avec l'avion à l'envers : achetée 24 $, découpée et dispersée, et le numéro 66 manque toujours.",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "Un clip 9:16 pensé pour Reels, TikTok et Shorts : une accroche dès la première seconde, une grande typo animée, un rythme rapide et des sous-titres lisibles sans le son.",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "Une animation Lottie pour une app ou un site, livrée en fichier .json et en MP4 : loaders, icônes, états de réussite, bandeaux-titres, compteurs et petites promos.",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "Une balade à vélo un dimanche matin en ville — boulangerie, parc, bord de rivière — chaque étape ajoute une encre jusqu'à trois plaques décalées qui se superposent.",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "Un mitron poursuit un pain fugitif dans la pente, puis le rompt en deux pour une fillette affamée.",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "Un schéma d'architecture ou de processus dessiné à la main sur fond noir, avec des points lumineux qui parcourent ses flux ; fichier Excalidraw modifiable et GIF inclus.",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "Un corps ouvert comme une usine qui tourne à l'envers : un sandwich de 12 h 30 est démonté poste par poste, et six heures plus tard il court après le bus.",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "Un astronaute en briques construit une fusée avec des pièces détachées et s'envole vers une lune en briques.",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "Un théâtre de papier en carton : papiers à motifs, découpes à la gouache avec marges d'autocollant, décors qui glissent sur scène.",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "Une photo de chat saute de carte en carte sur un bureau ensoleillé, d'un téléphone à celui d'un ami.",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "Une chaîne de mains de toi à un inconnu : testée par lettres en 1967, expliquée par des cercles plus grands que la Terre, bouclée autour du globe.",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "Un chat roux et dodu est jugé pour avoir testé la gravité et fait du parkour à 4 h du matin, et ressort libre.",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "Une recrue maladroite survit à un camp d'entraînement de cinq secondes, de plus en plus vite, jusqu'au boss : l'atterrissage à la maison.",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "Une tasse de café pourchasse un sucre fugueur dans la cuisine, façon dessin animé des années 1930.",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "Le voyage d'un café, de la plantation à tes mains, dans un seul monde isométrique.",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "Une affiche de concert se compose selon cinq règles du design suisse ; la cinquième : en briser une seule.",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "Une coursière file à travers une ville néon trempée de pluie pour livrer une cassette avant le lancement de l'aube.",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "Un feutre calcule la distance de l'horizon depuis une plage, puis montre que monter cent fois plus haut ne fait voir que dix fois plus loin.",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "Un poisson-lanterne long comme un doigt remonte un demi-kilomètre dans le noir, efface son ombre avec ses propres lumières, et se révèle l'un des innombrables animaux qui montent chaque nuit.",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "Le clignement d'une luciole est une question : une fillette reçoit sa réponse d'un cerf, perd toutes ses lumières dans l'orage, et interroge toute l'obscurité avec la dernière.",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "Un vol à la première personne au-dessus d'un village aux crayons de cire jusqu'à une fleur dans le jardin d'un vieil homme ; puis ses yeux, et ce qu'il dit.",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "Une volée de flamants bouge à chaque temps, et un jeune oiseau a toujours un demi-temps de retard ; les rides laissées sur l'eau par les autres lui apprennent le rythme.",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "Une page d'album piquée : cartes déchirées, ruban adhésif, gravures coloriées à la main, étiquettes tapées à la machine et lettres découpées façon lettre anonyme racontent l'histoire.",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "Un grand hôtel, 1930 : un groom file entre ascenseurs et portes tambour pour remettre une lettre avant minuit.",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "Cent ans de températures estivales, où le graphique raconte lui-même l'histoire.",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "Un génie blasé ouvre un portail juste pour acheter un café et dégringole dans des univers de plus en plus étranges.",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "Un relevé laser retire la canopée d'une forêt du Connecticut et révèle 3,4 km d'anciens murets agricoles.",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "Un film de lancement d'app en un seul plan-séquence : une barre de prompt s'ouvre sur le calendrier, le calendrier se recompose dans le téléphone, et chaque temps naît du précédent.",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "Une lettre, un appel, un mur de fenêtres, treize marches : la fille qui lui a dit de ne pas se retourner est toujours un pas plus près, jusqu'à ce qu'elle tourne la tête.",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "Une petite sonde dont l'œil est un zoom tire une ligne de visée pointillée vers chaque étape et nous emmène de la Voie lactée jusqu'à un virus.",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "Une IA de base lunaire se réveille après quarante ans sur un signal de la Terre, et répond en dessinant « maison » en caractères.",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "Un clip monté sur ta propre chanson : temps et sections sont mesurés sur le morceau, et paroles, formes et couleurs bougent avec eux.",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "Un narrateur qu'on ne voit jamais : images réelles, 3D et doublures IA, infographies d'échelle, cartes et sous-titres se relaient pour raconter une histoire vraie stupéfiante.",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "Une planche d'histoire naturelle se grave elle-même : le burin creuse le cuivre, l'abeille se construit trait par trait, et un lavis d'aquarelle lui donne vie.",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "Un chat en néon part chercher le poisson rouge de l'enseigne au bout de la rue, fêle son bocal, et ramène sous la pluie le poisson qui s'éteint jusqu'au verre de sa propre enseigne.",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "Une nouvelle recrue de nuit filme sa première garde dans un bureau jaune sans fin, en suivant les règles affichées au mur.",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "Un parc qui n'est qu'un croquis à la plume ; partout où le vent emporte son chapeau de paille, la couleur suit.",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "Un téléphone perd le réseau quand on le tient par le coin ; démonté, son cadre métallique s'avère être l'antenne, découpée en segments que ta main peut relier.",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "Un livre pop-up s'ouvre sur un bureau ; un lutin nommé Pip traverse des mondes de papier et saute dans le nôtre.",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "Un plan de métro imprimé passe d'une ligne de 6 km en 1993 à 21 lignes et 906 km.",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "Une démo produit commentée : l'interface de l'app reconstruite à partir de captures, une caméra qui s'approche de chaque fonction, des sous-titres, et le même film en d'autres langues.",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "Un projecteur peint la maquette blanche de Rotterdam couche par couche, du vide de 1940 aux tours d'aujourd'hui.",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "Un robot aspirateur installé en trois étapes, raconté comme un film éducatif des années 1950.",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "Un satellite suit la carte jusqu'à la mer d'Aral et trouve un désert ; seule la partie qu'on a endiguée est revenue.",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "Une tempête à Parkes, 21 juillet 1969 : une antenne de 64 mètres inclinée à sa limite tient bon et capte les premiers pas sur la Lune pour le monde entier.",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "Une photographe de rue poursuit une lumière qui file jusqu'à l'instant où les pigeons s'envolent ; son appareil de poche découpe cette seconde en trente cases.",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "Un épéiste traverse la rivière sur l'eau et fend le courant d'un seul coup.",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "Une caméra thermique tourne autour d'un vieil immeuble une nuit de neige : une fenêtre qui fuit, des tuyaux dans les murs, un chat endormi sur un capot tiède, et le même immeuble un an après sa rénovation.",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "Un voyageur traverse le monde, une sérigraphie pleine page à la fois, un talon de billet comptant la distance depuis chez lui, jusqu'à ce que l'autre bout devienne le chemin du retour.",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "Un voyageur marche vers une montagne lointaine ; chaque plan est une estampe, une grande vague au point culminant, la montagne et le rouleau entier à la fin.",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "Un village passe tout un hiver à couler une seule cloche ; la première fois qu'elle sonne, la neige cesse.",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "Une montre sans pile est ouverte : ses trois systèmes sont colorés un à un, le rouage s'emballe quand on retire l'échappement, et un tic ralenti relâche tout.",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "Un parapluie jaune oublié dans un bus attend une journée de soleil aux objets trouvés, puis s'ouvre avec 312 autres quand l'orage revient : objets, véhicules, météo et panneaux en pictogrammes géométriques calés sur le rythme.",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "Aplats au feutre à alcool avec une ombre nette sous un contour épais : un univers BD éclatant qui bouge.",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "Presque toutes les bananes du commerce sont une seule plante, copiée : un mur de tirages identiques, une vieille banane noircie de points, et une vague de couleur qui devient mille bananes.",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "L'Alsace-Lorraine a changé de mains quatre fois entre 1871 et 1945 : à chaque fois on arrachait le papier pour en coller un nouveau, et la femme qui y vivait n'a jamais bougé.",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "L'Amérique a perdu 1,3 million de colonies d'abeilles, et pourtant leur nombre a augmenté de 6 % : un court sujet d'info qui se suit sans le son.",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "Un vélo électrique est scanné en hologramme ; des cadres de visée se verrouillent sur la batterie, le moteur et les freins.",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "Le plan d'un inventeur dessine, éclate et assemble une machine à attraper les nuages, et son nuage de révision se met à pleuvoir.",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "Une île et son village poussent tuile par tuile sur une mer vide, chaque tuile une note, jusqu'à une nuit étoilée.",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "Un vieux train de nuit fait son dernier voyage, d'une halte enneigée en montagne à la mer par un long tunnel, ses fenêtres éclairées s'éteignant une à une au terminus.",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "La nuit sous une lampe de bureau, une table traçante dessine le Qomolangma d'après de vraies données d'altitude avec quatre stylos, et inscrit sa hauteur en dernier.",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "Devant la porte du boss final, un héros sauvegarde, et l'écran de sauvegarde rejoue tout le voyage.",
+  "Cartoons": "Dessins animés",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "La craie écrit une idée reçue sur deux caractères, l'efface, et remonte trois mille ans d'histoire de 射.",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd sort du terminal pour sauter dans l'app Claude et joue le mode plan et les auto-vérifications en un seul plan.",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "Formes nettes à la plume, aplats, ombres portées longues et léger grain : une illustration moderne et précise en mouvement.",
+  "Data & Maps": "Données & cartes",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "Les arbres se nourrissent-ils entre eux ? Un dessin au crayon plonge sous l'herbe, suit un grain de sucre le long d'un filament de champignon jusqu'à l'arbre voisin, et recule sur tout un bois relié sous terre.",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "Menés 3-0 à la pause, Fenerbahçe en marque trois en 12 minutes : arrêt sur image, tracés, écran partagé, carte des tirs.",
+  "Edit & Documentary": "Montage & documentaire",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "Février 1966 : le premier gros plan de la Lune arrive dans un radiotélescope anglais en fax de journal, imprimé ligne par ligne en deux encres, un jour en avance et étiré en hauteur.",
+  "Film & Tape": "Pellicule & bande",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "Suis la pluie du cœur rouge du désert australien jusqu'à sa côte verte, en une seule promenade peinte.",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "Quatre infos IA d'une semaine en un vrai sujet télé : conducteur, bandeau titre, tableau des prix, fiche technique.",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "Quatre types de ponts testés sur un même tableau de briefing, et le navire qui doit passer dessous choisit le gagnant.",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "Du globe jusqu'au détroit où passe un cinquième du pétrole mondial : deux voies, une tranchée dans le fond marin, et des oléoducs qui n'en contournent qu'une fraction.",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "Des montagnes à la mer à la tombée de la nuit : un cerf, un loup, un aigle, un saumon et une baleine, chacun portant son lieu dans sa silhouette, jusqu'à ce que le port de la baleine se pose sur le vrai rivage.",
+  "Games": "Jeux",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "Crayon et aquarelle tout en douceur de livre d'histoires, pour un personnage récurrent qui reste identique dans chaque scène.",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "Gouache et aquarelle sur crayon : opaque au premier plan, s'éclaircissant en lavis puis en simple crayon au loin.",
+  "Graphic & Type": "Graphisme & typo",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "La moitié d'un clavier open source se démonte en une seule orbite, jusqu'à la puce, puis se referme avec ses vraies dimensions.",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "Comment faire un carré avec des cercles ? Des cercles qui tournent s'empilent en onde carrée, jusqu'à une plongée dans un coin qui trouve le pic de 9 % qui ne disparaît jamais.",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "Comment ton téléphone sait où tu es : GPS, horloges atomiques et les 38 microsecondes que la relativité ajoute chaque jour.",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "Sur une place grise et pluvieuse, un parapluie rouge s'ouvre, et une valse peint toute la place en couleurs.",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "Dans un monde peint où seul l'or brille, le soleil s'éteint ; une fillette porte la dernière lampe en haut de la montagne et lui rend sa lumière.",
+  "Instruments & Evidence": "Instruments & preuves",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "Film de lancement pour Tidy, une app fictive : un curseur enfoui remet d'un geste des centaines de fenêtres en place.",
+  "Light & Lines": "Lumière & lignes",
+  "Line Diagrams": "Schémas au trait",
+  "Logo & Lottie": "Logo & Lottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "L'heure de pointe du matin dans une ville qui ressemble à une maquette : circulation, trains et personnages minuscules.",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "Actualités filmées, photos, témoignages et l'enquête de 1937 sur une même horloge : cinq sources désignent le même point.",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "Le soir du Nouvel An, la bête Nian vient en ville, et le papier découpé géant d'une fillette illumine le village pour la chasser.",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "Une abeille produit 1/12 de cuillère à café de miel dans sa vie ; le stylo suit une goutte jaune de la fleur au pot jusqu'à ce que la page devienne une affiche.",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "Un seul stylo bille bleu sur papier crème : la valeur ne vient que des hachures, comme un dessin de carnet qui s'anime.",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "Un seul mouvement continu d'une lame de foie jusqu'à un noyau ; deux cercles, comptés pixel par pixel, diffèrent de 2,4 fois en bleu.",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "Une journée à New York en time-lapse : rivières de lumière, une grille calée sur les doubles croches, 1899 à côté d'aujourd'hui.",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "Un point double tous les dix ans : 128 après soixante-dix, 6,02 sans intérêts composés, et les dix dernières années valent toutes les autres.",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "Un seul stylo technique fin qui pointille à la verticale : la valeur ne tient qu'à la densité des points, comme une vieille planche d'histoire naturelle.",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "Une seule idée porte toute la pub : une réaction en chaîne sur une table où chaque temps est la collision qui lance le suivant, d'une touche pressée à dix tâches accomplies.",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "Une nuit au poste de contrôle d'un aéroport : une batterie externe, une bouteille d'eau, et six crabes vivants qui bougent au scanner.",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "Un méandre de rivière, quatre saisons, un seul plan ; chacune bascule quand le grand arbre s'accroupit et se redresse.",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "Un seul stylo fin sur papier chaud : une rue de canal avec maisons de thé et bains, des villageois à leurs courses, des fenêtres qui s'allument quand le jour cède à la nuit.",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "Une seule ligne ininterrompue dessine toute une vie, puis le stylo passe à un enfant.",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "Générique d'un film d'espionnage imaginaire de 1964 : une course-poursuite pour une clé volée, jusqu'à ce que les formes se verrouillent en titre.",
+  "Painting & Illustration": "Peinture & illustration",
+  "Print & Printmaking": "Impression & gravure",
+  "Product Launch · onetake": "Lancement produit · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "Des grues du Japon dans une vallée d'Hokkaido, en un seul plan sur carte à gratter, comptées de 33 à 1 927.",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "Les rivières deviennent des pistes de cuivre tandis que le courant parcourt 2 080 km d'un barrage à un chargeur de téléphone.",
+  "Screens & Interfaces": "Écrans & interfaces",
+  "Sketch & Board": "Croquis & tableau",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "Glacis à l'huile lisses et surréels sous un soleil bas : objets impossibles, ombres longues et logique de rêve tranquille.",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "Coton mouliné brodé sur lin dans un tambour en hêtre, chaque point cousu à l'écran.",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "La lumière traverse un vitrail de cathédrale de l'aube au crépuscule, éveillant chaque panneau d'une histoire de chevalier et de dragon.",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "Dix soleils brûlent la terre jusqu'à ce que l'archer Hou Yi bande son arc, raconté en marionnettes de cuir sur un écran éclairé.",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "La brochure de 1931 de l'Empire State salue ses bâtisseurs ; le film de chantier et les photos de Hine répondent : 2 500 par jour.",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "Le café de ta tasse redevient une cerise rouge, puis revient à la tasse : maturation, séchage, torréfaction et mouture, un changement de couleur à la fois sur une seule page au crayon.",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "L'histoire de l'IA en jeu de rythme : les modèles montent sur scène en mesure, et un bulletin de notes clôt le spectacle.",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "La dernière minute du lancement d'Artemis II, sans coupe : une case s'ouvre en neuf, qui fusionnent en une à l'allumage.",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "Le phare s'éteint ; une fillette porte la dernière flamme à travers une forêt nocturne jusqu'en haut des falaises battues par l'orage.",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "La lune n'arrive pas à dormir, alors une petite fille grimpe sur le toit pour lui chanter une berceuse.",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "Le télégramme disait 57 secondes ; à la loupe, les négatifs sur verre des Wright et les archives disent 59.",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "Le total désigne le traitement B ; affiche les colonnes de taille des calculs et A gagne dans chaque groupe. Le paradoxe de Simpson en une feuille, 1 cellule = 1 patient.",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "Des milliers de lignes de vent à l'encre, calculées d'après la trajectoire de référence, dessinent le super typhon Yagi : l'œil qui s'ouvre sur la mer de Chine méridionale, l'arrivée sur Hainan, la spirale qui se défait au Vietnam, et toute une semaine repliée en une dernière ligne.",
+  "Traditional Crafts": "Artisanat traditionnel",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "Des voyageurs embarquent dans un avion isométrique, et l'ordre d'embarquement montre pourquoi une méthode est presque deux fois plus rapide.",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "Douze ans d'éolien et de solaire empilés en vraies plaques, en spirale autour d'un cadran en noyer jusqu'à ce que le solaire passe devant.",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "Deux jeunes parents montent un lit de bébé d'après une notice en kit, dix étapes sur une page à 45° ; l'étape dix n'a jamais été dans la notice.",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "Déballage et gros plans d'Aura, des écouteurs en verre fictifs, sous des balayages de lumière et des caustiques.",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "Touches d'huile pures posées côte à côte pour que l'œil les mélange : lumière sur l'eau, crépuscule, un bateau traversant la baie.",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "Fusain de vigne sur papier chiffon, estompé, repris à la gomme et redessiné par-dessus son propre fantôme.",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "L'image de ton logo redessinée en SVG propre, puis animée pièce par pièce selon les principes d'animation de Disney : une révélation qui tombe pile sur ta marque.",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "Ta propre vidéo face caméra, gardée telle quelle : sous-titres mot à mot calés sur la voix, un carton de nom et de simples cartes graphiques sur les points clés.",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "Aucun trait dessiné : papiers déchirés aux bords fibreux blancs, pièces découpées aux ciseaux, chacune soulevant une ombre douce.",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "Pour l'anniversaire de mon fils, je voudrais un petit dessin animé où une fusée en briques de jouet s'envole vers la Lune.",
+   "Dans notre magasin de jouets, je veux montrer notre nouveau set de briques qui s'assemble pièce par pièce jusqu'à former une petite maison.",
+   "Je voudrais une vidéo où l'on construit le Mont-Saint-Michel étape par étape en briques de jouet, pour raconter son histoire aux enfants."
+  ],
+  "paper-popup": [
+   "Pour l'histoire du soir de ma fille, fais-moi un conte où, quand on ouvre le livre, un petit lapin bondit d'une forêt en papier.",
+   "Notre nouveau livre pour enfants sort bientôt : je voudrais une petite pub où les pages se déplient en pop-up.",
+   "Je veux montrer, dans un livre en papier, une péniche qui glisse sur le canal du Midi entre les platanes et les écluses."
+  ],
+  "tilt-shift": [
+   "Montre-moi le métro aérien parisien à l'heure de pointe du matin comme une petite ville miniature.",
+   "Je voudrais une pub qui montre notre programme immobilier et les rues autour, vus d'en haut comme une maquette.",
+   "J'aimerais voir le marché du Vieux-Port de Marseille le matin, avec les scooters et les poissonniers, comme un monde de jouets."
+  ],
+  "lowpoly-island": [
+   "Pour mon nouveau jeu, fais-moi un teaser où une île et son village apparaissent case par case au milieu de l'océan.",
+   "J'aimerais regarder tranquillement un petit village grandir sur une île, jusqu'à ce que les étoiles s'allument la nuit.",
+   "Je veux montrer aux enfants comment un village de pêcheurs s'est développé peu à peu sur une île bretonne."
+  ],
+  "glass-product": [
+   "Montre notre nouveau flacon de sérum en verre, avec des rais de lumière qui glissent dessus pour le faire briller.",
+   "Je voudrais une vidéo de présentation de nos nouveaux écouteurs, sortis de leur boîte et filmés de près, en beauté.",
+   "Je veux montrer le flacon de parfum que j'ai acheté pour l'anniversaire de ma mère, comme si la lumière jouait avec."
+  ],
+  "memphis-diorama": [
+   "J'aimerais voir les saisons se succéder sur un méandre de la Loire, dans des couleurs bien vives.",
+   "Pour le haut de notre site, fais-moi une jolie scène où les saisons changent autour de notre petit café.",
+   "Je veux montrer aux enfants le cerisier du jardin qui fleurit, donne ses fruits puis perd ses feuilles au fil de l'année."
+  ],
+  "isometric-picture-book": [
+   "Explique en petites illustrations pourquoi une seule file d'attente à la banque va plus vite.",
+   "Dans notre cabinet médical, je veux expliquer aux patients le nouveau système de tickets d'attente.",
+   "Je veux expliquer aux enfants pourquoi on monte plus vite dans un avion quand on embarque par l'arrière."
+  ],
+  "crayon-world": [
+   "Fais-moi une vidéo souvenir qui survole le village de mon grand-père jusqu'au vieux pommier qu'il avait planté.",
+   "Pour rendre hommage à une ancienne institutrice, je voudrais une petite histoire de voyage jusqu'à l'école, comme coloriée aux crayons de cire par des enfants.",
+   "Je veux raconter, avec des dessins d'enfant aux crayons de cire, le voyage d'un garçon qui quitte sa campagne pour chercher du travail en ville."
+  ],
+  "rubber-hose": [
+   "Pour notre crêperie, fais une pub façon vieux dessin animé où une crêpe et un pot de Nutella jouent au chat et à la souris.",
+   "Je veux un petit dessin animé rigolo où une tasse de café poursuit un sucre en fuite tout autour de la cuisine.",
+   "J'aimerais apprendre aux enfants à se brosser les dents avec un vieux dessin animé où la brosse et le dentifrice chassent les microbes."
+  ],
+  "cel-anime-80s": [
+   "Fais-moi l'histoire d'une livreuse à scooter qui doit traverser Paris sous la pluie, de nuit, avant l'aube.",
+   "Pour le nouveau morceau de notre groupe, je voudrais une ville nocturne pleine de néons, comme dans un anime des années 80.",
+   "Je veux raconter un souvenir de balade à vélo entre copains, avec les couleurs des dessins animés que je regardais petit."
+  ],
+  "scifi-toon": [
+   "Fais-moi une petite comédie où un savant ouvre un portail juste pour aller chercher un croissant et tombe dans des mondes bizarres.",
+   "Je voudrais une pub drôle qui montre la rapidité de notre appli de paiement en sautant d'une planète à l'autre.",
+   "Je veux un dessin animé loufoque où deux frères remontent le temps en vaisseau spatial parce qu'ils ont oublié leurs devoirs."
+  ],
+  "midcentury-toon": [
+   "Explique comment installer notre nouvelle carafe filtrante en trois étapes, comme un film pédagogique des années 50.",
+   "Je voudrais une vidéo rigolo façon vieux dessin animé pour apprendre à ma mère à passer un appel vidéo.",
+   "Je veux montrer comment bien utiliser un autocuiseur, comme un dessin animé éducatif d'autrefois."
+  ],
+  "comic-history": [
+   "Je veux raconter de façon légère, comme une BD, comment les rois de France sont passés du Louvre à Versailles.",
+   "Fais-moi une BD rigolo sur trois boulangeries de mon quartier qui se disputent les clients.",
+   "Explique en BD comment la berge d'une rivière entre deux villages s'est déplacée d'une rive à l'autre au fil des années."
+  ],
+  "manga-panels": [
+   "Je veux découper en cases de manga la seconde où les pigeons s'envolent sur le parvis de Notre-Dame.",
+   "Présente le nouvel appareil photo de notre boutique avec des cases de manga qui apparaissent une à une.",
+   "Fais-moi un souvenir façon BD, en petites cases, du moment où ma petite sœur franchit la ligne d'arrivée de sa course."
+  ],
+  "dataviz": [
+   "Je veux montrer 50 ans de températures estivales à Paris, comme si le graphique lui-même racontait l'histoire.",
+   "Montre joliment en graphiques les ventes de notre atelier de couture familial sur cinq ans.",
+   "Je veux expliquer aux élèves les exportations de vin français année par année avec des graphiques faciles à comprendre."
+  ],
+  "white-model": [
+   "Je veux montrer sur une maquette blanche comment les immeubles du centre de Lyon ont grandi, étage par étage, du XIXe siècle à aujourd'hui.",
+   "Fais-moi une vidéo de présentation qui éclaire étape par étape le plan de notre lotissement sur une maquette blanche.",
+   "Je veux faire apparaître lentement sur une maquette blanche le plan de Paris et l'enceinte de Thiers à partir de données cartographiques."
+  ],
+  "data-physical": [
+   "Je veux montrer la production française d'énergie hydraulique et solaire, année par année, comme des plaques empilées qu'on pourrait toucher.",
+   "Montre les chiffres de ventes de notre rapport annuel comme des planches de bois empilées.",
+   "Je veux montrer dix ans de récoltes de notre vignoble familial comme de vrais objets empilés."
+  ],
+  "transit-map": [
+   "Montre les stations de la ligne 1 du métro parisien qui apparaissent une à une sur une petite carte imprimée.",
+   "Je veux montrer comment le réseau de tramway de Bordeaux s'est étendu au fil des ans, façon plan de métro.",
+   "Je veux montrer, comme un plan de métro, les villes desservies par notre entreprise de transport en dix ans."
+  ],
+  "map-explainer": [
+   "Explique avec une carte qui zoome depuis le globe comment la Seine coule de sa source jusqu'à la Manche.",
+   "Je voudrais une vidéo qui explique avec une carte pourquoi les cargos du monde entier passent par la Manche.",
+   "Je veux expliquer l'érosion de la falaise près de notre village avec une vraie carte et le relief du terrain."
+  ],
+  "pip-simulation": [
+   "Montre comment une maladie contagieuse se propage d'une personne à l'autre avec de petites créatures qui courent partout.",
+   "Je veux simuler avec de petites créatures ce qui se passe quand les marchands d'un marché se font la guerre des prix.",
+   "Je veux que les élèves voient de leurs yeux comment fonctionne la sélection naturelle, génération après génération."
+  ],
+  "caption-news": [
+   "Fais-moi un court flash info, lisible sans le son, sur les pluies record de cet automne d'après les données météo.",
+   "Je voudrais un petit sujet avec sous-titres qui montre les vrais chiffres de la collecte de notre association de quartier.",
+   "Je veux expliquer sur téléphone, en un coup d'œil, le rapport sur le déclin des ruches dans le monde, avec des sous-titres."
+  ],
+  "newsreel": [
+   "Je veux raconter l'époque des tramways de Paris dans les années 1930 avec des photos d'archive, façon actualités d'antan.",
+   "Pour les 50 ans de notre boutique, fais-moi des actualités à l'ancienne avec les vieilles photos de l'époque de mon grand-père.",
+   "Je veux raconter l'émerveillement des gens à l'arrivée de la radio, avec des gros titres de vieux journaux, comme des actualités Pathé."
+  ],
+  "countdown": [
+   "Je veux faire le compte à rebours de la dernière minute avant le coupé de ruban de notre inauguration, en splitscreen avec nos vraies vidéos.",
+   "Rassemble les vidéos de mes amis du réveillon du Nouvel An en compte à rebours des dix dernières secondes.",
+   "Je veux découper la vraie vidéo d'un lancement de fusée en neuf cases qui se rejoignent au moment de l'allumage."
+  ],
+  "city-symphony": [
+   "Fais une symphonie urbaine d'une journée à Paris avec mes timelapses, montés sur le rythme de la musique.",
+   "Je veux monter en rythme, côte à côte, de vieilles photos de Lyon et des vidéos tournées aujourd'hui.",
+   "Pour notre hôtel, fais-moi un générique avec des vues de Nice du matin au soir, calées sur la musique."
+  ],
+  "visual-investigation": [
+   "Je veux reconstituer sur une seule ligne de temps l'accident au coin de ma rue, avec la vidéosurveillance, des photos et des témoignages.",
+   "Je veux vérifier avec des preuves où et quand a vraiment été prise une photo d'inondation qui tourne sur les réseaux.",
+   "Reconstitue chronologiquement l'incendie d'une usine à partir des photos, du rapport et des témoignages des employés."
+  ],
+  "kino-montage": [
+   "Je veux montrer comment mon grand-père a fondé la minoterie familiale, avec de vieilles photos, des livres de comptes et l'effort des ouvriers.",
+   "Je veux montrer la force du collectif en mêlant vieilles photos et vidéos de milliers de personnes réunies pour la fête du village.",
+   "Pour les 20 ans de notre usine, fais un montage percutant avec des photos d'archive et les chiffres des employés."
+  ],
+  "telestrator": [
+   "Je veux analyser la remontée de notre équipe de foot de quartier en seconde période, en dessinant des lignes sur la vraie vidéo du match.",
+   "Fais-moi une vidéo de coach qui met en pause un match de tennis pour tracer les déplacements des joueurs.",
+   "Je veux expliquer avec des flèches le placement des joueurs sur les buts de l'équipe de foot du collège."
+  ],
+  "news-package": [
+   "Fais-moi un journal télé sur l'évolution des prix de l'or, de l'essence et de la baguette cette semaine, avec bandeaux et tableaux de prix.",
+   "Je veux présenter les quatre ou cinq actus du mois de notre lycée, découpées en rubriques comme un vrai JT.",
+   "Rassemble les actus tech de la semaine et présente-les en détail, façon plateau de journal télévisé."
+  ],
+  "ascii-crt": [
+   "Présente notre nouvel outil logiciel comme s'il s'écrivait en caractères sur un vieil écran vert.",
+   "Je voudrais l'histoire d'un petit robot sur la Lune qui se réveille après des années et répond en texte à un signal venu de la Terre.",
+   "Écris un message d'anniversaire en caractères, comme sur l'écran du vieil ordinateur que mon père utilisait petit."
+  ],
+  "silent-film": [
+   "Fais un petit film muet où un apprenti boulanger court après une baguette qui roule, puis la partage avec un enfant affamé.",
+   "Pour notre vieille pâtisserie, je voudrais une pub rigolo en noir et blanc, comme au temps du cinéma muet.",
+   "Je veux raconter comme un film muet la partie de pêche avec mon père où on n'a attrapé qu'une vieille chaussure."
+  ],
+  "backrooms": [
+   "Fais une histoire d'horreur, filmée comme pendant sa première nuit, d'un nouvel employé de nuit qui suit les règles affichées dans un bureau jaune sans fin.",
+   "Pour notre nouveau jeu mystère, je voudrais un teaser angoissant où l'on se perd dans un interminable couloir.",
+   "Je veux raconter une petite histoire qui fait peur, filmée au téléphone, seul la nuit dans le couloir d'un vieil hôpital qui n'en finit pas."
+  ],
+  "scratch-film": [
+   "Je veux montrer une luciole qui part en voyage avec sa petite lumière au-dessus d'un étang tout noir.",
+   "Explique avec des traits de lumière grattés dans le noir comment les poissons des grands fonds remontent chaque nuit.",
+   "Je veux montrer les lampions de notre marché de nuit qui s'allument un à un jusqu'à former tout le marché, comme gratté sur la pellicule."
+  ],
+  "double-exposure": [
+   "Je veux superposer mes photos de paysages, des Alpes jusqu'au lac d'Annecy, dans des silhouettes de bouquetin, d'aigle et de truite.",
+   "Pour notre agence de voyages à Bordeaux, fais un générique qui superpose de vraies photos de la ville dans une silhouette humaine.",
+   "Je veux faire un souvenir en superposant de vieilles photos du village d'enfance de mon père dans son profil."
+  ],
+  "pixel-rpg": [
+   "Pour nos deux ans avec ma copine, je veux raconter notre histoire depuis notre rencontre, comme une sauvegarde de vieux jeu vidéo.",
+   "Fais une pub pixel art rétro pour notre nouveau jeu mobile, avec le petit héros devant la porte du boss.",
+   "Je veux raconter mon année d'étudiant comme une suite de niveaux franchis un à un dans un vieux jeu."
+  ],
+  "hd-2d": [
+   "Fais l'histoire d'une fille qui, quand le phare s'éteint, porte la dernière flamme à travers la forêt de nuit jusqu'à la falaise en pleine tempête.",
+   "Pour notre nouveau jeu fantasy, je voudrais une pub où une équipe de héros traverse une immense cité de temples anciens.",
+   "Je veux raconter, comme un beau jeu vidéo, l'histoire d'un enfant qui quitte son village pour trouver un dragon pour son petit frère."
+  ],
+  "microgame": [
+   "Montre comment utiliser notre nouvelle appli avec de petits jeux rapides qui s'enchaînent de plus en plus vite.",
+   "Fais un truc drôle où se préparer le matin pour l'école devient une série de mini-jeux qui accélèrent.",
+   "Je veux apprendre à nos nouveaux employés ce qu'il faut savoir le premier jour avec des mini-jeux qui accélèrent."
+  ],
+  "game-show": [
+   "Présente les réussites de notre entreprise cette année comme un jeu télé rythmé qui se termine sur un tableau des scores.",
+   "Je veux raconter de façon fun l'histoire des télécommunications, du télégraphe au smartphone, comme un jeu télé en rythme.",
+   "Je veux revivre l'année de notre famille de façon drôle, comme un jeu télévisé."
+  ],
+  "swiss-motion": [
+   "Fais une version de notre affiche de concert qui se met en place toute seule selon les règles du design suisse.",
+   "Je veux présenter la nouvelle identité de notre studio de design avec la grille, la typo et les couleurs qui s'installent une à une.",
+   "Je veux enseigner clairement à des étudiants en design cinq règles de mise en page d'une affiche."
+  ],
+  "spy-titles": [
+   "Fais un générique d'ouverture où des formes se poursuivent comme dans un film d'espionnage des années 60 jusqu'à former le titre de notre film.",
+   "Pour ouvrir la soirée anniversaire de l'entreprise, je voudrais un générique accrocheur façon film d'espions.",
+   "Pour le mariage d'un ami, fais un générique rétro qui présente les mariés comme deux agents secrets."
+  ],
+  "art-deco": [
+   "Fais l'invitation au dîner de gala de notre hôtel dans un style doré et somptueux des années 1930.",
+   "Je voudrais l'histoire d'un jeune liftier d'un grand palace parisien qui doit livrer une lettre avant minuit.",
+   "Pour les 30 ans de mariage de mes parents, fais une vidéo d'invitation dans un style Art déco somptueux."
+  ],
+  "pictogram-motion": [
+   "Fais l'histoire d'un parapluie oublié dans le bus qui attend aux objets trouvés, puis s'ouvre avec plein d'autres quand la pluie revient.",
+   "Je veux expliquer aux habitants le tri des déchets de la commune avec des pictogrammes qui bougent en rythme.",
+   "Pour notre festival, je voudrais une vidéo d'identité où des pictos de voiture, de train et d'avion apparaissent en rythme."
+  ],
+  "bauhaus-shapes": [
+   "Explique avec des cercles et des carrés à quel point les intérêts composés sont puissants quand on épargne.",
+   "Je veux expliquer aux membres comment fonctionne notre petite tontine avec des formes Bauhaus.",
+   "Fais-moi des cartons d'ouverture de chapitre pour mon cours, avec des formes rouges, jaunes et bleues qui jouent ensemble."
+  ],
+  "flat-space-explainer": [
+   "Fais une explication d'échelle qui zoome de la Voie lactée à la Terre, puis à la France, jusqu'à un simple virus.",
+   "Je veux montrer aux enfants les distances entre les planètes du système solaire en suivant une petite sonde.",
+   "Pour notre chaîne éducative, explique avec un dessin animé simple comment les satellites tournent autour de la Terre."
+  ],
+  "text-flash-cuts": [
+   "Une lettre, un appel, des marches d'escalier… fais une bande-annonce à mots flashés pour un thriller où le danger se rapproche.",
+   "Je veux montrer avec force les valeurs de notre association de jeunes, en gros mots qui claquent à l'écran.",
+   "Fais le générique de notre nouvelle série avec du texte et des images coupés très vite pour que ce soit palpitant."
+  ],
+  "silhouette-rhythm": [
+   "Fais un clip en silhouettes où un petit oiseau toujours en retard sur sa nuée apprend à suivre le rythme.",
+   "Je voudrais une vidéo d'équipe où les joueurs de notre club de handball bougent en rythme, en silhouettes au coucher du soleil.",
+   "Pour ouvrir la Fête des Lumières, je veux montrer des silhouettes qui dansent avec des lanternes au son des tambours."
+  ],
+  "satellite-briefing": [
+   "Je veux comparer avec de vraies images satellite comment la mer de Glace a reculé au fil des ans.",
+   "Explique comme un flash info, avec des images satellite, les champs de Camargue avant et après les inondations.",
+   "Je veux montrer aux élèves, avec des cartes satellite, comment le littoral de la dune du Pilat a changé en dix ans."
+  ],
+  "briefing-board": [
+   "Je veux comparer trois projets de passerelle pour notre village selon leur coût, leur solidité et de vraies mesures.",
+   "Compare sur un tableau trois emplacements pour notre nouvelle boutique, avec les vrais loyers et la fréquentation piétonne.",
+   "Je veux comparer avec les vrais prix trois options d'énergie pour la maison : panneaux solaires, groupe électrogène ou batterie."
+  ],
+  "lidar-survey": [
+   "Je veux révéler avec des données de scan laser les vestiges gallo-romains cachés sous la forêt.",
+   "Montre le relief de notre terrain de construction à partir des données laser de notre drone.",
+   "Je veux montrer ce qu'on découvrirait sur les remparts d'une ancienne cité celte en enlevant les arbres grâce au LiDAR."
+  ],
+  "microscope": [
+   "Je veux montrer avec de vraies images de microscope pourquoi notre argile verte est bonne pour la peau.",
+   "Fais un zoom continu jusqu'au noyau sur les cellules de peau d'oignon photographiées au labo, pour mes élèves.",
+   "Je veux comparer au microscope la structure des grains de deux variétés de blé de notre ferme."
+  ],
+  "archive-lighttable": [
+   "Je veux reconstituer l'histoire de ma famille en posant sur une table lumineuse les plaques photo et les vieilles lettres de mon grand-père.",
+   "Montre les 60 ans d'histoire de notre maison de thé avec les livres de comptes et les anciennes étiquettes d'origine.",
+   "Pour le musée, je veux agrandir un manuscrit médiéval sous la loupe et expliquer ce qui y est écrit."
+  ],
+  "security-xray": [
+   "Fais un truc drôle où, au scanner de l'aéroport, une valise laisse voir des crabes vivants qui bougent.",
+   "Je veux montrer à nos clients comment on contrôle les colis aux rayons X dans notre entrepôt de livraison.",
+   "Montre aux enfants, de façon captivante, ce qu'il y a à l'intérieur d'un chargeur vu aux rayons X."
+  ],
+  "dark-documentary": [
+   "Je veux raconter comment les bâtisseurs du Moyen Âge ont construit la cathédrale de Chartres, comme un documentaire sombre et grave.",
+   "Fais un documentaire d'ingénierie qui reconstitue la nuit la plus difficile de notre chantier de barrage.",
+   "Explique comme un documentaire spatial comment les grands radiotélescopes ont écouté le ciel."
+  ],
+  "thermal-camera": [
+   "Montre pourquoi notre appartement est si chaud en filmant les murs, les fenêtres et le toit comme avec une caméra thermique.",
+   "Je voudrais une petite vidéo où l'on observe les animaux de la forêt la nuit, comme avec une caméra thermique.",
+   "Je veux montrer à nos clients comment notre électricien repère un câble en surchauffe avec une caméra thermique."
+  ],
+  "circuit-board": [
+   "Montre sous forme de circuit imprimé comment l'électricité va du barrage jusqu'au chargeur de téléphone dans notre maison.",
+   "Je veux montrer avec des pistes de cuivre le trajet de nos produits électroniques, de l'usine jusqu'aux mains des clients.",
+   "Je veux captiver des élèves en montrant des rivières qui deviennent des pistes de cuivre et allument toute une ville."
+  ],
+  "firefly-pointillism": [
+   "Fais un petit conte où une luciole pose des questions avec sa lumière dans le noir et finit par trouver des amis.",
+   "Pour l'anniversaire de ma petite sœur, je voudrais une vidéo où plein de petits points lumineux se rassemblent pour former son portrait.",
+   "Je veux parler de l'entraide, avec la lumière de chaque membre de notre équipe qui s'additionne pour former une grande lumière."
+  ],
+  "flow-field": [
+   "Dessine avec des traits d'encre suivant le vent comment la tempête Ciarán a frappé les côtes bretonnes depuis l'Atlantique.",
+   "Je veux expliquer avec des milliers de lignes d'encre en mouvement comment le mistral descend la vallée du Rhône.",
+   "Montre avec des lignes qui s'écoulent le courant de la Seine en crue et les moments où elle dépasse la cote d'alerte."
+  ],
+  "oscilloscope-math": [
+   "Explique sur un écran d'oscilloscope comment des petits cercles qui tournent ensemble forment un signal carré.",
+   "Pour nos cours particuliers de physique, je veux montrer le fonctionnement des ondes sonores avec des courbes vertes.",
+   "Je veux montrer aux enfants, sur un oscilloscope, la forme d'onde de chaque note de xylophone."
+  ],
+  "neon-tubes": [
+   "Pour l'ouverture de notre petit resto de nuit, fais une histoire où un chat en néon court entre les enseignes.",
+   "Je voudrais une vidéo de la ville la nuit où les enseignes au néon de Pigalle s'allument une à une.",
+   "Pour mon morceau de city pop, fais une vidéo où des figures en tubes néon dansent par une nuit de pluie."
+  ],
+  "blueprint": [
+   "Je veux montrer la petite batteuse que j'ai inventée en la dessinant, la démontant et la remontant sur un plan bleu.",
+   "Présente sur un plan d'ingénieur la nouvelle pompe à eau solaire que va lancer notre entreprise.",
+   "Je veux expliquer aux enfants le fonctionnement d'une grande machine de récupération d'eau de pluie, dessinée sur un plan bleu."
+  ],
+  "iso-infographic": [
+   "Montre dans un seul petit monde le trajet du café, de la plantation jusqu'à la tasse d'un bistrot parisien.",
+   "Je veux expliquer en petites illustrations le parcours d'une commande chez nous, de la commande jusqu'à la livraison.",
+   "Je veux montrer aux enfants comment un grain de blé passe du champ au moulin, à la boulangerie puis à la baguette."
+  ],
+  "teardown": [
+   "Démonte pièce par pièce notre ventilateur avec ses vraies pièces et dimensions, puis remonte-le.",
+   "Je voudrais une vidéo qui démonte mon clavier jusqu'à la puce et montre chaque pièce à sa vraie taille.",
+   "Je veux montrer à des élèves mécaniciens ce qu'il y a dans un moteur de scooter en le démontant pièce par pièce."
+  ],
+  "hardcore-info": [
+   "Explique pourquoi on perd du réseau quand on tient son téléphone par le coin, en le démontant pour parler de l'antenne.",
+   "Je veux montrer avec des détails techniques internes pourquoi notre nouveau frigo consomme moins d'électricité.",
+   "Je veux expliquer en détail aux élèves pourquoi un parapluie se retourne dans un coup de vent."
+  ],
+  "precise-mechanism": [
+   "Explique en coupe et en couleurs comment tournent les rouages d'une montre automatique sans pile.",
+   "Je veux montrer à nos clients comment fonctionnent les mécanismes à l'intérieur de notre vieille machine à coudre.",
+   "Montre en coupe, pièce par pièce, comment fonctionne un dérailleur de vélo, pour que les élèves le voient bien."
+  ],
+  "instruction-manual": [
+   "Fais une notice illustrée en dix étapes d'un couple qui monte un lit de bébé pour la première fois.",
+   "Je voudrais une vidéo façon notice pour que nos clients montent eux-mêmes la bibliothèque de notre magasin de meubles.",
+   "Je veux montrer étape par étape comment utiliser une gazinière en toute sécurité, comme les dessins d'une notice."
+  ],
+  "pen-plotter": [
+   "Je veux montrer un traceur qui dessine au stylo le Mont Blanc à partir de vraies données d'altitude, la nuit, sous une lampe de bureau.",
+   "Montre la carte des collines près de notre village, avec les courbes de niveau tracées une à une.",
+   "Je veux montrer le logo de notre studio de design dessiné lentement par un traceur avec quatre stylos de couleur."
+  ],
+  "assembly-line-diagram": [
+   "Montre comment un plat de choucroute est digéré étape par étape dans le corps, comme dans une usine.",
+   "Je veux expliquer avec un schéma d'usine comment sort une bouteille d'eau dans notre usine d'embouteillage.",
+   "Je veux expliquer aux enfants le voyage d'une goutte de sang dans le corps, comme une chaîne de production."
+  ],
+  "crayon-book": [
+   "Fais une histoire du soir où une petite fille monte sur le toit pour chanter une berceuse à la Lune qui n'arrive pas à dormir.",
+   "Je voudrais une petite pub pour le nouvel album de notre librairie jeunesse, comme dessinée aux crayons de cire.",
+   "Je veux apprendre l'alphabet aux enfants, de A à Z, avec des dessins aux crayons de cire."
+  ],
+  "watercolor": [
+   "Montre en un seul plan, comme si on se promenait dans une aquarelle, les montgolfières au lever du soleil au-dessus de la Cappadoce.",
+   "Pour notre agence de voyages, je voudrais un itinéraire à l'aquarelle des champs de lavande du Luberon jusqu'aux calanques.",
+   "Je veux expliquer aux enfants à l'aquarelle comment une goutte de pluie descend de la montagne jusqu'à la rivière et la mer."
+  ],
+  "impasto": [
+   "Fais une vidéo où un petit parapluie rouge s'ouvre sur une place grise sous la pluie et où les couleurs se répandent avec la musique.",
+   "Pour ma nouvelle chanson d'amour, je voudrais une vidéo pleine d'émotion avec d'épaisses couleurs à l'huile.",
+   "Pour le vernissage de notre galerie, fais une pub qui montre la tour Eiffel au crépuscule en épais coups de pinceau à l'huile."
+  ],
+  "urban-sketch": [
+   "Montre un chapeau emporté par le vent entre les immeubles haussmanniens, suivi par des touches de couleur.",
+   "Je veux montrer notre petit café et sa rue comme esquissés vite au stylo puis rehaussés d'aquarelle.",
+   "Je voudrais un carnet de voyage esquissé en marchant le long des quais de Bordeaux."
+  ],
+  "colored-pencil": [
+   "Montre en coupe souterraine aux crayons de couleur comment les arbres partagent leur nourriture grâce aux filaments des champignons.",
+   "Je veux montrer aux crayons de couleur comment l'eau monte de la racine jusqu'à la fleur dans notre jardin.",
+   "Je veux expliquer avec une coupe aux crayons de couleur, comme dans un livre d'images, comment vit un nénuphar sous l'eau."
+  ],
+  "risograph": [
+   "Fais une vidéo en impression multicolore d'une balade à vélo le dimanche matin dans Paris : boulangerie, parc, canal Saint-Martin.",
+   "Pour ma petite boutique de sacs faits main, je voudrais une jolie pub qui a l'air imprimée en quelques couleurs.",
+   "Pour présenter notre nouvelle revue de poésie, fais une petite vidéo façon risographie avec les couleurs légèrement décalées."
+  ],
+  "halftone-dossier": [
+   "Fais un dossier judiciaire rigolo contre notre gros chat qui court à 4 h du matin et fait tomber les verres.",
+   "Je veux montrer l'affaire du chien qui a mâchouillé les chaussures, comme un dossier de détective avec des points de vieux journal.",
+   "Pour notre animalerie, je voudrais une pub drôle sur l'affaire du chaton voleur de croquettes."
+  ],
+  "woodcut": [
+   "Fais un conte où tout un village fond une grande cloche pendant l'hiver et, au premier coup, la neige s'arrête.",
+   "Je veux montrer le travail des artisans de notre atelier de tissage avec des images façon gravure sur bois.",
+   "Fais une bande-annonce façon gravure sur bois pour mon nouveau roman de fantasy."
+  ],
+  "engraving": [
+   "Pour le musée, montre une abeille gravée trait par trait sur une plaque de cuivre, puis rehaussée d'aquarelle.",
+   "Je voudrais une pub qui présente l'héritage de notre vieille miellerie comme une ancienne gravure sur cuivre.",
+   "Je veux présenter une à une les orchidées sauvages de France comme les gravures d'un vieux livre d'histoire naturelle."
+  ],
+  "silkscreen-poster": [
+   "Pour notre agence de voyages, fais un guide qui présente Paris, la Provence et la Bretagne comme de grandes affiches.",
+   "Je veux raconter le retour à la maison de mon frère qui travaille à l'étranger, affiche après affiche.",
+   "Pour notre festival de musique, je voudrais une pub façon affiche sérigraphiée."
+  ],
+  "printed-long-take": [
+   "Montre en un seul plan continu, comme gravé, une nuée d'oiseaux d'eau au-dessus des étangs de la Dombes.",
+   "Je veux montrer notre randonnée du pied au sommet comme un seul paysage gravé continu.",
+   "Je veux montrer une remontée de la Dordogne en canoë, sans coupe, comme une seule gravure imprimée."
+  ],
+  "pop-art": [
+   "Explique avec des images pop art répétées que la plupart des bananes du marché sont des clones d'une seule variété.",
+   "Fais la pub de notre nouvelle glace comme des affiches pop art aux couleurs éclatantes.",
+   "Je veux montrer en pop art, avec des points, combien de sucre il y a dans une canette de soda."
+  ],
+  "vintage-collage": [
+   "Je veux raconter l'histoire des vieux timbres français en collage d'images d'archive et de vieux papiers.",
+   "Montre la collection de vieux billets de mon grand-père avec de vrais scans, comme un collage de magazine.",
+   "Je veux raconter l'histoire de notre fabrique de parapluies d'Aurillac en mêlant vieilles pubs et vieilles photos."
+  ],
+  "dark-keynote": [
+   "Présente notre nouvelle appli mobile de façon spectaculaire, comme une keynote sur scène avec un fond noir.",
+   "Je voudrais une pub qui montre notre logiciel de comptabilité rangeant des fichiers en désordre d'un seul clic.",
+   "Pour l'anniversaire de notre startup, fais une vidéo de présentation spectaculaire de nos nouvelles fonctionnalités."
+  ],
+  "living-screencast": [
+   "Montre comment commander dans notre appli de boutique en ligne avec de vraies captures d'écran et un petit personnage qui guide.",
+   "Je voudrais un tuto qui montre étape par étape, sur les vrais écrans, comment prendre rendez-vous sur le site de notre cabinet.",
+   "Présente la nouvelle fonctionnalité de notre logiciel avec un petit personnage qui sort d'une vraie capture d'écran."
+  ],
+  "hologram-hud": [
+   "Scanne notre nouveau scooter électrique comme un hologramme et montre la batterie, le moteur et les freins avec des cadres de visée.",
+   "Pour un salon professionnel, je veux expliquer les specs internes de notre purificateur d'eau avec une interface holographique.",
+   "Fais une petite vidéo cinématographique qui scanne le vaisseau spatial jouet de mon fils en hologramme et montre ses pièces."
+  ],
+  "desktop-flythrough": [
+   "Montre la photo de chat que j'ai prise qui saute de mon téléphone à celui de mon amie en traversant des cartes d'appli.",
+   "Je veux montrer avec des cartes sur un bureau comment notre appli envoie une facture à un client.",
+   "Je voudrais une vidéo sur un bureau ensoleillé qui explique comment les élèves envoient leurs devoirs au prof depuis leur téléphone."
+  ],
+  "spreadsheet": [
+   "Explique où part le plus d'argent dans notre budget familial en dépliant les colonnes du tableur.",
+   "Je veux comparer cellule par cellule dans un tableur les bénéfices des deux boutiques de notre crêperie.",
+   "Je veux expliquer aux élèves le paradoxe de Simpson, qui montre comment un total peut tromper, avec un seul tableur."
+  ],
+  "one-bit-dither": [
+   "Je veux montrer en petits points noirs et blancs comment la première photo rapprochée de la Lune est sortie du fax ligne par ligne.",
+   "Je veux raconter en noir et blanc imprimé comment un télégramme arrivait au village du temps de mon grand-père.",
+   "Montre en points de deux encres les vieilles machines de notre petite imprimerie qui tournent la nuit."
+  ],
+  "one-line": [
+   "Dessine toute la vie de ma mère d'une seule ligne qui, à la fin, passe le stylo à sa petite-fille.",
+   "Je voudrais une pub simple qui raconte l'histoire de notre bijouterie d'une seule ligne continue.",
+   "Pour le mariage d'un ami, je veux dessiner d'une seule ligne leur histoire, de leur rencontre jusqu'au mariage."
+  ],
+  "whiteboard": [
+   "Explique sur un tableau blanc comment le téléphone sait où l'on est, avec les satellites et le GPS.",
+   "Pour notre formation en ligne en comptabilité, je veux apprendre à saisir recettes et dépenses en écrivant sur un tableau blanc.",
+   "Je veux expliquer à nos employés sur un tableau blanc comment fonctionne le paiement sans contact de notre boutique."
+  ],
+  "chalkboard": [
+   "Explique à la craie sur un tableau noir d'où vient le mot « bistrot ».",
+   "Je veux démêler au tableau noir l'idée reçue selon laquelle il ne faut pas se baigner juste après avoir mangé.",
+   "Montre une formule de maths de nos cours particuliers comme si le prof l'écrivait au tableau noir de la classe."
+  ],
+  "sketchnote": [
+   "Montre en petits croquis, de la fleur au pot, combien de miel une abeille produit dans sa vie, jusqu'à former une affiche.",
+   "Résume en une page de sketchnotes les points clés de la conférence business à laquelle j'ai assisté.",
+   "Je veux faire un résumé d'une page des services de notre boutique, avec des petits dessins et des flèches."
+  ],
+  "stick-explainer": [
+   "Explique avec des bonshommes bâtons que n'importe qui sur Terre est relié à n'importe qui en six personnes environ.",
+   "Je veux présenter simplement notre programme de parrainage client avec des petits bonshommes.",
+   "Je veux montrer avec des bonshommes bâtons comment les gens d'un village restent en contact avec leurs proches partis travailler loin."
+  ],
+  "ipad-sketch": [
+   "Montre une tasse de café qui redevient une cerise de café rouge, puis est séchée, torréfiée, moulue et revient dans la tasse.",
+   "Je veux montrer la recette des crêpes sur une seule page de croquis, avec des dessins qui changent de couleur à chaque étape.",
+   "Je veux expliquer la fabrication de nos savons artisanaux comme si on les dessinait au crayon sur une tablette."
+  ],
+  "marker-paper": [
+   "Calcule au marqueur sur papier à quelle distance se trouve l'horizon quand on est sur la plage.",
+   "Je veux résoudre étape par étape un problème de physique au marqueur pour les élèves de nos cours particuliers.",
+   "Montre comment calculer les pourcentages de réduction de notre boutique, écrits au marqueur sur papier."
+  ],
+  "ink-wash": [
+   "Fais une histoire à l'encre où un sabreur marche sur la rivière et fend le courant d'un seul coup de sabre.",
+   "Pour notre marque de thé, je voudrais une pub calme à l'encre, entre montagnes et brume.",
+   "Je veux illustrer mon petit poème avec des images où les coups de pinceau à l'encre se répandent."
+  ],
+  "shadow-puppet": [
+   "Raconte avec des marionnettes en cuir la légende de l'archer qui abat neuf des dix soleils qui brûlaient la Terre.",
+   "Je veux montrer aux enfants le conte du Petit Chaperon rouge avec des ombres chinoises sur un écran éclairé.",
+   "Pour l'ouverture de notre festival culturel, fais une vidéo d'invitation façon théâtre d'ombres traditionnel."
+  ],
+  "ukiyoe": [
+   "Fais le voyage d'un marcheur vers une montagne lointaine, où chaque vue devient une estampe, jusqu'au sommet avec une grande vague.",
+   "Pour l'ouverture de notre petit restaurant japonais, je voudrais une pub façon estampe ukiyo-e.",
+   "Je veux montrer de façon poétique l'ascension du Mont-Saint-Michel, façon estampe japonaise."
+  ],
+  "papercut-red": [
+   "Fais le conte où, la nuit du Nouvel An chinois, le monstre Nian arrive au village et est chassé par le grand papier découpé d'une fillette qui s'illumine.",
+   "Pour souhaiter le Nouvel An chinois à nos clients, je voudrais une petite vidéo en papier découpé rouge.",
+   "Fais la pub de la fête de la Lune de notre pâtisserie familiale du 13e arrondissement en papiers découpés rouges."
+  ],
+  "paper-lantern": [
+   "Je veux raconter le dernier voyage d'un vieux train, avec les fenêtres éclairées qui s'éteignent une à une, comme une lanterne en papier.",
+   "Pour le départ à la retraite de mon grand-père, fais l'histoire de la petite gare où il a travaillé, éclairée comme des lanternes.",
+   "Pour notre hôtel, je veux montrer un train de nuit qui traverse le viaduc de Garabit, illuminé comme une lanterne."
+  ],
+  "stained-glass": [
+   "Montre l'histoire d'un héros et d'un dragon qui s'éveille dans chaque panneau du vitrail à mesure que le soleil passe, du matin au soir.",
+   "Pour notre carte de vœux de Noël, fais un petit conte façon vitrail.",
+   "Je veux raconter l'héritage de la Sainte-Chapelle avec une petite histoire façon vitrail."
+  ],
+  "gilded-illumination": [
+   "Fais le conte d'un monde tout en or où le soleil s'éteint et où une fille porte la dernière lanterne en haut de la montagne.",
+   "Pour Noël, je voudrais une petite vidéo poétique comme une enluminure dorée de manuscrit.",
+   "Je veux raconter l'origine de notre atelier de dorure comme un vieux livre enluminé tout en or."
+  ],
+  "line-art-ink": [
+   "Je veux voir une petite rue de Montmartre dessinée à l'encre du matin au soir : le café, les marchands, les lumières qui s'allument la nuit.",
+   "Fais notre petite boulangerie en joli dessin au trait, de l'ouverture au petit matin jusqu'à l'arrivée des clients.",
+   "J'aimerais voir un village au bord du lac d'Annecy avec un rameur, un chat et des oiseaux, du coucher du soleil à la nuit."
+  ],
+  "onetake-launch": [
+   "Notre nouvelle appli de location de vélos sort bientôt : je veux une vidéo de lancement d'environ 20 secondes. J'envoie des captures d'écran.",
+   "Fais un teaser moderne pour notre petit site de cadeaux d'anniversaire.",
+   "Je voudrais une pub en un seul plan continu, sans coupe, pour une appli qui suit le temps de révision des étudiants."
+  ],
+  "onetake-demo": [
+   "Je voudrais une vidéo avec une voix en français qui explique comment créer une facture et consulter les rapports dans notre appli de compta.",
+   "Fais une vidéo étape par étape pour que les personnes âgées comprennent notre appli de prise de rendez-vous médicaux. J'ai les captures d'écran.",
+   "Je veux une vidéo bilingue français-anglais sur 3 nouvelles fonctionnalités de notre système de caisse."
+  ],
+  "onetake-concept": [
+   "Pour une appli de livraison, je voudrais une pub concept où un seul clic fait arriver les colis les uns après les autres.",
+   "Je veux montrer la pub de notre café en un seul plan, sans coupe, du grain de café jusqu'à la tasse.",
+   "Montre le temps gagné grâce à notre appli de virement, avec une année qui se compresse en une minute."
+  ],
+  "hf-captions": [
+   "Ajoute des sous-titres à ma vidéo où je parle de ma boutique, avec un carton au nom de la boutique.",
+   "Je veux que les 3 points clés de mon interview apparaissent en cartons.",
+   "Sous-titre ce petit extrait de mon live Instagram pour qu'on le comprenne même sans le son."
+  ],
+  "hf-vertical": [
+   "Fais un clip vertical pour TikTok avec 3 astuces pour réussir son café filtre.",
+   "Je voudrais une pub rapide pour Reels sur les soldes d'hiver de notre boutique de vêtements.",
+   "Montre 5 bonnes habitudes du matin en gros caractères pour les Shorts."
+  ],
+  "hf-music": [
+   "Fais un lyric video pour la chanson que j'ai chantée. J'envoie le fichier.",
+   "Je veux une vidéo colorée calée sur le beat pour le petit jingle de notre boutique.",
+   "Fais une vidéo de photos calée sur le rythme de la chanson qu'on a chantée pour un anniversaire."
+  ],
+  "logo-reveal": [
+   "Fais une révélation de logo de 5 secondes pour notre café, à mettre au début de nos vidéos YouTube.",
+   "Je veux transformer le logo de l'entreprise en petite animation d'accueil au chargement du site. Une ambiance calme et rassurante.",
+   "Je veux que le logo de notre magasin de jouets apparaisse en sautillant joyeusement."
+  ],
+  "lottie-anim": [
+   "Je voudrais une petite animation de coche à afficher dans l'appli quand le paiement est réussi.",
+   "Fais une petite icône de chargement pour notre site, dans le violet de notre marque.",
+   "Fais une animation de bandeau avec nom et fonction à utiliser dans nos vidéos YouTube."
+  ],
+  "ad-marker-comic": [
+   "Fais un petit dessin animé où le chat préféré de ma fille devient un super-héros et sauve les enfants du quartier.",
+   "Je veux raconter en BD couleur l'histoire drôle qui se passe chaque matin dans mon petit café.",
+   "Je voudrais un dessin animé comique où deux frères se disputent pendant une bataille d'eau à la fête du village, puis se réconcilient."
+  ],
+  "ad-scrapbook": [
+   "Fais une vidéo qui raconte l'histoire de notre famille, du mariage de mes grands-parents jusqu'à aujourd'hui, comme un vieil album photo.",
+   "Je veux raconter la construction des cathédrales comme un carnet plein de vieux papiers et de petites notes collées.",
+   "Je veux raconter plus de 50 ans de notre atelier familial de tissage avec de vieux registres et des photos."
+  ],
+  "ad-ballpoint": [
+   "Je veux montrer tout en douceur, comme dessiné au stylo bille, ma mère qui prépare ma gamelle chaque matin.",
+   "Présente mes portefeuilles en cuir faits main comme esquissés au stylo bille dans un carnet.",
+   "Fais un petit court-métrage souvenir, façon croquis au stylo bille, sur le banc où je m'asseyais avec mon ami au lycée."
+  ],
+  "ad-broken-colour": [
+   "Je veux montrer une petite barque qui traverse le lac d'Annecy au coucher du soleil, joliment, comme un tableau à l'huile.",
+   "Fais la pub de notre petite maison d'hôtes au bord de la mer, dans la lumière du matin, comme un tableau.",
+   "Fais un souvenir de voyage avec des montgolfières qui s'élèvent au-dessus des châteaux de la Loire à l'aube."
+  ],
+  "ad-embroidery": [
+   "Pour l'anniversaire de ma mère, fais une petite vidéo où des fleurs se brodent point par point et laissent apparaître un message.",
+   "Pour ma boutique de sacs brodés main, je voudrais une petite pub comme si on brodait au fil et à l'aiguille.",
+   "Montre les saisons qui passent avec les fleurs et les oiseaux des Alpes, comme brodés au fil."
+  ],
+  "ad-stipple": [
+   "Je veux expliquer aux enfants les étapes de la vie d'une luciole avec des petits points, comme dans un vieux livre de sciences.",
+   "Présente un à un les différents coquillages de la côte bretonne en petits dessins à l'encre pointillée.",
+   "Je veux présenter la lavande de notre herboristerie comme dans un ancien livre de botanique."
+  ],
+  "ad-charcoal": [
+   "Mon père me manque : je veux retracer au fusain les jours où on allait pêcher ensemble.",
+   "Fais un court-métrage sur la première nuit d'un garçon parti de sa campagne pour chercher du travail en ville.",
+   "Pour mon cours de dessin, je veux montrer un portrait dessiné au fusain, effacé puis redessiné."
+  ],
+  "ad-flat-vector": [
+   "Explique simplement comment utiliser notre appli de commande de fruits et légumes en ligne.",
+   "Je veux montrer le trajet de Lyon jusqu'aux gorges de l'Ardèche avec des illustrations modernes.",
+   "Explique en images à mes amis étrangers comment on prépare et on mange une fondue savoyarde."
+  ],
+  "ad-cut-paper": [
+   "Fais pour mon fils la fable du lièvre et de la tortue, comme en papier découpé et collé.",
+   "Je veux montrer aux enfants le passage des saisons avec des morceaux de papier déchiré.",
+   "Fais une jolie pub pour les gâteaux de ma petite pâtisserie avec du papier découpé coloré."
+  ],
+  "ad-toy-theatre": [
+   "Pour l'anniversaire de ma fille, fais le conte de la princesse et du petit dragon comme un petit théâtre en carton.",
+   "Pour annoncer le spectacle de notre troupe de marionnettes, je veux montrer les personnages qui glissent sur une petite scène.",
+   "Fais le conte du Chat botté joué sur une petite scène en papier, pour que les enfants le regardent."
+  ],
+  "ad-storybook": [
+   "Fais de mon fils le héros d'une série d'histoires en épisodes à regarder chaque soir avant de dormir.",
+   "Je veux montrer le chat mascotte de notre bibliothèque jeunesse qui invite les enfants à venir lire.",
+   "Fais une petite série d'histoires pour enfants où un éléphanteau voyage de la Camargue jusqu'au Mont-Saint-Michel."
+  ],
+  "ad-folk-tale": [
+   "Fais en conte du soir l'histoire du renard malin que ma mère me racontait quand j'étais petit.",
+   "Je veux montrer une histoire façon conte d'une famille de paysans qui fait les vendanges dans un village de Bourgogne.",
+   "Présente avec chaleur le savoir-faire du miel de notre village, comme les images d'un vieux livre de contes."
+  ],
+  "ad-dream-glaze": [
+   "Je veux montrer comme un tableau étrange et beau la maison volante dans le ciel que je voyais dans mes rêves d'enfant.",
+   "Fais un court-métrage artistique sur la question « d'où venons-nous, où allons-nous », avec un escalier qui monte jusqu'aux nuages.",
+   "Pour la pub de mon expo, fais une scène onirique où une abbaye apparaît à la surface d'un lac."
+  ],
+  "arch-diagram": [
+   "Explique avec un schéma comment une commande passée dans notre appli arrive en cuisine, est préparée puis confiée au livreur.",
+   "Je veux montrer aux nouveaux employés de notre pharmacie familiale le processus, de la commande au stock, au comptoir et à la caisse.",
+   "Fais une vidéo illustrée qui explique aux élèves comment un virement depuis le téléphone circule dans le système bancaire."
+  ],
+  "doc-mix": [
+   "Fais un documentaire d'environ 3 minutes sur la taille de la baleine bleue et son évolution.",
+   "Je voudrais une vidéo qui explique avec cartes et schémas comment les cathédrales gothiques ont été construites et comment elles tiennent debout.",
+   "Fais une vidéo d'une minute pour les Shorts qui compare les plus grandes étoiles connues au Soleil, avec des faits étonnants."
+  ]
+ }
+}

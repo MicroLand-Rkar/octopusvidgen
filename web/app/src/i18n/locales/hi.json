@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "{name} हटाएं",
+  "att.tooBig": "नहीं जोड़ी गईं (500 MB से बड़ी): {names}",
+  "att.trayLabel": "अटैच की गई फ़ाइलें",
+  "board.addHint": "तस्वीरें, क्लिप, आवाज़, संगीत, दस्तावेज़",
+  "board.addRefs": "रेफ़रेंस जोड़ें",
+  "board.addStyle": "+ एक स्टाइल मिलाएँ",
+  "board.aspect": "आस्पेक्ट रेशियो",
+  "board.blendStyle": "मिलाया गया",
+  "board.chatTitle": "Claude के साथ फ़िल्म {n} की योजना बनाएँ",
+  "board.close": "बंद करें",
+  "board.delete": "हटाएँ",
+  "board.deleteConfirm": "{name} को इस प्रोजेक्ट से हटाएँ?",
+  "board.deleteError": "फ़ाइल हटाई नहीं जा सकी",
+  "board.done": "हो गया ({n})",
+  "board.download": "डाउनलोड करें",
+  "board.dropHere": "इस प्रोजेक्ट में जोड़ने के लिए फ़ाइलें यहाँ छोड़ें",
+  "board.emptyBody": "तस्वीरें, क्लिप, आवाज़ या संगीत यहाँ छोड़ें, फिर चैट में Claude के साथ पहली फ़िल्म की योजना बनाएँ।",
+  "board.emptyTitle": "एक खाली प्रोजेक्ट",
+  "board.filter.all": "सभी",
+  "board.filter.films": "फ़िल्में",
+  "board.filter.made": "Claude ने बनाया",
+  "board.filter.refs": "रेफ़रेंस",
+  "board.filterLabel": "दिखाएँ",
+  "board.helloNoStyle": "नमस्ते। ऊपर एक स्टाइल चुनें (या कोई सुझाव टैप करें), फिर मुझे बताएँ कि फ़िल्म कैसी होनी चाहिए। बनाने से पहले, जो भी बात साफ़ न हो, मैं आपसे पूछ लूँगा।",
+  "board.hint": "+ से रेफ़रेंस चुनें, फिर चैट में अगली फ़िल्म की योजना बनाएँ",
+  "board.inProject": "इस प्रोजेक्ट में",
+  "board.length": "लंबाई",
+  "board.made": "Claude ने बनाया",
+  "board.mainStyle": "मुख्य स्टाइल",
+  "board.make": "वीडियो बनाएँ",
+  "board.makeError": "फ़िल्म शुरू नहीं हो सकी",
+  "board.makeHint": "फ़िल्म अभी बनाएँ (Ctrl/⌘ + Enter)",
+  "board.newChat": "नई चैट",
+  "board.open": "{name} खोलें",
+  "board.pick": "अगली फ़िल्म में इस्तेमाल करें",
+  "board.pickHint": "आप जो पहला चुनते हैं वह मुख्य रहता है; बाकी उसमें मिला दिए जाते हैं।",
+  "board.pickStyle": "एक स्टाइल चुनें",
+  "board.pickStyles": "स्टाइल चुनें",
+  "board.picked": "अगली फ़िल्म में",
+  "board.pickedLabel": "अगली फ़िल्म के लिए रेफ़रेंस",
+  "board.placeholder": "फ़िल्म {n} के बारे में बताएँ: क्या होता है, इसमें कौन है, माहौल कैसा है…",
+  "board.planFirst": "पहले चैट में योजना बनाएँ →",
+  "board.promptLabel": "अगली फ़िल्म कैसी होनी चाहिए",
+  "board.ref": "रेफ़रेंस",
+  "board.removeStyle": "{name} हटाएँ",
+  "board.replyPlaceholder": "Claude को जवाब दें…",
+  "board.searchStyles": "स्टाइल खोजें",
+  "board.starting": "शुरू हो रहा है…",
+  "board.suggestAgain": "फिर से सुझाएँ",
+  "board.suggested": "सुझाया गया",
+  "board.tooShort": "फ़िल्म के बारे में थोड़ा और लिखें (कम से कम 10 अक्षर)।",
+  "board.unpick": "इस्तेमाल न करें",
+  "board.unpickName": "{name} इस्तेमाल न करें",
+  "board.uploadError": "फ़ाइलें जोड़ी नहीं जा सकीं",
+  "board.uploading": "{n} जोड़ी जा रही हैं…",
+  "board.usedBefore": "इस प्रोजेक्ट में इस्तेमाल हुआ",
+  "board.voice": "नैरेशन की भाषा",
+  "film.askHead": "Claude कुछ पूछ रहा है — जवाब देते ही काम आगे बढ़ेगा",
+  "film.attach": "फ़ाइलें अटैच करें",
+  "film.backSingle": "सिंगल वीडियो",
+  "film.briefTitle": "Claude का लिखा ब्रीफ़",
+  "film.cancel": "रोकें",
+  "film.canceledNote": "यह वीडियो रोक दिया गया।",
+  "film.chatIdle": "इस वीडियो पर काम जारी रखने के लिए मैसेज भेजें",
+  "film.chatLive": "वीडियो बन रहा है (बटन दोबारा दबाने की ज़रूरत नहीं)। Claude का काम यहाँ लाइव दिख रहा है।",
+  "film.chatTitle": "Claude से चैट",
+  "film.downloadFile": "{name} डाउनलोड करें",
+  "film.downloadMp4": "MP4 डाउनलोड करें",
+  "film.dropHere": "Claude को भेजने के लिए फ़ाइलें यहाँ छोड़ें",
+  "film.elapsedDone": "{time} लगे",
+  "film.elapsedLive": "{time} हो गए",
+  "film.estimateHint": "प्रतिशत एक अनुमान है, जो Claude के मौजूदा स्टेप पर आधारित है। एक वीडियो में आमतौर पर 10–20 मिनट लगते हैं।",
+  "film.failedNote": "वीडियो अभी तैयार नहीं हुआ। क्या हुआ, यह दाईं ओर चैट में देखें — वहीं जवाब दें, काम फिर शुरू हो जाएगा।",
+  "film.headDone": "पूरा हुआ",
+  "film.headFailed": "रुक गया — आगे बढ़ाने के लिए चैट में जवाब दें",
+  "film.headQueued": "कतार में",
+  "film.headRunning": "काम चल रहा है",
+  "film.imagesGot": "अब तक {n} इमेज",
+  "film.inputsTitle": "आपकी दी गई सामग्री",
+  "film.loadError": "यह फ़िल्म लोड नहीं हो सकी",
+  "film.loading": "लोड हो रहा है…",
+  "film.making": "Claude वीडियो बना रहा है…",
+  "film.noProject": "कोई नहीं",
+  "film.now": "अभी",
+  "film.phLive": "Claude को नोट भेजें… (अगले स्टेप से पहले पढ़ा जाएगा)",
+  "film.phQuestion": "Claude के सवाल का जवाब दें…",
+  "film.phResume": "जवाब दें… (भेजते ही काम वहीं से शुरू होगा जहाँ रुका था)",
+  "film.phSucceeded": "बताएं क्या बदलना है… (भेजते ही एडिट शुरू होगा)",
+  "film.progressLabel": "प्रगति",
+  "film.projectFallback": "प्रोजेक्ट",
+  "film.projectLabel": "प्रोजेक्ट:",
+  "film.queuedWait": "कतार में इंतज़ार…",
+  "film.send": "भेजें",
+  "film.sendError": "भेजा नहीं जा सका",
+  "film.sendLabel": "Claude को मैसेज करें",
+  "film.sizeKb": "{n} KB",
+  "film.stage.build": "विज़ुअल, मोशन और साउंड बनाना",
+  "film.stage.finish": "वीडियो एक्सपोर्ट करना",
+  "film.stage.images": "Flow AI से इमेज बनाना",
+  "film.stage.plan": "स्क्रिप्ट की प्लानिंग",
+  "film.stage.read": "स्टाइल समझना",
+  "film.stage.render": "रेंडर और जाँच",
+  "film.steps": "{n} स्टेप",
+  "film.tagAnswer": "जवाब",
+  "film.tagNote": "नोट",
+  "film.tagPlan": "प्लानिंग चैट",
+  "film.working": "काम चल रहा है…",
+  "lang.label": "भाषा",
+  "nav.label": "स्टूडियो",
+  "nav.new": "नया वीडियो",
+  "nav.projects": "मेरे प्रोजेक्ट",
+  "new.all": "सभी ({n})",
+  "new.aspect": "आस्पेक्ट रेशियो",
+  "new.attach": "फ़ाइलें अटैच करें",
+  "new.attachTitle": "फ़ाइलें अटैच करें (ड्रैग या पेस्ट भी कर सकते हैं)",
+  "new.attachedCount": "{n} जोड़ी गईं",
+  "new.badgeFlow": "✦ Flow AI इमेज",
+  "new.badgeNoGen": "✦ इमेज जनरेटर नहीं",
+  "new.cancel": "रद्द करें",
+  "new.category": "कैटेगरी",
+  "new.create": "बनाएं",
+  "new.dropHere": "फ़ाइलें यहाँ छोड़ें",
+  "new.duration": "लंबाई",
+  "new.episode": "एपिसोड {n}",
+  "new.filesNote": "ये रहीं कुछ फ़ाइलें।",
+  "new.flowBody": "Claude आपके Chrome में Flow खोलकर ज़रूरी इमेज बनाता है। वीडियो बनने तक Chrome खुला रखें। इसमें कुछ Flow क्रेडिट लगते हैं।",
+  "new.flowTitle": "✦ इमेज Google Flow AI से अपने-आप बनती हैं।",
+  "new.hello": "नमस्ते! {style} स्टाइल में आपको कैसा वीडियो चाहिए, आसान शब्दों में बताइए। कुछ साफ़ न हो तो मैं पूछ लूँगा।",
+  "new.language": "भाषा",
+  "new.listSep": ", ",
+  "new.make": "वीडियो बनाएं",
+  "new.makeRest": "बाकी Claude तय करे और बना दे",
+  "new.material": "सामग्री जोड़ें",
+  "new.materialHint": "फ़ाइलें, ऑडियो, फ़ोटो (वैकल्पिक)",
+  "new.maxFiles": "आप ज़्यादा से ज़्यादा {max} फ़ाइलें अटैच कर सकते हैं।",
+  "new.messageLabel": "Claude को मैसेज करें",
+  "new.ncAfter": " इस्तेमाल के लिए मुफ़्त है। क्लाइंट या बिज़नेस के काम के लिए कमर्शियल लाइसेंस (onetake Pro) चाहिए।",
+  "new.ncBefore": "यह स्टाइल सिर्फ़ ",
+  "new.ncStrong": "नॉन-कमर्शियल",
+  "new.needField": "इस स्टाइल के लिए {field} चाहिए।",
+  "new.needs": "ज़रूरी: {list}",
+  "new.newProject": "+ नया प्रोजेक्ट…",
+  "new.noGen": "इस स्टाइल के लिए AI से बनी इमेज चाहिए, और इस सर्वर पर कोई इमेज जनरेटर चालू नहीं है, इसलिए अभी इससे वीडियो नहीं बन सकते।",
+  "new.noProject": "कोई प्रोजेक्ट नहीं (एक बार का)",
+  "new.noReply": "Claude अभी जवाब नहीं दे पाया",
+  "new.pickLeft": "लिस्ट से एक स्टाइल चुनें।",
+  "new.pickStyle": "पहले एक स्टाइल चुनें।",
+  "new.pickStyleShort": "पहले स्टाइल चुनें",
+  "new.placeholder": "लिखें आपको क्या चाहिए… इमेज और फ़ाइलें यहाँ ड्रैग या पेस्ट करें",
+  "new.planDraft": "प्लान का ड्राफ़्ट (Claude यही ब्रीफ़ भेजेगा)",
+  "new.planReady": "✓ वीडियो प्लान (Claude यही ब्रीफ़ भेजेगा)",
+  "new.project": "प्रोजेक्ट",
+  "new.projectFailed": "प्रोजेक्ट नहीं बन सका",
+  "new.projectName": "प्रोजेक्ट का नाम",
+  "new.samples": "उदाहरण: भेजने के लिए किसी पर टैप करें",
+  "new.searchLabel": "स्टाइल खोजें",
+  "new.searchPlaceholder": "खोजें: वॉटरकलर, एक्सप्लेनर, न्यूज़…",
+  "new.seconds": "{n} सेकंड",
+  "new.send": "भेजें",
+  "new.startFailed": "वीडियो शुरू नहीं हो सका",
+  "new.starting": "शुरू हो रहा है…",
+  "new.step1": "1. स्टाइल चुनें",
+  "new.step2": "2. Claude के साथ प्लान करें",
+  "new.styleBeforeFiles": "फ़ाइलें जोड़ने से पहले स्टाइल चुनें।",
+  "new.stylesLabel": "स्टाइल",
+  "new.tellFirst": "पहले Claude को बताएं कि आपको क्या चाहिए।",
+  "new.thinking": "सोच रहा है…",
+  "new.uploading": "फ़ाइलें अपलोड हो रही हैं…",
+  "projects.addEpisode": "+ एपिसोड {n}",
+  "projects.assets": "दोबारा इस्तेमाल होने वाले एसेट ({n}):",
+  "projects.back": "← मेरे प्रोजेक्ट",
+  "projects.bibleEmpty": "पहले एपिसोड के बाद Claude यहाँ लिखेगा।",
+  "projects.bibleHint": "किरदारों, जगहों और स्टाइल पर Claude के नोट्स — हर एपिसोड में पढ़े और अपडेट किए जाते हैं",
+  "projects.bibleTitle": "सीरीज़ बाइबल",
+  "projects.cancel": "रद्द करें",
+  "projects.cancelEdit": "रद्द करें",
+  "projects.continueEpisode": "एपिसोड {n} के साथ आगे बढ़ें",
+  "projects.create": "बनाएं",
+  "projects.createError": "बन नहीं सका",
+  "projects.descLabel": "किस बारे में है",
+  "projects.descPlaceholder": "किरदार, दुनिया, स्टाइल… Claude हर एपिसोड में इसे पढ़ता है",
+  "projects.edit": "नाम/विवरण बदलें",
+  "projects.emptyBody": "प्रोजेक्ट एक फ़ोल्डर है। एक सीरीज़ के एपिसोड साथ रखें, Claude किरदार, जगहें, स्टाइल और म्यूज़िक दोबारा इस्तेमाल करेगा।",
+  "projects.emptyCta": "अपना पहला प्रोजेक्ट बनाएं",
+  "projects.emptyTitle": "अभी कोई प्रोजेक्ट नहीं",
+  "projects.episodeCount": "एपिसोड: {n}",
+  "projects.episodeN": "एपिसोड {n}",
+  "projects.firstEpisodeCta": "एपिसोड 1 बनाएं",
+  "projects.loadError": "लोड नहीं हो सका",
+  "projects.loading": "लोड हो रहा है…",
+  "projects.nameLabel": "प्रोजेक्ट का नाम",
+  "projects.namePlaceholder": "जैसे: चाय की टपरी वाली जंग",
+  "projects.nameRequired": "कोई नाम दें",
+  "projects.newProject": "+ नया प्रोजेक्ट",
+  "projects.newVideo": "नया वीडियो",
+  "projects.noEpisodesBody": "पहला एपिसोड किरदार, जगहें और स्टाइल तय करता है। आगे के एपिसोड उन्हें दोबारा इस्तेमाल करते हैं।",
+  "projects.noEpisodesTitle": "अभी कोई एपिसोड नहीं",
+  "projects.optional": "वैकल्पिक",
+  "projects.save": "सेव करें",
+  "projects.saveError": "सेव नहीं हो सका",
+  "projects.seconds": "{n} से.",
+  "projects.singleCount": "फ़िल्में: {n}",
+  "projects.singles": "सिंगल वीडियो",
+  "projects.singlesHint": "जो वीडियो किसी प्रोजेक्ट में नहीं हैं",
+  "projects.title": "मेरे प्रोजेक्ट",
+  "src.anyFile": "कोई भी फ़ाइल",
+  "src.badType": "{name}: यह फ़ाइल टाइप स्वीकार नहीं है।",
+  "src.canSource": "न हो तो कोई बात नहीं। Claude सार्वजनिक जानकारी खुद ढूंढ लेगा।",
+  "src.choose": "फ़ाइलें चुनें",
+  "src.closeCommon": "− बंद करें",
+  "src.dropOr": "या यहाँ ड्रैग करें · {types} · ज़्यादा से ज़्यादा {max}",
+  "src.material.none": "शुरू से ड्रॉ किया गया",
+  "src.material.optional": "अपनी सामग्री भी जोड़ सकते हैं",
+  "src.material.required": "असली जानकारी से बना",
+  "src.maxFiles": "सिर्फ़ {max} फ़ाइलें तक।",
+  "src.openCommon": "+ अपनी आवाज़, म्यूज़िक, फ़ोटो, लोगो जोड़ें",
+  "src.optional": "वैकल्पिक",
+  "src.remove": "हटाएं",
+  "src.removeLabel": "{name} हटाएं",
+  "src.required": "ज़रूरी",
+  "src.tooBig": "{name} 500 MB से बड़ी है।",
+  "status.canceled": "रद्द",
+  "status.failed": "विफल",
+  "status.queued": "कतार में",
+  "status.running": "बन रहा है",
+  "status.succeeded": "तैयार"
+ },
+ "style": {
+  "3D model": "3D मॉडल",
+  "A 16-bit pixel RPG drawn in code.": "कोड में बना 16-बिट पिक्सल RPG।",
+  "A 1930s rubber-hose cartoon drawn in code.": "कोड में बना 1930 के दशक का रबर-होज़ कार्टून।",
+  "A 3D world redrawn in crayon, all in code.": "क्रेयॉन से दोबारा रंगी 3D दुनिया, पूरी तरह कोड में।",
+  "A 60s spy title sequence cut from paper in code.": "60 के दशक का जासूसी टाइटल सीक्वेंस, कोड में कागज़ से काटा हुआ।",
+  "A Chinese ink painting made in code.": "कोड में बनी चीनी स्याही पेंटिंग।",
+  "A Memphis-style diorama built in code.": "कोड में बना मेम्फ़िस-स्टाइल डायोरामा।",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "लोगो की PNG, JPG या SVG फ़ाइल, जितनी बड़ी और साफ़ हो सके।",
+  "A beat-locked game show drawn in code; no source material needed.": "बीट पर चलता गेम शो, कोड में बना; किसी सामग्री की ज़रूरत नहीं।",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "कोड ग्राफ़िक्स से बना बुलेटिन; आपकी फ़ुटेज, फ़ोटो या लोगो भी जोड़े जा सकते हैं।",
+  "A colour-coded mechanism modelled and animated in code.": "रंगों से पहचाने जाने वाला मैकेनिज़्म, कोड में मॉडल और एनिमेट किया गया।",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "रंगीन पेंसिल वाला कटअवे, कोड में बना; किसी सामग्री की ज़रूरत नहीं।",
+  "A copperplate engraving drawn in code from your facts.": "आपके तथ्यों से कोड में बनी कॉपरप्लेट नक्काशी।",
+  "A crayon picture book drawn in code; no source material needed.": "क्रेयॉन चित्र-पुस्तक, कोड में बनी; किसी सामग्री की ज़रूरत नहीं।",
+  "A drawing or photo of the character to keep the same in every scene.": "किरदार की ड्रॉइंग या फ़ोटो, ताकि हर सीन में वह एक जैसा दिखे।",
+  "A drawn production line explaining a process; no source material needed.": "किसी प्रक्रिया को समझाती ड्रॉ की गई प्रोडक्शन लाइन; किसी सामग्री की ज़रूरत नहीं।",
+  "A fictional glass product rendered in code; real products are not reproduced.": "कोड में रेंडर किया गया काल्पनिक काँच का प्रोडक्ट; असली प्रोडक्ट की नकल नहीं की जाती।",
+  "A film whose feel you want; its rhythm is measured, not copied.": "ऐसी फ़िल्म जिसका एहसास आप चाहते हैं; उसकी लय मापी जाती है, नकल नहीं की जाती।",
+  "A four-colour pop-art print made in code.": "कोड में बना चार रंगों वाला पॉप-आर्ट प्रिंट।",
+  "A gilded manuscript painting made in code.": "कोड में बनी सुनहरी पांडुलिपि पेंटिंग।",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "आपकी चीज़ का चमकता वायरफ़्रेम, कोड में या आपकी 3D फ़ाइल से मॉडल किया गया।",
+  "A layered paper-cut lightbox built in code.": "परतदार पेपर-कट लाइटबॉक्स, कोड में बना।",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "किसी मशीन का लाइन-आर्ट कटअवे, कोड में मॉडल और ड्रॉ किया गया।",
+  "A low-poly island world built in code.": "कोड में बनी लो-पॉली द्वीप दुनिया।",
+  "A mid-century cartoon drawn in code from your steps.": "आपके स्टेप्स से कोड में बना मिड-सेंचुरी कार्टून।",
+  "A model of your object to show as a wireframe.": "आपकी चीज़ का मॉडल, जिसे वायरफ़्रेम के रूप में दिखाया जाएगा।",
+  "A moving knife-painted oil painting made in code.": "चाकू से बनी चलती-फिरती ऑयल पेंटिंग, कोड में बनी।",
+  "A paper pop-up book on a real-looking desk, made in code.": "असली जैसी मेज़ पर रखी पेपर पॉप-अप किताब, कोड में बनी।",
+  "A pen-and-wash urban sketch drawn in code.": "पेन-और-वॉश शहरी स्केच, कोड में बना।",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "वुडकट में बदलने के लिए कोई फ़ोटो या फ़्रेम, जैसे पोर्ट्रेट।",
+  "A picture computed in spreadsheet cells; can use your own table.": "स्प्रेडशीट सेल में कैलकुलेट की गई तस्वीर; आपकी अपनी टेबल भी इस्तेमाल हो सकती है।",
+  "A pixel-art miniature world built in code.": "कोड में बनी पिक्सल-आर्ट मिनिएचर दुनिया।",
+  "A post, notes or a sketch of the system to draw from.": "सिस्टम की पोस्ट, नोट्स या स्केच, जिससे ड्रॉ किया जाए।",
+  "A printed case file with halftone characters, drawn in code.": "हाफ़टोन किरदारों वाली छपी केस फ़ाइल, कोड में बनी।",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "टिल्ट-शिफ़्ट लुक में शूट किया गया छोटा-सा शहर, कोड में बना।",
+  "A real simulation of little creatures run and filmed in code.": "छोटे जीवों का असली सिमुलेशन, कोड में चलाया और फ़िल्माया गया।",
+  "A risograph print made in code.": "कोड में बना रिसोग्राफ़ प्रिंट।",
+  "A scene seen through a thermal camera, simulated in code.": "थर्मल कैमरे से दिखता सीन, कोड में सिमुलेट किया गया।",
+  "A sci-fi sitcom cartoon drawn in code.": "कोड में बना साइ-फ़ाई सिटकॉम कार्टून।",
+  "A scratchboard landscape long take made in code.": "स्क्रैचबोर्ड लैंडस्केप का लंबा टेक, कोड में बना।",
+  "A silkscreen travel poster printed in code.": "कोड में छपा सिल्कस्क्रीन ट्रैवल पोस्टर।",
+  "A sketchnote page drawn in code.": "कोड में बना स्केचनोट पेज।",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "एब्सट्रैक्ट UI वाली सॉफ़्टवेयर लॉन्च फ़िल्म, कोड में बनी; आपका लोगो एक्सेंट रंग तय करता है।",
+  "A stained-glass window lit in code.": "कोड में रोशन किया गया रंगीन काँच का झरोखा।",
+  "A table whose values drive the picture.": "एक टेबल जिसकी वैल्यू तस्वीर को चलाती हैं।",
+  "A tablet sketch drawn and coloured in code.": "टैबलेट स्केच, कोड में ड्रॉ और रंगा गया।",
+  "A toy-brick world built and animated in code.": "खिलौना-ईंटों की दुनिया, कोड में बनी और एनिमेट की गई।",
+  "A track you have the rights to; otherwise music is composed for the film.": "ऐसा ट्रैक जिसके अधिकार आपके पास हों; नहीं तो फ़िल्म के लिए म्यूज़िक बनाया जाएगा।",
+  "A track you have the rights to; the film is cut to it.": "ऐसा ट्रैक जिसके अधिकार आपके पास हों; फ़िल्म उसी पर कट की जाएगी।",
+  "A two-ink dithered 3D world made in code.": "दो स्याही वाली डिथर्ड 3D दुनिया, कोड में बनी।",
+  "A vertical clip; set the frame to 9:16.": "वर्टिकल क्लिप; फ़्रेम 9:16 पर सेट करें।",
+  "A watercolour painting brushed in code.": "कोड में ब्रश से बनी वॉटरकलर पेंटिंग।",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "ओपन डेटा या आपके नक्शों से बना असली इमारतों का सफ़ेद मॉडल, प्रोजेक्ट किए गए डेटा से रोशन।",
+  "A whiteboard explainer drawn in code.": "कोड में बना व्हाइटबोर्ड एक्सप्लेनर।",
+  "An SVG, logo or icon to animate, if there is one.": "एनिमेट करने के लिए SVG, लोगो या आइकन, अगर हो।",
+  "An assembly-manual drawing made in code from your steps.": "आपके स्टेप्स से कोड में बनी असेंबली-मैनुअल ड्रॉइंग।",
+  "An isometric infographic drawn in code.": "कोड में बना आइसोमेट्रिक इन्फ़ोग्राफ़िक।",
+  "An isometric scene of people following a rule, made in code.": "किसी नियम का पालन करते लोगों का आइसोमेट्रिक सीन, कोड में बना।",
+  "An old recording you own that can play under the archive.": "आपकी अपनी पुरानी रिकॉर्डिंग, जो आर्काइव के नीचे बज सके।",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "मेज़ पर पेपर कार्ड की तरह ऐप स्क्रीन, कोड में बनी; ब्रांड रंग भी चलेंगे।",
+  "Archive film or video about your subject.": "आपके विषय पर आर्काइव फ़िल्म या वीडियो।",
+  "Archive scans": "आर्काइव स्कैन",
+  "Article or notes": "लेख या नोट्स",
+  "Audio recordings or readings such as telemetry or weather.": "ऑडियो रिकॉर्डिंग या रीडिंग, जैसे टेलीमेट्री या मौसम।",
+  "BOM or spec sheet": "BOM या स्पेक शीट",
+  "Bill of materials and spec sheet for part names and numbers.": "पार्ट के नाम और नंबर के लिए बिल ऑफ़ मटीरियल और स्पेक शीट।",
+  "Black silhouettes moving to the beat, made in code.": "बीट पर थिरकती काली परछाइयाँ, कोड में बनी।",
+  "Brand feel": "ब्रांड का एहसास",
+  "Brand fonts you are licensed to use.": "ब्रांड फ़ॉन्ट जिनका लाइसेंस आपके पास है।",
+  "Building data": "इमारत का डेटा",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "प्रोडक्ट की अपनी CAD फ़ाइलों से बना; आपके प्रोडक्ट के लिए ज़रूरी, वरना हम ओपन हार्डवेयर लेते हैं।",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "असली माइक्रोस्कोप स्कैन से बना; अपना भेजें या हम लाइसेंस-मुक्त स्लाइड ढूंढेंगे।",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "असली आर्काइव वस्तुओं से बना; अपने स्कैन भेजें, या हम पब्लिक-डोमेन संग्रह लेते हैं।",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "असली लेज़र-स्कैन पॉइंट्स से बना; अपना स्कैन भेजें या हम सार्वजनिक LiDAR सर्वे लेते हैं।",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "वस्तुओं की असली तस्वीरों से बना; अपनी भेजें या हम लाइसेंस-मुक्त फ़ोटो लेते हैं।",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "किसी एक घटना की रियल-टाइम फ़ुटेज से बना; अपनी भेजें या हम पब्लिक-डोमेन रिकॉर्ड लेते हैं।",
+  "Built from your product: screenshots and a link make the UI and copy real.": "आपके प्रोडक्ट से बना: स्क्रीनशॉट और लिंक से UI और टेक्स्ट असली बनते हैं।",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "जगह की असली ऊँचाई और सैटेलाइट इमेजरी पर बना, ऊपर आपका डेटा चमकता है।",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "असली मैच फ़ुटेज पर बना; अपनी क्लिप भेजें या हम खुले लाइसेंस वाली ढूंढेंगे।",
+  "CAD files": "CAD फ़ाइलें",
+  "Captions and cards are added over your own video.": "आपके अपने वीडियो पर कैप्शन और कार्ड जोड़े जाते हैं।",
+  "Carved in code; a photo can be recut into a woodcut plate.": "कोड में तराशा गया; किसी फ़ोटो को वुडकट प्लेट में बदला जा सकता है।",
+  "Chalk writing and drawing made in code; no source material needed.": "चॉक से लिखावट और ड्रॉइंग, कोड में बनी; किसी सामग्री की ज़रूरत नहीं।",
+  "Character designs": "किरदार डिज़ाइन",
+  "Character reference": "किरदार रेफ़रेंस",
+  "Characters and scenes made of glowing points, all in code.": "चमकते बिंदुओं से बने किरदार और सीन, पूरी तरह कोड में।",
+  "Clip links": "क्लिप लिंक",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "असली पब्लिक-डोमेन प्रिंट और पुरानी चीज़ों से कोलाज, हाथ से काटा हुआ।",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "एक घटना की असली फ़ुटेज, फ़ोटो, दस्तावेज़ और डेटा का मिलान; आपकी सामग्री पहले।",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "असली आर्काइव फ़िल्म, प्रिंट और रिकॉर्डिंग से कट; पहले आपकी, वरना पब्लिक-डोमेन आर्काइव।",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "असली फ़ुटेज, फ़ोटो और मूल दस्तावेज़ों से कट; आपकी सामग्री पहले, कमी सार्वजनिक आर्काइव पूरी करते हैं।",
+  "Cut to your own song; send the track.": "आपके अपने गाने पर कट; ट्रैक भेजें।",
+  "Dashcam, CCTV, phone or archive video of the event.": "घटना का डैशकैम, CCTV, फ़ोन या आर्काइव वीडियो।",
+  "Data to plot": "प्लॉट करने के लिए डेटा",
+  "Dataset": "डेटासेट",
+  "Describe the voice you want, e.g. calm female, British English.": "जैसी आवाज़ चाहिए वह बताएं, जैसे शांत महिला आवाज़, ब्रिटिश अंग्रेज़ी।",
+  "Documents": "दस्तावेज़",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "पूरी तरह कोड में चमकते टर्मिनल टेक्स्ट के रूप में बना; किसी सामग्री की ज़रूरत नहीं।",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "पूरी तरह कोड में सुनहरे-काले आर्ट डेको में बना; किसी सामग्री की ज़रूरत नहीं।",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "कोड में ड्रॉ किया गया; आपकी पुरानी क्लिप को उस दौर की स्याही में दोबारा बनाया जा सकता है।",
+  "Drawn on a blueprint sheet in code; no source material needed.": "कोड में ब्लूप्रिंट शीट पर बना; किसी सामग्री की ज़रूरत नहीं।",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "जाँचे गए डेटा से असली नेटवर्क बनाता है; पहले आपका, वरना ऑपरेटर का ओपन डेटा।",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "किसी जगह की असली फ़ुटेज से एडिट; अपनी भेजें या हम लाइसेंस-मुक्त क्लिप ढूंढेंगे।",
+  "Event footage": "घटना की फ़ुटेज",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "हर निशान एक असली संख्या है; अपना डेटासेट भेजें या हम खुले लाइसेंस वाला डेटा लेते हैं।",
+  "Family, company or sports clips to redraw as ink.": "परिवार, कंपनी या खेल की क्लिप, जिन्हें स्याही में दोबारा बनाना है।",
+  "Field data": "फ़ील्ड डेटा",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "जानवरों की परछाइयों में असली लैंडस्केप फ़ोटो भरता है; आपकी या पब्लिक-डोमेन।",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "आपकी संख्याओं के हिसाब से बने सपाट बाउहाउस आकार; किसी सामग्री की ज़रूरत नहीं।",
+  "Flat science explainer zooming across scales, drawn in code.": "अलग-अलग पैमानों पर ज़ूम करता फ़्लैट साइंस एक्सप्लेनर, कोड में बना।",
+  "Fonts": "फ़ॉन्ट",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "आपकी शूट की हुई या अधिकार वाली फ़ुटेज या फ़ोटो; बाकी खुले स्रोतों से ढूंढी या बनाई जाती है।",
+  "Generated images": "जनरेट की गई इमेज",
+  "Gridded wind, current or flow data, if you have it.": "ग्रिड वाला हवा, धारा या प्रवाह का डेटा, अगर आपके पास हो।",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "हाथ से पेंट जैसा 80 के दशक का एनीमे, कोड में बना; किसी सामग्री की ज़रूरत नहीं।",
+  "Key points for cards": "कार्ड के लिए मुख्य बातें",
+  "Landscape photos": "लैंडस्केप फ़ोटो",
+  "Large, clear photos of the real objects being compared.": "तुलना की जा रही असली वस्तुओं की बड़ी, साफ़ फ़ोटो।",
+  "Laser scan": "लेज़र स्कैन",
+  "Line-ups or event data": "लाइन-अप या मैच डेटा",
+  "Line-ups or event data for the match.": "मैच के लिए लाइन-अप या इवेंट डेटा।",
+  "Lines, stations, opening dates, lengths or ridership.": "लाइनें, स्टेशन, शुरू होने की तारीखें, लंबाई या यात्री संख्या।",
+  "Link to the product or its documentation.": "प्रोडक्ट या उसके डॉक्यूमेंटेशन का लिंक।",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "YouTube/TikTok वीडियो के लिंक जिन पर रिएक्ट या कोट करना है, स्पेस से अलग करें।",
+  "Logos": "लोगो",
+  "Logos to show, ideally SVG or transparent PNG.": "दिखाने के लिए लोगो, बेहतर हो SVG या ट्रांसपेरेंट PNG।",
+  "Lyrics": "गीत के बोल",
+  "Marker drawing on paper, made in code.": "कागज़ पर मार्कर ड्रॉइंग, कोड में बनी।",
+  "Match clips you have the rights to use.": "ऐसी मैच क्लिप जिन्हें इस्तेमाल करने का अधिकार आपके पास है।",
+  "Microscope scans": "माइक्रोस्कोप स्कैन",
+  "Music": "म्यूज़िक",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "कार्ड पर दिखाने के लिए नाम, संख्या या पॉइंट; नहीं तो बोली गई बातों से चुने जाते हैं।",
+  "Narration script": "नैरेशन स्क्रिप्ट",
+  "Needs an image generator for characters and panels; your designs and products come first.": "किरदारों और पैनल के लिए इमेज जनरेटर चाहिए; आपके डिज़ाइन और प्रोडक्ट पहले।",
+  "Needs an image generator for the characters; your own designs come first.": "किरदारों के लिए इमेज जनरेटर चाहिए; आपके अपने डिज़ाइन पहले।",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "पपेट शीट के लिए इमेज जनरेटर चाहिए; आपके अपने किरदार डिज़ाइन पहले।",
+  "Neon signs built and animated in code.": "नियॉन साइन, कोड में बने और एनिमेट किए गए।",
+  "Network data": "नेटवर्क डेटा",
+  "Newspapers, magazines, letters or documents, scanned.": "अख़बार, पत्रिकाएँ, चिट्ठियाँ या दस्तावेज़, स्कैन किए हुए।",
+  "Object photos": "वस्तुओं की फ़ोटो",
+  "Objects seen through an X-ray console, modelled in code.": "X-ray कंसोल से दिखती चीज़ें, कोड में मॉडल की गईं।",
+  "Old film or video about your subject.": "आपके विषय पर पुरानी फ़िल्म या वीडियो।",
+  "One character, kept the same in every scene and episode.": "एक किरदार, हर सीन और एपिसोड में एक जैसा।",
+  "One continuous line drawn in code.": "कोड में बनी एक ही लगातार रेखा।",
+  "One idea carries the whole ad; your product appears as the result.": "एक आइडिया पूरा ऐड संभालता है; आपका प्रोडक्ट नतीजे के रूप में आता है।",
+  "Only if no image generator is connected: images made from our prompts.": "सिर्फ़ तब जब कोई इमेज जनरेटर जुड़ा न हो: हमारे प्रॉम्प्ट से बनी इमेज।",
+  "Period recording": "उस दौर की रिकॉर्डिंग",
+  "Photos": "फ़ोटो",
+  "Photos of people, products or places that should appear.": "लोगों, प्रोडक्ट या जगहों की फ़ोटो जो दिखनी चाहिए।",
+  "Photos of the places the animal belongs to; shown in black and white.": "उन जगहों की फ़ोटो जहाँ वह जानवर रहता है; ब्लैक एंड व्हाइट में दिखाई जाएंगी।",
+  "Pictograms and cards animated in code.": "पिक्टोग्राम और कार्ड, कोड में एनिमेट किए गए।",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "जगह का नाम या lat/lon निर्देशांक, अगर विषय से साफ़ न हो।",
+  "Place or coordinates": "जगह या निर्देशांक",
+  "Plans, a city model or survey heights for your site.": "आपकी साइट के नक्शे, शहर का मॉडल या सर्वे ऊँचाइयाँ।",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "मशीन पेन से प्लॉट किया गया; नक्शे और रिकॉर्ड आपके भेजे या हमारे ढूंढे असली डेटा से।",
+  "Preferred voice": "पसंदीदा आवाज़",
+  "Print scans": "प्रिंट स्कैन",
+  "Product link": "प्रोडक्ट लिंक",
+  "Rapid microgames in changing art styles, all made in code.": "बदलते आर्ट स्टाइल में तेज़ माइक्रोगेम, सब कोड में बने।",
+  "Real maths drawn as oscilloscope light, computed in code.": "असली गणित, ऑसिलोस्कोप की रोशनी में, कोड में कैलकुलेट किया गया।",
+  "Real statistics built as physical objects; your own numbers or published open data.": "असली आँकड़े भौतिक चीज़ों के रूप में; आपकी अपनी संख्याएँ या प्रकाशित ओपन डेटा।",
+  "Recordings or data": "रिकॉर्डिंग या डेटा",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "असली आर्काइव फ़िल्म, फ़ोटो और दस्तावेज़ों से दोबारा कट; आपकी सामग्री आगे, कमी आर्काइव पूरे करते हैं।",
+  "Red paper-cut scenes made in code.": "लाल पेपर-कट सीन, कोड में बने।",
+  "Redraws your real product's interface; screenshots help it match exactly.": "आपके असली प्रोडक्ट का इंटरफ़ेस दोबारा बनाता है; स्क्रीनशॉट से हूबहू मिलान में मदद मिलती है।",
+  "Reference clip": "रेफ़रेंस क्लिप",
+  "Reference photo": "रेफ़रेंस फ़ोटो",
+  "Rendered found-footage of empty interiors, all made in code.": "खाली अंदरूनी जगहों की रेंडर की गई फ़ाउंड-फ़ुटेज, सब कोड में बनी।",
+  "Reports, statements or memos about the event.": "घटना से जुड़ी रिपोर्ट, बयान या मेमो।",
+  "Routes or map data": "रूट या मैप डेटा",
+  "Routes, points or areas to draw on the map.": "नक्शे पर दिखाने के लिए रूट, पॉइंट या इलाके।",
+  "STEP, IGES or KiCad exports of your product.": "आपके प्रोडक्ट के STEP, IGES या KiCad एक्सपोर्ट।",
+  "SVG or icon": "SVG या आइकन",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "नेगेटिव, चिट्ठियों, फ़ोटो या कतरनों के स्कैन जिनके अधिकार आपके पास हैं।",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "पुरानी नक्काशी, टिकट या यादगार चीज़ों के स्कैन जिनके अधिकार आपके पास हैं।",
+  "Scans of reports, brochures, letters or photographs.": "रिपोर्ट, ब्रोशर, चिट्ठियों या तस्वीरों के स्कैन।",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "स्कैनिंग लाइट से उभरते सीन, कोड में बने; असली स्कैन डेटा की ज़रूरत नहीं।",
+  "Schedules, filings or results shown as paper.": "शेड्यूल, फ़ाइलिंग या नतीजे, कागज़ के रूप में।",
+  "Scratched-film animation made in code.": "फ़िल्म पर खुरचकर बना एनिमेशन, कोड में।",
+  "Screens of your product so the UI is redrawn accurately.": "आपके प्रोडक्ट की स्क्रीन, ताकि UI सही-सही दोबारा बने।",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "अपना लोगो भेजें; इसे साफ़ वेक्टर आकारों में दोबारा बनाकर एनिमेट किया जाएगा।",
+  "Shadow puppets on a lit screen, made in code.": "रोशन पर्दे पर छाया कठपुतलियाँ, कोड में बनी।",
+  "Song lyrics, if this is a music video.": "गीत के बोल, अगर यह म्यूज़िक वीडियो है।",
+  "Stick figures act out the idea, drawn in code.": "स्टिक फ़िगर आइडिया को अभिनय से दिखाते हैं, कोड में बने।",
+  "Streamlines of a real or modelled field such as wind or currents.": "हवा या धाराओं जैसे असली या मॉडल किए गए फ़ील्ड की प्रवाह-रेखाएँ।",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "प्लॉट करने के लिए सर्वे, भू-भाग या मापा हुआ डेटा, अगर शीट में असली डेटा दिखाना है।",
+  "Swiss grid motion graphics made in code.": "कोड में बने स्विस ग्रिड मोशन ग्राफ़िक्स।",
+  "The report or document the numbers come from, as PDF.": "वह रिपोर्ट या दस्तावेज़ जिससे संख्याएँ ली गई हैं, PDF में।",
+  "The report your figures come from.": "वह रिपोर्ट जिससे आपके आँकड़े लिए गए हैं।",
+  "The site to survey, if not clear from your topic.": "सर्वे की जाने वाली साइट, अगर विषय से साफ़ न हो।",
+  "The talking video to caption; it is kept as it is.": "कैप्शन के लिए बोलने वाला वीडियो; इसे जैसा है वैसा रखा जाता है।",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "ब्रांड कैसे मूव करे, इसके लिए तीन शब्द, जैसे शांत, सटीक, दोस्ताना।",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "जगह के टाइम-लैप्स, हाइपरलैप्स, एरियल या फ़ोटो।",
+  "UI screenshots": "UI स्क्रीनशॉट",
+  "Ukiyo-e woodblock prints made in code.": "कोड में बने उकियो-ए वुडब्लॉक प्रिंट।",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "जगह की असली सैटेलाइट इमेजरी इस्तेमाल करता है; आपके पास न हो तो हम सार्वजनिक इमेजरी लाते हैं।",
+  "Video or audio of the same event from several angles.": "एक ही घटना का कई एंगल से वीडियो या ऑडियो।",
+  "Voice recording": "वॉइस रिकॉर्डिंग",
+  "Voice-over script": "वॉइस-ओवर स्क्रिप्ट",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "नैरेटर क्या कहेगा, अगर आपके पास हो; नहीं तो आपके विषय से लिखा जाएगा।",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "नैरेटर को क्या कहना है, अगर आपके पास हो; नहीं तो आपके लिए लिखा जाएगा।",
+  "Whole-slide scans or micrographs with a scale.": "स्केल के साथ होल-स्लाइड स्कैन या माइक्रोग्राफ़।",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "आपको ऐप या साइट के लिए Lottie .json फ़ाइल और प्रीव्यू के लिए एक MP4 मिलता है।",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "आपको फ़िल्म, एडिट होने वाली .excalidraw फ़ाइल, एक PNG और एक GIF मिलता है।",
+  "Your GIS layers": "आपकी GIS लेयर",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "आपके ऐप की स्क्रीन HTML में दोबारा बनाकर आवाज़ के साथ दिखाई जाती हैं; हर फ़ीचर की स्क्रीन भेजें।",
+  "Your character designs or product photos; otherwise generated.": "आपके किरदार डिज़ाइन या प्रोडक्ट फ़ोटो; नहीं तो जनरेट किए जाएंगे।",
+  "Your clips": "आपकी क्लिप",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "आपकी क्लिप, खुले लाइसेंस वाली फ़ुटेज, कमेंट्री के लिए दूसरे चैनलों की क्लिप और Flow AI तस्वीरें, कोड से बने इन्फ़ोग्राफ़िक्स के साथ थाई नैरेशन में मिलाई जाती हैं।",
+  "Your figures as a table; otherwise open published data is used.": "आपके आँकड़े टेबल के रूप में; नहीं तो प्रकाशित ओपन डेटा लिया जाता है।",
+  "Your figures, e.g. from an annual or ESG report.": "आपके आँकड़े, जैसे सालाना या ESG रिपोर्ट से।",
+  "Your footage": "आपकी फ़ुटेज",
+  "Your logo": "आपका लोगो",
+  "Your own character or product designs; otherwise they are generated.": "आपके अपने किरदार या प्रोडक्ट डिज़ाइन; नहीं तो जनरेट किए जाते हैं।",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "आपकी अपनी क्लिप, खुले लाइसेंस वाली फ़ुटेज और Flow AI तस्वीरें कोड से बने इन्फ़ोग्राफ़िक्स के साथ मिलाई जाती हैं; दूसरे चैनलों से कुछ नहीं लिया जाता।",
+  "Your own footage or b-roll stills to grade into the package.": "पैकेज में ग्रेड करने के लिए आपकी अपनी फ़ुटेज या बी-रोल स्टिल।",
+  "Your own narration; otherwise we use a synthetic voice.": "आपका अपना नैरेशन; नहीं तो हम सिंथेटिक आवाज़ इस्तेमाल करते हैं।",
+  "Your own site, drone or terrestrial scan.": "आपका अपना साइट, ड्रोन या ज़मीनी स्कैन।",
+  "Your own surveys or GIS layers, if the place is yours.": "आपके अपने सर्वे या GIS लेयर, अगर जगह आपकी है।",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "आपकी अपनी वीडियो क्लिप; नहीं तो लाइसेंस-मुक्त आर्काइव फ़ुटेज ढूंढी जाती है।",
+  "Your song": "आपका गाना",
+  "Your subject drawn as a circuit board in code.": "आपका विषय सर्किट बोर्ड के रूप में, कोड में बना।",
+  "Your video": "आपका वीडियो",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "160 मखमली Pips दानों के लिए दौड़ते हैं: तेज़ वाले पहले खाते हैं और पहले थकते हैं, और 20 पीढ़ियों बाद पूरा बोर्ड नीला हो जाता है।",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "1926: अख़बार कहते हैं कि चार्ल्सटन अमेरिका के घुटने बर्बाद कर देगा; फ़ोर्ड की अपनी पिकनिक में बच्चे फिर भी इसे नाचते हैं।",
+  "3D & Miniature": "3D और मिनिएचर",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "1918 की एयरमेल शीट जिसमें हवाई जहाज़ उल्टा छप गया: 24 डॉलर में ख़रीदी गई, काटकर बिखेर दी गई, और नंबर 66 आज भी लापता है।",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "Reels, TikTok और Shorts के लिए बनी 9:16 क्लिप: पहले सेकंड में हुक, बड़ी काइनेटिक टाइपोग्राफ़ी, तेज़ रफ़्तार और ऐसे कैप्शन जो बिना आवाज़ के भी पढ़े जा सकें।",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "ऐप या वेबसाइट के लिए Lottie एनिमेशन, .json फ़ाइल और MP4 के साथ: लोडर, आइकन, सफलता स्टेट, लोअर थर्ड, स्टैट काउंटर और छोटे प्रोमो।",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "शहर में रविवार सुबह की साइकिल सवारी — बेकरी, पार्क, नदी किनारा — हर पड़ाव पर एक नई स्याही, जब तक तीन खिसकी हुई प्लेटें एक-दूसरे पर न छप जाएँ।",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "बेकर का लड़का ढलान पर लुढ़कती रोटी का पीछा करता है, फिर उसे आधा तोड़कर एक भूखी लड़की को दे देता है।",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "काले कैनवास पर हाथ से बना आर्किटेक्चर या प्रोसेस डायग्राम, जिसके फ़्लो पर चमकते बिंदु दौड़ते हैं; साथ में एडिट करने लायक Excalidraw फ़ाइल और GIF भी।",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "शरीर को एक उलटी चलने वाली फ़ैक्टरी की तरह खोला गया: 12:30 का सैंडविच स्टेशन-दर-स्टेशन अलग होता है, और छह घंटे बाद बस पकड़ने के लिए दौड़ता है।",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "ब्रिक से बना अंतरिक्ष यात्री बचे-खुचे पुर्ज़ों से रॉकेट बनाता है और ब्रिक के चाँद तक उड़ जाता है।",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "गत्ते का खिलौना थिएटर: पैटर्न वाले काग़ज़, स्टिकर किनारों वाले गुआश कट-आउट, और मंच पर सरकते पर्दे।",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "धूप भरी मेज़ पर एक बिल्ली की फ़ोटो ऐप कार्डों पर उछलती है, एक फ़ोन से दोस्त के फ़ोन तक।",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "आपसे किसी अजनबी तक हाथों की एक कड़ी: 1967 में चिट्ठियों से परखी गई, धरती से बड़े होते छल्लों से समझाई गई, और पूरी दुनिया के गिर्द पूरी हुई।",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "एक गोल-मटोल नारंगी बिल्ली पर गुरुत्वाकर्षण परखने और सुबह 4 बजे पार्कौर करने का मुक़दमा चलता है, और वह बरी हो जाती है।",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "एक अनाड़ी कैडेट पाँच सेकंड के बूट कैंप से बचता है, रफ़्तार बढ़ती जाती है, आख़िरी बॉस तक: घर पर लैंडिंग।",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "एक कॉफ़ी कप रसोई भर में भागते चीनी के क्यूब का पीछा करता है, 1930 के कार्टून अंदाज़ में।",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "बागान से आपके हाथों तक कॉफ़ी का सफ़र, एक ही आइसोमेट्रिक दुनिया में।",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "एक कॉन्सर्ट पोस्टर स्विस डिज़ाइन के पाँच नियमों से ख़ुद को सजाता है; पाँचवाँ नियम है, बस एक नियम तोड़ो।",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "एक कूरियर लड़की बारिश में भीगे नियॉन शहर से गुज़रती है, ताकि भोर के लॉन्च से पहले एक टेप पहुँचा सके।",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "एक फ़ेल्ट-टिप मार्कर हिसाब लगाता है कि समुद्र तट से क्षितिज कितनी दूर है, फिर दिखाता है कि सौ गुना ऊपर चढ़ने पर भी सिर्फ़ दस गुना दूर दिखता है।",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "उँगली जितनी लंबी लालटेन मछली अँधेरे में आधा किलोमीटर ऊपर चढ़ती है, अपनी ही रोशनी से परछाईं छिपाती है, और पता चलता है कि वह हर रात ऊपर उठने वाले अनगिनत जीवों में से एक है।",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "जुगनू की हर टिमटिमाहट एक सवाल है: एक लड़की को हिरण के रूप में जवाब मिलता है, तूफ़ान में सारी रोशनी खो जाती है, और आख़िरी रोशनी से वह पूरे अँधेरे से पूछती है।",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "क्रेयॉन से बने गाँव के ऊपर फ़र्स्ट-पर्सन उड़ान, एक बूढ़े आदमी के बगीचे के एक फूल तक; फिर उसकी आँखें, और जो वह कहता है।",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "फ़्लेमिंगो का झुंड हर बीट पर हिलता है, और एक नन्हा पक्षी हमेशा आधी बीट पीछे रहता है; दूसरों की छोड़ी लहरें उसे ताल सिखाती हैं।",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "पुराना धब्बेदार एल्बम पन्ना: फटे कार्ड, टेप, हाथ से रंगी नक्काशियाँ, टाइपराइटर लेबल और फिरौती-चिट्ठी जैसे कटे अक्षर मिलकर कहानी सुनाते हैं।",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "1930 का एक भव्य होटल: एक बेलबॉय लिफ़्टों और घूमते दरवाज़ों से होड़ लगाता है ताकि आधी रात से पहले एक चिट्ठी पहुँचा सके।",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "सौ साल के गर्मियों के तापमान, जहाँ चार्ट ख़ुद कहानी सुनाता है।",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "एक ऊबा हुआ जीनियस सिर्फ़ कॉफ़ी ख़रीदने के लिए पोर्टल खोलता है और एक से बढ़कर एक अजीब ब्रह्मांडों में गिरता चला जाता है।",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "लेज़र सर्वे कनेक्टिकट के जंगल की छतरी हटाता है और 3.4 किमी लंबी पुरानी खेत की दीवारें खोज निकालता है।",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "एक ही अटूट टेक में ऐप लॉन्च फ़िल्म: प्रॉम्प्ट बार कैलेंडर में खुलता है, कैलेंडर फ़ोन में बह जाता है, और हर पल पिछले पल से उपजता है।",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "एक चिट्ठी, एक फ़ोन कॉल, खिड़कियों की दीवार, तेरह सीढ़ियाँ: जिस लड़की ने उसे पीछे न देखने को कहा था, वह हर बार एक क़दम और क़रीब है, जब तक वह सिर नहीं घुमाती।",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "एक छोटा प्रोब जिसकी आँख ज़ूम लेंस है, हर अगले पड़ाव पर बिंदीदार दृष्टि-रेखा छोड़ता है और हमें आकाशगंगा से एक वायरस तक ले जाता है।",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "चाँद के बेस का AI चालीस साल बाद धरती के सिग्नल से जागता है, और अक्षरों से “घर” बनाकर जवाब देता है।",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "आपके अपने गाने पर कटा म्यूज़िक वीडियो: बीट और सेक्शन ट्रैक से नापे जाते हैं, और बोल, आकार और रंग उनके साथ थिरकते हैं।",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "एक सूत्रधार जो कभी दिखता नहीं: असली फ़ुटेज, 3D और AI रूपांतर, पैमाने के इन्फ़ोग्राफ़िक, नक्शे और सबटाइटल बारी-बारी से एक हैरतअंगेज़ सच्ची कहानी कहते हैं।",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "प्राकृतिक इतिहास का एक चित्रपट ख़ुद को उकेरता है: छेनी ताँबा काटती है, मधुमक्खी रेखा-दर-रेखा उभरती है, और जलरंग की एक परत उसमें जान डाल देती है।",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "एक नियॉन बिल्ली गली के आख़िर वाले साइनबोर्ड की सुनहरी मछली लेने जाती है, उसका कटोरा तोड़ देती है, और बुझती मछली को बारिश में दौड़ाकर अपने साइन के प्याले तक ले आती है।",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "नाइट शिफ़्ट का नया कर्मचारी अंतहीन पीले दफ़्तर में अपनी पहली रात फ़िल्माता है, दीवार पर लिखे नियमों का पालन करते हुए।",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "एक पार्क जो सिर्फ़ पेन स्केच है; हवा उसकी तिनकों की टोपी जहाँ ले जाती है, रंग वहीं पीछे-पीछे आते हैं।",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "कोने से पकड़ने पर फ़ोन का सिग्नल चला जाता है; खोलने पर पता चलता है कि धातु का फ़्रेम ही एंटीना है, जो ऐसे टुकड़ों में कटा है जिन्हें आपका हाथ जोड़ देता है।",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "मेज़ पर एक पॉप-अप किताब खुलती है; Pip नाम की एक परी काग़ज़ी दुनियाओं में घूमती है और हमारी दुनिया में कूद आती है।",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "छपा हुआ मेट्रो नक्शा 1993 की एक 6 किमी लाइन से बढ़कर 21 लाइनों और 906 किमी तक पहुँचता है।",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "आवाज़ के साथ प्रोडक्ट वॉकथ्रू: स्क्रीनशॉट से दोबारा बनाया गया ऐप का अपना UI, हर फ़ीचर पर ज़ूम करता कैमरा, सबटाइटल, और यही फ़िल्म दूसरी भाषाओं में।",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "प्रोजेक्टर रॉटरडैम के सफ़ेद मॉडल को परत-दर-परत रंगता है, 1940 के ख़ाली मैदान से आज की ऊँची इमारतों तक।",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "तीन चरणों में रोबोट वैक्यूम सेटअप, 1950 के दशक की क्लासरूम फ़िल्म के अंदाज़ में।",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "सैटेलाइट नक्शे के सहारे अरल सागर पहुँचता है और रेगिस्तान पाता है; सिर्फ़ वह हिस्सा लौटा जिस पर किसी ने बाँध बनाया।",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "पार्क्स में तूफ़ान, 21 जुलाई 1969: अपनी सीमा तक झुकी 64 मीटर की डिश डटी रहती है और दुनिया के लिए चाँद पर चहलक़दमी पकड़ लेती है।",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "एक स्ट्रीट फ़ोटोग्राफ़र दौड़ती रोशनी का पीछा करती है, उस पल तक जब कबूतर उड़ते हैं; उसका पॉकेट कैमरा उस सेकंड को तीस पैनल में बाँट देता है।",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "एक तलवारबाज़ पानी पर चलकर नदी पार करता है और एक ही वार में धारा को चीर देता है।",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "बर्फ़ीली रात में थर्मल कैमरा एक पुरानी अपार्टमेंट इमारत का चक्कर लगाता है: रिसती खिड़की, दीवारों में पाइप, गर्म बोनट पर सोती बिल्ली, और मरम्मत के एक साल बाद वही इमारत।",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "एक यात्री एक-एक फ़ुल-ब्लीड स्क्रीन प्रिंट के साथ दुनिया पार करता है, टिकट का टुकड़ा घर से दूरी गिनता है, जब तक दूसरा छोर वापसी का रास्ता न बन जाए।",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "एक यात्री दूर के पहाड़ की ओर चलता है; हर शॉट एक वुडब्लॉक प्रिंट है, चरम पर एक विशाल लहर, और अंत में पहाड़ और पूरा स्क्रॉल।",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "एक गाँव पूरी सर्दी एक घंटा ढालने में लगा देता है; जब वह पहली बार बजता है, बर्फ़ गिरना रुक जाती है।",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "बिना बैटरी की घड़ी खोली जाती है: उसके तीन सिस्टम एक-एक कर रंगे जाते हैं, एस्केपमेंट निकालते ही गियर दौड़ पड़ते हैं, और एक धीमी टिक सब कुछ फिर से छोड़ देती है।",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "बस में छूटा पीला छाता खोई-पाई चीज़ों की शेल्फ़ पर धूप भरा दिन काटता है, फिर तूफ़ान लौटने पर 312 और छातों के साथ खुलता है: चीज़ें, वाहन, मौसम और संकेत, बीट पर थिरकते ज्यामितीय पिक्टोग्राम।",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "अल्कोहल मार्कर से सेल रंग, एक मोटी रेखा के नीचे तीखे किनारे वाली छाया: चलती-फिरती चटख कॉमिक दुनिया।",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "दुकानों का लगभग हर केला एक ही पौधे की नक़ल है: एक जैसे प्रिंटों की दीवार, धब्बों से काला पड़ा पुराना केला, और रंगों की एक लहर जो ढेर सारे केलों में बदल जाती है।",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "1871 से 1945 के बीच अल्सास-लॉरेन चार बार हाथ बदलता है: हर बार कोई काग़ज़ फाड़कर नया चिपका देता है, और उस पर रहने वाली औरत कभी कहीं नहीं जाती।",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "अमेरिका ने 13 लाख मधुमक्खी कॉलोनियाँ खोईं, फिर भी गिनती 6% बढ़ी: बिना आवाज़ के भी समझ आने वाली एक छोटी न्यूज़ क्लिप।",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "एक ई-बाइक होलोग्राम में स्कैन होती है; टारगेट बॉक्स बैटरी, मोटर और ब्रेक पर लॉक हो जाते हैं।",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "एक आविष्कारक का ब्लूप्रिंट बादल पकड़ने वाली मशीन बनाता, बिखेरता और जोड़ता है, और उसका रिविज़न क्लाउड बरसने लगता है।",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "ख़ाली समुद्र से एक द्वीप और उसका गाँव टाइल-दर-टाइल उगते हैं, हर टाइल एक सुर, तारों भरी रात तक।",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "एक पुरानी नाइट ट्रेन अपनी आख़िरी यात्रा पर है, बर्फ़ीले पहाड़ी पड़ाव से लंबी सुरंग होते हुए समुद्र तक, और लाइन के अंत में उसकी जगमगाती खिड़कियाँ एक-एक कर बुझ जाती हैं।",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "रात को डेस्क लैंप के नीचे एक पेन प्लॉटर असली ऊँचाई के डेटा से चार पेनों के साथ माउंट कोमोलांगमा बनाता है, और आख़िर में उसकी ऊँचाई लिखता है।",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "आख़िरी बॉस के दरवाज़े पर नायक गेम सेव करता है, और सेव स्क्रीन पूरी यात्रा दोहराती है।",
+  "Cartoons": "कार्टून",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "चॉक दो अक्षरों के बारे में एक मशहूर दावा लिखता है, उसे मिटाता है, और 射 को तीन हज़ार साल पीछे तक खोजता है।",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd टर्मिनल से कूदकर Claude ऐप में आता है और एक ही टेक में प्लान मोड और सेल्फ़-चेक करके दिखाता है।",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "साफ़ पेन-टूल आकार, सपाट रंग, लंबी छायाएँ और हल्का ग्रेन: चलती हुई एक चुस्त आधुनिक इलस्ट्रेशन।",
+  "Data & Maps": "डेटा और नक्शे",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "क्या पेड़ एक-दूसरे को खाना खिलाते हैं? एक पेंसिल ड्रॉइंग घास के नीचे उतरती है, फफूंद के धागे पर शक्कर के एक कण के पीछे अगले पेड़ तक जाती है, और फिर ज़मीन के नीचे जुड़े पूरे जंगल को दिखाती है।",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "हाफ़-टाइम पर 0-3 से पीछे, फ़ेनरबाहचे ने 12 मिनट में तीन गोल दागे: फ़्रीज़, ड्रॉ, स्प्लिट स्क्रीन, शॉट मैप।",
+  "Edit & Documentary": "एडिट और डॉक्यूमेंट्री",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "फ़रवरी 1966: चाँद की पहली क्लोज़-अप तस्वीर एक अंग्रेज़ी रेडियो टेलीस्कोप पर अख़बारी फ़ैक्स के रूप में पहुँचती है, दो स्याहियों में लाइन-दर-लाइन छपी, एक दिन पहले और ज़रूरत से ज़्यादा लंबी खिंची हुई।",
+  "Film & Tape": "फ़िल्म और टेप",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "ऑस्ट्रेलिया के लाल रेगिस्तानी दिल से हरे तट तक बारिश के पीछे चलिए, एक अटूट पेंटेड सैर में।",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "एक हफ़्ते की चार AI ख़बरें पूरे ऑन-एयर पैकेज में: रनडाउन, हेडलाइन पट्टी, प्राइस बोर्ड, स्पेक कार्ड।",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "एक ही ब्रीफ़िंग दीवार पर चार तरह के पुल परखे जाते हैं, और जिस जहाज़ को नीचे से गुज़रना है वही विजेता चुनता है।",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "ग्लोब से नीचे उस जलडमरूमध्य तक जहाँ से दुनिया का पाँचवाँ हिस्सा तेल निचुड़कर गुज़रता है: दो लेन, समुद्र तल में एक कटाव, और पाइपलाइनें जो उसका छोटा सा हिस्सा ही घुमाकर ले जा सकती हैं।",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "साँझ ढलते पहाड़ों से समुद्र तक: एक बारहसिंगा, भेड़िया, बाज़, सैल्मन और व्हेल, हर एक अपनी सिल्हूट में अपनी जगह लिए, जब तक व्हेल का बंदरगाह असली तट पर न उतर जाए।",
+  "Games": "गेम्स",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "कोमल स्टोरीबुक पेंसिल और जलरंग, एक ऐसे बार-बार आने वाले किरदार के लिए जो हर दृश्य में वैसा ही रहता है।",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "पेंसिल पर गुआश और जलरंग: आगे गाढ़ा, दूरी में पतला होकर हल्की वॉश और खुली पेंसिल बनता हुआ।",
+  "Graphic & Type": "ग्राफ़िक और टाइप",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "एक ओपन-सोर्स कीबोर्ड का आधा हिस्सा एक ही परिक्रमा में चिप तक खुलता है, फिर असली माप के साथ बंद होता है।",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "गोलों से वर्ग कैसे बनाएँ? घूमते गोले एक स्क्वेयर वेव में जुड़ते हैं, जब तक एक कोने में गोता लगाकर वह 9% स्पाइक न मिले जो कभी नहीं जाता।",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "आपके फ़ोन को कैसे पता चलता है कि आप कहाँ हैं: GPS, परमाणु घड़ियाँ, और वे 38 माइक्रोसेकंड जो सापेक्षता हर दिन जोड़ती है।",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "धूसर, बरसाती चौक में एक लाल छाता खुलता है, और एक वॉल्ट्ज़ पूरे चौक को रंगों से भर देता है।",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "एक चित्रित दुनिया में जहाँ सिर्फ़ सोना चमकता है, सूरज बुझ जाता है; एक लड़की आख़िरी दीया लेकर पहाड़ चढ़ती है और उसे उसकी रोशनी लौटा देती है।",
+  "Instruments & Evidence": "उपकरण और साक्ष्य",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "काल्पनिक ऐप Tidy की लॉन्च फ़िल्म: एक दबा हुआ कर्सर सैकड़ों विंडो को झट से जगह पर ले आता है।",
+  "Light & Lines": "रोशनी और रेखाएँ",
+  "Line Diagrams": "रेखा आरेख",
+  "Logo & Lottie": "लोगो और Lottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "मॉडल जैसे दिखने वाले शहर में सुबह की भीड़: ट्रैफ़िक, ट्रेनें और नन्हे लोग।",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "न्यूज़रील, तस्वीरें, गवाहियाँ और 1937 की जाँच एक ही घड़ी पर: पाँच स्रोत एक ही जगह की ओर इशारा करते हैं।",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "नए साल की पूर्व संध्या पर दैत्य नियान शहर आता है, और एक लड़की का विशाल पेपर-कट गाँव को रोशन कर उसे भगा देता है।",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "एक मधुमक्खी जीवन भर में चम्मच का 1/12 हिस्सा शहद बनाती है; पेन एक पीली बूँद को फूल से जार तक ले जाता है, जब तक पूरा पन्ना पोस्टर न बन जाए।",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "क्रीम काग़ज़ पर एक नीला बॉलपॉइंट: टोन सिर्फ़ हैचिंग की जगह से, जैसे नोटबुक का स्केच ज़िंदा हो उठा हो।",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "लीवर स्लाइड से एक अकेले नाभिक तक एक लगातार मूव; दो वृत्त, पिक्सेल-दर-पिक्सेल गिने गए, नीले में 2.4 गुना फ़र्क़।",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "न्यूयॉर्क का एक दिन टाइम-लैप्स में: रोशनी की नदियाँ, सोलहवें सुर पर ग्रिड, 1899 आज के बगल में।",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "एक बिंदु हर दस साल में दोगुना होता है: सत्तर साल बाद 128, चक्रवृद्धि के बिना 6.02, और आख़िरी दस साल बाक़ी सब के बराबर।",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "एक बारीक टेक्निकल पेन सीधे नीचे बिंदु लगाता है: टोन सिर्फ़ बिंदुओं के घनत्व से, जैसे प्राकृतिक इतिहास का पुराना चित्रपट।",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "एक विचार पूरा विज्ञापन उठाता है: मेज़ पर एक चेन रिएक्शन जहाँ हर पल वह टक्कर है जो अगले को शुरू करती है, एक कीप्रेस से दस पूरे कामों तक।",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "एयरपोर्ट स्क्रीनिंग कंसोल पर एक रात: एक पावर बैंक, पानी की बोतल, और CT में हिलते छह ज़िंदा केकड़े।",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "नदी का एक मोड़, चार मौसम, एक टेक; हर मौसम तब बदलता है जब बड़ा पेड़ झुककर वापस उछलता है।",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "गर्म रंग के काग़ज़ पर एक पतला इंक पेन: चायघरों और स्नानघरों वाली नहर किनारे की गली, काम पर आते-जाते गाँववाले, और दिन ढलते जगमगाती खिड़कियाँ।",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "एक अटूट रेखा पूरी ज़िंदगी खींचती है, फिर पेन एक बच्चे को सौंप दिया जाता है।",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "1964 की एक काल्पनिक जासूसी फ़िल्म के ओपनिंग टाइटल: चुराई गई चाबी का पीछा, जब तक आकार जुड़कर शीर्षक न बन जाएँ।",
+  "Painting & Illustration": "पेंटिंग और इलस्ट्रेशन",
+  "Print & Printmaking": "प्रिंट और प्रिंटमेकिंग",
+  "Product Launch · onetake": "प्रोडक्ट लॉन्च · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "होक्काइडो की घाटी में लाल-मुकुट सारस, एक ही स्क्रैचबोर्ड टेक, 33 से 1,927 तक गिनती पीछे।",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "नदियाँ ताँबे की ट्रेस बन जाती हैं, जब बिजली बाँध से फ़ोन चार्जर तक 2,080 किमी दौड़ती है।",
+  "Screens & Interfaces": "स्क्रीन और इंटरफ़ेस",
+  "Sketch & Board": "स्केच और बोर्ड",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "एक नीचे सूरज के तले चिकने अतियथार्थवादी तेल ग्लेज़: असंभव वस्तुएँ, लंबी छायाएँ और सपनों का शांत तर्क।",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "बीच की लकड़ी के हूप में लिनन पर सूती धागे की कढ़ाई, हर टाँका स्क्रीन पर सिला गया।",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "भोर से साँझ तक सूरज की रोशनी गिरजाघर की खिड़की पार करती है, शूरवीर और ड्रैगन की कथा के हर शीशे को जगाते हुए।",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "दस सूरज धरती झुलसाते हैं, जब तक धनुर्धर होउ यी अपना धनुष नहीं तानता, रोशन परदे पर चमड़े की कठपुतलियों से कही गई कथा।",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "एम्पायर स्टेट की 1931 की ब्रोशर उसके निर्माताओं को श्रेय देती है; साइट फ़िल्म और हाइन की तस्वीरें जवाब देती हैं: रोज़ 2,500।",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "आपके कप की कॉफ़ी एक लाल चेरी बन जाती है, फिर कप तक वापस चलती है: पकना, सूखना, भूनना और पीसना, एक ही पेंसिल पन्ने पर एक-एक रंग बदलते हुए।",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "AI का इतिहास एक रिदम गेम की तरह: मॉडल बीट पर मंच पर आते हैं, और एक रिपोर्ट कार्ड शो ख़त्म करता है।",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "Artemis II लॉन्च का आख़िरी मिनट, बिना कट: एक सेल नौ में खुलता है, और इग्निशन पर सब एक हो जाते हैं।",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "लाइटहाउस बुझ जाता है; एक लड़की आख़िरी लौ लेकर रात के जंगल से गुज़रती है और तूफ़ानी चट्टानों पर चढ़ती है।",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "चाँद को नींद नहीं आती, तो एक नन्ही लड़की छत पर चढ़कर उसे लोरी सुनाती है।",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "टेलीग्राम में 57 सेकंड लिखा था; लूप के नीचे, राइट बंधुओं के काँच के नेगेटिव और अभिलेख 59 कहते हैं।",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "कुल योग इलाज B बताता है; पथरी के आकार वाले छिपे कॉलम दिखाइए और A हर समूह में जीतता है। एक शीट में सिम्पसन का विरोधाभास, 1 सेल = 1 मरीज़।",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "सबसे सटीक ट्रैक से गणना की गई हज़ारों स्याही पवन-रेखाएँ सुपर टाइफ़ून यागी बनाती हैं: दक्षिण चीन सागर पर खुलती आँख, हैनान पर लैंडफ़ॉल, वियतनाम में बिखरता भँवर, और पूरा हफ़्ता एक आख़िरी रेखा में सिमटा।",
+  "Traditional Crafts": "पारंपरिक शिल्प",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "यात्री एक आइसोमेट्रिक विमान में चढ़ते हैं, और क्रम दिखाता है कि एक तरीका लगभग दोगुना तेज़ क्यों है।",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "बारह साल की पवन और सौर ऊर्जा असली प्लेटों की तरह जमी, अखरोट की लकड़ी के डायल के गिर्द घूमती, जब तक सौर आगे न निकल जाए।",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "दो नए माता-पिता फ़्लैट-पैक मैनुअल से पालना जोड़ते हैं, एक 45° पन्ने पर दस चरण; दसवाँ चरण कभी मैनुअल में था ही नहीं।",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "काल्पनिक काँच के ईयरबड Aura की अनबॉक्सिंग और क्लोज़-अप, स्ट्रिप-लाइट स्वीप और कॉस्टिक्स के साथ।",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "बिना मिलाए तेल रंग के धब्बे अगल-बगल, आँख ख़ुद मिलाए: पानी पर रोशनी, साँझ, खाड़ी पार करती एक नाव।",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "रैग पेपर पर वाइन चारकोल, फैलाया गया, रबड़ से उठाया गया और अपनी ही परछाईं पर फिर से खींचा गया।",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "आपके लोगो की इमेज साफ़ SVG के रूप में दोबारा बनाई जाती है, फिर डिज़्नी के एनिमेशन सिद्धांतों से टुकड़ा-दर-टुकड़ा जीवंत की जाती है: एक रिवील जो ठीक आपके निशान पर उतरता है।",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "आपका अपना बोलता वीडियो, जैसा है वैसा: आवाज़ के साथ शब्द-दर-शब्द चलते कैप्शन, नाम कार्ड, और मुख्य बातों पर सरल ग्राफ़िक कार्ड।",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "एक भी खींची रेखा नहीं: सफ़ेद रेशेदार किनारों वाले फटे काग़ज़, कैंची से कटे टुकड़े, हर एक के नीचे हल्की छाया।",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "मेरे बेटे के जन्मदिन के लिए खिलौना-ईंटों से बना एक रॉकेट चाँद तक उड़ता हुआ छोटा-सा कार्टून बना दीजिए।",
+   "हमारी खिलौनों की दुकान के नए ब्रिक सेट को एक-एक ईंट जुड़कर छोटा-सा घर बनते हुए दिखाना है।",
+   "खिलौना-ईंटों से कदम-दर-कदम कुतुब मीनार बनाते हुए बच्चों को उसका इतिहास सिखाने वाला वीडियो चाहिए।"
+  ],
+  "paper-popup": [
+   "बेटी की सोने से पहले की कहानी के लिए ऐसी कहानी बनाइए जिसमें किताब खुलते ही कागज़ के जंगल से एक खरगोश उछलकर निकले।",
+   "हमारी नई बच्चों की कहानी की किताब आ रही है, उसके लिए पन्नों से चीज़ें उभरती हुई पॉप-अप स्टाइल ऐड चाहिए।",
+   "कागज़ की किताब में डल झील पर शिकारा चलाता नाविक तैरते बागों के बीच से गुज़रे, ऐसा दिखाना है।"
+  ],
+  "tilt-shift": [
+   "मुंबई लोकल की सुबह की भीड़ को खिलौना शहर जैसा छोटा-छोटा दिखाइए।",
+   "हमारे हाउसिंग प्रोजेक्ट और आसपास की सड़कों को ऊपर से मॉडल शहर की तरह दिखाने वाला ऐड चाहिए।",
+   "चाँदनी चौक में सुबह-सुबह रिक्शे, ठेले और दुकानदारों की हलचल को खिलौनों की दुनिया जैसा देखना है।"
+  ],
+  "lowpoly-island": [
+   "मेरे नए गेम के लिए ऐसा टीज़र बनाइए जिसमें समुद्र से एक द्वीप और गाँव टुकड़ा-टुकड़ा उभरते आएं।",
+   "एक छोटे द्वीप पर गाँव धीरे-धीरे बढ़ता जाए और रात में तारे निकल आएं, यह सुकून से देखना है।",
+   "अंडमान के एक छोटे द्वीप पर मछुआरों का गाँव कैसे धीरे-धीरे बसा, यह बच्चों को समझ आए ऐसे दिखाना है।"
+  ],
+  "glass-product": [
+   "हमारे नए फ़ेस सीरम की काँच की बोतल पर रोशनी की लकीरें घूमें और वह चमक उठे, ऐसा खूबसूरत शॉट दिखाइए।",
+   "नए ईयरबड्स को डिब्बे से निकालते हुए क्लोज़-अप में सुंदर ढंग से दिखाने वाला प्रोडक्ट लॉन्च वीडियो चाहिए।",
+   "माँ के जन्मदिन के लिए लिया गया काँच का परफ़्यूम बॉटल रोशनी के साथ खेलता हुआ दिखाना है।"
+  ],
+  "memphis-diorama": [
+   "गंगा के एक घाट पर गर्मी, बरसात और सर्दी के मौसम एक के बाद एक बदलते हुए चटकीले रंगों में देखना है।",
+   "हमारी वेबसाइट के सबसे ऊपर लगाने के लिए एक छोटे कैफ़े के चारों ओर बदलते मौसम का प्यारा सीन बना दीजिए।",
+   "घर के सामने वाला आम का पेड़ साल भर में बौर, फल और पतझड़ से कैसे गुज़रता है, बच्चों के लिए दिखाना है।"
+  ],
+  "isometric-picture-book": [
+   "बैंक में एक ही लाइन में लगना क्यों ज़्यादा तेज़ होता है, छोटे-छोटे चित्रों से समझाइए।",
+   "हमारे क्लिनिक में टोकन लेकर इंतज़ार करने का नया सिस्टम मरीज़ों को समझ आए, ऐसा दिखाना है।",
+   "मेट्रो में पहले उतरने वालों को रास्ता देने से सब जल्दी क्यों चढ़ पाते हैं, यह बच्चों को समझाना है।"
+  ],
+  "crayon-world": [
+   "दादाजी के गाँव के ऊपर उड़ते हुए उनके लगाए नीम के पेड़ तक पहुँचने वाला एक यादगार वीडियो बना दीजिए।",
+   "अपनी पुरानी टीचर के सम्मान में बच्चों के क्रेयॉन से रंगे स्कूल तक के सफ़र की छोटी-सी कहानी चाहिए।",
+   "बच्चे जैसे क्रेयॉन चित्रों में गाँव से शहर काम ढूंढने आए एक लड़के का सफ़र दिखाना है।"
+  ],
+  "rubber-hose": [
+   "हमारी छोले-भटूरे की दुकान के लिए भटूरा और छोले की कटोरी पकड़म-पकड़ाई खेलते हों, ऐसा पुराने कार्टून वाला ऐड बनाइए।",
+   "चाय का कप भागती हुई चीनी की डली को पूरी रसोई में दौड़ाकर पकड़े, ऐसा मज़ेदार कार्टून चाहिए।",
+   "टूथब्रश और टूथपेस्ट मिलकर कीटाणुओं को भगाएं, ऐसे पुराने कार्टून से बच्चों को ब्रश करना सिखाना है।"
+  ],
+  "cel-anime-80s": [
+   "बारिश वाली मुंबई की रात में स्कूटी पर डिलीवरी करने वाली एक लड़की को सुबह से पहले पार्सल पहुँचाना है, ऐसी कहानी बनाइए।",
+   "हमारे बैंड के नए गाने के लिए 80 के दशक के एनीमे जैसा नियॉन लाइटों वाला रात का शहर वीडियो चाहिए।",
+   "बचपन में देखे कार्टूनों जैसे रंगों में दोस्तों के साथ साइकिल चलाने की यादों वाली कहानी दिखाना है।"
+  ],
+  "scifi-toon": [
+   "एक कप चाय पीने के लिए पोर्टल खोलने वाला वैज्ञानिक अजीब-अजीब दुनियाओं में लुढ़कता जाए, ऐसी कॉमेडी बनाइए।",
+   "हमारा UPI ऐप कितना तेज़ है, यह एक ग्रह से दूसरे ग्रह पर छलांग लगाकर दिखाने वाला मज़ेदार ऐड चाहिए।",
+   "होमवर्क भूल जाने पर दो भाइयों को अंतरिक्ष यान से समय में पीछे जाना पड़े, ऐसा पागलपन भरा कार्टून दिखाना है।"
+  ],
+  "midcentury-toon": [
+   "हमारे नए वॉटर प्यूरीफ़ायर को तीन स्टेप में लगाने का तरीका 1950 के दशक की क्लासरूम फ़िल्म की तरह समझाइए।",
+   "मम्मी को फ़ोन पर वीडियो कॉल करना सिखाने के लिए पुराने कार्टून स्टाइल में मज़ेदार वीडियो चाहिए।",
+   "प्रेशर कुकर सही तरीके से इस्तेमाल करना पुराने ज़माने के शिक्षाप्रद कार्टून की तरह दिखाना है।"
+  ],
+  "comic-history": [
+   "दिल्ली कितनी बार राजधानी बनी — इंद्रप्रस्थ से लेकर नई दिल्ली तक — यह कॉमिक बुक की तरह हल्के-फुल्के अंदाज़ में दिखाना है।",
+   "हमारे मोहल्ले की तीन चाय की टपरियों में ग्राहकों के लिए होड़ की कहानी को कॉमिक स्टाइल में मज़ेदार बना दीजिए।",
+   "दो गाँवों के बीच नदी के किनारे की ज़मीन सालों में एक तरफ़ से दूसरी तरफ़ कैसे खिसक गई, कॉमिक से समझाइए।"
+  ],
+  "manga-panels": [
+   "जामा मस्जिद के आँगन में कबूतरों के उड़ने के एक पल को मंगा पैनलों में बाँटकर दिखाना है।",
+   "हमारी कैमरा शॉप के नए कैमरे को मंगा पैनल एक-एक करके खुलते हुए अंदाज़ में लॉन्च कीजिए।",
+   "छोटी बहन के दौड़ में फ़िनिश लाइन पार करने के पल को कॉमिक बुक जैसे पैनलों में यादगार बना दीजिए।"
+  ],
+  "dataviz": [
+   "दिल्ली की गर्मियों के पचास साल के तापमान के मौसम डेटा को ऐसे दिखाना है जैसे चार्ट खुद कहानी सुना रहा हो।",
+   "हमारे परिवार के टेलरिंग बिज़नेस की पाँच साल की बिक्री को सुंदर चार्ट में दिखाइए।",
+   "भारत के सालाना चावल निर्यात के आँकड़े छात्रों को आसानी से समझ आएं, ऐसे चार्ट से समझाना है।"
+  ],
+  "white-model": [
+   "मुंबई के फ़ोर्ट इलाके की इमारतें अंग्रेज़ों के ज़माने से आज तक एक-एक मंज़िल कैसे ऊँची होती गईं, सफ़ेद मॉडल पर दिखाना है।",
+   "हमारी कंपनी के हाउसिंग प्रोजेक्ट का प्लॉट लेआउट सफ़ेद मॉडल पर रोशनी डालकर स्टेप-बाय-स्टेप दिखाने वाला एग्ज़ीबिशन वीडियो बनाइए।",
+   "जयपुर के परकोटे वाले शहर का ग्रिड नक्शा और शहरपनाह मैप डेटा से सफ़ेद मॉडल पर धीरे-धीरे उभरता दिखाना है।"
+  ],
+  "data-physical": [
+   "भारत में हर साल जलविद्युत और सौर ऊर्जा का उत्पादन ऐसे दिखाना है जैसे टाइलें ढेर में रखी हों और छूकर देखी जा सकें।",
+   "हमारी कंपनी की सालाना रिपोर्ट के बिक्री आँकड़ों को लकड़ी के ब्लॉक की तरह जमाकर दिखाइए।",
+   "हमारे परिवार के दार्जिलिंग चाय बागान की दस साल की पैदावार असली चीज़ों के ढेर की तरह दिखाना है।"
+  ],
+  "transit-map": [
+   "दिल्ली मेट्रो की येलो लाइन के स्टेशन छपे हुए नक्शे पर एक-एक करके उभरते दिखाइए।",
+   "बेंगलुरु की बस लाइनें सालों में कैसे फैलीं, यह मेट्रो मैप स्टाइल में दिखाना है।",
+   "हमारी लॉजिस्टिक्स कंपनी जिन शहरों में डिलीवरी करती है, वे दस साल में कैसे बढ़े, मेट्रो मैप की तरह दिखाना है।"
+  ],
+  "map-explainer": [
+   "गंगा गंगोत्री से सुंदरबन के डेल्टा तक कैसे बहती है, ग्लोब से ज़ूम करते हुए नक्शे से समझाइए।",
+   "दुनिया के मालवाहक जहाज़ों को मलक्का जलडमरूमध्य से क्यों गुज़रना पड़ता है, नक्शे से समझाने वाला वीडियो चाहिए।",
+   "हमारे गाँव के पास नदी का किनारा कैसे कटता जा रहा है, असली नक्शे और ज़मीन की बनावट से समझाना है।"
+  ],
+  "pip-simulation": [
+   "कोई संक्रामक बीमारी एक इंसान से दूसरे तक कैसे फैलती है, दौड़ते-भागते छोटे जीवों से दिखाइए।",
+   "बाज़ार में दुकानदार दाम पर होड़ करें तो क्या होता है, छोटे जीवों से प्रयोग करके दिखाना है।",
+   "प्राकृतिक चयन कैसे काम करता है, पीढ़ियों का बदलना छात्रों को अपनी आँखों से दिखे, ऐसा दिखाना है।"
+  ],
+  "caption-news": [
+   "इस साल मानसून में रिकॉर्ड बारिश के मौसम डेटा पर बिना आवाज़ के देखी जा सकने वाली छोटी न्यूज़ क्लिप बनाइए।",
+   "हमारे मोहल्ले के चंदा अभियान के असली आँकड़े कैप्शन के साथ दिखाने वाली छोटी न्यूज़ क्लिप चाहिए।",
+   "दुनिया भर में मधुमक्खी के छत्ते घटने वाली रिपोर्ट को फ़ोन पर तुरंत समझ आए, ऐसे कैप्शन के साथ दिखाना है।"
+  ],
+  "newsreel": [
+   "1930 के दशक में कोलकाता की ट्राम के दौर को आर्काइव फ़ोटो से पुरानी न्यूज़रील की तरह दिखाना है।",
+   "हमारी दुकान के पचास साल पूरे होने पर दादाजी के ज़माने की पुरानी फ़ोटो से पुरानी न्यूज़रील जैसा वीडियो बनाइए।",
+   "जब रेडियो पहली बार आया तब लोग कितने हैरान थे, यह पुराने अख़बारों की हेडलाइन के साथ न्यूज़रील की तरह सुनाना है।"
+  ],
+  "countdown": [
+   "हमारी दुकान के उद्घाटन पर फ़ीता काटने से पहले के आख़िरी एक मिनट को असली वीडियो के पैनलों में बाँटकर गिनती दिखानी है।",
+   "नए साल की रात दोस्तों के शूट किए वीडियो को आख़िरी दस सेकंड की उलटी गिनती के अंदाज़ में जोड़ दीजिए।",
+   "किसी असली रॉकेट लॉन्च के वीडियो को नौ पैनलों में बाँटकर इग्निशन के पल एक में मिला देना है।"
+  ],
+  "city-symphony": [
+   "मेरे शूट किए टाइम-लैप्स से मुंबई के एक दिन को म्यूज़िक की बीट पर काटकर शहर की सिम्फ़नी बनाइए।",
+   "पुरानी दिल्ली की पुरानी फ़ोटो और आज के वीडियो को साथ-साथ रखकर बीट पर कट करना है।",
+   "हमारे होटल के लिए जयपुर के सुबह से रात तक के शूट किए नज़ारों को म्यूज़िक से मिलाकर ओपनिंग फ़िल्म बनाइए।"
+  ],
+  "visual-investigation": [
+   "हमारी गली के मोड़ पर हुई टक्कर को CCTV, फ़ोटो और चश्मदीदों के बयानों से एक टाइमलाइन पर जोड़कर दिखाना है।",
+   "सोशल मीडिया पर फैल रही बाढ़ की एक फ़ोटो असल में कहाँ और कब की है, सबूतों से जाँचकर दिखाना है।",
+   "फ़ैक्ट्री में आग कैसे लगी, यह फ़ोटो, रिपोर्ट और कर्मचारियों के बयानों से समय के हिसाब से दोबारा बनाकर दिखाइए।"
+  ],
+  "kino-montage": [
+   "दादाजी ने परिवार की आटा चक्की कैसे शुरू की, पुरानी फ़ोटो, बही-खातों और मज़दूरों की मेहनत के साथ दिखाना है।",
+   "कुंभ मेले में हज़ारों लोगों के मिलकर काम करने की पुरानी फ़ोटो और वीडियो जोड़कर सामूहिक ताक़त दिखानी है।",
+   "हमारी फ़ैक्ट्री के बीस साल पूरे होने पर आर्काइव फ़ोटो और कर्मचारियों के आँकड़ों को तेज़, दमदार कट के साथ जोड़िए।"
+  ],
+  "telestrator": [
+   "हमारी गली क्रिकेट मैच में दूसरी पारी में वापसी कैसे हुई, असली मैच वीडियो पर लाइनें खींचकर समझाना है।",
+   "कबड्डी मैच के वीडियो को रोककर रेडर के पैरों की चाल लाइनों से दिखाने वाला कोचिंग वीडियो बनाइए।",
+   "स्कूल फ़ुटबॉल टीम के गोल वाले मैच वीडियो में खिलाड़ियों की पोज़ीशन तीरों से समझानी है।"
+  ],
+  "news-package": [
+   "इस हफ़्ते सोना, पेट्रोल और प्याज़ के दामों में बदलाव को टीवी न्यूज़ की तरह हेडलाइन और रेट बोर्ड के साथ बनाइए।",
+   "हमारे स्कूल की इस महीने की चार-पाँच ख़बरों को असली न्यूज़ प्रोग्राम की तरह सेगमेंट में बाँटकर दिखाना है।",
+   "इस हफ़्ते की नई टेक ख़बरों को इकट्ठा करके न्यूज़रूम स्टाइल में पूरा बुलेटिन बनाइए।"
+  ],
+  "ascii-crt": [
+   "हमारे नए सॉफ़्टवेयर टूल को पुरानी हरी स्क्रीन पर अक्षरों से बनते हुए अंदाज़ में लॉन्च कीजिए।",
+   "चाँद पर बरसों से सोया एक रोबोट धरती के सिग्नल का जवाब अक्षरों में दे, ऐसी कहानी चाहिए।",
+   "पापा के बचपन वाले पुराने कंप्यूटर स्क्रीन जैसे अंदाज़ में अक्षरों से जन्मदिन की शुभकामना बना दीजिए।"
+  ],
+  "silent-film": [
+   "बेकरी का लड़का लुढ़कती ब्रेड के पीछे भागे और आख़िर में उसे एक भूखे बच्चे के साथ बाँट ले, ऐसी मूक फ़िल्म बनाइए।",
+   "हमारी पुरानी मिठाई की दुकान के लिए ब्लैक एंड व्हाइट मूक फ़िल्म के ज़माने जैसा मज़ेदार ऐड चाहिए।",
+   "पापा के साथ मछली पकड़ने गए और मछली की जगह पुराना जूता फँसा, यह मज़ेदार किस्सा मूक फ़िल्म की तरह दिखाना है।"
+  ],
+  "backrooms": [
+   "नाइट शिफ़्ट का एक नया कर्मचारी अंतहीन पीले दफ़्तर में दीवार पर लिखे नियम मानते हुए अपनी पहली रात रिकॉर्ड करे, ऐसी डरावनी कहानी बनाइए।",
+   "हमारे नए मिस्ट्री गेम के लिए डरावने लंबे गलियारे में भटकने वाला टीज़र चाहिए।",
+   "रात में पुराने अस्पताल के गलियारे में अकेले फ़ोन से शूट करते हुए रास्ता ख़त्म ही न हो, ऐसी डरावनी कहानी दिखानी है।"
+  ],
+  "scratch-film": [
+   "अँधेरे तालाब के ऊपर एक जुगनू अपनी छोटी-सी रोशनी लेकर सफ़र पर निकले, ऐसी कहानी दिखानी है।",
+   "गहरे समुद्र की मछलियाँ हर रात ऊपर क्यों आती हैं, अँधेरे में खुरची गई रोशनी की लकीरों से समझाइए।",
+   "हमारे रात के बाज़ार में एक-एक बल्ब जलते हुए पूरा बाज़ार रोशन हो जाए, यह फ़िल्म पर खुरचकर बनाए जैसा दिखाना है।"
+  ],
+  "double-exposure": [
+   "हिमाचल के पहाड़ों से मनाली तक शूट किए नज़ारों को हाथी, मोर और मछली की परछाइयों में भरकर दिखाना है।",
+   "हमारे उदयपुर टूर बिज़नेस के लिए शहर की असली फ़ोटो को इंसान की परछाईं में भरकर ओपनिंग फ़िल्म बनाइए।",
+   "पापा के बचपन वाले गाँव की पुरानी फ़ोटो उनकी साइड प्रोफ़ाइल की परछाईं में भरकर एक यादगार वीडियो बनाना है।"
+  ],
+  "pixel-rpg": [
+   "गर्लफ़्रेंड के साथ दो साल पूरे होने पर पहली मुलाक़ात से आज तक का सफ़र पुराने गेम की सेव फ़ाइल देखने जैसा दिखाना है।",
+   "हमारे नए मोबाइल गेम के लिए बॉस के दरवाज़े के सामने खड़े हीरो वाला पुराना पिक्सल गेम स्टाइल ऐड बनाइए।",
+   "कॉलेज का एक साल पुराने गेम के लेवल एक-एक करके पार करने की तरह सुनाना है।"
+  ],
+  "hd-2d": [
+   "लाइटहाउस की रोशनी बुझ गई, तो एक लड़की आख़िरी लौ लेकर रात के जंगल से तूफ़ान में चट्टान तक जाती है — ऐसी कहानी बनाइए।",
+   "हमारे नए फ़ैंटेसी गेम के लिए हम्पी जैसे मंदिरों के मैदान में घूमती हीरो की टोली वाला ऐड चाहिए।",
+   "छोटे भाई के लिए, ड्रैगन ढूंढने गाँव से निकले एक बच्चे की कहानी सुंदर गेम की तरह दिखानी है।"
+  ],
+  "microgame": [
+   "हमारे नए ऐप का इस्तेमाल छोटे-छोटे गेम लगातार आते जाएं और तेज़ होते जाएं, ऐसे अंदाज़ में दिखाइए।",
+   "सुबह उठकर स्कूल के लिए तैयार होने को तेज़ होते मिनी-गेम्स की तरह मज़ेदार बना दीजिए।",
+   "हमारी कंपनी के नए कर्मचारियों को पहले दिन की ज़रूरी बातें तेज़ होते मिनी-गेम्स से सिखानी हैं।"
+  ],
+  "game-show": [
+   "हमारी कंपनी की इस साल की कामयाबियों को गेम शो की तरह बीट पर लाइए और आख़िर में स्कोरकार्ड से ख़त्म कीजिए।",
+   "टेलीग्राम से स्मार्टफ़ोन तक संचार का इतिहास बीट वाले गेम शो की तरह मज़ेदार ढंग से दिखाना है।",
+   "परिवार के इस पूरे साल की घटनाओं को टीवी गेम शो की तरह मज़ेदार ढंग से दोबारा जोड़कर दिखाना है।"
+  ],
+  "swiss-motion": [
+   "हमारे म्यूज़िक कॉन्सर्ट का पोस्टर स्विस डिज़ाइन नियमों के हिसाब से खुद-ब-खुद सजता जाए, ऐसा बनाइए।",
+   "हमारे डिज़ाइन स्टूडियो की नई ब्रांडिंग को ग्रिड, अक्षर और रंग एक-एक करके सजते हुए लॉन्च करना है।",
+   "डिज़ाइन के छात्रों को पोस्टर लेआउट के पाँच नियम साफ़-साफ़ सिखाने हैं।"
+  ],
+  "spy-titles": [
+   "1960 के दशक की जासूसी फ़िल्मों की तरह आकार भागते हुए हमारी फ़िल्म का नाम बन जाएं, ऐसा ओपनिंग टाइटल बनाइए।",
+   "कंपनी के सालाना जलसे की शुरुआत के लिए जासूसी फ़िल्म जैसा दमदार ओपनिंग टाइटल चाहिए।",
+   "दोस्त की शादी के लिए दूल्हा-दुल्हन को दो जासूसों की तरह पेश करने वाला रेट्रो ओपनिंग टाइटल बनाइए।"
+  ],
+  "art-deco": [
+   "हमारे होटल के डिनर का निमंत्रण 1930 के दशक के शानदार सुनहरे डिज़ाइन में बनाइए।",
+   "अंग्रेज़ों के ज़माने के एक बड़े होटल में लिफ़्ट चलाने वाला लड़का आधी रात से पहले एक चिट्ठी पहुँचाए, ऐसी कहानी चाहिए।",
+   "मम्मी-पापा की शादी की तीसवीं सालगिरह के लिए शानदार आर्ट डेको स्टाइल का निमंत्रण वीडियो बनाइए।"
+  ],
+  "pictogram-motion": [
+   "बस में छूट गया एक छाता खोया-पाया शेल्फ़ पर इंतज़ार करे और बारिश लौटने पर ढेर सारे छातों के साथ खुल जाए, ऐसी कहानी बनाइए।",
+   "नगर निगम के कचरा अलग-अलग करने के नियम लोगों को बीट पर चलते छोटे चिह्नों से समझाने हैं।",
+   "हमारे फ़ेस्टिवल के लिए कार, ट्रेन और प्लेन के चिह्न ताल पर उभरें, ऐसा ब्रांड वीडियो चाहिए।"
+  ],
+  "bauhaus-shapes": [
+   "बचत पर चक्रवृद्धि ब्याज कितना ताक़तवर है, गोलों और चौकोरों से समझाइए।",
+   "हमारे सेल्फ़-हेल्प ग्रुप की बचत कैसे काम करती है, सदस्यों को बाउहाउस आकारों से समझाना है।",
+   "कोर्स के हर चैप्टर के लिए लाल, पीले और नीले आकारों के खेल वाले ओपनिंग कार्ड बना दीजिए।"
+  ],
+  "flat-space-explainer": [
+   "आकाशगंगा से धरती, भारत और आख़िर में एक वायरस तक ज़ूम करते हुए आकार समझाने वाला वीडियो बनाइए।",
+   "बच्चों को सौरमंडल के ग्रह कितनी दूर हैं, यह एक छोटे अंतरिक्ष यान के साथ सफ़र करते हुए दिखाना है।",
+   "हमारे एजुकेशन चैनल के लिए उपग्रह धरती के चारों ओर कैसे घूमते हैं, आसान कार्टून से समझाइए।"
+  ],
+  "text-flash-cuts": [
+   "एक चिट्ठी, एक फ़ोन कॉल, सीढ़ियों की आहट… धीरे-धीरे पास आती थ्रिलर फ़िल्म के लिए झटके से चमकते शब्दों वाला ट्रेलर बनाइए।",
+   "हमारे युवा संगठन के उसूलों वाले शब्दों को बड़े अक्षरों में झटपट चमकाते हुए दमदार अंदाज़ में दिखाना है।",
+   "नई वेब सीरीज़ के ओपनिंग टाइटल को शब्दों और तस्वीरों के तेज़ कट से रोमांचक बनाइए।"
+  ],
+  "silhouette-rhythm": [
+   "झुंड में हमेशा पीछे रह जाने वाली छोटी चिड़िया ताल सीख जाए, ऐसा परछाईं वाला म्यूज़िक वीडियो बनाइए।",
+   "हमारी कबड्डी टीम के खिलाड़ियों का ढलते सूरज में परछाईं बनकर ताल पर थिरकता टीम वीडियो चाहिए।",
+   "दिवाली की शुरुआत के लिए दीये लिए लोगों की ढोल की थाप पर नाचती परछाइयाँ दिखानी हैं।"
+  ],
+  "satellite-briefing": [
+   "सालों में पुलिकट झील का पानी कैसे सिकुड़ता गया, असली सैटेलाइट तस्वीरों से तुलना करके दिखाना है।",
+   "असम में ब्रह्मपुत्र के किनारे के खेतों को बाढ़ से पहले और बाद में सैटेलाइट तस्वीरों से न्यूज़ ब्रीफ़ की तरह समझाइए।",
+   "सुंदरबन के मैंग्रोव जंगल दस साल में कैसे बदले, सैटेलाइट मैप से छात्रों को दिखाना है।"
+  ],
+  "briefing-board": [
+   "हमारे गाँव को जोड़ने वाले नाले पर पुल के तीन डिज़ाइन लागत, मज़बूती और असली माप के साथ तुलना करके दिखाने हैं।",
+   "नई ब्रांच खोलने के लिए तीन जगहों को किराए और आने-जाने वालों के असली डेटा के साथ बोर्ड पर तुलना करके दिखाइए।",
+   "घर की बिजली के तीन विकल्प — सोलर पैनल, जनरेटर, इन्वर्टर बैटरी — असली दामों के साथ तुलना करके दिखाने हैं।"
+  ],
+  "lidar-survey": [
+   "हम्पी के खंडहरों में पेड़ों के नीचे छिपे टूटे मंदिरों को लेज़र स्कैन डेटा से उजागर करके दिखाना है।",
+   "हमारी कंस्ट्रक्शन साइट की ज़मीन के ऊँचे-नीचे हिस्से ड्रोन लेज़र सर्वे डेटा से दिखाइए।",
+   "धोलावीरा के प्राचीन शहर की दीवारों को लेज़र सर्वे से पेड़-पौधे हटाकर देखें तो क्या मिलेगा, यह दिखाना है।"
+  ],
+  "microscope": [
+   "हमारे हल्दी-चंदन फ़ेस पैक को माइक्रोस्कोप की असली तस्वीरों में ज़ूम करके दिखाना है कि यह त्वचा के लिए क्यों अच्छा है।",
+   "लैब में खींची प्याज़ की झिल्ली की कोशिकाओं को छात्रों के लिए न्यूक्लियस तक लगातार ज़ूम करके दिखाइए।",
+   "हमारे दो तरह के धान के नमूनों की दानों की बनावट का फ़र्क माइक्रोस्कोप तस्वीरों से तुलना करके दिखाना है।"
+  ],
+  "archive-lighttable": [
+   "दादाजी के काँच की प्लेट वाले पुराने फ़ोटो और चिट्ठियाँ लाइट टेबल पर रखकर परिवार का इतिहास फिर से खोलना है।",
+   "हमारे चाय पत्ती के कारोबार के साठ साल के इतिहास को असली बही-खातों और पुराने लेबल के साथ दिखाइए।",
+   "म्यूज़ियम के लिए एक पुरानी ताड़पत्र पांडुलिपि को लेंस के नीचे ज़ूम करके उसमें क्या लिखा है, समझाना है।"
+  ],
+  "security-xray": [
+   "एयरपोर्ट के सिक्योरिटी स्कैनर से बैग गुज़रते हुए एक बैग में ज़िंदा केकड़े हिलते दिखें, ऐसा मज़ेदार वीडियो बनाइए।",
+   "हमारे कूरियर गोदाम में सामान की X-ray से कैसे जाँच होती है, ग्राहकों को दिखाना है।",
+   "X-ray से देखने पर पावर बैंक के अंदर क्या-क्या है, बच्चों के लिए दिलचस्प तरीके से दिखाइए।"
+  ],
+  "dark-documentary": [
+   "पुराने लोगों ने कोणार्क का सूर्य मंदिर कैसे बनाया होगा, यह अँधेरे, गंभीर डॉक्यूमेंट्री अंदाज़ में दिखाना है।",
+   "हमारे बाँध प्रोजेक्ट की सबसे मुश्किल रात को दोबारा बनाकर इंजीनियरिंग डॉक्यूमेंट्री स्टाइल में दिखाइए।",
+   "बड़े रेडियो टेलीस्कोप आसमान को कैसे सुनते रहे हैं, अंतरिक्ष डॉक्यूमेंट्री की तरह समझाइए।"
+  ],
+  "thermal-camera": [
+   "हमारा फ़्लैट इतना गरम क्यों रहता है, दीवार, खिड़की और छत को थर्मल कैमरे से देखने की तरह दिखाइए।",
+   "रात में जंगल के जानवरों को थर्मल कैमरे से छिपकर देखने जैसा वीडियो चाहिए।",
+   "हमारी इलेक्ट्रिक रिपेयर शॉप थर्मल कैमरे से ज़्यादा गरम होते तारों को कैसे ढूंढती है, ग्राहकों को दिखाना है।"
+  ],
+  "circuit-board": [
+   "बाँध के बिजलीघर से हमारे घर के फ़ोन चार्जर तक बिजली कैसे पहुँचती है, सर्किट बोर्ड स्टाइल में दिखाइए।",
+   "हमारी इलेक्ट्रॉनिक्स दुकान का सामान फ़ैक्ट्री से ग्राहक के हाथ तक कैसे पहुँचता है, ताँबे की लाइनों से दिखाना है।",
+   "नदियाँ ताँबे की लाइनें बन जाएं और पूरा शहर रोशन हो उठे, ऐसे छात्रों की दिलचस्पी जगाते हुए दिखाना है।"
+  ],
+  "firefly-pointillism": [
+   "एक जुगनू अँधेरे में अपनी रोशनी से सवाल पूछते-पूछते दोस्तों को ढूंढ ले, ऐसी कहानी बनाइए।",
+   "छोटी बहन के जन्मदिन के लिए ढेर सारे रोशनी के बिंदु जुड़कर उसकी तस्वीर बन जाएं, ऐसा वीडियो चाहिए।",
+   "हमारे ग्रुप के हर सदस्य की छोटी रोशनी मिलकर बड़ी रोशनी बन जाए, ऐसा एकजुटता वाला वीडियो दिखाना है।"
+  ],
+  "flow-field": [
+   "चक्रवात अम्फान बंगाल की खाड़ी से ओडिशा और बंगाल के तट तक कैसे पहुँचा, हवा की धाराओं को स्याही की लकीरों से दिखाइए।",
+   "मानसूनी हवाएँ भारत में बारिश कैसे लाती हैं, हज़ारों बहती स्याही की लकीरों से समझाना है।",
+   "बरसात में गंगा का बहाव और ख़तरे का निशान पार होने के समय बहती लकीरों से दिखाइए।"
+  ],
+  "oscilloscope-math": [
+   "छोटे-छोटे घूमते गोले मिलकर स्क्वेयर वेव कैसे बनाते हैं, ऑसिलोस्कोप स्क्रीन पर समझाइए।",
+   "हमारी फ़िज़िक्स ट्यूशन के लिए ध्वनि तरंगें कैसे काम करती हैं, हरी तरंग-रेखाओं से दिखाना है।",
+   "तबले की हर थाप की तरंग ऑसिलोस्कोप पर कैसी दिखती है, बच्चों को दिखाना है।"
+  ],
+  "neon-tubes": [
+   "हमारे नाइट ढाबे के उद्घाटन के लिए एक नियॉन बिल्ली साइनबोर्डों के बीच दौड़ती फिरे, ऐसी कहानी बनाइए।",
+   "मुंबई के मोहम्मद अली रोड के रात के बाज़ार में नियॉन बोर्ड एक-एक करके जलते जाएं, ऐसा शहर की रात का वीडियो चाहिए।",
+   "मेरे लिखे सिटी-पॉप गाने के लिए बारिश वाली रात में नियॉन ट्यूब के छोटे किरदार नाचते हों, ऐसा वीडियो बनाइए।"
+  ],
+  "blueprint": [
+   "मेरी बनाई धान ओसाने की छोटी मशीन को ब्लूप्रिंट पर ड्रॉ करके, खोलकर और फिर जोड़कर दिखाना है।",
+   "हमारी कंपनी के आने वाले नए सोलर वॉटर पंप को इंजीनियरिंग ब्लूप्रिंट पर लॉन्च कीजिए।",
+   "बारिश का पानी जमा करने वाली एक बड़ी मशीन ब्लूप्रिंट पर बनाकर बच्चों को उसका काम समझाना है।"
+  ],
+  "iso-infographic": [
+   "असम के चाय बागान से कोलकाता की चाय की दुकान के कुल्हड़ तक का सफ़र एक ही छोटी दुनिया में दिखाइए।",
+   "हमारी कंपनी में ऑर्डर देने से घर पहुँचने तक की पूरी प्रक्रिया छोटे चित्रों से समझानी है।",
+   "चावल का एक दाना खेत से चावल मिल, बाज़ार और फिर कुकर तक कैसे पहुँचता है, बच्चों को समझाना है।"
+  ],
+  "teardown": [
+   "हमारे बनाए छोटे पंखे को असली पार्ट्स और नापों के हिसाब से एक-एक करके खोलकर फिर बंद करके दिखाइए।",
+   "मेरे इस्तेमाल वाले कीबोर्ड को चिप तक खोलकर हर पार्ट को असली साइज़ के साथ दिखाने वाला वीडियो चाहिए।",
+   "मोटरसाइकिल के इंजन को पार्ट्स में खोलकर ITI के छात्रों को दिखाना है कि अंदर क्या-क्या होता है।"
+  ],
+  "hardcore-info": [
+   "फ़ोन को कोने से पकड़ने पर सिग्नल क्यों गिर जाता है, फ़ोन खोलकर एंटीना के बारे में समझाइए।",
+   "हमारा नया फ़्रिज बिजली क्यों बचाता है, अंदर की इंजीनियरिंग की बारीकियों से दिखाना है।",
+   "तेज़ हवा में छाता उलट क्यों जाता है, छात्रों को बारीकी से खोलकर समझाना है।"
+  ],
+  "precise-mechanism": [
+   "बिना बैटरी वाली कलाई घड़ी के अंदर पहिए कैसे घूमते हैं, काटकर और रंगों से अलग करके समझाइए।",
+   "हमारी पुरानी सिलाई मशीन के अंदर के पुर्ज़े कैसे काम करते हैं, ग्राहकों को दिखाना है।",
+   "साइकिल का गियर कैसे बदलता है, छात्रों को साफ़ दिखे इसलिए पुर्ज़ों के हिसाब से काटकर दिखाइए।"
+  ],
+  "instruction-manual": [
+   "पहली बार बच्चे का पालना जोड़ते एक पति-पत्नी की दस स्टेप वाली मैनुअल जैसी तस्वीरें बनाइए।",
+   "हमारी फ़र्नीचर दुकान की बुकशेल्फ़ ग्राहक खुद जोड़ सकें, इसके लिए मैनुअल बुक जैसा वीडियो चाहिए।",
+   "गैस चूल्हे को सुरक्षित इस्तेमाल करने का तरीका मैनुअल की तस्वीरों की तरह स्टेप-बाय-स्टेप दिखाना है।"
+  ],
+  "pen-plotter": [
+   "कंचनजंगा पहाड़ को असली ऊँचाई डेटा से एक प्लॉटर मशीन रात में टेबल लैंप के नीचे पेन से बनाती जाए, ऐसा दिखाना है।",
+   "हमारे गाँव के पास की पहाड़ियों का नक्शा कंटूर रेखाएँ एक-एक करके बनते हुए दिखाइए।",
+   "हमारे डिज़ाइन स्टूडियो का लोगो प्लॉटर मशीन चार रंग के पेन से धीरे-धीरे बनाए, ऐसा दिखाना है।"
+  ],
+  "assembly-line-diagram": [
+   "एक प्लेट छोले-चावल खाने के बाद शरीर के अंदर फ़ैक्ट्री की तरह स्टेप-बाय-स्टेप कैसे पचता है, यह दिखाइए।",
+   "हमारे पानी के प्लांट से एक बोतल पानी कैसे निकलती है, फ़ैक्ट्री प्रोसेस डायग्राम से समझाना है।",
+   "खून की एक बूँद का शरीर में सफ़र फ़ैक्ट्री की प्रोडक्शन लाइन की तरह बच्चों को समझाना है।"
+  ],
+  "crayon-book": [
+   "चाँद को नींद नहीं आ रही, तो एक लड़की छत पर चढ़कर उसे लोरी सुनाए, ऐसी सोने से पहले की कहानी बनाइए।",
+   "हमारी बच्चों की किताबों की दुकान की नई कहानी की किताब के लिए क्रेयॉन से बना जैसा ऐड चाहिए।",
+   "हिंदी वर्णमाला 'क' से शुरू करके बच्चों को सिखाने के लिए क्रेयॉन चित्रों से दिखाना है।"
+  ],
+  "watercolor": [
+   "जैसलमेर के रेगिस्तान में सूर्योदय पर उड़ते गर्म हवा के गुब्बारों का नज़ारा वॉटरकलर पेंटिंग में टहलने जैसा एक लगातार शॉट में दिखाइए।",
+   "हमारी ट्रैवल कंपनी के लिए मुन्नार की पहाड़ियों से केरल के बैकवॉटर तक वॉटरकलर वाली यात्रा चाहिए।",
+   "बारिश की एक बूँद पहाड़ से नदी और समुद्र तक कैसे जाती है, वॉटरकलर पेंटिंग से बच्चों को समझाना है।"
+  ],
+  "impasto": [
+   "बारिश वाले स्लेटी चौक में एक लाल छाता खुले और संगीत के साथ रंग फैल जाएं, ऐसा वीडियो बनाइए।",
+   "मेरे नए प्रेम गीत के लिए मोटे ऑयल पेंट के रंगों वाला भावनाओं से भरा वीडियो चाहिए।",
+   "हमारी आर्ट गैलरी के उद्घाटन के लिए गंगा आरती की शाम को मोटे ऑयल पेंट स्ट्रोक्स में दिखाने वाला ऐड बनाइए।"
+  ],
+  "urban-sketch": [
+   "कोलकाता की पुरानी अंग्रेज़ी इमारतों के बीच हवा में उड़ती टोपी के पीछे-पीछे रंग आते जाएं, ऐसा दिखाइए।",
+   "हमारे छोटे कैफ़े और उसकी गली को पेन से रफ़ स्केच करके हल्का वॉटरकलर भरा हुआ दिखाना है।",
+   "मरीन ड्राइव पर टहलते हुए स्केच बनाते चलने वाली एक यात्रा डायरी चाहिए।"
+  ],
+  "colored-pencil": [
+   "पेड़ ज़मीन के नीचे फफूंद के धागों से खाना बाँटते हैं, यह रंगीन पेंसिल से ज़मीन के नीचे काटकर दिखाइए।",
+   "हमारे बगीचे में एक पौधे की जड़ से फूल तक पानी कैसे चढ़ता है, रंगीन पेंसिल से दिखाना है।",
+   "कमल का पौधा पानी के नीचे कैसे जीता है, कहानी की किताब जैसे रंगीन पेंसिल कटअवे से समझाना है।"
+  ],
+  "risograph": [
+   "रविवार की सुबह दिल्ली में साइकिल चलाते हुए नाश्ते की दुकान, पार्क और इंडिया गेट तक जाने का प्रिंट जैसे रंगों वाला वीडियो बनाइए।",
+   "हमारी हाथ से बने बैग की दुकान के लिए कम रंगों में छपे जैसा प्यारा ऐड चाहिए।",
+   "हमारी नई कविता पत्रिका लॉन्च करने के लिए थोड़े खिसके रंगों वाला रिसो प्रिंट स्टाइल वीडियो बनाइए।"
+  ],
+  "halftone-dossier": [
+   "हमारी मोटी बिल्ली को सुबह चार बजे भागने और कप गिराने के लिए अदालत में पेश करने वाली मज़ेदार केस फ़ाइल बनाइए।",
+   "कुत्ते ने जूते चबाए, इस केस को पुराने अख़बार के डॉट वाले चित्रों से जासूसी फ़ाइल की तरह दिखाना है।",
+   "हमारी पेट फ़ूड दुकान के लिए बिल्ली के खाना चुराने वाले केस का मज़ेदार ऐड चाहिए।"
+  ],
+  "woodcut": [
+   "पूरा गाँव सर्दी भर एक बड़ी घंटी ढाले और पहली बार बजाते ही बर्फ़ गिरना रुक जाए, ऐसी कहानी बनाइए।",
+   "हमारे ब्लॉक प्रिंटिंग हस्तकला के कारीगर कैसे काम करते हैं, वुडकट प्रिंट जैसे चित्रों से दिखाना है।",
+   "मेरे लिखे नए पौराणिक उपन्यास के लिए वुडकट प्रिंट स्टाइल वाला बुक ट्रेलर बनाइए।"
+  ],
+  "engraving": [
+   "म्यूज़ियम के लिए एक मधुमक्खी को ताँबे की प्लेट पर एक-एक रेखा से उकेरकर हल्का वॉटरकलर भरते हुए दिखाइए।",
+   "हमारे पुराने शहद कारोबार की विरासत को पुरानी ताम्र-नक्काशी की तरह दिखाने वाला ऐड चाहिए।",
+   "भारत के ऑर्किड फूलों को पुरानी प्राकृतिक इतिहास की किताब की नक्काशियों की तरह एक-एक करके दिखाना है।"
+  ],
+  "silkscreen-poster": [
+   "हमारी ट्रैवल कंपनी के लिए जयपुर, गोवा और ऋषिकेश हर जगह को बड़े पोस्टर की तरह दिखाने वाली ट्रैवल गाइड बनाइए।",
+   "विदेश में काम करने वाले बड़े भैया की घर वापसी का सफ़र एक के बाद एक पोस्टर में दिखाना है।",
+   "हमारे म्यूज़िक फ़ेस्टिवल के लिए सिल्कस्क्रीन पोस्टर स्टाइल ऐड चाहिए।"
+  ],
+  "printed-long-take": [
+   "भरतपुर पक्षी विहार के जलपक्षियों के झुंड को झील के ऊपर बिना कट के एक लगातार खुरचे चित्र की तरह दिखाइए।",
+   "हमारी ट्रेकिंग को तलहटी से चोटी तक एक लगातार छपे नक्काशी वाले लैंडस्केप की तरह दिखाना है।",
+   "ब्रह्मपुत्र में नाव से ऊपर की ओर जाने का सफ़र बिना कट के एक लगातार प्रिंट पेंटिंग की तरह दिखाना है।"
+  ],
+  "pop-art": [
+   "बाज़ार के ज़्यादातर केले एक ही किस्म से उगाए जाते हैं, यह पॉप-आर्ट चित्रों को दोहराकर समझाइए।",
+   "हमारी नई कुल्फ़ी का चटकीले रंगों वाले पॉप-आर्ट पोस्टर जैसा ऐड बनाइए।",
+   "एक कप चाय में कितनी चीनी होती है, डॉट्स वाले पॉप-आर्ट स्टाइल में दिखाना है।"
+  ],
+  "vintage-collage": [
+   "भारत के पुराने डाक टिकटों का इतिहास आर्काइव चित्रों और पुराने कागज़ों के कोलाज स्टाइल में दिखाना है।",
+   "दादाजी के पुराने नोटों के संग्रह को असली स्कैन की तस्वीरों से मैगज़ीन कोलाज की तरह दिखाइए।",
+   "हमारी फ़िरोज़ाबाद की चूड़ियों की हस्तकला का इतिहास पुराने विज्ञापनों और पुरानी फ़ोटो जोड़कर दिखाना है।"
+  ],
+  "dark-keynote": [
+   "हमारे नए फ़ोन ऐप को अँधेरे बैकग्राउंड वाले स्टेज लॉन्च इवेंट की तरह शानदार ढंग से लॉन्च कीजिए।",
+   "हमारे अकाउंटिंग सॉफ़्टवेयर से बिखरी फ़ाइलें एक क्लिक में व्यवस्थित हो जाएं, ऐसा दिखाने वाला ऐड चाहिए।",
+   "हमारे स्टार्टअप की सालगिरह पर नए फ़ीचर्स दिखाने के लिए शानदार लॉन्च फ़िल्म जैसा बनाइए।"
+  ],
+  "living-screencast": [
+   "हमारे ऑनलाइन शॉपिंग ऐप में ऑर्डर करने का तरीका असली स्क्रीनशॉट पर एक कार्टून किरदार रास्ता दिखाए, ऐसे दिखाइए।",
+   "हमारे क्लिनिक की अपॉइंटमेंट वेबसाइट इस्तेमाल करने का तरीका असली स्क्रीन पर स्टेप-बाय-स्टेप दिखाने वाला ट्यूटोरियल चाहिए।",
+   "हमारे सॉफ़्टवेयर के नए फ़ीचर को असली स्क्रीन रिकॉर्डिंग से एक छोटा किरदार उछलकर बाहर आए और दिखाए, ऐसा बनाइए।"
+  ],
+  "hologram-hud": [
+   "हमारी नई इलेक्ट्रिक स्कूटर को होलोग्राम की तरह स्कैन करके बैटरी, मोटर और ब्रेक को टार्गेट फ़्रेम के साथ दिखाइए।",
+   "ट्रेड फ़ेयर में दिखाने के लिए हमारे वॉटर फ़िल्टर के अंदर के स्पेसिफ़िकेशन होलोग्राम स्क्रीन से समझाने हैं।",
+   "बेटे के खिलौना अंतरिक्ष यान को होलोग्राम से स्कैन करके पुर्ज़े दिखाने वाला फ़िल्मी वीडियो बनाइए।"
+  ],
+  "desktop-flythrough": [
+   "मेरी खींची बिल्ली की फ़ोटो मेरे फ़ोन से ऐप कार्ड्स पार करते हुए दोस्त के फ़ोन तक कूदती जाए, ऐसा दिखाइए।",
+   "हमारे ऐप से ग्राहक को इनवॉइस भेजने की प्रक्रिया मेज़ पर रखे कार्ड्स से दिखाना है।",
+   "छात्र फ़ोन से होमवर्क टीचर को कैसे भेजें, धूप वाली मेज़ पर समझाने वाला वीडियो चाहिए।"
+  ],
+  "spreadsheet": [
+   "हमारे घर के ख़र्चों की लिस्ट में सबसे ज़्यादा पैसा कहाँ जाता है, स्प्रेडशीट में कॉलम खोलते हुए समझाइए।",
+   "हमारी छोले-कुलचे की दो ब्रांचों का मुनाफ़ा स्प्रेडशीट में एक-एक सेल से तुलना करके दिखाना है।",
+   "कुल आँकड़े कैसे धोखा दे सकते हैं, सिम्पसन पैराडॉक्स को एक ही स्प्रेडशीट से छात्रों को समझाना है।"
+  ],
+  "one-bit-dither": [
+   "चाँद की पहली क्लोज़-अप फ़ोटो फ़ैक्स से एक-एक लाइन छपकर कैसे निकली, काले-सफ़ेद बिंदुओं से दिखाना है।",
+   "दादाजी के ज़माने में एक तार गाँव तक कैसे पहुँचता था, काले-सफ़ेद प्रिंट स्टाइल में सुनाना है।",
+   "हमारी छोटी प्रिंटिंग प्रेस की पुरानी मशीनें रात में चलती हुई, दो स्याही वाले डॉट स्टाइल में बनाइए।"
+  ],
+  "one-line": [
+   "माँ की पूरी ज़िंदगी एक ही रेखा से बनाइए और आख़िर में वह पेन पोती को थमा दे, ऐसा दिखाइए।",
+   "हमारी ज्वेलरी शॉप की ब्रांड कहानी एक ही अटूट रेखा से बनती जाए, ऐसा सादा ऐड चाहिए।",
+   "दोस्त की शादी के लिए पहली मुलाक़ात से शादी तक एक ही रेखा में बनाकर दिखाना है।"
+  ],
+  "whiteboard": [
+   "फ़ोन को कैसे पता चलता है कि हम कहाँ हैं, उपग्रहों और GPS के बारे में व्हाइटबोर्ड पर बनाकर समझाइए।",
+   "हमारे ऑनलाइन अकाउंटिंग कोर्स के लिए आमदनी-ख़र्च की एंट्री करना व्हाइटबोर्ड पर लिखकर सिखाना है।",
+   "हमारी दुकान का UPI पेमेंट सिस्टम कैसे काम करता है, स्टाफ़ को व्हाइटबोर्ड पर समझाना है।"
+  ],
+  "chalkboard": [
+   "'नमस्ते' शब्द कहाँ से आया, ब्लैकबोर्ड पर चॉक से लिखकर समझाइए।",
+   "'रात में बाल धोने से बुख़ार आता है' वाली मान्यता सच है या नहीं, ब्लैकबोर्ड पर समझाना है।",
+   "हमारी ट्यूशन का एक गणित फ़ॉर्मूला क्लास के ब्लैकबोर्ड पर टीचर लिखकर समझाए, ऐसे दिखाइए।"
+  ],
+  "sketchnote": [
+   "एक मधुमक्खी पूरी ज़िंदगी में कितना शहद बनाती है, फूल से बोतल तक स्केचनोट्स से एक पोस्टर बनता जाए, ऐसा दिखाइए।",
+   "जिस बिज़नेस सेमिनार में मैं गया था, उसकी मुख्य बातें चित्रों के साथ एक नोट्स पेज में समेट दीजिए।",
+   "हमारी दुकान की सेवाओं का चित्रों और तीरों से बना एक पेज का सार बनाना है।"
+  ],
+  "stick-explainer": [
+   "दुनिया में कोई भी किसी से करीब छह लोगों के ज़रिए जुड़ा है, यह स्टिक फ़िगर्स से समझाइए।",
+   "हमारी दुकान का 'दोस्त को रेफ़र करें' प्रोग्राम छोटे स्टिक फ़िगर्स से आसान तरीके से दिखाना है।",
+   "गाँव के लोग खाड़ी देशों में काम कर रहे परिवार वालों से कैसे जुड़े रहते हैं, स्टिक फ़िगर्स से दिखाना है।"
+  ],
+  "ipad-sketch": [
+   "कुर्ग की कॉफ़ी के कप से लाल कॉफ़ी चेरी बने और सूखकर, भुनकर, पिसकर फिर कप में लौट आए, ऐसा दिखाइए।",
+   "गुलाब जामुन बनाने का तरीका एक ही स्केच पेज पर अलग-अलग रंग बदलते चित्रों से दिखाना है।",
+   "हमारे हाथ से बने साबुन कैसे बनते हैं, टैबलेट पर पेंसिल से बनाते हुए समझाना है।"
+  ],
+  "marker-paper": [
+   "समुद्र किनारे से क्षितिज कितनी दूर है, कागज़ पर मार्कर से हिसाब लगाकर दिखाइए।",
+   "हमारी ट्यूशन के छात्रों के लिए फ़िज़िक्स का एक सवाल मार्कर से स्टेप-बाय-स्टेप हल करना है।",
+   "हमारी दुकान की डिस्काउंट प्रतिशत निकालने का तरीका कागज़ पर मार्कर से लिखकर दिखाइए।"
+  ],
+  "ink-wash": [
+   "एक तलवारबाज़ नदी के ऊपर चलते हुए तलवार के एक वार से धारा को चीर दे, ऐसी स्याही पेंटिंग वाली कहानी बनाइए।",
+   "हमारे चाय ब्रांड के लिए पहाड़ों और धुंध के बीच स्याही पेंटिंग स्टाइल का शांत-सा ऐड चाहिए।",
+   "मेरी लिखी एक छोटी कविता को फैलते स्याही स्ट्रोक्स वाले चित्रों से दिखाना है।"
+  ],
+  "shadow-puppet": [
+   "दस सूरज धरती को जला रहे थे और एक धनुर्धर ने तीर से उन्हें गिरा दिया, यह कथा चमड़े की कठपुतलियों से दिखाइए।",
+   "राक्षस और राजकुमार की लोककथा को रोशन पर्दे पर छाया कठपुतलियों से बच्चों के लिए दिखाना है।",
+   "हमारे सांस्कृतिक उत्सव की शुरुआत के लिए पारंपरिक छाया कठपुतली स्टाइल का निमंत्रण वीडियो बनाइए।"
+  ],
+  "ukiyoe": [
+   "एक यात्री दूर के पहाड़ की ओर चलता जाए, हर नज़ारा वुडब्लॉक प्रिंट बनता जाए और एक बड़ी लहर के साथ चरम पर पहुँचे, ऐसा बनाइए।",
+   "हमारे जापानी रेस्टोरेंट के उद्घाटन के लिए उकियो-ए पेंटिंग स्टाइल का ऐड चाहिए।",
+   "वैष्णो देवी की चढ़ाई को जापानी वुडब्लॉक प्रिंट स्टाइल में कविता की तरह दिखाना है।"
+  ],
+  "papercut-red": [
+   "चीनी नए साल की रात न्यान राक्षस गाँव में आए और एक लड़की का बड़ा पेपर-कट चित्र रोशन होकर उसे भगा दे, ऐसी कहानी बनाइए।",
+   "हमारी दुकान से ग्राहकों को चीनी नए साल की शुभकामनाएँ भेजने के लिए लाल पेपर-कट स्टाइल वीडियो चाहिए।",
+   "कोलकाता के चाइनाटाउन में हमारी पारिवारिक बेकरी के मून केक फ़ेस्टिवल का ऐड लाल पेपर-कट चित्रों से बनाइए।"
+  ],
+  "paper-lantern": [
+   "एक पुरानी ट्रेन की आख़िरी यात्रा को खिड़कियों की बत्तियाँ एक-एक करके बुझती हुई, कागज़ की लालटेन स्टाइल में दिखाना है।",
+   "दादाजी के रिटायरमेंट के दिन के लिए उनके छोटे-से स्टेशन की कहानी लालटेनों की तरह जगमगाते अंदाज़ में बनाइए।",
+   "हमारे ट्रैवल होटल के लिए पंबन ब्रिज पार करती रात की ट्रेन को लालटेन की तरह जगमगाते दिखाना है।"
+  ],
+  "stained-glass": [
+   "सुबह से शाम तक धूप गुज़रते हुए हर काँच के टुकड़े में एक योद्धा और ड्रैगन की कहानी जाग उठे, ऐसा दिखाइए।",
+   "हमारे क्रिसमस ग्रीटिंग कार्ड के लिए रंगीन काँच के झरोखे वाली छोटी कहानी बनाइए।",
+   "गोवा के पुराने चर्च की विरासत को रंगीन काँच स्टाइल की छोटी कहानी से दिखाना है।"
+  ],
+  "gilded-illumination": [
+   "सिर्फ़ सुनहरी चमक वाली दुनिया में सूरज बुझ जाए और एक लड़की आख़िरी दीया पहाड़ पर ले जाए, ऐसी कहानी बनाइए।",
+   "दिवाली के लिए सोने से सजी पुरानी पोथी की पेंटिंग जैसा काव्यात्मक त्योहार वीडियो चाहिए।",
+   "हमारे सोने के वर्क वाले हस्तशिल्प कारोबार की शुरुआत की कहानी सुनहरी पुरानी चित्र-पुस्तक स्टाइल में दिखानी है।"
+  ],
+  "line-art-ink": [
+   "दिल्ली की एक पुरानी गली को सुबह से रात तक स्याही से बने चित्र की तरह दिखाना है — चाय की दुकान, ठेलेवाले, और रात में जलती बत्तियाँ।",
+   "हमारी छोटी पराठे की दुकान को सुबह-सुबह खुलने से लेकर ग्राहकों के आने तक प्यारे लाइन ड्रॉइंग स्टाइल में बनाइए।",
+   "केरल के बैकवॉटर के एक गाँव में नाव वाले, बिल्ली और चिड़ियों के साथ सूरज ढलकर रात होने का नज़ारा देखना है।"
+  ],
+  "onetake-launch": [
+   "हमारा बाइक रेंटल ऐप लॉन्च हो रहा है, इसलिए करीब 20 सेकंड का लॉन्च वीडियो चाहिए। स्क्रीनशॉट भेज दूँगा।",
+   "जन्मदिन के गिफ़्ट ऑर्डर करने वाली हमारी छोटी वेबसाइट के लिए एक मॉडर्न टीज़र बना दीजिए।",
+   "छात्रों के पढ़ाई का समय ट्रैक करने वाले ऐप के लिए बिना कट के एक ही शॉट में चलने वाला ऐड चाहिए।"
+  ],
+  "onetake-demo": [
+   "हमारे अकाउंटिंग ऐप में बिल बनाना और रिपोर्ट देखना हिंदी वॉइस के साथ समझाने वाला वीडियो चाहिए।",
+   "क्लिनिक अपॉइंटमेंट ऐप बुज़ुर्गों को समझ आए, ऐसा स्टेप-बाय-स्टेप वीडियो बनाइए। स्क्रीनशॉट साथ में हैं।",
+   "हमारे POS सिस्टम के 3 नए फ़ीचर्स पर हिंदी और अंग्रेज़ी दोनों भाषाओं में वीडियो बनाना है।"
+  ],
+  "onetake-concept": [
+   "डिलीवरी ऐप के लिए एक बटन दबाते ही सामान एक के बाद एक लगातार पहुँचता जाए, ऐसा कॉन्सेप्ट ऐड चाहिए।",
+   "कॉफ़ी शॉप का ऐड एक कॉफ़ी बीन से कप तक बिना कट के एक ही शॉट में दिखाना है।",
+   "पेमेंट ऐप से बचने वाला समय एक साल से सिमटकर एक मिनट हो जाने के अंदाज़ में दिखाइए।"
+  ],
+  "hf-captions": [
+   "मेरी दुकान के बारे में बोले गए वीडियो में सबटाइटल डालकर दुकान के नाम का कार्ड जोड़ दीजिए।",
+   "मेरे इंटरव्यू वीडियो में कही गई 3 मुख्य बातें कार्ड के रूप में उभरें, ऐसा चाहिए।",
+   "Instagram लाइव से काटी गई छोटी क्लिप में ऐसे सबटाइटल डालिए कि बिना आवाज़ के भी समझ आए।"
+  ],
+  "hf-vertical": [
+   "बढ़िया अदरक वाली चाय बनाने के 3 टिप्स पर TikTok के लिए वर्टिकल क्लिप बनाइए।",
+   "हमारे कपड़ों की दुकान की दिवाली सेल के लिए Reels पर तेज़-तर्रार ऐड चाहिए।",
+   "सुबह की 5 अच्छी आदतें Shorts के लिए बड़े-बड़े अक्षरों में दिखाइए।"
+  ],
+  "hf-music": [
+   "मेरे गाए गाने के लिए एक लिरिक वीडियो बना दीजिए। गाने की फ़ाइल भेज दूँगा।",
+   "दुकान की छोटी जिंगल को बीट से मेल खाता रंग-बिरंगा वीडियो बनाना है।",
+   "जन्मदिन के लिए गाए गाने को फ़ोटो के साथ बीट पर मिलाकर वीडियो बनाइए।"
+  ],
+  "logo-reveal": [
+   "हमारे कैफ़े का लोगो YouTube वीडियो की शुरुआत में लगाने के लिए 5 सेकंड का लोगो रिवील बनाइए।",
+   "कंपनी का लोगो वेबसाइट खुलते समय दिखने वाले स्प्लैश एनिमेशन के रूप में चाहिए। शांत और भरोसेमंद एहसास वाला।",
+   "बच्चों की खिलौनों की दुकान का लोगो ख़ुशी से उछलते-कूदते हुए आए, ऐसा चाहिए।"
+  ],
+  "lottie-anim": [
+   "ऐप में पेमेंट सफल होने पर दिखने वाला टिक मार्क एनिमेशन चाहिए।",
+   "वेबसाइट के लिए लोडिंग स्पिनर हमारे ब्रांड के बैंगनी रंग में बना दीजिए।",
+   "YouTube वीडियो में इस्तेमाल के लिए नाम और पद दिखाने वाला लोअर थर्ड एनिमेशन बनाइए।"
+  ],
+  "ad-marker-comic": [
+   "बेटी की पसंदीदा बिल्ली हीरो बनकर मोहल्ले के बच्चों को बचाए, ऐसा कार्टून बनाइए।",
+   "मेरी चाय की टपरी पर हर सुबह होने वाले मज़ेदार किस्से को कॉमिक बुक जैसे रंगीन कार्टून में दिखाना है।",
+   "होली पर रंग खेलते हुए दो भाई झगड़ें और फिर गले मिल जाएं, ऐसा मज़ेदार कार्टून चाहिए।"
+  ],
+  "ad-scrapbook": [
+   "दादा-दादी की शादी से आज तक परिवार का इतिहास पुराने फ़ोटो एल्बम की तरह सुनाने वाला वीडियो बनाइए।",
+   "खजुराहो के मंदिर कैसे बने, यह इतिहास पुराने कागज़ों और छोटे नोट्स चिपकी किताब की तरह दिखाना है।",
+   "हमारे परिवार का बनारसी साड़ी बुनाई का काम पचास साल से ज़्यादा कैसे टिका रहा, पुराने हिसाब और फ़ोटो से सुनाना है।"
+  ],
+  "ad-ballpoint": [
+   "माँ हर सुबह टिफ़िन तैयार करती हैं, यह छोटा-सा पल बॉलपेन से बने चित्र की तरह चुपचाप दिखाना है।",
+   "मेरे हाथ से बने चमड़े के बटुओं को नोटबुक में बॉलपेन से बने रफ़ स्केच की तरह लॉन्च कीजिए।",
+   "स्कूल में दोस्त के साथ बैठने वाली बेंच की यादों पर बॉलपेन स्केच स्टाइल में छोटी कहानी बनाइए।"
+  ],
+  "ad-broken-colour": [
+   "डल झील पर सूरज ढलते समय एक शिकारा गुज़रता हुआ, ऑयल पेंटिंग की तरह खूबसूरती से दिखाना है।",
+   "समुद्र किनारे हमारे छोटे होमस्टे का सुबह की रोशनी में पेंटिंग जैसा ऐड बनाइए।",
+   "जैसलमेर में सुबह-सुबह किलों के बीच गर्म हवा के गुब्बारे उठते हुए, ऐसी यात्रा की याद बनाइए।"
+  ],
+  "ad-embroidery": [
+   "माँ के जन्मदिन के लिए फूल एक-एक टाँके से कढ़ते जाएं और शुभकामना उभर आए, ऐसा वीडियो बनाइए।",
+   "मेरी हाथ की कढ़ाई वाले बैगों की दुकान के लिए सुई-धागे से कढ़ाई होती दिखे, ऐसा ऐड चाहिए।",
+   "हिमालय के फूलों और चिड़ियों को सुई-धागे से कढ़ा हुआ जैसा, मौसम बदलते हुए दिखाइए।"
+  ],
+  "ad-stipple": [
+   "बच्चों को जुगनू के जीवन के चरण पुरानी विज्ञान की किताब के चित्रों की तरह बिंदुओं से समझाने हैं।",
+   "अंडमान के तरह-तरह के सीपियों को बिंदु वाली स्याही के चित्रों से एक-एक करके दिखाइए।",
+   "हमारी आयुर्वेदिक जड़ी-बूटी की दुकान के लिए तुलसी के पौधे के बारे में पुरानी वनस्पति किताब की तरह दिखाना है।"
+  ],
+  "ad-charcoal": [
+   "गुज़र चुके पापा की याद में उनके साथ मछली पकड़ने वाले दिन चारकोल ड्रॉइंग की तरह फिर से दिखाने हैं।",
+   "गाँव से शहर काम ढूंढने आए एक लड़के की पहली रात पर छोटी कहानी बनाइए।",
+   "मेरी ड्रॉइंग क्लास के लिए चेहरे को चारकोल से बनाना, मिटाना और फिर बनाना दिखाना है।"
+  ],
+  "ad-flat-vector": [
+   "हमारे सब्ज़ी ऑनलाइन ऑर्डर करने वाले ऐप का इस्तेमाल आसान भाषा में समझाइए।",
+   "शिमला से मनाली होते हुए रोहतांग पास तक की यात्रा मॉडर्न छोटे चित्रों से दिखानी है।",
+   "हल्दी-बेसन का उबटन कैसे बनाकर लगाते हैं, विदेशी दोस्तों को समझ आए ऐसे चित्रों से समझाइए।"
+  ],
+  "ad-cut-paper": [
+   "बेटे के लिए खरगोश और कछुए की दौड़ वाली कहानी कागज़ काटकर चिपकाए जैसे अंदाज़ में बनाइए।",
+   "गर्मी, बरसात और सर्दी के मौसम कैसे बदलते हैं, फटे कागज़ के टुकड़ों से बच्चों को दिखाना है।",
+   "मेरी बेकरी के केक के लिए रंगीन कागज़ की कटिंग वाले चित्रों से प्यारा ऐड बनाइए।"
+  ],
+  "ad-toy-theatre": [
+   "बेटी की बर्थडे पार्टी में दिखाने के लिए राजकुमारी और छोटे ड्रैगन की कहानी गत्ते के थिएटर की तरह बनाइए।",
+   "हमारी कठपुतली मंडली के उत्सव शो के प्रचार के लिए छोटे मंच पर किरदार खिसककर आते दिखें, ऐसा चाहिए।",
+   "राक्षस और राजकुमार की कहानी बच्चों के देखने के लिए कागज़ के छोटे मंच पर खेले जाने जैसी बनाइए।"
+  ],
+  "ad-storybook": [
+   "मेरे बेटे को किरदार बनाकर हर रात सोने से पहले देखने के लिए एपिसोड वाली छोटी कहानियाँ बनाइए।",
+   "हमारी बच्चों की लाइब्रेरी की बिल्ली वाला किरदार बच्चों को पढ़ने आने का न्योता दे, ऐसा वीडियो चाहिए।",
+   "एक हाथी का बच्चा केरल से राजस्थान तक सफ़र पर निकले, ऐसी बच्चों की कहानी की सीरीज़ बनाइए।"
+  ],
+  "ad-folk-tale": [
+   "माँ बचपन में जो चालाक ख़रगोश और शेर की पंचतंत्र कहानी सुनाती थीं, उसे सोने से पहले की कहानी बना दीजिए।",
+   "पंजाब के एक गाँव में किसान परिवार की गेहूँ कटाई की लोककथा जैसी कहानी दिखानी है।",
+   "हमारे गाँव के गुड़ बनाने के काम को पुरानी कहानी की किताब के चित्रों की तरह गर्मजोशी से दिखाइए।"
+  ],
+  "ad-dream-glaze": [
+   "बचपन में सपने में देखा आसमान में उड़ता छोटा-सा घर अजीब पर खूबसूरत पेंटिंग की तरह दिखाना है।",
+   "हम कहाँ से आए और कहाँ जाएंगे, इस सवाल को बादलों तक जाती सीढ़ी के साथ कलात्मक लघु फ़िल्म में बनाइए।",
+   "मेरी आर्ट एग्ज़ीबिशन के ऐड के लिए झील के पानी पर तैरता मंदिर वाला सपने जैसा नज़ारा बनाइए।"
+  ],
+  "arch-diagram": [
+   "हमारे ऐप से ऑर्डर करने पर वह किचन तक, फिर पककर डिलीवरी वाले तक कैसे पहुँचता है, डायग्राम से समझाइए।",
+   "परिवार की दवा दुकान में ऑर्डर से गोदाम, दुकान और बिलिंग तक की प्रक्रिया नए कर्मचारियों को समझानी है।",
+   "फ़ोन से UPI पेमेंट करने पर पैसा बैंकिंग सिस्टम में कैसे गुज़रता है, छात्रों को चित्रों से समझाने वाला वीडियो बनाइए।"
+  ],
+  "doc-mix": [
+   "ब्लू व्हेल कितनी बड़ी है और उसका विकास कैसे हुआ, इस पर करीब 3 मिनट की डॉक्यूमेंट्री बनाइए।",
+   "ताजमहल कैसे बना और भूकंप को कैसे झेल पाता है, नक्शों और डायग्राम से समझाने वाला वीडियो चाहिए।",
+   "ब्रह्मांड के सबसे बड़े तारों की सूरज से तुलना करके हैरान करने वाले तथ्यों के साथ Shorts के लिए 1 मिनट का वीडियो बनाइए।"
+  ]
+ }
+}

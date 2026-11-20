@@ -1,0 +1,36 @@
+[submodule "engine/lemo-opuscar"]
+	path = engine/lemo-opuscar
+	url = https://github.com/lemomo-ai/lemo-opuscar.git
+	shallow = true
+[submodule "engine/anidoodle"]
+	path = engine/anidoodle
+	url = https://github.com/alexgreensh/anidoodle.git
+	shallow = true
+[submodule "engine/hyperframes"]
+	path = engine/hyperframes
+	url = https://github.com/heygen-com/hyperframes.git
+	shallow = true
+[submodule "engine/onetake"]
+	path = engine/onetake
+	url = https://github.com/feitangyuan/onetake.git
+	shallow = true
+[submodule "engine/line-art-animation"]
+	path = engine/line-art-animation
+	url = https://github.com/JDhruv14/line-art-animation.git
+	shallow = true
+[submodule "engine/text-to-lottie"]
+	path = engine/text-to-lottie
+	url = https://github.com/diffusionstudio/lottie.git
+	shallow = true
+[submodule "engine/pixel2motion"]
+	path = engine/pixel2motion
+	url = https://github.com/nolangz/pixel2motion.git
+	shallow = true
+[submodule "engine/arch-diagram"]
+	path = engine/arch-diagram
+	url = https://github.com/cclank/lanshu-animated-architecture-diagram.git
+	shallow = true
+[submodule "engine/screenwriting"]
+	path = engine/screenwriting
+	url = https://github.com/jtydhr88/screenwriting-skills.git
+	shallow = true

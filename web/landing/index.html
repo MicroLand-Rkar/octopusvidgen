@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-type="software" data-radius="soft" data-ground="sky" data-buttons="solid" data-motion>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-i18n="meta.title">OctopusVidGen: free AI film studio with 123 styles</title>
+<meta name="description" data-i18n-attr="content:meta.description" content="Plan a short film with Claude in your own language and get back an MP4 drawn, voiced and scored in code, in one of 123 styles. Free and open source.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="OctopusVidGen: free AI film studio with 123 styles">
+<meta property="og:description" content="An open-source studio that runs on your computer: pick one of 123 film styles, plan the film with Claude, get an MP4.">
+<meta property="og:image" content="share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#ffffff">
+<!-- <link rel="canonical" href="https://[the project's domain]/"> -->
+<meta name="site-kind" content="software">
+<meta name="page-type" content="software">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:wght@400..700&family=JetBrains+Mono:wght@400..500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/system.css">
+<link rel="stylesheet" href="assets/ui/cards.css">
+<link rel="stylesheet" href="assets/motion/motion.css">
+<link rel="stylesheet" href="assets/backgrounds/backgrounds.css">
+<link rel="stylesheet" href="assets/layout/layout.css">
+<link rel="stylesheet" href="assets/layout/demo.css">
+<link rel="stylesheet" href="assets/icons/icon.css">
+<style>
+:root {
+  --p-bg: #ffffff; --p-surface: #f2f2f2; --p-ink: #0a0a0a; --p-muted: #6b6b6b;
+  --p-accent: #d92b21; --p-accent-ink: #ffffff; --p-action: #d92b21; --p-action-ink: #ffffff;
+  --p-inv-bg: #000000; --p-inv-surface: #010101; --p-inv-ink: #ffffff; --p-inv-muted: #868686;
+  --p-inv-accent: #d92b21; --p-inv-accent-ink: #ffffff; --p-inv-action: #d92b21; --p-inv-action-ink: #ffffff;
+  --font-display: "Reddit Sans", system-ui, sans-serif;
+  --font-text: "Reddit Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --display-weight: 500;
+  --display-tracking: -0.03em;
+  --display-tracking-xl: -0.04em;
+}
+</style>
+<link rel="stylesheet" href="assets/ui/base.css">
+<link rel="stylesheet" href="assets/ui/window/fragment.css">
+<link rel="stylesheet" href="assets/ui/chat/fragment.css">
+<link rel="stylesheet" href="assets/ui/files/fragment.css">
+<link rel="stylesheet" href="assets/ui/notify/fragment.css">
+<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+<script src="assets/backgrounds/backgrounds.js"></script>
+<script>document.documentElement.classList.add('mo-js');setTimeout(()=>document.documentElement.classList.add('mo-safe'),2500)</script>
+<link rel="modulepreload" href="assets/moments/moments.js">
+<link rel="modulepreload" href="assets/moments/lib.js">
+<link rel="modulepreload" href="assets/moments/line-carries-colour/moment.js">
+<style>
+/* the brief's 15 interface languages: the dealt face first, then system faces that hold Burmese, Thai,
+   Devanagari, Arabic and CJK, so no script falls back to boxes */
+:root {
+  --font-scripts: "Noto Sans", "Noto Sans Myanmar", "Myanmar Sangam MN", "Myanmar MN", "Noto Sans Thai", "Thonburi",
+    "Noto Sans Devanagari", "Kohinoor Devanagari", "Noto Sans Arabic", "Geeza Pro", "Noto Sans SC", "PingFang SC",
+    "Hiragino Sans", "Noto Sans JP", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Microsoft YaHei";
+  --font-display: "Reddit Sans", var(--font-scripts), system-ui, sans-serif;
+  --font-text: "Reddit Sans", var(--font-scripts), system-ui, sans-serif;
+}
+/* Burmese and Thai stack marks above and below the line: open the leading so nothing clips */
+html:is([lang="my"], [lang="th"], [lang="hi"]) { line-height: 1.75; }
+html:is([lang="my"], [lang="th"], [lang="hi"]) :is(.ui, .d-win, .qs) { line-height: 1.5; }
+html:is([lang="my"], [lang="th"], [lang="hi"]) :is(h1, h2, h3, .t-card, .hero__lead, .btn, .nav__link) { line-height: 1.45; letter-spacing: 0; }
+html[lang="my"] h1 { font-size: clamp(32px, 4.2vw, 58px); }
+html[lang="my"] h2 { font-size: clamp(26px, 2.9vw, 40px); }
+html:is([lang="my"], [lang="th"], [lang="hi"], [lang="ar"]) .btn:not(.btn--xl) { height: auto; min-height: var(--btn-h); padding-block: 6px; }
+html:is([lang="zh"], [lang="ja"], [lang="ko"]) :is(h1, h2) { letter-spacing: 0; }
+html[dir="rtl"] .m-arrow { transform: scaleX(-1); }
+html[dir="rtl"] [data-i18n] { unicode-bidi: plaintext; }
+
+/* the language picker: a globe and the native name, in the bar on every width */
+.lang { position: relative; display: inline-flex; align-items: center; gap: 6px; height: 44px; padding-inline: 10px; border-radius: var(--r-btn); color: var(--ink); }
+.lang svg { width: 18px; height: 18px; flex: none; }
+.lang select { appearance: none; -webkit-appearance: none; border: 0; background: transparent; color: inherit; font: 500 15px/1 var(--font-text); height: 44px; padding-inline-end: 14px; cursor: pointer; field-sizing: content; max-width: 150px; }
+.lang::after { content: ""; position: absolute; inset-inline-end: 10px; top: 50%; width: 6px; height: 6px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-70%) rotate(45deg); pointer-events: none; }
+.lang:hover { background: var(--g-alt, #f2f2f2); }
+.hero__window .d-win :focus-visible { outline-color: #ffffff; }
+@media (max-width: 1023px) {
+  .nav:not(.is-open) .nav__actions > .lang { display: inline-flex; }
+  :root:has(> body > nav.actionbar) .nav:not(.is-open) .nav__actions { display: flex; margin-left: auto; }
+  :root:has(> body > nav.actionbar) .nav:not(.is-open) .nav__actions > .btn { display: none; }
+  .nav:not(.is-open) .nav__actions + .nav__toggle { margin-inline-start: 0; }
+}
+
+/* hero: the planning chat inside the studio, on the painted ground */
+.hero__window { background:
+  radial-gradient(120% 60% at 70% 118%, #6f7f3a 0 40%, transparent 41%),
+  radial-gradient(90% 50% at 10% 108%, #57703f 0 42%, transparent 43%),
+  radial-gradient(80% 40% at 60% 92%, #9fb2c4 0 40%, transparent 41%),
+  linear-gradient(#5f93cc, #a9c7e4 70%, #c8d6dd); }
+.d-win--dark .d-win__body { grid-template-columns: 250px 1fr; min-height: 420px; }
+.d-win--dark .d-win__bar b { color: #eceef0; font-weight: 500; } .d-win--dark .d-win__bar .sp { flex: 1; }
+.hero__window .d-chat { padding: 14px 18px; gap: 8px; }
+.hero__window .d-msg--me small { display: none; }
+.hero__window .d-msg--bot { max-width: 86%; }
+.hero__window .d-msg--bot small { display: inline; margin: 0 0 0 8px; white-space: nowrap; }
+@media (max-width: 639px) { .hero__window .d-win__bar .sp ~ span { display: none; } .hero__window .d-win__body { grid-template-columns: 1fr; } .hero__window .inbox { display: none; } }
+.inbox { border-inline-end: 1px solid rgb(255 255 255 / .07); padding: 10px; display: grid; align-content: start; gap: 2px; }
+.inbox .q { height: 34px; margin-bottom: 6px; border-radius: 9px; background: rgb(255 255 255 / .06); display: flex; align-items: center; padding: 0 10px; color: #8d9399; font-size: 13px; }
+.inbox .t { display: grid; grid-template-columns: 44px 1fr; gap: 1px 10px; padding: 8px; border-radius: 9px; font-size: 13px; }
+.inbox .t.is-on { background: rgb(255 255 255 / .07); }
+.inbox .t img { grid-row: 1 / span 2; width: 44px; height: 25px; border-radius: 4px; object-fit: cover; align-self: center; }
+.inbox .t b { font-weight: 500; color: #eceef0; }
+.inbox .t span { color: #8d9399; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.convo { display: grid; min-width: 0; align-content: start; }
+.d-msg--bot { background: #22262b; color: #e9ecee; }
+.acts { display: flex; gap: 8px; flex-wrap: wrap; } .acts span { height: 30px; padding: 0 12px; border-radius: 99px; display: inline-flex; align-items: center; font-size: 13px; font-weight: 500; background: #f2f2f0; color: #0c0d0f; }
+.acts span + span { background: rgb(255 255 255 / .08); color: #e9ecee; }
+
+.hero--centred .pill span { white-space: nowrap; }
+.hero--centred .hero__lead { color: var(--ink); }
+@media (max-width: 639px) { .hero--centred .pill .muted { display: none; } }
+
+/* the style wall: 24 real stills from the library, line to line */
+.wall { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 2px; margin-top: var(--s-7); border-radius: var(--r-lg); overflow: hidden; }
+.wall > img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+@media (min-width: 640px) and (max-width: 1023px) { .wall { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 639px) { .wall { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: var(--s-6); } .wall > img:nth-child(n + 11) { display: none; } .wall > img { aspect-ratio: 3 / 2; } html:is([lang="my"], [lang="th"], [lang="hi"]) .wall > img:nth-child(n + 9) { display: none; } }
+
+/* app-frame (sections-library.md, app-frame) */
+.app.ui { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); margin-top: var(--s-7); background: var(--u-bg); border: 1px solid var(--u-border); border-radius: var(--u-r); box-shadow: var(--u-shadow); }
+.app > .app__pane { position: relative; min-width: 0; min-height: 0; overflow: hidden; }
+.app > .app__pane + .app__pane { border-inline-start: 1px solid var(--u-line); }
+.app > .app__pane > .ui-panel { width: 100%; border: 0; border-radius: 0; box-shadow: none; }
+.app > .app__pane::after { content: ""; position: absolute; inset: auto 0 0 0; height: 64px; background: linear-gradient(transparent, var(--u-bg)); pointer-events: none; }
+@media (min-width: 1024px) and (max-width: 1279px) { .app.ui { grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); } }
+@media (max-width: 1023px) {
+  .app.ui { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); }
+  .app > .app__pane--list { max-height: 252px; }
+  .app > .app__pane--list::after { display: none; }
+  .app .ui-win__side { display: none; }
+  .app .ui-win__body { grid-template-columns: minmax(0, 1fr); }
+  .app > .app__pane + .app__pane { border-inline-start: 0; border-top: 1px solid var(--u-line); }
+}
+@media (max-width: 639px) {
+  .app.ui { grid-template-rows: minmax(0, 1fr); }
+  .app > .app__pane--list { display: none; }
+  .app > .app__pane + .app__pane { border-top: 0; }
+}
+.ui-win__row img { width: 40px; height: 23px; border-radius: 4px; object-fit: cover; }
+/* the open film: its progress bar and six stages above the planning chat */
+.stages { padding: 14px 18px 12px; border-bottom: 1px solid var(--u-line); display: grid; gap: 10px; font-size: 13px; }
+.stages__head { display: flex; justify-content: space-between; gap: 12px; color: var(--u-ink, #16181a); font-weight: 500; }
+.stages__head span:last-child { color: var(--u-muted, #5d6268); font-weight: 400; font-variant-numeric: tabular-nums; }
+.stages__bar { height: 6px; border-radius: 99px; background: rgb(0 0 0 / .07); overflow: hidden; }
+.stages__bar i { display: block; height: 100%; width: 58%; background: var(--p-accent); border-radius: inherit; }
+.stages ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px 14px; color: var(--u-muted, #5d6268); }
+.stages li { display: flex; align-items: center; gap: 7px; }
+.stages li::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid currentColor; }
+.stages li.is-done::before { background: currentColor; }
+.stages li.is-now { color: var(--u-ink, #16181a); font-weight: 500; }
+.stages li.is-now::before { border-color: var(--p-accent); background: var(--p-accent); box-shadow: 0 0 0 3px rgb(217 43 33 / .18); }
+@media (max-width: 639px) { .stages ol { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* features: four cards on the dark band */
+#features .panel { --p-h: 336px; }
+.report, .langs { background: #fff; color: #16181a; border-radius: 14px; box-shadow: 0 1px 0 rgb(0 0 0 / .04), 0 18px 40px -18px rgb(0 0 0 / .35); font-size: 13px; }
+.report { padding: 14px 16px; display: grid; gap: 10px; }
+.report__head { display: flex; align-items: center; gap: 8px; font-weight: 500; font-size: 14px; }
+.report__head img { width: 22px; height: 22px; }
+.report__head span { margin-inline-start: auto; color: #5d6268; font-weight: 400; }
+.report__row { display: grid; gap: 6px; padding-top: 10px; border-top: 1px solid rgb(0 0 0 / .07); }
+.report__row b { font-weight: 500; font-size: 14px; }
+.report__row p { margin: 0; color: #4b5056; font-size: 13px; line-height: 1.45; }
+.report__chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.report__chips span { height: 24px; padding: 0 9px; border-radius: 99px; background: #f1f2f3; display: inline-flex; align-items: center; font-size: 12.5px; }
+.langs { padding: 12px; display: grid; align-content: start; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.langs span { height: 60px; border-radius: 9px; background: #f4f5f6; display: flex; align-items: center; justify-content: center; font: 500 14px/1 var(--font-text); white-space: nowrap; }
+.langs span.is-on { background: #16181a; color: #fff; }
+
+/* the FAQ's still: one style poster under the heading, down to the section's foot */
+#faq .grid > .span-5 { align-self: stretch; display: flex; flex-direction: column; }
+#faq .frame { margin-top: var(--s-6); flex: 1 1 0; min-height: 240px; height: auto; }
+@media (max-width: 1023px) { #faq .frame { flex: none; aspect-ratio: 21 / 9; min-height: 0; } }
+@media (max-width: 639px) { #faq .frame { aspect-ratio: 1 / 1; } }
+@media (max-width: 359px) { #faq .frame { aspect-ratio: 16 / 9; } }
+
+/* quick start: the four commands in a terminal on the lit ground */
+#start .frame { align-items: stretch; }
+#start .frame > .qs { flex: 1 1 auto; align-self: stretch; display: flex; flex-direction: column; }
+#start .qs pre { flex: 1; }
+#start h2 + .t-lead { margin-top: var(--s-5); }
+.qs { background: #16181a; color: #e9ecee; border-radius: 14px; box-shadow: 0 30px 70px -30px rgb(0 0 0 / .55); overflow: hidden; }
+.qs__bar { display: flex; align-items: center; gap: 10px; height: 38px; padding: 0 14px; border-bottom: 1px solid rgb(255 255 255 / .08); font-size: 13px; color: #9aa0a6; }
+.qs__bar i { width: 10px; height: 10px; border-radius: 50%; background: #3a3e43; }
+.qs pre { margin: 0; padding: 18px 18px 22px; font: 400 13.5px/1.9 var(--font-mono); white-space: pre-wrap; overflow-wrap: anywhere; text-align: left; }
+.qs pre .p { color: #ff6b5e; user-select: none; }
+.qs pre .caret { display: inline-block; width: 8px; height: 16px; vertical-align: -3px; background: #e9ecee; }
+.needs { list-style: none; margin: var(--s-5) 0 0; padding: 0; display: grid; gap: var(--s-3); }
+.needs li { padding-top: var(--s-3); border-top: 1px solid var(--line, rgb(0 0 0 / .12)); }
+.needs__icons { display: flex; gap: var(--s-4); margin-top: var(--s-6); }
+.needs__icons img { width: 40px; height: 40px; }
+@media (max-width: 639px) { .report__row:nth-child(n + 3) { display: none; } #features .panel { --p-h: 220px; } #features .card > p { display: none; } }
+@media (max-width: 1023px) { #start .frame.frame--fill { height: auto; flex: none; } }
+@media (max-width: 639px) { .qs pre { font-size: 12px; padding: 12px 14px; } #start .t-lead, #start .needs__icons { display: none; } #start .frame { padding: var(--s-3); } }
+</style>
+</head>
+<body>
+<!-- type: software (open-source AI film studio; site-kind software)
+     deal: hero centred, nav nav-centre, close close-type, footer footer-dark, rhythm dark-band, buttons solid, mark wordmark,
+           palette white-signal-red (a white screening wall and the red of a record light: the stills carry every other colour),
+           type reddit (Reddit Sans + JetBrains Mono, with system fallbacks for the 15 interface scripts), radius soft, ground sky
+     effect: painterly-landscape in the hero window's frame
+     moments: line-carries-colour (#features, the dark band)
+     plan: hero (the planning chat, object) · styles (24 real stills, world) · studio (app-frame: films beside the open film's
+           stages and chat, object) · features g2 (cards: projects, files, Google Flow pictures, languages) · start (split: four commands) ·
+           faq · footer.closing -->
+<header class="nav nav--centre">
+  <div class="wrap nav__bar">
+    <a class="skip-link" href="#top" data-i18n="nav.skip">Skip to content</a>
+    <a class="nav__logo" href="#top">OctopusVidGen</a>
+    <nav class="nav__links" aria-label="Main" data-i18n-attr="aria-label:nav.main">
+      <div class="nav__item">
+        <a class="nav__link" href="#styles"><span data-i18n="nav.styles">Styles</span> <svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <div class="nav__menu">
+          <div class="wrap grid">
+            <div class="menu-col span-3">
+              <p class="t-label" data-i18n="menu.make">Make a film</p>
+              <a href="#styles"><span data-i18n="menu.styles">Film styles</span><span data-i18n="menu.stylesSub">123 looks to start from</span></a>
+              <a href="#studio"><span data-i18n="menu.studio">The studio</span><span data-i18n="menu.studioSub">Plan, watch and change</span></a>
+              <a href="#features"><span data-i18n="menu.features">Projects and files</span><span data-i18n="menu.featuresSub">Episodes, your files, 15 languages</span></a>
+            </div>
+            <div class="menu-col span-3">
+              <p class="t-label" data-i18n="menu.run">Run it</p>
+              <a href="#start"><span data-i18n="menu.start">Quick start</span><span data-i18n="menu.startSub">Four commands</span></a>
+              <a href="#faq"><span data-i18n="menu.faq">Questions</span><span data-i18n="menu.faqSub">Cost, licences, lengths</span></a>
+            </div>
+            <a class="menu-card span-3 start-10" href="#styles">
+              <div class="panel"><img class="frame__img" width="640" height="360" src="img/styles/art-deco.jpg" alt="A gold Art Deco title card" data-i18n-attr="alt:alt.artDeco" loading="lazy"></div>
+              <span class="t-card" data-i18n="menu.cardTitle">Art Deco to pixel RPG</span>
+              <span class="t-small muted" data-i18n="menu.cardSub">Every style draws in code</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="nav__item"><a class="nav__link" href="#studio" data-i18n="nav.studio">Studio</a></div>
+      <div class="nav__item"><a class="nav__link" href="#features" data-i18n="nav.features">Features</a></div>
+      <div class="nav__item"><a class="nav__link" href="#start" data-i18n="nav.install">Install</a></div>
+      <div class="nav__item"><a class="nav__link" href="#faq" data-i18n="nav.faq">Questions</a></div>
+    </nav>
+    <div class="nav__actions">
+      <label class="lang" title="Language" data-i18n-attr="title:nav.lang">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2.5 10h15M10 2.5c2.2 2.1 3.2 4.6 3.2 7.5S12.2 15.4 10 17.5M10 2.5C7.8 4.6 6.8 7.1 6.8 10s1 5.4 3.2 7.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        <span class="sr-only" data-i18n="nav.lang">Language</span>
+        <select id="lang-picker" data-lang-picker>
+          <option value="en">English</option>
+          <option value="zh">中文</option>
+          <option value="my">မြန်မာ</option>
+          <option value="th">ไทย</option>
+          <option value="es">Español</option>
+          <option value="hi">हिन्दी</option>
+          <option value="ar">العربية</option>
+          <option value="pt">Português</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="ru">Русский</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="vi">Tiếng Việt</option>
+          <option value="id">Bahasa Indonesia</option>
+        </select>
+      </label>
+      <a class="btn btn--primary" href="https://github.com/MicroLand-Rkar/octopusvidgen" data-repo-link data-i18n="cta.github">Get it on GitHub</a>
+    </div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-label="Menu" data-i18n-attr="aria-label:nav.menu">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero hero--centred" data-enter aria-labelledby="hero-h">
+    <div class="wrap"><div class="hero-text">
+      <div class="hero__c">
+        <a class="pill" href="#start"><span data-i18n="hero.pill">Free and open source</span><span class="muted" data-i18n="hero.pillSub">Runs on your own computer</span></a>
+        <h1 id="hero-h" data-i18n="hero.h1">AI film studio with 123 styles</h1>
+        <p class="hero__lead" data-i18n="hero.lead">Pick a style, plan the film with Claude in your own language, and get back an MP4 that Claude wrote, drew in code, voiced and scored. No account, no sign-up.</p>
+        <div class="btn-row"><a class="btn btn--primary" href="https://github.com/MicroLand-Rkar/octopusvidgen" data-repo-link><span data-i18n="cta.github">Get it on GitHub</span><svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a><a class="btn btn--secondary" href="/app/" data-i18n="cta.studio">Open the studio</a></div>
+      </div>
+      <div class="hero__window" data-fx="painterly-landscape" data-fx-seed="11" role="img" aria-label="The studio's planning chat: Claude reads the Watercolor Brush style and asks who should narrate the film" data-i18n-attr="aria-label:hero.windowLabel">
+        <div class="ly-piece d-win d-win--dark" aria-hidden="true">
+          <div class="d-win__bar"><span class="d-win__dots"><i></i><i></i><i></i></span><span><b data-i18n="hero.winTitle">Coffee farm</b> · <span data-i18n="hero.winEp">Episode 3</span></span><span class="sp"></span><span data-i18n="hero.winStyle">Watercolor Brush</span></div>
+          <div class="d-win__body">
+            <div class="inbox">
+              <div class="q" data-i18n="hero.inboxSearch">Search films</div>
+              <div class="t is-on"><img src="img/styles/thumb/watercolor.jpg" alt="" width="128" height="72" loading="lazy"><b data-i18n="hero.film1">Episode 3: The harvest</b><span data-i18n="hero.film1s">Planning · 45 s · 9:16</span></div>
+              <div class="t"><img src="img/styles/thumb/watercolor.jpg" alt="" width="128" height="72" loading="lazy"><b data-i18n="hero.film2">Episode 2: The roaster</b><span data-i18n="hero.film2s">Ready · 60 s · 9:16</span></div>
+              <div class="t"><img src="img/styles/thumb/chalkboard.jpg" alt="" width="128" height="72" loading="lazy"><b data-i18n="hero.film3">How a coffee cherry ripens</b><span data-i18n="hero.film3s">Ready · 90 s · 16:9</span></div>
+            </div>
+            <div class="convo">
+              <div class="d-chat" data-ly-steps="900">
+                <div class="d-msg d-msg--me"><span data-i18n="hero.msgMe">A 45-second film for Instagram about our coffee, from the seed to the cup.</span><small>10:42</small></div>
+                <div class="d-tool" data-step data-i18n="hero.tool">Reading the Watercolor Brush style</div>
+                <div class="d-msg d-msg--bot" data-step><span data-i18n="hero.msgBot">Then 9:16, vertical. Who should narrate: a warm synthetic voice, or your own recording? And in English or Burmese?</span><small data-i18n="hero.msgBotMeta">Claude · asking</small></div>
+                <div class="acts" data-step><span data-i18n="hero.act1">My recording, Burmese</span><span data-i18n="hero.act2">You choose</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="section" id="styles" aria-labelledby="styles-h">
+    <div class="wrap">
+      <div class="section-head"><h2 id="styles-h"><span data-i18n="styles.h">123 film styles to start from.</span> <span class="muted" data-i18n="styles.hm">From watercolour to pixel RPG.</span></h2></div>
+      <div class="wall">
+        <img loading="lazy" width="360" height="203" src="img/styles/ukiyoe.jpg" alt="Ukiyo-e: a woodblock wave in front of a mountain" data-i18n-attr="alt:alt.ukiyoe" data-source="library" data-subject="Ukiyo-e style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/neon-tubes.jpg" alt="Neon Tubes: a glowing cat on a night sign" data-i18n-attr="alt:alt.neon" data-source="library" data-subject="Neon Tubes style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/watercolor.jpg" alt="Watercolor Brush: a painted rainforest in the rain" data-i18n-attr="alt:alt.watercolor" data-source="library" data-subject="Watercolor Brush style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/pixel-rpg.jpg" alt="16-bit Pixel RPG: a hero at a glowing save point" data-i18n-attr="alt:alt.pixel" data-source="library" data-subject="Pixel RPG style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/ink-wash.jpg" alt="Chinese Ink Wash: a swordsman by a misty river" data-i18n-attr="alt:alt.inkwash" data-source="library" data-subject="Ink wash style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/pop-art.jpg" alt="Pop Art: rows of bright bananas" data-i18n-attr="alt:alt.popart" data-source="library" data-subject="Pop Art style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/chalkboard.jpg" alt="Chalkboard: chalk drawings on a green board" data-i18n-attr="alt:alt.chalk" data-source="library" data-subject="Chalkboard style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/cel-anime-80s.jpg" alt="80s Cel Anime: a pink neon title over a city" data-i18n-attr="alt:alt.anime" data-source="library" data-subject="Cel anime style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/ad-embroidery.jpg" alt="Hand Embroidery: a stitched wreath with a bee" data-i18n-attr="alt:alt.embroidery" data-source="library" data-subject="Embroidery style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/satellite-briefing.jpg" alt="Satellite Briefing: a dry sea bed marked on a map" data-i18n-attr="alt:alt.satellite" data-source="library" data-subject="Satellite Briefing style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/risograph.jpg" alt="Risograph Print: a cyclist under a pink sun" data-i18n-attr="alt:alt.riso" data-source="library" data-subject="Risograph style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/line-art-ink.jpg" alt="Line-Art Ink Scene: a street of shops drawn in thin lines" data-i18n-attr="alt:alt.lineart" data-source="library" data-subject="Line-art style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/papercut-red.jpg" alt="Red Paper-cut: lanterns over a snowy village" data-i18n-attr="alt:alt.papercut" data-source="library" data-subject="Paper-cut style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/blueprint.jpg" alt="Blueprint: white technical lines on blue" data-i18n-attr="alt:alt.blueprint" data-source="library" data-subject="Blueprint style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/manga-panels.jpg" alt="Manga Panels: a girl with a red camera" data-i18n-attr="alt:alt.manga" data-source="library" data-subject="Manga style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/lowpoly-island.jpg" alt="Low-poly Isometric Island at night" data-i18n-attr="alt:alt.lowpoly" data-source="library" data-subject="Low-poly style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/engraving.jpg" alt="Copperplate Engraving: a honeybee plate" data-i18n-attr="alt:alt.engraving" data-source="library" data-subject="Engraving style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/ascii-crt.jpg" alt="CRT ASCII Terminal: a picture made of green letters" data-i18n-attr="alt:alt.ascii" data-source="library" data-subject="ASCII style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/silkscreen-poster.jpg" alt="Silkscreen Travel Poster of a temple at dusk" data-i18n-attr="alt:alt.silkscreen" data-source="library" data-subject="Silkscreen style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/shadow-puppet.jpg" alt="Shadow Puppetry: an archer on a lit screen" data-i18n-attr="alt:alt.shadow" data-source="library" data-subject="Shadow puppet style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/logo-reveal.jpg" alt="Logo Reveal: a rainbow mark drawing itself" data-i18n-attr="alt:alt.logo" data-source="library" data-subject="Logo reveal style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/crayon-book.jpg" alt="Crayon Picture Book: a girl singing to the moon" data-i18n-attr="alt:alt.crayon" data-source="library" data-subject="Crayon style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/circuit-board.jpg" alt="Circuit Board: light running along green traces" data-i18n-attr="alt:alt.circuit" data-source="library" data-subject="Circuit board style still">
+        <img loading="lazy" width="360" height="203" src="img/styles/hologram-hud.jpg" alt="Sci-fi Hologram HUD: a glowing bicycle wireframe" data-i18n-attr="alt:alt.hud" data-source="library" data-subject="Hologram style still">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="studio" aria-labelledby="studio-h">
+    <div class="wrap">
+      <div class="grid">
+        <h2 class="span-5" id="studio-h" data-i18n="studio.h">Watch your film being made</h2>
+        <div class="span-6 start-7">
+          <p data-i18n="studio.p">A progress bar walks through the stages while Claude works. It may stop to ask you something: answer in the chat, or ask for changes once the MP4 is done.</p>
+          <a class="link" href="/app/" data-i18n="studio.link">Open the studio</a>
+        </div>
+      </div>
+      <div class="ui app fill" role="img" aria-label="The studio: films in a project on the left; the open film's progress bar, stages and chat with Claude on the right" data-i18n-attr="aria-label:studio.frameLabel" data-ui-pause-host>
+        <div class="app__pane app__pane--list">
+          <div class="ui ui-panel ui-win" data-ui="window" data-open="Planning" data-work="Making" data-done="Ready" data-i18n-attr="data-open:studio.stPlanning;data-work:studio.stMaking;data-done:studio.stReady">
+            <div class="ui-win__bar">
+              <span class="ui-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="ui-win__crumb"><span data-i18n="studio.crumbProjects">Projects</span> <i>/</i> <b data-i18n="hero.winTitle">Coffee farm</b></span>
+              <span class="ui-spacer"></span>
+              <span class="ui-win__search" aria-hidden="true"><svg class="ui-icon" viewBox="0 0 16 16"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3"/></svg><span class="ui-win__ph" data-i18n="studio.search">Search</span><span class="ui-kbd">/</span></span>
+            </div>
+            <div class="ui-win__body">
+              <nav class="ui-win__side" aria-hidden="true">
+                <span class="ui-win__nav is-on"><svg class="ui-icon" viewBox="0 0 16 16"><rect x="2.5" y="3.5" width="11" height="9" rx="1.5"/><path d="m7 6.5 2.5 1.5L7 9.5z"/></svg><span data-i18n="studio.navFilms">Films</span><em>9</em></span>
+                <span class="ui-win__nav"><svg class="ui-icon" viewBox="0 0 16 16"><path d="M2.5 4.5h4l1.5 1.5h5.5v6.5h-11z"/></svg><span data-i18n="studio.navProjects">Projects</span><em>3</em></span>
+                <span class="ui-win__label" data-i18n="studio.navStyles">Styles</span>
+                <span class="ui-win__nav"><span class="ui-win__hash">#</span><span data-i18n="hero.winStyle">Watercolor Brush</span></span>
+                <span class="ui-win__nav"><span class="ui-win__hash">#</span><span data-i18n="studio.styleChalk">Chalkboard</span></span>
+              </nav>
+              <div class="ui-win__main">
+                <div class="ui-win__cols" aria-hidden="true"><span data-i18n="studio.colStyle">Style</span><span data-i18n="studio.colFilm">Film</span><span data-i18n="studio.colStatus">Status</span><span data-i18n="studio.colAge">Age</span></div>
+                <ul class="ui-win__rows">
+                  <li class="ui-win__row" data-row><img class="ui-avatar" src="img/styles/thumb/watercolor.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-win__who" data-i18n="studio.r1">The harvest</span><span class="ui-win__sub" data-i18n="studio.r1s">Watercolor Brush · 45 s · 9:16</span><span class="ui-win__st" data-st data-i18n="studio.stMaking">Making</span><span class="ui-win__age">2m</span></li>
+                  <li class="ui-win__row" data-row><img class="ui-avatar" src="img/styles/thumb/watercolor.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-win__who" data-i18n="studio.r2">The roaster</span><span class="ui-win__sub" data-i18n="studio.r2s">Watercolor Brush · 60 s · 9:16</span><span class="ui-win__st is-done" data-st data-i18n="studio.stReady">Ready</span><span class="ui-win__age">1d</span></li>
+                  <li class="ui-win__row" data-row><img class="ui-avatar" src="img/styles/thumb/watercolor.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-win__who" data-i18n="studio.r3">Seed to seedling</span><span class="ui-win__sub" data-i18n="studio.r3s">Watercolor Brush · 45 s · 9:16</span><span class="ui-win__st is-done" data-st data-i18n="studio.stReady">Ready</span><span class="ui-win__age">2d</span></li>
+                  <li class="ui-win__row" data-row><img class="ui-avatar" src="img/styles/thumb/chalkboard.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-win__who" data-i18n="studio.r4">How a cherry ripens</span><span class="ui-win__sub" data-i18n="studio.r4s">Chalkboard · 90 s · 16:9</span><span class="ui-win__st is-done" data-st data-i18n="studio.stReady">Ready</span><span class="ui-win__age">3d</span></li>
+                  <li class="ui-win__row" data-row><img class="ui-avatar" src="img/styles/thumb/satellite-briefing.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-win__who" data-i18n="studio.r5">Where the river ran</span><span class="ui-win__sub" data-i18n="studio.r5s">Satellite Briefing · 75 s · 16:9</span><span class="ui-win__st is-done" data-st data-i18n="studio.stReady">Ready</span><span class="ui-win__age">4d</span></li>
+                  <li class="ui-win__row" data-row><img class="ui-avatar" src="img/styles/thumb/pixel-rpg.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-win__who" data-i18n="studio.r6">Our shop's birthday</span><span class="ui-win__sub" data-i18n="studio.r6s">16-bit Pixel RPG · 30 s · 1:1</span><span class="ui-win__st is-done" data-st data-i18n="studio.stReady">Ready</span><span class="ui-win__age">5d</span></li>
+                  <li class="ui-win__row" data-row><img class="ui-avatar" src="img/styles/thumb/logo-reveal.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-win__who" data-i18n="studio.r7">Logo intro</span><span class="ui-win__sub" data-i18n="studio.r7s">Logo Reveal · 15 s · 16:9</span><span class="ui-win__st is-done" data-st data-i18n="studio.stReady">Ready</span><span class="ui-win__age">6d</span></li>
+                  <li class="ui-win__row" data-row><img class="ui-avatar" src="img/styles/thumb/crayon-book.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-win__who" data-i18n="studio.r8">Bedtime story</span><span class="ui-win__sub" data-i18n="studio.r8s">Crayon Picture Book · 120 s · 16:9</span><span class="ui-win__st is-done" data-st data-i18n="studio.stReady">Ready</span><span class="ui-win__age">1w</span></li>
+                  <li class="ui-win__row" data-row><img class="ui-avatar" src="img/styles/thumb/neon-tubes.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-win__who" data-i18n="studio.r9">Night market</span><span class="ui-win__sub" data-i18n="studio.r9s">Neon Tubes · 20 s · 4:5</span><span class="ui-win__st is-done" data-st data-i18n="studio.stReady">Ready</span><span class="ui-win__age">2w</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app__pane app__pane--open" data-ui-loop>
+          <div class="ui ui-panel ui-chat" data-ui="chat">
+            <div class="ui-head">
+              <span class="ui-agent" aria-hidden="true"></span>
+              <div class="ui-title" data-i18n="studio.openTitle">The harvest · Watercolor Brush</div>
+              <span class="ui-chat__online" data-i18n="studio.working">Working</span>
+              <span class="ui-spacer"></span>
+            </div>
+            <div class="stages">
+              <div class="stages__head"><span data-i18n="studio.progress">Progress</span><span data-i18n="studio.elapsed">58% · 9 min elapsed</span></div>
+              <div class="stages__bar"><i></i></div>
+              <ol>
+                <li class="is-done" data-i18n="stage.read">Study the style</li>
+                <li class="is-done" data-i18n="stage.plan">Plan the script</li>
+                <li class="is-done" data-i18n="stage.images">Make images</li>
+                <li class="is-now" data-i18n="stage.build">Build visuals, motion and sound</li>
+                <li data-i18n="stage.render">Render and check</li>
+                <li data-i18n="stage.finish">Export the video</li>
+              </ol>
+            </div>
+            <div class="ui-chat__body">
+              <div class="ui-chat__day" data-i18n="studio.chatDay">Chat with Claude</div>
+              <div class="ui-msg ui-msg--me" data-chat-q>
+                <span class="ui-msg__text" data-i18n="studio.q">Can the last shot end on the farm's name, in brush lettering?</span>
+              </div>
+              <div class="ui-msg ui-msg--bot" data-chat-a>
+                <span class="ui-agent ui-msg__av" aria-hidden="true"></span>
+                <span class="ui-msg__col">
+                  <span class="ui-chat__answer" data-i18n="studio.a">Yes, it's in the plan for scene 6. One question while I draw scene 2: should the rain on the coffee trees be light or heavy?</span>
+                </span>
+              </div>
+              <div class="ui-msg ui-msg--me">
+                <span class="ui-msg__text" data-i18n="studio.reply">Light, like early morning.</span>
+              </div>
+            </div>
+            <div class="ui-chat__input">
+              <span class="ui-chat__ph" data-i18n="studio.ph">Send Claude a note</span>
+              <span class="ui-chat__send" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M8 13V3.5M3.8 7.5 8 3.3l4.2 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section g2 ground-inverse" id="features" data-moment="line-carries-colour" data-moment-opts='{"from": "base"}' aria-labelledby="features-h">
+    <div class="wrap">
+      <div class="group">
+        <div class="section-head">
+          <h2 id="features-h"><span data-i18n="features.h">More than one film at a time.</span> <span class="muted" data-i18n="features.hm">Series, your own files, pictures and your language.</span></h2>
+        </div>
+        <div class="grid">
+          <article class="card card--row card--open span-6">
+            <h3 data-i18n="features.c1">Film series with one cast</h3>
+            <p data-i18n="features.c1p">A project is a folder of episodes. Characters and assets made for the first film come back in the next one.</p>
+            <div class="panel">
+              <div class="stage stage--fade-b"><div class="at-rise fit" style="--fit-max:400px;--ax:max(24px, 50% - 200px);--ay:48px;--ay-sm:24px" data-ui-loop>
+                <div class="ui ui-notify" data-ui="notify">
+                  <ul class="ui-notify__list" data-notify-list>
+                    <li class="ui-note"><img class="ui-avatar ui-note__av" src="img/styles/thumb/watercolor.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-note__text"><span class="ui-note__title"><span data-i18n="features.n1">Episode 3 is planning</span><time data-i18n="features.now">now</time></span><span class="ui-note__body" data-i18n="features.n1b">Same cast: the grandfather and the cat</span></span></li>
+                    <li class="ui-note"><img class="ui-avatar ui-note__av" src="img/styles/thumb/watercolor.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-note__text"><span class="ui-note__title"><span data-i18n="features.n2">Episode 2 is ready</span><time>1d</time></span><span class="ui-note__body" data-i18n="features.n2b">Watercolor Brush · 60 s · MP4</span></span></li>
+                    <li class="ui-note"><img class="ui-avatar ui-note__av" src="img/styles/thumb/watercolor.jpg" alt="" width="128" height="72" loading="lazy"><span class="ui-note__text"><span class="ui-note__title"><span data-i18n="features.n3">Episode 1 is ready</span><time>2d</time></span><span class="ui-note__body" data-i18n="features.n3b">Watercolor Brush · 45 s · MP4</span></span></li>
+                  </ul>
+                </div>
+              </div></div>
+            </div>
+          </article>
+          <article class="card card--row card--open span-6">
+            <h3 data-i18n="features.c2">Your photos and voice in the film</h3>
+            <p data-i18n="features.c2p">Drag or paste files into the chat: photos, your logo, a voice recording, video clips, a song.</p>
+            <div class="panel">
+              <div class="stage stage--fade-br"><div class="at-corner wide" style="--w:680px">
+                <div class="ui ui-files" data-ui="files" data-reading="Reading {n} of {total}" data-i18n-attr="data-reading:features.reading">
+                  <div class="ui-files__status"><span class="ui-dot"></span><span data-files-status data-i18n="features.filesDone">6 files in the chat</span></div>
+                  <ul class="ui-files__grid">
+                    <li class="ui-file is-done"><span class="ui-file__icon"><img loading="lazy" data-icon="image" src="assets/icons/image.svg" width="40" height="40" alt=""></span><span class="ui-file__name">farm.jpg</span><span class="ui-file__kind" data-i18n="features.kPhoto">Photo</span><span class="ui-file__bar"><i></i></span><span class="ui-file__check"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4.5 8.2 2.3 2.3 4.7-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></li>
+                    <li class="ui-file is-done"><span class="ui-file__icon"><img loading="lazy" data-icon="svg" src="assets/icons/svg.svg" width="40" height="40" alt=""></span><span class="ui-file__name">logo.svg</span><span class="ui-file__kind" data-i18n="features.kLogo">Logo</span><span class="ui-file__bar"><i></i></span><span class="ui-file__check"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4.5 8.2 2.3 2.3 4.7-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></li>
+                    <li class="ui-file is-done"><span class="ui-file__icon"><img loading="lazy" data-icon="audio" src="assets/icons/audio.svg" width="40" height="40" alt=""></span><span class="ui-file__name">my-voice.m4a</span><span class="ui-file__kind" data-i18n="features.kVoice">Voice</span><span class="ui-file__bar"><i></i></span><span class="ui-file__check"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4.5 8.2 2.3 2.3 4.7-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></li>
+                    <li class="ui-file is-done"><span class="ui-file__icon"><img loading="lazy" data-icon="video" src="assets/icons/video.svg" width="40" height="40" alt=""></span><span class="ui-file__name">harvest.mp4</span><span class="ui-file__kind" data-i18n="features.kClip">Clip</span><span class="ui-file__bar"><i></i></span><span class="ui-file__check"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4.5 8.2 2.3 2.3 4.7-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></li>
+                    <li class="ui-file is-done"><span class="ui-file__icon"><img loading="lazy" data-icon="audio" src="assets/icons/audio.svg" width="40" height="40" alt=""></span><span class="ui-file__name">song.mp3</span><span class="ui-file__kind" data-i18n="features.kMusic">Music</span><span class="ui-file__bar"><i></i></span><span class="ui-file__check"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4.5 8.2 2.3 2.3 4.7-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></li>
+                    <li class="ui-file is-done"><span class="ui-file__icon"><img loading="lazy" data-icon="pdf" src="assets/icons/pdf.svg" width="40" height="40" alt=""></span><span class="ui-file__name">story.pdf</span><span class="ui-file__kind" data-i18n="features.kNotes">Notes</span><span class="ui-file__bar"><i></i></span><span class="ui-file__check"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4.5 8.2 2.3 2.3 4.7-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></li>
+                  </ul>
+                </div>
+              </div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="group">
+        <div class="grid">
+          <article class="card card--row card--open span-6">
+            <h3 data-i18n="features.c3">Film pictures from Google Flow</h3>
+            <p data-i18n="features.c3p">Optional: styles that need pictures make them with Google Flow, through Claude in Chrome. The rest draw everything in code.</p>
+            <div class="panel">
+              <div class="stage stage--fade-b"><div class="at-rise fit" style="--fit-max:400px;--ax:max(24px, 50% - 200px);--ay:48px;--ay-sm:24px">
+                <div class="ui report">
+                  <div class="report__head"><img loading="lazy" data-icon="google-chrome" src="assets/icons/google-chrome.svg" width="40" height="40" alt=""><span data-i18n="features.flowTitle">Make images with Flow AI</span><span data-i18n="features.flowCount">8 of 12</span></div>
+                  <div class="report__row"><b data-i18n="features.shot1">Shot 4: pickers on the slope at dawn</b><p data-i18n="features.shot1p">Made in Google Flow, checked against the style's rules.</p></div>
+                  <div class="report__row"><b data-i18n="features.shot2">Shot 5: cherries in the washing tank</b><p data-i18n="features.shot2p">Second try: the first one had the wrong light.</p></div>
+                  <div class="report__row"><b data-i18n="features.shot3">Shot 6: the roaster's drum</b><p data-i18n="features.shot3p">Waiting for Google Flow in Chrome.</p></div>
+                </div>
+              </div></div>
+            </div>
+          </article>
+          <article class="card card--row card--open span-6">
+            <h3 data-i18n="features.c4">A studio in 15 languages</h3>
+            <p data-i18n="features.c4p">The studio, the planning chat and the narration follow the language you pick, from Burmese to Portuguese.</p>
+            <div class="panel">
+              <div class="stage stage--fade-b"><div class="at-rise fit" style="--fit-max:400px;--ax:max(24px, 50% - 200px);--ay:48px;--ay-sm:24px">
+                <div class="ui langs" aria-hidden="true">
+                  <span>English</span><span>中文</span><span class="is-on">မြန်မာ</span><span>ไทย</span><span>Español</span><span>हिन्दी</span><span>العربية</span><span>Português</span><span>Français</span><span>Deutsch</span><span>Русский</span><span>日本語</span><span>한국어</span><span>Tiếng Việt</span><span>Indonesia</span>
+                </div>
+              </div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="start" aria-labelledby="start-h">
+    <div class="wrap">
+      <div class="grid grid--top fill">
+        <div class="span-5">
+          <h2 id="start-h" data-i18n="start.h">Run the studio in four commands</h2>
+          <p class="t-lead" data-i18n="start.p">OctopusVidGen uses your own Claude Code, so there is nothing to sign up for.</p>
+          <div class="needs__icons"><img loading="lazy" data-icon="claude" src="assets/icons/claude.svg" width="40" height="40" alt="Claude" data-i18n-attr="alt:start.iClaude"><img loading="lazy" data-icon="rust" src="assets/icons/rust.svg" width="40" height="40" alt="Rust" data-i18n-attr="alt:start.iRust"><img loading="lazy" data-icon="google-chrome" src="assets/icons/google-chrome.svg" width="40" height="40" alt="Chrome" data-i18n-attr="alt:start.iChrome"></div>
+          <ul class="needs">
+            <li><span data-i18n="start.n1">Claude Code, signed in with a Claude subscription or an API key.</span></li>
+            <li><span data-i18n="start.n2">Node.js and Rust to build the studio and run its server.</span></li>
+            <li><span data-i18n="start.n3">Optional: Claude in Chrome, so picture styles can make images with Google Flow.</span></li>
+          </ul>
+        </div>
+        <div class="frame frame--split frame--fill span-6 start-7">
+          <div class="qs ui" role="img" aria-label="Quick start commands" data-i18n-attr="aria-label:start.codeLabel">
+            <div class="qs__bar" aria-hidden="true"><i></i><i></i><i></i><span data-i18n="start.terminal">Terminal</span></div>
+<pre dir="ltr"><code><span class="p">$ </span>git clone <span data-repo-link>https://github.com/MicroLand-Rkar/octopusvidgen</span>
+<span class="p">$ </span>cd octopusvidgen/web/app &amp;&amp; npm install &amp;&amp; npm run build
+<span class="p">$ </span>cd ../../server &amp;&amp; cargo run --release
+<span class="p">$ </span>open http://127.0.0.1:8787
+<span class="p">$ </span><span class="caret"></span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq" style="--hm: 2" aria-labelledby="faq-h">
+    <div class="wrap">
+      <div class="grid grid--top fill">
+        <div class="span-5">
+          <h2 id="faq-h" data-i18n="faq.h">Questions</h2>
+          <p class="muted" data-i18n="faq.p">What people ask before their first film.</p>
+          <a class="link" href="https://github.com/MicroLand-Rkar/octopusvidgen/issues" data-repo-link data-i18n="faq.link">Ask on GitHub Issues</a>
+          <div class="frame frame--photo frame--fill"><img class="frame__img" width="960" height="540" src="img/styles/rubber-hose.jpg" alt="1930s Rubber Hose Cartoon: a coffee cup dancing in a kitchen" data-i18n-attr="alt:alt.rubberhose" loading="lazy" data-source="library" data-subject="Rubber hose style still"></div>
+        </div>
+        <div class="faq span-6 start-7">
+          <div class="faq__item"><h3 data-i18n="faq.q1">What does OctopusVidGen cost?</h3><p data-i18n="faq.a1">OctopusVidGen is free. Films run on your own Claude Code, so they count against your Claude plan or your API key.</p></div>
+          <div class="faq__item"><h3 data-i18n="faq.q2">Does the studio need an account?</h3><p data-i18n="faq.a2">No. There is no sign-up. The studio runs on your computer and keeps your films there.</p></div>
+          <div class="faq__item"><h3 data-i18n="faq.q3">Can I use the films for client work?</h3><p data-i18n="faq.a3">The films you make are yours. Some styles' rules are non-commercial: the Lemo-Opuscar style guides are CC BY-NC 4.0, and the onetake styles are for non-commercial use. Check a style before client work.</p></div>
+          <div class="faq__item"><h3 data-i18n="faq.q4">Which film lengths and sizes?</h3><p data-i18n="faq.a4">From 15 to 180 seconds, in 16:9, 9:16, 1:1 or 4:5.</p></div>
+          <div class="faq__item"><h3 data-i18n="faq.q5">How long does one film take to make?</h3><p data-i18n="faq.a5">Usually 10 to 20 minutes. Every frame is drawn and rendered on your computer.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer closing footer--dark ground-inverse" id="contact" aria-labelledby="close-h">
+  <div class="wrap">
+    <div class="closing__cta close--type">
+      <div class="section-head">
+        <h2 id="close-h" data-i18n="close.h">The whole studio, free on GitHub</h2>
+        <p data-i18n="close.p">Open source. No account. Your films stay on your computer.</p>
+      </div>
+      <a class="btn btn--primary btn--xl btn--wide" href="https://github.com/MicroLand-Rkar/octopusvidgen" data-repo-link><span data-i18n="cta.github">Get it on GitHub</span><svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a>
+    </div>
+    <div class="closing__links">
+      <div class="grid">
+        <div class="span-4 stack-4">
+          <a class="nav__logo" href="#top">OctopusVidGen</a>
+          <p class="footer__lede" data-i18n="footer.lede">An open-source film studio that runs on Claude Code.</p>
+        </div>
+        <div class="span-2 footer__col"><h3 data-i18n="footer.make">Make</h3><ul><li><a href="#styles" data-i18n="nav.styles">Styles</a></li><li><a href="#studio" data-i18n="nav.studio">Studio</a></li></ul></div>
+        <div class="span-2 footer__col"><h3 data-i18n="footer.more">More</h3><ul><li><a href="#features" data-i18n="nav.features">Features</a></li><li><a href="#faq" data-i18n="nav.faq">Questions</a></li></ul></div>
+        <div class="span-2 footer__col"><h3 data-i18n="footer.run">Run</h3><ul><li><a href="#start" data-i18n="nav.install">Install</a></li><li><a href="/app/" data-i18n="footer.local">Local studio</a></li></ul></div>
+        <div class="span-2 footer__col"><h3 data-i18n="footer.code">Code</h3><ul><li><a href="https://github.com/MicroLand-Rkar/octopusvidgen" data-repo-link data-i18n="footer.repo">Repository</a></li><li><a href="https://github.com/MicroLand-Rkar/octopusvidgen/issues" data-repo-link data-i18n="footer.issues">Issues</a></li></ul></div>
+      </div>
+      <div class="footer__legal">
+        <span>&copy; 2026 OctopusVidGen</span>
+        <div class="socials"></div>
+        <a class="credits" href="https://github.com/lemomo-ai/lemo-opuscar" data-i18n="footer.credits">Style stills: Lemo-Opuscar (CC BY 4.0), anidoodle (Apache 2.0), line-art-animation (MIT)</a>
+      </div>
+      <p class="t-small muted" data-i18n="footer.marks">Product names and logos are trademarks of their owners.</p>
+    </div>
+  </div>
+</footer>
+
+<nav class="actionbar" aria-label="Quick actions" data-i18n-attr="aria-label:nav.quick">
+  <a class="btn btn--primary" href="https://github.com/MicroLand-Rkar/octopusvidgen" data-repo-link data-i18n="cta.github">Get it on GitHub</a>
+</nav>
+
+<script src="i18n.js?v=3"></script>
+<script type="module" src="assets/system.js"></script>
+<script type="module" src="assets/motion/motion.js"></script>
+<script type="module" src="assets/layout/layout.js"></script>
+</body>
+</html>

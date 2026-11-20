@@ -1,0 +1,18 @@
+{
+  "slug": "ad-cut-paper",
+  "num": "117",
+  "en": "Cut-Paper Collage",
+  "cn": "撕纸拼贴",
+  "category_en": "anidoodle",
+  "film": "Cut-Paper Collage",
+  "line": "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.",
+  "uses": [
+    "Children's stories",
+    "Animals",
+    "Seasons"
+  ],
+  "dur": 30,
+  "needs": [],
+  "skill": "anidoodle",
+  "engine_style": "fox"
+}

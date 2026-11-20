@@ -1,0 +1,1214 @@
+{
+ "ui": {
+  "att.remove": "{name} を削除",
+  "att.tooBig": "500 MB を超えるため追加できません: {names}",
+  "att.trayLabel": "添付ファイル",
+  "board.addHint": "画像、クリップ、音声、音楽、ドキュメント",
+  "board.addRefs": "参考素材を追加",
+  "board.addStyle": "+ スタイルをブレンド",
+  "board.aspect": "アスペクト比",
+  "board.blendStyle": "ブレンド済み",
+  "board.chatTitle": "Claude と作品 {n} を計画する",
+  "board.close": "閉じる",
+  "board.delete": "削除",
+  "board.deleteConfirm": "{name} をこのプロジェクトから削除しますか？",
+  "board.deleteError": "ファイルを削除できませんでした",
+  "board.done": "完了（{n}）",
+  "board.download": "ダウンロード",
+  "board.dropHere": "ファイルをドロップしてこのプロジェクトに追加",
+  "board.emptyBody": "画像、クリップ、音声、音楽をここにドロップして、チャットで Claude と最初の作品を計画してください。",
+  "board.emptyTitle": "空のプロジェクト",
+  "board.filter.all": "すべて",
+  "board.filter.films": "作品",
+  "board.filter.made": "Claude が作成",
+  "board.filter.refs": "参考素材",
+  "board.filterLabel": "表示",
+  "board.helloNoStyle": "こんにちは。上でスタイルを選んで（または提案をタップして）、どんな作品にしたいか教えてください。作る前に、はっきりしない点があれば質問します。",
+  "board.hint": "+ で参考素材を選んで、チャットで次の作品を計画してください",
+  "board.inProject": "このプロジェクト内",
+  "board.length": "長さ",
+  "board.made": "Claude が作成",
+  "board.mainStyle": "メインスタイル",
+  "board.make": "動画を作成",
+  "board.makeError": "作品の作成を開始できませんでした",
+  "board.makeHint": "今すぐ作成（Ctrl/⌘ + Enter）",
+  "board.newChat": "新しいチャット",
+  "board.open": "{name} を開く",
+  "board.pick": "次の作品で使う",
+  "board.pickHint": "最初に選んだものがメインになり、ほかはブレンドされます。",
+  "board.pickStyle": "スタイルを選択",
+  "board.pickStyles": "スタイルを選択",
+  "board.picked": "次の作品で使用",
+  "board.pickedLabel": "次の作品の参考素材",
+  "board.placeholder": "作品 {n} の内容：何が起きるか、誰が出るか、雰囲気…",
+  "board.planFirst": "まずチャットで計画する →",
+  "board.promptLabel": "次の作品の内容",
+  "board.ref": "参考素材",
+  "board.removeStyle": "{name} を外す",
+  "board.replyPlaceholder": "Claude に返信…",
+  "board.searchStyles": "スタイルを検索",
+  "board.starting": "開始しています…",
+  "board.suggestAgain": "もう一度提案",
+  "board.suggested": "おすすめ",
+  "board.tooShort": "作品についてもう少し書いてください（10 文字以上）。",
+  "board.unpick": "使わない",
+  "board.unpickName": "{name} を使わない",
+  "board.uploadError": "ファイルを追加できませんでした",
+  "board.uploading": "{n} 件を追加しています…",
+  "board.usedBefore": "このプロジェクトで使用済み",
+  "board.voice": "ナレーションの言語",
+  "film.askHead": "Claude から質問があります — 回答すると作業が再開します",
+  "film.attach": "ファイルを添付",
+  "film.backSingle": "単発の動画",
+  "film.briefTitle": "Claude が作成した指示書",
+  "film.cancel": "停止",
+  "film.canceledNote": "この動画の制作は停止されました。",
+  "film.chatIdle": "メッセージを送ると、この動画の作業を続けます",
+  "film.chatLive": "動画を制作中です（もう一度ボタンを押す必要はありません）。Claude の作業の様子がここにリアルタイムで表示されます。",
+  "film.chatTitle": "Claude とのチャット",
+  "film.downloadFile": "{name} をダウンロード",
+  "film.downloadMp4": "MP4 をダウンロード",
+  "film.dropHere": "ここにファイルをドロップして Claude に送信",
+  "film.elapsedDone": "所要時間 {time}",
+  "film.elapsedLive": "{time} 経過",
+  "film.estimateHint": "進捗率は Claude が今どの工程にいるかをもとにした目安です。動画 1 本の制作には通常 10〜20 分ほどかかります。",
+  "film.failedNote": "動画はまだ完成していません。右のチャットで状況を確認できます。そこで返信すると作業が再開します。",
+  "film.headDone": "完成",
+  "film.headFailed": "停止中 — チャットで返信すると再開します",
+  "film.headQueued": "順番待ち",
+  "film.headRunning": "制作中",
+  "film.imagesGot": "画像 {n} 枚を作成済み",
+  "film.inputsTitle": "提供した素材",
+  "film.loadError": "この動画を読み込めませんでした",
+  "film.loading": "読み込み中…",
+  "film.making": "Claude が動画を制作しています…",
+  "film.noProject": "なし",
+  "film.now": "現在",
+  "film.phLive": "Claude へのメモを送る…（次の工程の前に読まれます）",
+  "film.phQuestion": "Claude の質問に回答…",
+  "film.phResume": "返信…（送信すると中断したところから再開します）",
+  "film.phSucceeded": "変更したい点を入力…（送信すると修正を開始します）",
+  "film.progressLabel": "進捗",
+  "film.projectFallback": "プロジェクト",
+  "film.projectLabel": "プロジェクト:",
+  "film.queuedWait": "順番待ちしています…",
+  "film.send": "送信",
+  "film.sendError": "送信できませんでした",
+  "film.sendLabel": "Claude にメッセージ",
+  "film.sizeKb": "{n} KB",
+  "film.stage.build": "映像・動き・音を作成",
+  "film.stage.finish": "動画を書き出し",
+  "film.stage.images": "Flow AI で画像を作成",
+  "film.stage.plan": "台本を構成",
+  "film.stage.read": "スタイルを分析",
+  "film.stage.render": "レンダリングと確認",
+  "film.steps": "{n} ステップ",
+  "film.tagAnswer": "回答",
+  "film.tagNote": "メモ",
+  "film.tagPlan": "企画のやりとり",
+  "film.working": "作業中…",
+  "lang.label": "言語",
+  "nav.label": "スタジオ",
+  "nav.new": "新しい動画",
+  "nav.projects": "マイプロジェクト",
+  "new.all": "すべて（{n}）",
+  "new.aspect": "アスペクト比",
+  "new.attach": "ファイルを添付",
+  "new.attachTitle": "ファイルを添付（ドラッグや貼り付けでも追加できます）",
+  "new.attachedCount": "{n} 件追加済み",
+  "new.badgeFlow": "✦ Flow AI で画像生成",
+  "new.badgeNoGen": "✦ 画像生成なし",
+  "new.cancel": "キャンセル",
+  "new.category": "カテゴリ",
+  "new.create": "作成",
+  "new.dropHere": "ここにファイルをドロップ",
+  "new.duration": "長さ",
+  "new.episode": "第 {n} 話",
+  "new.filesNote": "ファイルを添付します。",
+  "new.flowBody": "Claude がお使いの Chrome で Flow を開き、必要な画像を作成します。動画の制作中は Chrome を開いたままにしてください。Flow のクレジットを少し消費します。",
+  "new.flowTitle": "✦ 画像は Google Flow AI で自動作成されます。",
+  "new.hello": "こんにちは。{style} スタイルでどんな動画を作りたいか、気軽に教えてください。わからない点があればこちらから質問します。",
+  "new.language": "言語",
+  "new.listSep": "、",
+  "new.make": "動画を作成",
+  "new.makeRest": "残りは Claude に任せて作成",
+  "new.material": "素材を追加",
+  "new.materialHint": "ファイル、音声、写真（任意）",
+  "new.maxFiles": "添付できるファイルは最大 {max} 件です。",
+  "new.messageLabel": "Claude にメッセージ",
+  "new.ncAfter": "利用に限り無料です。クライアントワークや商用利用には商用ライセンス（onetake Pro）が必要です。",
+  "new.ncBefore": "このスタイルは",
+  "new.ncStrong": "非商用",
+  "new.needField": "このスタイルには{field}が必要です。",
+  "new.needs": "必要なもの: {list}",
+  "new.newProject": "+ 新しいプロジェクト…",
+  "new.noGen": "このスタイルには AI で作成した画像が必要ですが、このサーバーでは画像生成が有効になっていないため、まだ動画を作成できません。",
+  "new.noProject": "プロジェクトなし（単発）",
+  "new.noReply": "Claude から応答がありませんでした",
+  "new.pickLeft": "一覧からスタイルを選んでください。",
+  "new.pickStyle": "先にスタイルを選んでください。",
+  "new.pickStyleShort": "先にスタイルを選択",
+  "new.placeholder": "作りたい動画を入力…画像やファイルはここにドラッグまたは貼り付け",
+  "new.planDraft": "企画の下書き（Claude が送る指示書）",
+  "new.planReady": "✓ 動画の企画（Claude が送る指示書）",
+  "new.project": "プロジェクト",
+  "new.projectFailed": "プロジェクトを作成できませんでした",
+  "new.projectName": "プロジェクト名",
+  "new.samples": "例: タップするとそのまま送信します",
+  "new.searchLabel": "スタイルを検索",
+  "new.searchPlaceholder": "検索: 水彩、解説、ニュース…",
+  "new.seconds": "{n} 秒",
+  "new.send": "送信",
+  "new.startFailed": "動画の制作を開始できませんでした",
+  "new.starting": "開始しています…",
+  "new.step1": "1. スタイルを選ぶ",
+  "new.step2": "2. Claude と企画する",
+  "new.styleBeforeFiles": "ファイルを追加する前にスタイルを選んでください。",
+  "new.stylesLabel": "スタイル",
+  "new.tellFirst": "まず作りたい動画を Claude に伝えてください。",
+  "new.thinking": "考えています…",
+  "new.uploading": "ファイルをアップロード中…",
+  "projects.addEpisode": "+ 第 {n} 話",
+  "projects.assets": "再利用できる素材（{n}）:",
+  "projects.back": "← マイプロジェクト",
+  "projects.bibleEmpty": "第 1 話の制作後に Claude がここに書き込みます。",
+  "projects.bibleHint": "キャラクター・舞台・スタイルについての Claude のメモ。毎話読み込み、更新します",
+  "projects.bibleTitle": "シリーズ設定資料",
+  "projects.cancel": "キャンセル",
+  "projects.cancelEdit": "キャンセル",
+  "projects.continueEpisode": "第 {n} 話を続けて作る",
+  "projects.create": "作成",
+  "projects.createError": "作成できませんでした",
+  "projects.descLabel": "内容",
+  "projects.descPlaceholder": "キャラクター、世界観、スタイル…毎話 Claude が読み込みます",
+  "projects.edit": "名前と説明を編集",
+  "projects.emptyBody": "プロジェクトはフォルダのようなものです。シリーズの各話をまとめておくと、Claude がキャラクター・舞台・スタイル・音楽を引き継いで使います。",
+  "projects.emptyCta": "最初のプロジェクトを作成",
+  "projects.emptyTitle": "プロジェクトはまだありません",
+  "projects.episodeCount": "エピソード: {n}",
+  "projects.episodeN": "第 {n} 話",
+  "projects.firstEpisodeCta": "第 1 話を作る",
+  "projects.loadError": "読み込めませんでした",
+  "projects.loading": "読み込み中…",
+  "projects.nameLabel": "プロジェクト名",
+  "projects.namePlaceholder": "例: 商店街カフェ戦争",
+  "projects.nameRequired": "名前を入力してください",
+  "projects.newProject": "+ 新しいプロジェクト",
+  "projects.newVideo": "新しい動画",
+  "projects.noEpisodesBody": "第 1 話でキャラクター・舞台・スタイルが決まり、以降の話で引き継がれます。",
+  "projects.noEpisodesTitle": "エピソードはまだありません",
+  "projects.optional": "任意",
+  "projects.save": "保存",
+  "projects.saveError": "保存できませんでした",
+  "projects.seconds": "{n} 秒",
+  "projects.singleCount": "動画: {n}",
+  "projects.singles": "単発の動画",
+  "projects.singlesHint": "プロジェクトに属さない動画",
+  "projects.title": "マイプロジェクト",
+  "src.anyFile": "すべてのファイル",
+  "src.badType": "{name}: このファイル形式には対応していません。",
+  "src.canSource": "お手元になくても大丈夫です。公開されている情報を Claude が自分で調べます。",
+  "src.choose": "ファイルを選択",
+  "src.closeCommon": "− 閉じる",
+  "src.dropOr": "またはここにドラッグ · {types} · 最大 {max}",
+  "src.material.none": "ゼロから描画",
+  "src.material.optional": "手持ちの素材も使えます",
+  "src.material.required": "実際の情報から制作",
+  "src.maxFiles": "ファイルは最大 {max} 件までです。",
+  "src.openCommon": "+ 自分の声・音楽・写真・ロゴを追加",
+  "src.optional": "任意",
+  "src.remove": "削除",
+  "src.removeLabel": "{name} を削除",
+  "src.required": "必須",
+  "src.tooBig": "{name} は 500 MB を超えています。",
+  "status.canceled": "キャンセル済み",
+  "status.failed": "失敗",
+  "status.queued": "順番待ち",
+  "status.running": "制作中",
+  "status.succeeded": "完成"
+ },
+ "style": {
+  "3D model": "3D モデル",
+  "A 16-bit pixel RPG drawn in code.": "コードで描く 16 ビットのピクセル RPG。",
+  "A 1930s rubber-hose cartoon drawn in code.": "コードで描く 1930 年代のラバーホース・カートゥーン。",
+  "A 3D world redrawn in crayon, all in code.": "3D の世界をクレヨンで描き直す。すべてコードで制作。",
+  "A 60s spy title sequence cut from paper in code.": "コードで紙を切り抜いて作る 60 年代スパイ映画風タイトルシーケンス。",
+  "A Chinese ink painting made in code.": "コードで描く中国の水墨画。",
+  "A Memphis-style diorama built in code.": "コードで組み立てるメンフィス・スタイルのジオラマ。",
+  "A PNG, JPG or SVG of the logo, as large and clean as you have.": "ロゴの PNG、JPG または SVG。できるだけ大きく、きれいなものを。",
+  "A beat-locked game show drawn in code; no source material needed.": "ビートに合わせて進むゲームショー。コードで描画し、素材は不要です。",
+  "A bulletin built from code graphics; your footage, photos or logo can be woven in.": "コードのグラフィックで作るニュース速報。お手持ちの映像・写真・ロゴも織り込めます。",
+  "A colour-coded mechanism modelled and animated in code.": "色分けされた仕組みをコードでモデリングし、アニメーション化。",
+  "A coloured-pencil cutaway drawn in code; no source material needed.": "色鉛筆風の断面図をコードで描画。素材は不要です。",
+  "A copperplate engraving drawn in code from your facts.": "お持ちの事実をもとに、コードで描く銅版画。",
+  "A crayon picture book drawn in code; no source material needed.": "コードで描くクレヨン絵本。素材は不要です。",
+  "A drawing or photo of the character to keep the same in every scene.": "どの場面でも同じ姿を保つためのキャラクターの絵や写真。",
+  "A drawn production line explaining a process; no source material needed.": "工程を説明する、イラストの生産ライン。素材は不要です。",
+  "A fictional glass product rendered in code; real products are not reproduced.": "コードでレンダリングする架空のガラス製品。実在の製品は再現しません。",
+  "A film whose feel you want; its rhythm is measured, not copied.": "雰囲気を参考にしたい映画。リズムを測るだけで、コピーはしません。",
+  "A four-colour pop-art print made in code.": "コードで作る 4 色刷りのポップアート。",
+  "A gilded manuscript painting made in code.": "コードで描く金彩写本画。",
+  "A glowing wireframe of your object, modelled in code or from your 3D file.": "対象物の光るワイヤーフレーム。コードでモデリングするか、3D ファイルから作成。",
+  "A layered paper-cut lightbox built in code.": "コードで組み立てる、重ね切り絵のライトボックス。",
+  "A line-art cutaway of a machine, modelled and drawn in code.": "機械の線画断面図。コードでモデリングし描画。",
+  "A low-poly island world built in code.": "コードで作るローポリの島の世界。",
+  "A mid-century cartoon drawn in code from your steps.": "手順をもとに、コードで描くミッドセンチュリー風カートゥーン。",
+  "A model of your object to show as a wireframe.": "ワイヤーフレームで見せる対象物のモデル。",
+  "A moving knife-painted oil painting made in code.": "ペインティングナイフで描いた油絵が動き出す。コードで制作。",
+  "A paper pop-up book on a real-looking desk, made in code.": "リアルな机の上の飛び出す絵本。コードで制作。",
+  "A pen-and-wash urban sketch drawn in code.": "コードで描くペン淡彩のアーバンスケッチ。",
+  "A photo or frame to recut as a woodcut, e.g. a portrait.": "木版画に彫り直す写真やコマ（ポートレートなど）。",
+  "A picture computed in spreadsheet cells; can use your own table.": "スプレッドシートのセルで計算された絵。お手持ちの表も使えます。",
+  "A pixel-art miniature world built in code.": "コードで作るピクセルアートのミニチュア世界。",
+  "A post, notes or a sketch of the system to draw from.": "描く元になるシステムの投稿、メモ、スケッチ。",
+  "A printed case file with halftone characters, drawn in code.": "網点のキャラクターが登場する印刷された事件ファイル。コードで描画。",
+  "A procedural miniature town shot with a tilt-shift look, made in code.": "手続き生成のミニチュア都市をティルトシフト風に撮影。コードで制作。",
+  "A real simulation of little creatures run and filmed in code.": "小さな生き物たちの本物のシミュレーションをコードで実行・撮影。",
+  "A risograph print made in code.": "コードで作るリソグラフ印刷。",
+  "A scene seen through a thermal camera, simulated in code.": "サーモカメラで見たような映像をコードでシミュレート。",
+  "A sci-fi sitcom cartoon drawn in code.": "コードで描く SF シットコム・カートゥーン。",
+  "A scratchboard landscape long take made in code.": "スクラッチボードの風景を長回しで。コードで制作。",
+  "A silkscreen travel poster printed in code.": "コードで刷るシルクスクリーンの旅行ポスター。",
+  "A sketchnote page drawn in code.": "コードで描くスケッチノート。",
+  "A software launch film with abstract UI made in code; your logo sets the accent.": "抽象的な UI で見せるソフトウェアのローンチ映像。コードで制作し、ロゴがアクセントカラーを決めます。",
+  "A stained-glass window lit in code.": "コードで光を当てるステンドグラスの窓。",
+  "A table whose values drive the picture.": "値が絵を動かす表。",
+  "A tablet sketch drawn and coloured in code.": "コードで描いて色を塗るタブレットスケッチ。",
+  "A toy-brick world built and animated in code.": "コードで組み立てて動かすおもちゃのブロックの世界。",
+  "A track you have the rights to; otherwise music is composed for the film.": "権利をお持ちの楽曲。なければ映像用に作曲します。",
+  "A track you have the rights to; the film is cut to it.": "権利をお持ちの楽曲。映像はその曲に合わせて編集します。",
+  "A two-ink dithered 3D world made in code.": "2 色インクのディザリング 3D 世界。コードで制作。",
+  "A vertical clip; set the frame to 9:16.": "縦型クリップ。画面比率を 9:16 に設定してください。",
+  "A watercolour painting brushed in code.": "コードで筆を走らせる水彩画。",
+  "A white model of real buildings from open data or your own plans, lit by projected data.": "オープンデータやお手持ちの図面から作る実在の建物の白模型に、データを投影して照らします。",
+  "A whiteboard explainer drawn in code.": "コードで描くホワイトボード解説。",
+  "An SVG, logo or icon to animate, if there is one.": "アニメーションさせたい SVG、ロゴ、アイコン（あれば）。",
+  "An assembly-manual drawing made in code from your steps.": "手順をもとに、コードで描く組立説明書のイラスト。",
+  "An isometric infographic drawn in code.": "コードで描くアイソメトリックのインフォグラフィック。",
+  "An isometric scene of people following a rule, made in code.": "ルールに従って動く人々のアイソメトリックな場面。コードで制作。",
+  "An old recording you own that can play under the archive.": "資料映像のバックに流せる、権利をお持ちの古い録音。",
+  "App screens as paper cards on a desk, made in code; brand colours welcome.": "アプリ画面を机の上の紙カードとして表現。コードで制作し、ブランドカラーも使えます。",
+  "Archive film or video about your subject.": "テーマに関する記録フィルムや映像。",
+  "Archive scans": "アーカイブのスキャン",
+  "Article or notes": "記事またはメモ",
+  "Audio recordings or readings such as telemetry or weather.": "テレメトリーや気象などの音声記録・計測値。",
+  "BOM or spec sheet": "部品表または仕様書",
+  "Bill of materials and spec sheet for part names and numbers.": "部品名と品番がわかる部品表と仕様書。",
+  "Black silhouettes moving to the beat, made in code.": "ビートに合わせて動く黒いシルエット。コードで制作。",
+  "Brand feel": "ブランドの雰囲気",
+  "Brand fonts you are licensed to use.": "使用許諾を得ているブランドフォント。",
+  "Building data": "建物データ",
+  "Built from a product's own CAD files; required for your own product, or we use open hardware.": "製品の CAD ファイルをもとに制作。自社製品の場合は必須、なければオープンハードウェアを使用します。",
+  "Built from a real microscope scan; send your own or we find a licence-clean slide.": "実際の顕微鏡スキャンをもとに制作。お手持ちのものを送るか、ライセンス上問題のないスライドを探します。",
+  "Built from real archive objects; send your own scans, or we use public-domain collections.": "実在するアーカイブ資料をもとに制作。お手持ちのスキャンを送るか、パブリックドメインのコレクションを使用します。",
+  "Built from real laser-scan points; send your own scan or we use public LiDAR surveys.": "実際のレーザースキャン点群をもとに制作。お手持ちのスキャンを送るか、公開されている LiDAR 測量データを使用します。",
+  "Built from real photographs of the objects; send your own or we use licence-clean photos.": "対象物の実際の写真をもとに制作。お手持ちの写真を送るか、ライセンス上問題のない写真を使用します。",
+  "Built from real-time footage of one event; send your own or we use public-domain records.": "ひとつの出来事のリアルタイム映像をもとに制作。お手持ちのものを送るか、パブリックドメインの記録を使用します。",
+  "Built from your product: screenshots and a link make the UI and copy real.": "お使いの製品をもとに制作。スクリーンショットとリンクがあれば UI と文言を本物どおりに再現します。",
+  "Built on real elevation and satellite imagery of the place, with your data glowing on top.": "その場所の実際の標高データと衛星画像の上に、お持ちのデータを光らせて重ねます。",
+  "Built on real match footage; send your own clips or we look for openly licensed ones.": "実際の試合映像をもとに制作。お手持ちのクリップを送るか、オープンライセンスのものを探します。",
+  "CAD files": "CAD ファイル",
+  "Captions and cards are added over your own video.": "お手持ちの動画にテロップやカードを重ねます。",
+  "Carved in code; a photo can be recut into a woodcut plate.": "コードで彫る版画。写真を木版画に彫り直すこともできます。",
+  "Chalk writing and drawing made in code; no source material needed.": "コードで描くチョークの文字と絵。素材は不要です。",
+  "Character designs": "キャラクターデザイン",
+  "Character reference": "キャラクターの参考資料",
+  "Characters and scenes made of glowing points, all in code.": "光の点でできたキャラクターと場面。すべてコードで制作。",
+  "Clip links": "クリップのリンク",
+  "Collaged from real public-domain prints and ephemera, cut out by hand.": "パブリックドメインの版画やエフェメラを手作業で切り抜いたコラージュ。",
+  "Cross-checks real footage, photos, documents and data of one event; yours come first.": "ひとつの出来事の実際の映像・写真・文書・データを照合します。お手持ちのものを優先します。",
+  "Cut from real archive film, print and recordings; yours first, public-domain archives otherwise.": "実際の記録フィルム・印刷物・録音から編集。お手持ちのものを優先し、なければパブリックドメインのアーカイブを使用します。",
+  "Cut from real footage, photos and source documents; yours come first, public archives fill gaps.": "実際の映像・写真・一次資料から編集。お手持ちのものを優先し、足りない部分は公開アーカイブで補います。",
+  "Cut to your own song; send the track.": "お手持ちの曲に合わせて編集します。音源を送ってください。",
+  "Dashcam, CCTV, phone or archive video of the event.": "出来事のドライブレコーダー、防犯カメラ、スマホ、または記録映像。",
+  "Data to plot": "グラフにするデータ",
+  "Dataset": "データセット",
+  "Describe the voice you want, e.g. calm female, British English.": "希望する声を説明してください（例: 落ち着いた女性の声、イギリス英語）。",
+  "Documents": "文書",
+  "Drawn entirely in code as glowing terminal text; no source material needed.": "光る端末テキストとしてすべてコードで描画。素材は不要です。",
+  "Drawn entirely in code as gold-and-black Art Deco; no source material needed.": "金と黒のアール・デコとしてすべてコードで描画。素材は不要です。",
+  "Drawn in code; your own old clips can be redrawn into period ink.": "コードで描画。お手持ちの古い映像を当時風のインク画に描き直すこともできます。",
+  "Drawn on a blueprint sheet in code; no source material needed.": "青図の上にコードで描画。素材は不要です。",
+  "Draws a real network from checked data; yours first, operator open data otherwise.": "確認済みのデータから実際の路線網を描きます。お手持ちのデータを優先し、なければ事業者のオープンデータを使用します。",
+  "Edited from real footage of a place; send your own or we find licence-clean clips.": "実際の場所の映像から編集。お手持ちのものを送るか、ライセンス上問題のないクリップを探します。",
+  "Event footage": "出来事の映像",
+  "Every mark is a real number; send your dataset or we use openly licensed data.": "すべての図形が本物の数値です。データセットを送るか、オープンライセンスのデータを使用します。",
+  "Family, company or sports clips to redraw as ink.": "インク画に描き直す家族・会社・スポーツのクリップ。",
+  "Field data": "現地データ",
+  "Fills animal silhouettes with real landscape photographs; yours or public-domain ones.": "動物のシルエットを実際の風景写真で満たします。お手持ちの写真かパブリックドメインのものを使用します。",
+  "Flat Bauhaus shapes sized to your numbers; no source material needed.": "数値に合わせた大きさのフラットなバウハウス図形。素材は不要です。",
+  "Flat science explainer zooming across scales, drawn in code.": "スケールを横断してズームするフラットな科学解説。コードで描画。",
+  "Fonts": "フォント",
+  "Footage or photos you shot or have the rights to; the rest is found from open sources or made.": "ご自身で撮影した、または権利をお持ちの映像や写真。足りない分はオープンソースから探すか作成します。",
+  "Generated images": "生成画像",
+  "Gridded wind, current or flow data, if you have it.": "風・海流・流れのグリッドデータ（あれば）。",
+  "Hand-painted-look 80s anime made in code; no source material needed.": "手描き風の 80 年代アニメ。コードで制作し、素材は不要です。",
+  "Key points for cards": "カードにする要点",
+  "Landscape photos": "風景写真",
+  "Large, clear photos of the real objects being compared.": "比較する実物の、大きく鮮明な写真。",
+  "Laser scan": "レーザースキャン",
+  "Line-ups or event data": "出場メンバーや試合データ",
+  "Line-ups or event data for the match.": "試合の出場メンバーや試合データ。",
+  "Lines, stations, opening dates, lengths or ridership.": "路線、駅、開業日、距離、利用者数。",
+  "Link to the product or its documentation.": "製品またはドキュメントへのリンク。",
+  "Links to YouTube/TikTok videos to react to or quote, separated by spaces.": "リアクションや引用に使う YouTube/TikTok 動画のリンク（スペース区切り）。",
+  "Logos": "ロゴ",
+  "Logos to show, ideally SVG or transparent PNG.": "表示するロゴ。SVG か透過 PNG が理想です。",
+  "Lyrics": "歌詞",
+  "Marker drawing on paper, made in code.": "紙に描いたマーカー画。コードで制作。",
+  "Match clips you have the rights to use.": "使用権をお持ちの試合クリップ。",
+  "Microscope scans": "顕微鏡スキャン",
+  "Music": "音楽",
+  "Names, numbers or points to show as cards; otherwise they are picked from what is said.": "カードとして見せる名前・数字・ポイント。なければナレーション内容から選びます。",
+  "Narration script": "ナレーション原稿",
+  "Needs an image generator for characters and panels; your designs and products come first.": "キャラクターやコマの作成に画像生成が必要です。お手持ちのデザインや製品を優先します。",
+  "Needs an image generator for the characters; your own designs come first.": "キャラクターの作成に画像生成が必要です。お手持ちのデザインを優先します。",
+  "Needs an image generator for the puppet sheets; your own character designs come first.": "人形シートの作成に画像生成が必要です。お手持ちのキャラクターデザインを優先します。",
+  "Neon signs built and animated in code.": "コードで作って動かすネオンサイン。",
+  "Network data": "路線網データ",
+  "Newspapers, magazines, letters or documents, scanned.": "スキャンした新聞・雑誌・手紙・文書。",
+  "Object photos": "対象物の写真",
+  "Objects seen through an X-ray console, modelled in code.": "X 線検査機を通して見た物体。コードでモデリング。",
+  "Old film or video about your subject.": "テーマに関する古いフィルムや映像。",
+  "One character, kept the same in every scene and episode.": "1 人のキャラクターを、すべての場面とエピソードで同じ姿に保ちます。",
+  "One continuous line drawn in code.": "コードで描く一筆書きの線。",
+  "One idea carries the whole ad; your product appears as the result.": "ひとつのアイデアで広告全体を貫き、製品はその答えとして登場します。",
+  "Only if no image generator is connected: images made from our prompts.": "画像生成が接続されていない場合のみ: こちらのプロンプトで作った画像。",
+  "Period recording": "当時の録音",
+  "Photos": "写真",
+  "Photos of people, products or places that should appear.": "登場させたい人物・製品・場所の写真。",
+  "Photos of the places the animal belongs to; shown in black and white.": "その動物が暮らす場所の写真。白黒で表示します。",
+  "Pictograms and cards animated in code.": "コードでアニメーションさせるピクトグラムとカード。",
+  "Place name or lat/lon coordinates, if not clear from your topic.": "テーマから明らかでない場合は、地名または緯度・経度。",
+  "Place or coordinates": "場所または座標",
+  "Plans, a city model or survey heights for your site.": "現場の図面、都市モデル、測量による高さデータ。",
+  "Plotted by a machine pen; maps and records use real data you send or we find.": "機械のペンでプロット。地図や記録には、お送りいただくか当方で探した実データを使用します。",
+  "Preferred voice": "希望する声",
+  "Print scans": "版画のスキャン",
+  "Product link": "製品リンク",
+  "Rapid microgames in changing art styles, all made in code.": "画風が次々変わる超高速ミニゲーム。すべてコードで制作。",
+  "Real maths drawn as oscilloscope light, computed in code.": "本物の数学をオシロスコープの光で描画。コードで計算。",
+  "Real statistics built as physical objects; your own numbers or published open data.": "実際の統計を物理的なオブジェクトとして表現。お手持ちの数値か公開データを使用します。",
+  "Recordings or data": "録音またはデータ",
+  "Recut from real archive film, photos and documents; yours lead, archives fill gaps.": "実際の記録フィルム・写真・文書から再編集。お手持ちのものを軸に、足りない部分はアーカイブで補います。",
+  "Red paper-cut scenes made in code.": "コードで作る赤い切り絵の場面。",
+  "Redraws your real product's interface; screenshots help it match exactly.": "実際の製品の画面を描き直します。スクリーンショットがあれば正確に再現できます。",
+  "Reference clip": "参考クリップ",
+  "Reference photo": "参考写真",
+  "Rendered found-footage of empty interiors, all made in code.": "誰もいない室内をレンダリングしたファウンド・フッテージ。すべてコードで制作。",
+  "Reports, statements or memos about the event.": "出来事に関する報告書、声明、メモ。",
+  "Routes or map data": "ルートまたは地図データ",
+  "Routes, points or areas to draw on the map.": "地図上に描くルート、地点、エリア。",
+  "STEP, IGES or KiCad exports of your product.": "製品の STEP、IGES または KiCad の書き出しファイル。",
+  "SVG or icon": "SVG またはアイコン",
+  "Scans of negatives, letters, photos or clippings you own the rights to.": "権利をお持ちのネガ・手紙・写真・切り抜きのスキャン。",
+  "Scans of old engravings, stamps or ephemera you hold rights to.": "権利をお持ちの古い版画・切手・エフェメラのスキャン。",
+  "Scans of reports, brochures, letters or photographs.": "報告書・パンフレット・手紙・写真のスキャン。",
+  "Scenes revealed by a scanning light, built in code; no real scan data needed.": "走査する光で浮かび上がる場面。コードで制作し、実際のスキャンデータは不要です。",
+  "Schedules, filings or results shown as paper.": "予定表、提出書類、結果を紙として表示。",
+  "Scratched-film animation made in code.": "フィルムを引っかいて作るアニメーション。コードで制作。",
+  "Screens of your product so the UI is redrawn accurately.": "UI を正確に描き直すための製品画面。",
+  "Send your logo; it is redrawn as clean vector shapes and animated.": "ロゴを送ってください。きれいなベクター図形に描き直してアニメーションさせます。",
+  "Shadow puppets on a lit screen, made in code.": "光るスクリーンに映る影絵人形。コードで制作。",
+  "Song lyrics, if this is a music video.": "ミュージックビデオの場合は歌詞。",
+  "Stick figures act out the idea, drawn in code.": "棒人間がアイデアを演じます。コードで描画。",
+  "Streamlines of a real or modelled field such as wind or currents.": "風や海流など、実際またはモデル化された場の流線。",
+  "Survey, terrain or measured data to plot, if the sheet shows real data.": "図に実データを載せる場合の測量・地形・計測データ。",
+  "Swiss grid motion graphics made in code.": "コードで作るスイス・グリッドのモーショングラフィックス。",
+  "The report or document the numbers come from, as PDF.": "数値の出典となる報告書や文書（PDF）。",
+  "The report your figures come from.": "数値の出典となる報告書。",
+  "The site to survey, if not clear from your topic.": "テーマから明らかでない場合は、調査する現場。",
+  "The talking video to caption; it is kept as it is.": "字幕を付ける話し手の動画。映像はそのまま使います。",
+  "Three words for how the brand should move, e.g. calm, precise, friendly.": "ブランドの動きを表す 3 つの言葉（例: 穏やか、正確、親しみやすい）。",
+  "Time-lapses, hyperlapses, aerials or photos of the place.": "その場所のタイムラプス、ハイパーラプス、空撮、写真。",
+  "UI screenshots": "UI のスクリーンショット",
+  "Ukiyo-e woodblock prints made in code.": "コードで刷る浮世絵の木版画。",
+  "Uses real satellite imagery of the place; we fetch public imagery if you have none.": "その場所の実際の衛星画像を使用します。お持ちでなければ公開画像を取得します。",
+  "Video or audio of the same event from several angles.": "同じ出来事を複数の角度から撮った映像や音声。",
+  "Voice recording": "音声の録音",
+  "Voice-over script": "ボイスオーバー原稿",
+  "What the narrator says, if you have it; otherwise it is written from your topic.": "ナレーションの内容（あれば）。なければテーマから原稿を書きます。",
+  "What the narrator should say, if you have it; otherwise it is written for you.": "ナレーションの内容（あれば）。なければこちらで書きます。",
+  "Whole-slide scans or micrographs with a scale.": "スケール付きのホールスライドスキャンや顕微鏡写真。",
+  "You get the Lottie .json file for your app or site, and an MP4 to preview it.": "アプリやサイト用の Lottie .json ファイルと、プレビュー用の MP4 をお届けします。",
+  "You get the film, an editable .excalidraw file, a PNG and a GIF.": "映像、編集可能な .excalidraw ファイル、PNG、GIF をお届けします。",
+  "Your GIS layers": "お手持ちの GIS レイヤー",
+  "Your app's screens are rebuilt in HTML and walked through with a voice; send the screens of each feature to show.": "アプリの画面を HTML で再構築し、ナレーション付きで操作を案内します。紹介したい機能ごとの画面を送ってください。",
+  "Your character designs or product photos; otherwise generated.": "お手持ちのキャラクターデザインや製品写真。なければ生成します。",
+  "Your clips": "お手持ちのクリップ",
+  "Your clips, open-licence footage, clips from other channels used for commentary and Flow AI pictures are mixed with code-drawn infographics, under a Thai narration.": "お手持ちのクリップ、オープンライセンス映像、解説目的で引用する他チャンネルのクリップ、Flow AI の画像を、コードで描いたインフォグラフィックと組み合わせ、タイ語のナレーションを付けます。",
+  "Your figures as a table; otherwise open published data is used.": "表にした数値。なければ公開されているオープンデータを使用します。",
+  "Your figures, e.g. from an annual or ESG report.": "お手持ちの数値（例: 年次報告書や ESG レポートから）。",
+  "Your footage": "お手持ちの映像",
+  "Your logo": "お手持ちのロゴ",
+  "Your own character or product designs; otherwise they are generated.": "お手持ちのキャラクターや製品のデザイン。なければ生成します。",
+  "Your own clips, open-licence footage and Flow AI pictures are mixed with code-drawn infographics; nothing is taken from other channels.": "お手持ちのクリップ、オープンライセンス映像、Flow AI の画像を、コードで描いたインフォグラフィックと組み合わせます。他チャンネルの素材は使いません。",
+  "Your own footage or b-roll stills to grade into the package.": "ニュースパッケージに合わせて色調整する、お手持ちの映像や B ロールの静止画。",
+  "Your own narration; otherwise we use a synthetic voice.": "ご自身のナレーション。なければ合成音声を使います。",
+  "Your own site, drone or terrestrial scan.": "お手持ちの現場・ドローン・地上レーザースキャン。",
+  "Your own surveys or GIS layers, if the place is yours.": "ご自身の場所であれば、お手持ちの測量データや GIS レイヤー。",
+  "Your own video clips; otherwise licence-clean archive footage is found.": "お手持ちの動画クリップ。なければライセンス上問題のない記録映像を探します。",
+  "Your song": "お手持ちの曲",
+  "Your subject drawn as a circuit board in code.": "テーマを回路基板として描画。コードで制作。",
+  "Your video": "お手持ちの動画",
+  "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.": "群れをなす160匹のピップが豆を奪い合う。速い者ほど先に食べ、先に力尽きる。20世代後、盤面は青に染まる。",
+  "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.": "1926年。新聞は「チャールストンがアメリカの膝を壊す」と書き立てる。それでもフォード社のピクニックで、子どもたちは踊り出す。",
+  "3D & Miniature": "3D・ミニチュア",
+  "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.": "飛行機が逆さまに刷られた1918年の航空郵便シート。24ドルで買われ、切り分けられて散り散りに。66番はいまも行方不明。",
+  "A 9:16 clip made for Reels, TikTok and Shorts: a hook in the first second, big kinetic type, quick beats and captions you can read with the sound off.": "Reels、TikTok、Shorts 向けの 9:16 クリップ。最初の1秒でつかみ、大きなキネティックタイポ、テンポの速い展開、音なしでも読めるキャプション。",
+  "A Lottie animation for an app or website, delivered as the .json file plus an MP4: loaders, icons, success states, lower thirds, stat counters and small promos.": "アプリやサイト向けの Lottie アニメーションを .json ファイルと MP4 で納品。ローダー、アイコン、完了表示、テロップ、数字カウンター、小さなプロモーションまで。",
+  "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.": "日曜の朝、自転車で街をめぐる — パン屋、公園、川辺。立ち寄るたびにインクが一色増え、ずれた3枚の版が重なり合う。",
+  "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.": "パン屋の少年が坂を転がり落ちるパンを追いかけ、それを半分に割って、お腹をすかせた少女に分ける。",
+  "A black-canvas, hand-drawn architecture or process diagram with glowing points running along its flows; you also get the editable Excalidraw file and a GIF.": "黒いキャンバスに手描きしたアーキテクチャ図やプロセス図。流れに沿って光の粒が走る。編集できる Excalidraw ファイルと GIF も付属。",
+  "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.": "逆回しで動く工場として描かれる人体。12時半のサンドイッチが工程ごとに分解され、6時間後にはバスに向かって走っている。",
+  "A brick astronaut builds a rocket from spare parts and flies to a brick moon.": "ブロックの宇宙飛行士が余ったパーツでロケットを組み、ブロックの月へ飛び立つ。",
+  "A cardboard toy theatre: patterned papers, gouache cut-outs with sticker margins, flats that slide on stage.": "段ボールの紙芝居劇場。柄入りの紙、シールの余白が残るガッシュの切り抜き、舞台を滑る書き割り。",
+  "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.": "猫の写真が日差しの差すデスクの上でアプリのカードを渡り歩き、ある電話から友だちの電話へ。",
+  "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.": "あなたから見知らぬ誰かへ続く手の連鎖。1967年に手紙で確かめられ、地球より大きくなる輪で説明され、地球をぐるりと一周する。",
+  "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.": "ぽっちゃりした茶トラ猫が、重力実験と午前4時のパルクールの罪で裁かれ、無罪放免になる。",
+  "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.": "ドジな新兵が5秒のブートキャンプをどんどん加速しながら切り抜け、ラスボスは「我が家への着陸」。",
+  "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.": "コーヒーカップが逃げ出した角砂糖をキッチン中追いかける、1930年代カートゥーン風。",
+  "A coffee's journey from the plantation to your hands, across one isometric world.": "農園からあなたの手元まで、ひとつのアイソメトリックな世界をたどるコーヒーの旅。",
+  "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.": "コンサートポスターがスイスデザインの5つのルールで自らレイアウトされていく。5つ目は「ひとつだけ破ること」。",
+  "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.": "夜明けの打ち上げまでにテープを届けるため、配達の少女が雨に濡れたネオンの街を駆け抜ける。",
+  "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.": "マーカーが浜辺から水平線までの距離を計算し、100倍高く登っても10倍遠くしか見えないことを示す。",
+  "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.": "指ほどの長さのハダカイワシが暗闇を500メートル上り、自らの光で影を消す。それは毎晩浮上する無数の生き物の一匹にすぎない。",
+  "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.": "ホタルの点滅は問いかけ。少女は鹿の姿で答えを受け取り、嵐で光をすべて失い、最後のひとつで闇全体に問いかける。",
+  "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.": "クレヨンの村の上を一人称視点で飛び、老人の庭の一輪の花へ。そして彼の瞳と、その言葉。",
+  "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.": "フラミンゴの群れはビートごとに動くのに、一羽の若鳥はいつも半拍遅れる。仲間が水面に残した波紋が、そのリズムを教えてくれる。",
+  "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.": "シミの浮いたアルバムのページ。破れたカード、テープ、手彩色の版画、タイプライターのラベル、脅迫状のような切り抜き文字が物語を語る。",
+  "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.": "1930年のグランドホテル。ベルボーイがエレベーターや回転ドアと競いながら、真夜中までに一通の手紙を届ける。",
+  "A hundred years of summer temperatures, where the chart itself tells the story.": "100年分の夏の気温。グラフそのものが物語を語る。",
+  "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.": "やさぐれた天才がコーヒーを買うためだけにポータルを開き、ますます奇妙な宇宙へ転がり落ちていく。",
+  "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.": "レーザー測量がコネチカットの森の樹冠を剥ぎ取り、3.4kmにおよぶ古い農地の石垣を見つけ出す。",
+  "A launch film for an app in one unbroken take: a prompt bar opens into the calendar, the calendar reflows into the phone, and every beat grows out of the one before.": "アプリのローンチフィルムをワンテイクで。プロンプトバーがカレンダーへ開き、カレンダーがスマホへ流れ込み、すべてのビートが前のビートから生まれる。",
+  "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.": "手紙、電話、窓の壁、13段の階段。「振り返らないで」と言った少女は、いつも一歩ずつ近づいてくる — 彼女が振り向くまで。",
+  "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.": "ズームレンズの目をもつ小さな探査機が、次の目的地へ点線の照準を放ち、天の川からウイルスまで私たちを連れていく。",
+  "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.": "40年ぶりに目覚めた月面基地のAIが地球からの信号を受け、文字で「ホーム」を描いて返信する。",
+  "A music video cut to your own song: the beats and sections are measured from the track, and lyrics, shapes and colour move with them.": "あなた自身の曲に合わせて編集するミュージックビデオ。ビートと構成を曲から測り、歌詞、図形、色がそれに合わせて動く。",
+  "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.": "姿の見えないナレーター。実写映像、3DやAIの再現、スケール比較のインフォグラフィック、地図、字幕が代わる代わる、驚くべき実話を語る。",
+  "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.": "博物画の図版が自らを彫り上げる。ビュランが銅を刻み、ミツバチが一本ずつ線を重ねて現れ、水彩のウォッシュが命を吹き込む。",
+  "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.": "ネオンの猫が通りの端の看板の金魚を狙いに行き、金魚鉢を割ってしまう。消えかけた金魚を連れて雨の中を走り、自分の看板のグラスへ。",
+  "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.": "夜勤の新人が、果てしない黄色のオフィスで壁のルールに従いながら、初めての夜を撮影する。",
+  "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.": "ペンのスケッチだけの公園。彼女の麦わら帽子が風に運ばれるところへ、色がついていく。",
+  "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.": "角を持つと電波が途切れるスマホ。分解すると、金属フレームがアンテナで、手で橋渡しできる区切りに分かれていたとわかる。",
+  "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.": "机の上で飛び出す絵本が開き、ピップという妖精が紙の世界を冒険して、私たちの世界へ飛び出してくる。",
+  "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.": "印刷された地下鉄路線図が、1993年の6kmの1路線から21路線・906kmへと成長していく。",
+  "A product walk-through with a voice: the app's own UI rebuilt from screenshots, a camera that closes in on each feature, subtitles, and the same film in other languages.": "ナレーション付きのプロダクト紹介。スクリーンショットから再現したアプリ本来のUI、各機能に寄っていくカメラ、字幕、そして多言語版まで。",
+  "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.": "プロジェクターがロッテルダムの白い模型を一層ずつ彩る。1940年の空白から、今日の高層ビル群まで。",
+  "A robot vacuum set up in three steps, told like a 1950s classroom film.": "ロボット掃除機の3ステップ設定を、1950年代の教育映画のように。",
+  "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.": "衛星が地図をたどってアラル海へ向かうと、そこは砂漠だった。戻ってきたのは、誰かがダムでせき止めた部分だけ。",
+  "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.": "1969年7月21日、嵐のパークス。限界まで傾けた直径64メートルのパラボラが耐え抜き、月面歩行を世界へ届ける。",
+  "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.": "ストリートフォトグラファーが走る光を追い、ハトが舞い上がる瞬間へ。ポケットカメラがその1秒を30コマに分割する。",
+  "A swordsman crosses the river on the water and splits the current with a single stroke.": "剣客が水面を歩いて川を渡り、ひと太刀で流れを断ち割る。",
+  "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.": "雪の夜、サーモカメラが古い集合住宅を旋回する。熱の漏れる窓、壁の中の配管、温かいボンネットで眠る猫、そして断熱改修から1年後の同じ建物。",
+  "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.": "旅人が全面刷りのシルクスクリーンを一枚ずつ渡りながら世界を横断する。切符の半券が故郷からの距離を数え、やがて最果てが帰り道に変わる。",
+  "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.": "旅人が遠くの山へ歩いていく。どのショットも木版画で、クライマックスには大波、最後に山と絵巻の全景。",
+  "A village spends a whole winter casting one bell; the first time it rings, the snow stops.": "村がひと冬をかけて一つの鐘を鋳造する。初めて鳴り響いたとき、雪がやむ。",
+  "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.": "電池のない腕時計を切り開く。3つの機構を一つずつ色分けし、脱進機を抜くと輪列が暴走し、ゆっくりとした一刻みでまたすべてが解き放たれる。",
+  "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.": "バスに忘れられた黄色い傘が、晴れた日を遺失物の棚で待ち、嵐が戻ると312本の仲間と一緒に開く。物、乗り物、天気、標識をビートに合わせた幾何学ピクトグラムで。",
+  "Alcohol-marker cel fills with a hard shadow edge under one heavy contour: a bright comic world that moves.": "アルコールマーカーのセル塗りに、太い輪郭線の下のくっきりした影。鮮やかなコミックの世界が動き出す。",
+  "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.": "店頭のバナナのほとんどは、たった一株のコピー。同じ版画が並ぶ壁、斑点で黒くなった古いバナナ、そしてたくさんのバナナに変わる色の波。",
+  "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.": "アルザス=ロレーヌは1871年から1945年の間に4度も主を変えた。そのたびに紙が剥がされ新しい紙が貼られたが、そこに住む女性は一度も動かなかった。",
+  "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.": "アメリカは130万のミツバチのコロニーを失った。なのに数は6%増えた。音なしでも伝わるニュースショート。",
+  "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.": "電動自転車をスキャンしてホログラムに。ターゲットボックスがバッテリー、モーター、ブレーキをロックオンする。",
+  "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.": "発明家の設計図が雲を捕まえる機械を描き、分解し、組み立てる。すると修正指示の雲から雨が降り出す。",
+  "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.": "何もない海から、島と村がタイルを一枚ずつ重ねて育っていく。タイルの一枚一枚が音符となり、やがて星空の夜へ。",
+  "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.": "古い夜行列車の最後の運行。雪深い山の停車場から長いトンネルを抜けて海へ。終点で明かりの灯った窓がひとつずつ消えていく。",
+  "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.": "夜、デスクライトの下でペンプロッターが本物の標高データからチョモランマを4本のペンで描き、最後にその高さを書き添える。",
+  "At the final boss door a hero saves the game, and the save screen replays the whole journey.": "ラスボスの扉の前で勇者がセーブすると、セーブ画面がこれまでの旅をすべて振り返る。",
+  "Cartoons": "カートゥーン",
+  "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.": "チョークが二つの漢字にまつわる俗説を書いては消し、「射」を三千年前までさかのぼる。",
+  "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.": "Clawd がターミナルから Claude アプリへ飛び移り、プランモードとセルフチェックをワンテイクで演じてみせる。",
+  "Clean pen-tool shapes, flat fills, long shadows and a light grain: a crisp modern illustration in motion.": "ペンツールのクリーンな形、フラットな塗り、長い影、ほのかな粒子感。シャープでモダンなイラストが動き出す。",
+  "Data & Maps": "データ・地図",
+  "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.": "木は互いに養い合っているのか？鉛筆画が草の下へ潜り、一粒の糖を追って菌糸をたどって隣の木へ。そして地下でつながる森全体へと引いていく。",
+  "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.": "前半0-3から、フェネルバフチェは12分で3点を奪った。一時停止、書き込み、分割画面、シュートマップ。",
+  "Edit & Documentary": "編集・ドキュメンタリー",
+  "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.": "1966年2月。初めての月のクローズアップが、新聞用ファクスとしてイギリスの電波望遠鏡に届く。2色のインクで1行ずつ刷られ、1日早く、縦に伸びすぎて。",
+  "Film & Tape": "フィルム・テープ",
+  "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.": "オーストラリアの赤い砂漠の中心から緑の海岸まで、雨を追ってひと続きの絵の中を歩く。",
+  "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.": "1週間のAIニュース4本を本格的な番組パッケージに。ランダウン、見出しテロップ、価格ボード、スペックカード。",
+  "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.": "4種類の橋をひとつのブリーフィングウォールで検証。その下をくぐる船が勝者を選ぶ。",
+  "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.": "地球儀から、世界の石油の5分の1が通り抜ける海峡へ。2本の航路、海底の切れ込み、そしてそのほんの一部しか迂回できないパイプライン。",
+  "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.": "日暮れの山から海へ。鹿、狼、鷲、鮭、鯨がそれぞれのシルエットの中に自分の居場所を宿し、やがて鯨の港が本物の海岸に重なる。",
+  "Games": "ゲーム",
+  "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.": "やさしい絵本の鉛筆と水彩。何度も登場するキャラクターが、どの場面でも同じ姿でいられるように描く。",
+  "Gouache and watercolour over pencil: opaque in front, thinning to a wash and bare pencil in the distance.": "鉛筆の上に重ねるガッシュと水彩。手前は不透明に、遠くへ行くほど淡いウォッシュ、そして鉛筆だけに。",
+  "Graphic & Type": "グラフィック・タイポ",
+  "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.": "オープンソースキーボードの半分が、ぐるりと一周する間にチップまで分解され、実寸を示しながら元に戻る。",
+  "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.": "円を転がして四角を作るには？回転する円が積み重なって矩形波になり、角に飛び込むと決して消えない9%の突出が見つかる。",
+  "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.": "スマホはどうやって居場所を知るのか。GPS、原子時計、そして相対性理論が毎日足す38マイクロ秒。",
+  "HyperFrames": "HyperFrames",
+  "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.": "雨の灰色の広場で、一本の赤い傘が開く。ワルツが広場全体を色で塗りかえていく。",
+  "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.": "金だけが輝く絵の世界で、太陽が消える。少女は最後のランプを山の上まで運び、太陽に光を返す。",
+  "Instruments & Evidence": "計測・エビデンス",
+  "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.": "架空のアプリ Tidy のローンチフィルム。埋もれていたカーソルがひとつ、何百ものウィンドウを一気に元の位置へ戻す。",
+  "Light & Lines": "光・線",
+  "Line Diagrams": "線画ダイアグラム",
+  "Logo & Lottie": "ロゴ・Lottie",
+  "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.": "模型のような町の朝のラッシュアワー。行き交う車、電車、そして小さな人々。",
+  "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.": "ニュース映画、写真、証言、1937年の調査報告をひとつの時計に並べる。5つの情報源が同じ場所を指し示す。",
+  "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.": "大晦日、怪物「年」が町にやってくる。一人の少女の巨大な切り絵が村を照らし、追い払う。",
+  "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.": "ミツバチが一生でつくる蜂蜜は小さじ1/12。ペンが一滴の黄色を花から瓶まで追いかけ、やがてページ全体がポスターになる。",
+  "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.": "クリーム色の紙に青いボールペン一本。濃淡はハッチングの置き方だけ。ノートの落書きが動き出したよう。",
+  "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.": "肝臓の切片からひとつの細胞核まで、途切れないワンカット。ピクセル単位で数えた2つの円は、青の量が2.4倍違う。",
+  "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.": "ニューヨークの一日をタイムラプスで。光の川、16分音符に合わせたグリッド、1899年と今日を並べて。",
+  "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.": "ひとつの点が10年ごとに倍になる。70年後に128、複利なしなら6.02。そして最後の10年は、それまでのすべてに匹敵する。",
+  "One fine technical pen dotting straight down: tone is dot density only, like an old natural-history plate.": "細いテクニカルペン一本で真上から点を打つ。濃淡は点の密度だけ。古い博物画の図版のように。",
+  "One idea carries the whole ad: a chain reaction on a tabletop where every beat is the collision that starts the next, from one keypress to ten finished tasks.": "ひとつのアイデアが広告全体を運ぶ。テーブルの上の連鎖反応で、どのビートも次を始める衝突。キーをひと押しして、10個のタスクが片づくまで。",
+  "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.": "空港の保安検査コンソールでの一夜。モバイルバッテリー、水のボトル、そしてCTの中で動く6匹の生きたカニ。",
+  "One river bend, four seasons, one take; each turns when the big tree squats and springs back.": "川の曲がり角ひとつ、四季、ワンテイク。大きな木がかがんで跳ね返るたびに季節が変わる。",
+  "One thin ink pen on warm paper: a canal street of tea and bath houses, villagers walking their errands, lit windows as the day turns to night.": "温かみのある紙に細いインクペン一本。茶屋と湯屋の並ぶ運河沿いの通り、用事に歩く村人たち、昼から夜へ移るにつれて灯る窓。",
+  "One unbroken line draws a whole life, then the pen passes to a child.": "途切れない一本の線がひとつの人生を描き、ペンは子どもへと手渡される。",
+  "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.": "架空の1964年スパイ映画のオープニングタイトル。盗まれた鍵をめぐる追跡が、やがて図形がぴたりとはまってタイトルになる。",
+  "Painting & Illustration": "絵画・イラスト",
+  "Print & Printmaking": "版画・印刷",
+  "Product Launch · onetake": "プロダクトローンチ · onetake",
+  "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.": "北海道の谷に舞うタンチョウを、スクラッチボードのワンテイクで。33羽から1,927羽までさかのぼって数える。",
+  "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.": "ダムからスマホの充電器まで2,080km、電流が流れるにつれて川が銅の配線に変わる。",
+  "Screens & Interfaces": "スクリーン・インターフェース",
+  "Sketch & Board": "スケッチ・ボード",
+  "Smooth surreal oil glazes under one low sun: impossible objects, long shadows and a quiet dream logic.": "低い太陽の下、なめらかでシュールな油彩のグレーズ。ありえない物体、長い影、静かな夢の論理。",
+  "Stranded cotton stitched through linen in a beech hoop, every stitch sewn on screen.": "ブナの刺繍枠に張ったリネンに25番刺繍糸。ひと針ひと針を画面の上で縫っていく。",
+  "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.": "夜明けから夕暮れまで、陽光が大聖堂の窓を横切り、騎士と竜の物語のガラスを一枚ずつ目覚めさせる。",
+  "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.": "十の太陽が大地を焼き、弓の名手・后羿が弓を引くまで。光のスクリーンに映る革の影絵人形で語る。",
+  "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.": "1931年のエンパイア・ステート・ビルのパンフレットは建設者を称える。現場フィルムとハインの写真が答える ― 1日2,500人。",
+  "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.": "カップのコーヒーが赤いコーヒーチェリーに戻り、またカップへ歩いて帰る。熟成、乾燥、焙煎、粉砕を、一枚の鉛筆画の上で色を一つずつ変えながら。",
+  "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.": "AIの歴史をリズムゲームで。モデルたちがビートに乗って登場し、最後は通知表でショーを締めくくる。",
+  "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.": "アルテミスII打ち上げの最後の1分をノーカットで。1つのセルが9つに開き、点火の瞬間にひとつへ融合する。",
+  "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.": "灯台の明かりが消える。少女は最後の炎を抱えて夜の森を抜け、嵐の崖を登っていく。",
+  "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.": "眠れないお月さまのために、小さな女の子が屋根に登って子守歌を歌う。",
+  "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.": "電報には57秒とあった。ルーペで見ると、ライト兄弟のガラス乾板とアーカイブは59秒と語る。",
+  "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.": "合計では治療Bが優勢。隠された結石サイズの列を表示すると、どのグループでもAが勝つ。シンプソンのパラドックスを1枚のシートで。1セル=1患者。",
+  "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.": "ベストトラックから計算した何千本ものインクの風の線が、スーパー台風ヤギを描く。南シナ海の上で開く目、海南島への上陸、ベトナムでほどけていく渦、そして最後の一本に折りたたまれた一週間。",
+  "Traditional Crafts": "伝統工芸",
+  "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.": "旅行者がアイソメトリックな飛行機に乗り込む。搭乗順を見れば、ある方法がほぼ2倍速い理由がわかる。",
+  "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.": "12年分の風力と太陽光を本物のプレートとして積み上げ、クルミ材の文字盤のまわりを螺旋状に。やがて太陽光が追い抜く。",
+  "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.": "初めての親になる二人が、組み立て家具の説明書を頼りにベビーベッドを作る。45°で描かれた1ページに10のステップ。ステップ10は説明書になかった。",
+  "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.": "架空のガラス製イヤホン Aura の開封とクローズアップ。ストリップライトの光のスイープとコースティクスで。",
+  "Unmixed oil dabs side by side for the eye to mix: light on water, dusk, a boat crossing the bay.": "混ぜない油絵の具を並べて置き、目の中で混ぜる。水面の光、夕暮れ、湾を渡る一艘の舟。",
+  "Vine charcoal on rag paper, smudged, lifted with an eraser and redrawn over its own ghost.": "コットン紙にヴァインチャコール。こすってぼかし、練り消しで抜き、自らの残像の上に描き直す。",
+  "Your logo image is redrawn as a clean SVG, then brought to life piece by piece with Disney's principles of animation: a reveal that lands exactly on your mark.": "ロゴ画像をクリーンな SVG に描き直し、ディズニーのアニメーション原則でパーツごとに命を吹き込む。最後はぴたりとあなたのマークに着地するリビール。",
+  "Your own talking video, kept as it is: word-by-word captions that keep time with the voice, a name card, and simple graphic cards over the key points.": "あなたの話している動画をそのままに。声にぴったり合う一語ずつのキャプション、名前テロップ、要点にシンプルなグラフィックカード。",
+  "Zero drawn lines: torn papers with white fibrous edges, scissor-cut pieces, each lifting a soft shadow.": "描いた線はゼロ。白い繊維がのぞく破れた紙、はさみで切ったピース、どれもやわらかな影を落とす。",
+  "anidoodle": "anidoodle"
+ },
+ "examples": {
+  "brick-toy": [
+   "息子の誕生日に、おもちゃのブロックで組んだロケットが月まで飛んでいくアニメを作ってください。",
+   "うちのおもちゃ屋で扱う新しいブロックセットが、1 個ずつつながって小さな家になる様子を見せたいです。",
+   "おもちゃのブロックで清水寺を少しずつ組み立てながら、子どもたちに京都の歴史を教える動画がほしいです。"
+  ],
+  "paper-popup": [
+   "娘の寝る前のお話用に、本を開くと紙の森からウサギが飛び出してくる物語を作ってください。",
+   "うちの新しい絵本が出るので、ページが次々と立ち上がる飛び出す絵本風の宣伝動画がほしいです。",
+   "紙の絵本の中で、小舟の船頭さんが川下りをしながら嵐山の景色を抜けていく様子を見せたいです。"
+  ],
+  "tilt-shift": [
+   "朝の通勤ラッシュの渋谷スクランブル交差点を、ミニチュアの街のように小さく見せてください。",
+   "うちのマンション計画と周りの街並みを、上から見下ろした模型の街のように見せる広告がほしいです。",
+   "朝の築地場外市場で、ターレや買い物客が行き交う様子をおもちゃの世界のように見てみたいです。"
+  ],
+  "lowpoly-island": [
+   "新作ゲームのために、海の真ん中から島と村が 1 マスずつ現れるティザーを作ってください。",
+   "小さな島の村がゆっくり大きくなって、夜になると星がまたたいていく様子を、のんびり眺めたいです。",
+   "瀬戸内の小さな島で、漁村が少しずつ発展していく様子を子どもにもわかるように見せたいです。"
+  ],
+  "glass-product": [
+   "うちで新しく発売する美容オイルのガラス瓶に光の筋が走って、きらきら輝く映像を作ってください。",
+   "新しいイヤホンを箱から取り出して、近くからきれいに見せる製品紹介動画がほしいです。",
+   "母の誕生日プレゼントに買ったガラスの香水瓶を、光が戯れているように見せたいです。"
+  ],
+  "memphis-diorama": [
+   "四万十川の曲がり角で、春・夏・秋・冬が順番に移り変わる様子をカラフルに見たいです。",
+   "うちのウェブサイトのトップに置く、小さなカフェの周りで季節が巡るかわいいシーンを作ってください。",
+   "家の前の柿の木が 1 年かけて花を咲かせ、実をつけ、葉を落とす様子を子どもたちに見せたいです。"
+  ],
+  "isometric-picture-book": [
+   "銀行で 1 列に並ぶほうがなぜ早いのか、絵本のようなイラストで説明してください。",
+   "うちのクリニックで始めた、番号札を取って待つ新しい受付方法を患者さんにわかりやすく伝えたいです。",
+   "電車で降りる人を先に通すとなぜ早く乗れるのか、子どもにもわかるように説明したいです。"
+  ],
+  "crayon-world": [
+   "祖父の故郷の村の上を飛んで、祖父が植えた桜の木までたどり着く思い出の動画を作ってください。",
+   "恩師への感謝を込めて、子どもがクレヨンで描いたような絵で小学校まで旅する物語がほしいです。",
+   "子どもが描いたようなクレヨン画で、地方から東京へ仕事を探しに出てきた青年の旅を描きたいです。"
+  ],
+  "rubber-hose": [
+   "うちのラーメン屋のために、チャーシューとどんぶりが追いかけっこする昔のカートゥーン風広告を作ってください。",
+   "湯のみから逃げ出した角砂糖を台所中追いかける、笑えるカートゥーンがほしいです。",
+   "歯ブラシと歯みがき粉がバイキンを追い払う昔風カートゥーンで、子どもに歯みがきを教えたいです。"
+  ],
+  "cel-anime-80s": [
+   "雨の東京の夜、バイク便の女の子が夜明けまでに荷物を届けなければならない物語を作ってください。",
+   "うちのバンドの新曲用に、80 年代アニメのようなネオンきらめく夜の街の映像がほしいです。",
+   "子どもの頃に見たアニメのような色合いで、友だちと自転車で走り回った夏の思い出を描きたいです。"
+  ],
+  "scifi-toon": [
+   "緑茶を 1 杯飲みたくてポータルを開けた科学者が、奇妙な世界に転がり込んでいくコメディを作ってください。",
+   "うちの送金アプリの速さを、惑星から惑星へジャンプして見せる笑える広告がほしいです。",
+   "宿題を忘れた兄弟が宇宙船で過去に戻る、ドタバタのカートゥーンを作りたいです。"
+  ],
+  "midcentury-toon": [
+   "うちの新しい浄水器の取り付け方を 3 ステップで、1950 年代の教育映画のように説明してください。",
+   "母にスマホのビデオ通話のやり方を教えたいので、昔のカートゥーン風に楽しく説明する動画がほしいです。",
+   "炊飯器の正しい使い方を、昔の啓発カートゥーンのように見せたいです。"
+  ],
+  "comic-history": [
+   "奈良、京都、鎌倉、江戸と日本の都が移り変わってきた流れを、マンガのように気軽に見せたいです。",
+   "うちの商店街でラーメン屋 3 軒がお客を取り合う物語を、マンガ風のコメディにしてください。",
+   "2 つの村のあいだの川岸が、長い年月をかけて片側から反対側へ移っていった様子をマンガで説明してください。"
+  ],
+  "manga-panels": [
+   "浅草寺の境内から鳩がいっせいに飛び立つ一瞬を、マンガのコマに分けて見せたいです。",
+   "うちのカメラ店の新しいカメラを、マンガのコマが 1 つずつ現れる形で紹介してください。",
+   "妹が運動会のかけっこでゴールした瞬間を、マンガのコマ割りで思い出に残してください。"
+  ],
+  "dataviz": [
+   "東京の夏の気温 50 年分の気象データを、グラフそのものが物語を語るように見せたいです。",
+   "家族で営む縫製業の 5 年分の売上を、きれいなグラフで見せてください。",
+   "日本のお米の生産量の年ごとの推移を、生徒にわかりやすくグラフで説明したいです。"
+  ],
+  "white-model": [
+   "丸の内のビル群が明治から現在まで少しずつ高くなっていく様子を、白模型の上で見せたいです。",
+   "うちの会社の住宅開発の区画計画を、白模型に光を当てて段階的に見せるプレゼン動画を作ってください。",
+   "京都の碁盤の目の町割りと御所の位置を、地図データから白模型の上にゆっくり浮かび上がらせたいです。"
+  ],
+  "data-physical": [
+   "日本の水力発電と太陽光発電の年ごとの発電量を、板を積み重ねたように手に取れる形で見せたいです。",
+   "うちの会社の年次報告書の売上の数字を、木の板を並べたように見せてください。",
+   "家族で営む静岡の茶畑の 10 年分の収穫量を、本物の物を積み上げたように見せたいです。"
+  ],
+  "transit-map": [
+   "山手線の駅を、印刷した路線図の上に 1 駅ずつ現れるように見せてください。",
+   "都営バスの路線が年を追ってどう広がってきたかを、鉄道路線図風に見せたいです。",
+   "うちの運送会社の配送エリアが 10 年でどう広がったかを、地下鉄路線図のように見せたいです。"
+  ],
+  "map-explainer": [
+   "信濃川が源流から日本海の河口までどう流れているかを、地球からズームインして地図で説明してください。",
+   "世界の貨物船がなぜマラッカ海峡を通るのかを、地図で説明する動画がほしいです。",
+   "うちの集落の川岸が浸食されている様子を、実際の地図と地形から説明したいです。"
+  ],
+  "pip-simulation": [
+   "感染症が人から人へどう広がるかを、小さな生き物たちが動き回る様子でシミュレーションしてください。",
+   "市場で売り手同士が値下げ競争をしたらどうなるかを、小さな生き物たちで実験して見せたいです。",
+   "自然選択の仕組みを、世代が入れ替わっていく様子として生徒が目で見られるようにしたいです。"
+  ],
+  "caption-news": [
+   "今年の梅雨に記録的な雨量となった気象データを、音なしでも見られる短いニュースにしてください。",
+   "うちの町内会の募金の結果を、実際の数字とテロップで見せる短いニュースがほしいです。",
+   "世界のミツバチが減っているという報告書を、スマホですぐわかるようにテロップで見せたいです。"
+  ],
+  "newsreel": [
+   "1930 年代に東京で路面電車が走っていた時代を、アーカイブ写真で昔のニュース映画のように見せたいです。",
+   "うちの店の創業 50 周年に、祖父の代の古い写真で昔のニュース映画風の映像を作ってください。",
+   "ラジオ放送が始まって人々が驚いた頃のことを、古い新聞の見出しを使った昔のニュース映画として振り返りたいです。"
+  ],
+  "countdown": [
+   "うちの店のオープニングでテープカット直前の最後の 1 分を、実際に撮った映像を分割画面にしてカウントダウンしたいです。",
+   "大晦日に友だちが撮った動画を、最後の 10 秒をカウントダウンする形でまとめてください。",
+   "ロケット打ち上げの実際の映像を 9 分割して、点火の瞬間に 1 つにまとまるようにしたいです。"
+  ],
+  "city-symphony": [
+   "東京の 1 日を、私が撮ったタイムラプス映像で音楽のビートに合わせて編集し、都市交響曲にしてください。",
+   "大阪の古い写真と今日撮った映像を並べて、リズムに合わせて編集したいです。",
+   "うちのホテル用に、朝から夜まで撮った横浜の街の風景を音楽に合わせたオープニング映像にしてください。"
+  ],
+  "visual-investigation": [
+   "近所の交差点で起きた交通事故を、防犯カメラ映像、写真、目撃者の証言からひとつの時間軸に並べ直したいです。",
+   "SNS で拡散している洪水写真が本当はいつどこで撮られたものかを、証拠をもとに検証したいです。",
+   "工場火災がどのように起きたかを、写真、報告書、従業員の証言から時系列で再構成してください。"
+  ],
+  "kino-montage": [
+   "家業の酒蔵を祖父がどうやって立ち上げたかを、古い写真や帳簿、職人たちの働きぶりで見せたいです。",
+   "お祭りで何千人もが力を合わせる古い写真と映像を組み合わせて、みんなの力を表現したいです。",
+   "うちの工場の創立 20 周年に、記録写真と従業員数の数字を力強くカットでつないで作ってください。"
+  ],
+  "telestrator": [
+   "地域のサッカー大会で後半に逆転した場面を、実際の試合映像に線を引いて分析したいです。",
+   "剣道の試合映像を止めて、足さばきを線で描いて見せる指導動画を作ってください。",
+   "学校のサッカー部の得点シーンを、選手のポジション取りを矢印で示して説明したいです。"
+  ],
+  "news-package": [
+   "今週の金価格、ガソリン価格、お米の値段の変化を、テレビのニュース番組のようにテロップと価格ボードで作ってください。",
+   "うちの学校の今月のニュース 4、5 本を、本物のニュース番組のようにコーナーに分けて見せたいです。",
+   "今週の新しいテクノロジーニュースをまとめて、ニューススタジオ風にしっかり見せてください。"
+  ],
+  "ascii-crt": [
+   "うちの新しいソフトウェアツールを、緑色の古いモニターに文字で描いていくような形で紹介してください。",
+   "月面で長い年月眠っていた小さなロボットが、地球からの信号に文字で返事をする物語がほしいです。",
+   "父が若い頃に使っていた古いパソコンの画面のような雰囲気で、誕生日メッセージを文字で描いてください。"
+  ],
+  "silent-film": [
+   "パン屋の少年が転がっていくパンを追いかけて、お腹を空かせた子に分けてあげる無声映画を作ってください。",
+   "うちの老舗和菓子屋のために、白黒の無声映画時代のような笑える広告がほしいです。",
+   "父と釣りに行ったのに魚は釣れず、古い長靴だけが釣れた笑い話を無声映画のように見せたいです。"
+  ],
+  "backrooms": [
+   "夜勤の新人が、果てしなく続く黄色いオフィスで壁の規則を守りながら過ごす最初の夜を撮ったホラーを作ってください。",
+   "うちの新作ミステリーゲーム用に、不気味な長い廊下で迷い続けるティザーがほしいです。",
+   "夜の廃病院の廊下をひとりでスマホで撮影していたら、廊下が終わらなくなるホラーを見せたいです。"
+  ],
+  "scratch-film": [
+   "真っ暗な池の上を、1 匹のホタルが自分の光で旅していく物語を見せたいです。",
+   "深い海の魚たちが毎晩海面近くまで上がってくる様子を、暗闇に引っかいた光の線で説明してください。",
+   "うちの夜市の明かりが 1 つずつ灯って市場全体ができあがっていく様子を、フィルムに引っかいて描いたように見せたいです。"
+  ],
+  "double-exposure": [
+   "北アルプスから上高地まで私が撮った風景を、カモシカ、ライチョウ、イワナのシルエットに重ねて見せたいです。",
+   "うちの金沢の観光事業用に、街の実際の写真を人のシルエットに重ねたオープニングを作ってください。",
+   "父が子どもの頃に暮らした村の古い写真を父の横顔のシルエットに重ねて、思い出の映像にしたいです。"
+  ],
+  "pixel-rpg": [
+   "恋人との 2 周年に、出会った日から今日までの道のりを昔のゲームのセーブデータを振り返るように見せたいです。",
+   "うちの新作スマホゲーム用に、ボス部屋の扉の前に立つ勇者のレトロなピクセルゲーム風広告を作ってください。",
+   "学生生活の 1 年を、昔のゲームのステージを 1 つずつクリアしていくように振り返りたいです。"
+  ],
+  "hd-2d": [
+   "灯台の火が消えてしまい、少女が最後の火種を抱えて夜の森を抜け、嵐の中を崖の上まで運ぶ物語を作ってください。",
+   "うちの新作ファンタジーゲーム用に、古都の寺院群のような場所を旅する勇者一行の広告がほしいです。",
+   "弟のために竜を探しに小さな村を旅立つ子どもの物語を、美しいゲームのように見せたいです。"
+  ],
+  "microgame": [
+   "うちの新しいアプリの使い方を、短いミニゲームが次々と出てきてどんどん速くなる形で見せてください。",
+   "朝起きて学校へ行く準備をする様子を、スピードが上がっていくミニゲームの連続として笑える動画にしてください。",
+   "うちの会社の新入社員が初日に知っておくべきことを、だんだん速くなるミニゲームで教えたいです。"
+  ],
+  "game-show": [
+   "うちの会社の今年の成果を、ゲームショーのようにリズムに乗って発表し、最後はスコアカードで締める動画を作ってください。",
+   "電信からスマートフォンまでの通信の歴史を、リズムゲームショーのように楽しく見せたいです。",
+   "家族のこの 1 年の出来事を、テレビのクイズ番組のように笑えるまとめにして見せたいです。"
+  ],
+  "swiss-motion": [
+   "うちの音楽フェスのポスターが、スイス・デザインのルールどおりに自動でレイアウトされていく映像を作ってください。",
+   "うちのデザインスタジオの新しいブランドを、グリッド、文字、色が 1 つずつ並んでいく形で紹介したいです。",
+   "デザインを学ぶ学生に、ポスターのレイアウトの 5 つのルールをわかりやすく教えたいです。"
+  ],
+  "spy-titles": [
+   "1960 年代のスパイ映画のように図形が駆け回って、私たちの映画のタイトルになるオープニングを作ってください。",
+   "会社の周年記念パーティーの幕開けに、スパイ映画のようにかっこいいオープニングタイトルがほしいです。",
+   "友人の結婚式用に、新郎新婦を 2 人のスパイとして紹介するレトロなオープニングを作ってください。"
+  ],
+  "art-deco": [
+   "うちのホテルのディナーパーティーの招待状を、1930 年代の豪華な金色のデザインで作ってください。",
+   "大正時代の老舗ホテルで、エレベーターボーイが真夜中までに手紙を 1 通届けなければならない物語がほしいです。",
+   "両親の結婚 30 周年のお祝いに、華やかなアール・デコ風の招待状動画を作ってください。"
+  ],
+  "pictogram-motion": [
+   "バスに忘れられた傘が落とし物の棚で待っていると、雨が降り出して仲間の傘と一緒に開く物語を作ってください。",
+   "区のごみの分別ルールを、ピクトグラムがリズムに乗って動く形で住民にわかりやすく伝えたいです。",
+   "うちのお祭り用に、車・電車・飛行機のピクトグラムがリズムよく現れるブランド動画がほしいです。"
+  ],
+  "bauhaus-shapes": [
+   "貯金で利息に利息がつく複利がどれほど強力かを、円や四角の図形で説明してください。",
+   "私たちの積立グループの仕組みを、バウハウス風の図形でメンバーに説明したいです。",
+   "講座の章タイトル用に、赤・黄・青の図形が遊ぶ章扉カードを作ってください。"
+  ],
+  "flat-space-explainer": [
+   "天の川から地球、日本、最後はウイルス 1 個までズームしていく、大きさの解説を作ってください。",
+   "子どもたちに、太陽系の惑星がどれだけ離れているかを探査機と一緒にたどって見せたいです。",
+   "うちの教育チャンネル用に、人工衛星が地球をどう回っているかをシンプルなアニメで説明してください。"
+  ],
+  "text-flash-cuts": [
+   "1 通の手紙、1 本の電話、階段の足音…じわじわ近づいてくるホラー映画のために、文字が一瞬ずつ光る予告を作ってください。",
+   "私たちの若者団体が大切にしている言葉を、大きな文字がパッパッと現れる形で力強く見せたいです。",
+   "新しい連続ドラマのオープニングを、文字と映像を素早く切り替えてワクワクする仕上がりにしてください。"
+  ],
+  "silhouette-rhythm": [
+   "群れの中でいつも遅れてしまう小鳥がリズムを覚えていく、シルエットのミュージックビデオを作ってください。",
+   "うちのセパタクローチームの選手たちが、夕暮れのシルエットでリズムよく動くチーム動画がほしいです。",
+   "夏祭りの幕開けに、提灯を持った人たちが太鼓のリズムで踊るシルエットを見せたいです。"
+  ],
+  "satellite-briefing": [
+   "琵琶湖周辺の内湖が年々小さくなってきた様子を、実際の衛星写真で比較して見せたいです。",
+   "台風で浸水した田んぼの被害前と被害後を、衛星画像でニュース速報のように説明してください。",
+   "沖縄のマングローブ林が 10 年でどう変わったかを、衛星地図で生徒に見せたいです。"
+  ],
+  "briefing-board": [
+   "うちの集落につなぐ川の橋の 3 つの設計案を、費用、耐久性、実際の測定値で比較して見せたいです。",
+   "新しい支店を出す 3 つの候補地を、家賃と人通りの実データでボード上に並べて比較してください。",
+   "太陽光パネル、発電機、蓄電池という家庭用電源の 3 つの選択肢を、実際の価格で比較したいです。"
+  ],
+  "lidar-survey": [
+   "奈良の古墳群で木々に覆われて隠れた古墳の形を、レーザースキャンのデータで浮かび上がらせたいです。",
+   "うちの建設予定地の地形の高低差を、ドローンのレーザー測量データから見せてください。",
+   "安土城跡の石垣を、レーザー測量で木々を取り除いて見たら何が見えるのかを見せたいです。"
+  ],
+  "microscope": [
+   "うちの米ぬか洗顔パウダーを顕微鏡の実際の画像で拡大して、なぜ肌に良いのかを見せたいです。",
+   "実験室で撮った玉ねぎの表皮細胞の画像を、生徒向けに核までひと続きでズームして見せてください。",
+   "うちのお米の 2 品種を顕微鏡画像で比べて、粒の構造の違いを見せたいです。"
+  ],
+  "archive-lighttable": [
+   "祖父のガラス乾板の古い写真や古い手紙をライトテーブルに並べて、家族の歴史をたどりたいです。",
+   "うちの茶問屋の 60 年の歴史を、当時の帳簿や古いラベルで見せてください。",
+   "博物館のために、古文書 1 枚をルーペで拡大して何が書かれているのかを解説したいです。"
+  ],
+  "security-xray": [
+   "空港の保安検査機を通るスーツケースの 1 つに、生きたカニがもぞもぞ動いている笑える動画を作ってください。",
+   "うちの物流倉庫で荷物を X 線でどう検査しているかを、お客さんに見せたいです。",
+   "モバイルバッテリーを X 線で見ると中に何が入っているのか、子どもが興味を持てるように見せてください。"
+  ],
+  "dark-documentary": [
+   "東大寺の大仏殿を昔の人々がどうやって建てたのかを、暗く重厚なドキュメンタリーのように見せたいです。",
+   "うちのダム建設プロジェクトでいちばん大変だった一夜を再現する、エンジニアのドキュメンタリー風に作ってください。",
+   "電波望遠鏡が宇宙に耳を澄ませてきた歴史を、宇宙ドキュメンタリーのように説明してください。"
+  ],
+  "thermal-camera": [
+   "うちのマンションの部屋がなぜ暑いのか、サーモカメラで見たように壁・窓・屋根を見せてください。",
+   "夜の森の動物たちをサーモカメラでこっそりのぞくような動画がほしいです。",
+   "うちの電気工事店が、配線の過熱をサーモカメラで見つける方法をお客さんに見せたいです。"
+  ],
+  "circuit-board": [
+   "水力発電のダムから家のスマホの充電ケーブルまで電気がどう流れてくるかを、回路基板風に見せてください。",
+   "うちの家電店の商品が工場からお客さんの手元に届くまでを、銅の配線パターンで見せたいです。",
+   "川が銅の配線になって街全体に明かりがともる様子を、生徒が興味を持てるように見せたいです。"
+  ],
+  "firefly-pointillism": [
+   "1 匹のホタルが暗闇の中で光りながら問いかけ、仲間を見つける物語を作ってください。",
+   "妹の誕生日に、たくさんの光の点が集まって妹の似顔絵になる動画がほしいです。",
+   "チームのメンバー一人ひとりの小さな光が集まって大きな光になる、チームワークの映像を見せたいです。"
+  ],
+  "flow-field": [
+   "台風が太平洋から九州に上陸したときの風の流れを、インクの線で描いてください。",
+   "梅雨前線がどうやって日本に雨を運んでくるのかを、流れる何千本ものインクの線で説明したいです。",
+   "梅雨の時期の利根川の流れと、危険水位を超えたタイミングを流れる線で見せてください。"
+  ],
+  "oscilloscope-math": [
+   "円を重ねて回すと矩形波になっていく様子を、オシロスコープの画面で説明してください。",
+   "うちの物理の塾で、音波の仕組みを緑色の波形で見せたいです。",
+   "木琴の音 1 つずつの波形をオシロスコープに映して、子どもたちに見せたいです。"
+  ],
+  "neon-tubes": [
+   "うちの居酒屋のオープンに、ネオンの猫が看板のあいだを駆け回る物語を作ってください。",
+   "新宿・歌舞伎町のネオン看板が 1 つずつ灯っていく、夜の街の映像がほしいです。",
+   "私が書いたシティポップの曲用に、雨の夜にネオン管のイラストが踊る映像を作ってください。"
+  ],
+  "blueprint": [
+   "私が発明した小さな脱穀機を、青図の上で描いて、分解して、組み立て直す形で見せたいです。",
+   "うちの会社が発売する新しいソーラー揚水ポンプを、エンジニアの設計図の上で紹介してください。",
+   "雨水をためる大きな装置を青図に描いて、その仕組みを子どもたちに説明したいです。"
+  ],
+  "iso-infographic": [
+   "静岡の茶畑から東京のカフェの湯のみに届くまでの旅を、ひとつの小さな世界の中で見せてください。",
+   "うちの会社で注文を受けてからお客さんの家に届くまでの流れを、イラストで説明したいです。",
+   "お米 1 粒が田んぼから精米所、お店、炊飯器にたどり着くまでを子どもにわかるように見せたいです。"
+  ],
+  "teardown": [
+   "うちで作っている扇風機を、実際の部品と寸法どおりに 1 つずつ分解して、また組み立てて見せてください。",
+   "私が使っているキーボードをチップまで分解して、すべての部品を実際の大きさで見せる動画がほしいです。",
+   "バイクのエンジンを分解して何が入っているのかを、整備士を目指す学生に見せたいです。"
+  ],
+  "hardcore-info": [
+   "スマホを角で持つとなぜ電波が弱くなるのか、スマホを分解してアンテナの仕組みを説明してください。",
+   "うちの新しい冷蔵庫がなぜ省エネなのかを、内部の設計を細かく見せて伝えたいです。",
+   "傘が強風でなぜひっくり返るのかを、生徒に向けて細かく分析して説明したいです。"
+  ],
+  "precise-mechanism": [
+   "電池を使わない機械式腕時計の中で歯車がどう回っているのかを、断面にして色分けで説明してください。",
+   "うちの古いミシンの中の機構がどう動いているのかを、お客さんに見せたいです。",
+   "自転車の変速ギアがどう切り替わるのかを、生徒が見てわかるように部品ごとに断面で見せてください。"
+  ],
+  "instruction-manual": [
+   "ベビーベッドを初めて組み立てる夫婦の、10 ステップの説明書イラストを作ってください。",
+   "うちの家具店の本棚を、お客さんが自分で組み立てられるように説明書風の動画がほしいです。",
+   "ガスコンロの安全な使い方を、取扱説明書のイラストのように手順ごとに見せたいです。"
+  ],
+  "pen-plotter": [
+   "富士山を実際の標高データから、小さなプロッターが夜のデスクライトの下でペンで描いていく様子を見せたいです。",
+   "うちの村の近くの丘の地図を、等高線が 1 本ずつ描かれていく形で見せてください。",
+   "うちのデザインスタジオのロゴを、プロッターが 4 色のペンでゆっくり描いていく様子を見せたいです。"
+  ],
+  "assembly-line-diagram": [
+   "ラーメンを 1 杯食べたあと、体の中で工場のように段階を追って消化されていく様子を見せてください。",
+   "うちの飲料水工場でボトル 1 本の水がどうやってできるのかを、工場の工程図で説明したいです。",
+   "血液のひとしずくが体の中を旅する様子を、工場の生産ラインのように子どもたちに説明したいです。"
+  ],
+  "crayon-book": [
+   "お月さまが眠れないので、女の子が屋根に登って子守歌を歌ってあげる、寝る前のお話を作ってください。",
+   "うちの子ども向け書店の新しい絵本を、クレヨンで描いたような宣伝動画にしたいです。",
+   "ひらがなを「あ」から順番に子どもたちが覚えられるように、クレヨンのイラストで見せたいです。"
+  ],
+  "watercolor": [
+   "朝焼けの富士山と河口湖の景色を、水彩画の中を歩いているようにひと続きで見せてください。",
+   "うちの旅行会社のために、上高地から白川郷までをめぐる水彩画の旅の動画がほしいです。",
+   "雨のひとしずくが山から川、海へと流れていく様子を、水彩画で子どもたちに説明したいです。"
+  ],
+  "impasto": [
+   "雨の灰色の広場で赤い傘が 1 本開き、音楽とともに色が広がっていく映像を作ってください。",
+   "私の新しいラブソングのために、厚塗りの油絵の色で感情があふれる映像がほしいです。",
+   "うちのギャラリーのオープンに、夕暮れの金閣寺を厚い油絵のタッチで見せる宣伝動画を作ってください。"
+  ],
+  "urban-sketch": [
+   "横浜の歴史ある洋館のあいだを風に飛ばされた帽子が転がり、そのあとを色がついていく様子を見せてください。",
+   "うちの小さなカフェと路地を、ペンでざっくり描いて水彩で色をのせたように見せたいです。",
+   "尾道の海沿いを歩きながらスケッチしていく旅の記録がほしいです。"
+  ],
+  "colored-pencil": [
+   "木々が地下で菌糸を通して栄養を分け合っていることを、色鉛筆の断面図で地面の下まで見せてください。",
+   "うちの庭の花が、根から花びらまで水を吸い上げる様子を色鉛筆で見せたいです。",
+   "蓮が水の中でどう育つのかを、絵本のような色鉛筆の断面図で説明したいです。"
+  ],
+  "risograph": [
+   "日曜の朝、東京の街を自転車で走ってパン屋、公園、不忍池に立ち寄る、版ずれした色の重なる動画を作ってください。",
+   "うちのハンドメイドのバッグ屋さんのために、少ない色で刷ったようなかわいい広告がほしいです。",
+   "私たちの新しい詩の同人誌を紹介する、色がずれたリソグラフ風の動画を作ってください。"
+  ],
+  "halftone-dossier": [
+   "うちの太った猫が朝 4 時に走り回ってコップを落とす件で裁判にかけられる、笑える事件ファイルを作ってください。",
+   "犬がスリッパをかじった事件を、古い新聞の網点イラストで探偵ファイルのように見せたいです。",
+   "うちのペットフード店のために、猫がエサをつまみ食いした事件ファイル風の笑える広告がほしいです。"
+  ],
+  "woodcut": [
+   "村じゅうでひと冬かけて大きな鐘を鋳造し、初めて鳴らしたときに雪がやむ昔話を作ってください。",
+   "うちの漆器工房で職人たちが働く様子を、木版画のようなイラストで見せたいです。",
+   "私が書いた新しいファンタジー小説のために、木版画風の本の宣伝動画を作ってください。"
+  ],
+  "engraving": [
+   "博物館のために、ミツバチを銅板に 1 本ずつ線で彫って水彩で色をつける様子を見せてください。",
+   "うちの老舗はちみつ店の歴史を、昔の銅版画のように表現した広告がほしいです。",
+   "日本の野生ランを 1 種ずつ、古い博物誌の版画のように紹介したいです。"
+  ],
+  "silkscreen-poster": [
+   "うちの旅行会社のために、京都、北海道、沖縄の各地を大きなポスターのように見せる旅行ガイドを作ってください。",
+   "海外で働いている兄が実家に帰ってくる旅を、ポスターを 1 枚ずつ見せる形で描きたいです。",
+   "うちの音楽フェスのために、シルクスクリーンのポスター風広告がほしいです。"
+  ],
+  "printed-long-take": [
+   "伊豆沼の水鳥の群れを、湖面に沿ってカットなしのひと続きで引っかき描いたように見せてください。",
+   "私たちの登山の旅を、ふもとから山頂までひと続きの版画の風景として見せたいです。",
+   "四万十川を舟でさかのぼる旅を、カットなしでひと続きの版画のように見せたいです。"
+  ],
+  "pop-art": [
+   "スーパーのバナナのほとんどが 1 つの品種から増やされたものだということを、ポップアートの絵を重ねて説明してください。",
+   "うちの新しいアイスクリームを、色鮮やかなポップアートのポスターのように宣伝してください。",
+   "缶コーヒー 1 本にどれくらい砂糖が入っているかを、ドットのポップアート風に見せたいです。"
+  ],
+  "vintage-collage": [
+   "日本の古い切手の歴史を、アーカイブの絵や古い紙を貼り合わせたコラージュで見せたいです。",
+   "祖父が集めていた古いお札のコレクションを、スキャンした本物の画像で雑誌のコラージュのように見せてください。",
+   "うちの和傘工房の歴史を、昔の広告や古い写真を組み合わせて見せたいです。"
+  ],
+  "dark-keynote": [
+   "うちの新しいスマホアプリを、暗い背景のステージで発表する基調講演のように華やかに紹介してください。",
+   "うちの会計ソフトで、散らかったファイルがワンクリックできれいに整理される様子を見せる広告がほしいです。",
+   "うちのスタートアップの周年イベントで流す新機能紹介を、壮大な発表映像のように作ってください。"
+  ],
+  "living-screencast": [
+   "うちのネットショップアプリでの注文方法を、実際のスクリーンショットの上をキャラクターが案内するように見せてください。",
+   "うちのクリニックの予約サイトの使い方を、実際の画面で手順ごとに見せるチュートリアルがほしいです。",
+   "うちのソフトの新機能を、実際の画面からキャラクターが飛び出してきて紹介する形にしてください。"
+  ],
+  "hologram-hud": [
+   "うちの新しい電動スクーターをホログラムのようにスキャンして、バッテリー、モーター、ブレーキをターゲット枠で見せてください。",
+   "展示会で流すために、うちの浄水器の内部スペックをホログラム画面で説明したいです。",
+   "息子のおもちゃの宇宙船をホログラムでスキャンして部品を見せる、映画のような動画を作ってください。"
+  ],
+  "desktop-flythrough": [
+   "私が撮った猫の写真が、自分のスマホから友だちのスマホへアプリのカードを通り抜けて飛んでいく様子を見せてください。",
+   "うちのアプリからお客さんに請求書を送る流れを、机の上のカードで見せたいです。",
+   "生徒がスマホから先生に宿題を提出する流れを、日の差し込む机の上で説明する動画がほしいです。"
+  ],
+  "spreadsheet": [
+   "うちの家計簿で何にいちばんお金を使っているのかを、表の列を開きながら説明してください。",
+   "うちのラーメン屋の 2 店舗の利益を、表のセルを 1 つずつ比べて見せたいです。",
+   "合計の数字がだまし絵のようになるシンプソンのパラドックスを、1 枚の表で生徒に説明したいです。"
+  ],
+  "one-bit-dither": [
+   "月の裏側の初めての写真がファクスで 1 行ずつ印刷されて出てきた様子を、白黒のドットで見せたいです。",
+   "祖父の時代に 1 通の電報がどうやって村に届いたのかを、白黒の印刷風に語り直したいです。",
+   "うちの小さな印刷所の古い機械が夜に動いている光景を、2 色インクのドット風にしてください。"
+  ],
+  "one-line": [
+   "母の人生を 1 本の線だけで描いて、最後に孫へペンを手渡す絵を作ってください。",
+   "うちのジュエリーショップのブランドストーリーを、途切れない 1 本の線で描くシンプルな広告がほしいです。",
+   "友人の結婚式のために、出会った日から結婚式までを 1 本の線で描きたいです。"
+  ],
+  "whiteboard": [
+   "スマホはどうやって自分の居場所がわかるのか、衛星と GPS の仕組みをホワイトボードに書きながら説明してください。",
+   "うちのオンライン簿記講座で、収入と支出の記帳方法をホワイトボードに書きながら教えたいです。",
+   "うちの店のスマホ決済の仕組みを、スタッフにホワイトボードで説明したいです。"
+  ],
+  "chalkboard": [
+   "「ありがとう」という言葉がどこから来たのかを、黒板にチョークで書きながら説明してください。",
+   "「夜に爪を切ると親の死に目に会えない」という言い伝えが本当かどうかを、黒板で説明したいです。",
+   "うちの塾の数学の公式を 1 つ、教室の黒板に先生が書いて見せるように見せてください。"
+  ],
+  "sketchnote": [
+   "ミツバチ 1 匹が一生でどれくらいはちみつを作るのかを、花から瓶までのイラストメモで 1 枚のポスターになるように見せてください。",
+   "私が参加したビジネスセミナーの要点を、イラスト付きのメモ 1 ページにまとめてください。",
+   "うちの店のサービスを、イラストや矢印で描いた 1 ページのまとめにしたいです。"
+  ],
+  "stick-explainer": [
+   "世界中の誰とでも 6 人ほどをたどればつながっているということを、棒人間で説明してください。",
+   "うちの店の、お客さんがお客さんを紹介する紹介キャンペーンを、棒人間でシンプルに見せたいです。",
+   "地方の実家の家族と都会で働く子どもたちがどうやって連絡を取り合っているのかを、棒人間で見せたいです。"
+  ],
+  "ipad-sketch": [
+   "コーヒーカップの中から赤いコーヒーチェリーが現れ、乾燥、焙煎、挽かれてまたカップに戻ってくる様子を見せてください。",
+   "白玉団子の作り方を、1 枚のページの上で色が 1 色ずつ変わっていくイラストで見せたいです。",
+   "うちの手作り石けんの作り方を、タブレットに鉛筆で描いていくように説明したいです。"
+  ],
+  "marker-paper": [
+   "海岸から水平線までどれくらい離れているのかを、紙にマーカーで計算して見せてください。",
+   "うちの塾の生徒向けに、物理の問題を 1 問マーカーで順を追って解いて見せたいです。",
+   "うちの店の割引率の計算方法を、紙にマーカーで書いて計算する形で見せてください。"
+  ],
+  "ink-wash": [
+   "剣士が川面を歩いて渡り、ひと太刀で流れを切り裂く水墨画の物語を作ってください。",
+   "うちの日本茶ブランドのために、山並みと霧のあいだを描いた静かな水墨画風の広告がほしいです。",
+   "私が書いた短い詩を、墨のにじみが広がっていくイラストで表現したいです。"
+  ],
+  "shadow-puppet": [
+   "10 個の太陽が地上を焼き尽くそうとしたので、弓の名人が矢で射落とす伝説を、革の影絵人形で見せてください。",
+   "桃太郎と鬼の昔話を、明かりの灯ったスクリーンの影絵で子どもたちに見せたいです。",
+   "うちの文化祭の開幕に向けて、伝統的な影絵風の招待動画を作ってください。"
+  ],
+  "ukiyoe": [
+   "旅人が遠くの山を目指して歩き、どの場面も木版画になって、大波とともにクライマックスを迎える映像を作ってください。",
+   "うちの和食店のオープンに向けて、浮世絵風の広告がほしいです。",
+   "熊野古道を歩いて那智の滝へ向かう巡礼の旅を、浮世絵風に詩的に見せたいです。"
+  ],
+  "papercut-red": [
+   "春節の夜、年獣が村にやって来て、女の子の大きな切り絵が光って追い払う昔話を作ってください。",
+   "うちの店からお客さんに新年のあいさつを送るための、赤い切り絵風の動画がほしいです。",
+   "横浜中華街にある家族経営の菓子店の、中秋節の月餅の広告を赤い切り絵で作ってください。"
+  ],
+  "paper-lantern": [
+   "古い列車の最後の運行を、窓の明かりが 1 つずつ消えていく紙の行灯風に見せたいです。",
+   "祖父の定年退職の日に、祖父が勤めた小さな駅の物語を行灯のように光る形で作ってください。",
+   "うちの旅館のために、余部鉄橋を渡る夜行列車が行灯のように光っている様子を見せたいです。"
+  ],
+  "stained-glass": [
+   "朝から夕方まで日の光が差し込むにつれ、窓ガラス 1 枚ずつに勇者と竜の物語が目覚めていく様子を見せてください。",
+   "うちのクリスマスカードのために、ステンドグラス風の物語を作ってください。",
+   "長崎の歴史ある教会の魅力を、ステンドグラス風の物語で見せたいです。"
+  ],
+  "gilded-illumination": [
+   "金色だけが輝く世界で太陽が消えてしまい、女の子が最後のランプを山の上まで運ぶ物語を作ってください。",
+   "お盆の灯籠流しのために、金箔の絵巻物のような詩的なお祭り動画がほしいです。",
+   "うちの金箔工房の始まりの物語を、金色に輝く古い絵本のように見せたいです。"
+  ],
+  "line-art-ink": [
+   "京都の路地を朝から夜まで、ペンで描いたように見せたいです。喫茶店、商店の人たち、夜に灯っていく明かり。",
+   "うちの小さなラーメン屋を、早朝の開店準備からお客さんが入ってくるまで、かわいい線画で作ってください。",
+   "瀬戸内の小さな漁村で、船をこぐ人、猫、鳥たちと一緒に日が暮れて夜になっていく風景を眺めたいです。"
+  ],
+  "onetake-launch": [
+   "新しいバイクシェアアプリを出すので、20 秒くらいのローンチ動画がほしいです。スクリーンショットを送ります。",
+   "誕生日プレゼントを注文できる小さなサイトのために、おしゃれなティザーを作ってください。",
+   "学生の勉強時間を記録するアプリのために、カットなしのワンカットで見せる広告がほしいです。"
+  ],
+  "onetake-demo": [
+   "うちの会計アプリで伝票を発行する方法とレポートを見る方法を、日本語ナレーションで説明する動画がほしいです。",
+   "クリニックの予約アプリを、お年寄りにもわかるように手順ごとに見せる動画を作ってください。スクリーンショットもあります。",
+   "うちの POS システムの新機能 3 つを、日本語と英語の 2 か国語の動画にしたいです。"
+  ],
+  "onetake-concept": [
+   "配送アプリのために、ボタンを 1 回押すと荷物が次々に届いていくコンセプト広告がほしいです。",
+   "カフェの広告を、コーヒー豆 1 粒からカップに注がれるまでカットなしのワンカットで見せたいです。",
+   "送金アプリでどれだけ時間が節約できるかを、1 年が 1 分に縮んでいく形で見せてください。"
+  ],
+  "hf-captions": [
+   "私がお店について話している動画に字幕を入れて、店名のカードも入れてください。",
+   "私のインタビュー動画で、話している要点 3 つをカードで表示したいです。",
+   "Instagram ライブから切り出したクリップを、音なしでもわかるように字幕を付けてください。"
+  ],
+  "hf-vertical": [
+   "おいしい緑茶の淹れ方 3 つのコツを、TikTok 用の縦型クリップにしてください。",
+   "うちの洋服店の冬のセールを、Reels 用にテンポのいい広告にしたいです。",
+   "朝のいい習慣 5 つを、Shorts 用に大きな文字で見せてください。"
+  ],
+  "hf-music": [
+   "私が歌った曲の歌詞動画を作ってください。音源を送ります。",
+   "お店の短いジングルを、ビートに合わせたカラフルな動画にしたいです。",
+   "誕生日のために歌った曲を、写真とビートを合わせた動画にしてください。"
+  ],
+  "logo-reveal": [
+   "うちのカフェのロゴを YouTube 動画の冒頭に入れる、5 秒のロゴアニメーションを作ってください。",
+   "会社のロゴを、サイトを開いたときに出るスプラッシュアニメーションにしたいです。落ち着いていて信頼感のある雰囲気で。",
+   "おもちゃ屋さんのロゴを、楽しく弾むように登場させたいです。"
+  ],
+  "lottie-anim": [
+   "アプリで支払いが完了したときに表示する、チェックマークのアニメーションがほしいです。",
+   "サイト用のローディングスピナーを、うちのブランドカラーの紫で作ってください。",
+   "YouTube 動画で使う、名前と肩書きを表示するテロップアニメーションを作ってください。"
+  ],
+  "ad-marker-comic": [
+   "娘が大好きな猫がヒーローになって、近所の子どもたちを助けるアニメを作ってください。",
+   "うちの喫茶店で毎朝起きる笑える出来事を、マンガのようなカラーのカートゥーンで見せたいです。",
+   "夏祭りの水鉄砲合戦で兄弟がけんかして、また仲直りするコメディアニメがほしいです。"
+  ],
+  "ad-scrapbook": [
+   "祖父母が結婚したときから今までの家族の歴史を、古いアルバムのように振り返る動画を作ってください。",
+   "法隆寺がどのように建てられたのかという歴史を、古い紙やメモを貼ったスクラップブックのように見せたいです。",
+   "家族で営む機織り業が 50 年以上続いてきた歩みを、古い帳簿や写真で振り返りたいです。"
+  ],
+  "ad-ballpoint": [
+   "母が毎朝お弁当を作ってくれる姿を、ボールペンで描いたように静かに見せたいです。",
+   "私の手作りの革財布を、ノートにボールペンでラフスケッチしたように紹介してください。",
+   "学生時代に友だちと並んで座った机についての思い出の短い物語を、ボールペンのラフスケッチ風に作ってください。"
+  ],
+  "ad-broken-colour": [
+   "夕暮れの芦ノ湖を小舟が 1 艘横切っていく光景を、油絵のように美しく見せたいです。",
+   "海辺にある私たちの民宿を、朝の光の中の絵画のように宣伝してください。",
+   "夜明けの佐賀バルーンフェスタで、気球が次々に上がっていく旅の思い出を作ってください。"
+  ],
+  "ad-embroidery": [
+   "母の誕生日に、花をひと針ずつ刺繍して、お祝いの言葉が浮かび上がる動画を作ってください。",
+   "私の手刺繍のポーチを売るお店のために、糸で刺繍しているような広告を見せたいです。",
+   "高原の花や小鳥たちを糸で刺繍したように、季節が移り変わる様子を見せてください。"
+  ],
+  "ad-stipple": [
+   "ホタルの一生を、古い理科の本の挿絵のような点描で子どもたちに説明したいです。",
+   "沖縄の島々のいろいろな貝殻を、点描のインク画で 1 つずつ紹介してください。",
+   "うちの薬草店で扱うドクダミについて、昔の植物図鑑のように見せたいです。"
+  ],
+  "ad-charcoal": [
+   "亡くなった父を思い出して、一緒に釣りをした日々を木炭画のように振り返りたいです。",
+   "地方から都会へ仕事を探しに出てきた青年の、最初の夜の短い物語を作ってください。",
+   "私の絵画教室のために、顔を木炭で描いて、消して、また描く様子を見せたいです。"
+  ],
+  "ad-flat-vector": [
+   "うちの野菜のネット注文アプリの使い方を、シンプルにわかりやすく説明してください。",
+   "東京から箱根、富士五湖までの旅程を、モダンなイラストで見せたいです。",
+   "浴衣の着方を、海外の友だちにもわかるようにイラストで説明してください。"
+  ],
+  "ad-cut-paper": [
+   "息子のために、ウサギとカメのかけっこのお話を、紙を切って貼ったように作ってください。",
+   "春・夏・秋・冬の移り変わりを、ちぎった紙で子どもたちに見せたいです。",
+   "私の小さなケーキ屋さんのケーキを、カラフルな切り絵でかわいく宣伝してください。"
+  ],
+  "ad-toy-theatre": [
+   "娘の誕生日パーティーで流すために、お姫さまと小さな竜のお話を紙の劇場のように作ってください。",
+   "うちの人形劇団のお祭り公演を宣伝するために、小さな舞台にキャラクターがスライドして出てくる様子を見せたいです。",
+   "桃太郎と鬼のお話を、子ども向けに紙の舞台の上で演じているように作ってください。"
+  ],
+  "ad-storybook": [
+   "息子を主人公にして、毎晩寝る前に見られる連続のお話を作ってください。",
+   "うちの子ども図書館の猫のキャラクターが、子どもたちに本を読みにおいでと誘う動画を見せたいです。",
+   "子ゾウが北海道から沖縄まで旅をする子ども向けの連続物語を作ってください。"
+  ],
+  "ad-folk-tale": [
+   "母が小さい頃に話してくれた「因幡の白うさぎ」を、寝る前のお話にしてください。",
+   "山あいの村で農家の家族が稲刈りをする、昔話のような物語を見せたいです。",
+   "うちの村の黒糖づくりを、昔話の絵本の挿絵のように温かく紹介してください。"
+  ],
+  "ad-dream-glaze": [
+   "子どもの頃に夢で見た、空に浮かぶ小さな家を不思議で美しい絵画のように見せたいです。",
+   "人はどこから来てどこへ行くのかという問いを、雲の上まで続く階段で描くアートな短編映画を作ってください。",
+   "私の個展の宣伝のために、湖面に鳥居が浮かんでいる夢のような風景を作ってください。"
+  ],
+  "arch-diagram": [
+   "うちのアプリで注文すると、キッチンに届いて調理され、配達員に渡るまでの流れを図で説明してください。",
+   "家族経営の薬局の仕入れから倉庫、売り場、会計までの流れを、新人スタッフにわかるように見せたいです。",
+   "スマホで送金すると銀行のシステムの中をどう通っていくのかを、生徒向けに図で説明する動画を作ってください。"
+  ],
+  "doc-mix": [
+   "シロナガスクジラがどれほど大きく、どのように進化してきたのかを、3 分ほどのドキュメンタリー風に作ってください。",
+   "五重塔がどう建てられ、地震にどう耐えてきたのかを、地図や図解で説明する動画がほしいです。",
+   "宇宙でいちばん大きな星たちを太陽と比べて、驚きの事実を Shorts 用の 1 分動画にしてください。"
+  ]
+ }
+}

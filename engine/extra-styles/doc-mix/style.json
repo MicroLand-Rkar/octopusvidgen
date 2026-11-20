@@ -1,0 +1,19 @@
+{
+  "slug": "doc-mix",
+  "num": "123",
+  "en": "Mixed-Media Science Documentary",
+  "cn": "混合素材科普纪录片",
+  "category_en": "Edit & Documentary",
+  "film": "The Whale's Long Road",
+  "line": "A narrator you never see: real footage, 3D and AI stand-ins, scale infographics, maps and subtitles take turns to tell one astonishing true story.",
+  "uses": [
+    "Science & nature",
+    "History",
+    "Faceless channels"
+  ],
+  "dur": 90,
+  "needs": [
+    "image-generation"
+  ],
+  "skill": "hyperframes"
+}

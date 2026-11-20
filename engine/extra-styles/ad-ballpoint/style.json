@@ -1,0 +1,18 @@
+{
+  "slug": "ad-ballpoint",
+  "num": "111",
+  "en": "Ballpoint Sketch",
+  "cn": "圆珠笔速写",
+  "category_en": "anidoodle",
+  "film": "Ballpoint Sketch",
+  "line": "One blue ballpoint on cream paper: tone only from where the hatching sits, like a notebook drawing come alive.",
+  "uses": [
+    "Sketches",
+    "Objects",
+    "Quiet stories"
+  ],
+  "dur": 30,
+  "needs": [],
+  "skill": "anidoodle",
+  "engine_style": "pocketWatch"
+}

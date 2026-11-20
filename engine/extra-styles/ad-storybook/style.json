@@ -1,0 +1,18 @@
+{
+  "slug": "ad-storybook",
+  "num": "119",
+  "en": "Storybook Character",
+  "cn": "绘本角色",
+  "category_en": "anidoodle",
+  "film": "Storybook Character",
+  "line": "Gentle storybook pencil and watercolour, drawn for one recurring character who stays the same in every scene.",
+  "uses": [
+    "Characters",
+    "Series",
+    "Kids"
+  ],
+  "dur": 30,
+  "needs": [],
+  "skill": "anidoodle",
+  "engine_style": "storybook"
+}

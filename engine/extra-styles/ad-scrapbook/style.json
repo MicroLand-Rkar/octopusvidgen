@@ -1,0 +1,18 @@
+{
+  "slug": "ad-scrapbook",
+  "num": "110",
+  "en": "Archival Scrapbook",
+  "cn": "档案剪贴簿",
+  "category_en": "anidoodle",
+  "film": "Archival Scrapbook",
+  "line": "A foxed album page: torn cards, tape, hand-tinted engravings, typewriter labels and ransom-note letters telling the story.",
+  "uses": [
+    "History",
+    "Science notes",
+    "Family stories"
+  ],
+  "dur": 30,
+  "needs": [],
+  "skill": "anidoodle",
+  "engine_style": "scrapbook"
+}
