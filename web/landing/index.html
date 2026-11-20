@@ -197,6 +197,25 @@ html[dir="rtl"] [data-i18n] { unicode-bidi: plaintext; }
 @media (max-width: 1023px) { #start .frame.frame--fill { height: auto; flex: none; } }
 @media (max-width: 639px) { .qs pre { font-size: 12px; padding: 12px 14px; } #start .t-lead, #start .needs__icons { display: none; } #start .frame { padding: var(--s-3); } }
 </style>
+<style id="compact">
+/* Compact page: each section as tall as what it holds, not a full screen (owner's request). */
+main > :is(section, .section):not(.hero) { height: auto !important; min-height: 0 !important; padding-block: clamp(56px, 7vw, 104px); }
+main > :is(section, .section):not(.hero) > :is(.wrap, .container) { height: auto !important; min-height: 0 !important; }
+main > :is(section, .section) .fill, .group > .fill { flex: none !important; min-height: 0 !important; }
+main .frame--fill, main .grid.fill > .frame--fill { height: auto !important; flex: none !important; }
+main .grid.fill { height: auto !important; }
+footer.closing { height: auto !important; min-height: 0 !important; }
+#features .card .panel, #features .card .stage { height: 300px !important; min-height: 0 !important; flex: none !important; }
+#features > .wrap { row-gap: 56px !important; }
+#features .grid { align-items: start !important; }
+#features .card { height: auto !important; min-height: 0 !important; }
+footer.closing .closing__cta { min-height: 0 !important; height: auto !important; padding-block: clamp(56px, 7vw, 96px) !important; }
+#start .frame { height: auto !important; align-self: start; }
+#start .frame pre { min-height: 0 !important; height: auto !important; }
+#start .qs, #start .qs.ui { height: auto !important; min-height: 0 !important; }
+#faq .frame { height: auto !important; aspect-ratio: 4 / 3; flex: none !important; }
+#studio .app { height: 520px !important; }
+</style>
 </head>
 <body>
 <!-- type: software (open-source AI film studio; site-kind software)
@@ -515,9 +534,9 @@ html[dir="rtl"] [data-i18n] { unicode-bidi: plaintext; }
         <div class="frame frame--split frame--fill span-6 start-7">
           <div class="qs ui" role="img" aria-label="Quick start commands" data-i18n-attr="aria-label:start.codeLabel">
             <div class="qs__bar" aria-hidden="true"><i></i><i></i><i></i><span data-i18n="start.terminal">Terminal</span></div>
-<pre dir="ltr"><code><span class="p">$ </span>git clone <span data-repo-link>https://github.com/MicroLand-Rkar/octopusvidgen</span>
-<span class="p">$ </span>cd octopusvidgen/web/app &amp;&amp; npm install &amp;&amp; npm run build
-<span class="p">$ </span>cd ../../server &amp;&amp; cargo run --release
+<pre dir="ltr"><code><span class="p">$ </span>git clone --recurse-submodules <span data-repo-link>https://github.com/MicroLand-Rkar/octopusvidgen</span>
+<span class="p">$ </span>cd octopusvidgen &amp;&amp; sh setup.sh
+<span class="p">$ </span>sh run.sh
 <span class="p">$ </span>open http://127.0.0.1:8787
 <span class="p">$ </span><span class="caret"></span></code></pre>
           </div>
