@@ -13,8 +13,6 @@ and get back an MP4 that Claude wrote, drew in code, voiced and scored.
 ![React](https://img.shields.io/badge/app-React%20%2B%20Vite-61dafb)
 ![Claude Code](https://img.shields.io/badge/made%20with-Claude%20Code-d97757)
 
-English · [မြန်မာ](#မြန်မာ)
-
 <img src="docs/img/landing.jpg" alt="The OctopusVidGen landing page" width="900">
 
 </div>
@@ -244,27 +242,3 @@ Built with [Claude Code](https://claude.com/claude-code), [axum](https://github.
 - **The skills in `engine/`** keep their own licences (each folder has its `LICENSE`, and the table above lists them).
 - ⚠️ **Non-commercial parts:** the Lemo-Opuscar style guides (CC BY-NC 4.0) and onetake (PolyForm Noncommercial) can't be used commercially without a licence from their authors. Styles under these terms carry an **NC** badge in the app. A free, personal or educational use is fine.
 - **The films you make are yours.** Clips from other people's videos stay under their owners' rights.
-
----
-
-## မြန်မာ
-
-**OctopusVidGen** ဆိုတာ ကိုယ့်ကွန်ပျူတာပေါ်မှာ run တဲ့ **အခမဲ့ open-source AI ရုပ်ရှင် စတူဒီယို** ပါ။
-
-- Style ၁၂၃ မျိုးထဲက ရွေးပါ။ Style အများကြီးကို ပေါင်းသုံးလို့လည်း ရပါတယ်။
-- Claude နဲ့ မြန်မာလို (ဒါမှမဟုတ် ဘာသာ ၁၅ မျိုးထဲက တစ်မျိုးနဲ့) chat ပြီး စီစဉ်ပါ။ မရှင်းတာရှိရင် Claude က မလုပ်ခင် ပြန်မေးပါတယ်။
-- Project တစ်ခုစီက Google Flow လို board တစ်ခုပါ။ ပုံ၊ ဗီဒီယို၊ အသံ reference တွေကို စုထည့်ပြီး episode တွေ ဆက်လုပ်လို့ရပါတယ်။
-- Account မလိုပါ။ ကိုယ့် Claude Code (subscription ဒါမှမဟုတ် API key) နဲ့ပဲ အလုပ်လုပ်ပါတယ်။
-
-ထည့်သွင်းနည်း:
-
-```bash
-git clone --recurse-submodules --shallow-submodules https://github.com/MicroLand-Rkar/octopusvidgen.git
-cd octopusvidgen
-sh setup.sh
-sh run.sh
-```
-
-ပြီးရင် <http://127.0.0.1:8787> ကို ဖွင့်ပါ။ ဗီဒီယို အစစ် ထုတ်ချင်ရင် `server/.env` ထဲမှာ `OVG_DRY_RUN=0` လို့ ပြောင်းပါ။
-
-Skill တွေကို မူရင်း repo တွေနဲ့ git submodule အနေနဲ့ ချိတ်ထားပါတယ်။ `sh update.sh` ကို run ရင် skill တိုင်း မူရင်း repo ရဲ့ နောက်ဆုံး version ကို ရပါမယ်။
