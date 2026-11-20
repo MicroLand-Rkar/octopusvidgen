@@ -30,8 +30,13 @@ echo "== Lemo-Opuscar packages (core, voice, music)"
 LEMO_OPUSCAR_HOME="$ROOT/engine/lemo-opuscar" sh engine/lemo-opuscar/plugin/skills/lemo-opuscar/scripts/setup.sh deps voice music
 
 echo "== onetake packages"
+# onetake's packages (av, opencv) need Python 3.11-3.13: use the newest of those that is installed
+PY=""
+for v in 3.13 3.12 3.11; do command -v "python$v" >/dev/null 2>&1 && { PY="python$v"; break; }; done
+[ -n "$PY" ] || { echo "Missing: Python 3.11, 3.12 or 3.13 for onetake (python3 is $(python3 --version 2>&1)). macOS: brew install python@3.13"; exit 1; }
 if [ ! -x engine/onetake/.venv/bin/python ]; then
-  python3 -m venv engine/onetake/.venv
+  echo "Using $PY for onetake"
+  "$PY" -m venv engine/onetake/.venv
 fi
 engine/onetake/.venv/bin/pip install -q playwright numpy scipy Pillow matplotlib opencv-python faster-whisper
 engine/onetake/.venv/bin/python -m playwright install chromium
